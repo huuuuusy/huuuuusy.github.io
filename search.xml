@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <url>%2F2017%2F09%2F21%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Hi everyone！Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <url>%2F2017%2F09%2F24%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Hi everyone！Welcome to My page! This is my very first post. Check ABOUT.ME for more info. As a begineer in Computer Science, I’d like to record my learning process in some interesting areas like Deep Learning, Multimedia and Web Design, and that is why I spend 5 days to build this primary personal website. However, I have to say that some bugs like the unsuitable display on mobile terminal will bother the browsing experience, and I will try to solve it in the future. What’s more, several useful functions like online comment and page sharing are available now, hope these can help you experience my page better. For this website, I’d like to say thanks to GoDaddy, which provides me a special domain (although it is expensive); and DNSPod, which provides DNS service for free. Github is really an useful tool and helps me to deploy my website. Hexo ,a simple blog framework, includes lots of creative ideas and themes. And thanks to Viosey for your amazing blog project in github. Thanks a lot for reading my first post, and I will compose my blog from now on. P.S. Please forgive my terrible English writing skill:)]]></content>
   </entry>
 </search>
