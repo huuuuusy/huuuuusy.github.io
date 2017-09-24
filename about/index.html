@@ -22,6 +22,8 @@
 
 
 
+    <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
+
 
 
 
@@ -179,12 +181,7 @@
 
     <style>
       body{
-        background-color: #F5F5F5;
-      }
-
-      /* blog_info bottom background */
-      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
-        background-color: #fff;
+        background-image: url(/img/bg.png);
       }
     </style>
 
@@ -329,7 +326,7 @@
 
     <!-- Author Avatar -->
     <div id="author-avatar">
-        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
     </div>
     <!-- Author Name & Date -->
     <div>
@@ -349,6 +346,18 @@
 
     <!-- Qrcode -->
     
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">Read this article on other devices</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAAB50lEQVR42u3aO3LDMAwFQN//0kmbIqYegCi2yVXl0cgiVwUHv8fXFtcDAwMDAwMDA+NtGI/4Wv/rl2V+3F+/s7kHDAyMwxgXR9uSkWz62TOjPWBgYBzJSJbvfYJnH2KyBwwMDIyLVwShXs7GwMDAuO/AXYeJPR4GBgbGPIlNQrrqsfuCXBwDA+MDGXlR/r7f/9rfwMDA+CjGLWMQxaT3TWdGMDAw3oaRlOzXd6rbnTQyMTAwMPJhr+oBmmMKdzAwMI5hVEv8+dDqGl9NpAsRLgYGxnaM6hbnz1TBGBgYGJMkdt08qA6W5XvAwMA4jZEs02tM5gFo9VDGwMA4jTEfeqgGhXkgWJ4ZwcDAOIBxEYrFT+ZbTD7EKInFwMDYlNEL45IiWnVdDAwMjOTPvXZjL/Utj2tgYGAcw0iSxr8qxuXH+qi/gYGBsR1jUvzKF+5tFAMDAyNJO5MAsZq+JiHmqIWJgYGxHaN65YNczXJ/r4WJgYGxNaM3YFEtluWl/7yFgIGBcRqjuuSkAZmkrNF7MDAwjmT0wrhqszNPYm/vb2BgYGzKyMdbe8d3oWGAgYGBEYd3yaHZK9ut72NgYJzJSI7IBJwPW/RGVzEwMM5k5AfovFhWfTMGBgbG514YGBgYGBgYGC+9vgGOhivwR2kBJgAAAABJRU5ErkJggg==">
+    
+</ul>
+
+    
 
     <!-- Tags (bookmark) -->
     
@@ -361,6 +370,17 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
     
 
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;Views
+                    </span>
+                </li>
+            </a>
+        
     
 
     <!-- Share Weibo -->
@@ -401,11 +421,29 @@
 
     <!-- Share LinkedIn -->
     
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/about/index.html&title=ABOUT.ME" target="_blank">
+            <li class="mdl-menu__item">
+                Share to LinkedIn
+            </li>
+        </a>
+    
 
     <!-- Share QQ -->
     
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Welcome!&title=ABOUT.ME&summary=&pics=http://hushiyu1995.com/img/favicon.png&url=http://hushiyu1995.com/about/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to QQ
+            </li>
+        </a>
+    
 
     <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/about/index.html&text=ABOUT.ME" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Telegram
+            </li>
+        </a>
     
 </ul>
 
@@ -438,6 +476,15 @@
         
     
 
+    {% if theme.word_count %}
+        <span class="post-letters-count">
+            &nbsp; | &nbsp;
+             <span>{{ wordcount(post.content) }} 字</span>
+            &nbsp; | &nbsp;
+            <span>{{ min2read(post.content) }} min</span>
+         </span>
+    {% endif %}
+
     
 </div>
 
@@ -447,6 +494,35 @@
                 <!-- Post Comments -->
                 
                     
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://hushiyu1995.com/about/index.html';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hushiyu1995.com/about/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//hushiyu1995.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
                 
             </div>
 
@@ -475,7 +551,7 @@
 <aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
     <div id="sidebar-main">
         <!-- Sidebar Header -->
-        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.jpg);">
     <!-- Top bar -->
     <div class="top-bar"></div>
 
@@ -490,12 +566,12 @@
 
     <!-- Sidebar Avatar -->
     <div class="sidebar-image">
-        <img src="/img/avatar.png" alt="Huuuuuusy's avatar">
+        <img src="/img/avatar.jpg" alt="Huuuuuusy's avatar">
     </div>
 
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        youremail@email.com
+        hushiyu199510@gmail.com
         <b class="caret"></b>
     </a>
 </div>
@@ -508,7 +584,7 @@
         <ul id="settings-dropdown" class="dropdown-menu">
             
                 <li>
-                    <a href="#" target="_blank" title="Email Me">
+                    <a href="Mailto:hushiyu199510@gmail.com" target="_blank" title="Email Me">
                         
                             <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
                         
@@ -529,6 +605,8 @@
                 Home
             </a>
         </li>
+        
+            <li class="divider"></li>
         
     
 
@@ -552,11 +630,48 @@
 
     <!-- Categories  -->
     
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                Categories
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                
+            </ul>
+        </li>
+        
+    
 
     <!-- Pages  -->
     
+        <li>
+            <a href="/about" title="About">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                About
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
 
     <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                Number of articles
+                <span class="sidebar-badge">1</span>
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
     
 </ul>
 
@@ -574,17 +689,8 @@ It will not impact the appearance and can give developers a lot of support :)
 
 <!-- Sidebar Divider -->
 
-    <div class="sidebar-divider"></div>
-
 
 <!-- Theme Material -->
-
-    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
-        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
-            Theme - Material
-            <span class="sidebar-badge badge-circle">i</span>
-        </div>
-    </a>
 
 
 <!-- Help & Support -->
@@ -620,29 +726,11 @@ It will not impact the appearance and can give developers a lot of support :)
         <div class="mdl-mini-footer--left-section sns-list">
     <!-- Twitter -->
     
-        <a href="https://twitter.com/twitter" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
-                <span class="visuallyhidden">Twitter</span>
-            </button><!--
-     --></a>
-    
 
     <!-- Facebook -->
     
-        <a href="https://www.facebook.com/facebook" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
-                <span class="visuallyhidden">Facebook</span>
-            </button><!--
-     --></a>
-    
 
     <!-- Google + -->
-    
-        <a href="https://www.google.com/" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
-                <span class="visuallyhidden">Google Plus</span>
-            </button><!--
-     --></a>
     
 
     <!-- Weibo -->
@@ -655,6 +743,12 @@ It will not impact the appearance and can give developers a lot of support :)
     
 
     <!-- Github -->
+    
+        <a href="https://github.com/huuuuusy" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
     
 
     <!-- LinkedIn -->
@@ -674,9 +768,19 @@ It will not impact the appearance and can give developers a lot of support :)
 </div>
 
 
+        <div class="theme-info">
+            <div class="powered-by"></div>
+            <span class="post-count">Total words:80</span>
+        </div>
+
         <!--Copyright-->
         <div id="copyright">
-            Copyright&nbsp;©<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>Welcome!
+            Copyright&nbsp;©&nbsp;2017&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>Welcome!
+            
+                <br>
+                
+                    <a href="Mailto:hushiyu199510@gmail.com">Email:hushiyu199510@gmail.com</a>
+                
             
         </div>
 
@@ -689,13 +793,14 @@ It will not impact the appearance and can give developers a lot of support :)
         很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
         它不会影响美观并可以给开发者很大的支持。 :)
         -->
-
+        <!--
         <div class="mdl-mini-footer--right-section">
             <div>
                 <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
                 <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
             </div>
         </div>
+        -->
     
 </footer>
 
@@ -736,11 +841,21 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+    
+        <script>lsloader.load("sm_js","/js/smoothscroll.js?lOy/ACj5suSNi7ZVFVbpFQ==", true)</script>
+    
 
 
 
 
 
+    <!-- Busuanzi -->
+    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//hushiyu1995.disqus.com/count.js" async></script>
 
 
 
