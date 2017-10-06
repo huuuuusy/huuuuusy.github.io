@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Notes about Machine Learning in Coursera--week 2]]></title>
+    <url>%2F2017%2F10%2F06%2Fcoursera-ML-week2%2F</url>
+    <content type="text"><![CDATA[Hi everyone！ This blog is about the second week course of Machine Learning in Coursera. I’ll paste my notes about this class and this week’s assignment, for reference only. What’s more, I’ve upload my whole assignment to github, and this is only a possible solution, hope you find a better way! Finally，thanks a lot for forgiving my poor English skills and calligraphy:)]]></content>
+      <categories>
+        <category>Coursera</category>
+        <category>Machine Learning</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Notes about Machine Learning in Coursera--week 1]]></title>
     <url>%2F2017%2F10%2F03%2Fcoursera-ML-week1%2F</url>
     <content type="text"><![CDATA[Hi everyone！ As I’ve said in the homepage, I am interested in deep learning and want to share my learning notes in this website. As a novice in this area, I choose several ways to expand the scope of knowledge, and the very first is learning Machine Learning course by Andrew Ng in Coursera. In fact, I do recommond you to try this course since it will provide you a clear logic about machine learning with enough mathematical derivations. However, you should finish assignments by using Matlab rather than Python, and it may not very convenient. If you want to learn deep learning in coursera by using Python, you can choose another series of courses provided by deeplearning.ai, and the lecturer is Andrew Ng as well. As choosing this course at the same time, I will also share my notes and codes in the next blogs. In my perspective, the course has provided enough references for students to consult, so I just paste my notes made by iPad Pro with Apple pencil, and this is my personal comprehension about this course, for reference only. Any questions, please leave a message by using DISQUS in the bottom of this page. Finally，thanks a lot for forgiving my poor English skills and calligraphy:) P.S. This blog is the notes for the first week in Machine Learning course, and I will provide the codes(if have) and notes for the same week together in a blog.]]></content>
