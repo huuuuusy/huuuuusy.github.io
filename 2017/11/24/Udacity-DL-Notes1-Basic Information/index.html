@@ -39,7 +39,7 @@
     
     <title>
         
-            Categories: Algorithm | 
+            Udacity Deep Learning Notes 1-Basic Information | 
         
         HU SHIYU
     </title>
@@ -228,15 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Categories: Algorithm | HU SHIYU">
+    <meta property="og:title" content="Udacity Deep Learning Notes 1-Basic Information | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
+        <meta property="article:published_time" content="Fri Nov 24 2017 21:28:37 GMT+0800" />
+        <meta property="article:modified_time" content="Fri Nov 24 2017 11:05:50 GMT+0800" />
+    
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Categories: Algorithm | HU SHIYU">
+    <meta name="twitter:title" content="Udacity Deep Learning Notes 1-Basic Information | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -244,13 +247,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://hushiyu1995.com/categories/LeetCode/Algorithm/index.html" />
+        <link rel="canonical" href="http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/index.html",
+    "headline": "Udacity Deep Learning Notes 1-Basic Information",
+    "datePublished": "Fri Nov 24 2017 21:28:37 GMT+0800",
+    "dateModified": "Fri Nov 24 2017 11:05:50 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Huuuuusy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpg"
+        },
+        "description": ""
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "HU SHIYU",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.jpg"
+        }
+    },
+    "keywords": "",
+    "description": "",
+}
+</script>
 
 
     
@@ -284,98 +317,370 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Hardware-Enviornemt"><span class="post-toc-number">1.</span> <span class="post-toc-text">Hardware Enviornemt</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Anaconda-amp-Conda"><span class="post-toc-number">2.</span> <span class="post-toc-text">Anaconda & Conda</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Jupyter-Notebook"><span class="post-toc-number">3.</span> <span class="post-toc-text">Jupyter Notebook</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Shortcuts-in-Command-Mode-press-Esc-to-enable"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">Shortcuts in Command Mode (press Esc to enable)</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Shortcuts-in-Edit-Mode-press-Enter-to-enable"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Shortcuts in Edit Mode (press Enter to enable)</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Transform-Jupyter-Notebook-to-Other-Format"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">Transform Jupyter Notebook to Other Format</span></a></li></ol></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/11/19/Leetcode-Array/">LeetCode Problems &amp; Notes--Part I Array</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            This blog is the note for the problems and possible solutions of LeetCode....
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/11/19/Leetcode-Array/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Nov 19, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/LeetCode/">LeetCode</a>, <a class="post_category-link" href="/categories/LeetCode/Algorithm/">Algorithm</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                Udacity Deep Learning Notes 1-Basic Information
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Huuuuusy</strong>
+        <span>Nov 24, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">Read this article on other devices</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAACyklEQVR42u3aUW7jMAwEUN//0t0DFHFnRLebSE9fQRHbeipQlhxfX0euCxsbGxsbGxsbG/st2Ve8vl/16idXuV7d4fvdRnvGxsbG3pr9w5/+F99pt57fOT/i4ipsbGzsA9iT0nJ/1X3JTPYz2TM2NjY2dl6WJkWrbUWwsbGxsefsvD1IDisZDGFjY2Njz4dKLa89svtD+W+zNGxsbOy3Zz8Vx/7l5z/Nt7GxsbHfmN2u5FDyI8vv9jVe2NjY2Luy263kJSTfen5wa0MobGxsbOyntrvWeKwVV2xsbOwz2WtBbFJmiiH+QzFwnYpgY2Njfzi7LV1tQVosOUtH+UDQi42Njf1R7HZbedlIgoFJk9OOsbCxsbF3ZbcjpEkcOx/3TwZP2NjY2Cez117NGbUNS4OkUQeGjY2N/bHsPKa9Lx5RMxC3K/neioPAxsbGPoC9xpjEt/kgqS2cP7Qi2NjY2Juy2xdxkgCg3XQbJxexMTY2NvYB7HzE0wYAc8Yk+sXGxsbem50PgO63u/Y5L4RtuIuNjY19JnsSDLTtwdr3J6EyNjY29jns9jWddsC0OBIaBM/Y2NjYe7MnA/c2yp2MseZxLzY2Nvau7Hy8voZpSWu/kgfqNjY2NvbHstsCEz2gfDVn8sJQPmDCxsbG3pU9/xd/chyjIVHb/GBjY2Mfxs4LTBsw5EdWNxvzAoaNjY29EXv+Ck4yKsrjhza0wMbGxj6TfV948lK3BrsGK2pmsLGxsTdltytvMNqmoh0q3R8uNjY29jnstki04/62pUkOIok0sLGxsU9jJ0Vr7fG/F/3WbRI2Njb2Aex2WLMWCTw7TirKLTY2NjZ2O8S5LS1rg6S152JjY2NjJ6FvEgBPYHlpxMbGxj6ZnbcQedybDJLWWqAkYMDGxsY+h91uZRIMPBUet6MlbGxs7F3Z5yxsbGxsbGxsbGzst1n/AAA87G9HBR42AAAAAElFTkSuQmCC">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;Views
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity Deep Learning Notes 1-Basic Information&url=http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Weibo
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity Deep Learning Notes 1-Basic Information&url=http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/index.html&via=Huuuuusy" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/index.html&title=Udacity Deep Learning Notes 1-Basic Information" target="_blank">
+            <li class="mdl-menu__item">
+                Share to LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity Deep Learning Notes 1-Basic Information&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/index.html&text=Udacity Deep Learning Notes 1-Basic Information" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>I’ve learned some courses about deep learning in Coursera, however, the courses in Coursera is more about basic knowledge. Udacity, another online courses platform, pays more attention in project. In this series, I will organize my notes abour this course. For projects, I will also upload my codes on GitHub. </p>
+<p>This post is about some basic knowledge and useful methods in deep learning. Besides, some misunderending concepts will also be cleared in this post. Since the course is not free, I cannot upload all materials but only my own notes. If you want to get more information about Udacity and it’s nano degree, you can google <a href="https://cn.udacity.com/" target="_blank" rel="external">Udacity</a>. Since I use Ubuntu16.04, all codes about OS is for Linux only, but you can google the corresponding codes for Win/Mac as well.</p>
+<p>Ok, let’s start!</p>
+<h1 id="Hardware-Enviornemt"><a href="#Hardware-Enviornemt" class="headerlink" title="Hardware Enviornemt"></a>Hardware Enviornemt</h1><p>I’ve writen a blog about <a href="http://blog.csdn.net/huuuuusy/article/details/78008195" target="_blank" rel="external">how to build the hardware environment about deep learning in Ubuntu</a>.However, it is in Chinese and I will translate it to English later.</p>
+<p>In fact, for basic train in deep learning, the hardware environment is not as complex as I write. You can choose to install the softwares that you need. I will introduce two useful softwares in next part.</p>
+<h1 id="Anaconda-amp-Conda"><a href="#Anaconda-amp-Conda" class="headerlink" title="Anaconda &amp; Conda"></a>Anaconda &amp; Conda</h1><p>I do recommend you to install it, a very useful in calculation. You can use conda to install the packages in Anaconda, and organize them conveniently. Tutorials are easy to search in website, and you can choose one and follow it step by step to install.</p>
+<p>In addition, conda is also useful in environment organization. So if you want to test a code in another environment, you can build a new environment in PC by conda, and add the packages that you need conveniently. By the way, you can install and switch Python2, Python3, Anaconda2 and Anaconda3 as well.</p>
+<h1 id="Jupyter-Notebook"><a href="#Jupyter-Notebook" class="headerlink" title="Jupyter Notebook"></a>Jupyter Notebook</h1><p>In fact, if you have installed Anaconda in your PC, the <a href="http://jupyter.org/" target="_blank" rel="external">Jupyter Notebook</a> will be installed as well. </p>
+<p>Jupyter is designed by IPython, a basic Python Shell with some useful functions. You can get more information in <a href="https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html" target="_blank" rel="external">Jupyter Documentaion</a></p>
+<p>Jupyter Notebook has numerous excellent functions, you can experience it by yourself. For more efficient in using it, you should know some shortcut keys.</p>
+<p>The Jupyter Notebook has two different keyboard input modes. Edit mode allows you to type code/text into a cell and is indicated by a green cell border. Command mode binds the keyboard to notebook level commands and is indicated by a grey cell border with a blue left margin.</p>
+<h2 id="Shortcuts-in-Command-Mode-press-Esc-to-enable"><a href="#Shortcuts-in-Command-Mode-press-Esc-to-enable" class="headerlink" title="Shortcuts in Command Mode (press Esc to enable)"></a>Shortcuts in Command Mode (press Esc to enable)</h2><p>F: find and replace</p>
+<p>Ctrl-Shift-F: open the command palette</p>
+<p>Ctrl-Shift-P: open the command palette</p>
+<p>Enter: enter edit mode</p>
+<p>P: open the command palette</p>
+<p>Shift-Enter: run cell, select below</p>
+<p>Ctrl-Enter: run selected cells</p>
+<p>Alt-Enter: run cell, insert below</p>
+<p>Y: to code</p>
+<p>M: to markdown</p>
+<p>R: to raw</p>
+<p>1: to heading 1</p>
+<p>2: to heading 2</p>
+<p>3: to heading 3</p>
+<p>4: to heading 4</p>
+<p>5: to heading 5</p>
+<p>6: to heading 6</p>
+<p>K: select cell above</p>
+<p>Up: select cell above</p>
+<p>Down: select cell below</p>
+<p>J: select cell below</p>
+<p>Shift-K: extend selected cells above</p>
+<p>Shift-Up: extend selected cells above</p>
+<p>Shift-Down: extend selected cells below</p>
+<p>Shift-J: extend selected cells below</p>
+<p>A: insert cell above</p>
+<p>B: insert cell below</p>
+<p>X: cut selected cells</p>
+<p>C: copy selected cells</p>
+<p>Shift-V: paste cells above</p>
+<p>V: paste cells below</p>
+<p>Z: undo cell deletion</p>
+<p>D,D: delete selected cells</p>
+<p>Shift-M: merge selected cells, or current cell with cell below if only one cell selected</p>
+<p>Ctrl-S: Save and Checkpoint</p>
+<p>S: Save and Checkpoint</p>
+<p>L: toggle line numbers</p>
+<p>O: toggle output of selected cells</p>
+<p>Shift-O: toggle output scrolling of selected cells</p>
+<p>H: show keyboard shortcuts</p>
+<p>I,I: interrupt kernel</p>
+<p>0,0: restart the kernel (with dialog)</p>
+<p>Esc: close the pager</p>
+<p>Q: close the pager</p>
+<p>Shift-L: toggles line numbers in all cells, and persist the setting</p>
+<p>Shift-Space: scroll notebook up</p>
+<p>Space: scroll notebook down</p>
+<h2 id="Shortcuts-in-Edit-Mode-press-Enter-to-enable"><a href="#Shortcuts-in-Edit-Mode-press-Enter-to-enable" class="headerlink" title="Shortcuts in Edit Mode (press Enter to enable)"></a>Shortcuts in Edit Mode (press Enter to enable)</h2><p>Tab: code completion or indent</p>
+<p>Shift-Tab: tooltip</p>
+<p>Ctrl-]: indent</p>
+<p>Ctrl-[: dedent</p>
+<p>Ctrl-A: select all</p>
+<p>Ctrl-Z: undo</p>
+<p>Ctrl-Shift-Z: redo</p>
+<p>Ctrl-Y: redo</p>
+<p>Ctrl-Home: go to cell start</p>
+<p>Ctrl-Up: go to cell start</p>
+<p>Ctrl-End: go to cell end</p>
+<p>Ctrl-Down: go to cell end</p>
+<p>Ctrl-Left: go one word left</p>
+<p>Ctrl-Right: go one word right</p>
+<p>Ctrl-Backspace: delete word before</p>
+<p>Ctrl-Delete: delete word after</p>
+<p>Ctrl-M: command mode</p>
+<p>Ctrl-Shift-F: open the command palette</p>
+<p>Ctrl-Shift-P: open the command palette</p>
+<p>Esc: command mode</p>
+<p>Shift-Enter: run cell, select below</p>
+<p>Ctrl-Enter: run selected cells</p>
+<p>Alt-Enter: run cell, insert below</p>
+<p>Ctrl-Shift-Minus: split cell</p>
+<p>Ctrl-S: Save and Checkpoint</p>
+<p>Down: move cursor down</p>
+<p>Up: move cursor up</p>
+<h2 id="Transform-Jupyter-Notebook-to-Other-Format"><a href="#Transform-Jupyter-Notebook-to-Other-Format" class="headerlink" title="Transform Jupyter Notebook to Other Format"></a>Transform Jupyter Notebook to Other Format</h2><p>.ipynb is a JSON document and can be transformed to other format easily by using <a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">nbconvert</a>.</p>
+<p>For example, you can type the code below in terminal to transform it to HTML.</p>
+<pre><code>jupyter nbconvert --to html notebook.ipynb
+</code></pre><p>Of course, it is also available to slides.</p>
+<pre><code>jupyter nbconvert notebook.ipynb --to slides
+</code></pre><p>For showing the slides at once, the function is </p>
+<pre><code>jupyter nbconvert notebook.ipynb --to slides --post serve
+</code></pre>
+        
+    
+
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hushiyu1995.com/2017/11/24/Udacity-DL-Notes1-Basic Information/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//hushiyu1995.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/11/19/Leetcode-Array/" id="post_nav-older" class="next-content">
+            Older
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
