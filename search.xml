@@ -87,7 +87,6 @@
     <content type="text"><![CDATA[This blog is the note for the week 2 about the first course of Deep Learning in Coursera. This course names Neural Networks and Deep Learning and introduces some basic information about neural network. Since the first week of this course is about basic information introduction, I will start my blog from week 2. Different with Machine Learning, students should use Jupyter Notebook to finish assignments with Python 3. I’ll paste my notes about this class and this week’s assignment, for reference only. What’s more, I’ve upload my whole assignment to github, and this is only a possible solution, hope you find a better way! P.S. You can download the notes in PFD version]]></content>
       <categories>
         <category>Deep Learning</category>
-        <category>Coursera</category>
       </categories>
   </entry>
   <entry>
