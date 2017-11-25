@@ -39,7 +39,7 @@
     
     <title>
         
-            Notes about Machine Learning in Coursera--week 3 | 
+            Udacity Deep Learning Notes 2-Matrix and Numpy | 
         
         HU SHIYU
     </title>
@@ -228,18 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Notes about Machine Learning in Coursera--week 3 | HU SHIYU">
+    <meta property="og:title" content="Udacity Deep Learning Notes 2-Matrix and Numpy | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Fri Oct 06 2017 22:28:37 GMT+0800" />
-        <meta property="article:modified_time" content="Fri Nov 24 2017 11:14:33 GMT+0800" />
+        <meta property="article:published_time" content="Sat Nov 25 2017 21:29:37 GMT+0800" />
+        <meta property="article:modified_time" content="Sat Nov 25 2017 12:04:40 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Notes about Machine Learning in Coursera--week 3 | HU SHIYU">
+    <meta name="twitter:title" content="Udacity Deep Learning Notes 2-Matrix and Numpy | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -247,7 +247,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html" />
+        <link rel="canonical" href="http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -259,10 +259,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html",
-    "headline": "Notes about Machine Learning in Coursera--week 3",
-    "datePublished": "Fri Oct 06 2017 22:28:37 GMT+0800",
-    "dateModified": "Fri Nov 24 2017 11:14:33 GMT+0800",
+    "mainEntityOfPage": "http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/index.html",
+    "headline": "Udacity Deep Learning Notes 2-Matrix and Numpy",
+    "datePublished": "Sat Nov 25 2017 21:29:37 GMT+0800",
+    "dateModified": "Sat Nov 25 2017 12:04:40 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Huuuuusy",
@@ -340,6 +340,15 @@
     <!-- Left aligned menu below button -->
     
     
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Introduction"><span class="post-toc-number">1.</span> <span class="post-toc-text">Introduction</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Import"><span class="post-toc-number">2.</span> <span class="post-toc-text">Import</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Create-Elements"><span class="post-toc-number">3.</span> <span class="post-toc-text">Create Elements</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Array-Creation"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">Array Creation</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Vector-Creation"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Vector Creation</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Search-Elements"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">Search Elements</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Matrix-Creation"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">Matrix Creation</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Tensor-Creation"><span class="post-toc-number">3.5.</span> <span class="post-toc-text">Tensor Creation</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Change-shape"><span class="post-toc-number">4.</span> <span class="post-toc-text">Change shape</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Matrix-Multiplication"><span class="post-toc-number">5.</span> <span class="post-toc-text">Matrix Multiplication</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Elemental-Multiplication"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">Elemental Multiplication</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Matrix-Product"><span class="post-toc-number">5.2.</span> <span class="post-toc-text">Matrix Product</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Transpose-Matrix"><span class="post-toc-number">6.</span> <span class="post-toc-text">Transpose Matrix</span></a></li></ol>
+    </ul>
+    
 
 
 
@@ -369,7 +378,7 @@
         
     
             <p class="article-headline-p">
-                Notes about Machine Learning in Coursera--week 3
+                Udacity Deep Learning Notes 2-Matrix and Numpy
             </p>
         </div>
 
@@ -388,7 +397,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Huuuuusy</strong>
-        <span>Oct 06, 2017</span>
+        <span>Nov 25, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -410,7 +419,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">Read this article on other devices</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACYElEQVR42u3aQW7DMAwEQP//0+kDijq7lK24wejkQyxrVIBiKR6vrx4HHh4eHh4eHh7ew3hHPH7//nye5CvtnOfz4OHh4e3kvQm1fywlf/f8l+fsfG14eHh4+3ntZ5IQ3z6vrw0PDw/vabzz53aGZLPw8PDw/jsvSceTwgQeHh7ed/CKf/jjpbeFjA/XWvDw8PBiXnsBtvP5A/d7eHh4eKe8uqVpFNzbxoLLmq7w8PDwbuAl11c5Jk982+Jvslo8PDy8nby82DorH6y0q+alXjw8PLz9vCTlbZPgGb5dGx4eHt5OXn59lRcp2ndnc9ZlXDw8PLyLeG2T00rQz0vDs2QaDw8Pbw9vdhGVFFuvStDzli88PDy8Pby20apNwWeNXPnW4OHh4e3nzYJ+HuiT+dtDCA8PD++zvDw5bhPx/K28gIuHh4f3HN6sZJC3us62ctiYhYeHh3czb1ZIXbnKmiXNxZGDh4eHdzPv2oQ4SYLXD6HhuYeHh4d3ES85AGZbkLzbXrNFYDw8PLybeW0IbpPm9mJsvU0WDw8P725eHoJXmrFWChl1OyweHh7eFl7eONVeib2WR56U4+Hh4e3h5YE+YSRBvG3hypsb8PDw8PbwZmE6h+UblJcq3vwx8PDw8G7mHfHIP9NepCUzF1/Bw8PD28JrD4NkEVelzm0DAR4eHt5OXttgOiO1B1JewMXDw8N7Jm9WgJi1JsxKEnh4eHhP5rUXXXlrwko7Ah4eHt5OXpIKt6nzrDDRbiseHh7eft6sEJCE9Vky3TZa4eHh4e3kfd/Aw8PDw8PDw8N7wPgBPJCbp1IDVssAAAAASUVORK5CYII=">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC4UlEQVR42u3aQW4bMRAEQP3/08k1gKNsN2djr8jiSbBXEosG3JgZvn4duV7Y2NjY2NjY2NjYj2S/4vXn81/f+/W37575y4bePJP8PNkzNjY29gnsi3/9wTPvNpQcVvIJ8z1jY2Njn8BONt0eRBtFk0O82DM2NjY29iCiWl5SumBjY2NjT0hrr9vGUBKf2NjY2Nhtg6bdRFvGtEf/Tb00bGxs7MezJ4Pen3r9w/NtbGxs7Mew2zWJpfYqT/vkxedgY2Njb8pOrsVMgi1vA+X4tYIHGxsbe1d2EjPJ+HatIZWHXD4efvuHxMbGxt6UnQ9W1y7lzC/r3Has2NjY2Mew2ziZX9Bpj3Kt/YSNjY29N7uNqyT88uPIDzovfupeGjY2NvbHsicNoLyESMJpMniI4g0bGxt7a3ayxaQMmA8S8qIoHyRgY2Njn8O+eFscQm0jKT++9rixsbGxT2Pnl2nWypW2CGlDDhsbGxt70qxfK1eSKLrr4LCxsbFPYK8NAPJBbxtOLX40HsDGxsb+WPbk2k3SfkoaVfOd1E0lbGxs7O3YbcO9HcrmbakkAvNvx8bGxj6Bna95S6i91tNG4MWBYmNjY2/KbptHScHQstt2/+KQGBsbG3trdt42WttuEktrZc/ioBcbGxt7I3bUjrlp4JpsfW3YED2DjY2NvSm7bRXlzf27Pr89lJtLEWxsbOzHs5ORwFpgrI2E24KnsGBjY2Mfxq4vxMRRND+OxTjExsbG3pTdXqyZhNzaeGA+GMbGxsbem92u+XWctZHDv4/jttzGxsbG/kD22uWbPJDm5UryOmkwYWNjY+/NbhtMSZCslTFJUN0838bGxsbeiJ1EURtX+ZC4/d66LYWNjY2NvdRgaoNwMlq4GBhjY2NjY8eFRNHoiaMrD8X/UopgY2Njfwi7bSrdWzZEIRQPKrCxsbFPY88Hve3w4C5qPirAxsbG3pV9zsLGxsbGxsbGxsZ+zPoNotfDppFREZIAAAAASUVORK5CYII=">
     
 </ul>
 
@@ -442,7 +451,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Notes about Machine Learning in Coursera--week 3&url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity Deep Learning Notes 2-Matrix and Numpy&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -451,7 +460,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Notes about Machine Learning in Coursera--week 3&url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html&via=Huuuuusy" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity Deep Learning Notes 2-Matrix and Numpy&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/index.html&via=Huuuuusy" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -460,7 +469,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Facebook
             </li>
@@ -469,7 +478,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Google+
             </li>
@@ -478,7 +487,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html&title=Notes about Machine Learning in Coursera--week 3" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/index.html&title=Udacity Deep Learning Notes 2-Matrix and Numpy" target="_blank">
             <li class="mdl-menu__item">
                 Share to LinkedIn
             </li>
@@ -487,7 +496,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Notes about Machine Learning in Coursera--week 3&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity Deep Learning Notes 2-Matrix and Numpy&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to QQ
             </li>
@@ -496,7 +505,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html&text=Notes about Machine Learning in Coursera--week 3" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/index.html&text=Udacity Deep Learning Notes 2-Matrix and Numpy" target="_blank">
             <li class="mdl-menu__item">
                 Share to Telegram
             </li>
@@ -511,24 +520,59 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>Hi everyone！</p>
-<p>This blog is about the third week course of Machine Learning in Coursera. I’ll paste my notes about this class and this week’s assignment, for reference only. What’s more, I’ve upload my whole assignment to <a href="https://github.com/huuuuusy/Coursera.github.io/tree/master/Machine%20Learning/machine%20Learning%20hw/machine-learning-ex2/machine-learning-ex2" target="_blank" rel="external">github</a>, and this is only a possible solution, hope you find a better way!</p>
-<p>Finally，thanks a lot for forgiving my poor English skills and calligraphy:)</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297161/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213613_os7ccf.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297162/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213632_orn4q9.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297161/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213654_puf832.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297238/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213721_c3zmi8.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297237/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213744_m7z5nw.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297237/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213822_ylqrxp.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297457/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214205_mfqgr6.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297457/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214233_tzjxba.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297457/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214250_qnzypm.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297542/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214308_dwqnno.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297542/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214324_yxvnom.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297718/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214649_brco1f.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297718/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214713_ske7tx.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297718/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214734_psmsfy.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297722/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214749_hwlhdp.png" alt=""></p>
+        <p>This post is about the instoduction of matrix and <a href="http://www.numpy.org/" target="_blank" rel="external">Numpy</a>. NumPy is the fundamental package for scientific computing with Python. It contains among other things:</p>
+<p><em>a powerful N-dimensional array object</em></p>
+<p><em>sophisticated (broadcasting) functions</em></p>
+<p><em>tools for integrating C/C++ and Fortran code</em></p>
+<p><em>useful linear algebra, Fourier transform, and random number capabilities</em></p>
+<p>Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data.</p>
+<p>So for calculation in deep learning, Numpy will be a wonderful package to increase the efficiency.</p>
+<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>For scientific calculation by Numpy, it is better to read the <a href="https://docs.scipy.org/doc/numpy/reference/" target="_blank" rel="external">NumPy Reference</a>, which details functions, modules, and objects included in NumPy, describing what they are and what they do.</p>
+<h1 id="Import"><a href="#Import" class="headerlink" title="Import"></a>Import</h1><pre><code>import numpy as np
+</code></pre><h1 id="Create-Elements"><a href="#Create-Elements" class="headerlink" title="Create Elements"></a>Create Elements</h1><h2 id="Array-Creation"><a href="#Array-Creation" class="headerlink" title="Array Creation"></a>Array Creation</h2><pre><code>s = np.array(5)
+</code></pre><p>Then you will get an array which include the value 5. For checking the shape of Numpy, the command is</p>
+<pre><code>s.shape
+</code></pre><p>and the result is (), which means the dimension of this array is zero.</p>
+<h2 id="Vector-Creation"><a href="#Vector-Creation" class="headerlink" title="Vector Creation"></a>Vector Creation</h2><pre><code>v = np.array([1,2,3])
+</code></pre><p>Now the vector v equals [1,2,3], a one-dimension vector. Print v.shape will return (3,).</p>
+<p>Beside, shape is a <a href="https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences" target="_blank" rel="external">tuple</a>. For scalar like 5, the shape is an empty tuple. For one-dimension vector like [1,2,3], the shape includes a number and a comma since Python cannot recognize (3) as a tuple.</p>
+<h2 id="Search-Elements"><a href="#Search-Elements" class="headerlink" title="Search Elements"></a>Search Elements</h2><pre><code>x = v[1]
+</code></pre><p>Now the value of x is 2, the second number in [1,2,3].What’s more, the following command</p>
+<pre><code>v[1:]
+</code></pre><p>will return [2,3].</p>
+<p>For more information about Numpy indexing, please read this <a href="https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html" target="_blank" rel="external">document</a>.</p>
+<h2 id="Matrix-Creation"><a href="#Matrix-Creation" class="headerlink" title="Matrix Creation"></a>Matrix Creation</h2><pre><code>m = np.array([[1,2,3], [4,5,6], [7,8,9]])
+</code></pre><p>The shape of m equals (3,3), which shows there are two dimension in matrix m, and the length of each dimension is 3. What’s more, if you want to index 6 in m, you can return m[1][2].</p>
+<h2 id="Tensor-Creation"><a href="#Tensor-Creation" class="headerlink" title="Tensor Creation"></a>Tensor Creation</h2><pre><code>t = np.array([[[[1],[2]],[[3],[4]],[[5],[6]]],[[[7],[8]],\
+[[9],[10]],[[11],[12]]],[[[13],[14]],[[15],[16]],[[17],[17]]]])
+</code></pre><p>t.shape will return (3,3,2,1). For example, index t[2][1][1][0] will get 16.</p>
+<h1 id="Change-shape"><a href="#Change-shape" class="headerlink" title="Change shape"></a>Change shape</h1><p>Assuming you have the vector: </p>
+<pre><code>v = np.array([1,2,3,4])
+</code></pre><p>v.shape = (4,). While if you want to get a 1*4 matrix, you can use the command</p>
+<pre><code>x = v.reshape(1,4)
+</code></pre><p>Then x.shape = (1,4). Of course, you can use </p>
+<pre><code>x = v.reshape(4,1)
+</code></pre><p>to get a 4*1 matrix. It may seem like the original v, but with a different shape. </p>
+<p><strong>Pay attention: (4,) ！= (4,1)</strong></p>
+<p>For more information abour reshape, please read this <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html" target="_blank" rel="external">document</a>.</p>
+<h1 id="Matrix-Multiplication"><a href="#Matrix-Multiplication" class="headerlink" title="Matrix Multiplication"></a>Matrix Multiplication</h1><p><strong>Matrix multiplication is an easy misunderstanding point</strong> that requires you to pay more attention on how different functions operate on elements in the matrix.</p>
+<h2 id="Elemental-Multiplication"><a href="#Elemental-Multiplication" class="headerlink" title="Elemental Multiplication"></a>Elemental Multiplication</h2><p>For multiplicating in element, you can use multiply or * to implement it.</p>
+<pre><code>m = np.array([[1,2,3],[4,5,6]])
+n = m * 0.25
+m * n 
+</code></pre><p>m = array([[1, 2, 3],[4, 5, 6]]), n =  array([[ 0.25,  0.5 ,  0.75],[ 1.  ,  1.25,  1.5 ]]). The result of m * n equals array([[ 0.25,  1.  ,  2.25],[ 4.  ,  6.25,  9.  ]]).</p>
+<pre><code>np.multiply(m, n)
+</code></pre><p>The result of np.multiply(m, n) also equals array([[ 0.25,  1.  ,  2.25],[ 4.  ,  6.25,  9.  ]]).</p>
+<p>Thus, np.multiply(m,n) = m * n, and both of them return the product of corresponding elements.</p>
+<h2 id="Matrix-Product"><a href="#Matrix-Product" class="headerlink" title="Matrix Product"></a>Matrix Product</h2><p>You can use matmul function in Numpy to get the matrix product.</p>
+<p>First, the matrixs should have a compatible shape.</p>
+<pre><code>a = np.array([[1,2,3,4],[5,6,7,8]])#a.shape = (2,4)
+b = np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])#b.shape = (4,3)
+c = np.matmul(a, b)
+</code></pre><p>C = array([[ 70,  80,  90],[158, 184, 210]]), a 2 * 3 matrix. Thus, matmul function calculates the matrix product, like what we’ve learned in linear algebra.</p>
+<p>What’s more, you can use dot function to get the same answer like matmul if the matrix is two dimension. However, for other dimensions, there are some differences for dot and matmul, and you can get more information by reading the <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.dot.html" target="_blank" rel="external">dot</a> and <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.matmul.html#numpy.matmul" target="_blank" rel="external">matmul</a> documents.</p>
+<h1 id="Transpose-Matrix"><a href="#Transpose-Matrix" class="headerlink" title="Transpose Matrix"></a>Transpose Matrix</h1><p>For matrix m, you can get the transpose matrix by using m.T function.</p>
+<p>However, you should remember <strong>the transpose matrix share the same data with original matrix</strong>. It means that if you change the data in transpose matrix, the corresponding data in the original matrix will also be changed as well.</p>
 
         
     
@@ -548,8 +592,8 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://hushiyu1995.com/2017/10/06/coursera-ML-week3/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://hushiyu1995.com/2017/10/06/coursera-ML-week3/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -579,21 +623,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/10/07/coursera-DL-Course1-week2/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/10/06/coursera-ML-week2/" id="post_nav-older" class="next-content">
+        <a href="/2017/11/24/Udacity-DL-Notes1-Basic Information/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
