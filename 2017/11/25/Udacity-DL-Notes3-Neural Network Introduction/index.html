@@ -39,7 +39,7 @@
     
     <title>
         
-            Notes about Machine Learning in Coursera--week 3 | 
+            Udacity Deep Learning Notes 3-Neural Network Introduction | 
         
         HU SHIYU
     </title>
@@ -228,18 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Notes about Machine Learning in Coursera--week 3 | HU SHIYU">
+    <meta property="og:title" content="Udacity Deep Learning Notes 3-Neural Network Introduction | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Fri Oct 06 2017 22:28:37 GMT+0800" />
-        <meta property="article:modified_time" content="Fri Nov 24 2017 11:14:33 GMT+0800" />
+        <meta property="article:published_time" content="Sat Nov 25 2017 21:30:37 GMT+0800" />
+        <meta property="article:modified_time" content="Sat Nov 25 2017 13:36:18 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Notes about Machine Learning in Coursera--week 3 | HU SHIYU">
+    <meta name="twitter:title" content="Udacity Deep Learning Notes 3-Neural Network Introduction | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -247,7 +247,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html" />
+        <link rel="canonical" href="http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -259,10 +259,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html",
-    "headline": "Notes about Machine Learning in Coursera--week 3",
-    "datePublished": "Fri Oct 06 2017 22:28:37 GMT+0800",
-    "dateModified": "Fri Nov 24 2017 11:14:33 GMT+0800",
+    "mainEntityOfPage": "http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html",
+    "headline": "Udacity Deep Learning Notes 3-Neural Network Introduction",
+    "datePublished": "Sat Nov 25 2017 21:30:37 GMT+0800",
+    "dateModified": "Sat Nov 25 2017 13:36:18 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Huuuuusy",
@@ -340,6 +340,15 @@
     <!-- Left aligned menu below button -->
     
     
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Perceptron"><span class="post-toc-number">1.</span> <span class="post-toc-text">Perceptron</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Sample-NN"><span class="post-toc-number">2.</span> <span class="post-toc-text">Sample NN</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Gradient-Descent"><span class="post-toc-number">3.</span> <span class="post-toc-text">Gradient Descent</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#SSE"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">SSE</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Basic"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Basic</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Algorithm"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">Algorithm</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Define-Some-Function"><span class="post-toc-number">3.3.1.</span> <span class="post-toc-text">Define Some Function</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Define-the-sigmoid-function-for-activations"><span class="post-toc-number">3.3.1.1.</span> <span class="post-toc-text">Define the sigmoid function for activations</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Define-the-derivative-of-the-sigmoid-function"><span class="post-toc-number">3.3.1.2.</span> <span class="post-toc-text">Define the derivative of the sigmoid function</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Set-Values"><span class="post-toc-number">3.3.2.</span> <span class="post-toc-text">Set Values</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Input-Data"><span class="post-toc-number">3.3.2.1.</span> <span class="post-toc-text">Input Data</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Set-Target"><span class="post-toc-number">3.3.2.2.</span> <span class="post-toc-text">Set Target</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Input-to-Output-Weights"><span class="post-toc-number">3.3.2.3.</span> <span class="post-toc-text">Input to Output Weights</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Learning-Rate"><span class="post-toc-number">3.3.2.4.</span> <span class="post-toc-text">Learning Rate</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Calculate"><span class="post-toc-number">3.3.3.</span> <span class="post-toc-text">Calculate</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Linear-Combination-of-Input-Data-and-Weight"><span class="post-toc-number">3.3.3.1.</span> <span class="post-toc-text">Calculate the Linear Combination of Input Data and Weight</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Output-of-NN"><span class="post-toc-number">3.3.3.2.</span> <span class="post-toc-text">Calculate the Output of NN</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Error"><span class="post-toc-number">3.3.3.3.</span> <span class="post-toc-text">Calculate the Error</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Gradient-of-Output"><span class="post-toc-number">3.3.3.4.</span> <span class="post-toc-text">Calculate the Gradient of Output</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Error-Term"><span class="post-toc-number">3.3.3.5.</span> <span class="post-toc-text">Calculate the Error Term</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Update-Weights"><span class="post-toc-number">3.3.4.</span> <span class="post-toc-text">Update Weights</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#For-Complex-Data"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">For Complex Data</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#MSE"><span class="post-toc-number">3.4.1.</span> <span class="post-toc-text">MSE</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Initialization"><span class="post-toc-number">3.4.2.</span> <span class="post-toc-text">Initialization</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Example-Codes"><span class="post-toc-number">3.4.3.</span> <span class="post-toc-text">Example Codes</span></a></li></ol></li></ol></li></ol>
+    </ul>
+    
 
 
 
@@ -369,7 +378,7 @@
         
     
             <p class="article-headline-p">
-                Notes about Machine Learning in Coursera--week 3
+                Udacity Deep Learning Notes 3-Neural Network Introduction
             </p>
         </div>
 
@@ -388,7 +397,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Huuuuusy</strong>
-        <span>Oct 06, 2017</span>
+        <span>Nov 25, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -410,7 +419,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">Read this article on other devices</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACYElEQVR42u3aQW7DMAwEQP//0+kDijq7lK24wejkQyxrVIBiKR6vrx4HHh4eHh4eHh7ew3hHPH7//nye5CvtnOfz4OHh4e3kvQm1fywlf/f8l+fsfG14eHh4+3ntZ5IQ3z6vrw0PDw/vabzz53aGZLPw8PDw/jsvSceTwgQeHh7ed/CKf/jjpbeFjA/XWvDw8PBiXnsBtvP5A/d7eHh4eKe8uqVpFNzbxoLLmq7w8PDwbuAl11c5Jk982+Jvslo8PDy8nby82DorH6y0q+alXjw8PLz9vCTlbZPgGb5dGx4eHt5OXn59lRcp2ndnc9ZlXDw8PLyLeG2T00rQz0vDs2QaDw8Pbw9vdhGVFFuvStDzli88PDy8Pby20apNwWeNXPnW4OHh4e3nzYJ+HuiT+dtDCA8PD++zvDw5bhPx/K28gIuHh4f3HN6sZJC3us62ctiYhYeHh3czb1ZIXbnKmiXNxZGDh4eHdzPv2oQ4SYLXD6HhuYeHh4d3ES85AGZbkLzbXrNFYDw8PLybeW0IbpPm9mJsvU0WDw8P725eHoJXmrFWChl1OyweHh7eFl7eONVeib2WR56U4+Hh4e3h5YE+YSRBvG3hypsb8PDw8PbwZmE6h+UblJcq3vwx8PDw8G7mHfHIP9NepCUzF1/Bw8PD28JrD4NkEVelzm0DAR4eHt5OXttgOiO1B1JewMXDw8N7Jm9WgJi1JsxKEnh4eHhP5rUXXXlrwko7Ah4eHt5OXpIKt6nzrDDRbiseHh7eft6sEJCE9Vky3TZa4eHh4e3kfd/Aw8PDw8PDw8N7wPgBPJCbp1IDVssAAAAASUVORK5CYII=">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOCAAAAABd2qZ5AAADk0lEQVR42u3ay47bQAwEwP3/n06uARaWu8mRoAClk2FYjykd6Obw54/jn+MHAQ4cOHDgwIEDBw4cL+b4iY/fZ3365tO57TXzq63WggMHDhw4buD4UoqCxSfnJp+Tu29+iQMHDhw4nuS4LmlJefv0zWwxyXWS57ymx4EDBw4cb+C4hkiW18bFGQ0OHDhw4PhfOPKymjcBzxZRHDhw4MDxBo62gO23oPINp5bsoV4pDhw4cOBYDzS8//Oj8x04cODAgeMXR3ucLZxJEW0jYr0iHDhw4MBxlCMvVO1Zm0bebHQ7f34cOHDgwPE8R1L8ksGFvDTm0bH9fZ1oceDAgQPHgmMzQJAvaRb5zr6kOtHiwIEDB44RR36hJD4lS53h7p8EBw4cOHA8yTELV+1jzZa3eQHD+Q4cOHDgwLHg2AS2WZBLiuj1L9vrfyn8OHDgwIHjBo5TG0KzAlk08uInLBqLOHDgwIHjKEd+obOBbRYC21e12nbCgQMHDhwLjjZW7cPbLEDmkW9VaHHgwIEDx6HMcscDJUztUMWs+VjswuHAgQMHjkMceayaNemSZl8+PDHbvqoTLQ4cOHDgGHG0wwr5YmZDCV9CVzy4EP1RwIEDBw4cRzmSG2wGDmYFsv18rDmIAwcOHDiOcswWfyqe5VfLBymigIoDBw4cOI5ytANt+e3zZcwQ8+2l1UADDhw4cOAYceSBpy3AOeWskOcDGUWhxYEDBw4cC442jOUbQptlbwYU2oCKAwcOHDju4JiNDuSlLg9vm+h4rNDiwIEDB44bONol1S25EVC77RStFAcOHDhwPMKRx6SzsSpvVrbbUR9fJA4cOHDguIHjS/tsfcukJLc0SUGN/iLgwIEDB46jHKduPzs3Ad00KKN74cCBAweO2ziSbzYRKwlg+YLbUBc1B3HgwIEDxyMcSRNw2JiLB+lm4xe3FFocOHDgwFFy5I28drhhFhc3cW7VHMSBAwcOHCOO9tg0E5NQty/e7fc4cODAgeMsx6wll28XXfPNwuHs+h+BcODAgQPHDRybptup0hgVxXhj6di2Ew4cOHDgWHC0Lbl8sKBtI87al9f3rQstDhw4cOB4kKONc20JbDei8qfFgQMHDhzv5MiX2g7DteMReUMTBw4cOHA8z5E36fK4lRTIzVBC+2Jw4MCBA8czHLMh5nYMbsZaR7IYAgcOHDhw3MHhwIEDBw4cOHDgwIEDx8uOv0pExD2edRuYAAAAAElFTkSuQmCC">
     
 </ul>
 
@@ -442,7 +451,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Notes about Machine Learning in Coursera--week 3&url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity Deep Learning Notes 3-Neural Network Introduction&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -451,7 +460,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Notes about Machine Learning in Coursera--week 3&url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html&via=Huuuuusy" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity Deep Learning Notes 3-Neural Network Introduction&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&via=Huuuuusy" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -460,7 +469,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Facebook
             </li>
@@ -469,7 +478,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Google+
             </li>
@@ -478,7 +487,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html&title=Notes about Machine Learning in Coursera--week 3" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&title=Udacity Deep Learning Notes 3-Neural Network Introduction" target="_blank">
             <li class="mdl-menu__item">
                 Share to LinkedIn
             </li>
@@ -487,7 +496,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Notes about Machine Learning in Coursera--week 3&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity Deep Learning Notes 3-Neural Network Introduction&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to QQ
             </li>
@@ -496,7 +505,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/10/06/coursera-ML-week3/index.html&text=Notes about Machine Learning in Coursera--week 3" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&text=Udacity Deep Learning Notes 3-Neural Network Introduction" target="_blank">
             <li class="mdl-menu__item">
                 Share to Telegram
             </li>
@@ -511,25 +520,122 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>Hi everyone！</p>
-<p>This blog is about the third week course of Machine Learning in Coursera. I’ll paste my notes about this class and this week’s assignment, for reference only. What’s more, I’ve upload my whole assignment to <a href="https://github.com/huuuuusy/Coursera.github.io/tree/master/Machine%20Learning/machine%20Learning%20hw/machine-learning-ex2/machine-learning-ex2" target="_blank" rel="external">github</a>, and this is only a possible solution, hope you find a better way!</p>
-<p>Finally，thanks a lot for forgiving my poor English skills and calligraphy:)</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297161/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213613_os7ccf.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297162/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213632_orn4q9.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297161/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213654_puf832.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297238/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213721_c3zmi8.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297237/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213744_m7z5nw.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297237/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006213822_ylqrxp.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297457/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214205_mfqgr6.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297457/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214233_tzjxba.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297457/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214250_qnzypm.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297542/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214308_dwqnno.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297542/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214324_yxvnom.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297718/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214649_brco1f.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297718/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214713_ske7tx.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297718/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214734_psmsfy.png" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507297722/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171006214749_hwlhdp.png" alt=""></p>
+        <p>This post is the introduction of neural network. I will list some fundamental concepts which are really important in DNN. </p>
+<h1 id="Perceptron"><a href="#Perceptron" class="headerlink" title="Perceptron"></a>Perceptron</h1><p>In machine learning, the <a href="https://en.wikipedia.org/wiki/Perceptron" target="_blank" rel="external">perceptron</a> is an algorithm for supervised learning of binary classifiers (functions that can decide whether an input, represented by a vector of numbers, belongs to some specific class or not).</p>
+<p>Perceptions are the basic unit of neural network and each of them decides how to classify the data according the inputs. Perceptions always use weights to judge the importance of input data.</p>
+<p>The basic formula of perceptron is</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584269/perceptron-equation-2_u0hi7o.gif" alt=""></p>
+<p>At beginning, the weight and bias will  be initialized randomly. By using learning algorithm like gradient descent, the values of bias and weight can be updated. Which means the new sample will be classified correctly.</p>
+<h1 id="Sample-NN"><a href="#Sample-NN" class="headerlink" title="Sample NN"></a>Sample NN</h1><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584618/simple-neuron_fpg0dh.png" alt=""></p>
+<p>This is a very simple NN, which is used to show the basic structure.</p>
+<p>x means input, w means weight, f(h) means activation function, the circule means unit and the rectangle means calculation.</p>
+<p>Some common activation functions: sigmoid, tanh and softmax.</p>
+<p>For sigmoid function:</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584898/QQ%E6%88%AA%E5%9B%BE20171125124121_xdaky7.png" alt=""></p>
+<p>A simple example for the NN structure above:</p>
+<pre><code>import numpy as np
 
+def sigmoid(x):
+# TODO: Implement sigmoid function
+return 1/(1 + np.exp(-x))
+
+inputs = np.array([0.7, -0.3])
+weights = np.array([0.1, 0.8])
+bias = -0.1
+
+# TODO: Calculate the output
+output = sigmoid(np.dot(weights, inputs) + bias)
+
+print(&apos;Output:&apos;)
+print(output)
+</code></pre><h1 id="Gradient-Descent"><a href="#Gradient-Descent" class="headerlink" title="Gradient Descent"></a>Gradient Descent</h1><p><a href="https://en.wikipedia.org/wiki/Gradient_descent" target="_blank" rel="external">Gradient descent</a> is a first-order iterative optimization algorithm for finding the minimum of a function. In DNN, it is used to update the weights.</p>
+<h2 id="SSE"><a href="#SSE" class="headerlink" title="SSE"></a>SSE</h2><p>We use sum of the suqred errors(SSE) to calculate the performence of present weights and bias.</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585299/QQ%E6%88%AA%E5%9B%BE20171125124801_plh4eu.png" alt=""></p>
+<p>Since we’ve known the output of NN is calculated by weights, we can get:</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585411/QQ%E6%88%AA%E5%9B%BE20171125124958_usmov2.png" alt=""></p>
+<h2 id="Basic"><a href="#Basic" class="headerlink" title="Basic"></a>Basic</h2><p>The gradient captures all the partial derivative information of a scalar-valued multivariable function. You can learn the basic concept about gradient in <a href="https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient" target="_blank" rel="external">KHANACADEMY</a>.</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585560/QQ%E6%88%AA%E5%9B%BE20171125125230_q6x9ot.png" alt=""></p>
+<p>All in all, by calculating the gradient of output, we can update the weights to reduce SSE.</p>
+<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><p>First, we should calculate the error term.</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585978/QQ%E6%88%AA%E5%9B%BE20171125125919_gbo9o3.png" alt=""></p>
+<p>The weight can be updated by the formula below:</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511586108/QQ%E6%88%AA%E5%9B%BE20171125130138_jlt45k.png" alt=""></p>
+<p>The whole process can be seperated step by step as below.</p>
+<h3 id="Define-Some-Function"><a href="#Define-Some-Function" class="headerlink" title="Define Some Function"></a>Define Some Function</h3><h4 id="Define-the-sigmoid-function-for-activations"><a href="#Define-the-sigmoid-function-for-activations" class="headerlink" title="Define the sigmoid function for activations"></a>Define the sigmoid function for activations</h4><pre><code>def sigmoid(x):
+    return 1/(1+np.exp(-x))
+</code></pre><h4 id="Define-the-derivative-of-the-sigmoid-function"><a href="#Define-the-derivative-of-the-sigmoid-function" class="headerlink" title="Define the derivative of the sigmoid function"></a>Define the derivative of the sigmoid function</h4><pre><code>def sigmoid_prime(x):
+    return sigmoid(x) * (1 - sigmoid(x))
+</code></pre><h3 id="Set-Values"><a href="#Set-Values" class="headerlink" title="Set Values"></a>Set Values</h3><h4 id="Input-Data"><a href="#Input-Data" class="headerlink" title="Input Data"></a>Input Data</h4><pre><code>x = np.array([0.1,0.3])
+</code></pre><h4 id="Set-Target"><a href="#Set-Target" class="headerlink" title="Set Target"></a>Set Target</h4><pre><code>y = 0.2
+</code></pre><h4 id="Input-to-Output-Weights"><a href="#Input-to-Output-Weights" class="headerlink" title="Input to Output Weights"></a>Input to Output Weights</h4><pre><code>weights = np.array([-0.8,0.5])
+</code></pre><h4 id="Learning-Rate"><a href="#Learning-Rate" class="headerlink" title="Learning Rate"></a>Learning Rate</h4><pre><code>learnrate = 0.5
+</code></pre><h3 id="Calculate"><a href="#Calculate" class="headerlink" title="Calculate"></a>Calculate</h3><h4 id="Calculate-the-Linear-Combination-of-Input-Data-and-Weight"><a href="#Calculate-the-Linear-Combination-of-Input-Data-and-Weight" class="headerlink" title="Calculate the Linear Combination of Input Data and Weight"></a>Calculate the Linear Combination of Input Data and Weight</h4><pre><code>h = np.dot(x,weights)
+</code></pre><h4 id="Calculate-the-Output-of-NN"><a href="#Calculate-the-Output-of-NN" class="headerlink" title="Calculate the Output of NN"></a>Calculate the Output of NN</h4><pre><code>nn_output = sigmoid(h)
+</code></pre><h4 id="Calculate-the-Error"><a href="#Calculate-the-Error" class="headerlink" title="Calculate the Error"></a>Calculate the Error</h4><pre><code>error = y - nn_output
+</code></pre><h4 id="Calculate-the-Gradient-of-Output"><a href="#Calculate-the-Gradient-of-Output" class="headerlink" title="Calculate the Gradient of Output"></a>Calculate the Gradient of Output</h4><pre><code>output_grad = sigmoid_prime(h)
+</code></pre><h4 id="Calculate-the-Error-Term"><a href="#Calculate-the-Error-Term" class="headerlink" title="Calculate the Error Term"></a>Calculate the Error Term</h4><pre><code>error_term = error * output_grad
+</code></pre><h3 id="Update-Weights"><a href="#Update-Weights" class="headerlink" title="Update Weights"></a>Update Weights</h3><pre><code>del_w = learnrate * error_term * x
+</code></pre><h2 id="For-Complex-Data"><a href="#For-Complex-Data" class="headerlink" title="For Complex Data"></a>For Complex Data</h2><h3 id="MSE"><a href="#MSE" class="headerlink" title="MSE"></a>MSE</h3><p>SSE is mainly used in simple calculation, while MSE(mean of the square errors) is used for calculating the error of complex input data.</p>
+<p>For MSE, the formula is like:</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511587266/QQ%E6%88%AA%E5%9B%BE20171125132053_trqwlt.png" alt=""></p>
+<h3 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h3><p>Since we have more input data, the weights need to be initialized randomly to keep the value of inputs close to zero.</p>
+<p>One possible solution is using a normal distribution with the center of zero to initialize the weights.</p>
+<pre><code>weights = np.random.normal(scale=1/n_features**.5, size=n_features)
+</code></pre><h3 id="Example-Codes"><a href="#Example-Codes" class="headerlink" title="Example Codes"></a>Example Codes</h3><pre><code>import numpy as np
+from data_prep import features, targets, features_test, targets_test
+</code></pre><p>Calculate the sigmoid:</p>
+<pre><code>def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+</code></pre><p>Use same seed to make debugging easier:</p>
+<pre><code>np.random.seed(42)
+n_records, n_features = features.shape
+last_loss = None
+</code></pre><p>Initialize weights:</p>
+<pre><code>weights = np.random.normal(scale=1 / n_features**.5, size=n_features)
+</code></pre><p>Set hyperparameters of NN:</p>
+<pre><code>epochs = 1000
+learnrate = 0.5
+</code></pre><p>Calcualte in NN:</p>
+<pre><code>for e in range(epochs):
+    del_w = np.zeros(weights.shape)
+    for x, y in zip(features.values, targets):
+        # Loop through all records, x is the input, y is the target
+
+        # Note: We haven&apos;t included the h variable from the previous
+        #       lesson. You can add it if you want, or you can calculate
+        #       the h together with the output
+
+        # TODO: Calculate the output
+        output = sigmoid(np.dot(weights, x))
+
+        # TODO: Calculate the error
+        error = y - output
+
+        # TODO: Calculate the error term
+        error_term = error * output *(1 - output)
+
+        # TODO: Calculate the change in weights for this sample
+        #       and add it to the total weight change
+        del_w += error_term * x
+
+    # TODO: Update weights using the learning rate and the average change in weights
+    weights += learnrate * del_w / n_records
+
+    # Printing out the mean square error on the training set
+    if e % (epochs / 10) == 0:
+        out = sigmoid(np.dot(features, weights))
+        loss = np.mean((out - targets) ** 2)
+        if last_loss and last_loss &lt; loss:
+            print(&quot;Train loss: &quot;, loss, &quot;  WARNING - Loss Increasing&quot;)
+        else:
+            print(&quot;Train loss: &quot;, loss)
+        last_loss = loss
+</code></pre><p>Calculate accuracy on test data:</p>
+<pre><code>tes_out = sigmoid(np.dot(features_test, weights))
+predictions = tes_out &gt; 0.5
+accuracy = np.mean(predictions == targets_test)
+print(&quot;Prediction accuracy: {:.3f}&quot;.format(accuracy))
+</code></pre>
         
     
 
@@ -548,8 +654,8 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://hushiyu1995.com/2017/10/06/coursera-ML-week3/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://hushiyu1995.com/2017/10/06/coursera-ML-week3/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -579,21 +685,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/10/07/coursera-DL-Course1-week2/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/10/06/coursera-ML-week2/" id="post_nav-older" class="next-content">
+        <a href="/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
