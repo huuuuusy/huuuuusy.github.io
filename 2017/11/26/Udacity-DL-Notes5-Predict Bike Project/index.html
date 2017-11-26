@@ -39,7 +39,7 @@
     
     <title>
         
-            Notes about Machine Learning in Coursera--week 1 | 
+            Udacity Deep Learning Notes 5-Bike Prediction Project | 
         
         HU SHIYU
     </title>
@@ -228,18 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Notes about Machine Learning in Coursera--week 1 | HU SHIYU">
+    <meta property="og:title" content="Udacity Deep Learning Notes 5-Bike Prediction Project | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Tue Oct 03 2017 21:28:37 GMT+0800" />
-        <meta property="article:modified_time" content="Fri Nov 24 2017 11:14:23 GMT+0800" />
+        <meta property="article:published_time" content="Sun Nov 26 2017 08:31:37 GMT+0800" />
+        <meta property="article:modified_time" content="Sun Nov 26 2017 13:16:24 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Notes about Machine Learning in Coursera--week 1 | HU SHIYU">
+    <meta name="twitter:title" content="Udacity Deep Learning Notes 5-Bike Prediction Project | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -247,7 +247,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://hushiyu1995.com/2017/10/03/coursera-ML-week1/index.html" />
+        <link rel="canonical" href="http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -259,10 +259,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://hushiyu1995.com/2017/10/03/coursera-ML-week1/index.html",
-    "headline": "Notes about Machine Learning in Coursera--week 1",
-    "datePublished": "Tue Oct 03 2017 21:28:37 GMT+0800",
-    "dateModified": "Fri Nov 24 2017 11:14:23 GMT+0800",
+    "mainEntityOfPage": "http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/index.html",
+    "headline": "Udacity Deep Learning Notes 5-Bike Prediction Project",
+    "datePublished": "Sun Nov 26 2017 08:31:37 GMT+0800",
+    "dateModified": "Sun Nov 26 2017 13:16:24 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Huuuuusy",
@@ -340,6 +340,15 @@
     <!-- Left aligned menu below button -->
     
     
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Prepare-Work"><span class="post-toc-number">1.</span> <span class="post-toc-text">Prepare Work</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Import-Packages"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Import Packages</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Import-Data"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">Import Data</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Data-Introduction"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">Data Introduction</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Dummy-Variables"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">Dummy Variables</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Adjust-Target-Variable"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">Adjust Target Variable</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Divide-Data"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">Divide Data</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Build-Neural-Network"><span class="post-toc-number">2.</span> <span class="post-toc-text">Build Neural Network</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Initialization"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">Initialization</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Training"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">Training</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Initialization-1"><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">Initialization</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Forward-Pass"><span class="post-toc-number">2.2.2.</span> <span class="post-toc-text">Forward Pass</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Hidden-Layer"><span class="post-toc-number">2.2.2.1.</span> <span class="post-toc-text">Hidden Layer</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Output-Layer"><span class="post-toc-number">2.2.2.2.</span> <span class="post-toc-text">Output Layer</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Backward-Pass"><span class="post-toc-number">2.2.3.</span> <span class="post-toc-text">Backward Pass</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Output-Layer-Error"><span class="post-toc-number">2.2.3.1.</span> <span class="post-toc-text">Output Layer Error</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Hidden-Layer-Error"><span class="post-toc-number">2.2.3.2.</span> <span class="post-toc-text">Hidden Layer Error</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Update-Weights"><span class="post-toc-number">2.2.3.3.</span> <span class="post-toc-text">Update Weights</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Run"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">Run</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#MSE"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">MSE</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Unit-Test"><span class="post-toc-number">3.</span> <span class="post-toc-text">Unit Test</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Initialization-2"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">Initialization</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Test"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Test</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Date-Loading"><span class="post-toc-number">3.2.1.</span> <span class="post-toc-text">Date Loading</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Network-Functionality"><span class="post-toc-number">3.2.2.</span> <span class="post-toc-text">Network Functionality</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Training-Neural-Network"><span class="post-toc-number">4.</span> <span class="post-toc-text">Training Neural Network</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Test-Neural-Network"><span class="post-toc-number">5.</span> <span class="post-toc-text">Test Neural Network</span></a></li></ol>
+    </ul>
+    
 
 
 
@@ -369,7 +378,7 @@
         
     
             <p class="article-headline-p">
-                Notes about Machine Learning in Coursera--week 1
+                Udacity Deep Learning Notes 5-Bike Prediction Project
             </p>
         </div>
 
@@ -388,7 +397,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Huuuuusy</strong>
-        <span>Oct 03, 2017</span>
+        <span>Nov 26, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -410,7 +419,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">Read this article on other devices</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACYElEQVR42u3aQW7DMAwEwPz/0+0Dijq7oqW6wfgUBLbM0cEiSL6+Pvp64eHh4eHh4eHhPYz3iq83i17ef71m+9Sbd+Hh4eEd4SWhr4X78/9kO0ax4eHh4R3krYWVf+jzI2QtNjw8PLwn83L29VO/sfHw8PA+j5eEmxcUknQZDw8P75m8/DXJCi37EbUWPDw8vJiXf77P/z7a38PDw8MLePVIU1xiWBsjuHnoCg8PD28Dr21uXZck1lZrBxTeJOt4eHh4R3h5iaE9HvL2WBLDYhkXDw8P7yBvUqTIj5Z5KRkPDw/vJG+tHTUJq03E63QfDw8PbzMv/7i3Lfx8I9bKH4u1Fjw8PLybeG37KkltJ2WI62LEmwjx8PDwNvPacYEW1g4WtFtzw2QEHh4e3oCXL9G2qfI3zosgeHh4eH/Laz/Qk1LCbWk3Hh4e3kFengq3xdxksyZtMDw8PLyTvLX2fF7CmI8XtOVjPDw8vN28BJmXHtbGWNukHA8PD+9vefkr89e0BYtDQ1d4eHh4m+c57xomaAuy+fZFZVw8PDy8bbx2gCC/JzkM8nJwPXSFh4eHd4SXLLcWaIKcJOt4eHh4T+BNkt322bYJV48O4OHh4d3EmwwE5E2y9qgYtejw8PDwNvNe8dVS157Nk/gb+nt4eHh4A17e7poPFrSp8w0HAx4eHt42Xjt0lYQ+SbIXB1vx8PDw/gkvH9tKVsijwsPDw/svvMVkN96mJJK6GIGHh4e3gZekvPk9k40YDR/g4eHhHeG1JYC89DBfpz0k8PDw8HbzPu/Cw8PDw8PDw8N7wPUNzs1T7xcdAIgAAAAASUVORK5CYII=">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC2klEQVR42u3awW7lIAwF0Pf/Pz3djjQKubajaR6crKI2BQ6bW2w+f458PtjY2NjY2NjY2NivZH/iJxr6ry//fV+PfPV9dbSrNWNjY2Pvzc4xV8u6WtB6lqsR1nM114yNjY19ADuPlvV7HnV5aE3WjI2NjY19M1wcTtVN6R1LsLGxsbEn00yOH18QYNjY2NivZ/fiJPn5U02FX6ulYWNjY7+enTdN3/P+X/vb2NjY2C9mT8o91TJTvuinilPY2NjYJ7CrVyTXX+ablW9cPvvNLNjY2Nibstflm3XZKGkP9JoBk+LU5fqxsbGxt2b3mrg5dX6wyeOqXFTCxsbG3og9b+VGV2eK7Ydku8uNXmxsbOxN2dXCfa9h0Fx0sRWNjY2NfQ67GhL5b3t/lZeWqg1gbGxs7F3Z6yF6RaKc0RuzGaLY2NjYx7CrhZte+OWB1NtKbGxs7HPYvcNDjkmCsLpNvTYzNjY29q7sHiCPwDyKnjqQYGNjY5/G7rVUe4WepNA/2b6bgxA2Njb2puy8jVo9bPSOKPnBIwk8bGxs7HPY1X/x5y2B6lxJIekmMrGxsbE3ZU8mSJqvvS+rl3LKV3awsbGxt2Png+ZXZ/JDSPK383YvNjY29q7sauG+utA8AgvloaQZgI2NjY09jpOklVvdjkmBCRsbG3tXdlLQLxRuWsE2aTMULglhY2NjH8BOSvN5XOUx9thhoxdg2NjY2BuxoxhoNYOrpPmln2ZuY2NjY2/KTkIuX2JvWx8oXWFjY2Nvyq4+VdL80JIck6IRsLGxsTdlV0OiWjbKA+api0SFohI2Njb2Ruz5lHnRv9rczQPsplGNjY2NfQC7GkvV6zjPFpLy6MLGxsbGjuKheLEm2aw8rqKVYGNjY2MX3/PNqjYhet9jY2Njn8BOBp3g8+PH5NjTvKmEjY2N/eXsvEzTK+70WgXzUhQ2Njb2CexzHmxsbGxsbGxsbOzXPD+rAOxvfeUdnwAAAABJRU5ErkJggg==">
     
 </ul>
 
@@ -442,7 +451,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Notes about Machine Learning in Coursera--week 1&url=http://hushiyu1995.com/2017/10/03/coursera-ML-week1/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity Deep Learning Notes 5-Bike Prediction Project&url=http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -451,7 +460,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Notes about Machine Learning in Coursera--week 1&url=http://hushiyu1995.com/2017/10/03/coursera-ML-week1/index.html&via=Huuuuusy" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity Deep Learning Notes 5-Bike Prediction Project&url=http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/index.html&via=Huuuuusy" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -460,7 +469,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2017/10/03/coursera-ML-week1/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Facebook
             </li>
@@ -469,7 +478,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2017/10/03/coursera-ML-week1/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Google+
             </li>
@@ -478,7 +487,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/10/03/coursera-ML-week1/index.html&title=Notes about Machine Learning in Coursera--week 1" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/index.html&title=Udacity Deep Learning Notes 5-Bike Prediction Project" target="_blank">
             <li class="mdl-menu__item">
                 Share to LinkedIn
             </li>
@@ -487,7 +496,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Notes about Machine Learning in Coursera--week 1&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/10/03/coursera-ML-week1/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity Deep Learning Notes 5-Bike Prediction Project&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to QQ
             </li>
@@ -496,7 +505,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/10/03/coursera-ML-week1/index.html&text=Notes about Machine Learning in Coursera--week 1" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/index.html&text=Udacity Deep Learning Notes 5-Bike Prediction Project" target="_blank">
             <li class="mdl-menu__item">
                 Share to Telegram
             </li>
@@ -511,13 +520,263 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>Hi everyone！</p>
-<p>As I’ve said in the homepage, I am interested in deep learning and want to share my learning notes in this website. As a novice in this area, I choose several ways to expand the scope of knowledge, and the very first is learning Machine Learning course by Andrew Ng in <a href="https://www.coursera.org/" target="_blank" rel="external">Coursera</a>. In fact, I do recommond you to try this course since it will provide you a clear logic about machine learning with enough mathematical derivations. </p>
-<p>However, you should finish assignments by using Matlab rather than Python, and it may not very convenient. If you want to learn deep learning in coursera by using Python, you can choose another series of courses provided by <a href="https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome" target="_blank" rel="external">deeplearning.ai</a>, and the lecturer is Andrew Ng as well. As choosing this course at the same time, I will also share my notes and codes in the next blogs.</p>
-<p>In my perspective, the course has provided enough references for students to consult, so I just paste my notes made by iPad Pro with Apple pencil, and this is my personal  comprehension about this course, for reference only. Any questions, please leave a message by using DISQUS in the bottom of this page.</p>
-<p>Finally，thanks a lot for forgiving my poor English skills and calligraphy:)</p>
-<p>P.S. This blog is the notes for the first week in Machine Learning course, and I will provide the codes(if have) and notes for the same week together in a blog.</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507036851/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE20171003212008_sirjmx.png" alt=""><br><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507036952/QQ%E6%88%AA%E5%9B%BE20171003212146_mmjjja.png" alt=""><br><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507037020/QQ%E6%88%AA%E5%9B%BE20171003212256_fyfwqq.png" alt=""><br><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507037081/QQ%E6%88%AA%E5%9B%BE20171003212401_jk7h5w.png" alt=""><br><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1507037147/QQ%E6%88%AA%E5%9B%BE20171003212505_oxawkf.png" alt=""></p>
+        <p>This blog is for the first project in Udacity, which ask me to design a plan to predict the number of bike for a bike sharing company. It is a really interesting project and needs to pay attention in some details. </p>
+<h1 id="Prepare-Work"><a href="#Prepare-Work" class="headerlink" title="Prepare Work"></a>Prepare Work</h1><h2 id="Import-Packages"><a href="#Import-Packages" class="headerlink" title="Import Packages"></a>Import Packages</h2><pre><code>%matplotlib inline
+%config InlineBackend.figure_format = &apos;retina&apos;
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+</code></pre><h2 id="Import-Data"><a href="#Import-Data" class="headerlink" title="Import Data"></a>Import Data</h2><pre><code>data_path = &apos;Bike-Sharing-Dataset/hour.csv&apos;
+rides = pd.read_csv(data_path)
+</code></pre><p>The data that we will use is stored as .csv file. Thus, <strong>pd.read()</strong> function gets the data by searching its path. For more information about pd.read_csv(), please read this <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html" target="_blank" rel="external">document</a>.</p>
+<pre><code>rides.head()
+</code></pre><p>This command is used to return data in assigned form. <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.head.html" target="_blank" rel="external">More Information</a></p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511621067/QQ%E6%88%AA%E5%9B%BE20171125202359_pcpbhu.png" alt=""></p>
+<p>As we can see in the figure above, the data is ordered by time, dteday means the date and cnt means total users.</p>
+<h2 id="Data-Introduction"><a href="#Data-Introduction" class="headerlink" title="Data Introduction"></a>Data Introduction</h2><pre><code>rides[:24*10].plot(x=&apos;dteday&apos;, y=&apos;cnt&apos;)
+</code></pre><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511621188/QQ%E6%88%AA%E5%9B%BE20171125202619_w6fkog.png" alt=""></p>
+<p>This command shows the relationship of dteday and cnt. It is clearly that the total users change nearly cyclically in 24 hours.</p>
+<h2 id="Dummy-Variables"><a href="#Dummy-Variables" class="headerlink" title="Dummy Variables"></a>Dummy Variables</h2><pre><code>dummy_fields = [&apos;season&apos;, &apos;weathersit&apos;, &apos;mnth&apos;, &apos;hr&apos;, &apos;weekday&apos;]
+for each in dummy_fields:
+    dummies = pd.get_dummies(rides[each], prefix=each, drop_first=False)
+    rides = pd.concat([rides, dummies], axis=1)
+
+fields_to_drop = [&apos;instant&apos;, &apos;dteday&apos;, &apos;season&apos;, &apos;weathersit&apos;, 
+                  &apos;weekday&apos;, &apos;atemp&apos;, &apos;mnth&apos;, &apos;workingday&apos;, &apos;hr&apos;]
+data = rides.drop(fields_to_drop, axis=1)
+data.head() 
+</code></pre><p>Some variables like season, weather and weekday are used to classify the data. For calculation, we need to set binary dummy variables by using <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.get_dummies.html" target="_blank" rel="external">get_dummies()</a> in Pandas.</p>
+<p>Partial results in return.</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511621692/QQ%E6%88%AA%E5%9B%BE20171125203440_o3mnhs.png" alt=""></p>
+<h2 id="Adjust-Target-Variable"><a href="#Adjust-Target-Variable" class="headerlink" title="Adjust Target Variable"></a>Adjust Target Variable</h2><pre><code>quant_features = [&apos;casual&apos;, &apos;registered&apos;, &apos;cnt&apos;, &apos;temp&apos;, &apos;hum&apos;, &apos;windspeed&apos;]
+# Store scalings in a dictionary so we can convert back later
+scaled_features = {}
+for each in quant_features:
+    mean, std = data[each].mean(), data[each].std()
+    scaled_features[each] = [mean, std]
+    data.loc[:, each] = (data[each] - mean)/std
+</code></pre><p>We need to standardize the data to make sure the mean equals 0 and standard deviation equals 1.</p>
+<h2 id="Divide-Data"><a href="#Divide-Data" class="headerlink" title="Divide Data"></a>Divide Data</h2><pre><code># Save data for approximately the last 21 days 
+test_data = data[-21*24:]
+
+# Now remove the test data from the data set 
+data = data[:-21*24]
+
+# Separate the data into features and targets
+target_fields = [&apos;cnt&apos;, &apos;casual&apos;, &apos;registered&apos;]
+features, targets = data.drop(target_fields, axis=1), data[target_fields]
+test_features, test_targets = test_data.drop(target_fields, axis=1), test_data[target_fields]
+</code></pre><p>Now save the data of last 21 days as the test set, which will be used after the network has been trained. This set will be used to predict and compare with the actual nnumber of riders.</p>
+<hr>
+<p><strong>Attention:</strong></p>
+<p>target_fields includes cnt, casual and registered. These features are targets, thus should be removed from the features matrix.</p>
+<pre><code>features = data.drop(target_fields, axis = 1)
+</code></pre><p>This command is used to drop targets from the feature matrix, axis = 1 means discard the column for the specified labels.</p>
+<pre><code>targets = data[target_fields]
+</code></pre><p>This commmand organizes the targets as a target matrix.</p>
+<hr>
+<pre><code># Hold out the last 60 days or so of the remaining data as a validation set
+train_features, train_targets = features[:-60*24], targets[:-60*24]
+val_features, val_targets = features[-60*24:], targets[-60*24:]
+</code></pre><p>We split the data into two datasets, one for training and another for network verification after training process.</p>
+<p>Since the data is time-series specific, we train the model with historical data and then try to predict the future data (validation data sets).</p>
+<h1 id="Build-Neural-Network"><a href="#Build-Neural-Network" class="headerlink" title="Build Neural Network"></a>Build Neural Network</h1><p>In fact, I’ve writen Neural Network as a class. In Python, we need to add self as a parameter to call information in class.</p>
+<h2 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h2><pre><code>def __init__(self, input_nodes, hidden_nodes, output_nodes, learning_rate):
+        # Set number of nodes in input, hidden and output layers.
+        self.input_nodes = input_nodes
+        self.hidden_nodes = hidden_nodes
+        self.output_nodes = output_nodes
+
+        # Initialize weights
+        self.weights_input_to_hidden = np.random.normal(0.0, self.input_nodes**-0.5, 
+                                       (self.input_nodes, self.hidden_nodes))
+
+        self.weights_hidden_to_output = np.random.normal(0.0, self.hidden_nodes**-0.5, 
+                                       (self.hidden_nodes, self.output_nodes))
+        self.lr = learning_rate
+
+        # Set self.activation_function to your implemented sigmoid function 
+        self.activation_function = lambda x : 1/(1+np.exp(-x))  
+</code></pre><p>This function is designed to initialize the data. It includes number setting, weight initialization and activation function design.</p>
+<p><a href="http://www.secnetix.de/olli/Python/lambda_functions.hawk" target="_blank" rel="external">Lambda</a> is a very useful function. It is a flexible function which helps you to define the function that you need anywhere in code.</p>
+<h2 id="Training"><a href="#Training" class="headerlink" title="Training"></a>Training</h2><pre><code>def train(self, features, targets):
+
+        n_records = features.shape[0]
+        delta_weights_i_h = np.zeros(self.weights_input_to_hidden.shape)
+        delta_weights_h_o = np.zeros(self.weights_hidden_to_output.shape)
+        for X, y in zip(features, targets):
+
+            ### Forward pass ###
+            # Hidden layer
+            hidden_inputs = np.dot(X, self.weights_input_to_hidden) 
+            hidden_outputs = self.activation_function(hidden_inputs) 
+
+            # Output layer
+            final_inputs = np.dot(hidden_outputs,self.weights_hidden_to_output) 
+            final_outputs = final_inputs 
+
+
+            ### Backward pass ###
+            # Output error
+            error =  y - final_outputs
+            # Backpropagated error terms
+            output_error_term = error 
+
+            # Hidden layer error
+            hidden_error = np.dot(self.weights_hidden_to_output, output_error_term)
+            # Hidden layer error terms
+            hidden_error_term = hidden_error * hidden_outputs * (1 - hidden_outputs)
+
+            # Weight step (input to hidden)
+            delta_weights_i_h += hidden_error_term * X[:,None]
+            # Weight step (hidden to output)
+            delta_weights_h_o += output_error_term * hidden_outputs[:,None]
+
+        # Update the weights 
+        self.weights_hidden_to_output += self.lr * delta_weights_h_o/n_records 
+        self.weights_input_to_hidden += self.lr *delta_weights_i_h/n_records 
+</code></pre><p>I paste the whole code above and will analyze the details step by step.</p>
+<h3 id="Initialization-1"><a href="#Initialization-1" class="headerlink" title="Initialization"></a>Initialization</h3><pre><code>n_records = features.shape[0]
+delta_weights_i_h = np.zeros(self.weights_input_to_hidden.shape)
+delta_weights_h_o = np.zeros(self.weights_hidden_to_output.shape)
+</code></pre><p>n_records equals the total records in data. Since features is a 2D array, each row is one data recore and each column i s a feature.</p>
+<h3 id="Forward-Pass"><a href="#Forward-Pass" class="headerlink" title="Forward Pass"></a>Forward Pass</h3><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511668997/img_0170_jtsalu.png" alt=""></p>
+<h4 id="Hidden-Layer"><a href="#Hidden-Layer" class="headerlink" title="Hidden Layer"></a>Hidden Layer</h4><pre><code>hidden_inputs = np.dot(X, self.weights_input_to_hidden) 
+hidden_outputs = self.activation_function(hidden_inputs) 
+</code></pre><h4 id="Output-Layer"><a href="#Output-Layer" class="headerlink" title="Output Layer"></a>Output Layer</h4><pre><code>final_inputs = np.dot(hidden_outputs,self.weights_hidden_to_output) 
+final_outputs = final_inputs 
+</code></pre><h3 id="Backward-Pass"><a href="#Backward-Pass" class="headerlink" title="Backward Pass"></a>Backward Pass</h3><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511671778/fullsizerender_boe9bw.jpg" alt=""></p>
+<h4 id="Output-Layer-Error"><a href="#Output-Layer-Error" class="headerlink" title="Output Layer Error"></a>Output Layer Error</h4><pre><code>error =  y - final_outputs
+output_error_term = error
+</code></pre><h4 id="Hidden-Layer-Error"><a href="#Hidden-Layer-Error" class="headerlink" title="Hidden Layer Error"></a>Hidden Layer Error</h4><pre><code>np.dot(self.weights_hidden_to_output, output_error_term)
+hidden_error * hidden_outputs * (1 - hidden_outputs)
+</code></pre><h4 id="Update-Weights"><a href="#Update-Weights" class="headerlink" title="Update Weights"></a>Update Weights</h4><pre><code>delta_weights_i_h += hidden_error_term * X[:,None]
+delta_weights_h_o += output_error_term * hidden_outputs[:,None]
+
+self.weights_hidden_to_output += self.lr * delta_weights_h_o/n_records
+self.weights_input_to_hidden += self.lr *delta_weights_i_h/n_records
+</code></pre><h2 id="Run"><a href="#Run" class="headerlink" title="Run"></a>Run</h2><pre><code>def run(self, features):
+
+    # Forward pass
+    # Hidden layer
+    hidden_inputs = np.dot( features, self.weights_input_to_hidden ) 
+    hidden_outputs = self.activation_function(hidden_inputs) 
+
+    # Output layer
+    final_inputs = np.dot( hidden_outputs, self.weights_hidden_to_output ) 
+    final_outputs = final_inputs 
+
+    return final_outputs
+</code></pre><h2 id="MSE"><a href="#MSE" class="headerlink" title="MSE"></a>MSE</h2><p>Use MSE to calculate the error.</p>
+<pre><code>def MSE(y, Y):
+    return np.mean((y-Y)**2)
+</code></pre><h1 id="Unit-Test"><a href="#Unit-Test" class="headerlink" title="Unit Test"></a>Unit Test</h1><p>The unit tests check if the network implementation is correct. It is used to ensure the structure is properly implemented before start training.</p>
+<h2 id="Initialization-2"><a href="#Initialization-2" class="headerlink" title="Initialization"></a>Initialization</h2><pre><code>import unittest
+
+inputs = np.array([[0.5, -0.2, 0.1]])
+targets = np.array([[0.4]])
+test_w_i_h = np.array([[0.1, -0.2],
+                       [0.4, 0.5],
+                       [-0.3, 0.2]])
+test_w_h_o = np.array([[0.3],
+                       [-0.1]])
+</code></pre><h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2><h3 id="Date-Loading"><a href="#Date-Loading" class="headerlink" title="Date Loading"></a>Date Loading</h3><pre><code>def test_data_path(self):
+        # Test that file path to dataset has been unaltered
+        self.assertTrue(data_path.lower() == &apos;bike-sharing-dataset/hour.csv&apos;)
+
+ def test_data_loaded(self):
+        # Test that data frame loaded
+        self.assertTrue(isinstance(rides, pd.DataFrame))
+</code></pre><h3 id="Network-Functionality"><a href="#Network-Functionality" class="headerlink" title="Network Functionality"></a>Network Functionality</h3><pre><code>def test_activation(self):
+    network = NeuralNetwork(3, 2, 1, 0.5)
+    # Test that the activation function is a sigmoid
+    self.assertTrue(np.all(network.activation_function(0.5) == 1/(1+np.exp(-0.5))))
+
+
+def test_train(self):
+    # Test that weights are updated correctly on training
+    network = NeuralNetwork(3, 2, 1, 0.5)
+    network.weights_input_to_hidden = test_w_i_h.copy()
+    network.weights_hidden_to_output = test_w_h_o.copy()
+
+    network.train(inputs, targets)
+    self.assertTrue(np.allclose(network.weights_hidden_to_output, 
+                                np.array([[ 0.37275328], 
+                                          [-0.03172939]])))
+    self.assertTrue(np.allclose(network.weights_input_to_hidden,
+                                np.array([[ 0.10562014, -0.20185996], 
+                                          [0.39775194, 0.50074398], 
+                                          [-0.29887597, 0.19962801]])))
+
+def test_run(self):
+    # Test correctness of run method
+    network = NeuralNetwork(3, 2, 1, 0.5)
+    network.weights_input_to_hidden = test_w_i_h.copy()
+    network.weights_hidden_to_output = test_w_h_o.copy()
+
+    self.assertTrue(np.allclose(network.run(inputs), 0.09998924))
+
+suite = unittest.TestLoader().loadTestsFromModule(TestMethods())
+unittest.TextTestRunner().run(suite)
+</code></pre><h1 id="Training-Neural-Network"><a href="#Training-Neural-Network" class="headerlink" title="Training Neural Network"></a>Training Neural Network</h1><p>The most important process in training is choosing the parameters properly.</p>
+<p>In this project, we need to consider the iterations, learning rate, hidden nodes and output nodes.</p>
+<p>Since we want to get a value of total users in a moment, the output node equals 1. </p>
+<p>For iteration, it should satisfies: the network can make accurate prediction without over-fitting.</p>
+<p>For hidden node, it should allow the network to predict the number of bicycles accurately and has the generalization ability without over-fitting.</p>
+<p>For learning rate, it can make the network converge successfully and still have the time efficiency.</p>
+<p>In this project, I set the parameters and realize the functions as the code below.</p>
+<pre><code>import sys
+
+### Set the hyperparameters here ###
+iterations = 5000
+learning_rate = 0.5
+hidden_nodes = 10
+output_nodes = 1
+
+N_i = train_features.shape[1]
+network = NeuralNetwork(N_i, hidden_nodes, output_nodes, learning_rate)
+
+losses = {&apos;train&apos;:[], &apos;validation&apos;:[]}
+for ii in range(iterations):
+    # Go through a random batch of 128 records from the training data set
+    batch = np.random.choice(train_features.index, size=128)
+    X, y = train_features.ix[batch].values, train_targets.ix[batch][&apos;cnt&apos;]
+
+    network.train(X, y)
+
+    # Printing out the training progress
+    train_loss = MSE(network.run(train_features).T, train_targets[&apos;cnt&apos;].values)
+    val_loss = MSE(network.run(val_features).T, val_targets[&apos;cnt&apos;].values)
+    sys.stdout.write(&quot;\rProgress: {:2.1f}&quot;.format(100 * ii/float(iterations)) \
+                     + &quot;% ... Training loss: &quot; + str(train_loss)[:5] \
+                     + &quot; ... Validation loss: &quot; + str(val_loss)[:5])
+    sys.stdout.flush()
+
+    losses[&apos;train&apos;].append(train_loss)
+    losses[&apos;validation&apos;].append(val_loss)
+</code></pre><p>Now we can use plot function to visualize the training result.</p>
+<pre><code>plt.plot(losses[&apos;train&apos;], label=&apos;Training loss&apos;)
+plt.plot(losses[&apos;validation&apos;], label=&apos;Validation loss&apos;)
+plt.legend()
+_ = plt.ylim()
+</code></pre><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511673179/QQ%E6%88%AA%E5%9B%BE20171126131248_muwkba.png" alt=""></p>
+<h1 id="Test-Neural-Network"><a href="#Test-Neural-Network" class="headerlink" title="Test Neural Network"></a>Test Neural Network</h1><p>Now we use the test set to verify the performance of neural network.</p>
+<pre><code>fig, ax = plt.subplots(figsize=(8,4))
+
+mean, std = scaled_features[&apos;cnt&apos;]
+predictions = network.run(test_features).T*std + mean
+ax.plot(predictions[0], label=&apos;Prediction&apos;)
+ax.plot((test_targets[&apos;cnt&apos;]*std + mean).values, label=&apos;Data&apos;)
+ax.set_xlim(right=len(predictions))
+ax.legend()
+
+dates = pd.to_datetime(rides.ix[test_data.index][&apos;dteday&apos;])
+dates = dates.apply(lambda d: d.strftime(&apos;%b %d&apos;))
+ax.set_xticks(np.arange(len(dates))[12::24])
+_ = ax.set_xticklabels(dates[12::24], rotation=45)
+</code></pre><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511673337/QQ%E6%88%AA%E5%9B%BE20171126131524_mo3irw.png" alt=""></p>
+<p>Now we have finished our first neural network for bike users preduction!</p>
 
         
     
@@ -537,8 +796,8 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://hushiyu1995.com/2017/10/03/coursera-ML-week1/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://hushiyu1995.com/2017/10/03/coursera-ML-week1/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hushiyu1995.com/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -568,21 +827,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/10/06/coursera-ML-week2/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/10/01/build-web-1/" id="post_nav-older" class="next-content">
+        <a href="/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
