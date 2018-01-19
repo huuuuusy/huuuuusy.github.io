@@ -39,7 +39,7 @@
     
     <title>
         
-            Archives: 2017 | 
+            Compression Algorith in Multimedia | 
         
         HU SHIYU
     </title>
@@ -228,15 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Archives: 2017 | HU SHIYU">
+    <meta property="og:title" content="Compression Algorith in Multimedia | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
+        <meta property="article:published_time" content="Sun Jan 14 2018 12:09:37 GMT+0800" />
+        <meta property="article:modified_time" content="Fri Jan 19 2018 21:02:56 GMT+0800" />
+    
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Archives: 2017 | HU SHIYU">
+    <meta name="twitter:title" content="Compression Algorith in Multimedia | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -244,13 +247,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://hushiyu1995.com/archives/2017/page/2/index.html" />
+        <link rel="canonical" href="http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/index.html",
+    "headline": "Compression Algorith in Multimedia",
+    "datePublished": "Sun Jan 14 2018 12:09:37 GMT+0800",
+    "dateModified": "Fri Jan 19 2018 21:02:56 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Huuuuusy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpg"
+        },
+        "description": ""
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "HU SHIYU",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.jpg"
+        }
+    },
+    "keywords": "",
+    "description": "",
+}
+</script>
 
 
     
@@ -284,656 +317,420 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#1-Run-Length-Encoding-RLE"><span class="post-toc-number">1.</span> <span class="post-toc-text">1 Run-Length Encoding (RLE)</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#RLE-Coder"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">RLE Coder</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#RLE-Decoder"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">RLE Decoder</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#2-LZ77-And-LZ78"><span class="post-toc-number">2.</span> <span class="post-toc-text">2 LZ77 And LZ78</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#LZ77-Coder"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">LZ77 Coder</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#LZ77-Decoder"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">LZ77 Decoder</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#LZ78-Coder"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">LZ78 Coder</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#LZ78-Decoder"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">LZ78 Decoder</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#3-Huffman-Coding"><span class="post-toc-number">3.</span> <span class="post-toc-text">3 Huffman Coding</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Huffman-Tree-Construction"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">Huffman Tree Construction</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Huffman-Encoding"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Huffman Encoding</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Huffman-Decoding"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">Huffman Decoding</span></a></li></ol></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/25/coursera-DL-Course2-week2/">Notes about Deep Learning in Coursera--Improving Deep Neural Networks Hyperparameter tuning, Regularization and Optimization--Week 2</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            This blog is the note for the week 2 about the second course of Deep Learn...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/25/coursera-DL-Course2-week2/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Oct 25, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Deep-Learning/">Deep Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/16/coursera-DL-Course2-week1/">Notes about Deep Learning in Coursera--Improving Deep Neural Networks Hyperparameter tuning, Regularization and Optimization--Week 1</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            This blog is the note for the week 1 about the second course of Deep Learn...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/16/coursera-DL-Course2-week1/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Oct 16, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Deep-Learning/">Deep Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/11/coursera-DL-Course1-week4/">Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 4</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            This blog is the note for the week 4 about the first course of Deep Learni...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/11/coursera-DL-Course1-week4/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Oct 11, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Deep-Learning/">Deep Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/10/coursera-DL-Course1-week3/">Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            This blog is the note for the week 3 about the first course of Deep Learni...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/10/coursera-DL-Course1-week3/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Oct 10, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Deep-Learning/">Deep Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/07/coursera-DL-Course1-week2/">Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 2</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            This blog is the note for the week 2 about the first course of Deep Learni...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/07/coursera-DL-Course1-week2/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Oct 07, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Deep-Learning/">Deep Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/06/coursera-ML-week3/">Notes about Machine Learning in Coursera--week 3</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Hi everyone！
-This blog is about the third week course of Machine Le...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/06/coursera-ML-week3/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Oct 06, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Machine-Learning/">Machine Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/06/coursera-ML-week2/">Notes about Machine Learning in Coursera--week 2</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Hi everyone！
-This blog is about the second week course of Machine L...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/06/coursera-ML-week2/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Oct 06, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Machine-Learning/">Machine Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/03/coursera-ML-week1/">Notes about Machine Learning in Coursera--week 1</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Hi everyone！
-As I’ve said in the homepage, I am interested in deep ...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/03/coursera-ML-week1/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Oct 03, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Machine-Learning/">Machine Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/01/build-web-1/">How to build a simple website--part 1</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Hi everyone！
-Thanks a lot for reading my blog, and this article is ...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/01/build-web-1/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Oct 01, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Web-Design/">Web Design</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/09/24/hello-world/">Hello World</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Hi everyone！Welcome to My page! This...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/09/24/hello-world/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Sep 24, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Others/">Others</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-    <!-- Index nav -->
-        <nav class="material-nav mdl-cell mdl-cell--12-col">
-            <a class="extend prev" rel="prev" href="/archives/2017/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/archives/2017/">1</a><span class="page-number current">2</span>
-        </nav>
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                Compression Algorith in Multimedia
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Huuuuusy</strong>
+        <span>Jan 14, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">Read this article on other devices</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAACzElEQVR42u3aUW4bMQwE0Nz/0ukFaneG3AaO9PRlxPau3gYIQ46+vq9cX9jY2NjY2NjY2Ngfyf6K118u9PaT7ZVfvc7v+37P2NjY2Gez//Gn/yF2cuXZT6IrY2NjY1/AbktLgnm16fePI79vsmdsbGxs7FefyYtK3mYkRQsbGxsb+yl23jYk32qHWdjY2NjYs3KSxwB5W7In/fdZGjY2NvbHs/dx7M+//tF8GxsbG/uD2e3KW4u2hXhfGr/XCxsbG/tUdruVpCF5/8nZ49gMobCxsbHPZuc3a4/vbK7Qjp+SR4yNjY19Nnu2iVmZmYUTSbsyHCphY2NjH8qeHZTZkJJ326NC2NjY2Lex2xh1c+Amf8SzXWFjY2Pfw35/KCd5QHlpaRuJ5GqroBcbGxv7IPYs+m2RswB4ExVjY2Nj38POy9gsBsi/m7cfdcCMjY2NfSi7LTaz27cHbtpYN1JgY2NjH81ui0obA8+O7yQDqeKXh42NjX0Ne8NoSbOhUt7AYGNjY9/Gng2V8iK0Z7fxAzY2NvY97HaUUxyUGZW0/N0iDMbGxsY+lN0ehdljZiWtjR+wsbGx72G35ac9dpnHCW3A3LYo2NjY2KeyN7Hr5gFtSho2NjY2djvcb6OC2THNPDB+3yDVrQg2Njb2L2cXR16SwU08xH9gSPTsLA0bGxv7IHZbkNqIty2c9SHLvAPDxsbGPo49+0e/PRaZlLqnro+NjY19JzsPa9uNbsrkLO7FxsbGvoHdrpa0KVGzKKJORbCxsbF/ObstDM+Wvbw05nesTyphY2NjH8GeRaoPDHoWDU9bULGxsbFvYCcDmmTcs28nNmuVimBjY2Nfxm4HPfVGy/HTsBXBxsbGvphdNwMLWDt+wsbGxr6TvTmUk8CSIX4+ckqKKDY2NvY97M2wpo0NZm3MA+E0NjY29qHsexY2NjY2NjY2Njb2x6w/+ynilTQSu+AAAAAASUVORK5CYII=">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;Views
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Compression Algorith in Multimedia&url=http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Weibo
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Compression Algorith in Multimedia&url=http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/index.html&via=Huuuuusy" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/index.html&title=Compression Algorith in Multimedia" target="_blank">
+            <li class="mdl-menu__item">
+                Share to LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Compression Algorith in Multimedia&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/index.html&text=Compression Algorith in Multimedia" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>Hi everyone！</p>
+<p>My major in HKU is Multimedia Computing, thus I’ve learned some basic algorithm in Multimedia Course about compression. In this blog, I’d like to summarize these traditional algorithms in compression, which includes RLE, LZ77, LZ78 and Huffman.</p>
+<h1 id="1-Run-Length-Encoding-RLE"><a href="#1-Run-Length-Encoding-RLE" class="headerlink" title="1 Run-Length Encoding (RLE)"></a>1 Run-Length Encoding (RLE)</h1><p>Run-length encoding (RLE) is a very simple form of lossless data compression in which runs of data (that is, sequences in which the same data value occurs in many consecutive data elements) are stored as a single data value and count, rather than as the original run . </p>
+<p>Based on the basic concepts, the algorithm divides a 24-bit RGB image into three channels, the R channel, the G channel and the B channel, and performs RLE for each channel separately.</p>
+<p>The principle of RLE is very simple and can be explained as follow: the key concept of RLE is reducing the physical size of a repeating string of characters. Run, which means the repeating string, is always encoded into two bytes. Run count is the first byte which represents the number of characters in run. The second byte, called run value, records the value of the characters in run. For instance, we require 15 bytes to store an uncompressed run of 15 A characters like AAAAAAAAAAAAAAA, while after compression by using RLE, only 2 bytes are enough to store 15A. </p>
+<p>RLE is a very simple algorithm which is easy to understand and implement. It is the most useful way to compress the data that contains a lot of repeat values such as line drawings, binary image and so on.</p>
+<p>The Pseudo-code for RLE is as follows:</p>
+<h2 id="RLE-Coder"><a href="#RLE-Coder" class="headerlink" title="RLE Coder"></a>RLE Coder</h2><pre><code>//Input: A set of data INPUT
+//Output: A RLE encoding compressedData
+Q &lt;-INPUT(0)
+count &lt;-1 
+for i=1:size(INPUT)
+    if(Q=INPUT(i)) 
+        count++
+       else 
+           {
+            Add count to compressedData;
+            Add Q to compressedData;
+            Q&lt;-INPUT(i);
+            count&lt;-1
+        }
+</code></pre><h2 id="RLE-Decoder"><a href="#RLE-Decoder" class="headerlink" title="RLE Decoder"></a>RLE Decoder</h2><pre><code>//Input: compressedData
+//Output: RLE decoding data OUTPUT
+for i=1:size(compressedData)
+{
+    for j=1:compressedData(i)  
+        {
+            Add commpressedData(i+1) to OUTPUT 
+        }
+    i+=2;
+}
+</code></pre><h1 id="2-LZ77-And-LZ78"><a href="#2-LZ77-And-LZ78" class="headerlink" title="2 LZ77 And LZ78"></a>2 LZ77 And LZ78</h1><p>LZ77 is a compression algorithm using sliding window and look ahead buffer. The encoder searches the matching string in the search buffer of the sliding window until it is found. The distance between the start char of a matching string and the pending buffer is called the “offset value”, and the length of the matching string is called the “match length”. When encoding, the encoder will always search in the search area until the maximum matching string is found, and output (o,l), where o is the offset value and l is the matching length. Then the window slides l characters and continues to encode.</p>
+<p>The Pseudo-code for LZ77 is as follows:</p>
+<h2 id="LZ77-Coder"><a href="#LZ77-Coder" class="headerlink" title="LZ77 Coder"></a>LZ77 Coder</h2><pre><code>//Input: A look ahead buffer 
+//Output: An LZ77 coding compressedData
+While(look ahead buffer is not empty)
+{
+    p&lt;- the longest match in the window for the look ahead buffer
+    l&lt;-length of the longest match;
+    Add (p,l) to compressedData
+    Add the first character in look ahead buffer to compressedData
+    Slide the look ahead buffer by l
+}
+</code></pre><h2 id="LZ77-Decoder"><a href="#LZ77-Decoder" class="headerlink" title="LZ77 Decoder"></a>LZ77 Decoder</h2><pre><code>//Input: compressedData
+//Output: The decoded code OUTPUT
+{ 
+    for i=1:size(compressedData)
+    {
+        p&lt;-compressedData(i);
+        l&lt;-compressedData(i+1);
+        c&lt;-compressedData(i+2)
+    }
+    Add l characters to OUTPUT
+    Add c to OUTPUT
+}
+</code></pre><p>After proposing LZ77 algorithm based on sliding window, the Jacob Ziv and Abraham Lempel proposed a LZ78 algorithm in 1978. The principle of LZ78 is extracting new string from the character stream, and then using code word to represent this string. So the encoding of the character stream is to replace the character stream with the Code word, and generate the code word stream. The code words are stored in a dictionary.</p>
+<p>The Pseudo-code for LZ78 is as follows:</p>
+<h2 id="LZ78-Coder"><a href="#LZ78-Coder" class="headerlink" title="LZ78 Coder"></a>LZ78 Coder</h2><pre><code>//Input: String INPUT
+//Output: An LZ78 coding compressedData
+Initialize dictionary D
+p&lt;-&quot;&quot;
+for each( char c in INPUT)
+{
+    if(p+c is in D)
+        p&lt;-p+c;
+    else
+    {
+         Add p+c to D;
+         Add the index of p to OUTPUT;
+         Add c to OUTPUT
+         p&lt;-c
+     }
+}
+</code></pre><h2 id="LZ78-Decoder"><a href="#LZ78-Decoder" class="headerlink" title="LZ78 Decoder"></a>LZ78 Decoder</h2><pre><code>//Input: compressedData
+//Output: The decoded code OUTPUT
+Initialize dictionary D
+old &lt;- the index value of the first token in compressedData
+FOR EACH (token t in compressedData)
+{
+    index &lt;-index value of t
+    IF (D has entry with index)
+    {
+        Add the string at index to OUTPUT
+        c&lt;-first character of the string at index
+        Concatenate entry at old and c
+        Add old and c to D
+    }
+    IF (D has no entry with index)
+    { 
+        c &lt;-first character of the string at old
+        Concatenate entry at old index and c 
+        Add to D
+        Concatenate entry old index with c 
+        Add to OUTPUT
+        old &lt;-index
+    }
+}
+</code></pre><h1 id="3-Huffman-Coding"><a href="#3-Huffman-Coding" class="headerlink" title="3 Huffman Coding"></a>3 Huffman Coding</h1><p>The basic thought of Huffman coding is allocating different lengths of codes for values according to the frequency of them. In the encoding process, the shorter the encoding length is, the higher the frequency is, and the longer the encoding length is, the lower the frequency is.</p>
+<p>Huffman algorithm need to construct a binary tree whose leaves are the characters we need to compress. To build a Huffman tree, firstly consider every node as a tree. And then Select the two trees with the minimum weight as the left and right subtrees of a new tree, and the weight of the root nodes of the new tree is the sum of the weights of the left and right tree root nodes. Repeat this process until a Huffman tree is constructed.</p>
+<p>The Pseudo-code for Huffman algorithm is as follows:</p>
+<h2 id="Huffman-Tree-Construction"><a href="#Huffman-Tree-Construction" class="headerlink" title="Huffman Tree Construction"></a>Huffman Tree Construction</h2><pre><code>//Input: A list W of n frequencies for characters
+//Output: A binary tree T
+Create list F with single-element trees formed from elements of W
+    While(F has more than one element)
+    {
+        Find T1,T2 in F with minimum weight
+        Create new tree T with the weight equaling the sum of weights of T1 and T2;
+        Make T1 and T2 children of T
+        Delete T1 and T2 from F
+        Add T to F
+    }
+</code></pre><h2 id="Huffman-Encoding"><a href="#Huffman-Encoding" class="headerlink" title="Huffman Encoding"></a>Huffman Encoding</h2><pre><code>//Input: A Huffman tree F and a String INPUT
+//Output: A bit-sequence B
+c&lt;-character
+p&lt;- path from root of F to character
+Traverse F completely and create a hash table H containing tuples(c,p)
+for each(token t in INPUT)
+    Add path H(t) to B
+</code></pre><h2 id="Huffman-Decoding"><a href="#Huffman-Decoding" class="headerlink" title="Huffman Decoding"></a>Huffman Decoding</h2><pre><code>// Input: A Huffman tree F and a bit sequence B
+// Output: The decoded code OUTPUT
+c&lt;-character
+p&lt;- path from root of F to character
+Traverse F completely and create a hash table H containing tuples (p, c)
+node n= root node of F
+for each (bit b in B)
+{
+    if(b=0) n&lt;-left children of n
+        if(b=1) n&lt;-right children of n
+            if(n has no children)
+            {
+                Add character represented by n to OUTPUT
+                n&lt;- root node of F
+            }
+}
+</code></pre>
+        
+    
+
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hushiyu1995.com/2018/01/14/compression-algorithm-in-multimedia/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//hushiyu1995.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2018/01/18/the-development-and-application-of-CNN/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Newer
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/11/26/Udacity-DL-Notes5-Predict Bike Project/" id="post_nav-older" class="next-content">
+            Older
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
