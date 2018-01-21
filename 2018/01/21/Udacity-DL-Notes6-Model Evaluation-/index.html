@@ -39,7 +39,7 @@
     
     <title>
         
-            Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3 | 
+            Udacity Deep Learning Notes 6-Model Evaluation | 
         
         HU SHIYU
     </title>
@@ -228,18 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3 | HU SHIYU">
+    <meta property="og:title" content="Udacity Deep Learning Notes 6-Model Evaluation | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Tue Oct 10 2017 21:28:37 GMT+0800" />
-        <meta property="article:modified_time" content="Fri Nov 24 2017 11:13:42 GMT+0800" />
+        <meta property="article:published_time" content="Sun Jan 21 2018 13:31:37 GMT+0800" />
+        <meta property="article:modified_time" content="Sun Jan 21 2018 12:31:32 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3 | HU SHIYU">
+    <meta name="twitter:title" content="Udacity Deep Learning Notes 6-Model Evaluation | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -247,7 +247,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/index.html" />
+        <link rel="canonical" href="http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -259,10 +259,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/index.html",
-    "headline": "Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3",
-    "datePublished": "Tue Oct 10 2017 21:28:37 GMT+0800",
-    "dateModified": "Fri Nov 24 2017 11:13:42 GMT+0800",
+    "mainEntityOfPage": "http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/index.html",
+    "headline": "Udacity Deep Learning Notes 6-Model Evaluation",
+    "datePublished": "Sun Jan 21 2018 13:31:37 GMT+0800",
+    "dateModified": "Sun Jan 21 2018 12:31:32 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Huuuuusy",
@@ -340,6 +340,15 @@
     <!-- Left aligned menu below button -->
     
     
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Confusion-Matrix"><span class="post-toc-number">1.</span> <span class="post-toc-text">Confusion Matrix</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Accuracy"><span class="post-toc-number">2.</span> <span class="post-toc-text">Accuracy</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Regressioin-Indicator"><span class="post-toc-number">3.</span> <span class="post-toc-text">Regressioin Indicator</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Mean-Absolute-Error"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">Mean Absolute Error</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Mean-Squared-Error"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Mean Squared Error</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#R2-Error"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">R2 Error</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Error-Type"><span class="post-toc-number">4.</span> <span class="post-toc-text">Error Type</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Underfitting"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">Underfitting</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Overfitting"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">Overfitting</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Tradeoff"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">Tradeoff</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Model-Complexity-Graph"><span class="post-toc-number">5.</span> <span class="post-toc-text">Model Complexity Graph</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Cross-Validation"><span class="post-toc-number">6.</span> <span class="post-toc-text">Cross Validation</span></a></li></ol>
+    </ul>
+    
 
 
 
@@ -369,7 +378,7 @@
         
     
             <p class="article-headline-p">
-                Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3
+                Udacity Deep Learning Notes 6-Model Evaluation
             </p>
         </div>
 
@@ -388,7 +397,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Huuuuusy</strong>
-        <span>Oct 10, 2017</span>
+        <span>Jan 21, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -410,7 +419,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">Read this article on other devices</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC2UlEQVR42u3awU7DMBAE0P7/T8MVCWhn1gGC/XKqStr4GYllZ/14O/J6YGNjY2NjY2NjY9+S/YivL77o0/srd3585/Pr797J14yNjY29N/vFn/6FRyafnbHzNWNjY2Ofw04W9PydWfFLnpVvJTY2NjZ2zs6L03efSgpPXt6wsbGxsdt2ol3obFNuUcCwsbGx/wl7VlSuDfqTp/xBloaNjY19e/ZK3P9Xr391vo2NjY19Y/bsyg/r5PHQ81/GBWvGxsbG3pTdFo+VmKmNkNro6sWd2NjY2Eeyc8zsMGWx6IVjQNjY2Nh7s1v8SvuxElTlW1aEStjY2Nhbs58PZdtl5SPeIu6PNwsbGxv7THbbYCQbsbLFbUNycd3GxsbGvjF7VhhWhgd5SzNrgerxADY2NvY/Z+flJ+e1TUILHg4esLGxsTdlzwYAedy/HjYlbcmwbmNjY2NvwZ6NZq8qYLOjPHkZw8bGxj6BvXKAJvme2YHOPOrK78HGxsbelZ3/cz8rKm2rkwRPSauDjY2NfQ47+UBeqNZ/2n5qab6NjY2NvQV7JXBvtyaPrtpSGjVL2NjY2Juy2/i+Xe7syE6yQXXkhI2Njb01O79mYdAMnB/BjLYGGxsbe2t2EbInh2PiwcDs2GXenGBjY2OfwM5Htm3rMhswtCPkYSuCjY2NvTV71iq0m1WPadfLKjY2Nvam7KQI5bz1oH9WCLGxsbFPZq/g29ezUXEdHmFjY2Mfxm4Xl2zNDNyOHNoNwsbGxt6VPQuSZoyk8VgPm7CxsbFPY7fHLttQfnb/BWNdbGxs7MPY+UA3KVqzkUDSiuT3f3EnNjY29gHs5+1EG0LlxSYPsGbFFRsbGxu7LTl5Y3PtQPfFRmBjY2Njj4rQSjh1LR4bGxv7BHYeKrVRftLM5KUuKYE/kqVhY2Nj35jdPj4/QNOG+21jk4+QsbGxsXdln3NhY2NjY2NjY2Nj3+Z6B2h22LvngQcpAAAAAElFTkSuQmCC">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC40lEQVR42u3awVICMRAEUP7/p/VqFbJ2T0AxeXuiYGHzcrCdmdw+jrxu2NjY2NjY2NjY2G/JvsXXo/vv3//6zqNPv1nW3afJryVrxsbGxj6B/cOf/gf35MjZFiTPLTYRGxsb+wD2dThdLy5nJAGZrydfMzY2NjZ2vgUJNVlDXqJgY2NjY88C47psSKhtpGFjY2NjrzeVVlpC+VAhHxX8Ui8NGxsb++3ZK02fv3r9B/NtbGxs7Ldkt1ceS/nIdn38EK0cGxsbe1N2fhynHQC0xzeTMmM2csDGxsbem50j15tNSRAmd7ZbgI2Njb03Ow+b/MH5puRRlAdtUYpgY2Njb8RuI2oWKu34NgdH92NjY2Mfw06O1CSxNGtdrRQbP6wKGxsbe2v2yjA1D5J2tLAectjY2NjnsK/jaj1C1jci3+i6FMHGxsbemj0bBlwvJfnWetsLGxsb+xx2UmYkyCTAktfDhtHspBI2Njb2Fuw2HvJ2fxtXSVkyGydjY2Nj782etZZWWkUJrB0z1+MBbGxs7I3Y9Zfj6Gob+rNtzYe+2NjY2CewZ8di8oh6XXESbT02Njb2kex2lNseqXxCqyhvb2FjY2NvzV4Bt5vSxuSsjKlPKmFjY2P/W3Y+JMj/6c8LidlYYobHxsbGPo2djxDyQW8eb6/4NWxsbOxd2bMDOnmB0W5QO4ReqsCwsbGxt2DnbZ0kwPK2VAKYDQywsbGxT2bPWjltIykfMKwPLbCxsbFPYOcj2OSnk/vbFlUbb8WRHWxsbOwt2O2VH9/JA2wWlnW8YWNjY2/KXgmG69dtjD3rWfVUBBsbG3sL9iy08mBL4idvLT1tvo2NjY29HTsPkjZyZmGZf3c4HsDGxsY+kp1HS3twpy082uIEGxsbG/s6VNrSYqW11B7WwcbGxj6H3UZUG06zUUTerhqWItjY2NhbsGeD3iQI26b/9Tvt5mJjY2OfwD7nwsbGxsbGxsbGxn6b6xOtjexv6hhYmQAAAABJRU5ErkJggg==">
     
 </ul>
 
@@ -442,7 +451,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3&url=http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity Deep Learning Notes 6-Model Evaluation&url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -451,7 +460,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3&url=http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/index.html&via=Huuuuusy" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity Deep Learning Notes 6-Model Evaluation&url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/index.html&via=Huuuuusy" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -460,7 +469,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Facebook
             </li>
@@ -469,7 +478,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Google+
             </li>
@@ -478,7 +487,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/index.html&title=Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/index.html&title=Udacity Deep Learning Notes 6-Model Evaluation" target="_blank">
             <li class="mdl-menu__item">
                 Share to LinkedIn
             </li>
@@ -487,7 +496,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity Deep Learning Notes 6-Model Evaluation&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to QQ
             </li>
@@ -496,7 +505,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/index.html&text=Notes about Deep Learning in Coursera--Neural Networks and Deep Learning--Week 3" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/index.html&text=Udacity Deep Learning Notes 6-Model Evaluation" target="_blank">
             <li class="mdl-menu__item">
                 Share to Telegram
             </li>
@@ -511,13 +520,22 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>This blog is the note for the week 3 about the first course of Deep Learning in Coursera. I’ll paste my notes about this class and this week’s assignment, for reference only. What’s more, I’ve upload my whole assignment to <a href="https://github.com/huuuuusy/Coursera-Deep-Learning/tree/master/Course%201-Neural%20Networks%20and%20Deep%20Learning/Assignment/Week%203" target="_blank" rel="external">github</a>, and this is only a possible solution, hope you find a better way!</p>
-<p>P.S. You can download the notes in <a href="https://github.com/huuuuusy/Coursera-Deep-Learning/tree/master/Course%201-Neural%20Networks%20and%20Deep%20Learning/Note/week%203" target="_blank" rel="external">PFD version</a></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1510023741/Planar_data_classification_with_one_hidden_layer_-1_yrnlqv.jpg" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1510023741/Planar_data_classification_with_one_hidden_layer_-2_opsiew.jpg" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1510023741/Planar_data_classification_with_one_hidden_layer_-3_zbjmrd.jpg" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1510023741/Planar_data_classification_with_one_hidden_layer_-4_c1etdb.jpg" alt=""></p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1510023741/Planar_data_classification_with_one_hidden_layer_-5_dohxiw.jpg" alt=""></p>
+        <p>This post is about some basic conceptions of model evaluation.</p>
+<h1 id="Confusion-Matrix"><a href="#Confusion-Matrix" class="headerlink" title="Confusion Matrix"></a>Confusion Matrix</h1><p>For predicting two-categry data, there are 4 possible results: <strong>True Positives</strong>, <strong>False Negatives</strong>, <strong>False Positives</strong> and <strong>True Negatives</strong>. To explain these conpects clearly, we can reference the picture below.</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516504719/QQ%E6%88%AA%E5%9B%BE20180121031827_jxx54t.png" alt=""></p>
+<p>The blue dot represents the positive result while the red dot represents the negative result. Thus, the blue dots above the black line represent true positives, the blue dots below the line represents the false negatives, the red dots above the line represent the false positives and the red dots below the line represent the true negatives. The matrix in the picture above is the confusion matrix.</p>
+<h1 id="Accuracy"><a href="#Accuracy" class="headerlink" title="Accuracy"></a>Accuracy</h1><p><strong>Accuracy = (True Positives + True Negatives) / Total numbers</strong></p>
+<p>Thus, the accuracy of the example above is 11/14=78.57%.</p>
+<h1 id="Regressioin-Indicator"><a href="#Regressioin-Indicator" class="headerlink" title="Regressioin Indicator"></a>Regressioin Indicator</h1><h2 id="Mean-Absolute-Error"><a href="#Mean-Absolute-Error" class="headerlink" title="Mean Absolute Error"></a>Mean Absolute Error</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516506632/QQ%E6%88%AA%E5%9B%BE20180121034637_lqnt4v.png" alt=""></p>
+<h2 id="Mean-Squared-Error"><a href="#Mean-Squared-Error" class="headerlink" title="Mean Squared Error"></a>Mean Squared Error</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516506734/QQ%E6%88%AA%E5%9B%BE20180121034756_vnjtou.png" alt=""></p>
+<h2 id="R2-Error"><a href="#R2-Error" class="headerlink" title="R2 Error"></a>R2 Error</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516506772/QQ%E6%88%AA%E5%9B%BE20180121034925_l1khh8.png" alt=""></p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516506821/QQ%E6%88%AA%E5%9B%BE20180121034956_bl3h7x.png" alt=""></p>
+<h1 id="Error-Type"><a href="#Error-Type" class="headerlink" title="Error Type"></a>Error Type</h1><h2 id="Underfitting"><a href="#Underfitting" class="headerlink" title="Underfitting"></a>Underfitting</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/c_scale,w_869/v1516507670/QQ%E6%88%AA%E5%9B%BE20180121035708_ud3yim.png" alt=""></p>
+<h2 id="Overfitting"><a href="#Overfitting" class="headerlink" title="Overfitting"></a>Overfitting</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516507712/QQ%E6%88%AA%E5%9B%BE20180121035731_tjcggt.png" alt=""></p>
+<h2 id="Tradeoff"><a href="#Tradeoff" class="headerlink" title="Tradeoff"></a>Tradeoff</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516507748/QQ%E6%88%AA%E5%9B%BE20180121040638_szi5ie.png" alt=""></p>
+<h1 id="Model-Complexity-Graph"><a href="#Model-Complexity-Graph" class="headerlink" title="Model Complexity Graph"></a>Model Complexity Graph</h1><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516508905/QQ%E6%88%AA%E5%9B%BE20180121041937_v11wmy.png" alt=""></p>
+<h1 id="Cross-Validation"><a href="#Cross-Validation" class="headerlink" title="Cross Validation"></a>Cross Validation</h1><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516508904/QQ%E6%88%AA%E5%9B%BE20180121042232_fk0xvi.png" alt=""></p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516508901/QQ%E6%88%AA%E5%9B%BE20180121042253_dkoqxd.png" alt=""></p>
 
         
     
@@ -537,8 +555,8 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://hushiyu1995.com/2017/10/10/coursera-DL-Course1-week3/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation-/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -568,21 +586,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/10/11/coursera-DL-Course1-week4/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/10/07/coursera-DL-Course1-week2/" id="post_nav-older" class="next-content">
+        <a href="/2018/01/21/Image-Compression-Alogrithm-and-RGB-to-YUV-Transfer/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
