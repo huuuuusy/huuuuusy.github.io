@@ -339,6 +339,160 @@ void CAppConvert::YUVtoRGB(unsigned char *pYUV, unsigned char *pRGB) {
     </entry>
     
     <entry>
+      <title><![CDATA[Ubuntu Skill 1 -- Youdao Dictionary]]></title>
+      <url>/2018/01/21/Ubuntu-Skill-1-Youdao%20Dictionary/</url>
+      <content type="html"><![CDATA[<p>This blog shares a small skill about using youdao dictionary in Linux. The offical website provides the Linux version, while there are many mistakes in seting up period. Thus, this blog provides a simple way to use youdao in Terminal by calling the API with Python. The original blog is in <a href="http://blog.csdn.net/qq_21544879/article/details/51290222" target="_blank" rel="external">here</a>, and I’ve verified the feasibility.</p>
+<h1 id="Create-The-dict-py-File"><a href="#Create-The-dict-py-File" class="headerlink" title="Create The dict.py File"></a>Create The dict.py File</h1><p>Create a dict.py file in /usr/local/bin by using the command below:</p>
+<pre><code>sudo gedit /usr/local/bin/dict.py 
+</code></pre><p>Then copy the code in dict.py:</p>
+<pre><code>    #! /usr/bin/python  
+import re;  
+import urllib;  
+import urllib2;  
+import sys;  
+def debug():  
+    xml = open(&quot;word.xml&quot;).read();  
+    print get_text(xml);  
+    print get_elements_by_path(xml, &quot;custom-translation/content&quot;);  
+    #print_translations(xml, False, False);  
+
+def get_elements_by_path(xml, elem):  
+    if type(xml) == type(&apos;&apos;):  
+    xml = [xml];  
+    if type(elem) == type(&apos;&apos;):  
+    elem = elem.split(&apos;/&apos;);  
+    if (len(xml) == 0):  
+    return [];  
+    elif (len(elem) == 0):  
+    return xml;  
+    elif (len(elem) == 1):  
+    result = [];  
+    for item in xml:  
+        result += get_elements(item, elem[0]);  
+    return result;  
+    else:  
+    subitems = [];  
+    for item in xml:  
+        subitems += get_elements(item, elem[0]);  
+    return get_elements_by_path(subitems, elem[1:]);  
+
+textre = re.compile(&quot;&lt;\!\[CDATA\[(.*?)\]\]&quot;, re.DOTALL);  
+def get_text(xml):  
+    #print 10*&quot;...&quot;+&quot;\n&quot;
+    match = re.search(textre, xml);  
+    if not match:  
+    return xml;  
+    #print 40*&quot;...&quot;
+    #print match
+    #print 40*&quot;...&quot;
+    return match.group(1);  
+
+def get_elements(xml, elem):  
+    p = re.compile(&quot;&lt;&quot; + elem + &quot;&gt;&quot; + &quot;(.*?)&lt;/&quot; + elem + &quot;&gt;&quot;, re.DOTALL);  
+    it = p.finditer(xml);  
+    result = [];  
+    for m in it:  
+    result.append(m.group(1));  
+    return result;  
+
+GREEN = &quot;\033[1;32m&quot;;  
+DEFAULT = &quot;\033[0;49m&quot;;  
+BOLD = &quot;\033[1m&quot;;  
+UNDERLINE = &quot;\033[4m&quot;;  
+NORMAL = &quot;\033[m&quot;;  
+RED = &quot;\033[1;31m&quot;  
+
+def crawl_xml(queryword):  
+    return urllib2.urlopen(&quot;http://dict.yodao.com/search?keyfrom=dict.python&amp;q=&quot; + urllib.quote_plus(queryword) + &quot;&amp;xmlDetail=true&amp;doctype=xml&quot;).read();  
+
+def print_translations(xml, with_color, detailed):  
+    #print xml;  
+    original_query = get_elements(xml, &quot;original-query&quot;);  
+    queryword = get_text(original_query[0]);  
+    custom_translations = get_elements(xml, &quot;custom-translation&quot;);  
+    print BOLD + UNDERLINE + queryword + NORMAL;  
+    translated = False;  
+
+    for cus in custom_translations:  
+    source = get_elements_by_path(cus, &quot;source/name&quot;);  
+
+    print RED + &quot;Translations from &quot; + source[0] + DEFAULT;  
+    contents = get_elements_by_path(cus, &quot;translation/content&quot;);  
+    if with_color:  
+        for content in contents[0:5]:  
+            print GREEN + get_text(content) + DEFAULT;  
+    else:  
+        for content in contents[0:5]:  
+            print get_text(content);  
+    translated = True;  
+    yodao_translations = get_elements(xml, &quot;yodao-web-dict&quot;);  
+    printed = False;  
+    for trans in yodao_translations:  
+    webtrans = get_elements(trans, &quot;web-translation&quot;);  
+    for web in webtrans[0:5]:  
+        if not printed:  
+            print RED + &quot;Translations from yodao:&quot; + DEFAULT;  
+            printed = True;  
+            keys = get_elements(web, &quot;key&quot;);  
+        values = get_elements_by_path(web, &quot;trans/value&quot;);  
+        summaries = get_elements_by_path(web, &quot;trans/summary&quot;);  
+        key = keys[0].strip();  
+        value = values[0].strip();  
+        #summary = summaries[0].strip();  
+            #lines = get_elements(summary, &quot;line&quot;);  
+        if with_color:  
+            print BOLD +  get_text(key) + &quot;:\t&quot; +DEFAULT + GREEN + get_text(value) + NORMAL;  
+            #for line in lines:  
+            #    print GREEN + get_text(line) + DEFAULT;  
+            #print get_text(summary) + DEFAULT;  
+        else:  
+            print get_text(value);  
+            #print get_text(summary);  
+                #translated = True;  
+                #if not detailed:  
+                #        break  
+
+def usage():  
+    print &quot;usage: dict.py word_to_translate&quot;;  
+def main(argv):  
+    if len(argv) &lt;= 0:  
+    usage();  
+    #debug();  
+    sys.exit(1);  
+    xml = crawl_xml(&quot;&quot;.join(argv));  
+    print_translations(xml, True, False);  
+    #print_translations(xml, True, True);  
+    #print_translations(xml, False, False);  
+
+if __name__ == &quot;__main__&quot;:  
+    main(sys.argv[1:]);
+</code></pre><h1 id="Create-The-Youdao-File"><a href="#Create-The-Youdao-File" class="headerlink" title="Create The Youdao File"></a>Create The Youdao File</h1><p>Create a youdao file in /usr/local/bin by using the command below:</p>
+<pre><code>sudo gedit /usr/local/bin/youdao 
+</code></pre><p>Then copy the code below in the file:</p>
+<pre><code>#!/bin/bash
+python /usr/local/bin/dict.py $1;
+echo -n &quot;input:&quot;;
+while read input;
+do
+    python /usr/local/bin/dict.py ${input};
+    echo -n &quot;input:&quot;;
+done
+</code></pre><h1 id="Add-Permission-for-Files"><a href="#Add-Permission-for-Files" class="headerlink" title="Add Permission for Files"></a>Add Permission for Files</h1><pre><code>sudo chmod+ x /usr/local/bin/dict.py
+sudo chmod+ x /usr/local/bin/youdao 
+</code></pre><h1 id="Testing"><a href="#Testing" class="headerlink" title="Testing"></a>Testing</h1><p>Open the terminal then search the meaning of a word as the image below:</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516706769/2018-01-23_19-21-52%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_ire4ha.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Ubuntu </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Glory Mession App Development]]></title>
       <url>/2018/01/18/glory-mession-app-development/</url>
       <content type="html"><![CDATA[<p>Hi everyone！</p>

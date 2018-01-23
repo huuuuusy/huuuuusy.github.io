@@ -39,7 +39,7 @@
     
     <title>
         
-            Udacity Deep Learning Notes 3-Neural Network Introduction | 
+            Ubuntu Skill 1 -- Youdao Dictionary | 
         
         HU SHIYU
     </title>
@@ -228,18 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Udacity Deep Learning Notes 3-Neural Network Introduction | HU SHIYU">
+    <meta property="og:title" content="Ubuntu Skill 1 -- Youdao Dictionary | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Sat Nov 25 2017 21:30:37 GMT+0800" />
-        <meta property="article:modified_time" content="Sat Nov 25 2017 13:36:18 GMT+0800" />
+        <meta property="article:published_time" content="Sun Jan 21 2018 00:31:37 GMT+0800" />
+        <meta property="article:modified_time" content="Tue Jan 23 2018 21:37:21 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Udacity Deep Learning Notes 3-Neural Network Introduction | HU SHIYU">
+    <meta name="twitter:title" content="Ubuntu Skill 1 -- Youdao Dictionary | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -247,7 +247,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" />
+        <link rel="canonical" href="http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -259,10 +259,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html",
-    "headline": "Udacity Deep Learning Notes 3-Neural Network Introduction",
-    "datePublished": "Sat Nov 25 2017 21:30:37 GMT+0800",
-    "dateModified": "Sat Nov 25 2017 13:36:18 GMT+0800",
+    "mainEntityOfPage": "http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/index.html",
+    "headline": "Ubuntu Skill 1 -- Youdao Dictionary",
+    "datePublished": "Sun Jan 21 2018 00:31:37 GMT+0800",
+    "dateModified": "Tue Jan 23 2018 21:37:21 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Huuuuusy",
@@ -346,7 +346,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Perceptron"><span class="post-toc-number">1.</span> <span class="post-toc-text">Perceptron</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Sample-NN"><span class="post-toc-number">2.</span> <span class="post-toc-text">Sample NN</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Gradient-Descent"><span class="post-toc-number">3.</span> <span class="post-toc-text">Gradient Descent</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#SSE"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">SSE</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Basic"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Basic</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Algorithm"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">Algorithm</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Define-Some-Function"><span class="post-toc-number">3.3.1.</span> <span class="post-toc-text">Define Some Function</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Define-the-sigmoid-function-for-activations"><span class="post-toc-number">3.3.1.1.</span> <span class="post-toc-text">Define the sigmoid function for activations</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Define-the-derivative-of-the-sigmoid-function"><span class="post-toc-number">3.3.1.2.</span> <span class="post-toc-text">Define the derivative of the sigmoid function</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Set-Values"><span class="post-toc-number">3.3.2.</span> <span class="post-toc-text">Set Values</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Input-Data"><span class="post-toc-number">3.3.2.1.</span> <span class="post-toc-text">Input Data</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Set-Target"><span class="post-toc-number">3.3.2.2.</span> <span class="post-toc-text">Set Target</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Input-to-Output-Weights"><span class="post-toc-number">3.3.2.3.</span> <span class="post-toc-text">Input to Output Weights</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Learning-Rate"><span class="post-toc-number">3.3.2.4.</span> <span class="post-toc-text">Learning Rate</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Calculate"><span class="post-toc-number">3.3.3.</span> <span class="post-toc-text">Calculate</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Linear-Combination-of-Input-Data-and-Weight"><span class="post-toc-number">3.3.3.1.</span> <span class="post-toc-text">Calculate the Linear Combination of Input Data and Weight</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Output-of-NN"><span class="post-toc-number">3.3.3.2.</span> <span class="post-toc-text">Calculate the Output of NN</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Error"><span class="post-toc-number">3.3.3.3.</span> <span class="post-toc-text">Calculate the Error</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Gradient-of-Output"><span class="post-toc-number">3.3.3.4.</span> <span class="post-toc-text">Calculate the Gradient of Output</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Error-Term"><span class="post-toc-number">3.3.3.5.</span> <span class="post-toc-text">Calculate the Error Term</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Update-Weights"><span class="post-toc-number">3.3.4.</span> <span class="post-toc-text">Update Weights</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#For-Complex-Data"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">For Complex Data</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#MSE"><span class="post-toc-number">3.4.1.</span> <span class="post-toc-text">MSE</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Initialization"><span class="post-toc-number">3.4.2.</span> <span class="post-toc-text">Initialization</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Example-Codes"><span class="post-toc-number">3.4.3.</span> <span class="post-toc-text">Example Codes</span></a></li></ol></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Create-The-dict-py-File"><span class="post-toc-number">1.</span> <span class="post-toc-text">Create The dict.py File</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Create-The-Youdao-File"><span class="post-toc-number">2.</span> <span class="post-toc-text">Create The Youdao File</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Add-Permission-for-Files"><span class="post-toc-number">3.</span> <span class="post-toc-text">Add Permission for Files</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Testing"><span class="post-toc-number">4.</span> <span class="post-toc-text">Testing</span></a></li></ol>
     </ul>
     
 
@@ -378,7 +378,7 @@
         
     
             <p class="article-headline-p">
-                Udacity Deep Learning Notes 3-Neural Network Introduction
+                Ubuntu Skill 1 -- Youdao Dictionary
             </p>
         </div>
 
@@ -397,7 +397,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Huuuuusy</strong>
-        <span>Nov 25, 2017</span>
+        <span>Jan 21, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -419,7 +419,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">Read this article on other devices</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOCAAAAABd2qZ5AAADk0lEQVR42u3ay47bQAwEwP3/n06uARaWu8mRoAClk2FYjykd6Obw54/jn+MHAQ4cOHDgwIEDBw4cL+b4iY/fZ3365tO57TXzq63WggMHDhw4buD4UoqCxSfnJp+Tu29+iQMHDhw4nuS4LmlJefv0zWwxyXWS57ymx4EDBw4cb+C4hkiW18bFGQ0OHDhw4PhfOPKymjcBzxZRHDhw4MDxBo62gO23oPINp5bsoV4pDhw4cOBYDzS8//Oj8x04cODAgeMXR3ucLZxJEW0jYr0iHDhw4MBxlCMvVO1Zm0bebHQ7f34cOHDgwPE8R1L8ksGFvDTm0bH9fZ1oceDAgQPHgmMzQJAvaRb5zr6kOtHiwIEDB44RR36hJD4lS53h7p8EBw4cOHA8yTELV+1jzZa3eQHD+Q4cOHDgwLHg2AS2WZBLiuj1L9vrfyn8OHDgwIHjBo5TG0KzAlk08uInLBqLOHDgwIHjKEd+obOBbRYC21e12nbCgQMHDhwLjjZW7cPbLEDmkW9VaHHgwIEDx6HMcscDJUztUMWs+VjswuHAgQMHjkMceayaNemSZl8+PDHbvqoTLQ4cOHDgGHG0wwr5YmZDCV9CVzy4EP1RwIEDBw4cRzmSG2wGDmYFsv18rDmIAwcOHDiOcswWfyqe5VfLBymigIoDBw4cOI5ytANt+e3zZcwQ8+2l1UADDhw4cOAYceSBpy3AOeWskOcDGUWhxYEDBw4cC442jOUbQptlbwYU2oCKAwcOHDju4JiNDuSlLg9vm+h4rNDiwIEDB44bONol1S25EVC77RStFAcOHDhwPMKRx6SzsSpvVrbbUR9fJA4cOHDguIHjS/tsfcukJLc0SUGN/iLgwIEDB46jHKduPzs3Ad00KKN74cCBAweO2ziSbzYRKwlg+YLbUBc1B3HgwIEDxyMcSRNw2JiLB+lm4xe3FFocOHDgwFFy5I28drhhFhc3cW7VHMSBAwcOHCOO9tg0E5NQty/e7fc4cODAgeMsx6wll28XXfPNwuHs+h+BcODAgQPHDRybptup0hgVxXhj6di2Ew4cOHDgWHC0Lbl8sKBtI87al9f3rQstDhw4cOB4kKONc20JbDei8qfFgQMHDhzv5MiX2g7DteMReUMTBw4cOHA8z5E36fK4lRTIzVBC+2Jw4MCBA8czHLMh5nYMbsZaR7IYAgcOHDhw3MHhwIEDBw4cOHDgwIEDx8uOv0pExD2edRuYAAAAAElFTkSuQmCC">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC00lEQVR42u3aQU7EQAwEwP3/p+GKBGTbdkCRp3JCwCapQaI17nl9HHm9sLGxsbGxsbGxsR/JfsXX9ae+fv+HRwZ3vr7P95+W3xkbGxt7NfvNv/4Ak/zm9Wevn5485c0TsbGxsQ9gV6PlOmbmS3Ydn9UoxcbGxsa+3gYksDzkEio2NjY29jzAkoWoBlV1Y4ONjY2NXR3QVDcqvXirLtyfz9KwsbGxH8/OS9PnfP2v/TY2Njb2g9nVa1IPzLcxozfHxsbGXsrOgyE/gjMvBqpHP5MFwsbGxt7N7hW3eSVcjat5zYCNjY19DntSCVQjJBni9+It2cBgY2Njb2VPCtToYUEc3lsDlPttbGxs7BXs3naiyusVCa/BhY2NjX0COwmV3nJUy4Z8bJTHLTY2NvYJ7HxMk+OTRextV3p/EmxsbOzd7OqI565tQx5I+R2wsbGxsecj+2o45duYPDILOzBsbGzsFeweo1oqVIdWk4Lh1/tgY2NjL2XfFVF5PVCtexPeaKiEjY2NvYjdKwbyTchd5XEz3rCxsbGXsvNw6hUDecBUj/6U62RsbGzsI9mTQErukwOS8HvzXGxsbOzV7Lz0TUi9wrh6z7wMxsbGxj6BnQ/lJyOhCbi3uNjY2NinsfOKd7JMeXF716EfbGxs7BPY+bCm+tK9avauIRc2Njb2mewk2CavmwN6cdWcpWFjY2OvYzdvXQy8wkiodYgHGxsb+0z2vcdlctj1NmZS8WJjY2PvZve2DclxnGrYVIdZ5doYGxsbeym7V/QmYZYwqtVvvqyFw5fY2NjYK9j5+D4/vpOP+CfFw+jwJTY2NvY6dnWbkUdLdXszuX59T2xsbGzsVjFQHfrnC1SunLGxsbGxgwdXx1L5OClZlOaRHWxsbOxF7CSK8uCZH/2pHt9pBhg2Njb2CnZvWJMP/eef6o2fsLGxsU9gn3NhY2NjY2NjY2NjP+b6BHyXrpH2iz28AAAAAElFTkSuQmCC">
     
 </ul>
 
@@ -451,7 +451,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity Deep Learning Notes 3-Neural Network Introduction&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Ubuntu Skill 1 -- Youdao Dictionary&url=http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -460,7 +460,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity Deep Learning Notes 3-Neural Network Introduction&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&via=Huuuuusy" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Ubuntu Skill 1 -- Youdao Dictionary&url=http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/index.html&via=Huuuuusy" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -469,7 +469,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Facebook
             </li>
@@ -478,7 +478,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Google+
             </li>
@@ -487,7 +487,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&title=Udacity Deep Learning Notes 3-Neural Network Introduction" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/index.html&title=Ubuntu Skill 1 -- Youdao Dictionary" target="_blank">
             <li class="mdl-menu__item">
                 Share to LinkedIn
             </li>
@@ -496,7 +496,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity Deep Learning Notes 3-Neural Network Introduction&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Ubuntu Skill 1 -- Youdao Dictionary&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to QQ
             </li>
@@ -505,7 +505,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&text=Udacity Deep Learning Notes 3-Neural Network Introduction" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/index.html&text=Ubuntu Skill 1 -- Youdao Dictionary" target="_blank">
             <li class="mdl-menu__item">
                 Share to Telegram
             </li>
@@ -520,122 +520,147 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>This post is the introduction of neural network. I will list some fundamental concepts which are really important in DNN. </p>
-<h1 id="Perceptron"><a href="#Perceptron" class="headerlink" title="Perceptron"></a>Perceptron</h1><p>In machine learning, the <a href="https://en.wikipedia.org/wiki/Perceptron" target="_blank" rel="external">perceptron</a> is an algorithm for supervised learning of binary classifiers (functions that can decide whether an input, represented by a vector of numbers, belongs to some specific class or not).</p>
-<p>Perceptions are the basic unit of neural network and each of them decides how to classify the data according the inputs. Perceptions always use weights to judge the importance of input data.</p>
-<p>The basic formula of perceptron is</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584269/perceptron-equation-2_u0hi7o.gif" alt=""></p>
-<p>At beginning, the weight and bias will  be initialized randomly. By using learning algorithm like gradient descent, the values of bias and weight can be updated. Which means the new sample will be classified correctly.</p>
-<h1 id="Sample-NN"><a href="#Sample-NN" class="headerlink" title="Sample NN"></a>Sample NN</h1><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584618/simple-neuron_fpg0dh.png" alt=""></p>
-<p>This is a very simple NN, which is used to show the basic structure.</p>
-<p>x means input, w means weight, f(h) means activation function, the circule means unit and the rectangle means calculation.</p>
-<p>Some common activation functions: sigmoid, tanh and softmax.</p>
-<p>For sigmoid function:</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584898/QQ%E6%88%AA%E5%9B%BE20171125124121_xdaky7.png" alt=""></p>
-<p>A simple example for the NN structure above:</p>
-<pre><code>import numpy as np
+        <p>This blog shares a small skill about using youdao dictionary in Linux. The offical website provides the Linux version, while there are many mistakes in seting up period. Thus, this blog provides a simple way to use youdao in Terminal by calling the API with Python. The original blog is in <a href="http://blog.csdn.net/qq_21544879/article/details/51290222" target="_blank" rel="external">here</a>, and I’ve verified the feasibility.</p>
+<h1 id="Create-The-dict-py-File"><a href="#Create-The-dict-py-File" class="headerlink" title="Create The dict.py File"></a>Create The dict.py File</h1><p>Create a dict.py file in /usr/local/bin by using the command below:</p>
+<pre><code>sudo gedit /usr/local/bin/dict.py 
+</code></pre><p>Then copy the code in dict.py:</p>
+<pre><code>    #! /usr/bin/python  
+import re;  
+import urllib;  
+import urllib2;  
+import sys;  
+def debug():  
+    xml = open(&quot;word.xml&quot;).read();  
+    print get_text(xml);  
+    print get_elements_by_path(xml, &quot;custom-translation/content&quot;);  
+    #print_translations(xml, False, False);  
 
-def sigmoid(x):
-# TODO: Implement sigmoid function
-return 1/(1 + np.exp(-x))
+def get_elements_by_path(xml, elem):  
+    if type(xml) == type(&apos;&apos;):  
+    xml = [xml];  
+    if type(elem) == type(&apos;&apos;):  
+    elem = elem.split(&apos;/&apos;);  
+    if (len(xml) == 0):  
+    return [];  
+    elif (len(elem) == 0):  
+    return xml;  
+    elif (len(elem) == 1):  
+    result = [];  
+    for item in xml:  
+        result += get_elements(item, elem[0]);  
+    return result;  
+    else:  
+    subitems = [];  
+    for item in xml:  
+        subitems += get_elements(item, elem[0]);  
+    return get_elements_by_path(subitems, elem[1:]);  
 
-inputs = np.array([0.7, -0.3])
-weights = np.array([0.1, 0.8])
-bias = -0.1
+textre = re.compile(&quot;&lt;\!\[CDATA\[(.*?)\]\]&quot;, re.DOTALL);  
+def get_text(xml):  
+    #print 10*&quot;...&quot;+&quot;\n&quot;
+    match = re.search(textre, xml);  
+    if not match:  
+    return xml;  
+    #print 40*&quot;...&quot;
+    #print match
+    #print 40*&quot;...&quot;
+    return match.group(1);  
 
-# TODO: Calculate the output
-output = sigmoid(np.dot(weights, inputs) + bias)
+def get_elements(xml, elem):  
+    p = re.compile(&quot;&lt;&quot; + elem + &quot;&gt;&quot; + &quot;(.*?)&lt;/&quot; + elem + &quot;&gt;&quot;, re.DOTALL);  
+    it = p.finditer(xml);  
+    result = [];  
+    for m in it:  
+    result.append(m.group(1));  
+    return result;  
 
-print(&apos;Output:&apos;)
-print(output)
-</code></pre><h1 id="Gradient-Descent"><a href="#Gradient-Descent" class="headerlink" title="Gradient Descent"></a>Gradient Descent</h1><p><a href="https://en.wikipedia.org/wiki/Gradient_descent" target="_blank" rel="external">Gradient descent</a> is a first-order iterative optimization algorithm for finding the minimum of a function. In DNN, it is used to update the weights.</p>
-<h2 id="SSE"><a href="#SSE" class="headerlink" title="SSE"></a>SSE</h2><p>We use sum of the suqred errors(SSE) to calculate the performence of present weights and bias.</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585299/QQ%E6%88%AA%E5%9B%BE20171125124801_plh4eu.png" alt=""></p>
-<p>Since we’ve known the output of NN is calculated by weights, we can get:</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585411/QQ%E6%88%AA%E5%9B%BE20171125124958_usmov2.png" alt=""></p>
-<h2 id="Basic"><a href="#Basic" class="headerlink" title="Basic"></a>Basic</h2><p>The gradient captures all the partial derivative information of a scalar-valued multivariable function. You can learn the basic concept about gradient in <a href="https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient" target="_blank" rel="external">KHANACADEMY</a>.</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585560/QQ%E6%88%AA%E5%9B%BE20171125125230_q6x9ot.png" alt=""></p>
-<p>All in all, by calculating the gradient of output, we can update the weights to reduce SSE.</p>
-<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><p>First, we should calculate the error term.</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585978/QQ%E6%88%AA%E5%9B%BE20171125125919_gbo9o3.png" alt=""></p>
-<p>The weight can be updated by the formula below:</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511586108/QQ%E6%88%AA%E5%9B%BE20171125130138_jlt45k.png" alt=""></p>
-<p>The whole process can be seperated step by step as below.</p>
-<h3 id="Define-Some-Function"><a href="#Define-Some-Function" class="headerlink" title="Define Some Function"></a>Define Some Function</h3><h4 id="Define-the-sigmoid-function-for-activations"><a href="#Define-the-sigmoid-function-for-activations" class="headerlink" title="Define the sigmoid function for activations"></a>Define the sigmoid function for activations</h4><pre><code>def sigmoid(x):
-    return 1/(1+np.exp(-x))
-</code></pre><h4 id="Define-the-derivative-of-the-sigmoid-function"><a href="#Define-the-derivative-of-the-sigmoid-function" class="headerlink" title="Define the derivative of the sigmoid function"></a>Define the derivative of the sigmoid function</h4><pre><code>def sigmoid_prime(x):
-    return sigmoid(x) * (1 - sigmoid(x))
-</code></pre><h3 id="Set-Values"><a href="#Set-Values" class="headerlink" title="Set Values"></a>Set Values</h3><h4 id="Input-Data"><a href="#Input-Data" class="headerlink" title="Input Data"></a>Input Data</h4><pre><code>x = np.array([0.1,0.3])
-</code></pre><h4 id="Set-Target"><a href="#Set-Target" class="headerlink" title="Set Target"></a>Set Target</h4><pre><code>y = 0.2
-</code></pre><h4 id="Input-to-Output-Weights"><a href="#Input-to-Output-Weights" class="headerlink" title="Input to Output Weights"></a>Input to Output Weights</h4><pre><code>weights = np.array([-0.8,0.5])
-</code></pre><h4 id="Learning-Rate"><a href="#Learning-Rate" class="headerlink" title="Learning Rate"></a>Learning Rate</h4><pre><code>learnrate = 0.5
-</code></pre><h3 id="Calculate"><a href="#Calculate" class="headerlink" title="Calculate"></a>Calculate</h3><h4 id="Calculate-the-Linear-Combination-of-Input-Data-and-Weight"><a href="#Calculate-the-Linear-Combination-of-Input-Data-and-Weight" class="headerlink" title="Calculate the Linear Combination of Input Data and Weight"></a>Calculate the Linear Combination of Input Data and Weight</h4><pre><code>h = np.dot(x,weights)
-</code></pre><h4 id="Calculate-the-Output-of-NN"><a href="#Calculate-the-Output-of-NN" class="headerlink" title="Calculate the Output of NN"></a>Calculate the Output of NN</h4><pre><code>nn_output = sigmoid(h)
-</code></pre><h4 id="Calculate-the-Error"><a href="#Calculate-the-Error" class="headerlink" title="Calculate the Error"></a>Calculate the Error</h4><pre><code>error = y - nn_output
-</code></pre><h4 id="Calculate-the-Gradient-of-Output"><a href="#Calculate-the-Gradient-of-Output" class="headerlink" title="Calculate the Gradient of Output"></a>Calculate the Gradient of Output</h4><pre><code>output_grad = sigmoid_prime(h)
-</code></pre><h4 id="Calculate-the-Error-Term"><a href="#Calculate-the-Error-Term" class="headerlink" title="Calculate the Error Term"></a>Calculate the Error Term</h4><pre><code>error_term = error * output_grad
-</code></pre><h3 id="Update-Weights"><a href="#Update-Weights" class="headerlink" title="Update Weights"></a>Update Weights</h3><pre><code>del_w = learnrate * error_term * x
-</code></pre><h2 id="For-Complex-Data"><a href="#For-Complex-Data" class="headerlink" title="For Complex Data"></a>For Complex Data</h2><h3 id="MSE"><a href="#MSE" class="headerlink" title="MSE"></a>MSE</h3><p>SSE is mainly used in simple calculation, while MSE(mean of the square errors) is used for calculating the error of complex input data.</p>
-<p>For MSE, the formula is like:</p>
-<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511587266/QQ%E6%88%AA%E5%9B%BE20171125132053_trqwlt.png" alt=""></p>
-<h3 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h3><p>Since we have more input data, the weights need to be initialized randomly to keep the value of inputs close to zero.</p>
-<p>One possible solution is using a normal distribution with the center of zero to initialize the weights.</p>
-<pre><code>weights = np.random.normal(scale=1/n_features**.5, size=n_features)
-</code></pre><h3 id="Example-Codes"><a href="#Example-Codes" class="headerlink" title="Example Codes"></a>Example Codes</h3><pre><code>import numpy as np
-from data_prep import features, targets, features_test, targets_test
-</code></pre><p>Calculate the sigmoid:</p>
-<pre><code>def sigmoid(x):
-    return 1 / (1 + np.exp(-x))
-</code></pre><p>Use same seed to make debugging easier:</p>
-<pre><code>np.random.seed(42)
-n_records, n_features = features.shape
-last_loss = None
-</code></pre><p>Initialize weights:</p>
-<pre><code>weights = np.random.normal(scale=1 / n_features**.5, size=n_features)
-</code></pre><p>Set hyperparameters of NN:</p>
-<pre><code>epochs = 1000
-learnrate = 0.5
-</code></pre><p>Calcualte in NN:</p>
-<pre><code>for e in range(epochs):
-    del_w = np.zeros(weights.shape)
-    for x, y in zip(features.values, targets):
-        # Loop through all records, x is the input, y is the target
+GREEN = &quot;\033[1;32m&quot;;  
+DEFAULT = &quot;\033[0;49m&quot;;  
+BOLD = &quot;\033[1m&quot;;  
+UNDERLINE = &quot;\033[4m&quot;;  
+NORMAL = &quot;\033[m&quot;;  
+RED = &quot;\033[1;31m&quot;  
 
-        # Note: We haven&apos;t included the h variable from the previous
-        #       lesson. You can add it if you want, or you can calculate
-        #       the h together with the output
+def crawl_xml(queryword):  
+    return urllib2.urlopen(&quot;http://dict.yodao.com/search?keyfrom=dict.python&amp;q=&quot; + urllib.quote_plus(queryword) + &quot;&amp;xmlDetail=true&amp;doctype=xml&quot;).read();  
 
-        # TODO: Calculate the output
-        output = sigmoid(np.dot(weights, x))
+def print_translations(xml, with_color, detailed):  
+    #print xml;  
+    original_query = get_elements(xml, &quot;original-query&quot;);  
+    queryword = get_text(original_query[0]);  
+    custom_translations = get_elements(xml, &quot;custom-translation&quot;);  
+    print BOLD + UNDERLINE + queryword + NORMAL;  
+    translated = False;  
 
-        # TODO: Calculate the error
-        error = y - output
+    for cus in custom_translations:  
+    source = get_elements_by_path(cus, &quot;source/name&quot;);  
 
-        # TODO: Calculate the error term
-        error_term = error * output *(1 - output)
+    print RED + &quot;Translations from &quot; + source[0] + DEFAULT;  
+    contents = get_elements_by_path(cus, &quot;translation/content&quot;);  
+    if with_color:  
+        for content in contents[0:5]:  
+            print GREEN + get_text(content) + DEFAULT;  
+    else:  
+        for content in contents[0:5]:  
+            print get_text(content);  
+    translated = True;  
+    yodao_translations = get_elements(xml, &quot;yodao-web-dict&quot;);  
+    printed = False;  
+    for trans in yodao_translations:  
+    webtrans = get_elements(trans, &quot;web-translation&quot;);  
+    for web in webtrans[0:5]:  
+        if not printed:  
+            print RED + &quot;Translations from yodao:&quot; + DEFAULT;  
+            printed = True;  
+            keys = get_elements(web, &quot;key&quot;);  
+        values = get_elements_by_path(web, &quot;trans/value&quot;);  
+        summaries = get_elements_by_path(web, &quot;trans/summary&quot;);  
+        key = keys[0].strip();  
+        value = values[0].strip();  
+        #summary = summaries[0].strip();  
+            #lines = get_elements(summary, &quot;line&quot;);  
+        if with_color:  
+            print BOLD +  get_text(key) + &quot;:\t&quot; +DEFAULT + GREEN + get_text(value) + NORMAL;  
+            #for line in lines:  
+            #    print GREEN + get_text(line) + DEFAULT;  
+            #print get_text(summary) + DEFAULT;  
+        else:  
+            print get_text(value);  
+            #print get_text(summary);  
+                #translated = True;  
+                #if not detailed:  
+                #        break  
 
-        # TODO: Calculate the change in weights for this sample
-        #       and add it to the total weight change
-        del_w += error_term * x
+def usage():  
+    print &quot;usage: dict.py word_to_translate&quot;;  
+def main(argv):  
+    if len(argv) &lt;= 0:  
+    usage();  
+    #debug();  
+    sys.exit(1);  
+    xml = crawl_xml(&quot;&quot;.join(argv));  
+    print_translations(xml, True, False);  
+    #print_translations(xml, True, True);  
+    #print_translations(xml, False, False);  
 
-    # TODO: Update weights using the learning rate and the average change in weights
-    weights += learnrate * del_w / n_records
+if __name__ == &quot;__main__&quot;:  
+    main(sys.argv[1:]);
+</code></pre><h1 id="Create-The-Youdao-File"><a href="#Create-The-Youdao-File" class="headerlink" title="Create The Youdao File"></a>Create The Youdao File</h1><p>Create a youdao file in /usr/local/bin by using the command below:</p>
+<pre><code>sudo gedit /usr/local/bin/youdao 
+</code></pre><p>Then copy the code below in the file:</p>
+<pre><code>#!/bin/bash
+python /usr/local/bin/dict.py $1;
+echo -n &quot;input:&quot;;
+while read input;
+do
+    python /usr/local/bin/dict.py ${input};
+    echo -n &quot;input:&quot;;
+done
+</code></pre><h1 id="Add-Permission-for-Files"><a href="#Add-Permission-for-Files" class="headerlink" title="Add Permission for Files"></a>Add Permission for Files</h1><pre><code>sudo chmod+ x /usr/local/bin/dict.py
+sudo chmod+ x /usr/local/bin/youdao 
+</code></pre><h1 id="Testing"><a href="#Testing" class="headerlink" title="Testing"></a>Testing</h1><p>Open the terminal then search the meaning of a word as the image below:</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516706769/2018-01-23_19-21-52%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_ire4ha.png" alt=""></p>
 
-    # Printing out the mean square error on the training set
-    if e % (epochs / 10) == 0:
-        out = sigmoid(np.dot(features, weights))
-        loss = np.mean((out - targets) ** 2)
-        if last_loss and last_loss &lt; loss:
-            print(&quot;Train loss: &quot;, loss, &quot;  WARNING - Loss Increasing&quot;)
-        else:
-            print(&quot;Train loss: &quot;, loss)
-        last_loss = loss
-</code></pre><p>Calculate accuracy on test data:</p>
-<pre><code>tes_out = sigmoid(np.dot(features_test, weights))
-predictions = tes_out &gt; 0.5
-accuracy = np.mean(predictions == targets_test)
-print(&quot;Prediction accuracy: {:.3f}&quot;.format(accuracy))
-</code></pre>
         
     
 
@@ -654,8 +679,8 @@ print(&quot;Prediction accuracy: {:.3f}&quot;.format(accuracy))
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hushiyu1995.com/2018/01/21/Ubuntu-Skill-1-Youdao Dictionary/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -685,7 +710,7 @@ print(&quot;Prediction accuracy: {:.3f}&quot;.format(accuracy))
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/" id="post_nav-newer" class="prev-content">
+        <a href="/2018/01/21/Image-Compression-Alogrithm-and-RGB-to-YUV-Transfer/" id="post_nav-newer" class="prev-content">
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
             </button>
@@ -699,7 +724,7 @@ print(&quot;Prediction accuracy: {:.3f}&quot;.format(accuracy))
 
     <!-- Next Nav -->
     
-        <a href="/2017/11/25/Udacity-DL-Notes2-Matrix and Numpy/" id="post_nav-older" class="next-content">
+        <a href="/2018/01/18/glory-mession-app-development/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
