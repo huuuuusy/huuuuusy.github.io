@@ -39,7 +39,7 @@
     
     <title>
         
-            Archives: 2018 | 
+            Udacity Deep Learning Notes 6-Model Evaluation | 
         
         HU SHIYU
     </title>
@@ -228,15 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Archives: 2018 | HU SHIYU">
+    <meta property="og:title" content="Udacity Deep Learning Notes 6-Model Evaluation | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
+        <meta property="article:published_time" content="Sun Jan 21 2018 13:31:37 GMT+0800" />
+        <meta property="article:modified_time" content="Sun Jan 21 2018 12:31:32 GMT+0800" />
+    
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Archives: 2018 | HU SHIYU">
+    <meta name="twitter:title" content="Udacity Deep Learning Notes 6-Model Evaluation | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -244,13 +247,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://hushiyu1995.com/archives/2018/index.html" />
+        <link rel="canonical" href="http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/index.html",
+    "headline": "Udacity Deep Learning Notes 6-Model Evaluation",
+    "datePublished": "Sun Jan 21 2018 13:31:37 GMT+0800",
+    "dateModified": "Sun Jan 21 2018 12:31:32 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Huuuuusy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpg"
+        },
+        "description": ""
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "HU SHIYU",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.jpg"
+        }
+    },
+    "keywords": "",
+    "description": "",
+}
+</script>
 
 
     
@@ -284,346 +317,294 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Confusion-Matrix"><span class="post-toc-number">1.</span> <span class="post-toc-text">Confusion Matrix</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Accuracy"><span class="post-toc-number">2.</span> <span class="post-toc-text">Accuracy</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Regressioin-Indicator"><span class="post-toc-number">3.</span> <span class="post-toc-text">Regressioin Indicator</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Mean-Absolute-Error"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">Mean Absolute Error</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Mean-Squared-Error"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Mean Squared Error</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#R2-Error"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">R2 Error</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Error-Type"><span class="post-toc-number">4.</span> <span class="post-toc-text">Error Type</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Underfitting"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">Underfitting</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Overfitting"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">Overfitting</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Tradeoff"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">Tradeoff</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Model-Complexity-Graph"><span class="post-toc-number">5.</span> <span class="post-toc-text">Model Complexity Graph</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Cross-Validation"><span class="post-toc-number">6.</span> <span class="post-toc-text">Cross Validation</span></a></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/01/21/Udacity-DL-Notes6-Model Evaluation/">Udacity Deep Learning Notes 6-Model Evaluation</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            This post is about some basic conceptions of model evaluation.
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/01/21/Udacity-DL-Notes6-Model Evaluation/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Jan 21, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Deep-Learning/">Deep Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/01/21/Image-Compression-Alogrithm-and-RGB-to-YUV-Transfer/">Image Compression Algorithm and RGB to YUV Transfer</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            This blog is about a programming assignment in HKU multimedia class. The a...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/01/21/Image-Compression-Alogrithm-and-RGB-to-YUV-Transfer/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Jan 21, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Multimedia/">Multimedia</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/01/18/glory-mession-app-development/">Glory Mession App Development</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Hi everyone！
-This blog is for my App development project in HKU, an...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/01/18/glory-mession-app-development/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Jan 18, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/App-Development/">App Development</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/01/18/the-development-and-application-of-CNN/">The Development and Application of CNN</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Hi everyone！
-Sorry for stop writing blog in Dec and Jan, since I ha...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/01/18/the-development-and-application-of-CNN/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Jan 18, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Deep-Learning/">Deep Learning</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/01/14/compression-algorithm-in-multimedia/">Compression Algorithm in Multimedia</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Hi everyone！
-My major in HKU is Multimedia Computing, thus I’ve lea...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/01/14/compression-algorithm-in-multimedia/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Huuuuusy's avatar">
-            </div>
-            <div>
-                <strong>Huuuuusy</strong>
-                <span>Jan 14, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Multimedia/">Multimedia</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                Udacity Deep Learning Notes 6-Model Evaluation
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Huuuuusy</strong>
+        <span>Jan 21, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">Read this article on other devices</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC4ElEQVR42u3awXLqMAwFUP7/p1+3nXkl3CuHgTjHKwYC9tGiqiQ//t1yPbCxsbGxsbGxsbG/kv2I1+/n//jR4LvH38o/bc+MjY2NfQf2iz/9T9j/v34WpuN3ZuHIz4yNjY19H3aStNYTXhus9jzY2NjY2O3R60QSBytJYNjY2NjYKwnsGJPsclze5KURNjY2NnabhJI2UJIC83B8uJeGjY2N/fXsWZPos68/Nt/GxsbG/jL2ysqbPnm5koyBh6fFxsbG3pQ9u9p4VokyS1RtgwkbGxv7DuwWtjKgzRtMs998+iQ2Njb2pux8jJrgkzTTJrbZhaG6qYSNjY19cXY7dj1+fv3ST54+i6IFGxsbe1N23uJv2SvJpn3/tMuX2NjY2Bdk562f2VHalLN+iXM438bGxsa+ODu/RjMb7rYtobwcWkpg2NjY2Fuw2wsxx1vOBgNJClxvSGFjY2Pvyj6riZMEKw/oOwbA2NjY2Luyk/JjpdGfNIxeHDceEhdNJWxsbOyN2MkG+b/+s9LlrOs+L97BxsbG3prdMmZN/3zM0AYaGxsb+87spD3Ufpo3hpImVJ786goMGxsbewt2m0JWkt+sCGn3rSswbGxs7Iuz28s6bWqZjXvbYuO0UgQbGxv7sux3lB/5uHdWrtRtJmxsbOwbsPOSYD2lteuEy0PY2NjYt2TPNpgVDG0pUg+PsbGxsbdm5w39lQJjFtA2+RWlCDY2NvZG7HygmzeMZoVHXvC0+2JjY2PfgT1r+h8/P/tue90nKoqwsbGxN2XPEkxyRfKsoKyHHhsbG3tv9iNe9TajkqYdJBRBx8bGxt6avd7oacuMdpDwlgSGjY2NvR07SVpJy74NSlLkrLeWsLGxsbFz3qxsaMe6bbsKGxsbG7ttJLXhy1PXrKWFjY2NfQf2ucXDSoCSs7VXMLGxsbH3Zs9aNvmx2uFBHvpkMIyNjY29N/s+CxsbGxsbGxsbG/tr1g+Awc7hB9q0mwAAAABJRU5ErkJggg==">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;Views
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity Deep Learning Notes 6-Model Evaluation&url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Weibo
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity Deep Learning Notes 6-Model Evaluation&url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/index.html&via=Huuuuusy" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/index.html&title=Udacity Deep Learning Notes 6-Model Evaluation" target="_blank">
+            <li class="mdl-menu__item">
+                Share to LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity Deep Learning Notes 6-Model Evaluation&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/index.html&text=Udacity Deep Learning Notes 6-Model Evaluation" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>This post is about some basic conceptions of model evaluation.</p>
+<h1 id="Confusion-Matrix"><a href="#Confusion-Matrix" class="headerlink" title="Confusion Matrix"></a>Confusion Matrix</h1><p>For predicting two-categry data, there are 4 possible results: <strong>True Positives</strong>, <strong>False Negatives</strong>, <strong>False Positives</strong> and <strong>True Negatives</strong>. To explain these conpects clearly, we can reference the picture below.</p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516504719/QQ%E6%88%AA%E5%9B%BE20180121031827_jxx54t.png" alt=""></p>
+<p>The blue dot represents the positive result while the red dot represents the negative result. Thus, the blue dots above the black line represent true positives, the blue dots below the line represents the false negatives, the red dots above the line represent the false positives and the red dots below the line represent the true negatives. The matrix in the picture above is the confusion matrix.</p>
+<h1 id="Accuracy"><a href="#Accuracy" class="headerlink" title="Accuracy"></a>Accuracy</h1><p><strong>Accuracy = (True Positives + True Negatives) / Total numbers</strong></p>
+<p>Thus, the accuracy of the example above is 11/14=78.57%.</p>
+<h1 id="Regressioin-Indicator"><a href="#Regressioin-Indicator" class="headerlink" title="Regressioin Indicator"></a>Regressioin Indicator</h1><h2 id="Mean-Absolute-Error"><a href="#Mean-Absolute-Error" class="headerlink" title="Mean Absolute Error"></a>Mean Absolute Error</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516506632/QQ%E6%88%AA%E5%9B%BE20180121034637_lqnt4v.png" alt=""></p>
+<h2 id="Mean-Squared-Error"><a href="#Mean-Squared-Error" class="headerlink" title="Mean Squared Error"></a>Mean Squared Error</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516506734/QQ%E6%88%AA%E5%9B%BE20180121034756_vnjtou.png" alt=""></p>
+<h2 id="R2-Error"><a href="#R2-Error" class="headerlink" title="R2 Error"></a>R2 Error</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516506772/QQ%E6%88%AA%E5%9B%BE20180121034925_l1khh8.png" alt=""></p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516506821/QQ%E6%88%AA%E5%9B%BE20180121034956_bl3h7x.png" alt=""></p>
+<h1 id="Error-Type"><a href="#Error-Type" class="headerlink" title="Error Type"></a>Error Type</h1><h2 id="Underfitting"><a href="#Underfitting" class="headerlink" title="Underfitting"></a>Underfitting</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/c_scale,w_869/v1516507670/QQ%E6%88%AA%E5%9B%BE20180121035708_ud3yim.png" alt=""></p>
+<h2 id="Overfitting"><a href="#Overfitting" class="headerlink" title="Overfitting"></a>Overfitting</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516507712/QQ%E6%88%AA%E5%9B%BE20180121035731_tjcggt.png" alt=""></p>
+<h2 id="Tradeoff"><a href="#Tradeoff" class="headerlink" title="Tradeoff"></a>Tradeoff</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516507748/QQ%E6%88%AA%E5%9B%BE20180121040638_szi5ie.png" alt=""></p>
+<h1 id="Model-Complexity-Graph"><a href="#Model-Complexity-Graph" class="headerlink" title="Model Complexity Graph"></a>Model Complexity Graph</h1><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516508905/QQ%E6%88%AA%E5%9B%BE20180121041937_v11wmy.png" alt=""></p>
+<h1 id="Cross-Validation"><a href="#Cross-Validation" class="headerlink" title="Cross Validation"></a>Cross Validation</h1><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516508904/QQ%E6%88%AA%E5%9B%BE20180121042232_fk0xvi.png" alt=""></p>
+<p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1516508901/QQ%E6%88%AA%E5%9B%BE20180121042253_dkoqxd.png" alt=""></p>
+
+        
+    
+
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hushiyu1995.com/2018/01/21/Udacity-DL-Notes6-Model Evaluation/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//hushiyu1995.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/01/21/Image-Compression-Alogrithm-and-RGB-to-YUV-Transfer/" id="post_nav-older" class="next-content">
+            Older
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
