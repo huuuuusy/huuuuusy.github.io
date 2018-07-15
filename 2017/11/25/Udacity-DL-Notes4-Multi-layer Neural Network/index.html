@@ -39,7 +39,7 @@
     
     <title>
         
-            Udacity Deep Learning Notes 4-Multi-layer Neural Network | 
+            Udacity DL 纳米学位笔记 4-多层神经网络 | 
         
         HU SHIYU
     </title>
@@ -228,18 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Udacity Deep Learning Notes 4-Multi-layer Neural Network | HU SHIYU">
+    <meta property="og:title" content="Udacity DL 纳米学位笔记 4-多层神经网络 | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
         <meta property="article:published_time" content="Sat Nov 25 2017 21:31:37 GMT+0800" />
-        <meta property="article:modified_time" content="Sat Nov 25 2017 19:37:15 GMT+0800" />
+        <meta property="article:modified_time" content="Sun Jul 15 2018 20:55:46 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Udacity Deep Learning Notes 4-Multi-layer Neural Network | HU SHIYU">
+    <meta name="twitter:title" content="Udacity DL 纳米学位笔记 4-多层神经网络 | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -260,9 +260,9 @@
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "mainEntityOfPage": "http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html",
-    "headline": "Udacity Deep Learning Notes 4-Multi-layer Neural Network",
+    "headline": "Udacity DL 纳米学位笔记 4-多层神经网络",
     "datePublished": "Sat Nov 25 2017 21:31:37 GMT+0800",
-    "dateModified": "Sat Nov 25 2017 19:37:15 GMT+0800",
+    "dateModified": "Sun Jul 15 2018 20:55:46 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Huuuuusy",
@@ -346,7 +346,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Multi-layer-Perceptron"><span class="post-toc-number">1.</span> <span class="post-toc-text">Multi-layer Perceptron</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Concept"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Concept</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Example"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">Example</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Package-Import"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">Package Import</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Define-Sigmoid-Function"><span class="post-toc-number">1.2.2.</span> <span class="post-toc-text">Define Sigmoid Function</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Define-Network-Size"><span class="post-toc-number">1.2.3.</span> <span class="post-toc-text">Define Network Size</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Data-Initialization"><span class="post-toc-number">1.2.4.</span> <span class="post-toc-text">Data Initialization</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Calculate-the-Forward-propagating"><span class="post-toc-number">1.2.5.</span> <span class="post-toc-text">Calculate the Forward-propagating</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Back-Propagation"><span class="post-toc-number">2.</span> <span class="post-toc-text">Back Propagation</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Concept-1"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">Concept</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Example-1"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">Example</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Package-Import-1"><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">Package Import</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Define-Sigmoid-Function-1"><span class="post-toc-number">2.2.2.</span> <span class="post-toc-text">Define Sigmoid Function</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Define-Parameters"><span class="post-toc-number">2.2.3.</span> <span class="post-toc-text">Define Parameters</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Forward-Pass"><span class="post-toc-number">2.2.4.</span> <span class="post-toc-text">Forward Pass</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Backwards-Pass"><span class="post-toc-number">2.2.5.</span> <span class="post-toc-text">Backwards Pass</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-Output-Error"><span class="post-toc-number">2.2.5.1.</span> <span class="post-toc-text">Calculate Output Error</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-Error-Term-for-Output-Layer"><span class="post-toc-number">2.2.5.2.</span> <span class="post-toc-text">Calculate Error Term for Output Layer</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calcualte-Error-Term-for-Hidden-Layer"><span class="post-toc-number">2.2.5.3.</span> <span class="post-toc-text">Calcualte Error Term for Hidden Layer</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-Change-in-Weights-for-Hidden-Layer-to-Output-Layer"><span class="post-toc-number">2.2.5.4.</span> <span class="post-toc-text">Calculate Change in Weights for Hidden Layer to Output Layer</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-change-in-weights-for-input-layer-to-hidden-layer"><span class="post-toc-number">2.2.5.5.</span> <span class="post-toc-text">Calculate change in weights for input layer to hidden layer</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#More-Information"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">More Information</span></a></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#多层感知器"><span class="post-toc-number">1.</span> <span class="post-toc-text">多层感知器</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概念"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">概念</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#例子"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">例子</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#导入包"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">导入包</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#定义Sigmoid"><span class="post-toc-number">1.2.2.</span> <span class="post-toc-text">定义Sigmoid</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#定义网络大小"><span class="post-toc-number">1.2.3.</span> <span class="post-toc-text">定义网络大小</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#初始化"><span class="post-toc-number">1.2.4.</span> <span class="post-toc-text">初始化</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#计算前向传播"><span class="post-toc-number">1.2.5.</span> <span class="post-toc-text">计算前向传播</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#后向传播"><span class="post-toc-number">2.</span> <span class="post-toc-text">后向传播</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概念-1"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">概念</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#例子-1"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">例子</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#导入包-1"><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">导入包</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#定义Sigmoid-1"><span class="post-toc-number">2.2.2.</span> <span class="post-toc-text">定义Sigmoid</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#定义参数"><span class="post-toc-number">2.2.3.</span> <span class="post-toc-text">定义参数</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#前向传播"><span class="post-toc-number">2.2.4.</span> <span class="post-toc-text">前向传播</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#后向传播-1"><span class="post-toc-number">2.2.5.</span> <span class="post-toc-text">后向传播</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算输出误差"><span class="post-toc-number">2.2.5.1.</span> <span class="post-toc-text">计算输出误差</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算输出层的Error-Term"><span class="post-toc-number">2.2.5.2.</span> <span class="post-toc-text">计算输出层的Error Term</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算隐藏层的Error-Term"><span class="post-toc-number">2.2.5.3.</span> <span class="post-toc-text">计算隐藏层的Error Term</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算隐藏层到输出层的权重变化"><span class="post-toc-number">2.2.5.4.</span> <span class="post-toc-text">计算隐藏层到输出层的权重变化</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算输入层到隐藏层的权重变化"><span class="post-toc-number">2.2.5.5.</span> <span class="post-toc-text">计算输入层到隐藏层的权重变化</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#更多信息"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">更多信息</span></a></li></ol></li></ol>
     </ul>
     
 
@@ -378,7 +378,7 @@
         
     
             <p class="article-headline-p">
-                Udacity Deep Learning Notes 4-Multi-layer Neural Network
+                Udacity DL 纳米学位笔记 4-多层神经网络
             </p>
         </div>
 
@@ -451,7 +451,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity Deep Learning Notes 4-Multi-layer Neural Network&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity DL 纳米学位笔记 4-多层神经网络&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -460,7 +460,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity Deep Learning Notes 4-Multi-layer Neural Network&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html&via=Huuuuusy" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity DL 纳米学位笔记 4-多层神经网络&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html&via=Huuuuusy" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -487,7 +487,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html&title=Udacity Deep Learning Notes 4-Multi-layer Neural Network" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html&title=Udacity DL 纳米学位笔记 4-多层神经网络" target="_blank">
             <li class="mdl-menu__item">
                 Share to LinkedIn
             </li>
@@ -496,7 +496,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity Deep Learning Notes 4-Multi-layer Neural Network&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity DL 纳米学位笔记 4-多层神经网络&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to QQ
             </li>
@@ -505,7 +505,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html&text=Udacity Deep Learning Notes 4-Multi-layer Neural Network" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes4-Multi-layer Neural Network/index.html&text=Udacity DL 纳米学位笔记 4-多层神经网络" target="_blank">
             <li class="mdl-menu__item">
                 Share to Telegram
             </li>
@@ -520,11 +520,10 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>This post is about some basic conceptions of mulit-layer neural network.</p>
-<h1 id="Multi-layer-Perceptron"><a href="#Multi-layer-Perceptron" class="headerlink" title="Multi-layer Perceptron"></a>Multi-layer Perceptron</h1><h2 id="Concept"><a href="#Concept" class="headerlink" title="Concept"></a>Concept</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511594644/QQ%E6%88%AA%E5%9B%BE20171125152351_ocwd59.png" alt=""></p>
-<p>We use matrix to store the weights. Each row in the matrix corresponds to the weights sent from the same input node, and each column corresponds to teh weight of the same hidden node. For the figure above, the weight matrix equals:</p>
+        <h1 id="多层感知器"><a href="#多层感知器" class="headerlink" title="多层感知器"></a>多层感知器</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511594644/QQ%E6%88%AA%E5%9B%BE20171125152351_ocwd59.png" alt=""></p>
+<p>我们使用矩阵来存储权重。 矩阵中的每一行对应于从相同输入节点发送的权重，并且每列对应于相同隐藏节点的权重。 对于上图，权重矩阵等于：</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511594850/QQ%E6%88%AA%E5%9B%BE20171125152717_ttasf0.png" alt=""></p>
-<p>We can use Numpyt to initialize the weight matrix. </p>
+<p>我们可以使用Numpyt初始化权重矩阵。</p>
 <pre><code># Number of records and input units
 n_records, n_inputs = features.shape
 
@@ -533,38 +532,38 @@ n_hidden = 2
 
 #Initialize
 weights_input_to_hidden = np.random.normal(0, n_inputs**-0.5, size=(n_inputs, n_hidden))
-</code></pre><p>Next, we need to calculate the hidden layer input.</p>
+</code></pre><p>接下来，我们需要计算隐藏层输入。</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511595108/QQ%E6%88%AA%E5%9B%BE20171125153135_b6xepz.png" alt=""></p>
-<p>We can use np.dot in Numpy to calculate the product of input layer matrix and the input weight matrix.</p>
+<p>我们可以在Numpy中使用np.dot来计算输入层矩阵和输入权重矩阵的乘积。</p>
 <pre><code>hidden_inputs = np.dot(inputs, weights_input_to_hidden)
-</code></pre><h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p>Calculating the forward-propagating of a neural network with 4 input units, 3 hidden units and 2 output units.</p>
-<h3 id="Package-Import"><a href="#Package-Import" class="headerlink" title="Package Import"></a>Package Import</h3><pre><code>import numpy as np
-</code></pre><h3 id="Define-Sigmoid-Function"><a href="#Define-Sigmoid-Function" class="headerlink" title="Define Sigmoid Function"></a>Define Sigmoid Function</h3><pre><code>def sigmoid(x):
+</code></pre><h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>计算具有4个输入单元，3个隐藏单元和2个输出单元的神经网络的前向传播。</p>
+<h3 id="导入包"><a href="#导入包" class="headerlink" title="导入包"></a>导入包</h3><pre><code>import numpy as np
+</code></pre><h3 id="定义Sigmoid"><a href="#定义Sigmoid" class="headerlink" title="定义Sigmoid"></a>定义Sigmoid</h3><pre><code>def sigmoid(x):
     return 1/(1+np.exp(-x))
-</code></pre><h3 id="Define-Network-Size"><a href="#Define-Network-Size" class="headerlink" title="Define Network Size"></a>Define Network Size</h3><pre><code>N_input = 4
+</code></pre><h3 id="定义网络大小"><a href="#定义网络大小" class="headerlink" title="定义网络大小"></a>定义网络大小</h3><pre><code>N_input = 4
 N_hidden = 3
 N_output = 2
-</code></pre><h3 id="Data-Initialization"><a href="#Data-Initialization" class="headerlink" title="Data Initialization"></a>Data Initialization</h3><pre><code>np.random.seed(42)
+</code></pre><h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><pre><code>np.random.seed(42)
 # Make some fake data
 X = np.random.randn(4)
 
 weights_input_to_hidden = np.random.normal(0, scale=0.1, size=(N_input, N_hidden))
 weights_hidden_to_output = np.random.normal(0, scale=0.1, size=(N_hidden, N_output))
-</code></pre><h3 id="Calculate-the-Forward-propagating"><a href="#Calculate-the-Forward-propagating" class="headerlink" title="Calculate the Forward-propagating"></a>Calculate the Forward-propagating</h3><pre><code>hidden_layer_in = np.dot(X, weights_input_to_hidden)
+</code></pre><h3 id="计算前向传播"><a href="#计算前向传播" class="headerlink" title="计算前向传播"></a>计算前向传播</h3><pre><code>hidden_layer_in = np.dot(X, weights_input_to_hidden)
 hidden_layer_out = sigmodi(hidden_layer_in)
 
 out_layer_in = np.dot(hidden_layer_out,weights_hidden_to_output)
 output_layer_out = sigmoid(hidden_layer_in)
-</code></pre><h1 id="Back-Propagation"><a href="#Back-Propagation" class="headerlink" title="Back Propagation"></a>Back Propagation</h1><h2 id="Concept-1"><a href="#Concept-1" class="headerlink" title="Concept"></a>Concept</h2><p>We can calculate the hidden layer error by using the output layer error as follow:</p>
+</code></pre><h1 id="后向传播"><a href="#后向传播" class="headerlink" title="后向传播"></a>后向传播</h1><h2 id="概念-1"><a href="#概念-1" class="headerlink" title="概念"></a>概念</h2><p>我们可以通过使用输出层错误来计算隐藏层错误，如下所示：</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511596704/QQ%E6%88%AA%E5%9B%BE20171125155808_xptcnq.png" alt=""></p>
-<p>Then update the weight by using:</p>
+<p>更新权重：</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511596800/QQ%E6%88%AA%E5%9B%BE20171125155950_hya5nd.png" alt=""></p>
-<p>In fact, this calculation can be used in any layer. For weight between each layer, the update weight matrix euqals the product of learning rate, error of the layer output and the value of layer input.</p>
+<p>实际上，此计算可用于任何层。 对于每层之间的权重，更新权重矩阵表示学习速率、层输出的误差和层输入的值的乘积。</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511596979/QQ%E6%88%AA%E5%9B%BE20171125160245_k0aka5.png" alt=""></p>
-<h2 id="Example-1"><a href="#Example-1" class="headerlink" title="Example"></a>Example</h2><h3 id="Package-Import-1"><a href="#Package-Import-1" class="headerlink" title="Package Import"></a>Package Import</h3><pre><code>import numpy as np
-</code></pre><h3 id="Define-Sigmoid-Function-1"><a href="#Define-Sigmoid-Function-1" class="headerlink" title="Define Sigmoid Function"></a>Define Sigmoid Function</h3><pre><code>def sigmoid(x):
+<h2 id="例子-1"><a href="#例子-1" class="headerlink" title="例子"></a>例子</h2><h3 id="导入包-1"><a href="#导入包-1" class="headerlink" title="导入包"></a>导入包</h3><pre><code>import numpy as np
+</code></pre><h3 id="定义Sigmoid-1"><a href="#定义Sigmoid-1" class="headerlink" title="定义Sigmoid"></a>定义Sigmoid</h3><pre><code>def sigmoid(x):
     return 1/(1+np.exp(-x))
-</code></pre><h3 id="Define-Parameters"><a href="#Define-Parameters" class="headerlink" title="Define Parameters"></a>Define Parameters</h3><pre><code>x = np.array([0.5, 0.1, -0.2])
+</code></pre><h3 id="定义参数"><a href="#定义参数" class="headerlink" title="定义参数"></a>定义参数</h3><pre><code>x = np.array([0.5, 0.1, -0.2])
 target = 0.6
 learnrate = 0.5
 
@@ -573,17 +572,17 @@ weights_input_hidden = np.array([[0.5, -0.6],
                                  [0.1, 0.7]])
 
 weights_hidden_output = np.array([0.1, -0.3])
-</code></pre><h3 id="Forward-Pass"><a href="#Forward-Pass" class="headerlink" title="Forward Pass"></a>Forward Pass</h3><pre><code>hidden_layer_input = np.dot(x, weights_input_hidden)
+</code></pre><h3 id="前向传播"><a href="#前向传播" class="headerlink" title="前向传播"></a>前向传播</h3><pre><code>hidden_layer_input = np.dot(x, weights_input_hidden)
 hidden_layer_output = sigmoid(hidden_layer_input)
 
 output_layer_in = np.dot(hidden_layer_output, weights_hidden_output)
 output = sigmoid(output_layer_in)
-</code></pre><h3 id="Backwards-Pass"><a href="#Backwards-Pass" class="headerlink" title="Backwards Pass"></a>Backwards Pass</h3><h4 id="Calculate-Output-Error"><a href="#Calculate-Output-Error" class="headerlink" title="Calculate Output Error"></a>Calculate Output Error</h4><pre><code>error = target - output
-</code></pre><h4 id="Calculate-Error-Term-for-Output-Layer"><a href="#Calculate-Error-Term-for-Output-Layer" class="headerlink" title="Calculate Error Term for Output Layer"></a>Calculate Error Term for Output Layer</h4><pre><code>output_error_term = error * output * (1 - output)
-</code></pre><h4 id="Calcualte-Error-Term-for-Hidden-Layer"><a href="#Calcualte-Error-Term-for-Hidden-Layer" class="headerlink" title="Calcualte Error Term for Hidden Layer"></a>Calcualte Error Term for Hidden Layer</h4><pre><code>hidden_error__term = np.dot(output_error_term, weights_hidden_output) * hidden_layer_output * (1 - hidden_layer_output)
-</code></pre><h4 id="Calculate-Change-in-Weights-for-Hidden-Layer-to-Output-Layer"><a href="#Calculate-Change-in-Weights-for-Hidden-Layer-to-Output-Layer" class="headerlink" title="Calculate Change in Weights for Hidden Layer to Output Layer"></a>Calculate Change in Weights for Hidden Layer to Output Layer</h4><pre><code>delta_w_h_o = learnrate * output_error_term * hidden_layer_output
-</code></pre><h4 id="Calculate-change-in-weights-for-input-layer-to-hidden-layer"><a href="#Calculate-change-in-weights-for-input-layer-to-hidden-layer" class="headerlink" title="Calculate change in weights for input layer to hidden layer"></a>Calculate change in weights for input layer to hidden layer</h4><pre><code>delta_w_i_h = learnrate * hidden_error_term * x[:, None]
-</code></pre><h2 id="More-Information"><a href="#More-Information" class="headerlink" title="More Information"></a>More Information</h2><p>Back Propagation is the fundamental of deep learning, so it is important to understand the algorithm of it. There are two useful materials for futher reading:</p>
+</code></pre><h3 id="后向传播-1"><a href="#后向传播-1" class="headerlink" title="后向传播"></a>后向传播</h3><h4 id="计算输出误差"><a href="#计算输出误差" class="headerlink" title="计算输出误差"></a>计算输出误差</h4><pre><code>error = target - output
+</code></pre><h4 id="计算输出层的Error-Term"><a href="#计算输出层的Error-Term" class="headerlink" title="计算输出层的Error Term"></a>计算输出层的Error Term</h4><pre><code>output_error_term = error * output * (1 - output)
+</code></pre><h4 id="计算隐藏层的Error-Term"><a href="#计算隐藏层的Error-Term" class="headerlink" title="计算隐藏层的Error Term"></a>计算隐藏层的Error Term</h4><pre><code>hidden_error__term = np.dot(output_error_term, weights_hidden_output) * hidden_layer_output * (1 - hidden_layer_output)
+</code></pre><h4 id="计算隐藏层到输出层的权重变化"><a href="#计算隐藏层到输出层的权重变化" class="headerlink" title="计算隐藏层到输出层的权重变化"></a>计算隐藏层到输出层的权重变化</h4><pre><code>delta_w_h_o = learnrate * output_error_term * hidden_layer_output
+</code></pre><h4 id="计算输入层到隐藏层的权重变化"><a href="#计算输入层到隐藏层的权重变化" class="headerlink" title="计算输入层到隐藏层的权重变化"></a>计算输入层到隐藏层的权重变化</h4><pre><code>delta_w_i_h = learnrate * hidden_error_term * x[:, None]
+</code></pre><h2 id="更多信息"><a href="#更多信息" class="headerlink" title="更多信息"></a>更多信息</h2><p>反向传播是深度学习的基础，因此理解它的算法很重要。 以下材料可供进一步阅读：</p>
 <p><a href="https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b" target="_blank" rel="external">Yes you should understand backprop</a></p>
 <p><a href="https://www.youtube.com/watch?v=59Hbtz7XgjM" target="_blank" rel="external">CS231n Winter 2016 Lecture 4 Backpropagation, Neural Networks 1</a></p>
 
@@ -764,7 +763,7 @@ output = sigmoid(output_layer_in)
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/App开发/">App开发<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/Deep-Learning/">Deep Learning<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/LeetCode/">LeetCode<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/LeetCode/Algorithm/">Algorithm<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Multimedia/">Multimedia<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Others/">Others<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Ubuntu/">Ubuntu<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/其他/">其他<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/机器学习/">机器学习<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/categories/深度学习/">深度学习<span class="sidebar_archives-count">10</span></a></li><li><a class="sidebar_archives-link" href="/categories/网站设计/">网站设计<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/categories/App开发/">App开发<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/Deep-Learning/">Deep Learning<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/LeetCode/">LeetCode<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/LeetCode/Algorithm/">Algorithm<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Multimedia/">Multimedia<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Others/">Others<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Ubuntu/">Ubuntu<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/其他/">其他<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/机器学习/">机器学习<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/categories/深度学习/">深度学习<span class="sidebar_archives-count">14</span></a></li><li><a class="sidebar_archives-link" href="/categories/网站设计/">网站设计<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -904,7 +903,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
         <div class="theme-info">
             <div class="powered-by"></div>
-            <span class="post-count">Total words:19.7k</span>
+            <span class="post-count">Total words:20.0k</span>
         </div>
 
         <!--Copyright-->

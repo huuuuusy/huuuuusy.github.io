@@ -39,7 +39,7 @@
     
     <title>
         
-            Udacity Deep Learning Notes 3-Neural Network Introduction | 
+            Udacity DL 纳米学位笔记 3-神经网络 | 
         
         HU SHIYU
     </title>
@@ -228,18 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hushiyu1995.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Udacity Deep Learning Notes 3-Neural Network Introduction | HU SHIYU">
+    <meta property="og:title" content="Udacity DL 纳米学位笔记 3-神经网络 | HU SHIYU">
     <meta property="og:image" content="http://hushiyu1995.com/img/favicon.jpg" />
     <meta property="og:description" content="">
     
 
     
         <meta property="article:published_time" content="Sat Nov 25 2017 21:30:37 GMT+0800" />
-        <meta property="article:modified_time" content="Sat Nov 25 2017 13:36:18 GMT+0800" />
+        <meta property="article:modified_time" content="Sun Jul 15 2018 20:49:21 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Udacity Deep Learning Notes 3-Neural Network Introduction | HU SHIYU">
+    <meta name="twitter:title" content="Udacity DL 纳米学位笔记 3-神经网络 | HU SHIYU">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://hushiyu1995.com/img/favicon.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -260,9 +260,9 @@
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "mainEntityOfPage": "http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html",
-    "headline": "Udacity Deep Learning Notes 3-Neural Network Introduction",
+    "headline": "Udacity DL 纳米学位笔记 3-神经网络",
     "datePublished": "Sat Nov 25 2017 21:30:37 GMT+0800",
-    "dateModified": "Sat Nov 25 2017 13:36:18 GMT+0800",
+    "dateModified": "Sun Jul 15 2018 20:49:21 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Huuuuusy",
@@ -346,7 +346,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Perceptron"><span class="post-toc-number">1.</span> <span class="post-toc-text">Perceptron</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Sample-NN"><span class="post-toc-number">2.</span> <span class="post-toc-text">Sample NN</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Gradient-Descent"><span class="post-toc-number">3.</span> <span class="post-toc-text">Gradient Descent</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#SSE"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">SSE</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Basic"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Basic</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Algorithm"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">Algorithm</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Define-Some-Function"><span class="post-toc-number">3.3.1.</span> <span class="post-toc-text">Define Some Function</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Define-the-sigmoid-function-for-activations"><span class="post-toc-number">3.3.1.1.</span> <span class="post-toc-text">Define the sigmoid function for activations</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Define-the-derivative-of-the-sigmoid-function"><span class="post-toc-number">3.3.1.2.</span> <span class="post-toc-text">Define the derivative of the sigmoid function</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Set-Values"><span class="post-toc-number">3.3.2.</span> <span class="post-toc-text">Set Values</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Input-Data"><span class="post-toc-number">3.3.2.1.</span> <span class="post-toc-text">Input Data</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Set-Target"><span class="post-toc-number">3.3.2.2.</span> <span class="post-toc-text">Set Target</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Input-to-Output-Weights"><span class="post-toc-number">3.3.2.3.</span> <span class="post-toc-text">Input to Output Weights</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Learning-Rate"><span class="post-toc-number">3.3.2.4.</span> <span class="post-toc-text">Learning Rate</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Calculate"><span class="post-toc-number">3.3.3.</span> <span class="post-toc-text">Calculate</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Linear-Combination-of-Input-Data-and-Weight"><span class="post-toc-number">3.3.3.1.</span> <span class="post-toc-text">Calculate the Linear Combination of Input Data and Weight</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Output-of-NN"><span class="post-toc-number">3.3.3.2.</span> <span class="post-toc-text">Calculate the Output of NN</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Error"><span class="post-toc-number">3.3.3.3.</span> <span class="post-toc-text">Calculate the Error</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Gradient-of-Output"><span class="post-toc-number">3.3.3.4.</span> <span class="post-toc-text">Calculate the Gradient of Output</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Calculate-the-Error-Term"><span class="post-toc-number">3.3.3.5.</span> <span class="post-toc-text">Calculate the Error Term</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Update-Weights"><span class="post-toc-number">3.3.4.</span> <span class="post-toc-text">Update Weights</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#For-Complex-Data"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">For Complex Data</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#MSE"><span class="post-toc-number">3.4.1.</span> <span class="post-toc-text">MSE</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Initialization"><span class="post-toc-number">3.4.2.</span> <span class="post-toc-text">Initialization</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Example-Codes"><span class="post-toc-number">3.4.3.</span> <span class="post-toc-text">Example Codes</span></a></li></ol></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Perceptron（感知）"><span class="post-toc-number">1.</span> <span class="post-toc-text">Perceptron（感知）</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#简单的神经网络"><span class="post-toc-number">2.</span> <span class="post-toc-text">简单的神经网络</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#梯度下降"><span class="post-toc-number">3.</span> <span class="post-toc-text">梯度下降</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#SSE"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">SSE</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#基础信息"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">基础信息</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#算法"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">算法</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#定义函数"><span class="post-toc-number">3.3.1.</span> <span class="post-toc-text">定义函数</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#定义激活函数sigmoid"><span class="post-toc-number">3.3.1.1.</span> <span class="post-toc-text">定义激活函数sigmoid</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#定义sigmoid函数的偏导"><span class="post-toc-number">3.3.1.2.</span> <span class="post-toc-text">定义sigmoid函数的偏导</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#设置数值"><span class="post-toc-number">3.3.2.</span> <span class="post-toc-text">设置数值</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#设置输入"><span class="post-toc-number">3.3.2.1.</span> <span class="post-toc-text">设置输入</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#设置输出"><span class="post-toc-number">3.3.2.2.</span> <span class="post-toc-text">设置输出</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#设置权重"><span class="post-toc-number">3.3.2.3.</span> <span class="post-toc-text">设置权重</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#学习率"><span class="post-toc-number">3.3.2.4.</span> <span class="post-toc-text">学习率</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#计算"><span class="post-toc-number">3.3.3.</span> <span class="post-toc-text">计算</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算输入数据和权重的线性组合"><span class="post-toc-number">3.3.3.1.</span> <span class="post-toc-text">计算输入数据和权重的线性组合</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算神经网络输出"><span class="post-toc-number">3.3.3.2.</span> <span class="post-toc-text">计算神经网络输出</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算误差"><span class="post-toc-number">3.3.3.3.</span> <span class="post-toc-text">计算误差</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算输出的梯度"><span class="post-toc-number">3.3.3.4.</span> <span class="post-toc-text">计算输出的梯度</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算误差项"><span class="post-toc-number">3.3.3.5.</span> <span class="post-toc-text">计算误差项</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#更新权重"><span class="post-toc-number">3.3.4.</span> <span class="post-toc-text">更新权重</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#对于复杂数据"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">对于复杂数据</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#MSE"><span class="post-toc-number">3.4.1.</span> <span class="post-toc-text">MSE</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#初始化"><span class="post-toc-number">3.4.2.</span> <span class="post-toc-text">初始化</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#示例代码"><span class="post-toc-number">3.4.3.</span> <span class="post-toc-text">示例代码</span></a></li></ol></li></ol></li></ol>
     </ul>
     
 
@@ -378,7 +378,7 @@
         
     
             <p class="article-headline-p">
-                Udacity Deep Learning Notes 3-Neural Network Introduction
+                Udacity DL 纳米学位笔记 3-神经网络
             </p>
         </div>
 
@@ -451,7 +451,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity Deep Learning Notes 3-Neural Network Introduction&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Udacity DL 纳米学位笔记 3-神经网络&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&pic=http://hushiyu1995.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -460,7 +460,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity Deep Learning Notes 3-Neural Network Introduction&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&via=Huuuuusy" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Udacity DL 纳米学位笔记 3-神经网络&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&via=Huuuuusy" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -487,7 +487,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&title=Udacity Deep Learning Notes 3-Neural Network Introduction" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&title=Udacity DL 纳米学位笔记 3-神经网络" target="_blank">
             <li class="mdl-menu__item">
                 Share to LinkedIn
             </li>
@@ -496,7 +496,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity Deep Learning Notes 3-Neural Network Introduction&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=HU SHIYU&title=Udacity DL 纳米学位笔记 3-神经网络&summary=&pics=http://hushiyu1995.com/img/favicon.jpg&url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to QQ
             </li>
@@ -505,7 +505,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&text=Udacity Deep Learning Notes 3-Neural Network Introduction" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://hushiyu1995.com/2017/11/25/Udacity-DL-Notes3-Neural Network Introduction/index.html&text=Udacity DL 纳米学位笔记 3-神经网络" target="_blank">
             <li class="mdl-menu__item">
                 Share to Telegram
             </li>
@@ -520,19 +520,15 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>This post is the introduction of neural network. I will list some fundamental concepts which are really important in DNN. </p>
-<h1 id="Perceptron"><a href="#Perceptron" class="headerlink" title="Perceptron"></a>Perceptron</h1><p>In machine learning, the <a href="https://en.wikipedia.org/wiki/Perceptron" target="_blank" rel="external">perceptron</a> is an algorithm for supervised learning of binary classifiers (functions that can decide whether an input, represented by a vector of numbers, belongs to some specific class or not).</p>
-<p>Perceptions are the basic unit of neural network and each of them decides how to classify the data according the inputs. Perceptions always use weights to judge the importance of input data.</p>
-<p>The basic formula of perceptron is</p>
+        <h1 id="Perceptron（感知）"><a href="#Perceptron（感知）" class="headerlink" title="Perceptron（感知）"></a>Perceptron（感知）</h1><p>在机器学习中，<a href="https://en.wikipedia.org/wiki/Perceptron" target="_blank" rel="external">感知</a> 是二分类问题中常用的监督学习算法。<br>感知是神经网络的基本单元，每个单元决定如何根据输入对数据进行分类。 感知总是使用权重来判断输入数据的重要性。</p>
+<p>感知器的基本公式是：</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584269/perceptron-equation-2_u0hi7o.gif" alt=""></p>
-<p>At beginning, the weight and bias will  be initialized randomly. By using learning algorithm like gradient descent, the values of bias and weight can be updated. Which means the new sample will be classified correctly.</p>
-<h1 id="Sample-NN"><a href="#Sample-NN" class="headerlink" title="Sample NN"></a>Sample NN</h1><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584618/simple-neuron_fpg0dh.png" alt=""></p>
-<p>This is a very simple NN, which is used to show the basic structure.</p>
-<p>x means input, w means weight, f(h) means activation function, the circule means unit and the rectangle means calculation.</p>
-<p>Some common activation functions: sigmoid, tanh and softmax.</p>
-<p>For sigmoid function:</p>
+<p>开始时，重量和偏差将随机初始化。 通过使用梯度下降等学习算法，可以更新偏差和重量的值。 这意味着新样本将被正确分类。</p>
+<h1 id="简单的神经网络"><a href="#简单的神经网络" class="headerlink" title="简单的神经网络"></a>简单的神经网络</h1><p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584618/simple-neuron_fpg0dh.png" alt=""></p>
+<p>这是一个非常简单的神经网络，用于显示基本结构。 x表示输入，w表示重量，f（h）表示激活功能，循环表示单位，矩形表示计算。 一些常见的激活函数：sigmoid，tanh和softmax。</p>
+<p>对于sigmoid函数:</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511584898/QQ%E6%88%AA%E5%9B%BE20171125124121_xdaky7.png" alt=""></p>
-<p>A simple example for the NN structure above:</p>
+<p>上述神经网络的简单例子:</p>
 <pre><code>import numpy as np
 
 def sigmoid(x):
@@ -548,54 +544,52 @@ output = sigmoid(np.dot(weights, inputs) + bias)
 
 print(&apos;Output:&apos;)
 print(output)
-</code></pre><h1 id="Gradient-Descent"><a href="#Gradient-Descent" class="headerlink" title="Gradient Descent"></a>Gradient Descent</h1><p><a href="https://en.wikipedia.org/wiki/Gradient_descent" target="_blank" rel="external">Gradient descent</a> is a first-order iterative optimization algorithm for finding the minimum of a function. In DNN, it is used to update the weights.</p>
-<h2 id="SSE"><a href="#SSE" class="headerlink" title="SSE"></a>SSE</h2><p>We use sum of the suqred errors(SSE) to calculate the performence of present weights and bias.</p>
+</code></pre><h1 id="梯度下降"><a href="#梯度下降" class="headerlink" title="梯度下降"></a>梯度下降</h1><p><a href="https://en.wikipedia.org/wiki/Gradient_descent" target="_blank" rel="external">梯度下降</a>是一种用于找到函数最小值的一阶迭代优化算法。 在DNN中，它用于更新权重。</p>
+<h2 id="SSE"><a href="#SSE" class="headerlink" title="SSE"></a>SSE</h2><p>我们使用平方误差之和（SSE）来计算当前权重和偏差的性能。</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585299/QQ%E6%88%AA%E5%9B%BE20171125124801_plh4eu.png" alt=""></p>
-<p>Since we’ve known the output of NN is calculated by weights, we can get:</p>
+<p>既然我们知道NN的输出是通过权重计算的，我们可以得到：</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585411/QQ%E6%88%AA%E5%9B%BE20171125124958_usmov2.png" alt=""></p>
-<h2 id="Basic"><a href="#Basic" class="headerlink" title="Basic"></a>Basic</h2><p>The gradient captures all the partial derivative information of a scalar-valued multivariable function. You can learn the basic concept about gradient in <a href="https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient" target="_blank" rel="external">KHANACADEMY</a>.</p>
+<h2 id="基础信息"><a href="#基础信息" class="headerlink" title="基础信息"></a>基础信息</h2><p>梯度捕获标量值多变量函数的所有偏导数信息。 关于偏导的信息，可以在<a href="https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient" target="_blank" rel="external">KHANACADEMY</a>学习。</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585560/QQ%E6%88%AA%E5%9B%BE20171125125230_q6x9ot.png" alt=""></p>
-<p>All in all, by calculating the gradient of output, we can update the weights to reduce SSE.</p>
-<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><p>First, we should calculate the error term.</p>
+<p>总而言之，通过计算输出的梯度，我们可以更新权重以减少SSE。</p>
+<h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><p>首先，我们应该计算误差项。</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511585978/QQ%E6%88%AA%E5%9B%BE20171125125919_gbo9o3.png" alt=""></p>
-<p>The weight can be updated by the formula below:</p>
+<p>权重可以通过以下公式更新：</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511586108/QQ%E6%88%AA%E5%9B%BE20171125130138_jlt45k.png" alt=""></p>
-<p>The whole process can be seperated step by step as below.</p>
-<h3 id="Define-Some-Function"><a href="#Define-Some-Function" class="headerlink" title="Define Some Function"></a>Define Some Function</h3><h4 id="Define-the-sigmoid-function-for-activations"><a href="#Define-the-sigmoid-function-for-activations" class="headerlink" title="Define the sigmoid function for activations"></a>Define the sigmoid function for activations</h4><pre><code>def sigmoid(x):
+<h3 id="定义函数"><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h3><h4 id="定义激活函数sigmoid"><a href="#定义激活函数sigmoid" class="headerlink" title="定义激活函数sigmoid"></a>定义激活函数sigmoid</h4><pre><code>def sigmoid(x):
     return 1/(1+np.exp(-x))
-</code></pre><h4 id="Define-the-derivative-of-the-sigmoid-function"><a href="#Define-the-derivative-of-the-sigmoid-function" class="headerlink" title="Define the derivative of the sigmoid function"></a>Define the derivative of the sigmoid function</h4><pre><code>def sigmoid_prime(x):
+</code></pre><h4 id="定义sigmoid函数的偏导"><a href="#定义sigmoid函数的偏导" class="headerlink" title="定义sigmoid函数的偏导"></a>定义sigmoid函数的偏导</h4><pre><code>def sigmoid_prime(x):
     return sigmoid(x) * (1 - sigmoid(x))
-</code></pre><h3 id="Set-Values"><a href="#Set-Values" class="headerlink" title="Set Values"></a>Set Values</h3><h4 id="Input-Data"><a href="#Input-Data" class="headerlink" title="Input Data"></a>Input Data</h4><pre><code>x = np.array([0.1,0.3])
-</code></pre><h4 id="Set-Target"><a href="#Set-Target" class="headerlink" title="Set Target"></a>Set Target</h4><pre><code>y = 0.2
-</code></pre><h4 id="Input-to-Output-Weights"><a href="#Input-to-Output-Weights" class="headerlink" title="Input to Output Weights"></a>Input to Output Weights</h4><pre><code>weights = np.array([-0.8,0.5])
-</code></pre><h4 id="Learning-Rate"><a href="#Learning-Rate" class="headerlink" title="Learning Rate"></a>Learning Rate</h4><pre><code>learnrate = 0.5
-</code></pre><h3 id="Calculate"><a href="#Calculate" class="headerlink" title="Calculate"></a>Calculate</h3><h4 id="Calculate-the-Linear-Combination-of-Input-Data-and-Weight"><a href="#Calculate-the-Linear-Combination-of-Input-Data-and-Weight" class="headerlink" title="Calculate the Linear Combination of Input Data and Weight"></a>Calculate the Linear Combination of Input Data and Weight</h4><pre><code>h = np.dot(x,weights)
-</code></pre><h4 id="Calculate-the-Output-of-NN"><a href="#Calculate-the-Output-of-NN" class="headerlink" title="Calculate the Output of NN"></a>Calculate the Output of NN</h4><pre><code>nn_output = sigmoid(h)
-</code></pre><h4 id="Calculate-the-Error"><a href="#Calculate-the-Error" class="headerlink" title="Calculate the Error"></a>Calculate the Error</h4><pre><code>error = y - nn_output
-</code></pre><h4 id="Calculate-the-Gradient-of-Output"><a href="#Calculate-the-Gradient-of-Output" class="headerlink" title="Calculate the Gradient of Output"></a>Calculate the Gradient of Output</h4><pre><code>output_grad = sigmoid_prime(h)
-</code></pre><h4 id="Calculate-the-Error-Term"><a href="#Calculate-the-Error-Term" class="headerlink" title="Calculate the Error Term"></a>Calculate the Error Term</h4><pre><code>error_term = error * output_grad
-</code></pre><h3 id="Update-Weights"><a href="#Update-Weights" class="headerlink" title="Update Weights"></a>Update Weights</h3><pre><code>del_w = learnrate * error_term * x
-</code></pre><h2 id="For-Complex-Data"><a href="#For-Complex-Data" class="headerlink" title="For Complex Data"></a>For Complex Data</h2><h3 id="MSE"><a href="#MSE" class="headerlink" title="MSE"></a>MSE</h3><p>SSE is mainly used in simple calculation, while MSE(mean of the square errors) is used for calculating the error of complex input data.</p>
-<p>For MSE, the formula is like:</p>
+</code></pre><h3 id="设置数值"><a href="#设置数值" class="headerlink" title="设置数值"></a>设置数值</h3><h4 id="设置输入"><a href="#设置输入" class="headerlink" title="设置输入"></a>设置输入</h4><pre><code>x = np.array([0.1,0.3])
+</code></pre><h4 id="设置输出"><a href="#设置输出" class="headerlink" title="设置输出"></a>设置输出</h4><pre><code>y = 0.2
+</code></pre><h4 id="设置权重"><a href="#设置权重" class="headerlink" title="设置权重"></a>设置权重</h4><pre><code>weights = np.array([-0.8,0.5])
+</code></pre><h4 id="学习率"><a href="#学习率" class="headerlink" title="学习率"></a>学习率</h4><pre><code>learnrate = 0.5
+</code></pre><h3 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h3><h4 id="计算输入数据和权重的线性组合"><a href="#计算输入数据和权重的线性组合" class="headerlink" title="计算输入数据和权重的线性组合"></a>计算输入数据和权重的线性组合</h4><pre><code>h = np.dot(x,weights)
+</code></pre><h4 id="计算神经网络输出"><a href="#计算神经网络输出" class="headerlink" title="计算神经网络输出"></a>计算神经网络输出</h4><pre><code>nn_output = sigmoid(h)
+</code></pre><h4 id="计算误差"><a href="#计算误差" class="headerlink" title="计算误差"></a>计算误差</h4><pre><code>error = y - nn_output
+</code></pre><h4 id="计算输出的梯度"><a href="#计算输出的梯度" class="headerlink" title="计算输出的梯度"></a>计算输出的梯度</h4><pre><code>output_grad = sigmoid_prime(h)
+</code></pre><h4 id="计算误差项"><a href="#计算误差项" class="headerlink" title="计算误差项"></a>计算误差项</h4><pre><code>error_term = error * output_grad
+</code></pre><h3 id="更新权重"><a href="#更新权重" class="headerlink" title="更新权重"></a>更新权重</h3><pre><code>del_w = learnrate * error_term * x
+</code></pre><h2 id="对于复杂数据"><a href="#对于复杂数据" class="headerlink" title="对于复杂数据"></a>对于复杂数据</h2><h3 id="MSE"><a href="#MSE" class="headerlink" title="MSE"></a>MSE</h3><p>SSE主要用于简单计算，而MSE（平方误差的平均值）用于计算复杂输入数据的误差。</p>
 <p><img src="http://res.cloudinary.com/dyy3xzfqh/image/upload/v1511587266/QQ%E6%88%AA%E5%9B%BE20171125132053_trqwlt.png" alt=""></p>
-<h3 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h3><p>Since we have more input data, the weights need to be initialized randomly to keep the value of inputs close to zero.</p>
-<p>One possible solution is using a normal distribution with the center of zero to initialize the weights.</p>
+<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p>由于我们有更多的输入数据，因此需要随机初始化权重以保持输入值接近零。</p>
+<p>一种可能的解决方案是使用零中心的正态分布来初始化权重。</p>
 <pre><code>weights = np.random.normal(scale=1/n_features**.5, size=n_features)
-</code></pre><h3 id="Example-Codes"><a href="#Example-Codes" class="headerlink" title="Example Codes"></a>Example Codes</h3><pre><code>import numpy as np
+</code></pre><h3 id="示例代码"><a href="#示例代码" class="headerlink" title="示例代码"></a>示例代码</h3><pre><code>import numpy as np
 from data_prep import features, targets, features_test, targets_test
-</code></pre><p>Calculate the sigmoid:</p>
+</code></pre><p>计算sigmoid:</p>
 <pre><code>def sigmoid(x):
     return 1 / (1 + np.exp(-x))
-</code></pre><p>Use same seed to make debugging easier:</p>
+</code></pre><p>设置seed:</p>
 <pre><code>np.random.seed(42)
 n_records, n_features = features.shape
 last_loss = None
-</code></pre><p>Initialize weights:</p>
+</code></pre><p>初始化权重:</p>
 <pre><code>weights = np.random.normal(scale=1 / n_features**.5, size=n_features)
-</code></pre><p>Set hyperparameters of NN:</p>
+</code></pre><p>设置神经网络超参数:</p>
 <pre><code>epochs = 1000
 learnrate = 0.5
-</code></pre><p>Calcualte in NN:</p>
+</code></pre><p>计算神经网络:</p>
 <pre><code>for e in range(epochs):
     del_w = np.zeros(weights.shape)
     for x, y in zip(features.values, targets):
@@ -630,7 +624,7 @@ learnrate = 0.5
         else:
             print(&quot;Train loss: &quot;, loss)
         last_loss = loss
-</code></pre><p>Calculate accuracy on test data:</p>
+</code></pre><p>测试准确率:</p>
 <pre><code>tes_out = sigmoid(np.dot(features_test, weights))
 predictions = tes_out &gt; 0.5
 accuracy = np.mean(predictions == targets_test)
@@ -813,7 +807,7 @@ print(&quot;Prediction accuracy: {:.3f}&quot;.format(accuracy))
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/App开发/">App开发<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/Deep-Learning/">Deep Learning<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/LeetCode/">LeetCode<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/LeetCode/Algorithm/">Algorithm<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Multimedia/">Multimedia<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Others/">Others<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Ubuntu/">Ubuntu<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/其他/">其他<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/机器学习/">机器学习<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/categories/深度学习/">深度学习<span class="sidebar_archives-count">10</span></a></li><li><a class="sidebar_archives-link" href="/categories/网站设计/">网站设计<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/categories/App开发/">App开发<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/Deep-Learning/">Deep Learning<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/LeetCode/">LeetCode<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/LeetCode/Algorithm/">Algorithm<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Multimedia/">Multimedia<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Others/">Others<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Ubuntu/">Ubuntu<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/其他/">其他<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/机器学习/">机器学习<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/categories/深度学习/">深度学习<span class="sidebar_archives-count">14</span></a></li><li><a class="sidebar_archives-link" href="/categories/网站设计/">网站设计<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -953,7 +947,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
         <div class="theme-info">
             <div class="powered-by"></div>
-            <span class="post-count">Total words:19.7k</span>
+            <span class="post-count">Total words:20.0k</span>
         </div>
 
         <!--Copyright-->
