@@ -235,7 +235,7 @@
 
     
         <meta property="article:published_time" content="Sun Sep 10 2017 21:28:37 GMT+0800" />
-        <meta property="article:modified_time" content="Sun Jul 15 2018 19:27:36 GMT+0800" />
+        <meta property="article:modified_time" content="Sun Jul 15 2018 19:45:36 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
@@ -262,7 +262,7 @@
     "mainEntityOfPage": "http://hushiyu1995.com/2017/09/10/DL-Hardware-Environment-Build/index.html",
     "headline": "从装机开始搭建DL平台：Ubuntu16.04+GTX1070+CUDA8.0+TensorFlow(GPU)",
     "datePublished": "Sun Sep 10 2017 21:28:37 GMT+0800",
-    "dateModified": "Sun Jul 15 2018 19:27:36 GMT+0800",
+    "dateModified": "Sun Jul 15 2018 19:45:36 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Huuuuusy",
@@ -528,7 +528,7 @@
 <p>本文分为Ubuntu16.04+win10双系统安装和Ubuntu16.04系统下深度学习平台搭建过程两部分，主要针对整个过程中容易出现的bug进行说明，部分内容的详细操作教程已经通过链接引导，不再赘述。</p>
 <h1 id="基本情况"><a href="#基本情况" class="headerlink" title="基本情况"></a>基本情况</h1><p>电脑：外星人ALWC15 / 处理器：i7-7700HQ / 显卡：NVIDIA GTX1070 / 硬盘：SSD(256G)+机械硬盘（1T) / 系统：win10（自带）+Ubuntu16.04.02（待安装）/ 内存：16G</p>
 <h1 id="第一部分-Ubuntu16-04-win10双系统安装"><a href="#第一部分-Ubuntu16-04-win10双系统安装" class="headerlink" title="第一部分 Ubuntu16.04+win10双系统安装"></a>第一部分 Ubuntu16.04+win10双系统安装</h1><h2 id="1-系统空间部署"><a href="#1-系统空间部署" class="headerlink" title="1 系统空间部署"></a>1 <em>系统空间部署</em></h2><p>因为装机过程没有截图，所以很多图片来自google，仅供说明。<br>参考<a href="http://www.jianshu.com/p/16b36b912b02" target="_blank" rel="external">教程</a>的前两部分，首先关闭win10的快速启动，然后进入win10系统打开磁盘管理器，检查磁盘的分区情况，然后删除或压缩出来一个空间给Ubuntu使用，建议空间大于40G。本文选择在C盘（SSD，256G）上压缩出来80G空间安装Ubuntu。压缩出来的空间应该显示未分配的状态。</p>
-<p><img src="http://img.blog.csdn.net/20170917081341558?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531654764/20170917081341558_axk9zd.png" alt=""></p>
 <p>图片来自<a href="http://www.jianshu.com/p/16b36b912b02" target="_blank" rel="external">教程</a>，绿色部分为留给Ubuntu的空间。</p>
 <h2 id="2-制作Ubuntu启动盘"><a href="#2-制作Ubuntu启动盘" class="headerlink" title="2 制作Ubuntu启动盘 "></a>2 <em>制作Ubuntu启动盘 </em></h2><p>使用空白U盘作为启动盘，下载<a href="http://www.ezbsystems.com/ultraiso/" target="_blank" rel="external">UltraISO</a>软件完成<a href="https://www.ubuntu.com/download/desktop" target="_blank" rel="external">Ubuntu</a>的ISO镜像刻录工作。刻录操作很简单，参考<a href="http://www.jianshu.com/p/16b36b912b02" target="_blank" rel="external">教程</a>即可。<br><strong><em>提示：刻录后不要根据其他教程急于进BIOS安装，请往下先完成硬盘检查，否则后续会出现各种bug</em></strong></p>
 <h2 id="3-分区类别检查"><a href="#3-分区类别检查" class="headerlink" title="3 分区类别检查"></a>3 <em>分区类别检查</em></h2><p>首先应该分清自己的硬盘分区是MBR还是GPT,主板是传统BIOS还是集成了UEFI，上述名词的解释请参考<a href="http://bbs.zol.com.cn/diybbs/d35025_2124.html" target="_blank" rel="external">教程</a>。<br>目前比较新的电脑基本都是UEFI+GPT模式，如果检查后符合这一标准，请继续参考本教程。如果是BIOS+MBR,请百度相关教程进行BIOS的修改和Ubuntu安装，或者参考本教程后面第６部分的安装建议。</p>
@@ -537,16 +537,15 @@
 <h3 id="4-2-关闭seurce-boot"><a href="#4-2-关闭seurce-boot" class="headerlink" title="4.2 关闭seurce boot"></a><em>4.2 关闭seurce boot</em></h3><p>虽然开源社区已经有了grub-shim.efi的方案，Ubuntu本身也带微软安全启动的秘钥，但是为了后续第三方显卡驱动的顺利安装，此处请在BIOS中关闭seurce boot。</p>
 <h3 id="4-3-硬盘模式修改"><a href="#4-3-硬盘模式修改" class="headerlink" title="4.3 硬盘模式修改"></a><em>4.3 硬盘模式修改</em></h3><p><em>（基本所有教程都略过这一步，但是根据掉坑经验，此处如果不做修改，后期在双系统引导时仍会出现bug。并非所有电脑都会遇见这个问题，不过建议在BIOS的SATA　operation中先确认硬盘模式，此时默认的即为电脑原系统(win10)的驱动安装模式，可以先记下默认模式类别，不进行修改，后期遇见bug后再回到此步。）</em><br>笔者的电脑是戴尔外星人，出厂时统一把硬盘模式设置为RAID ON。这种模式并不利于发挥SSD的性能，也不利于在SSD上进行Ubuntu的安装。在alienware吧里参考<a href="http://tieba.baidu.com/p/4885338584?red_tag=w0288980862" target="_blank" rel="external">教程</a>进行操作，首先将win10系统开启安全引导，然后重启进入BIOS,在anvanced界面将SATA operation从RAID ON修改为AHCI。接着重启进入win10的安全模式，关闭安全引导，再次重启，就完成硬盘模式从RAID ON到AHCI的修改。<br>在此简单说明修改原因：后面安装Ubuntu时，如果不是AHCI模式，有可能无法完成硬盘扫描工作而使安装失败。此外，如果只改为AHCI模式安装Ubuntu而没对win10的驱动进行修改，在后面双系统引导时会出现win10只能在RAID ON模式中工作，Ubuntu只能在AHCI模式中工作，即系统无法互相引导和切换。</p>
 <h2 id="5-UEFI-GPT模式安装Ubuntu"><a href="#5-UEFI-GPT模式安装Ubuntu" class="headerlink" title="5 UEFI+GPT模式安装Ubuntu"></a>5 <em>UEFI+GPT模式安装Ubuntu</em></h2><p>进行到此步，恭喜已经完成安装前的所有准备工作，接下来可以参考各类教程在BIOS中设置Ｕ盘启动，安装Ubuntu。<br>主要步骤及注意事项：</p>
-<h3 id="5-1-部分电脑BIOS可能会识别出两个U盘，一个在Legacy下，一个在UEFI下，请选择UEFI的那个U盘启动项。"><a href="#5-1-部分电脑BIOS可能会识别出两个U盘，一个在Legacy下，一个在UEFI下，请选择UEFI的那个U盘启动项。" class="headerlink" title="5.1 部分电脑BIOS可能会识别出两个Ｕ盘，一个在Legacy下，一个在UEFI下，请选择UEFI的那个Ｕ盘启动项。"></a>5.1 部分电脑BIOS可能会识别出两个Ｕ盘，一个在Legacy下，一个在UEFI下，请选择UEFI的那个Ｕ盘启动项。</h3><h3 id="5-2-安装步骤可以参考教程的第四部分，但是在安装到第３步时，请注意："><a href="#5-2-安装步骤可以参考教程的第四部分，但是在安装到第３步时，请注意：" class="headerlink" title="5.2 安装步骤可以参考教程的第四部分，但是在安装到第３步时，请注意："></a>5.2 安装步骤可以参考<a href="http://www.jianshu.com/p/16b36b912b02" target="_blank" rel="external">教程</a>的第四部分，但是在安装到第３步时，请注意：</h3><p> <img src="http://img.blog.csdn.net/20170917081949277?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<h3 id="5-1-部分电脑BIOS可能会识别出两个U盘，一个在Legacy下，一个在UEFI下，请选择UEFI的那个U盘启动项。"><a href="#5-1-部分电脑BIOS可能会识别出两个U盘，一个在Legacy下，一个在UEFI下，请选择UEFI的那个U盘启动项。" class="headerlink" title="5.1 部分电脑BIOS可能会识别出两个Ｕ盘，一个在Legacy下，一个在UEFI下，请选择UEFI的那个Ｕ盘启动项。"></a>5.1 部分电脑BIOS可能会识别出两个Ｕ盘，一个在Legacy下，一个在UEFI下，请选择UEFI的那个Ｕ盘启动项。</h3><h3 id="5-2-安装步骤可以参考教程的第四部分，但是在安装到第３步时，请注意："><a href="#5-2-安装步骤可以参考教程的第四部分，但是在安装到第３步时，请注意：" class="headerlink" title="5.2 安装步骤可以参考教程的第四部分，但是在安装到第３步时，请注意："></a>5.2 安装步骤可以参考<a href="http://www.jianshu.com/p/16b36b912b02" target="_blank" rel="external">教程</a>的第四部分，但是在安装到第３步时，请注意：</h3><p> <img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531654803/20170917081949277_rueifv.png" alt=""></p>
 <p>如果电脑没有识别出win10系统的存在，则不要选择第一项“安装Ubuntu，与其他系统共存”。<br>无论如何别选择第二项“清理磁盘安装Ubuntu”，否则win10将丢失。<br>对于高手，可以考虑最下方的其他选项进行自定义分区安装，关于分区方案，推荐分成３个，分别是和物理内存一致的swap空间，一个/目录和一个/home目录，具体的大小和文件类型，请参照网上教程和自己实际分给Ubuntu的空间大小进行选择。提供几个分区方案参考教程：</p>
 <p><a href="http://www.dell.com/support/article/hk/zh/hkdhs1/sln152018/the-types-and-definitions-of-ubuntu-linux-partitions-and-directories-explained?lang=en" target="_blank" rel="external">戴尔官方给的Ubuntu各个目录的作用以及建议空间大小</a><br><a href="http://blog.chinaunix.net/uid-7547035-id-60111.html" target="_blank" rel="external">安装Ubuntu时的硬盘分区方案</a><br><a href="http://blog.csdn.net/zhangxiangweide/article/details/74779652" target="_blank" rel="external">ubuntu16.04分区设置</a></p>
 <p>网上有很多教程提供分区方案，其中很多提到/boot分区供后续挂载启动项使用。笔者认为如果前面UEFI模式设置正确并且已经在这一步识别出来win10系统的存在，则完全没必要选择此处的自定义安装，直接选择第一项让Ubuntu和win10共存即可。若UEFI模式下选择自定义分区方案，则不用设置/boot作为挂载点：</p>
-<p><img src="http://img.blog.csdn.net/20170917082214445?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531654845/20170917082214445_yyskuj.png" alt=""></p>
 <p>(图片仅供参考，主要看最下面安装启动引导器的设备）</p>
 <p>此时启动引导器应该选择放在C盘的目录下，因为之前已经设置过UEFI模式安装，此时Ｃ盘可以识别Ubuntu和win10的启动项，并方便后期双系统引导。<br>（如果自定义时扫描不出磁盘状态，则是没有修改SATA，请返回4.3重新操作一次）</p>
 <h3 id="5-3-后续安装操作请继续参考教程。在安装完成后，请重启系统并拔下U盘。"><a href="#5-3-后续安装操作请继续参考教程。在安装完成后，请重启系统并拔下U盘。" class="headerlink" title="5.3 后续安装操作请继续参考教程。在安装完成后，请重启系统并拔下U盘。"></a>5.3 后续安装操作请继续参考<a href="http://www.jianshu.com/p/16b36b912b02" target="_blank" rel="external">教程</a>。在安装完成后，请重启系统并拔下U盘。</h3><p>可能遇到的问题主要是双系统启动项，以及win10如何引导ubuntu。如果前面的操作均正确，重启后应该直接进入Ubuntu系统。如果想更改启动顺序，可以进入BIOS，将Windows的启动顺序调整到Ubuntu前面。<br>因为双系统引导出错的原因有很多，所以如果出错，请自行百度相关解决方案。如果此处无法解决双系统引导问题，请务必保证可以正常启用windows系统，回到win10磁盘管理器，删除Ubuntu系统占据的硬盘空间并从头安装。</p>
-<h2 id="6-附"><a href="#6-附" class="headerlink" title="6 附"></a>6 <em>附</em></h2><hr>
-<p><em>再次强调，没有任何一个教程能解决所有问题，双系统安装受到各种细节的影响，并且不同型号电脑的系统安装设置有很大差异，所以一定要根据自己电脑进行教程的合理选择，切记切记不要盲目下手，否则会出现各种意想不到的bug。</em></p>
+<h2 id="6-附"><a href="#6-附" class="headerlink" title="6 附"></a>6 <em>附</em></h2><p><em>再次强调，没有任何一个教程能解决所有问题，双系统安装受到各种细节的影响，并且不同型号电脑的系统安装设置有很大差异，所以一定要根据自己电脑进行教程的合理选择，切记切记不要盲目下手，否则会出现各种意想不到的bug。</em></p>
 <p>如果电脑是BIOS+MBR的模式，请寻找其他教程，大概有如下几个部分和本教程不同：<br>在BIOS中应在boot list operation选择Legacy,重启后在Ｕ盘选项中选择Legacy模式下的Ｕ盘安装。<br>在自定义分区时，应加一个/boot目录作为最后启动项的挂载目录。<br>MBR对分区数目有限制，一般控制在４个以内。<br>一般在分区方案中涉及到/boot挂载的教程大多数都是MBR模式，请读者自行搜索参阅。</p>
 <h1 id="第二部分-深度学习框架构建"><a href="#第二部分-深度学习框架构建" class="headerlink" title="第二部分 深度学习框架构建"></a>第二部分 深度学习框架构建</h1><h2 id="1-更换源"><a href="#1-更换源" class="headerlink" title="1 更换源"></a>1 <em>更换源</em></h2><p>换源可以通过国内镜像网站快速下载Ubuntu的各种包，有多种镜像网站可以选择，此处以添加中科大的源为例说明：</p>
 <pre><code>cd /etc/apt/
@@ -583,11 +582,11 @@ options nouveau modset=0
 <pre><code>sudo update-initramfs -u 
 </code></pre><p>检查禁用是否成功：</p>
 <pre><code>lspci | grep nouveau  
-</code></pre><p><img src="http://img.blog.csdn.net/20170917082640427?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+</code></pre><p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531654881/20170917082640427_skwwye.png" alt=""></p>
 <p>如果和上图一样没有任何返回，表明禁用成功。</p>
 <p><strong>高能预警：接下来一步是最容易掉坑的，循环登录/开机闪屏/开机黑屏等等均可能出现，请在仔细阅读教程后操作！！！</strong></p>
 <h2 id="４NVIDIA驱动安装"><a href="#４NVIDIA驱动安装" class="headerlink" title="４NVIDIA驱动安装"></a>４<em>NVIDIA驱动安装</em></h2><p>网上关于如何安装驱动的教程很多，但是也容易掉坑。笔者现将亲测可行的方案列出，并给出各种常见bug的解决方案。<br>首先进入<a href="http://www.nvidia.com/Download/index.aspx" target="_blank" rel="external">NVIDIA</a>官网，根据操作系统和显卡型号查找最新的驱动版本，笔者使用的是384.69版本。此处只用记下驱动程序型号，不用下载。</p>
-<p><img src="http://img.blog.csdn.net/20170917082743052?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531654898/20170917082743052_alyq4y.png" alt=""></p>
 <p>按下Ctrl+Alt+F1进入tty命令控制台，首先输入用户名和密码，然后在命令行输入下面代码关闭图形用户界面。</p>
 <pre><code>sudo service lightdm stop
 </code></pre><p>在关闭图形用户界面后，输入如下代码，从官网在线下载显卡驱动并安装：</p>
@@ -601,7 +600,7 @@ sudo apt-get install freeglut3-dev
 </code></pre><p>按Ctrl+Alt+F7回到桌面，在终端确认显卡信息是否正确。</p>
 <pre><code>nvidia-smi 
 </code></pre><p>显示的界面如下图所示：</p>
-<p><img src="http://img.blog.csdn.net/20170917082839440?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531654931/20170917082839440_fhuxz7.png" alt=""></p>
 <p>表明显卡驱动已经安装正确。</p>
 <p>上述方案是笔者亲测可行的安装方式，但是根据之前的掉坑经验，针对此过程中可能出现的几种bug进行总结。</p>
 <p><em>循环登录</em><br>如果安装驱动并返回图形用户界面，但是输入用户名和密码登录时无法验证并且一直循环在登录界面，说明显卡驱动安装出现问题。此时重新回到tty命令控制台，卸载掉之前安装出错的驱动程序。然后根据自己的选择，重新安装之前禁用的nouveau驱动或者重装nvidia驱动。<br>方案一：重装nouveau<br>参考<a href="http://www.jianshu.com/p/34236a9c4a2f" target="_blank" rel="external">教程</a>，在tty的shell中键入如下代码：</p>
@@ -617,7 +616,7 @@ sudo reboot
 <p>-no-opengl-files：只安装驱动文件，不安装OpenGL文件<br>然后重启即可。</p>
 <p><em>开机闪屏/开机黑屏</em><br>笔者两个坑都掉过，具体原因有很多种，最可能的是在禁用nouveau后nvidia驱动也不正确，导致系统没有任何显卡驱动可以使用，从而一直停留在错误的界面。此时，尝试进入tty，如果可以进入则和循环登录情况的解决方案相同，重装驱动。如果无法进入tty平台，则根据安装中可能出错的环节自行百度解决方案。</p>
 <h2 id="５-CUDA8-0安装"><a href="#５-CUDA8-0安装" class="headerlink" title="５ CUDA8.0安装"></a>５ <em>CUDA8.0安装</em></h2><p>从<a href="https://developer.nvidia.com/cuda-downloads" target="_blank" rel="external">官网</a>下载CUDA安装包，选择.run格式的文件下载。</p>
-<p><img src="http://img.blog.csdn.net/20170917082946890?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531654955/20170917082946890_fncseh.png" alt=""></p>
 <p>在下载的目录打开终端，输入如下指令安装。</p>
 <pre><code>sudo sh cuda_8.0.61_375.26_linux.run
 </code></pre><p>按照终端的提示一步步操作即可：</p>
@@ -649,7 +648,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 sudo make all
 </code></pre><p>待编译完成后，测试:</p>
 <pre><code>cd ./bin/x86_64/linux/release ./deviceQuery
-</code></pre><p><img src="http://img.blog.csdn.net/20170917083124180?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+</code></pre><p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531654977/20170917083124180_lbcsg9.png" alt=""></p>
 <p>说明安装完成。</p>
 <h2 id="6-Cudnn安装"><a href="#6-Cudnn安装" class="headerlink" title="6 Cudnn安装"></a>6 <em>Cudnn安装</em></h2><p>去<a href="https://developer.nvidia.com/cudnn" target="_blank" rel="external">官网</a>注册账号并下载Cudnn，笔者使用的是cudnn-8.0-linux-x64-v7.tgz版本。<br>进入下载文件夹，解压文件：</p>
 <pre><code>tar -xzf cudnn-8.0-linux-x64-v7.tgz
@@ -658,24 +657,24 @@ sudo cp lib64/* /usr/local/cuda/lib64/
 sudo cp include/* /usr/local/cuda/include/
 </code></pre><p>完成Cudnn安装。</p>
 <h2 id="7-anaconda2安装"><a href="#7-anaconda2安装" class="headerlink" title="7 anaconda2安装"></a>7 <em>anaconda2安装</em></h2><p>首先确定使用的python版本，然后下载对应的anaconda。笔者因惯用python2,所以从<a href="https://www.anaconda.com/download/#download" target="_blank" rel="external">官网</a>下载anaconda2。</p>
-<p><img src="http://img.blog.csdn.net/20170917083227563?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531654998/20170917083227563_l0bden.png" alt=""></p>
 <p>然后进入下载文件夹，执行：</p>
 <pre><code>bash Anaconda2-4.4.0-Linux-x86_64.sh
 </code></pre><p>若想在Ubuntu 16.04 同时安装Anaconda2和Anaconda3,请参考<a href="https://www.cnblogs.com/zle1992/p/6720425.html" target="_blank" rel="external">教程</a>，亲测可行。</p>
 <h2 id="8-TensorFlow-GPU-安装"><a href="#8-TensorFlow-GPU-安装" class="headerlink" title="8 TensorFlow(GPU)安装"></a>8 <em>TensorFlow(GPU)安装</em></h2><p>参考<a href="https://www.tensorflow.org/install/install_linux" target="_blank" rel="external">官网教程</a>，完成GPU版本TensorFlow安装：</p>
-<p><img src="http://img.blog.csdn.net/20170917083324580?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531655017/20170917083324580_aq3gho.png" alt=""></p>
 <pre><code>conda create -n tensorflow
 pip install --ignore-installed --upgrade tfBinaryURL
 pip install --ignore-installed --upgrade \
 https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.3.0-cp27-none-linux_x86_64.whl
 </code></pre><p>代码中的网址应该替换成下图所示的待安装版本的对应网址。</p>
-<p><img src="http://img.blog.csdn.net/20170917083402982?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531655087/20170917083402982_lkaucs.png" alt=""></p>
 <p> 安装完成后，测试tensorfloｗ的GPU加速性能：</p>
 <pre><code>cd /anaconda2/envs/tensorflow/lib/python2.7/site-packages/tensorflow/models/image/mnist
 source activate tensorflow
 python convolutional.py
 </code></pre><p>如果执行后可以出现下面的界面，恭喜GPU加速成功开启！！</p>
-<p><img src="http://img.blog.csdn.net/20170917083503916?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHV1dXV1c3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""></p>
+<p><img src="https://res.cloudinary.com/dyy3xzfqh/image/upload/v1531655038/20170917083503916_uxprc2.png" alt=""></p>
 <p>附赠几个GPU安装及环境配置教程，不过按照之前的官网教程安装，一般不会出错。如出现问题，可以自行寻找教程进行参考解决。</p>
 <p><a href="http://blog.csdn.net/zhaoyu106/article/details/52793183/" target="_blank" rel="external"> ubuntu16.04下安装TensorFlow(GPU加速)—-详细图文教程 </a><br><a href="http://blog.csdn.net/ZWX2445205419/article/details/69429518" target="_blank" rel="external"> Ubuntu16.04安装CUDA+cuDNN+GPU版TensorFlow过程记录 </a><br><a href="https://segmentfault.com/a/1190000008234390" target="_blank" rel="external">Ubuntu16.04 下安装GPU版TensorFlow（包括Cuda和Cudnn）</a></p>
 <p><em>以上是笔者一周装机历程的总结，期间重置了３次win10，安装Ubuntu失败４次，掉进循环登录／开机重启等等各种坑。深度学习硬件环境配置需要绝对的耐心，应对各种可能出现的问题要能坚持钻研下去。网上各种教程，虽然详细但在使用前一定要确定是否适合自己的电脑配置和当前面对的问题。盲目轻信各类教程只会掉进越来越多的坑，潜心分析才是关键。</em><br><em>作为一个非科班、连BIOS的作用都不了解的电脑白痴，到捯饬一周后装机成功，只有一句心得：本来不知道路，踩的坑多了，也就知道了路。</em><br><em>最后感谢文中引用的所有教程的作者，也希望各位读者耐心耐心再耐心的解决遇到的问题，预祝大家装机成功。</em></p>
@@ -841,7 +840,7 @@ python convolutional.py
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/Deep-Learning/">Deep Learning<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/categories/深度学习/">深度学习<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
