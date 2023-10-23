@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hao Chen's Homepage"
+title                    : "Shiyu Hu's Homepage"
 title_separator          : "-"
-name                     : &name "Hao Chen"
+name                     : &name "Shiyu Hu"
 description              : &description "personal description"
-url                      : https://timebreaker.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://huuuuusy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : " TimeBreaker/TimeBreaker.github.io "
+repository               : " huuuuusy/huuuuusy.github.io "
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hao Chen"
-  avatar           : "profile.png"
-  bio              : "Ph.D. student of University of Chinese Academy of Sciences, interested in multi-agent reinforcement learning"
+  name             : "Shiyu Hu"
+  avatar           : "profile.jpg"
+  bio              : "Ph.D. student at the Institute of Automation, Chinese Academy of Sciences, with a research focus on visual object tracking, visual Turing test, and intelligence evaluation techniques."
   location         : "Beijing, China"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/hao.chen.18/bibliography/public/"
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=y8zHIo4AAAAJ"
-  email            : "chenhao915@mails.ucas.ac.cn"
-  researchgate     : "https://www.researchgate.net/profile/Chen_Hao92"
+  pubmed           : 
+  googlescholar    : 
+  email            : "hushiyu2019@ia.ac.cn"
+  researchgate     : "https://www.researchgate.net/profile/Shiyu-Hu-8"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,26 +96,26 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "TimeBreaker"
+  github           : "huuuuusy"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         : "hao-c-55213211a/"
-  orcid            :  https://orcid.org/0000-0002-5982-0615 
+  linkedin         : 
+  orcid            :  https://orcid.org/0000-0002-5872-7566
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
   youtube          :
-  zhihu            : "https://www.zhihu.com/people/chen-hao-31-30"
-  aminer           : "https://aminer.org/profile/633c2444f5d67833f7247ae1"
+  zhihu            : 
+  aminer           : 
   wikipedia        :
 
 
