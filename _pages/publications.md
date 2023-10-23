@@ -5,9 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-Publications
-======
-
 ## Journals
 * **Global Instance Tracking: Locating Target More Like Humans**<br>
   **Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
