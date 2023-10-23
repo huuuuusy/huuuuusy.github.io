@@ -48,7 +48,7 @@ Publications
 * **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
   X. Feng, **Shiyu Hu**, X. Chen, K. Huang<br>
   *PRCV2023(CCF-C Conference, Poster):[the 6th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv)*<br>
-  [Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)] 
+  [Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)
 
 
 ## Journals
