@@ -40,18 +40,30 @@ Experiences
 Publications
 ======
 
+## Journals
+* **Global Instance Tracking: Locating Target More Like Humans**<br>
+  **Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
+  *TPAMI 2023 (CCF-A Journal):[IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)*<br>
+  [[Paper](https://ieeexplore.ieee.org/document/9720246/)] 
+  [[Platform](http://videocube.aitestunion.com/)] 
+  [[Toolkit](https://github.com/huuuuusy/videocube-toolkit)] 
+  [[Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
+
 ## Conferences
 * **A Multi-modal Global Instance Tracking Benchmark (MGIT): Better Locating Target in Complex Spatio-temporal and causal Relationship**<br>
   **Shiyu Hu**, D. Zhang, M. Wu, X. Feng, X. Li, X. Zhao, K. Huang<br>
-  *NeurIPS2023(CCF-A Conference, Poster):[the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023)*<br>
-  [[URL](http://videocube.aitestunion.com/)] 
+  *NeurIPS 2023 (CCF-A Conference, Poster):[the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023)*<br>
+  [[Platform](http://videocube.aitestunion.com/)] 
+  [[Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
+  
 * **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
   X. Feng, **Shiyu Hu**, X. Chen, K. Huang<br>
-  *PRCV2023(CCF-C Conference, Poster):[the 6th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv)*<br>
-  [Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)
+  *PRCV 2023 (CCF-C Conference, Poster):[the 6th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv)*<br>
+  [[Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
 
 
-## Journals
+
+
 
 ## Patents
 
