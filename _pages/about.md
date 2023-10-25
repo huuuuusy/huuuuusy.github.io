@@ -44,8 +44,8 @@ Research Interests
 ======
 * Visual Object Tracking (VOT)
 * Visual Turing Test (VTT)
-* Intelligence Evaluation Techniques
-* Large-scale Evaluation Environment Construction
+* Intelligence Evaluation Systems
+* Data-centric AI
 * Cognitive Neuroscience
 
 
