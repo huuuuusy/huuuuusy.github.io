@@ -176,7 +176,7 @@ For More Info
 * [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/)
 * [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/)
 * [Department of Computer Science, University of Hong Kong (HKU)](https://www.cs.hku.hk/)
-* [Big-Little Heterogeneous Computing with Polymorphic GPU Kernels, University of Hong Kong](https://i.cs.hku.hk/~clwang/big_little_GPU.htm)
+<!-- * [Big-Little Heterogeneous Computing with Polymorphic GPU Kernels, University of Hong Kong](https://i.cs.hku.hk/~clwang/big_little_GPU.htm) -->
 
 
 Contact
