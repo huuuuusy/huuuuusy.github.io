@@ -13,30 +13,30 @@ I’m currently learning **computer vision**, **visual object tracking** and **c
 
 News
 ======
-* 2023.10 : Obtain China National Scholarship (top 0.2%, only 8 Ph.D. students in main campus of UCAS win this scholarship)!
-* 2023.10 : Obtain First Prize of Climbing Scholarship (only 6 students in CASIA win this scholarship)!
-* 2023.10 : One second author paper has been accepted by International Journal of Computer Vision (IJCV, CCF-A Journal, IF=19.5)! 
+* 2023.10 : Obtain China National Scholarship (top 0.2%, only 8 Ph.D. students in main campus of UCAS win this scholarship).
+* 2023.10 : Obtain First Prize of Climbing Scholarship (only 6 students in CASIA win this scholarship).
+* 2023.10 : One second author paper has been accepted by International Journal of Computer Vision (IJCV, CCF-A Journal, IF=19.5).
   [[Platform](http://biodrone.aitestunion.com/)] 
   [[Toolkit](https://github.com/huuuuusy/biodrone-toolkit-official)] 
   [[Dataset](http://biodrone.aitestunion.com/downloads)] 
-* 2023.9 : One first author survey has been accepted by Journal of Images and Graphics (CCF-B Chinese Journal)! 
-* 2023.9 : One first author paper has been accepted by the 37th Conference on Neural Information Processing Systems (NeurIPS, CCF-A Conference, Poster)! 
+* 2023.9 : One first author survey has been accepted by Journal of Images and Graphics (CCF-B Chinese Journal). 
+* 2023.9 : One first author paper has been accepted by the 37th Conference on Neural Information Processing Systems (NeurIPS, CCF-A Conference, Poster).
   [[Platform](http://videocube.aitestunion.com/)] 
   [[Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
-* 2023.9 : One first author paper has been accepted by International Journal of Computer Vision (IJCV, CCF-A Journal, IF=19.5)! 
+* 2023.9 : One first author paper has been accepted by International Journal of Computer Vision (IJCV, CCF-A Journal, IF=19.5). 
   [[Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)] 
   [[Platform](http://metaverse.aitestunion.com/)] 
-* 2023.8 : One second author paper has been accepted by the 6th Chinese Conference on Pattern Recognition and Computer Vision (PRCV, CCF-C Conference, Poster)! 
+* 2023.8 : One second author paper has been accepted by the 6th Chinese Conference on Pattern Recognition and Computer Vision (PRCV, CCF-C Conference, Poster). 
   [[Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
-* 2022.6 : Obtain merit student of University of Chinese Academy of Sciences!
-* 2022.6 : One paper has been accepted by Neurocomputing (Neu, CCF-C Journal, IF=6)! 
+* 2022.6 : Obtain merit student of University of Chinese Academy of Sciences.
+* 2022.6 : One paper has been accepted by Neurocomputing (Neu, CCF-C Journal, IF=6). 
   [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445)] 
   [[Project](https://github.com/Instance-Search/)] 
-* 2022.2 : One first author paper has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, CCF-A Journal, IF=23.6)! 
+* 2022.2 : One first author paper has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, CCF-A Journal, IF=23.6). 
   [[Paper](https://ieeexplore.ieee.org/document/9720246/)] 
   [[Platform](http://videocube.aitestunion.com/)] 
   [[Toolkit](https://github.com/huuuuusy/videocube-toolkit)] 
-* 2021.6 : One survey has been accepted by Journal of Graphics (CCF-C Chinese Journal)! 
+* 2021.6 : One survey has been accepted by Journal of Graphics (CCF-C Chinese Journal). 
   [[Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)] 
 
 
