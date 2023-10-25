@@ -113,7 +113,9 @@ Awards & Honors
 * 2017 Excellent Innovative Student of Beijing Institute of Technology (北京理工大学优秀创新学生)
 * 2016 Excellent League Member on Youth Day Competition of Beijing Institute of Technology (北京理工大学优秀团员)
 * 2016 College Scholarship of Chinese Academy of Sciences (中国科学院大学生奖学金)
-* 2015 National First Prize in [Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)](http://en.mcm.edu.cn/) (全国大学生数学建模竞赛国家一等奖, top 1%, only 1 team in Beijing Institute of Technology win this prize)[📑PDF](https://huuuuusy.github.io/files/CUMCM15.pdf)[📖Selected and Reviewed Outstanding Papers in CUMCM (2011-2015) (Chapter 9)](http://www.tup.tsinghua.edu.cn/booksCenter/book_06811101.html)
+* 2015 National First Prize in [Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)](http://en.mcm.edu.cn/) (全国大学生数学建模竞赛国家一等奖, top 1%, only 1 team in Beijing Institute of Technology win this prize)
+[[📑PDF](https://huuuuusy.github.io/files/CUMCM15.pdf)]
+[[📖Selected and Reviewed Outstanding Papers in CUMCM (2011-2015) (Chapter 9)](http://www.tup.tsinghua.edu.cn/booksCenter/book_06811101.html)]
 * 2015 First Prize of Mathematics Modeling Competition within Beijing Institute of Technology (北京理工大学数学建模校内选拔赛第一名)
 * 2015 Outstanding Individual on Summer Social Practice of Beijing Institute of Technology (北京理工大学暑期社会实践优秀个人)
 * 2015 Second Prize on Summer Social Practice of Beijing Institute of Technology (北京理工大学暑期社会实践二等奖, team leader)
@@ -126,9 +128,9 @@ Awards & Honors
 
 Academic Activities
 ======
-* 2022.9 - Now : Initiator and organizer of interdisciplinary symposia around computer vision (22 participants from 10+ universities, once a week)
-* 2022.9 - 2023.7 : Assisted in supervising two UCAS undergraduate students in their bachelor's degree projects (one for visual object tracking, one for visual Turing test)
-* 2022.10 : Organizer of the [3rd High-Speed Low-Power Visual Understanding Challenge](http://hislopvision.aitestunion.com/) in [the 5th Chinese Conference on Pattern Recognition and Computer Vision](http://www.prcv.cn/)
+* **2022.9 - Now** : Initiator and organizer of interdisciplinary symposia around computer vision (22 participants from 10+ universities, once a week)
+* **2022.9 - 2023.7** : Assisted in supervising two UCAS undergraduate students in their bachelor's degree projects (one for visual object tracking, one for visual Turing test)
+* **2022.10** : Organizer of the [3rd High-Speed Low-Power Visual Understanding Challenge](http://hislopvision.aitestunion.com/) in [the 5th Chinese Conference on Pattern Recognition and Computer Vision](http://www.prcv.cn/)
 
 
 <!-- Program Committee Member -->
@@ -148,8 +150,8 @@ Academic Activities
 
 Other Activities
 ======
-* 2013.9 - 2017.6 : League Branch Secretary of Elites Students’ Class of School of Information and Electronics of Beijing Institute of Technology
-* 2015.7 - 2015.8 : Team leader in Summer Social Practice in University of California, Berkeley
+* **2013.9 - 2017.6** : League Branch Secretary of Elites Students’ Class of School of Information and Electronics of Beijing Institute of Technology
+* **2015.7 - 2015.8** : Team leader in Summer Social Practice in University of California, Berkeley
 
 
 Maintained Projects
