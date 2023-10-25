@@ -137,7 +137,7 @@ Awards & Honors
 Academic Activities
 ======
 * 2022.9 - Now : Initiator and organizer of interdisciplinary symposia around computer vision (22 participants from 10+ universities, once a week)
-* 2022.9 - 2023.7 : Assisted in supervising two UCAS undergraduate students in their bachelor's degree projects (one for visual object tracking, one for visual Turing test).
+* 2022.9 - 2023.7 : Assisted in supervising two UCAS undergraduate students in their bachelor's degree projects (one for visual object tracking, one for visual Turing test)
 * 2022.10 : Organizer of the [3rd High-Speed Low-Power Visual Understanding Challenge](http://hislopvision.aitestunion.com/) in [the 5th Chinese Conference on Pattern Recognition and Computer Vision](http://www.prcv.cn/)
 
 
