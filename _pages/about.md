@@ -69,6 +69,7 @@ Publications
   **Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
   *TPAMI 2023 (CCF-A Journal, IF=23.6): [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)*<br>
   [[Paper](https://ieeexplore.ieee.org/document/9720246/)] 
+  [[PDF]](https://huuuuusy.github.io/files/GIT.pdf)
   [[Platform](http://videocube.aitestunion.com/)] 
   [[Toolkit](https://github.com/huuuuusy/videocube-toolkit)] 
   [[Dataset](http://videocube.aitestunion.com/downloads)]
@@ -77,6 +78,7 @@ Publications
   **Shiyu Hu**, X. Zhao, K. Huang<br>
   *IJCV 2023 (CCF-A Journal, IF=19.5): [International Journal of Computer Vision](https://www.springer.com/journal/11263)*<br>
   [[Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)] 
+  [[PDF]](https://huuuuusy.github.io/files/SOTVerse.pdf)
   [[Platform](http://metaverse.aitestunion.com/)] 
 
 * **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
@@ -106,11 +108,14 @@ Publications
   **Shiyu Hu**, D. Zhang, M. Wu, X. Feng, X. Li, X. Zhao, K. Huang<br>
   *NeurIPS 2023 (CCF-A Conference, Poster): [the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023)*<br>
   [[Platform](http://videocube.aitestunion.com/)] 
+  [[PDF]](https://huuuuusy.github.io/files/MGIT.pdf)
   [[Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
 
 * **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
   X. Feng, **Shiyu Hu**, X. Chen, K. Huang<br>
   *PRCV 2023 (CCF-C Conference, Poster): [the 6th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv)*<br>
+  [[PDF](https://huuuuusy.github.io/files/PRCV23.pdf)]
+  [[Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)]
   [[Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
 
 
