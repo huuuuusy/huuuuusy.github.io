@@ -13,32 +13,17 @@ I’m currently learning **computer vision**, **visual object tracking** and **c
 
 News
 ======
-* 2023.10 : Obtain China National Scholarship (top 0.2%, only 8 Ph.D. students in main campus of UCAS win this scholarship).
-* 2023.10 : Obtain First Prize of Climbing Scholarship (only 6 students in CASIA win this scholarship).
-* 2023.10 : One second author paper has been accepted by International Journal of Computer Vision (IJCV, CCF-A Journal, IF=19.5).
-  [[Platform](http://biodrone.aitestunion.com/)] 
-  [[Toolkit](https://github.com/huuuuusy/biodrone-toolkit-official)] 
-  [[Dataset](http://biodrone.aitestunion.com/downloads)] 
-* 2023.9 : One first author survey has been accepted by Journal of Images and Graphics (CCF-B Chinese Journal). 
-* 2023.9 : One first author paper has been accepted by the 37th Conference on Neural Information Processing Systems (NeurIPS, CCF-A Conference, Poster).
-  [[Platform](http://videocube.aitestunion.com/)] 
-  [[Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
-* 2023.9 : One first author paper has been accepted by International Journal of Computer Vision (IJCV, CCF-A Journal, IF=19.5). 
-  [[Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)] 
-  [[Platform](http://metaverse.aitestunion.com/)] 
-* 2023.8 : One second author paper has been accepted by the 6th Chinese Conference on Pattern Recognition and Computer Vision (PRCV, CCF-C Conference, Poster). 
-  [[Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
-* 2022.6 : Obtain merit student of University of Chinese Academy of Sciences.
-* 2022.6 : One paper has been accepted by Neurocomputing (Neu, CCF-C Journal, IF=6). 
-  [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445)] 
-  [[Project](https://github.com/Instance-Search/)] 
-* 2022.2 : One first author paper has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, CCF-A Journal, IF=23.6). 
-  [[Paper](https://ieeexplore.ieee.org/document/9720246/)] 
-  [[Platform](http://videocube.aitestunion.com/)] 
-  [[Toolkit](https://github.com/huuuuusy/videocube-toolkit)] 
-* 2021.6 : One survey has been accepted by Journal of Graphics (CCF-C Chinese Journal). 
-  [[Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)] 
-
+* **2023.10** : Obtain China National Scholarship (国家奖学金, top 0.2%, only 8 Ph.D. students in main campus of UCAS win this scholarship).
+* **2023.10** : Obtain First Prize of Climbing Scholarship (攀登一等奖学金, only 6 students in CASIA win this scholarship).
+* **2023.10** : One second author paper has been accepted by International Journal of Computer Vision (IJCV, CCF-A Journal, IF=19.5).
+* **2023.9** : One first author survey has been accepted by Journal of Images and Graphics (CCF-B Chinese Journal). 
+* **2023.9** : One first author paper has been accepted by the 37th Conference on Neural Information Processing Systems (NeurIPS, CCF-A Conference, Poster).
+* **2023.9** : One first author paper has been accepted by International Journal of Computer Vision (IJCV, CCF-A Journal, IF=19.5). 
+* **2023.8** : One second author paper has been accepted by the 6th Chinese Conference on Pattern Recognition and Computer Vision (PRCV, CCF-C Conference, Poster). 
+* **2022.6** : Obtain merit student of University of Chinese Academy of Sciences.
+* **2022.6** : One paper has been accepted by Neurocomputing (Neu, CCF-C Journal, IF=6). 
+* **2022.2** : One first author paper has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, CCF-A Journal, IF=23.6). 
+* **2021.6** : One survey has been accepted by Journal of Graphics (CCF-C Chinese Journal). 
 
 Research Interests
 ======
@@ -48,18 +33,17 @@ Research Interests
 * Data-centric AI
 * Cognitive Neuroscience
 
-
 Education
 ======
-* 2019.9 - Present : Ph.D. in Computer Application Technology, [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/) and [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/), advised by [Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi) (IAPR Fellow)
-* 2017.9 - 2019.6 : M.S. in Computer Science, [Department of Computer Science, University of Hong Kong (HKU)](https://www.cs.hku.hk/), advised by [Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang). [[Diploma project](https://github.com/huuuuusy/Darknet-Cross)]  grade: A+ 
-* 2013.9 - 2017.6 : B.E. in Information Engineering, [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/). Diploma project grade: A+
+* **2019.9 - Present** : Ph.D. in Computer Application Technology, [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/) and [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/), advised by [Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi) (IAPR Fellow)
+* **2017.9 - 2019.6** : M.S. in Computer Science, [Department of Computer Science, University of Hong Kong (HKU)](https://www.cs.hku.hk/), advised by [Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang). [[Diploma project](https://github.com/huuuuusy/Darknet-Cross)]  grade: A+ 
+* **2013.9 - 2017.6** : B.E. in Information Engineering, [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/). Diploma project grade: A+
 
 Experiences
 ======
-* 2018.3 - 2018.11 : Research assistent at [Big-Little Heterogeneous Computing with Polymorphic GPU Kernels, University of Hong Kong](https://i.cs.hku.hk/~clwang/big_little_GPU.htm)
-* 2016.8 - 2016.9 : Internship on satellite faster algorithm of hard X-ray modulation telescope for space pilot satellite project at [Aerospace Information Research Institute, Chinese Academy of Sciences](http://english.aircas.ac.cn/). Internship grade: A+ 
-* 2015.7 - 2015.8 : Summer school at [University of California, Berkeley](https://www.berkeley.edu/). Course grade (new media): A+ 
+* **2018.3 - 2018.11** : Research assistent at [Big-Little Heterogeneous Computing with Polymorphic GPU Kernels, University of Hong Kong](https://i.cs.hku.hk/~clwang/big_little_GPU.htm)
+* **2016.8 - 2016.9** : Internship on satellite faster algorithm of hard X-ray modulation telescope for space pilot satellite project at [Aerospace Information Research Institute, Chinese Academy of Sciences](http://english.aircas.ac.cn/). Internship grade: A+ 
+* **2015.7 - 2015.8** : Summer school at [University of California, Berkeley](https://www.berkeley.edu/). Course grade (new media): A+ 
 
 Publications
 ======
@@ -90,25 +74,26 @@ Publications
 
 * **Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey (单目标跟踪中的视觉智能评估技术综述)**<br>
   **Shiyu Hu**, X. Zhao, K. Huang<br>
-  *[Journal of Images and Graphics 2023 (CCF-B Chinese Journal)](http://www.cjig.cn/jig/ch/index.aspx)*<br>
+  *《中国图象图形学报》(CCF-B Chinese Journal): [Journal of Images and Graphics 2023](http://www.cjig.cn/jig/ch/index.aspx)*<br>
 
 * **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
   Y. Zhang, C. Liu, W. Chen, X. Xu, F. Wang, H. Li, **Shiyu Hu**, X. Zhao<br>
   *Neu 2022 (CCF-C Journal, IF=6): [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)*<br>
   [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445)] 
+  [[PDF](https://huuuuusy.github.io/files/Neu22.pdf)] 
   [[Project](https://github.com/Instance-Search/)] 
 
 * **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
   K. Huang, X. Zhao, Q. Li, **Shiyu Hu**<br>
-  *[Journal of Graphics 2021 (CCF-C Chinese Journal)](http://www.txxb.com.cn/CN/2095-302X/home.shtml)*<br>
+  *《图学学报》(CCF-C Chinese Journal): [Journal of Graphics 2021](http://www.txxb.com.cn/CN/2095-302X/home.shtml)*<br>
   [[Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)] 
 
 ## Conferences
 * **A Multi-modal Global Instance Tracking Benchmark (MGIT): Better Locating Target in Complex Spatio-temporal and causal Relationship**<br>
   **Shiyu Hu**, D. Zhang, M. Wu, X. Feng, X. Li, X. Zhao, K. Huang<br>
   *NeurIPS 2023 (CCF-A Conference, Poster): [the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023)*<br>
-  [[Platform](http://videocube.aitestunion.com/)] 
   [[PDF]](https://huuuuusy.github.io/files/MGIT.pdf)
+  [[Platform](http://videocube.aitestunion.com/)] 
   [[Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
 
 * **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
@@ -121,23 +106,22 @@ Publications
 
 Awards & Honors
 ======
-* 2023 China National Scholarship (Top 0.2%, only 8 Ph.D. students in main campus of University of Chinese Academy of Sciences win this scholarship)
-* 2023 First Prize of Climbing Scholarship in Institute of Automation, Chinese Academy of Sciences (Only 6 students in Institute of Automation, Chinese Academy of Sciences win this scholarship)
-* 2022 Merit Student of University of Chinese Academy of Sciences
-* 2017 Excellent Innovative Student of Beijing Institute of Technology
-* 2016 Excellent League Member on Youth Day Competition of Beijing Institute of Technology
-* 2016 College Scholarship of Chinese Academy of Sciences
-* 2015 National First Prize in [Contemporary Undergraduate Mathematical Contest in Modeling](http://en.mcm.edu.cn/) (Top 1%, only 1 team in Beijing Institute of Technology win this prize)
-* 2015 First Prize of Mathematics Modeling Competition within Beijing Institute of Technology
-* 2015 Outstanding Individual on Summer Social Practice of Beijing Institute of Technology
-* 2015 Second Prize on Summer Social Practice of Beijing Institute of Technology (Team Leader)
-* 2015 Outstanding Student Cadre of Beijing Institute of Technology
-* 2015 Outstanding League Cadre on Youth Day Competition of Beijing Institute of Technology
-* 2015 Outstanding Youth League Branch of Beijing Institute of Technology (Team Leader)
-* 2015 Top 10 Activities on League Day of Beijing Institute of Technology (Team Leader)
-* 2014 Outstanding Student of Beijing Institute of Technology
-* 2014, 2015, 2016, 2017 Scholarship of Beijing Institute of Technology
-
+* 2023 China National Scholarship (国家奖学金, top 0.2%, only 8 Ph.D. students in main campus of University of Chinese Academy of Sciences win this scholarship)
+* 2023 First Prize of Climbing Scholarship in Institute of Automation, Chinese Academy of Sciences (攀登一等奖学金, only 6 students in Institute of Automation, Chinese Academy of Sciences win this scholarship)
+* 2022 Merit Student of University of Chinese Academy of Sciences (中国科学院大学三好学生)
+* 2017 Excellent Innovative Student of Beijing Institute of Technology (北京理工大学优秀创新学生)
+* 2016 Excellent League Member on Youth Day Competition of Beijing Institute of Technology (北京理工大学优秀团员)
+* 2016 College Scholarship of Chinese Academy of Sciences (中国科学院大学生奖学金)
+* 2015 National First Prize in [Contemporary Undergraduate Mathematical Contest in Modeling](http://en.mcm.edu.cn/) (全国大学生数学建模竞赛国家一等奖, top 1%, only 1 team in Beijing Institute of Technology win this prize)
+* 2015 First Prize of Mathematics Modeling Competition within Beijing Institute of Technology (北京理工大学数学建模校内选拔赛第一名)
+* 2015 Outstanding Individual on Summer Social Practice of Beijing Institute of Technology (北京理工大学暑期社会实践优秀个人)
+* 2015 Second Prize on Summer Social Practice of Beijing Institute of Technology (北京理工大学暑期社会实践二等奖, Team Leader)
+* 2015 Outstanding Student Cadre of Beijing Institute of Technology (北京理工大学优秀学生干部)
+* 2015 Outstanding League Cadre on Youth Day Competition of Beijing Institute of Technology (北京理工大学优秀团干部)
+* 2015 Outstanding Youth League Branch of Beijing Institute of Technology (北京理工大学优秀团支部, Team Leader)
+* 2015 Top 10 Activities on League Day of Beijing Institute of Technology (北京理工大学十佳团日活动, Team Leader)
+* 2014 Outstanding Student of Beijing Institute of Technology (北京理工大学优秀学生)
+* 2014, 2015, 2016, 2017 Scholarship of Beijing Institute of Technology (北京理工大学学业奖学金)
 
 Academic Activities
 ======
