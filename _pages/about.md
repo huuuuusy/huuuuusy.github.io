@@ -52,7 +52,8 @@ Publications
 * **Global Instance Tracking: Locating Target More Like Humans**<br>
   **Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
   *TPAMI 2023 (CCF-A Journal, IF=23.6): [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)*<br>
-  [[📃Paper](https://ieeexplore.ieee.org/document/9720246/)] 
+  [[📃Paper](https://ieeexplore.ieee.org/document/9720246/)]
+  [[🗒bibTex](https://huuuuusy.github.io/files/GIT.bib)]
   [[📑PDF](https://huuuuusy.github.io/files/GIT.pdf)]
   [[🌐Platform](http://videocube.aitestunion.com/)] 
   [[🔧Toolkit](https://github.com/huuuuusy/videocube-toolkit)] 
@@ -61,7 +62,8 @@ Publications
 * **SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
   **Shiyu Hu**, X. Zhao, K. Huang<br>
   *IJCV 2023 (CCF-A Journal, IF=19.5): [International Journal of Computer Vision](https://www.springer.com/journal/11263)*<br>
-  [[📃Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)] 
+  [[📃Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)]
+  [[🗒bibTex](https://huuuuusy.github.io/files/SOTVerse.bib)] 
   [[📑PDF](https://huuuuusy.github.io/files/SOTVerse.pdf)]
   [[🌐Platform](http://metaverse.aitestunion.com/)] 
 
@@ -80,6 +82,7 @@ Publications
   Y. Zhang, C. Liu, W. Chen, X. Xu, F. Wang, H. Li, **Shiyu Hu**, X. Zhao<br>
   *Neu 2022 (CCF-C Journal, IF=6): [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)*<br>
   [[📃Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445)] 
+  [[🗒bibTex](https://huuuuusy.github.io/files/Neu22.bib)] 
   [[📑PDF](https://huuuuusy.github.io/files/Neu22.pdf)] 
   [[🌐Project](https://github.com/Instance-Search/)] 
 
@@ -87,6 +90,7 @@ Publications
   K. Huang, X. Zhao, Q. Li, **Shiyu Hu**<br>
   *《图学学报》(CCF-C Chinese Journal): [Journal of Graphics 2021](http://www.txxb.com.cn/CN/2095-302X/home.shtml)*<br>
   [[📃Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)] 
+  [[🗒bibTex](https://huuuuusy.github.io/files/VTT.bib)] 
   [[📑PDF](https://huuuuusy.github.io/files/VTT.pdf)]
 
 ## Conferences
