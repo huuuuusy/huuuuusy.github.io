@@ -86,7 +86,7 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=49W-Rx4AAAAJ"
   email            : "hushiyu2019@ia.ac.cn"
   researchgate     : "https://www.researchgate.net/profile/Shiyu-Hu-8"
   uri              :
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : 
-  orcid            :  https://orcid.org/0000-0002-5872-7566
+  linkedin         : "https://www.linkedin.com/in/hushiyu1995/?locale=en_US"
+  orcid            : "https://orcid.org/0000-0002-5872-7566"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
@@ -114,7 +114,7 @@ author:
   weibo            :
   xing             :
   youtube          :
-  zhihu            : 
+  zhihu            : https://www.zhihu.com/people/hushiyu1995
   aminer           : 
   wikipedia        :
 

@@ -29,25 +29,29 @@ Research Interests
 ======
 * Visual Object Tracking (VOT)
 * Visual Turing Test (VTT)
-* Intelligence Evaluation Systems
+* Evaluation Techniques
 * Data-centric AI
 * Cognitive Neuroscience
 
 Education
 ======
-* **2019.9 - Present** : Ph.D. in Computer Application Technology, [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/) and [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/), advised by [Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi) (IAPR Fellow)
+* **2019.9 - Now** : Ph.D. in Computer Application Technology, [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/) and [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/), advised by [Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi) (IAPR Fellow)
 * **2017.9 - 2019.6** : M.S. in Computer Science, [Department of Computer Science, University of Hong Kong (HKU)](https://www.cs.hku.hk/), advised by [Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang). [[Diploma project](https://github.com/huuuuusy/Darknet-Cross)]  grade: A+ 
-* **2013.9 - 2017.6** : B.E. in Information Engineering, [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/). Diploma project grade: A+
+* **2013.9 - 2017.6** : B.E. in Information Engineering, Elites Class in School of Information and Electronics, [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/). Diploma project grade: A+
 
 Experiences
 ======
-* **2018.3 - 2018.11** : Research assistent at [Big-Little Heterogeneous Computing with Polymorphic GPU Kernels, University of Hong Kong](https://i.cs.hku.hk/~clwang/big_little_GPU.htm)
+* **2022.9 - Now** : Initiator and organizer of interdisciplinary symposia around computer vision (22 participants from 10+ universities, once a week)
+* **2022.9 - 2023.7** : Assisted tutor for two undergraduate students about their bachelor's degree projects in University of Chinese Academy of Sciences (UCAS) (one for visual object tracking, one for visual Turing test)
+* **2022.5 - 2022.10** : Organizer of the [3rd High-Speed Low-Power Visual Understanding Challenge](http://hislopvision.aitestunion.com/) in [the 5th Chinese Conference on Pattern Recognition and Computer Vision](http://www.prcv.cn/)
+* **2018.3 - 2018.11** : Research assistant at [Big-Little Heterogeneous Computing with Polymorphic GPU Kernels, University of Hong Kong](https://i.cs.hku.hk/~clwang/big_little_GPU.htm)
 * **2016.8 - 2016.9** : Internship on satellite faster algorithm of hard X-ray modulation telescope for space pilot satellite project at [Aerospace Information Research Institute, Chinese Academy of Sciences](http://english.aircas.ac.cn/). Internship grade: A+ 
 * **2015.7 - 2015.8** : Summer school at [University of California, Berkeley](https://www.berkeley.edu/). Course grade (new media): A+ 
+* **2015.7 - 2015.8** : Team leader in Summer Social Practice in [University of California, Berkeley](https://www.berkeley.edu/)
+* **2013.9 - 2017.6** : League Branch Secretary of Elites Class in School of Information and Electronics, Beijing Institute of Technology
 
 Publications
 ======
-
 ## Journals
 * **Global Instance Tracking: Locating Target More Like Humans**<br>
   **Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
@@ -108,7 +112,6 @@ Publications
   [[🔖Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)]
   [[📌Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
 
-
 Awards & Honors
 ======
 * 2023 China National Scholarship (国家奖学金, top 0.2%, only 8 Ph.D. students in main campus of University of Chinese Academy of Sciences win this scholarship)
@@ -126,36 +129,13 @@ Awards & Honors
 * 2015 Outstanding Student Cadre of Beijing Institute of Technology (北京理工大学优秀学生干部)
 * 2015 Outstanding League Cadre on Youth Day Competition of Beijing Institute of Technology (北京理工大学优秀团干部)
 * 2015 Outstanding Youth League Branch of Beijing Institute of Technology (北京理工大学优秀团支部, team leader)
-* 2015 Top 10 Activities on League Day of Beijing Institute of Technology (北京理工大学十佳团日活动, team leader)
+* 2015 Top 10 Activities on Youth Day Competition of Beijing Institute of Technology (北京理工大学十佳团日活动, team leader)
 * 2014 Outstanding Student of Beijing Institute of Technology (北京理工大学优秀学生)
-* 2014, 2015, 2016, 2017 Scholarship of Beijing Institute of Technology (北京理工大学学业奖学金)
-
-Academic Activities
-======
-* **2022.9 - Now** : Initiator and organizer of interdisciplinary symposia around computer vision (22 participants from 10+ universities, once a week)
-* **2022.9 - 2023.7** : Assisted in supervising two UCAS undergraduate students in their bachelor's degree projects (one for visual object tracking, one for visual Turing test)
-* **2022.10** : Organizer of the [3rd High-Speed Low-Power Visual Understanding Challenge](http://hislopvision.aitestunion.com/) in [the 5th Chinese Conference on Pattern Recognition and Computer Vision](http://www.prcv.cn/)
+* 2014, 2015, 2016, 2017 Academic Scholarship of Beijing Institute of Technology (北京理工大学学业奖学金)
 
 
-<!-- Program Committee Member -->
-<!-- ====== -->
-<!-- * IJCAI 2023：[the 32nd International Joint Conference on Artificial Intelligence](https://ijcai-23.org/)
-* ECAI 2023：[the 26th European Conference on Artificial Intelligence](https://ecai2023.eu/)
-* MRS 2023：[the 4th International Symposium on Multi-Robot and Multi-Agent Systems](https://sites.bu.edu/mrs2023/)
-* CAC 2023: [the Chinese Automation Congress](https://www.cac2023.org.cn/)
-* IVPAI 2023: [the 5th International Conference on Image, Video Processing and Artificial Intelligence](https://www.ivpai.org)
-* ICML 2022: [the 39th International Conference on Machine Learning](https://icml.cc/Conferences/2022)
-* CAC 2022: [the Chinese Automation Congress](http://www.cac2022.org.cn/) -->
-
-
-<!-- Journal Reviewer -->
-<!-- ====== -->
-<!-- * TNNLS: [IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) -->
-
-Other Activities
-======
-* **2013.9 - 2017.6** : League Branch Secretary of Elites Students’ Class of School of Information and Electronics of Beijing Institute of Technology
-* **2015.7 - 2015.8** : Team leader in Summer Social Practice in University of California, Berkeley
+<!-- Projects
+====== -->
 
 
 Maintained Projects
@@ -173,10 +153,9 @@ For More Info
 * [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/)
 * [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/)
 * [Department of Computer Science, University of Hong Kong (HKU)](https://www.cs.hku.hk/)
-<!-- * [Big-Little Heterogeneous Computing with Polymorphic GPU Kernels, University of Hong Kong](https://i.cs.hku.hk/~clwang/big_little_GPU.htm) -->
-
 
 Contact
 ======
 * hushiyu1995@qq.com (Main)
+* hushiyu199510@gmail.com
 * hushiyu2019@ia.ac.cn (Valid from 2019.6 - 2024.1)
