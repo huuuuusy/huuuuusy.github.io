@@ -10,6 +10,6 @@ redirect_from:
 {% include base_path %}
 
 
-[Download Here](https://huuuuusy.github.io/files/CV_EN.pdf)
+[Download Here](https://huuuuusy.github.io/files/CV-EN.pdf)
 
 
