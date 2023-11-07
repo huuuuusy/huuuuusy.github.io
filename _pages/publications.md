@@ -4,7 +4,6 @@ title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
-
 ## Journals
 * **Global Instance Tracking: Locating Target More Like Humans**<br>
   **Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
@@ -55,6 +54,7 @@ author_profile: true
   **Shiyu Hu**, D. Zhang, M. Wu, X. Feng, X. Li, X. Zhao, K. Huang<br>
   *NeurIPS 2023 (CCF-A Conference, Poster): [the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023)*<br>
   [[📃PDF](https://huuuuusy.github.io/files/MGIT.pdf)]
+  [[📌Poster](https://huuuuusy.github.io/files/MGIT-poster.pdf)]
   [[🌐Platform](http://videocube.aitestunion.com/)] 
   [[💾Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
 
