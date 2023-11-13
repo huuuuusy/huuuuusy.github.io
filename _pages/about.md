@@ -113,6 +113,10 @@ Publications
   [[🔖Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)]
   [[📌Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
 
+* **Rethinking Similar Object Interference in Single Object Tracking**<br>
+  Y. Wang, **Shiyu Hu**, X. Zhao<br>
+  *CSAI 2023 (EI Conference, Oral): [the 7th International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/)*<br>
+
 Awards & Honors
 ======
 * 2023 China National Scholarship (国家奖学金, top 0.2%, only 8 Ph.D. students in main campus of University of Chinese Academy of Sciences win this scholarship)
