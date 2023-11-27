@@ -33,6 +33,8 @@ author_profile: true
 * **Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey (单目标跟踪中的视觉智能评估技术综述)**<br>
   **Shiyu Hu**, X. Zhao, K. Huang<br>
   *《中国图象图形学报》(CCF-B Chinese Journal): [Journal of Images and Graphics 2023](http://www.cjig.cn/jig/ch/index.aspx)*<br>
+  [[📃Paper](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?flag=2&file_no=202307100000002&journal_id=jig)] 
+  [[📑PDF](https://huuuuusy.github.io/files/JIG-survey.pdf)] 
 
 * **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
   Y. Zhang, C. Liu, W. Chen, X. Xu, F. Wang, H. Li, **Shiyu Hu**, X. Zhao<br>
@@ -55,6 +57,7 @@ author_profile: true
   *NeurIPS 2023 (CCF-A Conference, Poster): [the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023)*<br>
   [[📃PDF](https://huuuuusy.github.io/files/MGIT.pdf)]
   [[📌Poster](https://huuuuusy.github.io/files/MGIT-poster.pdf)]
+  [[📹Slides](https://huuuuusy.github.io/files/MGIT-Slides.pdf)]
   [[🌐Platform](http://videocube.aitestunion.com/)] 
   [[💾Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
 
@@ -64,3 +67,7 @@ author_profile: true
   [[📑PDF](https://huuuuusy.github.io/files/PRCV23.pdf)]
   [[🔖Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)]
   [[📌Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
+
+* **Rethinking Similar Object Interference in Single Object Tracking**<br>
+  Y. Wang, **Shiyu Hu**, X. Zhao<br>
+  *CSAI 2023 (EI Conference, Oral): [the 7th International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/)*<br>

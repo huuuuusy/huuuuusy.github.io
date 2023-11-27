@@ -13,6 +13,7 @@ I’m currently learning **computer vision**, **visual object tracking** and **c
 
 News
 ======
+* **2023.11** : 👩‍🎓Passed the doctoral thesis defense with unanimous distinction.
 * **2023.10** : 🏆Obtain China National Scholarship (国家奖学金, top 0.2%, only 8 Ph.D. students in main campus of UCAS win this scholarship).
 * **2023.10** : 🏆Obtain First Prize of Climbing Scholarship (攀登一等奖学金, only 6 students in CASIA win this scholarship).
 * **2023.10** : 📝One second author paper has been accepted by International Journal of Computer Vision (IJCV, CCF-A Journal, IF=19.5).
@@ -81,6 +82,8 @@ Publications
 * **Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey (单目标跟踪中的视觉智能评估技术综述)**<br>
   **Shiyu Hu**, X. Zhao, K. Huang<br>
   *《中国图象图形学报》(CCF-B Chinese Journal): [Journal of Images and Graphics 2023](http://www.cjig.cn/jig/ch/index.aspx)*<br>
+  [[📃Paper](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?flag=2&file_no=202307100000002&journal_id=jig)] 
+  [[📑PDF](https://huuuuusy.github.io/files/JIG-survey.pdf)] 
 
 * **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
   Y. Zhang, C. Liu, W. Chen, X. Xu, F. Wang, H. Li, **Shiyu Hu**, X. Zhao<br>
