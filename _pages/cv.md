@@ -9,7 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+[English Version](https://huuuuusy.github.io/files/CV-EN.pdf)
+[中文版](https://huuuuusy.github.io/files/CV-CN.pdf)
+[Online Version (Via Overleaf)](https://cn.overleaf.com/project/6565e92c9cb15b7f195f42f6)
 
-[Download Here](https://huuuuusy.github.io/files/CV-EN.pdf)
+The original template is proposed by LianTze Lim (liantze@gmail.com), this verison and the Chinese version is proposed by Shiyu Hu (hushiyu199510@gmail.com). 
 
 
