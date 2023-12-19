@@ -24,15 +24,18 @@ author_profile: true
   [[🌐Platform](http://metaverse.aitestunion.com/)] 
 
 * **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
-  X. Zhao, **Shiyu Hu**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R. Li, K. Liu, J. Li<br>
+  X. Zhao#, **Shiyu Hu#**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R. Li, K. Liu, J. Li (#corresponding author)<br>
   *IJCV 2023 (CCF-A Journal, IF=19.5): [International Journal of Computer Vision](https://www.springer.com/journal/11263)*<br>
+  [[📃Paper](https://link.springer.com/article/10.1007/s11263-023-01937-0)]
   [[🌐Platform](http://biodrone.aitestunion.com/)] 
+  [[🗒bibTex](https://huuuuusy.github.io/files/BioDrone.bib)] 
+  [[📑PDF](https://huuuuusy.github.io/files/BioDrone.pdf)]
   [[🔧Toolkit](https://github.com/huuuuusy/biodrone-toolkit-official)] 
   [[💾Dataset](http://biodrone.aitestunion.com/downloads)] 
 
 * **Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey (单目标跟踪中的视觉智能评估技术综述)**<br>
   **Shiyu Hu**, X. Zhao, K. Huang<br>
-  *《中国图象图形学报》(CCF-B Chinese Journal): [Journal of Images and Graphics 2023](http://www.cjig.cn/jig/ch/index.aspx)*<br>
+  *《中国图象图形学报》2023 (CCF-B Chinese Journal): [Journal of Images and Graphics](http://www.cjig.cn/jig/ch/index.aspx)*<br>
   [[📃Paper](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?flag=2&file_no=202307100000002&journal_id=jig)] 
   [[📑PDF](https://huuuuusy.github.io/files/JIG-survey.pdf)] 
 
@@ -46,7 +49,7 @@ author_profile: true
 
 * **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
   K. Huang, X. Zhao, Q. Li, **Shiyu Hu**<br>
-  *《图学学报》(CCF-C Chinese Journal): [Journal of Graphics 2021](http://www.txxb.com.cn/CN/2095-302X/home.shtml)*<br>
+  *《图学学报》2021 (CCF-C Chinese Journal): [Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml)*<br>
   [[📃Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)] 
   [[🗒bibTex](https://huuuuusy.github.io/files/VTT.bib)] 
   [[📑PDF](https://huuuuusy.github.io/files/VTT.pdf)]
@@ -60,6 +63,10 @@ author_profile: true
   [[📹Slides](https://huuuuusy.github.io/files/MGIT-Slides.pdf)]
   [[🌐Platform](http://videocube.aitestunion.com/)] 
   [[💾Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
+
+* **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
+  J. Zhang, T. Zhao, **Shiyu Hu**, X. Zhao<br>
+  *ICASSP 2024 (CCF-B Conference, Poster): [the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/)*<br>
 
 * **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
   X. Feng, **Shiyu Hu**, X. Chen, K. Huang<br>
