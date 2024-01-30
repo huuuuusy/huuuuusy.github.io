@@ -8,11 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I’m currently working for my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)**, supervised by **[Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi)** (IAPR Fellow). Before that, I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang)**.
-I’m currently learning **computer vision**, **visual object tracking** and **cognitive neuroscience**.
+I’ve got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)** in Jan. 2024, supervised by **[Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi)** (IAPR Fellow). Before that, I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang)**.
+I’m currently learning **computer vision**, **visual object tracking** and **AI4Science**.
 
 News
 ======
+* **2024.01**: 👩‍🎓Got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)**.
 * **2023.12** : 📝One third author paper has been accepted by the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B Conference).
 * **2023.11** : 👩‍🎓Passed the doctoral thesis defense with unanimous distinction.
 * **2023.11** : 📝One second author paper has been accepted by the 7th International Conference on Computer Science and Artificial Intelligence (CSAI, EI Conference, Oral).
@@ -31,14 +32,13 @@ News
 Research Interests
 ======
 * Visual Object Tracking (VOT)
-* Visual Turing Test (VTT)
+* Visual Language Tracking (VLT)
+* Large-scale Benchmark Construction
 * Evaluation Techniques
-* Data-centric AI
-* Cognitive Neuroscience
 
 Education
 ======
-* **2019.9 - Now** : Ph.D. in Computer Application Technology, [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/) and [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/), advised by [Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi) (IAPR Fellow)
+* **2019.9 - 2024.01** : Ph.D. in Computer Application Technology, [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/) and [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/), advised by [Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi) (IAPR Fellow)
 * **2017.9 - 2019.6** : M.S. in Computer Science, [Department of Computer Science, University of Hong Kong (HKU)](https://www.cs.hku.hk/), advised by [Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang). [[Diploma project](https://github.com/huuuuusy/Darknet-Cross)]  grade: A+ 
 * **2013.9 - 2017.6** : B.E. in Information Engineering, Elites Class in School of Information and Electronics, [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/). Diploma project grade: A+
 
@@ -56,6 +56,8 @@ Experiences
 Publications
 ======
 ## Journals
+<!-- <img align="left" src="../images/GIT.png" width="30%"> -->
+
 * **Global Instance Tracking: Locating Target More Like Humans**<br>
   **Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
   *TPAMI 2023 (CCF-A Journal, IF=23.6): [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)*<br>
