@@ -18,7 +18,7 @@ Before that, I received my master's degree from the **[Department of Computer Sc
 **Wide Communication and Collaboration**
 - I have served as a reviewer for top conferences such as CVPR, AAAI, ACM MM, etc., and will conduct a tutorial at ICIP 2024 (tutorial title: *An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis*).
 - Since Sep. 2022, I have initiated and organized interdisciplinary seminars based on computer vision (40+ times, involving 10+ schools and 20+ individuals), covering research areas such as computer vision, cognitive neuroscience, and human-computer interaction.
--  have assisted and supervised nearly 10 bachelor's, master's, and doctoral students in carrying out research work. The research directions have covered visual object tracking, visual language tracking, visual Turing test, and human-computer interaction technology.
+- I have assisted and supervised nearly 10 bachelor's, master's, and doctoral students in carrying out research work. The research directions have covered visual object tracking, visual language tracking, visual Turing test, and human-computer interaction technology.
 
 # 🔍️ Research Interests
 
