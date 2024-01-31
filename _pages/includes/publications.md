@@ -23,7 +23,7 @@
 
 **SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
 **Shiyu Hu**, X. Zhao, K. Huang<br>
-*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5) *<br>
+*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5)*<br>
 [[📃Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)]
 [[🗒bibTex](https://huuuuusy.github.io/files/SOTVerse.bib)] 
 [[📑PDF](https://huuuuusy.github.io/files/SOTVerse.pdf)]
@@ -35,9 +35,9 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src='../../images/BioDrone.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-* **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
+**BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
 X. Zhao, **Shiyu Hu✉️**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R. Li, K. Liu, J. Li <br>
-*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5) *<br>
+*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5)*<br>
 [[📃Paper](https://link.springer.com/article/10.1007/s11263-023-01937-0)]
 [[🌐Platform](http://biodrone.aitestunion.com/)] 
 [[🗒bibTex](https://huuuuusy.github.io/files/BioDrone.bib)] 
@@ -65,6 +65,7 @@ X. Zhao, **Shiyu Hu✉️**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国图象图形学报 2023</div><img src='../../images/Survey23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 **Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey (单目标跟踪中的视觉智能评估技术综述)**<br>
 **Shiyu Hu**, X. Zhao, K. Huang<br>
 *[Journal of Images and Graphics](http://www.cjig.cn/jig/ch/index.aspx) (《中国图象图形学报》, CCF-B Chinese Journal)*<br>
@@ -74,7 +75,25 @@ X. Zhao, **Shiyu Hu✉️**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R.
 </div>
 </div>
 
-- ``Neu 2022`` **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
+- ``ICASSP 2024`` **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
+  J. Zhang, T. Zhao, **Shiyu Hu**, X. Zhao<br>
+  *[the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference, Poster)*<br>
+  [[📑PDF](https://huuuuusy.github.io/files/ICASSP24.pdf)]
+
+- ``PRCV 2023`` **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
+  X. Feng, **Shiyu Hu**, X. Chen, K. Huang<br>
+  *[the 6th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv) (CCF-C Conference, Poster)*<br>
+  [[📃Paper](https://link.springer.com/chapter/10.1007/978-981-99-8462-6_20)] 
+  [[🗒bibTex](https://huuuuusy.github.io/files/PRCV23.bib)] 
+  [[📑PDF](https://huuuuusy.github.io/files/PRCV23.pdf)]
+  [[🔖Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)]
+  [[📌Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
+
+- ``CSAI 2023`` **Rethinking Similar Object Interference in Single Object Tracking**<br>
+  Y. Wang, **Shiyu Hu**, X. Zhao<br>
+  *[the 7th International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **Oral**)*<br>
+
+- ``Neurocomputing 2022`` **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
   Y. Zhang, C. Liu, W. Chen, X. Xu, F. Wang, H. Li, **Shiyu Hu**, X. Zhao<br>
   *[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)  (CCF-C Journal, IF=6)*<br>
   [[📃Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445)] 
@@ -82,25 +101,9 @@ X. Zhao, **Shiyu Hu✉️**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R.
   [[📑PDF](https://huuuuusy.github.io/files/Neu22.pdf)] 
   [[🌐Project](https://github.com/Instance-Search/)] 
 
-- **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
+- ``《图学学报》 2021`` **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
   K. Huang, X. Zhao, Q. Li, **Shiyu Hu**<br>
-  *《图学学报》2021 (CCF-C Chinese Journal): [Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml)*<br>
+  *[Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml) (《图学学报》, CCF-C Chinese Journal)*<br>
   [[📃Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)] 
   [[🗒bibTex](https://huuuuusy.github.io/files/VTT.bib)] 
   [[📑PDF](https://huuuuusy.github.io/files/VTT.pdf)]
-
-
-- **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
-  J. Zhang, T. Zhao, **Shiyu Hu**, X. Zhao<br>
-  *ICASSP 2024 (CCF-B Conference, Poster): [the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/)*<br>
-
-- **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
-  X. Feng, **Shiyu Hu**, X. Chen, K. Huang<br>
-  *PRCV 2023 (CCF-C Conference, Poster): [the 6th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv)*<br>
-  [[📑PDF](https://huuuuusy.github.io/files/PRCV23.pdf)]
-  [[🔖Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)]
-  [[📌Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
-
-- **Rethinking Similar Object Interference in Single Object Tracking**<br>
-  Y. Wang, **Shiyu Hu**, X. Zhao<br>
-  *CSAI 2023 (EI Conference, Oral): [the 7th International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/)*<br>
