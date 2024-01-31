@@ -8,8 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I’ve got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)** in Jan. 2024, supervised by **[Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi)** (IAPR Fellow). Before that, I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang)**.
-I’m currently learning **computer vision**, **visual object tracking** and **AI4Science**.
+<!-- I’ve got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)** in Jan. 2024, supervised by **[Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi)** (IAPR Fellow). Before that, I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang)**.
+I’m currently learning **computer vision**, **visual object tracking** and **AI4Science**. -->
+
+{% include_relative includes/intro.md %}
 
 News
 ======
@@ -58,6 +60,9 @@ Publications
 ## Journals
 <!-- <img align="left" src="../images/GIT.png" width="30%"> -->
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='../images/GIT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 * **Global Instance Tracking: Locating Target More Like Humans**<br>
   **Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
   *TPAMI 2023 (CCF-A Journal, IF=23.6): [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)*<br>
@@ -67,6 +72,9 @@ Publications
   [[🌐Platform](http://videocube.aitestunion.com/)] 
   [[🔧Toolkit](https://github.com/huuuuusy/videocube-toolkit)] 
   [[💾Dataset](http://videocube.aitestunion.com/downloads)]
+</div>
+</div>
+
 
 * **SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
   **Shiyu Hu**, X. Zhao, K. Huang<br>
