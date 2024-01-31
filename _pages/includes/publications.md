@@ -75,12 +75,21 @@ X. Zhao, **Shiyu Hu✉️**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R.
 </div>
 </div>
 
-- `ICASSP 2024` **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='../../images/ICASSP24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
   J. Zhang, T. Zhao, **Shiyu Hu**, X. Zhao<br>
   *[the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference, Poster)*<br>
   [[📑PDF](https://huuuuusy.github.io/files/ICASSP24.pdf)]
 
-- ``PRCV 2023`` **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2023</div><img src='../../images/PRCV23.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
   X. Feng, **Shiyu Hu**, X. Chen, K. Huang<br>
   *[the 6th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv) (CCF-C Conference, Poster)*<br>
   [[📃Paper](https://link.springer.com/chapter/10.1007/978-981-99-8462-6_20)] 
@@ -89,11 +98,23 @@ X. Zhao, **Shiyu Hu✉️**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R.
   [[🔖Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)]
   [[📌Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)]
 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSAI 2023</div><img src='../../images/CSAI23.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 - ``CSAI 2023`` **Rethinking Similar Object Interference in Single Object Tracking**<br>
   Y. Wang, **Shiyu Hu**, X. Zhao<br>
   *[the 7th International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **Oral**)*<br>
 
-- ``Neurocomputing 2022`` **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurocomputing 2022</div><img src='../../images/Neu22.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
   Y. Zhang, C. Liu, W. Chen, X. Xu, F. Wang, H. Li, **Shiyu Hu**, X. Zhao<br>
   *[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)  (CCF-C Journal, IF=6)*<br>
   [[📃Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445)] 
@@ -101,12 +122,21 @@ X. Zhao, **Shiyu Hu✉️**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R.
   [[📑PDF](https://huuuuusy.github.io/files/Neu22.pdf)] 
   [[🌐Project](https://github.com/Instance-Search/)] 
 
-- ``图学学报 2021`` **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">图学学报 2021</div><img src='../../images/VTT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
   K. Huang, X. Zhao, Q. Li, **Shiyu Hu**<br>
   *[Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml) (《图学学报》, CCF-C Chinese Journal)*<br>
   [[📃Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)] 
   [[🗒bibTex](https://huuuuusy.github.io/files/VTT.bib)] 
   [[📑PDF](https://huuuuusy.github.io/files/VTT.pdf)]
+
+</div>
+</div>
 
 ## Under Review
 
