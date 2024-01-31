@@ -26,6 +26,9 @@ main:
 
   - title: "Contact"
     url: "/#-contact"
+  
+  - title: "CV"
+    url: "/#-CV"
 
   # - title: "Talks"
   #   url: /talks/    
@@ -38,7 +41,4 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
-  - title: "CV"
-    url: "/#-CV"
     

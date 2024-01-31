@@ -3,7 +3,6 @@ permalink: /
 title: "About Me"
 excerpt: "About me"
 author_profile: true
-sitemap: false
 redirect_from: 
   - /about/
   - /about.html
@@ -24,5 +23,9 @@ redirect_from:
 
 {% include_relative includes/honors.md %}
 
-{% include_relative includes/others.md %}
+{% include_relative includes/info.md %}
+
+{% include_relative includes/contact.md %}
+
+{% include_relative includes/cv.md %}
 
