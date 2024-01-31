@@ -5,15 +5,12 @@ main:
 
   - title: "News"
     url: "/#-news"
-
-  - title: "Research Interests"
-    url: "/#-research-interests"
   
   - title: "Educations"
     url: "/#-educations"
   
-  # - title: "Experiences"
-  #   url: "/#-research-experiences"
+  - title: "Experiences"
+    url: "/#-research-experiences"
 
   - title: "Publications"
     url: "/#-publications"
@@ -24,9 +21,6 @@ main:
   - title: "More Info"
     url: "/#-for-more-info"
 
-  - title: "Contact"
-    url: "/#-contact"
-  
   - title: "CV"
     url: "/#-cv"
 

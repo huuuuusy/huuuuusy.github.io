@@ -13,8 +13,6 @@ redirect_from:
 
 {% include_relative includes/news.md %}
 
-<!-- {% include_relative includes/interests.md %} -->
-
 {% include_relative includes/educations.md %}
 
 {% include_relative includes/experiences.md %}
@@ -24,8 +22,6 @@ redirect_from:
 {% include_relative includes/honors.md %}
 
 {% include_relative includes/info.md %}
-
-{% include_relative includes/contact.md %}
 
 {% include_relative includes/cv.md %}
 
