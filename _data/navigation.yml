@@ -6,8 +6,17 @@ main:
   - title: "News"
     url: "/#-news"
 
+  - title: "Research Interests"
+    url: /#-interests/
+  
+  - title: "Educations"
+    url: "/#-educations"
+  
+  - title: "Experiences"
+    url: "/#-experiences"
+
   - title: "Publications"
-    url: /publications/
+    url: /#-publications/
 
   # - title: "Talks"
   #   url: /talks/    
