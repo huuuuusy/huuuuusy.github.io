@@ -1,41 +1,68 @@
 # 📝 Publications 
 
-## Journals
-<!-- <img align="left" src="../images/GIT.png" width="30%"> -->
+## Acceptance
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='../../images/GIT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Global Instance Tracking: Locating Target More Like Humans**<br>
-  **Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
-  *TPAMI 2023 (CCF-A Journal, IF=23.6): [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)*<br>
-  [[📃Paper](https://ieeexplore.ieee.org/document/9720246/)]
-  [[🗒bibTex](https://huuuuusy.github.io/files/GIT.bib)]
-  [[📑PDF](https://huuuuusy.github.io/files/GIT.pdf)]
-  [[🌐Platform](http://videocube.aitestunion.com/)] 
-  [[🔧Toolkit](https://github.com/huuuuusy/videocube-toolkit)] 
-  [[💾Dataset](http://videocube.aitestunion.com/downloads)]
+**Shiyu Hu**, X. Zhao, L. Huang, K. Huang<br>
+*[IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (CCF-A Journal, IF=23.6)*<br>
+[[📃Paper](https://ieeexplore.ieee.org/document/9720246/)]
+[[🗒bibTex](https://huuuuusy.github.io/files/GIT.bib)]
+[[📑PDF](https://huuuuusy.github.io/files/GIT.pdf)]
+[[🌐Platform](http://videocube.aitestunion.com/)] 
+[[🔧Toolkit](https://github.com/huuuuusy/videocube-toolkit)] 
+[[💾Dataset](http://videocube.aitestunion.com/downloads)]
 </div>
 </div>
 
 
-* **SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
-  **Shiyu Hu**, X. Zhao, K. Huang<br>
-  *IJCV 2023 (CCF-A Journal, IF=19.5): [International Journal of Computer Vision](https://www.springer.com/journal/11263)*<br>
-  [[📃Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)]
-  [[🗒bibTex](https://huuuuusy.github.io/files/SOTVerse.bib)] 
-  [[📑PDF](https://huuuuusy.github.io/files/SOTVerse.pdf)]
-  [[🌐Platform](http://metaverse.aitestunion.com/)] 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src='../../images/SOTVerse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
+**Shiyu Hu**, X. Zhao, K. Huang<br>
+*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5) *<br>
+[[📃Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)]
+[[🗒bibTex](https://huuuuusy.github.io/files/SOTVerse.bib)] 
+[[📑PDF](https://huuuuusy.github.io/files/SOTVerse.pdf)]
+[[🌐Platform](http://metaverse.aitestunion.com/)] 
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src='../../images/BioDrone.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 * **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
-  X. Zhao#, **Shiyu Hu#**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R. Li, K. Liu, J. Li (#corresponding author)<br>
-  *IJCV 2023 (CCF-A Journal, IF=19.5): [International Journal of Computer Vision](https://www.springer.com/journal/11263)*<br>
-  [[📃Paper](https://link.springer.com/article/10.1007/s11263-023-01937-0)]
-  [[🌐Platform](http://biodrone.aitestunion.com/)] 
-  [[🗒bibTex](https://huuuuusy.github.io/files/BioDrone.bib)] 
-  [[📑PDF](https://huuuuusy.github.io/files/BioDrone.pdf)]
-  [[🔧Toolkit](https://github.com/huuuuusy/biodrone-toolkit-official)] 
-  [[💾Dataset](http://biodrone.aitestunion.com/downloads)] 
+X. Zhao#, **Shiyu Hu#**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R. Li, K. Liu, J. Li (#corresponding author)<br>
+*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5) *<br>
+[[📃Paper](https://link.springer.com/article/10.1007/s11263-023-01937-0)]
+[[🌐Platform](http://biodrone.aitestunion.com/)] 
+[[🗒bibTex](https://huuuuusy.github.io/files/BioDrone.bib)] 
+[[📑PDF](https://huuuuusy.github.io/files/BioDrone.pdf)]
+[[🔧Toolkit](https://github.com/huuuuusy/biodrone-toolkit-official)] 
+[[💾Dataset](http://biodrone.aitestunion.com/downloads)] 
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='../../images/MGIT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**A Multi-modal Global Instance Tracking Benchmark (MGIT): Better Locating Target in Complex Spatio-temporal and causal Relationship**<br>
+**Shiyu Hu**, D. Zhang, M. Wu, X. Feng, X. Li, X. Zhao, K. Huang<br>
+*[the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) (CCF-A Conference, Poster)*<br>
+[[📃PDF](https://huuuuusy.github.io/files/MGIT.pdf)]
+[[📌Poster](https://huuuuusy.github.io/files/MGIT-poster.pdf)]
+[[📹Slides](https://huuuuusy.github.io/files/MGIT-Slides.pdf)]
+[[🌐Platform](http://videocube.aitestunion.com/)] 
+[[💾Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
+
+</div>
+</div>
+
 
 * **Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey (单目标跟踪中的视觉智能评估技术综述)**<br>
   **Shiyu Hu**, X. Zhao, K. Huang<br>
@@ -58,15 +85,8 @@
   [[🗒bibTex](https://huuuuusy.github.io/files/VTT.bib)] 
   [[📑PDF](https://huuuuusy.github.io/files/VTT.pdf)]
 
-## Conferences
-* **A Multi-modal Global Instance Tracking Benchmark (MGIT): Better Locating Target in Complex Spatio-temporal and causal Relationship**<br>
-  **Shiyu Hu**, D. Zhang, M. Wu, X. Feng, X. Li, X. Zhao, K. Huang<br>
-  *NeurIPS 2023 (CCF-A Conference, Poster): [the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023)*<br>
-  [[📃PDF](https://huuuuusy.github.io/files/MGIT.pdf)]
-  [[📌Poster](https://huuuuusy.github.io/files/MGIT-poster.pdf)]
-  [[📹Slides](https://huuuuusy.github.io/files/MGIT-Slides.pdf)]
-  [[🌐Platform](http://videocube.aitestunion.com/)] 
-  [[💾Dataset]([[Toolkit](https://github.com/huuuuusy/videocube-toolkit)])] 
+
+
 
 * **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
   J. Zhang, T. Zhao, **Shiyu Hu**, X. Zhao<br>
