@@ -75,7 +75,7 @@ X. Zhao, **Shiyu Hu✉️**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R.
 </div>
 </div>
 
-- ``ICASSP 2024`` **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
+- `ICASSP 2024` **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
   J. Zhang, T. Zhao, **Shiyu Hu**, X. Zhao<br>
   *[the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference, Poster)*<br>
   [[📑PDF](https://huuuuusy.github.io/files/ICASSP24.pdf)]
@@ -101,9 +101,12 @@ X. Zhao, **Shiyu Hu✉️**, Y. Wang, J. Zhang, Y. Hu, R. Liu, H. Lin, Y. Li, R.
   [[📑PDF](https://huuuuusy.github.io/files/Neu22.pdf)] 
   [[🌐Project](https://github.com/Instance-Search/)] 
 
-- ``《图学学报》 2021`` **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
+- ``图学学报 2021`` **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
   K. Huang, X. Zhao, Q. Li, **Shiyu Hu**<br>
   *[Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml) (《图学学报》, CCF-C Chinese Journal)*<br>
   [[📃Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)] 
   [[🗒bibTex](https://huuuuusy.github.io/files/VTT.bib)] 
   [[📑PDF](https://huuuuusy.github.io/files/VTT.pdf)]
+
+## Under Review
+
