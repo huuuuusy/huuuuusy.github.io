@@ -11,9 +11,12 @@ redirect_from:
 <!-- I’ve got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)** in Jan. 2024, supervised by **[Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi)** (IAPR Fellow). Before that, I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang)**.
 I’m currently learning **computer vision**, **visual object tracking** and **AI4Science**. -->
 
+<span class='anchor' id='about-me'></span>
 {% include_relative includes/intro.md %}
 
-News
+{% include_relative includes/news.md %}
+
+<!-- News
 ======
 * **2024.01**: 👩‍🎓Got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)**.
 * **2023.12** : 📝One third author paper has been accepted by the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B Conference).
@@ -29,7 +32,7 @@ News
 * **2022.6** : 🏆Obtain merit student of University of Chinese Academy of Sciences.
 * **2022.6** : 📝One paper has been accepted by Neurocomputing (Neu, CCF-C Journal, IF=6). 
 * **2022.2** : 📝One first author paper has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, CCF-A Journal, IF=23.6). 
-* **2021.6** : 📝One survey has been accepted by Journal of Graphics (CCF-C Chinese Journal). 
+* **2021.6** : 📝One survey has been accepted by Journal of Graphics (CCF-C Chinese Journal).  -->
 
 Research Interests
 ======
