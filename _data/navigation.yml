@@ -7,7 +7,7 @@ main:
     url: "/#-news"
 
   - title: "Research Interests"
-    url: "/#-research-interests/"
+    url: "/#-research-interests"
   
   - title: "Educations"
     url: "/#-educations"
@@ -20,6 +20,12 @@ main:
 
   - title: "Honors"
     url: "/#-honors-and-awards"
+
+  - title: "More Info"
+    url: "/#-for-more-info"
+
+  - title: "Contact"
+    url: "/#-contact"
 
   # - title: "Talks"
   #   url: /talks/    
@@ -34,5 +40,5 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: "/#-CV"
     
