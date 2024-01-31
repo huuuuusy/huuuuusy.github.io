@@ -7,16 +7,19 @@ main:
     url: "/#-news"
 
   - title: "Research Interests"
-    url: /#-interests/
+    url: /#-research-interests/
   
   - title: "Educations"
     url: "/#-educations"
   
-  - title: "Experiences"
-    url: "/#-experiences"
+  - title: "Research Experiences"
+    url: "/#-research-experiences"
 
   - title: "Publications"
     url: /#-publications/
+
+  - title: "Honors and Awards"
+    url: "/#-honors-and-awards"
 
   # - title: "Talks"
   #   url: /talks/    
