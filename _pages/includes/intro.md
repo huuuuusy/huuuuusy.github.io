@@ -38,7 +38,7 @@ Before that, I received my master's degree from the **[Department of Computer Sc
 - Design of a human-machine universal visual ability evaluation framework.
 - Benchmarking the performance of algorithms based on human abilities in perceptual, cognitive, inferential, etc. Analyzing the bottlenecks of algorithms and human subjects in depth, providing guidance for research on human-like modeling, human-machine collaboration, and human-machine integration.
 
-**AIScience**
-- *Cognitive Science:* Visual task design, environment construction, and human-machine capability analysis based on human-like modeling principles.
-- *Medical Science:* Research on medical image processing techniques based on artificial intelligence technologies (e.g., cell segmentation and tracking, denoising of cryo-electron microscopy images).
-- *Psychology:* Development of gamified assessment systems targeting psychological dimensions such as anxiety, depression, and obsession, along with research on intelligent psychological evaluation technologies.
+**AI4Science**
+- **Cognitive Science:** Visual task design, environment construction, and human-machine capability analysis based on human-like modeling principles.
+- **Medical Science:** Research on medical image processing techniques based on artificial intelligence technologies (e.g., cell segmentation and tracking, denoising of cryo-electron microscopy images).
+- **Psychology:** Development of gamified assessment systems targeting psychological dimensions such as anxiety, depression, and obsession, along with research on intelligent psychological evaluation technologies.
