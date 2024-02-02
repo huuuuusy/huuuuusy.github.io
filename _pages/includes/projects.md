@@ -9,7 +9,7 @@
 * **2015.07 - 2015.08** : Team leader in Summer Social Practice in [University of California, Berkeley](https://www.berkeley.edu/)
 * **2013.09 - 2017.06** : League Branch Secretary of Elites Class in School of Information and Electronics, Beijing Institute of Technology -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-project">2018.03 - 2018.11</div><img src='../../images/DarknetCross.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2018.03-2018.11</div><img src='../../images/DarknetCross.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Darknet-Cross: Light-weight Deep Learning Framework for Heterogeneous Computing**<br>
