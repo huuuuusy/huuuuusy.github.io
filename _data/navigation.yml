@@ -11,12 +11,12 @@ main:
   
   - title: "Experiences"
     url: "/#-experiences"
-  
-  - title: "Projects"
-    url: "/#-projects"
 
   - title: "Publications"
     url: "/#-publications"
+
+  - title: "Projects"
+    url: "/#-projects"
 
   - title: "Honors"
     url: "/#-honors-and-awards"
