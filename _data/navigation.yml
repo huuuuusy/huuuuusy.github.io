@@ -4,28 +4,28 @@ main:
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
   
   - title: "Educations"
-    url: "/#-educations"
+    url: "/#educations"
   
   - title: "Experiences"
-    url: "/#-experiences"
+    url: "/#experiences"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Projects"
-    url: "/#-projects"
+    url: "/#projects"
 
   - title: "Honors"
-    url: "/#-honors-and-awards"
+    url: "/#honors-and-awards"
 
   - title: "More Info"
-    url: "/#-for-more-info"
+    url: "/#for-more-info"
 
   - title: "CV"
-    url: "/#-cv"
+    url: "/#cv"
 
   # - title: "Talks"
   #   url: /talks/    
