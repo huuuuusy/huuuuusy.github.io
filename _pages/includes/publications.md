@@ -1,9 +1,11 @@
 # 📝 Publications
 
-### Acceptance
+## Acceptance
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='../../images/GIT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='GIT'></span>
 
 **Global Instance Tracking: Locating Target More Like Humans**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [L. Huang](https://github.com/huanglianghua), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
@@ -149,7 +151,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-### Under Review
+## Under Review
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/SOI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -195,7 +197,7 @@ Y. Ren, [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu 
 </div>
 </div>
 
-### Preprint
+## Preprint
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
