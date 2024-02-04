@@ -1,6 +1,6 @@
 # ⚙️ Projects
 
-> The list here mainly includes engineering projects and ongoing academic projects, while more academic projects have already been published in the form of research papers. Please refer to the [📝 Publications](https://huuuuusy.github.io/#-publications) for more information.
+> The list here mainly includes engineering projects, while more academic projects have already been published in the form of research papers. Please refer to the [📝 Publications](https://huuuuusy.github.io/#-publications) for more information.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2018.03-2018.11</div><img src='../../images/DarknetCross.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -33,20 +33,6 @@
 📌 Medical Image Processing 📌 AI4Science 📌 Cell Segmentation and Tracking<br>
 - This method follows the tracking by detection paradigm and combines per-frame CNN prediction for cell segmentation with a Siamese network for cell tracking. 
 - This project was submitted to the cell tracking challenge in Mar. 2021, and maintains the second place in the Fluo-C2FL-MSC+ dataset and the third place in the Fluo-C2FL-Huh7 dataset (statistics by Oct. 2023).
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">2022.04 - Now</div><img src='../../images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Intelligent Evaluation Techniques for Visual Object Tracking Based on Visual Turing Test**<br>
-📌 Visual Object Tracking 📌 Intelligent Evaluation Technique 📌 AI4Science<br>
-- This work proposes the visual Turing test evaluation paradigm by incorporating the concept of the Turing test, enabling a comprehensive assessment of the visual intelligence of algorithms in comparison to human visual capabilities.
-- A controlled experimental environment has been developed to facilitate a fair comparison of dynamic visual abilities between humans and machines. This environment incorporates the perceptual and cognitive capabilities that task objects necessitate during the execution of dynamic visual tasks.
-- A suitable task object is selected to conduct tests on human-machine dynamic visual abilities, involving 20 representative algorithms and 15 human subjects.
-- A universally applicable multi-scale dynamic visual task evaluation framework has been designed. This framework employs center point distance to assess and analyze tasks at three distinct scales, namely frame-level, sequence-level, and group-level.
-- Two Chinese review papers were published in 2021 and 2023. The experimental content and main conclusions are being finalized, preparing for submission to the Cell Patterns journal.
 
 </div>
 </div>
