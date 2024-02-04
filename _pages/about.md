@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About me"
+title: "Shiyu Hu"
+excerpt: "Shiyu Hu"
 author_profile: true
 redirect_from: 
   - /about/
