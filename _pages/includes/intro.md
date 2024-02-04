@@ -1,7 +1,7 @@
 I’ve got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (中国科学院自动化研究所)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (中国科学院大学)](https://english.ucas.ac.cn/)** in Jan. 2024, supervised by **[Prof. Kaiqi Huang (黄凯奇)](https://people.ucas.ac.cn/~huangkaiqi)** (IAPR Fellow). 
 I also collaborated with **[Prof. Xin Zhao (赵鑫)](https://www.xinzhaoai.com/)** to conduct research in computer vision.
 
-Before that, I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang)**.
+Before that, I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang (王卓立)](https://www.cs.hku.hk/people/academic-staff/clwang)**.
 
 > 📣 I am seeking a PostDoc position starting from Spring 2024. If you are interested in my research or would like to collaborate, please do not hesitate to contact me. You can download my <a href="https://huuuuusy.github.io/files/CV-EN.pdf">CV</a> here.
 
@@ -9,7 +9,7 @@ Before that, I received my master's degree from the **[Department of Computer Sc
 
 **Excellent Education Background**
 - I have obtained my bachelor's, master's, and doctoral degrees from top universities/research institutions in China. The defense results are all excellent.
-- I have received multiple awards and honors, and during my doctoral studies, I was awarded the National Scholarship (the highest level of scholarship awarded by the Chinese government, top 0.2%).
+- I have received multiple awards and honors, and during my doctoral studies, I was awarded the National Scholarship (the highest level of scholarship awarded by the Chinese government, top 1%).
 
 **Solid Research Foundation**
 - During my doctoral studies, I have published 10 papers, of which 4 are first-author publications -- including top international journals such as **IEEE TPAMI** (IF=23.6), **IJCV** (IF=19.5), top international conference like **NeurIPS**, and a survey in Journal of Images and Graphics (top journal in China).

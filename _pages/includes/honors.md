@@ -1,6 +1,6 @@
 # 🏆 Honors and Awards
 
-* 2023 China National Scholarship (国家奖学金, top 0.2%, only 8 Ph.D. students in main campus of University of Chinese Academy of Sciences win this scholarship)
+* 2023 China National Scholarship (国家奖学金, top 1%, only 8 Ph.D. students in main campus of University of Chinese Academy of Sciences win this scholarship)
 * 2023 First Prize of Climbing Scholarship in Institute of Automation, Chinese Academy of Sciences (攀登一等奖学金, only 6 students in Institute of Automation, Chinese Academy of Sciences win this scholarship)
 * 2022 Merit Student of University of Chinese Academy of Sciences (中国科学院大学三好学生)
 * 2017 Excellent Innovative Student of Beijing Institute of Technology (北京理工大学优秀创新学生)
