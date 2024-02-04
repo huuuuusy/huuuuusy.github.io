@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Shiyu Hu"
+title: "About Me"
 excerpt: "Shiyu Hu"
 author_profile: true
 redirect_from: 
