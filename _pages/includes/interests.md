@@ -2,6 +2,7 @@
 
 ## The development of artificial intelligence is inherently interconnected with human factors.
 
+### Research Foundation
 My previous research has primarily been dedicated to evaluating and exploring machine vision intelligence. This research encompasses various aspects such as task modeling, environment construction, evaluation technique, and human-machine comparisons. I strongly hold the belief that ***<font color=DarkRed>the development of artificial intelligence is inherently interconnected with human factors</font>***. Hence, drawing inspiration from the renowned ***<font color=DarkRed>Turing Test</font>***, I have focused my investigation on the concept of ***<font color=DarkRed>Visual Turing Test</font>***, aiming to integrate human elements into the examination of dynamic visual tasks. The ultimate objective of my work is to assess and analyze machine vision intelligence by benchmarking against human capabilities.
 
 - **What are the abilities of humans? Designing more human-like tasks.**
@@ -23,9 +24,20 @@ My previous research has primarily been dedicated to evaluating and exploring ma
 This human-centered evaluation concept is referred to as [Visual Turing Test](https://huuuuusy.github.io/#VTT), and I have presented my thoughts and future prospects in this direction through a comprehensive review on [intelligent evaluation techniques](https://huuuuusy.github.io/#JIG-survey).
 These research contents encompass task modeling, environment construction, evaluation techniques, and human-machine comparisons, creating a comprehensive system that lays a solid research foundation for improving the dynamic visual capabilities of machines. 
 
-Building upon these works, my [🤝 Collaborators](https://huuuuusy.github.io/#collaborators) and I conducted research on intelligent tracking algorithms through a human-like modeling approach. 
-For example, we developed [MemTrack](https://huuuuusy.github.io/#MemTrack), a robust visual language tracker based on human memory modelling to enhance tracking performance in complex scenarios. 
-Besides, by considering the cognitive disparities between humans and machines when it comes to dealing with Similar Object Interference (SOI), we investigate the impact of the SOI challenge on tracking robustness, and construct a [TrackingSOI](https://huuuuusy.github.io/#CSAI23) benchmark by using data mining method. We then propose the [TransKT](https://huuuuusy.github.io/#SOI) algorithm to enhance the algorithm's perception capabilities towards the SOI challenge, aiming to improve its visual robustness.
+### Ongoing Research
+
+- **Optimizing algorithms from the perspective of human-like modeling: locating target more like humans.** 
+Building upon these above works, my [🤝 Collaborators](https://huuuuusy.github.io/#collaborators) and I are focusing on design intelligent tracking algorithms through a human-like modeling approach. For example, we develop [MemTrack](https://huuuuusy.github.io/#MemTrack), a robust visual language tracker based on human memory modelling to enhance tracking performance in complex scenarios. Besides, by considering the cognitive disparities between humans and machines when it comes to dealing with Similar Object Interference (SOI), we investigate the impact of the SOI challenge on tracking robustness, and construct a [TrackingSOI](https://huuuuusy.github.io/#CSAI23) benchmark by using data mining method. We then propose the [TransKT](https://huuuuusy.github.io/#SOI) algorithm to enhance the algorithm's perception capabilities towards the SOI challenge, aiming to improve its visual robustness.
+
+- **Integrating dynamic visual research and application scenarios - from human-like modeling to human-intelligence interaction.**
+The primary objective of human-like modeling is to develop advanced algorithms that enable effective human-machine interaction, serving as the fundamental basis for subsequent collaborations between humans and machines in various scenarios. 
+In our recent work, we have integrated language as a communication medium with the dynamic visual task of [unconstrained air-writing](https://huuuuusy.github.io/#AWCV). The overarching goal is to establish a natural and seamless mode of human-machine interaction, specifically catered to intelligent applications like AR/VR. 
+Moreover, we are actively expanding the scope of visual language tracking tasks and exploring the potential development directions from the standpoint of human-machine interaction. Our goal is to leverage the capabilities of Large Language Models (LLMs) and construct more interactive dynamic visual algorithms.
+
+- **Evaluation is science: more comprehensive and in-depth evaluation techniques are needed in the era of LLMs.**
+LLMs are gaining increasing popularity in academia and industry due to their exceptional performance across various applications. As LLMs continue to play a vital role in both research and daily use, the need for critical evaluation techniques becomes increasingly apparent. 
+My previous research has primarily focused on intelligence evaluation, encompassing abilities related to perception, cognition, and reasoning. I will further collaborate with my team to develop more comprehensive intelligence evaluation techniques and conduct a finer-grained analysis of human-machine dynamic visual abilities, providing support for research on model safety and interpretability. 
+Furthermore, we are also moving forward to expand the hierarchical levels of evaluation to a deeper dimension—[the psychological dimension](https://huuuuusy.github.io/#PRCV23). By utilizing the dynamic and open environment of psychological sandbox, we aim to integrate technologies from human-computer interaction, game design, psychology, and artificial intelligence to construct a more intelligent [psychological analysis system](https://huuuuusy.github.io/#Sandplay).
 
 ## Detailed Lists
 
