@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Homepage"
+title                    : "Shiyu Hu"
 title_separator          : "-"
 name                     : &name "Shiyu Hu"
 description              : &description "personal description"
