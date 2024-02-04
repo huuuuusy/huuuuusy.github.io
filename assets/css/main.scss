@@ -59,6 +59,7 @@
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
+            float: left;
         }
     }
     
@@ -73,6 +74,7 @@
             min-width: 200px;
             max-width: 30%;
             order: 1;
+            float: left;
         }
         
         .paper-box-text{
