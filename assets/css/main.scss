@@ -59,7 +59,6 @@
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
-            float: left;
         }
     }
     
@@ -72,15 +71,14 @@
         .paper-box-image{
             justify-content: left;
             min-width: 200px;
-            max-width: 30%;
+            max-width: 40%;
             order: 1;
-            float: left;
         }
         
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
-            max-width: 70%;
+            max-width: 60%;
             order: 2;
         }
 

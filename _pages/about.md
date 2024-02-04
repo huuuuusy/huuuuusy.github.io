@@ -15,6 +15,8 @@ redirect_from:
 
 {% include_relative includes/educations.md %}
 
+{% include_relative includes/interests.md %}
+
 {% include_relative includes/publications.md %}
 
 {% include_relative includes/honors.md %}
