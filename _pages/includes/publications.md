@@ -24,6 +24,8 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src='../../images/SOTVerse.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<span class='anchor' id='SOTVerse'></span>
+
 **SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5)*<br>
@@ -38,6 +40,8 @@
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src='../../images/BioDrone.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='BioDrone'></span>
 
 **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
 [X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu✉️</font>***, [Y. Wang](https://github.com/updateforever), J. Zhang, Y. Hu, R. Liu, [H. Lin](https://www3.cs.stonybrook.edu/~hling/), [Y. Li](https://www.biostat.wisc.edu/~yli/), R. Li, K. Liu, [J. Li](http://yjsb.sinano.ac.cn/Doctor/info.aspx?itemid=920) <br>
@@ -56,6 +60,8 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='../../images/MGIT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<span class='anchor' id='MGIT'></span>
+
 **A Multi-modal Global Instance Tracking Benchmark (MGIT): Better Locating Target in Complex Spatio-temporal and causal Relationship**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [X. Feng](https://github.com/XiaokunFeng), [X. Li](https://xuchen-li.github.io/), [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) (CCF-A Conference, Poster)*<br>
@@ -73,6 +79,8 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国图象图形学报 2023</div><img src='../../images/Survey23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<span class='anchor' id='JIG-survey'></span>
+
 **Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey (单目标跟踪中的视觉智能评估技术综述)**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[Journal of Images and Graphics](http://www.cjig.cn/jig/ch/index.aspx) (《中国图象图形学报》, CCF-B Chinese Journal)*<br>
@@ -86,6 +94,8 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='../../images/ICASSP24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<span class='anchor' id='ICASSP24'></span>
+
 **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
 J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
 *[the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference, Poster)*<br>
@@ -97,6 +107,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2023</div><img src='../../images/PRCV23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='PRCV23'></span>
 
 **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
 [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
@@ -114,6 +126,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSAI 2023</div><img src='../../images/CSAI23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<span class='anchor' id='CSAI23'></span>
+
 **Rethinking Similar Object Interference in Single Object Tracking**<br>
 [Y. Wang](https://github.com/updateforever), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
 *[the 7th International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **Oral**)*<br>
@@ -124,6 +138,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurocomputing 2022</div><img src='../../images/Neu22.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='Neu22'></span>
 
 **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
 [Y. Zhang](https://wesleyzhang1991.github.io/), [C. Liu](https://scholar.google.com/citations?user=atOfOgMAAAAJ&hl=zh-CN&oi=sra), [W. Chen](https://scholar.google.com/citations?user=KWVlYaMAAAAJ&hl=zh-CN&oi=sra), [X. Xu](https://scholar.google.com/citations?user=nJc6BvgAAAAJ&hl=zh-CN&oi=sra), [F. Wang](https://scholar.google.com/citations?user=WCRGTHsAAAAJ), [H. Li](https://scholar.google.com/citations?user=pHN-QIwAAAAJ&hl=zh-CN&oi=sra), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
@@ -139,6 +155,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">图学学报 2021</div><img src='../../images/VTT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VTT'></span>
 
 **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
 [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [X. Zhao](https://www.xinzhaoai.com/), [Q. Li](https://scholar.google.com/citations?user=7xmxBagAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***<br>
@@ -156,6 +174,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/SOI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<span class='anchor' id='SOI'></span>
+
 **Target or Distractor? Rethinking Similar Object Interference in Single Object Tracking**<br>
 [Y. Wang](https://github.com/updateforever), ***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [T. Yao](http://tingyao.deepfun.club/), [Y. Wang](https://scholar.google.com/citations?user=3nMDEBYAAAAJ), [L. Chen](https://sie.bit.edu.cn/szdw/jsml/ldjsyjsj/zgzcl/06c26b3ebaae4db981aaa388c660c8b5.htm), [X. Zhao](https://www.xinzhaoai.com/) <br>
 *[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, IF=8.4, Under Review)*<br>
@@ -166,6 +186,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/AWCV.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='AWCV'></span>
 
 **Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
 [M. Wu](https://github.com/wmeiqi), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
@@ -178,6 +200,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">IJCAI 2024</div><img src='../../images/MemTrack.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<span class='anchor' id='MemTrack'></span>
+
 **Remembering Target More Like Humans: A Robust Visual-Language Tracker with Adaptive Prompts**<br>
 [X. Feng](https://github.com/XiaokunFeng), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 *[the 33rd International Joint Conference on Artificial Intelligence](https://www.ijcai.org/) (CCF-A Conference, Under Review)*<br>
@@ -188,6 +212,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">心理学报 2024</div><img src='../../images/Sandplay.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='Sandplay'></span>
 
 **Intelligent Psychological Assessment with Sandplay based on Evidence-Centered Design Theory (基于证据中心设计理论的智能心理沙盘测评系统)**<br>
 Y. Ren, [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu Hu</font>***, Y. Kang, C. Yan, Y. Zeng, [L. Wang](https://people.ucas.ac.cn/~wanglg), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
@@ -201,6 +227,8 @@ Y. Ren, [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VTT-ICLR'></span>
 
 **Nearing or Surpassing: Overall Evaluation of Human-Machine Dynamic Vision Ability**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [Y. Wang](https://github.com/updateforever), [Y. Shan](https://scholar.google.com/citations?user=_nc83HsAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>

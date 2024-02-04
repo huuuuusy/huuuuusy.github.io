@@ -7,6 +7,8 @@
 - [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/)
 - [Department of Computer Science, University of Hong Kong (HKU)](https://www.cs.hku.hk/)
 
+<span class='anchor' id='collaborators'></span>
+
 # 🤝 Collaborators
 
 > I am honored to collaborate with these outstanding researchers. We engage in close discussions concerning various fields such as computer vision, cognitive science, AI4Science, and human-computer interaction. If you are interested in these areas as well, please feel free to contact me.
