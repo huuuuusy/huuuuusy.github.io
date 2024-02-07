@@ -5,20 +5,9 @@
 
 ### Research Foundation
 
-<div class="row cards">
-    <div class="col-md-6">
-        <p style="text-align:center;">
-            <img src="../../images/goal.png" width="100%" height="auto" alt="task" title=''>
-        </p>
-    </div>
-    <div class="col-md-6">
-        <p>
-            My previous research has primarily been dedicated to evaluating and exploring machine vision intelligence. This research encompasses various aspects such as task modeling, environment construction, evaluation technique, and human-machine comparisons. I strongly hold the belief that <b><i><font color=DarkRed>the development of artificial intelligence is inherently interconnected with human factors</font></i></b>. Hence, drawing inspiration from the renowned <b><i><font color=DarkRed>Turing Test</font></i></b>, I have focused my investigation on the concept of <b><i><font color=DarkRed>Visual Turing Test</font></i></b>, aiming to integrate human elements into the evaluation of dynamic visual tasks. The ultimate goal of my previous work is to assess and analyze machine vision intelligence by benchmarking against human capabilities. The following are several key aspects: 
-        </p>
-    </div>
-</div>
+<img align="left" src="../../images/goal.png" width="50%" height="auto" hspace="20" vspace="10">
 
-<!-- My previous research has primarily been dedicated to evaluating and exploring machine vision intelligence. This research encompasses various aspects such as task modeling, environment construction, evaluation technique, and human-machine comparisons. I strongly hold the belief that ***<font color=DarkRed>the development of artificial intelligence is inherently interconnected with human factors</font>***. Hence, drawing inspiration from the renowned ***<font color=DarkRed>Turing Test</font>***, I have focused my investigation on the concept of ***<font color=DarkRed>Visual Turing Test</font>***, aiming to integrate human elements into the evaluation of dynamic visual tasks. The ultimate goal of my previous work is to assess and analyze machine vision intelligence by benchmarking against human capabilities. The following are several key aspects:  -->
+My previous research has primarily been dedicated to evaluating and exploring machine vision intelligence. This research encompasses various aspects such as task modeling, environment construction, evaluation technique, and human-machine comparisons. I strongly hold the belief that ***<font color=DarkRed>the development of artificial intelligence is inherently interconnected with human factors</font>***. Hence, drawing inspiration from the renowned ***<font color=DarkRed>Turing Test</font>***, I have focused my investigation on the concept of ***<font color=DarkRed>Visual Turing Test</font>***, aiming to integrate human elements into the evaluation of dynamic visual tasks. The ultimate goal of my previous work is to assess and analyze machine vision intelligence by benchmarking against human capabilities. The following are several key aspects: 
 
 - **What are the abilities of humans? Designing more human-like tasks.**
 In my research, I focused on utilizing Visual Object Tracking (VOT) as a representative task to explore dynamic visual capabilities. VOT holds a pivotal role in computer vision; however, its original definition imposes excessive constraints that hinder alignment with human dynamic visual tracking abilities. 
@@ -35,6 +24,8 @@ Furthermore, my research also focuses on visual robustness. Leveraging a bio-ins
 Computer scientists typically use large-scale datasets to evaluate machine models, while neuroscientists typically employ simple experimental environments to evaluate human subjects. This discrepancy makes it challenging to integrate human-machine evaluation into a unified framework for comparison and analysis. 
 To address the aforementioned issues ([How significant is the disparity between human and machine dynamic vision abilities?](https://huuuuusy.github.io/#VTT-ICLR)), I construct an experimental environment based on SOTVerse to enable a fair comparison between human and machine dynamic visual capabilities. These sequences provide a thorough examination of the perceptual abilities, cognitive abilities, and robust tracking abilities of humans and machines. Based on this foundation, a human-machine dynamic visual capability evaluation framework is designed. 
 Finally, a fine-grained experimental analysis is carried out from the perspectives of human-machine comparison and human-machine collaboration. The experimental results demonstrate that representative tracking algorithms have gradually narrowed the gap with human subjects. Furthermore, both humans and machines exhibit unique strengths in dynamic visual tasks, suggesting significant potential for human-machine collaboration. 
+
+<img align="left" src="../../images/3E.png" width="100%" height="auto" >
 
 This human-centered evaluation concept is referred to as [Visual Turing Test](https://huuuuusy.github.io/#VTT), and I have presented my thoughts and future prospects in this direction through a comprehensive review on [intelligent evaluation techniques](https://huuuuusy.github.io/#JIG-survey).
 These research contents can be summarized using the [3E paradigm](http://metaverse.aitestunion.com/paradigm). In order to enable machines to acquire human ***<font color=DarkRed>abilities</font>***, we need to construct a humanoid proxy ***<font color=DarkRed>task</font>*** and execute it through interactions among the ***<font color=DarkRed>environment</font>***, ***<font color=DarkRed>evaluation</font>***, and ***<font color=DarkRed>executors</font>***. Ultimately, the executors' performance reflects their level of ability, and their upper limit of ability is continuously improved through ongoing iterations. I hope these research can create a comprehensive system that lays a solid research foundation for improving the dynamic visual abilities of machines. 
