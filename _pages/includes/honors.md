@@ -4,8 +4,8 @@
 * 2023 First Prize of Climbing Scholarship in Institute of Automation, Chinese Academy of Sciences (攀登一等奖学金, only 6 students in Institute of Automation, Chinese Academy of Sciences win this scholarship)
 * 2022 Merit Student of University of Chinese Academy of Sciences (中国科学院大学三好学生)
 * 2017 Excellent Innovative Student of Beijing Institute of Technology (北京理工大学优秀创新学生)
-* 2016 Excellent League Member on Youth Day Competition of Beijing Institute of Technology (北京理工大学优秀团员)
 * 2016 College Scholarship of Chinese Academy of Sciences (中国科学院大学生奖学金)
+* 2016 Excellent League Member on Youth Day Competition of Beijing Institute of Technology (北京理工大学优秀团员)
 * 2015 National First Prize in [Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)](http://en.mcm.edu.cn/) (全国大学生数学建模竞赛国家一等奖, top 1%, only 1 team in Beijing Institute of Technology win this prize)
 [[📑PDF](https://huuuuusy.github.io/files/CUMCM15.pdf)]
 [[📖Selected and Reviewed Outstanding Papers in CUMCM (2011-2015) (Chapter 9)](http://www.tup.tsinghua.edu.cn/booksCenter/book_06811101.html)]

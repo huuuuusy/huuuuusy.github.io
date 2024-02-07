@@ -4,8 +4,8 @@ I’ve got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sci
 I am also fortunate to work with **[Prof. Xin Zhao (赵鑫)](https://www.xinzhaoai.com/)** to conduct research in computer vision.
 Before that, I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang (王卓立)](https://www.cs.hku.hk/people/academic-staff/clwang)**.
 
-I strongly hold the belief that ***<font color=DarkRed>the development of artificial intelligence is inherently interconnected with human factors</font>***. Hence, drawing inspiration from the renowned *Turing Test*, I have focused my investigation on the concept of *Visual Turing Test*, aiming to integrate human elements into the examination of dynamic visual tasks. The ultimate objective of my work is to assess and analyze machine vision intelligence by benchmarking against human capabilities. 
-Please refer to the [🔍️ Research Interests](https://huuuuusy.github.io//#research-interests) for detailed information.
+I strongly hold the belief that ***<font color=DarkRed>the development of artificial intelligence is inherently interconnected with human factors</font>***. Hence, drawing inspiration from the renowned *Turing Test*, I have focused my investigation on the concept of *Visual Turing Test*, aiming to integrate human elements into the examination of dynamic visual tasks. The ultimate goal of my previous work is to assess and analyze machine vision intelligence by benchmarking against human capabilities. 
+Please refer to the [🔍️ Research Interests](https://huuuuusy.github.io//#research-interests) for detailed information about my research foundation and ongoing projects.
 
 > 📣 I am seeking a PostDoc position starting from Spring 2024. If you are interested in my research or would like to collaborate, please do not hesitate to contact me. You can download my [CV](https://huuuuusy.github.io/files/CV-EN.pdf) here.
 
