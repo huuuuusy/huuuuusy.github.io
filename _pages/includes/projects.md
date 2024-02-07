@@ -14,10 +14,10 @@
 </div>
 </div>
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2019.05 - 2019.10</div><img src='../../images/SkinColor.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2019.05 - 2019.10</div><img src='../../images/SkinColor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class="badge">2019.05 - 2019.10</div><img align="left" src='../../images/SkinColor.png' alt="sym" width="40%" hspace="20" vspace="10">
+<!-- <div class="badge">2019.05 - 2019.10</div><img align="left" src='../../images/SkinColor.png' alt="sym" width="40%" hspace="20" vspace="10"> -->
 
 **A Skin Color Detection System without Color Atla**<br>
 📌 Color Constancy 📌 Skin Color Detection 📌 Illumination Estimation<br>
