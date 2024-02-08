@@ -1,6 +1,6 @@
 ### Hi there, I am Shiyu Hu (胡世宇)!
 
-I’ve got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (中国科学院自动化研究所)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (中国科学院大学)](https://english.ucas.ac.cn/)** in Jan. 2024, supervised by **[Prof. Kaiqi Huang (黄凯奇)](https://people.ucas.ac.cn/~huangkaiqi)** (IAPR Fellow). 
+I’ve got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (中国科学院自动化研究所)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (中国科学院大学)](https://english.ucas.ac.cn/)** in Jan. 2024, supervised by **[Prof. Kaiqi Huang (黄凯奇)](https://people.ucas.ac.cn/~huangkaiqi)** (IAPR Fellow, IEEE Senior Member). 
 I am also fortunate to work with **[Prof. Xin Zhao (赵鑫)](https://www.xinzhaoai.com/)** to conduct research in computer vision.
 Before that, I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang (王卓立)](https://www.cs.hku.hk/people/academic-staff/clwang)**.
 
