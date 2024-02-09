@@ -40,6 +40,6 @@ redirect_from:
 
 <!-- <a href="https://info.flagcounter.com/DRHx"><img src="https://s11.flagcounter.com/count/DRHx/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_3/viewers_0/labels_1/pageviews_1/flags_0/percent_1/" alt="Flag Counter" border="0"></a> -->
 
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=PTnTG7-oiewclaQYL-vCCTG_Cp1UIVkwryXQywQqCfs'></script>
+<a href='https://mapmyvisitors.com/web/1bvt7'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=tt&d=PTnTG7-oiewclaQYL-vCCTG_Cp1UIVkwryXQywQqCfs'/></a>
 
 *My homepage visitors recorded from February 9th, 2024. Thanks for attention.*
