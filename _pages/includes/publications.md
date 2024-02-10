@@ -169,6 +169,21 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
+## Preprint
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VTT-ICLR'></span>
+
+**Nearing or Surpassing: Overall Evaluation of Human-Machine Dynamic Vision Ability**<br>
+***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [Y. Wang](https://github.com/updateforever), [Y. Shan](https://scholar.google.com/citations?user=_nc83HsAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+📌 Visual Object Tracking 📌 Intelligent Evaluation Technique 📌 AI4Science<br>
+[📑 PDF](https://huuuuusy.github.io/files/VTT-ICLR.pdf)
+[🗒 bibTex](https://huuuuusy.github.io/files/VTT-ICLR.bib) 
+</div>
+</div>
+
 ## Under Review
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/SOI.png' alt="sym" width="100%"></div></div>
@@ -223,17 +238,15 @@ Y. Ren, [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu 
 </div>
 </div>
 
-## Preprint
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">中国心理卫生杂志 2024</div><img src='../../images/IGBA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<span class='anchor' id='VTT-ICLR'></span>
+<span class='anchor' id='IGBA'></span>
 
-**Nearing or Surpassing: Overall Evaluation of Human-Machine Dynamic Vision Ability**<br>
-***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [Y. Wang](https://github.com/updateforever), [Y. Shan](https://scholar.google.com/citations?user=_nc83HsAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-📌 Visual Object Tracking 📌 Intelligent Evaluation Technique 📌 AI4Science<br>
-[📑 PDF](https://huuuuusy.github.io/files/VTT-ICLR.pdf)
-[🗒 bibTex](https://huuuuusy.github.io/files/VTT-ICLR.bib) 
+**Intelligent Game-based Psychological Assessment (基于游戏的智能化心理测评系统)**<br>
+[K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
+*[Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSSCI Journal, Top Psychological Journal in China, Under Review)*<br>
+📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
+
 </div>
 </div>
