@@ -17,7 +17,7 @@ Please refer to the [🔍️ Research Interests](https://huuuuusy.github.io//#re
 
 **Solid Research Foundation**
 - During my doctoral studies, I have published 10 papers, of which 5 are first-author / corresponding author publications -- including 3 papers in IEEE Transactions on Pattern Analysis and Machine Intelligence ***<font color=DarkRed>(IEEE TPAMI, IF=23.6, #2/145 in JCR ranking of AI journal)</font>*** and International Journal of Computer Vision ***<font color=DarkRed>(IJCV, IF=19.5, #3/145 in JCR ranking of AI journal)</font>***, 1 paper in the 37th Conference on Neural Information Processing Systems ***<font color=DarkRed>(NeurIPS, #1 in impact ranking of AI conferences in Google Scholar)</font>***, and a survey in Journal of Images and Graphics (top journal in China).
-- The research platform that I am responsible for building and maintaining has received over 287k visits from 130+ countries and regions worldwide.
+- The research platform that I am responsible for building and maintaining has received over 315k visits from 130+ countries and regions worldwide.
 
 **Wide Communication and Collaboration**
 - I have served as a reviewer for top conferences such as CVPR, AAAI, ACM MM, etc., and will conduct a tutorial at ICIP conference in Oct. 2024 (tutorial title: *An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis*).
