@@ -18,3 +18,7 @@
 - **Supervisor:** [Prof. Senlin Luo](https://cst.bit.edu.cn/szdw/jsml/bssds/a21187d873b645839fdd996387c79efa.htm)
 - **Thesis Title:** Text Sentiment Analysis Based on Deep Neural Network 
 - **Thesis Defense Grade:** Excellent
+
+**2015.07 - 2015.08** : Summer Semester in [University of California, Berkeley (UCB)](https://www.berkeley.edu/)
+- **Major:** New Media
+- **Course  Grade:** A

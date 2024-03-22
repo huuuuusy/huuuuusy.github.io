@@ -34,7 +34,7 @@ These research contents can be summarized using the [3E paradigm](http://metaver
 ### Ongoing Research
 
 - **Optimizing algorithms from the perspective of human-like modeling: locating target more like humans.** 
-Building upon these above works, my [🤝 Collaborators](https://huuuuusy.github.io/#collaborators) and I are focusing on design intelligent tracking algorithms through a human-like modeling approach. For example, we develop [MemTrack](https://huuuuusy.github.io/#MemTrack), a robust visual language tracker based on human memory modelling to enhance tracking performance in complex scenarios. Besides, by considering the cognitive disparities between humans and machines when it comes to dealing with Similar Object Interference (SOI) challenge, we investigate the impact of the SOI challenge on tracking robustness, and construct a [TrackingSOI](https://huuuuusy.github.io/#CSAI23) benchmark by using a data mining method. We then propose the [TransKT](https://huuuuusy.github.io/#SOI) algorithm to enhance the algorithm's perception abilities towards the SOI challenge, aiming to improve its visual robustness.
+Building upon these above works, my [🤝 Collaborators](https://huuuuusy.github.io/#collaborators) and I are focusing on design intelligent tracking algorithms through a human-like modeling approach. For example, we develop [MemVLT](https://huuuuusy.github.io/#MemVLT), a robust visual language tracker based on human memory modelling to enhance tracking performance in complex scenarios. Besides, by considering the cognitive disparities between humans and machines when it comes to dealing with Similar Object Interference (SOI) challenge, we investigate the impact of the SOI challenge on tracking robustness, and construct a [TrackingSOI](https://huuuuusy.github.io/#CSAI23) benchmark by using a data mining method. We then propose the [TransKT](https://huuuuusy.github.io/#SOI) algorithm to enhance the algorithm's perception abilities towards the SOI challenge, aiming to improve its visual robustness.
 
 - **Integrating dynamic visual research and application scenarios: from human-like modeling to human-intelligence interaction.**
 The primary objective of human-like modeling is to develop advanced algorithms that enable effective human-machine interaction, serving as the fundamental basis for subsequent collaborations between humans and machines in various scenarios. 
@@ -54,6 +54,7 @@ Furthermore, we are also moving forward to expand the hierarchical levels of eva
 
 **Visual Language Tracking (VLT)**
 - Research on multi-modal tracking, video understanding, and visual reasoning tasks based on long video sequences.
+- Exploring using Large Language Models (LLMs) and Large Vision Models (LVMs) for long video understanding.
 - Exploring human-computer interaction patterns in long video sequences with visual language tracking as a proxy task.
 
 **Benchmark Construction**
@@ -67,4 +68,4 @@ Furthermore, we are also moving forward to expand the hierarchical levels of eva
 **AI4Science**
 - **Cognitive Science:** Visual task design, environment construction, and human-machine capability analysis based on human-like modeling principles.
 - **Medical Science:** Research on medical image processing techniques based on artificial intelligence technologies (e.g., cell segmentation and tracking, denoising of cryo-electron microscopy images).
-- **Psychology:** Development of gamified assessment systems targeting psychological dimensions such as anxiety, depression, and obsession, along with research on intelligent psychological evaluation technologies.
+- **Psychology:** Development of gamified assessment systems targeting psychological dimensions such as anxiety, depression, and obsession, along with research on intelligent psychological evaluation technologies. Exploring using Large Language Models (LLMs) and Large Vision Models (LVMs) for visual comprehension with psychological elements.

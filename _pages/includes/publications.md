@@ -21,7 +21,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src='../../images/SOTVerse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2024</div><img src='../../images/SOTVerse.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='SOTVerse'></span>
@@ -66,6 +66,7 @@
 ***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [X. Feng](https://github.com/XiaokunFeng), [X. Li](https://xuchen-li.github.io/), [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) (CCF-A Conference, Poster)*<br>
 📌 Visual Language Tracking 📌 Long Video Understanding and Reasoning 📌 Hierarchical Semantic Information Annotation<br>
+[🗒 bibTex](https://huuuuusy.github.io/files/MGIT.bib)
 [📃 PDF](https://huuuuusy.github.io/files/MGIT.pdf)
 [🪧 Poster](https://huuuuusy.github.io/files/MGIT-poster.pdf)
 [📹 Slides](https://huuuuusy.github.io/files/MGIT-Slides.pdf)
@@ -132,6 +133,9 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 [Y. Wang](https://github.com/updateforever), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
 *[the 7th International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **Oral**)*<br>
 📌 Visual Object Tracking 📌 Similar Object Interference 📌 Data Mining<br>
+[📃 Paper](https://dl.acm.org/doi/abs/10.1145/3638584.3638644) 
+[🗒 bibTex](https://huuuuusy.github.io/files/CSAI23.bib) 
+[📑 PDF](https://huuuuusy.github.io/files/CSAI23.pdf)
 
 </div>
 </div>
@@ -212,10 +216,10 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">IJCAI 2024</div><img src='../../images/MemTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">IJCAI 2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<span class='anchor' id='MemTrack'></span>
+<span class='anchor' id='MemVLT'></span>
 
 **Remembering Target More Like Humans: A Robust Visual-Language Tracker with Adaptive Prompts**<br>
 [X. Feng](https://github.com/XiaokunFeng), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
@@ -247,6 +251,20 @@ Y. Ren, [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu 
 [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
 *[Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSSCI Journal, Top Psychological Journal in China, Under Review)*<br>
 📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CVPRW 2024</div><img src='../../images/DTLLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='DTLLM'></span>
+
+**Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
+[X. Li](https://xuchen-li.github.io/), [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://github.com/wmeiqi), D. Zhang, J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+*[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Under Review)*<br>
+📌 Visual Language Tracking 📌 Large Language Model 📌 Benchmark Construction<br>
 
 </div>
 </div>
