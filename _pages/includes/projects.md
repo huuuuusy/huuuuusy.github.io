@@ -38,3 +38,16 @@
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">2024.01 - Now</div><img src='../../images/ai4education.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Research on the Dilemma and Countermeasures of Human-Computer Interaction in Intelligent Education**<br>
+📌 Intelligent Education Technology 📌 Human-Computer Interaction 📌 AI4Science<br>
+- Incorporating insights and methodologies from education, cognitive psychology, and computer science, this project establishes a theoretical framework for understanding the evolution of HCI within the intelligent education.
+- Drawing upon the established theoretical framework, this project conducts a comprehensive analysis of the evolution of HCI in educational settings, transitioning from collaboration to integration. Furthermore, it delves into the key issues arising from this transformative process within the realm of intelligent education.
+- Building upon the core issues unearthed, this project investigates strategies for leveraging theoretical guidance and technical enhancements to enhance the efficacy of HCI in intelligent education, ultimately striving towards effective human-computer integration.
+- The project is funded by the 2023 Intelligent Education PhD Research Fund, supported by the Institute of AI Education Shanghai and East China Normal University, and is currently in progress.
+
+</div>
+</div>
