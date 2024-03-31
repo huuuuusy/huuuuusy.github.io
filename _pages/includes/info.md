@@ -20,6 +20,7 @@
 - **Yiping Ma**, Ph.D. student at the [East China Normal University](https://www.ecnu.edu.cn/), focusing on intelligent education technique and human-computer interaction.
 - **Di Shang**, Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on computer vision, spiking neural network and few-shot learning.
 - **Yaxuan Kang**, design researcher, research assistant and interaction designer at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on human-computer interaction.
+- **Jing Zhang**, research assistant at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on computer vision and AI4Science.
 - [**Yipei Wang**](https://github.com/updateforever), M.S. and incoming Ph.D. student at the [Southeast University](https://www.seu.edu.cn/), focusing on visual object tracking and recommendation system.
 - [**Xiaokun Feng**](https://github.com/XiaokunFeng), Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science.
 - **Dailing Zhang**, Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science.
