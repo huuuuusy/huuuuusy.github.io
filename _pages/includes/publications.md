@@ -173,6 +173,19 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='../../images/AWCV.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='AWCV'></span>
+
+**Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
+[M. Wu](https://github.com/wmeiqi), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
+*[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, IF=8.4)*<br>
+📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
+
+</div>
+</div>
+
 ## Preprint
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
@@ -203,18 +216,6 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/AWCV.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='AWCV'></span>
-
-**Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
-[M. Wu](https://github.com/wmeiqi), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
-*[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, IF=8.4, Under Minor Revision)*<br>
-📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">IJCAI 2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
