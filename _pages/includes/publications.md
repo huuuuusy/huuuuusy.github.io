@@ -112,7 +112,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CVPRW 2024</div><img src='../../images/DTLLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div><img src='../../images/DTLLM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='DTLLM'></span>
