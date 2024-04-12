@@ -2,6 +2,8 @@
 
 ## Acceptance
 
+<!-- 前5篇代表作按照固定顺序排列 -->
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='../../images/GIT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -66,6 +68,7 @@
 ***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [X. Feng](https://github.com/XiaokunFeng), [X. Li](https://xuchen-li.github.io/), [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) (CCF-A Conference, Poster)*<br>
 📌 Visual Language Tracking 📌 Long Video Understanding and Reasoning 📌 Hierarchical Semantic Information Annotation<br>
+[📃 Paper](https://proceedings.nips.cc/paper_files/paper/2023/hash/4ea14e6090343523ddcd5d3ca449695f-Abstract-Datasets_and_Benchmarks.html) 
 [🗒 bibTex](https://huuuuusy.github.io/files/MGIT.bib)
 [📃 PDF](https://huuuuusy.github.io/files/MGIT.pdf)
 [🪧 Poster](https://huuuuusy.github.io/files/MGIT-poster.pdf)
@@ -92,6 +95,36 @@
 </div>
 </div>
 
+<!-- 合作论文按时间顺序排列 -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='../../images/AWCV.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='AWCV'></span>
+
+**Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
+[M. Wu](https://github.com/wmeiqi), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
+*[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, IF=8.4)*<br>
+📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
+[📃 Paper](https://ieeexplore.ieee.org/document/10496279) 
+[🗒 bibTex](https://huuuuusy.github.io/files/AWCV100k.bib)
+<!-- [📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf) -->
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CVPRW 2024</div><img src='../../images/DTLLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='DTLLM'></span>
+
+**Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
+[X. Li](https://xuchen-li.github.io/), [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://github.com/wmeiqi), D. Zhang, J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+*[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Oral)*<br>
+📌 Visual Language Tracking 📌 Large Language Model 📌 Benchmark Construction<br>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='../../images/ICASSP24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -101,6 +134,8 @@
 J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
 *[the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference, Poster)*<br>
 📌 Medical Image Processing 📌 AI4Science 📌 Diffusion Model<br>
+[📃 Paper](https://ieeexplore.ieee.org/abstract/document/10447135) 
+[🗒 bibTex](https://huuuuusy.github.io/files/ICASSP24.bib)
 [📑 PDF](https://huuuuusy.github.io/files/ICASSP24.pdf)
 
 </div>
@@ -173,18 +208,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='../../images/AWCV.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-<span class='anchor' id='AWCV'></span>
-
-**Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
-[M. Wu](https://github.com/wmeiqi), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
-*[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, IF=8.4)*<br>
-📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
-
-</div>
-</div>
 
 ## Preprint
 
@@ -257,15 +281,3 @@ Y. Ren, [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CVPRW 2024</div><img src='../../images/DTLLM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='DTLLM'></span>
-
-**Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
-[X. Li](https://xuchen-li.github.io/), [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://github.com/wmeiqi), D. Zhang, J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-*[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Under Review)*<br>
-📌 Visual Language Tracking 📌 Large Language Model 📌 Benchmark Construction<br>
-
-</div>
-</div>
