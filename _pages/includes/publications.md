@@ -16,6 +16,7 @@
 [📃 Paper](https://ieeexplore.ieee.org/document/9720246/)
 [🗒 bibTex](https://huuuuusy.github.io/files/GIT.bib)
 [📑 PDF](https://huuuuusy.github.io/files/GIT.pdf)
+[🪧 Poster](https://huuuuusy.github.io/files/VALSE24Poster-364.pdf)
 [🌐 Platform](http://videocube.aitestunion.com/)
 [🔧 Toolkit](https://github.com/huuuuusy/videocube-toolkit) 
 [💾 Dataset](http://videocube.aitestunion.com/downloads)
@@ -31,7 +32,7 @@
 **SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5)*<br>
-📌 Visual Object Tracking 📌 Dynamic Open Environment Construction 📌 Visual Evaluation Technique<br>
+📌 Visual Object Tracking 📌 Dynamic Open Environment Construction 📌 3E Paradigm<br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)
 [🗒 bibTex](https://huuuuusy.github.io/files/SOTVerse.bib)
 [📑 PDF](https://huuuuusy.github.io/files/SOTVerse.pdf)
@@ -48,7 +49,7 @@
 **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
 [X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu✉️</font>***, [Y. Wang](https://github.com/updateforever), J. Zhang, Y. Hu, R. Liu, [H. Lin](https://www3.cs.stonybrook.edu/~hling/), [Y. Li](https://www.biostat.wisc.edu/~yli/), R. Li, K. Liu, [J. Li](http://yjsb.sinano.ac.cn/Doctor/info.aspx?itemid=920) <br>
 *[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5)*<br>
-📌 Visual Object Tracking 📌 Drone-based Tracking 📌 Visual Evaluation Technique<br>
+📌 Visual Object Tracking 📌 Drone-based Tracking 📌 Visual Robustness<br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01937-0)
 [🌐 Platform](http://biodrone.aitestunion.com/) 
 [🗒 bibTex](https://huuuuusy.github.io/files/BioDrone.bib) 
@@ -120,7 +121,7 @@
 **Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
 [X. Li](https://xuchen-li.github.io/), [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://github.com/wmeiqi), D. Zhang, J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Oral)*<br>
-📌 Visual Language Tracking 📌 Large Language Model 📌 Benchmark Construction<br>
+📌 Visual Language Tracking 📌 Large Language Model<br>
 
 </div>
 </div>
@@ -209,7 +210,6 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 
 
-
 ## Preprint
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
@@ -240,15 +240,14 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">IJCAI 2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">NeurIPS 2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='MemVLT'></span>
 
 **Remembering Target More Like Humans: A Robust Visual-Language Tracker with Adaptive Prompts**<br>
 [X. Feng](https://github.com/XiaokunFeng), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
-*[the 33rd International Joint Conference on Artificial Intelligence](https://www.ijcai.org/) (CCF-A Conference, Under Review)*<br>
+*[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br>
 📌 Visual Language Tracking 📌 Human-like Memory Modeling 📌 Adaptive Prompts<br>
 
 </div>

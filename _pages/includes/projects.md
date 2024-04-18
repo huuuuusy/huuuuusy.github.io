@@ -42,6 +42,8 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">2024.01 - Now</div><img src='../../images/ai4education.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<span class='anchor' id='IEPRF23'></span>
+
 **Research on the Dilemma and Countermeasures of Human-Computer Interaction in Intelligent Education**<br>
 📌 Intelligent Education Technology 📌 Human-Computer Interaction 📌 AI4Science<br>
 - Incorporating insights and methodologies from education, cognitive psychology, and computer science, this project establishes a theoretical framework for understanding the evolution of HCI within the intelligent education.
