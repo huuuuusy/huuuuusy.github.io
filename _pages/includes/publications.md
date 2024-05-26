@@ -66,7 +66,7 @@
 <span class='anchor' id='MGIT'></span>
 
 **A Multi-modal Global Instance Tracking Benchmark (MGIT): Better Locating Target in Complex Spatio-temporal and causal Relationship**<br>
-***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [X. Feng](https://github.com/XiaokunFeng), [X. Li](https://xuchen-li.github.io/), [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), [X. Feng](https://xiaokunfeng.github.io/), [X. Li](https://xuchen-li.github.io/), [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[the 37th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) (CCF-A Conference, Poster)*<br>
 📌 Visual Language Tracking 📌 Long Video Understanding and Reasoning 📌 Hierarchical Semantic Information Annotation<br>
 [📃 Paper](https://proceedings.nips.cc/paper_files/paper/2023/hash/4ea14e6090343523ddcd5d3ca449695f-Abstract-Datasets_and_Benchmarks.html) 
@@ -104,7 +104,7 @@
 <span class='anchor' id='AWCV'></span>
 
 **Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
-[M. Wu](https://github.com/wmeiqi), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
+[M. Wu](https://wmeiqi.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
 *[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, IF=8.4)*<br>
 📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10496279) 
@@ -119,7 +119,7 @@
 <span class='anchor' id='DTLLM'></span>
 
 **Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
-[X. Li](https://xuchen-li.github.io/), [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://github.com/wmeiqi), D. Zhang, J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+[X. Li](https://xuchen-li.github.io/), [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://wmeiqi.github.io/), [D. Zhang](https://zhangdailing8.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Oral)*<br>
 📌 Visual Language Tracking 📌 Large Language Model<br>
 
@@ -148,7 +148,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <span class='anchor' id='PRCV23'></span>
 
 **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
-[X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+[X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[the 6th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv) (CCF-C Conference, Poster)*<br>
 📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-99-8462-6_20) 
@@ -233,7 +233,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <span class='anchor' id='SOI'></span>
 
 **Target or Distractor? Rethinking Similar Object Interference in Single Object Tracking**<br>
-[Y. Wang](https://github.com/updateforever), ***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [T. Yao](http://tingyao.deepfun.club/), [Y. Wang](https://scholar.google.com/citations?user=3nMDEBYAAAAJ), [L. Chen](https://sie.bit.edu.cn/szdw/jsml/ldjsyjsj/zgzcl/06c26b3ebaae4db981aaa388c660c8b5.htm), [X. Zhao](https://www.xinzhaoai.com/) <br>
+[Y. Wang](https://github.com/updateforever), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), [T. Yao](http://tingyao.deepfun.club/), [Y. Wang](https://scholar.google.com/citations?user=3nMDEBYAAAAJ), [L. Chen](https://sie.bit.edu.cn/szdw/jsml/ldjsyjsj/zgzcl/06c26b3ebaae4db981aaa388c660c8b5.htm), [X. Zhao](https://www.xinzhaoai.com/) <br>
 *[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, IF=8.4, Under Review)*<br>
 📌 Visual Object Tracking 📌 Similar Object Interference 📌 Data Mining<br>
 
@@ -245,10 +245,23 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <span class='anchor' id='MemVLT'></span>
 
-**Remembering Target More Like Humans: A Robust Visual-Language Tracker with Adaptive Prompts**<br>
-[X. Feng](https://github.com/XiaokunFeng), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, D. Zhang, [M. Wu](https://github.com/wmeiqi), [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
+**MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts**<br>
+[X. Feng](https://xiaokunfeng.github.io/), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br>
 📌 Visual Language Tracking 📌 Human-like Memory Modeling 📌 Adaptive Prompts<br>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">NeurIPS 2024</div><img src='../../images/CPDTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='CPDTrack'></span>
+
+**Beyond Accuracy: Tracking more like Human via Visual Search**<br>
+[D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [X. Li](https://xuchen-li.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
+*[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br>
+📌  Visual Object Tracking 📌 Visual Search Mechanism 📌 Visual Turing Test<br>
 
 </div>
 </div>
@@ -259,7 +272,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <span class='anchor' id='Sandplay'></span>
 
 **Intelligent Psychological Assessment with Sandplay based on Evidence-Centered Design Theory (基于证据中心设计理论的智能心理沙盘测评系统)**<br>
-Y. Ren, [X. Feng](https://github.com/XiaokunFeng), ***<font color=DarkRed>Shiyu Hu</font>***, Y. Kang, C. Yan, Y. Zeng, [L. Wang](https://people.ucas.ac.cn/~wanglg), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
+Y. Ren, [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, Y. Kang, C. Yan, Y. Zeng, [L. Wang](https://people.ucas.ac.cn/~wanglg), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 *[Acta Psychologica Sinica](https://journal.psych.ac.cn/xlxb/CN/0439-755X/home.shtml) (《心理学报》, CSSCI Journal, Top-1 Psychological Journal in China, Under Review)*<br>
 📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
 
