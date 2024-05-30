@@ -2,7 +2,7 @@
 
 **2019.09 - 2024.01** : Ph.D. in [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/) and [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)
 - **Major:** Computer Applied Technology
-- **Supervisor:** [Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi) (IAPR Fellow, IEEE Senior Member)
+- **Supervisor:** [Prof. Kaiqi Huang](https://people.ucas.ac.cn/~huangkaiqi) (IAPR Fellow)
 - **Co-supervisor:** [Prof. Xin Zhao](https://www.xinzhaoai.com/)
 - **Thesis Title:** Research of Intelligence Evaluation Techniques for Single Object Tracking
 - **Thesis Committee:** [Prof. Jianbin Jiao](https://people.ucas.ac.cn/~jiaojianbin), [Prof. Yuxin Peng](http://39.108.48.32/mipl/pengyuxin/), [Prof. Yao Zhao](https://faculty.bjtu.edu.cn/5900/) (IEEE Fellow, IET Fellow), [Prof. Yunhong Wang](https://vrlab.buaa.edu.cn/info/1161/1500.htm) (IEEE Fellow, IAPR Fellow), [Prof. Ming Tang](https://people.ucas.ac.cn/~mingt)
