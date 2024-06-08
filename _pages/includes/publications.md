@@ -109,7 +109,7 @@
 📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10496279) 
 [🗒 bibTex](https://huuuuusy.github.io/files/AWCV100k.bib)
-<!-- [📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf) -->
+[📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf)
 </div>
 </div>
 
@@ -121,7 +121,7 @@
 **Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
 [X. Li](https://xuchen-li.github.io/), [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://wmeiqi.github.io/), [D. Zhang](https://zhangdailing8.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Oral)*<br>
-📌 Visual Language Tracking 📌 Large Language Model<br>
+📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
 
 </div>
 </div>
@@ -240,6 +240,32 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">NeurIPS 2024</div><img src='../../images/CPDTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='CPDTrack'></span>
+
+**Beyond Accuracy: Tracking more like Human via Visual Search**<br>
+[D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [X. Li](https://xuchen-li.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
+*[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br>
+📌  Visual Object Tracking 📌 Visual Search Mechanism 📌 Visual Turing Test<br>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='DTVLT'></span>
+
+**Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
+[X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+*[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br>
+📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">NeurIPS 2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -253,15 +279,15 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">NeurIPS 2024</div><img src='../../images/CPDTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">NeurIPS 2024</div><img src='../../images/MMAW.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<span class='anchor' id='CPDTrack'></span>
+<span class='anchor' id='MMAW'></span>
 
-**Beyond Accuracy: Tracking more like Human via Visual Search**<br>
-[D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [X. Li](https://xuchen-li.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
+**Unconstrained Multimodal Air-Writing Benchmark: Writing by Moving Your Fingers in 3D**<br>
+[M. Wu](https://wmeiqi.github.io/), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
 *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br>
-📌  Visual Object Tracking 📌 Visual Search Mechanism 📌 Visual Turing Test<br>
+📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
 
 </div>
 </div>
