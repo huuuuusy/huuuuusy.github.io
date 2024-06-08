@@ -122,7 +122,9 @@
 [X. Li](https://xuchen-li.github.io/), [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://wmeiqi.github.io/), [D. Zhang](https://zhangdailing8.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 *[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Oral)*<br>
 📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
-
+[📃 Paper](https://arxiv.org/abs/2405.12139) 
+[🗒 bibTex](https://huuuuusy.github.io/files/DTLLM-VLT.bib)
+[📃 PDF](https://huuuuusy.github.io/files/DTLLM-VLT.pdf)
 </div>
 </div>
 
@@ -288,6 +290,19 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 [M. Wu](https://wmeiqi.github.io/), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
 *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br>
 📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">PRCV 2024</div><img src='../../images/VSLLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VSLLM'></span>
+
+**VS-LLM: Visual-Semantic Depression Assessment based on LLM for Drawing Projection Test**<br>
+[M. Wu](https://wmeiqi.github.io/), Y. Kang, [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), Y. kang, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+*[the 7th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference, Under Review)*<br>
+📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
 
 </div>
 </div>
