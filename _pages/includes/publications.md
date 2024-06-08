@@ -253,7 +253,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">NeurIPS 2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='DTVLT'></span>
