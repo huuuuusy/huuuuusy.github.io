@@ -144,6 +144,19 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国心理卫生杂志 2024</div><img src='../../images/IGBA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='IGBA'></span>
+
+**A Review of Intelligent Psychological Assessment Based on Interactive Environment (基于交互环境的智能化心理测评)**<br>
+[K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
+*[Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSSCI Journal, Top Psychological Journal in China)*<br>
+📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2023</div><img src='../../images/PRCV23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -320,17 +333,6 @@ Y. Ren, [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">中国心理卫生杂志 2024</div><img src='../../images/IGBA.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-<span class='anchor' id='IGBA'></span>
-
-**Intelligent Game-based Psychological Assessment (基于游戏的智能化心理测评系统)**<br>
-[K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
-*[Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSSCI Journal, Top Psychological Journal in China, Under Review)*<br>
-📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
-
-</div>
-</div>
 
 
