@@ -120,11 +120,16 @@
 
 **Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
 [X. Li](https://xuchen-li.github.io/), [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://wmeiqi.github.io/), [D. Zhang](https://zhangdailing8.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-*[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Oral)*<br>
+*[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Oral, Best Paper Honorable Mention)*<br>
 📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2405.12139) 
 [🗒 bibTex](https://huuuuusy.github.io/files/DTLLM-VLT.bib)
 [📃 PDF](https://huuuuusy.github.io/files/DTLLM-VLT.pdf)
+[🪧 Poster](https://xuchen-li.github.io/files/DTLLM-poster.pdf)
+[📹 Slides](https://xuchen-li.github.io/files/DTLLM-Slides.pdf)
+[🌐 Platform](http://videocube.aitestunion.com/)
+[🔧 Toolkit](https://github.com/Xuchen-Li/DTLLM-VLT) 
+[💾 Dataset](http://videocube.aitestunion.com/downloads)
 </div>
 </div>
 
