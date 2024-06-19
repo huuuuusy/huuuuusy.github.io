@@ -130,6 +130,7 @@
 [🌐 Platform](http://videocube.aitestunion.com/)
 [🔧 Toolkit](https://github.com/Xuchen-Li/DTLLM-VLT) 
 [💾 Dataset](http://videocube.aitestunion.com/downloads)
+[🏆 Award](https://huuuuusy.github.io/files/DTLLM-VLT-Award.pdf)
 </div>
 </div>
 
