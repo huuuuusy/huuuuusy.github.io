@@ -1,5 +1,27 @@
 # 📝 Publications
 
+## Paper Summary
+
+### Journal
+
+- **TPAMI**: IEEE Transactions on Pattern Analysis and Machine Intelligence (CCF-A Journal, Top-1 journal in computer vision, IF=20.8). ***<font color=DarkRed>Acceptance×1 (first author×1)</font>***
+- **IJCV**: International Journal of Computer Vision (CCF-A Journal, Top-2 journal in computer vision, IF=11.6). ***<font color=DarkRed>Acceptance×2 (first author×1, corresponding-author×1)</font>***
+- **TCSVT**: IEEE Transactions on Circuits and Systems for Video Technology (CCF-B Journal, IF=8.3). ***<font color=DarkRed>Acceptance×1, under review×1</font>***
+- **JIG**: Journal of Images and Graphics (《中国图象图形学报》, CCF-B Chinese Journal). ***<font color=DarkRed>Acceptance×1 (first author×1)</font>***
+- **JOG**: Journal of Graphics (《图学学报》, CCF-C Chinese Journal). ***<font color=DarkRed>Acceptance×1</font>***
+- **Neu**: Neurocomputing (CCF-C Journal, IF=5.5). ***<font color=DarkRed>Acceptance×1</font>***
+- **CMHJ**: Chinese Mental Health Journal (《中国心理卫生杂志》, CSSCI Journal, Top Psychological Journal in China) ***<font color=DarkRed>Acceptance×1</font>***
+- **APS**: Acta Psychologica Sinica (《心理学报》, CSSCI Journal, Top-1 Psychological Journal in China). ***<font color=DarkRed>Under review×1</font>***
+
+### Conference
+
+- **NeurIPS**: Conference on Neural Information Processing Systems (CCF-A Conference). ***<font color=DarkRed>Acceptance×1 (first author×1), under review×4</font>***
+- **CVPRW**: Workshop in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CCF-A Conference workshop). ***<font color=DarkRed>Acceptance×1 (oral & best paper honorable mention×1)</font>***
+- **ICASSP**: IEEE International Conference on Acoustics, Speech, and Signal Processing (CCF-B Conference). ***<font color=DarkRed>Acceptance×1</font>***
+- **PRCV**: Chinese Conference on Pattern Recognition and Computer Vision (CCF-C Conference). ***<font color=DarkRed>Acceptance×2</font>***
+- **CSAI**: International Conference on Computer Science and Artificial Intelligence (EI Conference). ***<font color=DarkRed>Acceptance×1 (oral×1)</font>***
+
+
 ## Acceptance
 
 <!-- 前5篇代表作按照固定顺序排列 -->
@@ -146,6 +168,19 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/10447135) 
 [🗒 bibTex](https://huuuuusy.github.io/files/ICASSP24.bib)
 [📑 PDF](https://huuuuusy.github.io/files/ICASSP24.pdf)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2024</div><img src='../../images/VSLLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VSLLM'></span>
+
+**VS-LLM: Visual-Semantic Depression Assessment based on LLM for Drawing Projection Test**<br>
+[M. Wu](https://wmeiqi.github.io/), Y. Kang, [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), Y. kang, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+*[the 7th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference)*<br>
+📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
 
 </div>
 </div>
@@ -313,19 +348,6 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">PRCV 2024</div><img src='../../images/VSLLM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='VSLLM'></span>
-
-**VS-LLM: Visual-Semantic Depression Assessment based on LLM for Drawing Projection Test**<br>
-[M. Wu](https://wmeiqi.github.io/), Y. Kang, [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), Y. kang, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-*[the 7th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference, Under Review)*<br>
-📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">心理学报 2024</div><img src='../../images/Sandplay.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -338,7 +360,3 @@ Y. Ren, [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu 
 
 </div>
 </div>
-
-
-
-
