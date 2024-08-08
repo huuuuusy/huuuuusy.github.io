@@ -1,11 +1,30 @@
-# 🔗 For More Info
+<!-- # 🔗 For More Info
 
 - [Intelligence of Human-Computer Competition](http://turingai.ia.ac.cn/)
 - [Research Group of Intelligent Gaming](http://www.ig.ia.ac.cn:81/)
 - [Center for Research on Intelligent System and Engineering (CRISE)](http://www.crise.ia.ac.cn/)
 - [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/)
 - [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/)
-- [Department of Computer Science, University of Hong Kong (HKU)](https://www.cs.hku.hk/)
+- [Department of Computer Science, University of Hong Kong (HKU)](https://www.cs.hku.hk/) -->
+
+# 🔗 Activities and Services
+
+## Tutorial
+
+**[31th IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/)**
+- **Title:** An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis
+- **Date & Location:** 27-30 October, 2024, Abu Dhabi, United Arab Emirates
+- **Duration:** Half-day (Three Hours)
+
+**[27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/)**
+- **Title:** Visual Turing Test in Visual Object Tracking: A New Vision Intelligence Evaluation Technique based on Human-Machine Comparison
+- **Date & Location:** 01-05 December, 2024, Kolkata, India
+- **Duration:** Half-day (Three Hours)
+
+## Reviewer
+
+- **Conferences:**  NeurIPS, CVPR, ECCV, AAAI, ACMMM, etc.
+- **Journals**: SCIENCE CHINA Information Sciences, IEEE Access, Journal of Electronic Imaging, etc.
 
 <span class='anchor' id='collaborators'></span>
 
@@ -21,7 +40,7 @@
 - **Di Shang**, Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on computer vision, spiking neural network and few-shot learning.
 - **Yaxuan Kang**, design researcher, research assistant and interaction designer at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on human-computer interaction.
 - **Jing Zhang**, research assistant at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on computer vision and AI4Science.
-- [**Yipei Wang**](https://github.com/updateforever), M.S. and incoming Ph.D. student at the [Southeast University](https://www.seu.edu.cn/), focusing on visual object tracking and recommendation system.
+- [**Yipei Wang**](https://github.com/updateforever), Ph.D. student at the [Southeast University](https://www.seu.edu.cn/), focusing on visual object tracking and recommendation system.
 - [**Xiaokun Feng**](https://xiaokunfeng.github.io/), Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science.
 - [**Dailing Zhang**](https://zhangdailing8.github.io/), Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science.
-- [**Xuchen Li**](https://xuchen-li.github.io/), B.E. student at [Beijing University of Posts and Telecommunications (BUPT)](https://xuchen-li.github.io/) and incoming Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science.
+- [**Xuchen Li**](https://xuchen-li.github.io/), Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science.

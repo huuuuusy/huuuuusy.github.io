@@ -33,7 +33,7 @@
 
 **Global Instance Tracking: Locating Target More Like Humans**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [L. Huang](https://github.com/huanglianghua), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-*[IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (CCF-A Journal, IF=23.6)*<br>
+*[IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (CCF-A Journal)*<br>
 📌 Visual Object Tracking 📌 Large-scale Benchmark Construction 📌 Intelligent Evaluation Technology <br>
 [📃 Paper](https://ieeexplore.ieee.org/document/9720246/)
 [🗒 bibTex](https://huuuuusy.github.io/files/GIT.bib)
@@ -53,7 +53,7 @@
 
 **SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5)*<br>
+*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal)*<br>
 📌 Visual Object Tracking 📌 Dynamic Open Environment Construction 📌 3E Paradigm<br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)
 [🗒 bibTex](https://huuuuusy.github.io/files/SOTVerse.bib)
@@ -63,14 +63,14 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src='../../images/BioDrone.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2024</div><img src='../../images/BioDrone.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='BioDrone'></span>
 
 **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
 [X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu✉️</font>***, [Y. Wang](https://github.com/updateforever), J. Zhang, Y. Hu, R. Liu, [H. Lin](https://www3.cs.stonybrook.edu/~hling/), [Y. Li](https://www.biostat.wisc.edu/~yli/), R. Li, K. Liu, [J. Li](http://yjsb.sinano.ac.cn/Doctor/info.aspx?itemid=920) <br>
-*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, IF=19.5)*<br>
+*[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal)*<br>
 📌 Visual Object Tracking 📌 Drone-based Tracking 📌 Visual Robustness<br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01937-0)
 [🌐 Platform](http://biodrone.aitestunion.com/) 
@@ -127,7 +127,7 @@
 
 **Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
 [M. Wu](https://wmeiqi.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
-*[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, IF=8.4)*<br>
+*[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)*<br>
 📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10496279) 
 [🗒 bibTex](https://huuuuusy.github.io/files/AWCV100k.bib)
@@ -239,7 +239,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
 [Y. Zhang](https://wesleyzhang1991.github.io/), [C. Liu](https://scholar.google.com/citations?user=atOfOgMAAAAJ&hl=zh-CN&oi=sra), [W. Chen](https://scholar.google.com/citations?user=KWVlYaMAAAAJ&hl=zh-CN&oi=sra), [X. Xu](https://scholar.google.com/citations?user=nJc6BvgAAAAJ&hl=zh-CN&oi=sra), [F. Wang](https://scholar.google.com/citations?user=WCRGTHsAAAAJ), [H. Li](https://scholar.google.com/citations?user=pHN-QIwAAAAJ&hl=zh-CN&oi=sra), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
-*[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)  (CCF-C Journal, IF=6)*<br>
+*[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)  (CCF-C Journal)*<br>
 📌 Video Instance Search 📌 Benchmark Construction  📌 Data Mining<br>
 [📃 Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445) 
 [🗒 bibTex](https://huuuuusy.github.io/files/Neu22.bib) 
@@ -290,13 +290,13 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 **Target or Distractor? Rethinking Similar Object Interference in Single Object Tracking**<br>
 [Y. Wang](https://github.com/updateforever), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), [T. Yao](http://tingyao.deepfun.club/), [Y. Wang](https://scholar.google.com/citations?user=3nMDEBYAAAAJ), [L. Chen](https://sie.bit.edu.cn/szdw/jsml/ldjsyjsj/zgzcl/06c26b3ebaae4db981aaa388c660c8b5.htm), [X. Zhao](https://www.xinzhaoai.com/) <br>
-*[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, IF=8.4, Under Review)*<br>
+*[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, Under Review)*<br>
 📌 Visual Object Tracking 📌 Similar Object Interference 📌 Data Mining<br>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">2024</div><img src='../../images/CPDTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/CPDTrack.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='CPDTrack'></span>
@@ -310,7 +310,7 @@ Submitted to a CCF-A conference, under review<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='DTVLT'></span>
@@ -324,7 +324,7 @@ Submitted to a CCF-A conference, under review<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='MemVLT'></span>
@@ -338,7 +338,7 @@ Submitted to a CCF-A conference, under review<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">2024</div><img src='../../images/MMAW.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/MMAW.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='MMAW'></span>
