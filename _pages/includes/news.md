@@ -1,6 +1,6 @@
 # 🔥 News
 * **2024.08**: 👩‍💻Start my work as a Research Fellow in Nanyang Technological University (NTU), Singapore.
-* **2024.07**: 📣One [tutorial proposal](https://icpr2024.org/tutorials.html) has been accepted by the 27th 27th International Conference on Pattern Recognition (ICPR), the tutorial will be conducted in Dec. 2024 (Kolkata, India).
+* **2024.07**: 📣One [tutorial proposal](https://icpr2024.org/tutorials.html) has been accepted by the 27th International Conference on Pattern Recognition (ICPR), the tutorial will be conducted in Dec. 2024 (Kolkata, India).
 * **2024.06**: 📝One [paper](https://huuuuusy.github.io/#VSLLM) has been accepted by the 7th Chinese Conference on Pattern Recognition and Computer Vision (PRCV). 
 * **2024.06**: 📝One [paper](https://huuuuusy.github.io/#IGBA) has been accepted by Chinese Mental Health Journal (《中国心理卫生杂志》). 
 * **2024.05**: 🏆Obtain Beijing Outstanding Graduates (北京市优秀毕业生, top 5%).
