@@ -324,6 +324,21 @@ Submitted to a CCF-A conference, under review<br>
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/ATCTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='ATCTrack'></span>
+
+**Robust Vision-Language Tracking through Multimodal Target-Context Cues Aligned with Target States**<br>
+[X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://xuchen-li.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
+Submitted to a CCF-A conference, under review<br>
+📌 Visual Language Tracking 📌 Multi-modal Alignment 📌 Feature Awareness<br>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
