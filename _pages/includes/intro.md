@@ -9,7 +9,7 @@ Please refer to the [🔍️ Research Interests](https://huuuuusy.github.io//#re
 
 Besides, I am honored to collaborate with a group of outstanding researchers. We have established the **[Visual Intelligence Interest Group (VIIG)](http://viig.aitestunion.com/)** to promote research in related directions.
 
-> 📣 If you are interested in my research direction or hope to cooperate with me, feel free to contact me! Online or offline cooperations are all welcome (hushiyu199510@gmail.com).
+> 📣 If you are interested in my research direction or hope to cooperate with me, feel free to contact me! Online or offline cooperations are all welcome (shiyu.hu@ntu.edu.sg).
 
 <!-- # 🤖 Professional Summary
 

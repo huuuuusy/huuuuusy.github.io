@@ -330,7 +330,7 @@ Submitted to a CCF-A conference, under review<br>
 
 <span class='anchor' id='ATCTrack'></span>
 
-**Robust Vision-Language Tracking through Multimodal Target-Context Cues Aligned with Target States**<br>
+**ATCTrack: Leveraging Aligned Target-Context Cues for Robust Vision-Language Tracking**<br>
 [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://xuchen-li.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 <!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
 Submitted to a CCF-A conference, under review<br>

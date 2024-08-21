@@ -9,7 +9,6 @@
 <!-- The original template is proposed by LianTze Lim (liantze@gmail.com), this verison and the Chinese version is proposed by Shiyu Hu (hushiyu199510@gmail.com).  -->
 
 # ✉️ Contact
-
-- hushiyu199510@gmail.com (Main)
-- hushiyu1995@qq.com 
-- hushiyu2019@ia.ac.cn (Valid from 2019.06 - 2024.03)
+- shiyu.hu@ntu.edu.sg (Main)
+- hushiyu199510@gmail.com (Personal)
+- hushiyu2019@ia.ac.cn (Valid from 2019.06 - 2024.07)
