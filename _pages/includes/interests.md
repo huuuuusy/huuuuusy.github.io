@@ -1,9 +1,9 @@
 # 🔍️ Research Interests
 
-## The development of artificial intelligence is inherently interconnected with human factors.
+<!-- ## The development of artificial intelligence is inherently interconnected with human factors. -->
 
 
-### Research Foundation
+## Research Foundation
 
 <img align="left" src="../../images/goal.png" width="50%" height="auto" hspace="20" vspace="10">
 
@@ -31,7 +31,7 @@ Finally, a fine-grained experimental analysis is carried out from the perspectiv
 This human-centered evaluation concept is referred to as [Visual Turing Test](https://huuuuusy.github.io/#VTT), and I have presented my thoughts and future prospects in this direction through a comprehensive review on [intelligent evaluation techniques](https://huuuuusy.github.io/#JIG-survey).
 These research contents can be summarized using the [3E paradigm](http://metaverse.aitestunion.com/paradigm). In order to enable machines to acquire human ***<font color=DarkRed>abilities</font>***, we need to construct a humanoid proxy ***<font color=DarkRed>task</font>*** and execute it through interactions among the ***<font color=DarkRed>environment</font>***, ***<font color=DarkRed>evaluation</font>***, and ***<font color=DarkRed>executors</font>***. Ultimately, the executors' performance reflects their level of ability, and their upper limit of ability is continuously improved through ongoing iterations. I hope these research can create a comprehensive system that lays a solid research foundation for improving the dynamic visual abilities of machines. 
 
-### Ongoing Research
+<!-- ### Ongoing Research
 
 - **Optimizing algorithms from the perspective of human-like modeling: locating target more like humans.** 
 Building upon these above works, my [🤝 Collaborators](https://huuuuusy.github.io/#collaborators) and I are focusing on design intelligent tracking algorithms through a human-like modeling approach. For example, we develop [MemVLT](https://huuuuusy.github.io/#MemVLT), a robust visual language tracker based on human memory modelling to enhance tracking performance in complex scenarios. Besides, by considering the cognitive disparities between humans and machines when it comes to dealing with Similar Object Interference (SOI) challenge, we investigate the impact of the SOI challenge on tracking robustness, and construct a [TrackingSOI](https://huuuuusy.github.io/#CSAI23) benchmark by using a data mining method. We then propose the [TransKT](https://huuuuusy.github.io/#SOI) algorithm to enhance the algorithm's perception abilities towards the SOI challenge, aiming to improve its visual robustness.
@@ -44,9 +44,9 @@ Moreover, we are actively expanding the scope of visual language tracking task a
 - **Evaluation is science: more comprehensive and in-depth evaluation techniques are needed in the era of LLMs.**
 LLMs are gaining increasing popularity in academia and industry due to their exceptional performance across various applications. As LLMs continue to play a vital role in both research and daily use, the need for critical evaluation techniques becomes increasingly apparent. 
 My previous research has primarily focused on intelligence evaluation, encompassing abilities related to visual perception, cognition, and reasoning. I will further collaborate with my team to develop more comprehensive intelligence evaluation techniques and conduct a finer-grained analysis of human-machine dynamic visual abilities, providing support for research on model safety and interpretability. 
-Furthermore, we are also moving forward to expand the hierarchical levels of evaluation to a deeper dimension—[the psychological dimension](https://huuuuusy.github.io/#PRCV23). By utilizing the dynamic and open environment of psychological sandbox, we aim to integrate technologies from human-computer interaction, game design, psychology, and artificial intelligence to construct a more intelligent [psychological analysis system](https://huuuuusy.github.io/#Sandplay).
+Furthermore, we are also moving forward to expand the hierarchical levels of evaluation to a deeper dimension—[the psychological dimension](https://huuuuusy.github.io/#PRCV23). By utilizing the dynamic and open environment of psychological sandbox, we aim to integrate technologies from human-computer interaction, game design, psychology, and artificial intelligence to construct a more intelligent [psychological analysis system](https://huuuuusy.github.io/#Sandplay). -->
 
-## Detailed Lists
+## Detailed Lists of Current Research Interests
 
 **Visual Object Tracking (VOT)**
 - Research on single object tracking algorithms in general scenes and specific scenarios (such as unmanned aerial vehicles).

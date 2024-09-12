@@ -367,6 +367,34 @@ Submitted to a CCF-A conference, under review<br>
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-B 2024</div><img src='../../images/ICASSP25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='ICASSP25'></span>
+
+**Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<br>
+[X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://xuchen-li.github.io/),  [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
+Submitted to a CCF-B conference, under review<br>
+📌 Visual Language Tracking 📌 Multi-modal Learning 📌 Grounding Model<br>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A Workshop 2024</div><img src='../../images/VLT-MI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VLT-MI'></span>
+
+**Visual Language Tracking with Multi-modal Interaction: A Robust Benchmark**<br>
+[X. Li](https://xuchen-li.github.io/),  ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
+Submitted to a workshop in CCF-A conference, under review<br>
+📌 Visual Language Tracking 📌 Multi-modal Interaction 📌 Evaluation Technology<br>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">心理学报 2024</div><img src='../../images/Sandplay.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

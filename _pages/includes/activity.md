@@ -12,10 +12,15 @@
 - **Date & Location:** 01-05 December, 2024, Kolkata, India
 - **Duration:** Half-day (Three Hours)
 
+**[17th Asian Conference on Computer Vision (ACCV)](https://accv2024.org/)**
+- **Title:** From Machine-Machine Comparison to Human-Machine Comparison: Adapting Visual Turing Test in Visual Object Tracking
+- **Date & Location:** 08-12 December, 2024, Hanoi, Vietnam
+- **Duration:** Half-day (Three Hours)
+
 ## Reviewer
 
-- **Conferences:**  NeurIPS, CVPR, ECCV, AAAI, ACMMM, etc.
-- **Journals**: SCIENCE CHINA Information Sciences, IEEE Access, Journal of Electronic Imaging, etc.
+- **Conferences:**  NeurIPS, ICLR, CVPR, ECCV, AAAI, ACMMM, etc.
+- **Journals**: SCIENCE CHINA Information Sciences, IEEE Access, Journal of Electronic Imaging, Digital Signal Processing, etc.
 
 <span class='anchor' id='collaborators'></span>
 

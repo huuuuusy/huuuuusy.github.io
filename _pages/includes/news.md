@@ -1,4 +1,5 @@
 # 🔥 News
+* **2024.08**: 📣One [tutorial proposal](https://accv2024.org/) has been accepted by the 17th Asian Conference on Computer Vision (ACCV), the tutorial will be conducted in Dec. 2024 (Hanoi, Vietnam).
 * **2024.08**: 👩‍💻Start my work as a Research Fellow in Nanyang Technological University (NTU), Singapore.
 * **2024.07**: 📣One [tutorial proposal](https://icpr2024.org/tutorials.html) has been accepted by the 27th International Conference on Pattern Recognition (ICPR), the tutorial will be conducted in Dec. 2024 (Kolkata, India).
 * **2024.06**: 📝One [paper](https://huuuuusy.github.io/#VSLLM) has been accepted by the 7th Chinese Conference on Pattern Recognition and Computer Vision (PRCV). 
