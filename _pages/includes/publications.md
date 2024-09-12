@@ -16,8 +16,10 @@
 ### Conference
 
 - **NeurIPS**: Conference on Neural Information Processing Systems (CCF-A Conference). ***<font color=DarkRed>Acceptance×1 (first author×1), under review×4</font>***
+- **AAAI**: Annual AAAI Conference on Artificial Intelligence (CCF-A Conference). ***<font color=DarkRed>Under review×1</font>***
+- **NeurIPSW**: Workshop in Conference on Neural Information Processing Systems (CCF-A Conference workshop). ***<font color=DarkRed>Under review×1</font>***
 - **CVPRW**: Workshop in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CCF-A Conference workshop). ***<font color=DarkRed>Acceptance×1 (oral & best paper honorable mention×1)</font>***
-- **ICASSP**: IEEE International Conference on Acoustics, Speech, and Signal Processing (CCF-B Conference). ***<font color=DarkRed>Acceptance×1</font>***
+- **ICASSP**: IEEE International Conference on Acoustics, Speech, and Signal Processing (CCF-B Conference). ***<font color=DarkRed>Acceptance×1, under review×1</font>***
 - **PRCV**: Chinese Conference on Pattern Recognition and Computer Vision (CCF-C Conference). ***<font color=DarkRed>Acceptance×2</font>***
 - **CSAI**: International Conference on Computer Science and Artificial Intelligence (EI Conference). ***<font color=DarkRed>Acceptance×1 (oral×1)</font>***
 
