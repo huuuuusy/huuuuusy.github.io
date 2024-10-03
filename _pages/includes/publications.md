@@ -320,7 +320,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <span class='anchor' id='FIOVA'></span>
 
 **Can LVLMs Describe Videos like Humans? A Five-in-One Video Annotations Benchmark for Better Human-Machine Comparison**<br>
-***<font color=DarkRed>Shiyu Hu*</font>***\*, [X. Li\*](https://xuchen-li.github.io/), [X. Li](https://xuzhaoli.github.io/), J. Zhang, [Y. Wang](https://github.com/updateforever), [X. Zhao](https://www.xinzhaoai.com/), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
+***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li\*](https://xuchen-li.github.io/), [X. Li](https://xuzhaoli.github.io/), J. Zhang, [Y. Wang](https://github.com/updateforever), [X. Zhao](https://www.xinzhaoai.com/), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
 Submitted to a CAAI-A conference, under review<br>
 📌 Large Vision-Language Models 📌 Evaluation Technique 📌 Visual Turing<br>
 

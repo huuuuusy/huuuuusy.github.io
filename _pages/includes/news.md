@@ -11,7 +11,7 @@
 * **2024.04** : 📝One [paper](https://huuuuusy.github.io/#DTLLM) has been accepted by the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024 (CVPRW, Oral, Best Paper Honorable Mention), congratulations to [Xuchen](https://xuchen-li.github.io/)👏!
 * **2024.04** : 📝One [paper](https://huuuuusy.github.io/#AWCV) has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), congratulations to [Meiqi](https://wmeiqi.github.io/)👏!
 * **2024.01**: 📣One [tutorial proposal](https://2024.ieeeicip.org/tutorials/) has been accepted by the 31th IEEE International Conference on Image Processing (ICIP), the tutorial will be conducted in Oct. 2024 (Abu Dhabi, United Arab Emirates).
-* **2024.01**: 🪙One [project](https://huuuuusy.github.io/#IEPRF23) about human-computer interaction in intelligent education has been funded by the 2023 Intelligent Education PhD Research Fund, supported by the Institute of AI Education Shanghai and East China Normal University.
+* **2024.01**: 🪙One [project](https://huuuuusy.github.io/#IEPRF23) about human-computer interaction in intelligent education has been funded by the 2023 Intelligent Education PhD Research Fund, supported by the Institute of AI Education Shanghai and East China Normal University, congratulations to Yiping👏!
 * **2024.01**: 👩‍🎓Got my Ph.D. degree at Institute of Automation, Chinese Academy of Sciences (CASIA) and University of Chinese Academy of Sciences (UCAS).
 * **2023.12** : 📝One [paper](https://huuuuusy.github.io/#ICASSP24) has been accepted by the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP).
 * **2023.11** : 👩‍🎓Passed the doctoral thesis defense with unanimous distinction.
