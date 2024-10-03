@@ -15,7 +15,8 @@
 
 ### Conference
 
-- **NeurIPS**: Conference on Neural Information Processing Systems (CCF-A Conference). ***<font color=DarkRed>Acceptance×1 (first author×1), under review×4</font>***
+- **NeurIPS**: Conference on Neural Information Processing Systems (CCF-A Conference). ***<font color=DarkRed>Acceptance×3 (first author×1)</font>***
+- **ICLR**: International Conference on Learning Representations (CAAI-A Conference). ***<font color=DarkRed>Under review×3 (first author×2)</font>***
 - **AAAI**: Annual AAAI Conference on Artificial Intelligence (CCF-A Conference). ***<font color=DarkRed>Under review×1</font>***
 - **NeurIPSW**: Workshop in Conference on Neural Information Processing Systems (CCF-A Conference workshop). ***<font color=DarkRed>Under review×1</font>***
 - **CVPRW**: Workshop in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CCF-A Conference workshop). ***<font color=DarkRed>Acceptance×1 (oral & best paper honorable mention×1)</font>***
@@ -121,6 +122,34 @@
 </div>
 
 <!-- 合作论文按时间顺序排列 -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='../../images/CPDTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='CPDTrack'></span>
+
+**Beyond Accuracy: Tracking more like Human via Visual Search**<br>
+[D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [X. Li](https://xuchen-li.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
+*[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference, Poster)*<br>
+📌  Visual Object Tracking 📌 Visual Search Mechanism 📌 Visual Turing Test<br>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='MemVLT'></span>
+
+**MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts**<br>
+[X. Feng](https://xiaokunfeng.github.io/), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
+*[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference, Poster)*<br>
+📌 Visual Language Tracking 📌 Human-like Memory Modeling 📌 Adaptive Prompts<br>
+
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='../../images/AWCV.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -285,6 +314,34 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 ## Under Review
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CAAI-A 2024</div><img src='../../images/FIOVA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='FIOVA'></span>
+
+**Can LVLMs Describe Videos like Humans? A Five-in-One Video Annotations Benchmark for Better Human-Machine Comparison**<br>
+***<font color=DarkRed>Shiyu Hu\*</font>***, [X. Li\*](https://xuchen-li.github.io/), [X. Li](https://xuzhaoli.github.io/), J. Zhang, [Y. Wang](https://github.com/updateforever), [X. Zhao](https://www.xinzhaoai.com/), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
+Submitted to a CAAI-A conference, under review<br>
+📌 Large Vision-Language Models 📌 Evaluation Technique 📌 Visual Turing<br>
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CAAI-A 2024</div><img src='../../images/SOE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='SOE'></span>
+
+**Students Rather Than Experts: A New AI for Education Pipeline to Model More Human-like and Personalised Early Adolescences**<br>
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu\*</font>***, [X. Li](https://xuchen-li.github.io/), [Y. Wang](https://github.com/updateforever), [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+Submitted to a CAAI-A conference, under review<br>
+📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/SOI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -298,21 +355,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/CPDTrack.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-<span class='anchor' id='CPDTrack'></span>
-
-**Beyond Accuracy: Tracking more like Human via Visual Search**<br>
-[D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [X. Li](https://xuchen-li.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
-<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
-Submitted to a CCF-A conference, under review<br>
-📌  Visual Object Tracking 📌 Visual Search Mechanism 📌 Visual Turing Test<br>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CAAI-A 2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='DTVLT'></span>
@@ -320,7 +364,7 @@ Submitted to a CCF-A conference, under review<br>
 **Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
 [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 <!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
-Submitted to a CCF-A conference, under review<br>
+Submitted to a CAAI-A conference, under review<br>
 📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
 
 </div>
@@ -341,19 +385,6 @@ Submitted to a CCF-A conference, under review<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/MemVLT.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='MemVLT'></span>
-
-**MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts**<br>
-[X. Feng](https://xiaokunfeng.github.io/), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
-<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
-Submitted to a CCF-A conference, under review<br>
-📌 Visual Language Tracking 📌 Human-like Memory Modeling 📌 Adaptive Prompts<br>
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/MMAW.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

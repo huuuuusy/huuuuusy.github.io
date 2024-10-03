@@ -17,10 +17,13 @@
 - **Date & Location:** 08-12 December, 2024, Hanoi, Vietnam
 - **Duration:** Half-day (Three Hours)
 
+## Associate Editor
+- **Journals**: Innovation and Emerging Technologies
+
 ## Reviewer
 
-- **Conferences:**  NeurIPS, ICLR, CVPR, ECCV, AAAI, ACMMM, etc.
-- **Journals**: SCIENCE CHINA Information Sciences, IEEE Access, Journal of Electronic Imaging, Digital Signal Processing, etc.
+- **Conferences:**  NeurIPS, ICLR, CVPR, ECCV, AAAI, ACMMM, AISTATS, etc.
+- **Journals**: SCIENCE CHINA Information Sciences, IEEE Access, Journal of Computational Science, Journal of Electronic Imaging, Digital Signal Processing, etc.
 
 <span class='anchor' id='collaborators'></span>
 
