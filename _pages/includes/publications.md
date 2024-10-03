@@ -320,7 +320,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <span class='anchor' id='FIOVA'></span>
 
 **Can LVLMs Describe Videos like Humans? A Five-in-One Video Annotations Benchmark for Better Human-Machine Comparison**<br>
-***<font color=DarkRed>Shiyu Hu\*</font>***, [X. Li\*](https://xuchen-li.github.io/), [X. Li](https://xuzhaoli.github.io/), J. Zhang, [Y. Wang](https://github.com/updateforever), [X. Zhao](https://www.xinzhaoai.com/), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
+***<font color=DarkRed>Shiyu Hu*</font>***\*, [X. Li\*](https://xuchen-li.github.io/), [X. Li](https://xuzhaoli.github.io/), J. Zhang, [Y. Wang](https://github.com/updateforever), [X. Zhao](https://www.xinzhaoai.com/), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
 Submitted to a CAAI-A conference, under review<br>
 📌 Large Vision-Language Models 📌 Evaluation Technique 📌 Visual Turing<br>
 
@@ -334,7 +334,7 @@ Submitted to a CAAI-A conference, under review<br>
 <span class='anchor' id='SOE'></span>
 
 **Students Rather Than Experts: A New AI for Education Pipeline to Model More Human-like and Personalised Early Adolescences**<br>
-Y. Ma\*, ***<font color=DarkRed>Shiyu Hu\*</font>***, [X. Li](https://xuchen-li.github.io/), [Y. Wang](https://github.com/updateforever), [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://xuchen-li.github.io/), [Y. Wang](https://github.com/updateforever), [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
 Submitted to a CAAI-A conference, under review<br>
 📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
 
