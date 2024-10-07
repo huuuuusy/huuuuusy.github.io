@@ -1,5 +1,5 @@
 # 🔥 News
-* **2024.09**: 📝Two papers([MemVLT](https://huuuuusy.github.io/#MemVLT) and [CPDTrack](https://huuuuusy.github.io/#CPDTrack)) have been accepted by the 38th Conference on Neural Information Processing Systems (NeurIPS, CCF-A Conference), congratulations to [Xiaokun](https://wmeiqi.github.io/) and [Dailing](https://zhangdailing8.github.io/)👏!
+* **2024.09**: 📝Two papers ([MemVLT](https://huuuuusy.github.io/#MemVLT) and [CPDTrack](https://huuuuusy.github.io/#CPDTrack)) have been accepted by the 38th Conference on Neural Information Processing Systems (NeurIPS, CCF-A Conference), congratulations to [Xiaokun](https://xiaokunfeng.github.io/) and [Dailing](https://zhangdailing8.github.io/)👏!
 * **2024.08**: 📣One [tutorial proposal](https://accv2024.org/) has been accepted by the 17th Asian Conference on Computer Vision (ACCV), the tutorial will be conducted in Dec. 2024 (Hanoi, Vietnam).
 * **2024.08**: 👩‍💻Start my work as a Research Fellow in Nanyang Technological University (NTU), Singapore.
 * **2024.07**: 📣One [tutorial proposal](https://icpr2024.org/tutorials.html) has been accepted by the 27th International Conference on Pattern Recognition (ICPR), the tutorial will be conducted in Dec. 2024 (Kolkata, India).
