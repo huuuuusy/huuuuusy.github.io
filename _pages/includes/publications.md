@@ -342,6 +342,21 @@ Submitted to a CAAI-A conference, under review<br>
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CAAI-A 2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='DTVLT'></span>
+
+**DTVLT: A Multi-modal Diverse Text Benchmark for Visual Language Tracking Based on LLM**<br>
+[X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
+Submitted to a CAAI-A conference, under review<br>
+📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/SOI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -356,19 +371,6 @@ Submitted to a CAAI-A conference, under review<br>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CAAI-A 2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='DTVLT'></span>
-
-**Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
-[X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
-Submitted to a CAAI-A conference, under review<br>
-📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
-
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/ATCTrack.png' alt="sym" width="100%"></div></div>
