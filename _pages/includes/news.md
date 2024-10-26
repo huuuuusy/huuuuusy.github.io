@@ -1,4 +1,5 @@
 # 🔥 News
+* **2024.10**: 📣We will conduct a tutorial at the [31th IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/) (Oct. 27th 2024, Capital Suite – 21 A in Abu Dhabi National Exhibition Centre, Abu Dhabi, United Arab Emirates), see our [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) for more information.
 * **2024.09**: 📝Two papers ([MemVLT](https://huuuuusy.github.io/#MemVLT) and [CPDTrack](https://huuuuusy.github.io/#CPDTrack)) have been accepted by the 38th Conference on Neural Information Processing Systems (NeurIPS, CCF-A Conference), congratulations to [Xiaokun](https://xiaokunfeng.github.io/) and [Dailing](https://zhangdailing8.github.io/)👏!
 * **2024.08**: 📣One [tutorial proposal](https://accv2024.org/) has been accepted by the 17th Asian Conference on Computer Vision (ACCV), the tutorial will be conducted in Dec. 2024 (Hanoi, Vietnam).
 * **2024.08**: 👩‍💻Start my work as a Research Fellow in Nanyang Technological University (NTU), Singapore.

@@ -6,6 +6,7 @@
 - **Title:** An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis
 - **Date & Location:** 27-30 October, 2024, Abu Dhabi, United Arab Emirates
 - **Duration:** Half-day (Three Hours)
+[📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf)
 
 **[27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/)**
 - **Title:** Visual Turing Test in Visual Object Tracking: A New Vision Intelligence Evaluation Technique based on Human-Machine Comparison
