@@ -16,6 +16,7 @@
 
 <details>
 <summary>More Information</summary>
+
 * **2023.12** : 📝One [paper](https://huuuuusy.github.io/#ICASSP24) has been accepted by the 49th IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP).
 <!-- * **2023.11** : 👩‍🎓Passed the doctoral thesis defense with unanimous distinction. -->
 * **2023.11** : 📝One [paper](https://huuuuusy.github.io/#CSAI23) has been accepted by the 7th International Conference on Computer Science and Artificial Intelligence (CSAI, EI Conference, Oral), congratulations to [Yipei](https://github.com/updateforever)👏! 
@@ -30,8 +31,7 @@
 * **2022.06** : 📝One [paper](https://huuuuusy.github.io/#Neu22) has been accepted by Neurocomputing (Neu). 
 * **2022.02** : 📝One first author [paper](https://huuuuusy.github.io/#GIT) has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI). 
 * **2021.06** : 📝One [survey](https://huuuuusy.github.io/#VTT) has been accepted by Journal of Graphics (《图学学报》). 
+
 </details>
-
-
 
 <!-- * **2024.04**: 📣I intend to continuously update my learning notes of cognitive neuroscience in computer vision on [Zhihu](https://www.zhihu.com/column/c_1759735332218912768), and the textbook I have chosen is "[Understanding Vision: Theory, Models, and Data](https://academic.oup.com/book/8719)" by [Prof. Zhaoping Li](https://www.lizhaoping.org/Home.html).  I encourage interested researchers to join the discussion. -->
