@@ -1,10 +1,10 @@
 ---
-title: "Talk on the Preparation of the College Entrance Examination"
+title: "Tutorial in 31th IEEE International Conference on Image Processing (ICIP)"
 collection: talks
-type: "Talk"
+type: "Tutorial"
 permalink: /talks/ICIP24-tutorial
 venue: "Abu Dhabi"
-date: 2017-04-15
+date: 2024-10-27
 location: "United Arab Emirates"
 ---
 
