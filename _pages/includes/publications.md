@@ -163,6 +163,7 @@
 [📃 Paper](https://ieeexplore.ieee.org/document/10496279) 
 [🗒 bibTex](https://huuuuusy.github.io/files/AWCV100k.bib)
 [📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf)
+[🔧 Toolkit](https://github.com/wmeiqi/AWCV) 
 </div>
 </div>
 
@@ -212,6 +213,9 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 [M. Wu](https://wmeiqi.github.io/), Y. Kang, [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), Y. kang, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 *[the 7th Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference)*<br>
 📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
+[📃 Paper](https://link.springer.com/chapter/10.1007/978-981-97-8692-3_17) 
+[🗒 bibTex](https://huuuuusy.github.io/files/VSLLM.bib)
+[📃 PDF](https://huuuuusy.github.io/files/VSLLM.pdf)
 
 </div>
 </div>
@@ -299,6 +303,72 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 ## Preprint
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/FIOVA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='FIOVA'></span>
+
+**Can LVLMs Describe Videos like Humans? A Five-in-One Video Annotations Benchmark for Better Human-Machine Comparison**<br>
+***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li\*](https://xuchen-li.github.io/), [X. Li](https://xuzhaoli.github.io/), J. Zhang, [Y. Wang](https://github.com/updateforever), [X. Zhao](https://www.xinzhaoai.com/), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
+Submitted to a CAAI-A conference, under review<br>
+📌 Large Vision-Language Models 📌 Evaluation Technique 📌 Visual Turing<br>
+[📃 Paper](https://arxiv.org/abs/2410.15270) 
+[🗒 bibTex](https://huuuuusy.github.io/files/FIOVA.bib) 
+[📑 PDF](https://arxiv.org/pdf/2410.15270) 
+[🌐 Project](https://huuuuusy.github.io/fiova/) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/SOE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='SOE'></span>
+
+**Students Rather Than Experts: A New AI for Education Pipeline to Model More Human-like and Personalised Early Adolescences**<br>
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://xuchen-li.github.io/), [Y. Wang](https://github.com/updateforever), [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+Submitted to a CAAI-A conference, under review<br>
+📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+[📃 Paper](https://arxiv.org/abs/2410.15701) 
+[🗒 bibTex](https://huuuuusy.github.io/files/SOE.bib) 
+[📑 PDF](https://arxiv.org/pdf/2410.15701) 
+[🌐 Project](https://marsgemini.github.io/SOE-LVSA/) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='DTVLT'></span>
+
+**DTVLT: A Multi-modal Diverse Text Benchmark for Visual Language Tracking Based on LLM**<br>
+[X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+Submitted to a CAAI-A conference, under review<br>
+📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
+[📃 Paper](https://arxiv.org/abs/2410.02492) 
+[🗒 bibTex](https://huuuuusy.github.io/files/DTVLT.bib) 
+[📑 PDF](https://arxiv.org/pdf/2410.02492) 
+[🌐 Project](http://videocube.aitestunion.com/) 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VLT-MI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VLT-MI'></span>
+
+**Visual Language Tracking with Multi-modal Interaction: A Robust Benchmark**<br>
+[X. Li](https://xuchen-li.github.io/),  ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+Submitted to a workshop in CCF-A conference, under review<br>
+📌 Visual Language Tracking 📌 Multi-modal Interaction 📌 Evaluation Technology<br>
+[📃 Paper](https://arxiv.org/abs/2409.08887) 
+[🗒 bibTex](https://huuuuusy.github.io/files/VLT-MI.bib) 
+[📑 PDF](https://arxiv.org/pdf/2409.08887) 
+[🌐 Project](http://videocube.aitestunion.com/) 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -314,49 +384,6 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 ## Under Review
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CAAI-A 2024</div><img src='../../images/FIOVA.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='FIOVA'></span>
-
-**Can LVLMs Describe Videos like Humans? A Five-in-One Video Annotations Benchmark for Better Human-Machine Comparison**<br>
-***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li\*](https://xuchen-li.github.io/), [X. Li](https://xuzhaoli.github.io/), J. Zhang, [Y. Wang](https://github.com/updateforever), [X. Zhao](https://www.xinzhaoai.com/), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
-Submitted to a CAAI-A conference, under review<br>
-📌 Large Vision-Language Models 📌 Evaluation Technique 📌 Visual Turing<br>
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CAAI-A 2024</div><img src='../../images/SOE.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='SOE'></span>
-
-**Students Rather Than Experts: A New AI for Education Pipeline to Model More Human-like and Personalised Early Adolescences**<br>
-Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://xuchen-li.github.io/), [Y. Wang](https://github.com/updateforever), [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
-Submitted to a CAAI-A conference, under review<br>
-📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CAAI-A 2024</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='DTVLT'></span>
-
-**DTVLT: A Multi-modal Diverse Text Benchmark for Visual Language Tracking Based on LLM**<br>
-[X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
-Submitted to a CAAI-A conference, under review<br>
-📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
-
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/SOI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -371,8 +398,6 @@ Submitted to a CAAI-A conference, under review<br>
 </div>
 
 
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/ATCTrack.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -380,7 +405,6 @@ Submitted to a CAAI-A conference, under review<br>
 
 **ATCTrack: Leveraging Aligned Target-Context Cues for Robust Vision-Language Tracking**<br>
 [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://xuchen-li.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
 Submitted to a CCF-A conference, under review<br>
 📌 Visual Language Tracking 📌 Multi-modal Alignment 📌 Feature Awareness<br>
 
@@ -395,7 +419,6 @@ Submitted to a CCF-A conference, under review<br>
 
 **Unconstrained Multimodal Air-Writing Benchmark: Writing by Moving Your Fingers in 3D**<br>
 [M. Wu](https://wmeiqi.github.io/), [X. Li](https://xuchen-li.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
-<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
 Submitted to a CCF-A conference, under review<br>
 📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
 
@@ -409,26 +432,12 @@ Submitted to a CCF-A conference, under review<br>
 
 **Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<br>
 [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://xuchen-li.github.io/),  [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
 Submitted to a CCF-B conference, under review<br>
 📌 Visual Language Tracking 📌 Multi-modal Learning 📌 Grounding Model<br>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A Workshop 2024</div><img src='../../images/VLT-MI.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='VLT-MI'></span>
-
-**Visual Language Tracking with Multi-modal Interaction: A Robust Benchmark**<br>
-[X. Li](https://xuchen-li.github.io/),  ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), [M. Wu](https://wmeiqi.github.io/), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-<!-- *[the 38th Conference on Neural Information Processing Systems](https://neurips.cc/) (CCF-A Conference, Under Review)*<br> -->
-Submitted to a workshop in CCF-A conference, under review<br>
-📌 Visual Language Tracking 📌 Multi-modal Interaction 📌 Evaluation Technology<br>
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">心理学报 2024</div><img src='../../images/Sandplay.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

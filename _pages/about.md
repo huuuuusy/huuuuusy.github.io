@@ -46,13 +46,7 @@ My homepage visitors recorded from April 18th, 2024. Thanks for attention.
 <p>
   <center>
     <font>
-        <br>&copy; Shiyu Hu | Last updated: 2024-10
+        <br>&copy; Shiyu Hu | Last updated: 2024-11
     </font>
   </center>
 </p>
-
-<!-- <a href='https://mapmyvisitors.com/web/1bvt7'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=tt&d=PTnTG7-oiewclaQYL-vCCTG_Cp1UIVkwryXQywQqCfs'/></a> -->
-
-<!-- <img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=tt&d=PTnTG7-oiewclaQYL-vCCTG_Cp1UIVkwryXQywQqCfs'/> -->
-
-<!-- *My homepage visitors recorded from February 9th, 2024. Thanks for attention.* -->
