@@ -4,20 +4,21 @@
 
 **[31th IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/)**
 - **Title:** An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis
-- **Date & Location:** 27-30 October, 2024, Abu Dhabi, United Arab Emirates
-- **Duration:** Half-day (Three Hours)<br>
+- **Date & Location:** 9:00-12:30, 27th October, 2024, Abu Dhabi, United Arab Emirates
+- **Duration:** Half-day<br>
 [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf)
 [🌐 Webpage](https://sites.google.com/view/icip24-tutorial-vot/) 
 
 **[27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/)**
 - **Title:** Visual Turing Test in Visual Object Tracking: A New Vision Intelligence Evaluation Technique based on Human-Machine Comparison
-- **Date & Location:** 01-05 December, 2024, Kolkata, India
-- **Duration:** Half-day (Three Hours)
+- **Date & Location:** 14:30-18:00, 1st December, 2024, Kolkata, India
+- **Duration:** Half-day
+[📹 Slides](https://huuuuusy.github.io/files/ICPR2024-slides.pdf)
 
 **[17th Asian Conference on Computer Vision (ACCV)](https://accv2024.org/)**
 - **Title:** From Machine-Machine Comparison to Human-Machine Comparison: Adapting Visual Turing Test in Visual Object Tracking
 - **Date & Location:** 08-12 December, 2024, Hanoi, Vietnam
-- **Duration:** Half-day (Three Hours)
+- **Duration:** Half-day
 
 ## Associate Editor
 - **Journals**: Innovation and Emerging Technologies
