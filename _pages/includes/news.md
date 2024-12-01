@@ -1,5 +1,5 @@
 # 🔥 News
-**2024.12**: 📣We will conduct a tutorial at the [27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/) (Dec. 1st 2024, Kolkata, India), see our [📹 Slides](https://huuuuusy.github.io/files/ICPR2024-slides.pdf) for more information.
+**2024.12**: 📣We will conduct a tutorial at the [27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/) (Dec. 1st 2024, Kolkata, India), see our [📹 Slides](https://huuuuusy.github.io/files/ICPR2024-slides.pdf) for more information. <font color="#dd0000">**We are sorry that due to some technical reasons, our online tutorial has been postponed. If you are an on-site audience, please wait patiently for the arrangements of the organizing committee. Thank you!**</font><br /> 
 
 **2024.10**: 📣We have conducted a tutorial at the [31th IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/) (Oct. 27th 2024, Abu Dhabi, United Arab Emirates), see our [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) for more information.
 

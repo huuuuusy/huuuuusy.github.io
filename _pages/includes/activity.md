@@ -12,7 +12,7 @@
 **[27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/)**
 - **Title:** Visual Turing Test in Visual Object Tracking: A New Vision Intelligence Evaluation Technique based on Human-Machine Comparison
 - **Date & Location:** 14:30-18:00, 1st December, 2024, Kolkata, India
-- **Duration:** Half-day
+- **Duration:** Half-day<br>
 [📹 Slides](https://huuuuusy.github.io/files/ICPR2024-slides.pdf)
 
 **[17th Asian Conference on Computer Vision (ACCV)](https://accv2024.org/)**
