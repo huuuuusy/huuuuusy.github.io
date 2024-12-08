@@ -17,8 +17,10 @@
 
 **[17th Asian Conference on Computer Vision (ACCV)](https://accv2024.org/)**
 - **Title:** From Machine-Machine Comparison to Human-Machine Comparison: Adapting Visual Turing Test in Visual Object Tracking
-- **Date & Location:** 08-12 December, 2024, Hanoi, Vietnam
-- **Duration:** Half-day
+- **Date & Location:** 9:00-12:00, 9th December, 2024, Hanoi, Vietnam
+- **Duration:** Half-day<br>
+[📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf)
+[🌐 Webpage](https://sites.google.com/view/accv-tutorial-vtt4vot/) 
 
 ## Associate Editor
 - **Journals**: Innovation and Emerging Technologies
