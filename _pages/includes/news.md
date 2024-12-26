@@ -1,5 +1,5 @@
 # 🔥 News
-**2024.12**: 📣We will conduct a tutorial at the [17th Asian Conference on Computer Vision (ACCV)](https://accv2024.org/) (Dec. 9th 2024, Hanoi, Vietnam). 
+**2024.12**: 📣We have conducted a tutorial at the [17th Asian Conference on Computer Vision (ACCV)](https://accv2024.org/) (Dec. 9th 2024, Hanoi, Vietnam). 
 
 **2024.12**: 📣We have prepared a tutorial at the [27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/) (Dec. 1st 2024, Kolkata, India). 
 

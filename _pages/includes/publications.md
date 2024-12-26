@@ -1,6 +1,6 @@
 # 📝 Publications
 
-## Paper Summary
+<!-- ## Paper Summary
 
 ### Journal
 
@@ -22,7 +22,7 @@
 - **CVPRW**: Workshop in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CCF-A Conference workshop). ***<font color=DarkRed>Acceptance×1 (oral & best paper honorable mention×1)</font>***
 - **ICASSP**: IEEE International Conference on Acoustics, Speech, and Signal Processing (CCF-B Conference). ***<font color=DarkRed>Acceptance×1, under review×1</font>***
 - **PRCV**: Chinese Conference on Pattern Recognition and Computer Vision (CCF-C Conference). ***<font color=DarkRed>Acceptance×2</font>***
-- **CSAI**: International Conference on Computer Science and Artificial Intelligence (EI Conference). ***<font color=DarkRed>Acceptance×1 (oral×1)</font>***
+- **CSAI**: International Conference on Computer Science and Artificial Intelligence (EI Conference). ***<font color=DarkRed>Acceptance×1 (oral×1)</font>*** -->
 
 
 ## Acceptance
@@ -148,8 +148,6 @@
 
 </div>
 </div>
-
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='../../images/AWCV.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
