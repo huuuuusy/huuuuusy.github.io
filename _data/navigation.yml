@@ -6,11 +6,11 @@ main:
   - title: "News"
     url: "/#news"
   
-  - title: "Educations"
-    url: "/#educations"
-  
   - title: "Experiences"
     url: "/#experiences"
+
+  - title: "Educations"
+    url: "/#educations"
 
   - title: "Research Interests"
     url: "/#research-interests"

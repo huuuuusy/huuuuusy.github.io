@@ -22,15 +22,22 @@
 [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf)
 [🌐 Webpage](https://sites.google.com/view/accv-tutorial-vtt4vot/) 
 
+## Guest Editor
+- **Journals**: [Electronics](https://www.mdpi.com/journal/electronics) (Special Issue: [Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E))
+
 ## Associate Editor
-- **Journals**: Innovation and Emerging Technologies
+- **Journals**: [Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?srsltid=AfmBOopLcOIWa7JxQc87iT1UUl3PDKfsm47298tFwNS4qDaTVNTsS_JU)
 
 ## Reviewer
 
-- **Conferences:**  NeurIPS, ICML, ICLR, CVPR, ECCV, AAAI, ACMMM, AISTATS, etc.
+- **Conferences:**  NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, AAAI, IJCAI, ACMMM, AISTATS, etc.
 - **Journals**: IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, Scientific Reports, IEEE Access, Journal of Computational Science, Journal of Electronic Imaging, Digital Signal Processing, etc.
 
-<span class='anchor' id='collaborators'></span>
+## Member
+
+- **Societies:** Institute of Electrical and Electronics Engineers (IEEE, No.97803543), China Society of Image and Graphics (CSIG, No.E651129499M), Chinese Association for Artificial Intelligence (CAAI, No.E660120827A).
+
+<!-- <span class='anchor' id='collaborators'></span>
 
 # 🤝 Collaborators
 
@@ -47,4 +54,4 @@
 - [**Yipei Wang**](https://github.com/updateforever), Ph.D. student at the [Southeast University](https://www.seu.edu.cn/), focusing on visual object tracking and recommendation system.
 - [**Xiaokun Feng**](https://xiaokunfeng.github.io/), Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science.
 - [**Dailing Zhang**](https://zhangdailing8.github.io/), Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science.
-- [**Xuchen Li**](https://xuchen-li.github.io/), Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science.
+- [**Xuchen Li**](https://xuchen-li.github.io/), Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), focusing on visual object tracking, visual language tracking and AI4Science. -->

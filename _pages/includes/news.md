@@ -1,4 +1,10 @@
 # 🔥 News
+**2024.02**: 📖The book [*Visual Object Tracking: An Evaluation Perspective*](https://link.springer.com/book/9789819645572) is online.
+
+**2025.01**: 📝One paper [CTVLT](https://huuuuusy.github.io/#ICASSP25) has been accepted by the 50th IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B converence), congratulations to [Xiaokun](https://xiaokunfeng.github.io/)👏! 
+
+**2025.01**: 📣A special issue ([Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E)) in [Electronics](https://www.mdpi.com/journal/electronics) has been announced, all papers related to this topic are welcomed for submission!
+
 **2024.12**: 📣We have conducted a tutorial at the [17th Asian Conference on Computer Vision (ACCV)](https://accv2024.org/) (Dec. 9th 2024, Hanoi, Vietnam). 
 
 **2024.12**: 📣We have prepared a tutorial at the [27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/) (Dec. 1st 2024, Kolkata, India). 
@@ -27,8 +33,5 @@
 
 **2024.04** : 📝One [paper](https://huuuuusy.github.io/#AWCV) has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), congratulations to [Meiqi](https://wmeiqi.github.io/)👏!
 
-**2024.01**: 🪙One [project](https://huuuuusy.github.io/#IEPRF23) about human-computer interaction in intelligent education has been funded by the 2023 Intelligent Education PhD Research Fund, supported by the Institute of AI Education Shanghai and East China Normal University, congratulations to Yiping👏!
-
-**2024.01**: 👩‍🎓Got my Ph.D. degree at Institute of Automation, Chinese Academy of Sciences (CASIA) and University of Chinese Academy of Sciences (UCAS).
 
 [▶️For More News](https://huuuuusy.github.io/news-all)

@@ -149,6 +149,21 @@
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='../../images/ICASSP25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='ICASSP25'></span>
+
+**Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<br>
+[X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://xuchen-li.github.io/),  [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+Submitted to a CCF-B conference, under review<br>
+📌 Visual Language Tracking 📌 Multi-modal Learning 📌 Grounding Model<br>
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='../../images/AWCV.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -380,7 +395,7 @@ Submitted to a workshop in CCF-A conference, under review<br>
 </div>
 </div>
 
-## Under Review
+<!-- ## Under Review
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/SOI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -423,19 +438,6 @@ Submitted to a CCF-A conference, under review<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-B 2024</div><img src='../../images/ICASSP25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='ICASSP25'></span>
-
-**Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<br>
-[X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://xuchen-li.github.io/),  [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-Submitted to a CCF-B conference, under review<br>
-📌 Visual Language Tracking 📌 Multi-modal Learning 📌 Grounding Model<br>
-
-</div>
-</div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">心理学报 2024</div><img src='../../images/Sandplay.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -448,4 +450,4 @@ Y. Ren, [X. Feng](https://xiaokunfeng.github.io/), ***<font color=DarkRed>Shiyu 
 📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
 
 </div>
-</div>
+</div> -->
