@@ -157,7 +157,7 @@
 
 **Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<br>
 [X. Feng](https://xiaokunfeng.github.io/), [D. Zhang](https://zhangdailing8.github.io/), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://xuchen-li.github.io/),  [M. Wu](https://wmeiqi.github.io/), J. Zhang, [X. Chen](http://www.crise.ia.ac.cn/teachers_view.aspx?TypeId=141&Id=467&Fid=t26:141:26), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-Submitted to a CCF-B conference, under review<br>
+*[the 50th IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2025.ieeeicassp.org/) (CCF-B Conference, Poster)*<br>
 📌 Visual Language Tracking 📌 Multi-modal Learning 📌 Grounding Model<br>
 
 </div>
