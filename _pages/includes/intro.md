@@ -7,7 +7,7 @@ I received my master's degree from the **[Department of Computer Science, the Un
 <!-- I strongly hold the belief that ***<font color=DarkRed>the development of artificial intelligence is inherently interconnected with human factors</font>***. Hence, drawing inspiration from the renowned *Turing Test*, my Ph.D research has focused on the concept of *Visual Turing Test*, aiming to integrate human elements into the evaluation of dynamic visual tasks. The ultimate goal of my previous work is to assess and analyze machine vision intelligence by benchmarking against human abilities. I believe that effective evaluation techniques are the foundation for helping us achieve trustworthy and secure artificial general intelligence. 
 Please refer to the [🔍️ Research Interests](https://huuuuusy.github.io//#research-interests) for detailed information about my research foundation and ongoing projects. -->
 
-Besides, I am honored to collaborate with a group of outstanding researchers. We have established the **[Visual Intelligence Interest Group (VIIG)](http://viig.aitestunion.com/)** to promote research in related directions.
+<!-- Besides, I am honored to collaborate with a group of outstanding researchers. We have established the **[Visual Intelligence Interest Group (VIIG)](http://viig.aitestunion.com/)** to promote research in related directions. -->
 
 > 📣 ***<font color=DarkRed>Prof. Cheong's group currently has few vacancies for MPhil. and PhD. Competitive, curious, and self-driven candidates can contact me with your CV.</font>*** 
 
