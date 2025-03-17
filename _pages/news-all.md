@@ -4,7 +4,7 @@ title: "All News"
 # sitemap: false
 permalink: /news-all.html
 ---
-**2024.02**: 📖The book [*Visual Object Tracking: An Evaluation Perspective*](https://link.springer.com/book/9789819645572) is online.
+**2025.02**: 📖The book [*Visual Object Tracking: An Evaluation Perspective*](https://link.springer.com/book/9789819645572) is online.
 
 **2025.01**: 📝One paper [CTVLT](https://huuuuusy.github.io/#ICASSP25) has been accepted by the 50th IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B converence), congratulations to [Xiaokun](https://xiaokunfeng.github.io/)👏! 
 

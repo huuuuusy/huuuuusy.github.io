@@ -35,7 +35,7 @@
 
 ## Member
 
-- **Societies:** Institute of Electrical and Electronics Engineers (IEEE, No.97803543), China Society of Image and Graphics (CSIG, No.E651129499M), Chinese Association for Artificial Intelligence (CAAI, No.E660120827A).
+- **Societies:** Institute of Electrical and Electronics Engineers (IEEE, No.97803543), China Society of Image and Graphics (CSIG, No.E651129499M), Chinese Association for Artificial Intelligence (CAAI, No.E660120827A), China Computer Federation (CCF, No.Z1771M).
 
 <!-- <span class='anchor' id='collaborators'></span>
 
