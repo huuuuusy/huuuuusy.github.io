@@ -2,6 +2,28 @@
 
 ## Tutorial
 
+**[34th International Joint Conference on Artificial Intelligence (IJCAI)](https://2025.ijcai.org/)**
+- **Title:** Human-Centric and Multimodal Evaluation for Explainable AI: Moving Beyond Benchmarks
+- **Date & Location:** 16th-22nd August, 2025, Montreal, Canada
+<!-- - **Duration:** Half-day<br> -->
+<!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
+<!-- [🌐 Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
+
+**[28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/)**
+- **Title:** From Benchmarking to Trustworthy AI: Rethinking Evaluation Methods Across Vision and Complex Systems
+- **Date & Location:** 25th-30th October, 2025, Bologna, Italy<br>
+[🌐 Webpage](https://sites.google.com/view/ecai25-trusteval-tutorial/) 
+<!-- - **Duration:** Half-day<br> -->
+<!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
+
+
+**[2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/)**
+- **Title:** The Synergy of Large Language Models and Evolutionary Optimization on Complex Networks 
+- **Date & Location:** 5th-8th October, 2025, Vienna, Austria
+<!-- - **Duration:** Half-day<br> -->
+<!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
+<!-- [🌐 Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
+
 **[31th IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/)**
 - **Title:** An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis
 - **Date & Location:** 9:00-12:30, 27th October, 2024, Abu Dhabi, United Arab Emirates
@@ -31,7 +53,7 @@
 ## Reviewer
 
 - **Conferences:**  NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, AAAI, IJCAI, ACMMM, AISTATS, etc.
-- **Journals**: IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, Scientific Reports, IEEE Access, Journal of Computational Science, Journal of Electronic Imaging, Digital Signal Processing, etc.
+- **Journals**: IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, IEEE Transactions on Network Science and Engineering, Scientific Reports, IEEE Access, Journal of Computational Science, Journal of Electronic Imaging, Digital Signal Processing, etc.
 
 ## Member
 
