@@ -145,7 +145,7 @@
 <span class='anchor' id='DARTer'></span>
 
 **DARTer: Dynamic Adaptive Representation Tracker for Nighttime UAV Tracking**<br>
-[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***, 
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
 *[International Conference on Multimedia Retrieval](https://www.icmr-2025.org/) (CCF-B Conference)*<br>
 📌 Nighttime UAVs Tracking 📌 Dark Feature Blending 📌 Dynamic Feature Activation <br>
 [📃 Paper](https://www.arxiv.org/abs/2505.00752)
@@ -159,7 +159,7 @@
 <span class='anchor' id='MSAD'></span>
 
 **Improved SAR Aircraft Detection Algorithm Based on Visual State Space Models**<br>
-Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***, B. Shen, Z. Hou, [W. Zhou](https://scholar.google.com/citations?user=r8x76hUAAAAJ). 
+Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***, B. Shen, Z. Hou, [W. Zhou](https://scholar.google.com/citations?user=r8x76hUAAAAJ)<br>
 *[IET Computer Vision](https://digital-library.theiet.org/journal/iet-cvi) (CCF-C Journal)*<br>
 📌 Synthetic Aperture Radar 📌 State Space Models 📌 Aircraft Object Detection <br>
 <!-- [📃 Paper](https://www.arxiv.org/abs/2505.00752) -->
