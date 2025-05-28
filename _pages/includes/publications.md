@@ -37,8 +37,6 @@
 *[Springer, Part of the book series: Advances in Computer Vision and Pattern Recognition (ACVPR)](https://www.springer.com/series/4205)*<br>
 📌 Visual Object Tracking 📌 Intelligent Evaluation Technology <br>
 [📃 Book](https://link.springer.com/book/9789819645572)
-<!-- [🗒 bibTex](https://huuuuusy.github.io/files/GIT.bib) -->
-<!-- [📑 PDF](https://huuuuusy.github.io/files/GIT.pdf) -->
 
 </div>
 </div>
@@ -63,8 +61,6 @@
 [🌐 Platform](http://videocube.aitestunion.com/)
 [🔧 Toolkit](https://github.com/huuuuusy/videocube-toolkit) 
 [💾 Dataset](http://videocube.aitestunion.com/downloads)
-<!-- [🗒 bibTex](https://huuuuusy.github.io/files/GIT.bib) -->
-
 </div>
 </div>
 
@@ -80,7 +76,6 @@
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)
 [📑 PDF](https://huuuuusy.github.io/files/SOTVerse.pdf)
 [🌐 Platform](http://metaverse.aitestunion.com/) 
-<!-- [🗒 bibTex](https://huuuuusy.github.io/files/SOTVerse.bib) -->
 
 </div>
 </div>
@@ -99,7 +94,6 @@
 [📑 PDF](https://huuuuusy.github.io/files/BioDrone.pdf)
 [🔧 Toolkit](https://github.com/huuuuusy/biodrone-toolkit-official) 
 [💾 Dataset](http://biodrone.aitestunion.com/downloads) 
-<!-- [🗒 bibTex](https://huuuuusy.github.io/files/BioDrone.bib)  -->
 </div>
 </div>
 
@@ -119,7 +113,6 @@
 [🌐 Platform](http://videocube.aitestunion.com/)
 [🔧 Toolkit](https://github.com/huuuuusy/videocube-toolkit) 
 [💾 Dataset](http://videocube.aitestunion.com/downloads)
-<!-- [🗒 bibTex](https://huuuuusy.github.io/files/MGIT.bib) -->
 </div>
 </div>
 
@@ -139,7 +132,7 @@
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2025</div><img src='../../images/DARTer.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2025</div><img src='../../images/DARTer.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='DARTer'></span>
@@ -151,7 +144,7 @@
 [📃 Paper](https://www.arxiv.org/abs/2505.00752)
 [📑 PDF](https://www.arxiv.org/pdf/2505.00752)
 </div>
-</div>
+</div> -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IET-CVI 2025</div><img src='../../images/MSAD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -219,7 +212,6 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 *[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Oral, Best Paper Honorable Mention)*<br>
 📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2405.12139) 
-[🗒 bibTex](https://huuuuusy.github.io/files/DTLLM-VLT.bib)
 [📃 PDF](https://huuuuusy.github.io/files/DTLLM-VLT.pdf)
 [🪧 Poster](https://github.com/Xuchen-Lifiles/DTLLM-poster.pdf)
 [📹 Slides](https://github.com/Xuchen-Lifiles/DTLLM-Slides.pdf)
@@ -254,7 +246,6 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 *[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference, Poster)*<br>
 📌 Medical Image Processing 📌 AI4Science 📌 Diffusion Model<br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/10447135) 
-[🗒 bibTex](https://huuuuusy.github.io/files/ICASSP24.bib)
 [📑 PDF](https://huuuuusy.github.io/files/ICASSP24.pdf)
 
 </div>
@@ -271,7 +262,6 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 *[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)*<br>
 📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10496279) 
-[🗒 bibTex](https://huuuuusy.github.io/files/AWCV100k.bib)
 [📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf)
 [🔧 Toolkit](https://github.com/wmeiqi/AWCV) 
 </div>
@@ -289,7 +279,6 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 *[Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference)*<br>
 📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-97-8692-3_17) 
-[🗒 bibTex](https://huuuuusy.github.io/files/VSLLM.bib)
 [📃 PDF](https://huuuuusy.github.io/files/VSLLM.pdf)
 
 </div>
@@ -307,7 +296,6 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 *[Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv) (CCF-C Conference, Poster)*<br>
 📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-99-8462-6_20) 
-[🗒 bibTex](https://huuuuusy.github.io/files/PRCV23.bib) 
 [📑 PDF](https://huuuuusy.github.io/files/PRCV23.pdf)
 [🔖 Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)
 [🪧 Poster](https://huuuuusy.github.io/files/PRCV23-poster.pdf)
@@ -326,7 +314,6 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 *[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)  (CCF-C Journal)*<br>
 📌 Video Instance Search 📌 Benchmark Construction  📌 Data Mining<br>
 [📃 Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445) 
-[🗒 bibTex](https://huuuuusy.github.io/files/Neu22.bib) 
 [📑 PDF](https://huuuuusy.github.io/files/Neu22.pdf) 
 [🌐 Project](https://github.com/Instance-Search/) 
 
@@ -343,8 +330,20 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 *[Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml) (《图学学报》, CCF-C Chinese Journal)*<br>
 📌 Visual Object Tracking 📌 Intelligent Evaluation Technique  📌 AI4Science<br>
 [📃 Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339) 
-[🗒 bibTex](https://huuuuusy.github.io/files/VTT.bib) 
 [📑 PDF](https://huuuuusy.github.io/files/VTT.pdf)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">C&E:AI 2025</div><img src='../../images/CEAI-adaptive.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='CEAI-adaptive'></span>
+
+**Artificial Intelligence-Enabled Adaptive Learning Platforms: A Review**<br>
+L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+*[Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)*<br>
+📌 Adaptive Learning Platforms 📌 AI for Education 📌 Educational Technology<br>
 
 </div>
 </div>
@@ -392,23 +391,20 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 [📃 Paper](https://arxiv.org/abs/2410.15270) 
 [📑 PDF](https://arxiv.org/pdf/2410.15270) 
 [🌐 Project](https://huuuuusy.github.io/fiova/) 
-<!-- [🗒 bibTex](https://huuuuusy.github.io/files/FIOVA.bib)  -->
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/SOE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/SOEI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<span class='anchor' id='SOE'></span>
+<span class='anchor' id='SOEI'></span>
 
-**Students Rather Than Experts: A New AI for Education Pipeline to Model More Human-like and Personalised Early Adolescences**<br>
-Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+**When LLMs Learn to be Students: The SOEI Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction**<br>
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
 📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
 [📃 Paper](https://arxiv.org/abs/2410.15701) 
-[🗒 bibTex](https://huuuuusy.github.io/files/SOE.bib) 
 [📑 PDF](https://arxiv.org/pdf/2410.15701) 
-[🌐 Project](https://marsgemini.github.io/SOE-LVSA/) 
 </div>
 </div>
 
@@ -422,7 +418,6 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2410.02492) 
-[🗒 bibTex](https://huuuuusy.github.io/files/DTVLT.bib) 
 [📑 PDF](https://arxiv.org/pdf/2410.02492) 
 [🌐 Project](http://videocube.aitestunion.com/) 
 </div>
@@ -437,7 +432,6 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 [X. Li](https://github.com/Xuchen-Li),  ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 📌 Visual Language Tracking 📌 Multi-modal Interaction 📌 Evaluation Technology<br>
 [📃 Paper](https://arxiv.org/abs/2409.08887) 
-[🗒 bibTex](https://huuuuusy.github.io/files/VLT-MI.bib) 
 [📑 PDF](https://arxiv.org/pdf/2409.08887) 
 [🌐 Project](http://videocube.aitestunion.com/) 
 </div>
@@ -452,63 +446,6 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [Y. Shan](https://scholar.google.com/citations?user=_nc83HsAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 📌 Visual Object Tracking 📌 Intelligent Evaluation Technique 📌 AI4Science<br>
 [📑 PDF](https://huuuuusy.github.io/files/VTT-ICLR.pdf)
-[🗒 bibTex](https://huuuuusy.github.io/files/VTT-ICLR.bib) 
 </div>
 </div>
 
-<!-- ## Under Review
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">TCSVT 2024</div><img src='../../images/SOI.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='SOI'></span>
-
-**Target or Distractor? Rethinking Similar Object Interference in Single Object Tracking**<br>
-[Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [T. Yao](http://tingyao.deepfun.club/), [Y. Wang](https://scholar.google.com/citations?user=3nMDEBYAAAAJ), [L. Chen](https://sie.bit.edu.cn/szdw/jsml/ldjsyjsj/zgzcl/06c26b3ebaae4db981aaa388c660c8b5.htm), [X. Zhao](https://www.xinzhaoai.com/) <br>
-*[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, Under Review)*<br>
-📌 Visual Object Tracking 📌 Similar Object Interference 📌 Data Mining<br>
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/ATCTrack.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='ATCTrack'></span>
-
-**ATCTrack: Leveraging Aligned Target-Context Cues for Robust Vision-Language Tracking**<br>
-[X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-Submitted to a CCF-A conference, under review<br>
-📌 Visual Language Tracking 📌 Multi-modal Alignment 📌 Feature Awareness<br>
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">CCF-A 2024</div><img src='../../images/MMAW.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='MMAW'></span>
-
-**Unconstrained Multimodal Air-Writing Benchmark: Writing by Moving Your Fingers in 3D**<br>
-[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
-Submitted to a CCF-A conference, under review<br>
-📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-under-review">心理学报 2024</div><img src='../../images/Sandplay.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='Sandplay'></span>
-
-**Intelligent Psychological Assessment with Sandplay based on Evidence-Centered Design Theory (基于证据中心设计理论的智能心理沙盘测评系统)**<br>
-Y. Ren, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, Y. Kang, C. Yan, Y. Zeng, [L. Wang](https://people.ucas.ac.cn/~wanglg), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
-*[Acta Psychologica Sinica](https://journal.psych.ac.cn/xlxb/CN/0439-755X/home.shtml) (《心理学报》, CSSCI Journal, Top-1 Psychological Journal in China, Under Review)*<br>
-📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
-
-</div>
-</div> -->

@@ -1,12 +1,16 @@
 # 🔥 News
 
+**2025.05**: 📝One [review paper](https://huuuuusy.github.io/#CEAI-adaptive) has been accepted by Computers and Education: Artificial Intelligence. 
+
 **2025.05**: 📣Our new work [FIOVA](https://huuuuusy.github.io/#FIOVA) is now online! We introduce a multi-annotator benchmark for human-aligned video captioning, supporting semantic diversity and cognitive-aware evaluation. Check out the [project page](https://huuuuusy.github.io/fiova/) and [arXiv paper](https://arxiv.org/pdf/2410.15270) for more details.
+
+**2025.05**: 📣Our updated work [SOEI](https://huuuuusy.github.io/#SOEI) now available! Building upon our previous framework, this version introduces interactive multi-turn simulation to model open-ended educational dialogues with cognitively plausible virtual students. We further validate the framework's effectiveness through behavioral analysis, personality recognition, and teacher-student reflection. Read more in the[arXiv paper](https://arxiv.org/pdf/2410.15701).
 
 **2025.05**: 📣We will present our work ([SOTVerse](https://huuuuusy.github.io/#SOTVerse)) at IJCV2024 during the [VALSE2025](https://valser.org/2025/) poster session (June 2025, Zhuhai, China).
 
 **2025.05**: 📝One paper ([CSTrack](https://huuuuusy.github.io/#CSTrack)) has been accepted by International Conference on Machine Learning (ICML, CCF-A conference). 
 
-**2025.05**: 📝One corresponding paper ([DARTer](https://huuuuusy.github.io/#DARTer)) has been accepted by International Conference on Multimedia Retrieval (ICMR, CCF-B conference).
+<!-- **2025.05**: 📝One corresponding paper ([DARTer](https://huuuuusy.github.io/#DARTer)) has been accepted by International Conference on Multimedia Retrieval (ICMR, CCF-B conference). -->
 
 **2025.05**: 📝One corresponding paper ([MSAD](https://huuuuusy.github.io/#MSAD)) has been accepted by IET Computer Vision (IET-CVI, CCF-C journal).
 
