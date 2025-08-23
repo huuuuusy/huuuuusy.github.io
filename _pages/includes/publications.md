@@ -124,14 +124,13 @@
 <span class='anchor' id='ATCTrack'></span>
 
 **ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking**<br>
-[X. Feng\*](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu\*</font>***, [X. Li](https://github.com/Xuchen-Li), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
+[X. Feng\*](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu\*</font>***, [X. Li](https://github.com/Xuchen-Li), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  (*Equal Contributions)  <br>
 *[International Conference on Computer Vision](https://iccv.thecvf.com/) (CCF-A Conference, **<font color=DarkRed>Highlight</font>**)*<br>
 📌 Visual Language Tracking 📌 Multimodal Learning 📌 Adaptive Prompts<br>
 [📃 Paper](https://arxiv.org/abs/2507.19875)
 [📑 PDF](https://arxiv.org/pdf/2507.19875)
 </div>
 </div>
-
 
 
 
@@ -456,7 +455,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 <span class='anchor' id='VLTVerse'></span>
 
 **How Texts Help? A Fine-grained Evaluation to Reveal the Role of Language in Vision-Language Tracking**<br>
-[X. Li](https://github.com/Xuchen-Li)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+[X. Li](https://github.com/Xuchen-Li)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions) <br>
 📌 Visual Language Tracking 📌 Multimodal Learning 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2411.15600) 
 [📑 PDF](https://arxiv.org/pdf/2411.15600) 
@@ -540,7 +539,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. L
 <span class='anchor' id='NarrLV'></span>
 
 **NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation Models**<br>
-***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), H. Yu, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Chen, C. Zhu, J. Wu, [X. Chu](https://cxxgtxy.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+[X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), H. Yu, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, J. Chen, C. Zhu, J. Wu, [X. Chu](https://cxxgtxy.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 📌 Visual Understanding 📌 Video Generation 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2507.11245) 
 [📑 PDF](https://arxiv.org/pdf/2507.11245) 
