@@ -1,6 +1,6 @@
 ### Hi there, I am Shiyu Hu (胡世宇)!
 
-Currently, I am a Research Fellow at **[Nanyang Technological University (NTU)](https://www.ntu.edu.sg/)**, working with **[Prof. Kanghao Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)**.
+Currently, I am a Research Fellow at **[Nanyang Technological University (NTU)](https://www.ntu.edu.sg/)**, working with **[Prof. Kang Hao Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)**.
 Before that, I got my Ph.D. degree at **[Institute of Automation, Chinese Academy of Sciences (中国科学院自动化研究所)](http://english.ia.cas.cn/)** and **[University of Chinese Academy of Sciences (中国科学院大学)](https://english.ucas.ac.cn/)** in Jan. 2024, supervised by **[Prof. Kaiqi Huang (黄凯奇)](https://people.ucas.ac.cn/~huangkaiqi)** (IAPR Fellow), co-supervised by **[Prof. Xin Zhao (赵鑫)](https://www.xinzhaoai.com/)**.
 I received my master's degree from the **[Department of Computer Science, the University of Hong Kong (HKU)](https://www.cs.hku.hk/)** under the supervision of **[Prof. Choli Wang (王卓立)](https://www.cs.hku.hk/people/academic-staff/clwang)**.
 

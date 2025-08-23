@@ -4,14 +4,14 @@
 
 **[34th International Joint Conference on Artificial Intelligence (IJCAI)](https://2025.ijcai.org/)**
 - **Title:** Human-Centric and Multimodal Evaluation for Explainable AI: Moving Beyond Benchmarks
-- **Date & Location:** 16th-22nd August, 2025, Montreal, Canada
+- **Date & Location:** 14:00-15:30, 18th August, 2025, Montreal, Canada
 <!-- - **Duration:** Half-day<br> -->
 <!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
 <!-- [🌐 Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
 
 **[28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/)**
 - **Title:** From Benchmarking to Trustworthy AI: Rethinking Evaluation Methods Across Vision and Complex Systems
-- **Date & Location:** 25th-30th October, 2025, Bologna, Italy<br>
+- **Date & Location:** 26th October, 2025, Bologna, Italy<br>
 [🌐 Webpage](https://sites.google.com/view/ecai25-trusteval-tutorial/) 
 <!-- - **Duration:** Half-day<br> -->
 <!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
@@ -53,7 +53,7 @@
 ## Reviewer
 
 - **Conferences:**  NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, AAAI, IJCAI, ACMMM, AISTATS, etc.
-- **Journals**: IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, IEEE Transactions on Network Science and Engineering, IEEE Transactions on Vehicular Technology, Scientific Reports, IEEE Access, Journal of Computational Science, Journal of Electronic Imaging, Digital Signal Processing, etc.
+- **Journals**: IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, IEEE Transactions on Network Science and Engineering, IEEE Transactions on Vehicular Technology, Neurocomputing, Scientific Reports, IEEE Access, Journal of Computational Science, Journal of Electronic Imaging, Digital Signal Processing, etc.
 
 ## Member
 

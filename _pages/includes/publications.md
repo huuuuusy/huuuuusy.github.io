@@ -44,7 +44,7 @@
 
 ## Acceptance
 
-<!-- 前5篇代表作按照固定顺序排列 -->
+<!-- 代表作按照固定顺序排列 -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='../../images/GIT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -75,6 +75,7 @@
 📌 Visual Object Tracking 📌 Dynamic Open Environment Construction 📌 3E Paradigm<br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)
 [📑 PDF](https://huuuuusy.github.io/files/SOTVerse.pdf)
+[🪧 Poster](https://huuuuusy.github.io/files/VALSE25Poster-G19.jpg)
 [🌐 Platform](http://metaverse.aitestunion.com/) 
 
 </div>
@@ -116,6 +117,24 @@
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='../../images/ATCTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='ATCTrack'></span>
+
+**ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking**<br>
+[X. Feng\*](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu\*</font>***, [X. Li](https://github.com/Xuchen-Li), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
+*[International Conference on Computer Vision](https://iccv.thecvf.com/) (CCF-A Conference, **<font color=DarkRed>Highlight</font>**)*<br>
+📌 Visual Language Tracking 📌 Multimodal Learning 📌 Adaptive Prompts<br>
+[📃 Paper](https://arxiv.org/abs/2507.19875)
+[📑 PDF](https://arxiv.org/pdf/2507.19875)
+</div>
+</div>
+
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国图象图形学报 2023</div><img src='../../images/Survey23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -132,7 +151,8 @@
 </div>
 
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2025</div><img src='../../images/DARTer.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2025</div><img src='../../images/DARTer.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='DARTer'></span>
@@ -141,10 +161,10 @@
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
 *[International Conference on Multimedia Retrieval](https://www.icmr-2025.org/) (CCF-B Conference)*<br>
 📌 Nighttime UAVs Tracking 📌 Dark Feature Blending 📌 Dynamic Feature Activation <br>
-[📃 Paper](https://www.arxiv.org/abs/2505.00752)
-[📑 PDF](https://www.arxiv.org/pdf/2505.00752)
+[📃 Paper](https://dl.acm.org/doi/abs/10.1145/3731715.3733473)
+[📑 PDF](https://dl.acm.org/doi/pdf/10.1145/3731715.3733473)
 </div>
-</div> -->
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IET-CVI 2025</div><img src='../../images/MSAD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -172,7 +192,8 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 *[International Conference on Machine Learning](https://icml.cc/) (CCF-A Conference, Poster)*<br>
 📌 Visual Object Tracking 📌 Multi-modal Learning <br>
-
+[📃 Paper](https://openreview.net/forum?id=JZIJxr9KsO)
+[📑 PDF](https://openreview.net/pdf?id=JZIJxr9KsO5)
 </div>
 </div>
 
@@ -185,7 +206,8 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 *[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference, Poster)*<br>
 📌  Visual Object Tracking 📌 Visual Search Mechanism 📌 Visual Turing Test<br>
-
+[📃 Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/050f8591be3874b52fdac4e1060eeb29-Abstract-Conference.htmlO)
+[📑 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/050f8591be3874b52fdac4e1060eeb29-Paper-Conference.pdf)
 </div>
 </div>
 
@@ -198,6 +220,8 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 *[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference, Poster)*<br>
 📌 Visual Language Tracking 📌 Human-like Memory Modeling 📌 Adaptive Prompts<br>
+[📃 Paper](https://neurips.cc/virtual/2024/poster/94643)
+[📑 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/1af3e0bf5905e33789979f666c31192d-Paper-Conference.pdf)
 
 </div>
 </div>
@@ -209,7 +233,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 
 **Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
 [X. Li](https://github.com/Xuchen-Li), [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-*[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, Oral, Best Paper Honorable Mention)*<br>
+*[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, **<font color=DarkRed>Oral, Best Paper Honorable Mention</font>**)*<br>
 📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2405.12139) 
 [📃 PDF](https://huuuuusy.github.io/files/DTLLM-VLT.pdf)
@@ -232,7 +256,8 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li),  [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 *[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2025.ieeeicassp.org/) (CCF-B Conference, Poster)*<br>
 📌 Visual Language Tracking 📌 Multi-modal Learning 📌 Grounding Model<br>
-
+[📃 Paper](https://ieeexplore.ieee.org/document/10888064) 
+[📃 PDF](https://arxiv.org/pdf/2412.19648)
 </div>
 </div>
 
@@ -344,6 +369,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 *[Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)*<br>
 📌 Adaptive Learning Platforms 📌 AI for Education 📌 Educational Technology<br>
+[📃 Paper](https://www.sciencedirect.com/science/article/pii/S2666920X25000694) 
+[📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf)
 
 </div>
 </div>
@@ -368,7 +395,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 
 **Rethinking Similar Object Interference in Single Object Tracking**<br>
 [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
-*[International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **Oral**)*<br>
+*[International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **<font color=DarkRed>Oral</font>**)*<br>
 📌 Visual Object Tracking 📌 Similar Object Interference 📌 Data Mining<br>
 [📃 Paper](https://dl.acm.org/doi/abs/10.1145/3638584.3638644) 
 [🗒 bibTex](https://huuuuusy.github.io/files/CSAI23.bib) 
@@ -409,6 +436,34 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/SOI-V2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='SOI-V2'></span>
+
+**SOI is the Root of All Evil: Quantifying and Breaking Similar Object Interference in Single Object Tracking**<br>
+[Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, S. Jia, P. Xu, H. Ma, Y. Ma, J. Zhang, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm), [X. Zhao](https://www.xinzhaoai.com/) (*Equal Contributions) <br> 
+📌 Visual Object Tracking 📌 Similar Object Interference 📌 Multimodal Learning<br>
+[📃 Paper](https://www.arxiv.org/abs/2508.09524) 
+[📑 PDF](https://www.arxiv.org/pdf/2508.09524) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VLTVerse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VLTVerse'></span>
+
+**How Texts Help? A Fine-grained Evaluation to Reveal the Role of Language in Vision-Language Tracking**<br>
+[X. Li](https://github.com/Xuchen-Li)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+📌 Visual Language Tracking 📌 Multimodal Learning 📌 Evaluation Technique<br>
+[📃 Paper](https://arxiv.org/abs/2411.15600) 
+[📑 PDF](https://arxiv.org/pdf/2411.15600) 
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -436,6 +491,62 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 [🌐 Project](http://videocube.aitestunion.com/) 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/TBDQ.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='TBDQ'></span>
+
+**Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking**<br>
+S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
+📌 Multi-object Tracking 📌 Tracking by Detection 📌 Tracking by Query<br>
+[📃 Paper](https://arxiv.org/abs/2411.06197) 
+[📑 PDF](https://arxiv.org/pdf/2411.06197) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/CausalStep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='CausalStep'></span>
+
+**CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos**<br>
+[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Zhang](https://zwt233.github.io/)<br>
+📌 Video-based QA 📌 Video Reasoning 📌 Video Understanding <br>
+[📃 Paper](https://arxiv.org/abs/2507.16878)
+[📑 PDF](https://arxiv.org/pdf/2507.16878)
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VerifyBench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VerifyBench'></span>
+
+**VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains**<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Guo](https://openreview.net/profile?id=~yongzhen.gyz1), [W. Zhang](https://zwt233.github.io/)<br>
+📌 Verifable Reward 📌 Reinforcement Learning <br>
+[📃 Paper](https://arxiv.org/abs/2507.09884)
+[📑 PDF](https://arxiv.org/pdf/2507.09884)
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/NarrLV.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='NarrLV'></span>
+
+**NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation Models**<br>
+***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), H. Yu, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Chen, C. Zhu, J. Wu, [X. Chu](https://cxxgtxy.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+📌 Visual Understanding 📌 Video Generation 📌 Evaluation Technique<br>
+[📃 Paper](https://arxiv.org/abs/2507.11245) 
+[📑 PDF](https://arxiv.org/pdf/2507.11245) 
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

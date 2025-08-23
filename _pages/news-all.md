@@ -7,6 +7,14 @@ permalink: /news-all.html
 
 ---
 
+# 🔥 News
+
+**2025.08**: 📣We have conducted a tutorial at [34th International Joint Conference on Artificial Intelligence (IJCAI)](https://2025.ijcai.org/) (18th August, 2025, Montreal, Canada).
+
+**2025.07**: 🏆Obtain IEEE SMCS TEAM Program Award.
+
+**2025.06**: 📝One co-first author paper ([ATCTrack](https://huuuuusy.github.io/#ATCTrack)) has been accepted by International Conference on Computer Vision (ICCV, CCF-A conference, **<font color=DarkRed>Highlight</font>**). 
+
 **2025.05**: 📝One [review paper](https://huuuuusy.github.io/#CEAI-adaptive) has been accepted by Computers and Education: Artificial Intelligence. 
 
 **2025.05**: 📣Our new work [FIOVA](https://huuuuusy.github.io/#FIOVA) is now online! We introduce a multi-annotator benchmark for human-aligned video captioning, supporting semantic diversity and cognitive-aware evaluation. Check out the [project page](https://huuuuusy.github.io/fiova/) and [arXiv paper](https://arxiv.org/pdf/2410.15270) for more details.
@@ -17,17 +25,13 @@ permalink: /news-all.html
 
 **2025.05**: 📝One paper ([CSTrack](https://huuuuusy.github.io/#CSTrack)) has been accepted by International Conference on Machine Learning (ICML, CCF-A conference). 
 
-<!-- **2025.05**: 📝One corresponding paper ([DARTer](https://huuuuusy.github.io/#DARTer)) has been accepted by International Conference on Multimedia Retrieval (ICMR, CCF-B conference). -->
+**2025.05**: 📝One corresponding paper ([DARTer](https://huuuuusy.github.io/#DARTer)) has been accepted by International Conference on Multimedia Retrieval (ICMR, CCF-B conference).
 
 **2025.05**: 📝One corresponding paper ([MSAD](https://huuuuusy.github.io/#MSAD)) has been accepted by IET Computer Vision (IET-CVI, CCF-C journal).
 
-**2025.04**: 📣We will conduct a tutorial at [34th International Joint Conference on Artificial Intelligence (IJCAI)](https://2025.ijcai.org/) (16th-22nd August, 2025, Montreal, Canada).
-
 **2025.04**: 📣We will conduct a tutorial at [28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/) (25th-30th October, 2025, Bologna, Italy).
 
-
 **2025.03**: 📣We will conduct a tutorial at [2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/) (5th-8th October, 2025, Vienna, Austria).
-
 
 **2025.02**: 📖The book [*Visual Object Tracking: An Evaluation Perspective*](https://link.springer.com/book/9789819645572) is online.
 
@@ -59,7 +63,7 @@ permalink: /news-all.html
 
 **2024.05**: 📣We have presented our work ([Global Instance Tracking (GIT)](https://huuuuusy.github.io/#GIT)) at TPAMI2023 during the [VALSE2024](http://www.valser.org/2024/#/) poster session (May 2024, Chongqing, China, see our [🪧 Poster](https://huuuuusy.github.io/files/VALSE24Poster-364.pdf) for more information).
 
-**2024.04** : 📝One [paper](https://huuuuusy.github.io/#DTLLM) has been accepted by the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024 (CVPRW, Oral, Best Paper Honorable Mention).
+**2024.04** : 📝One [paper](https://huuuuusy.github.io/#DTLLM) has been accepted by the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024 (CVPRW, **<font color=DarkRed>Oral, Best Paper Honorable Mention</font>**).
 
 **2024.04** : 📝One [paper](https://huuuuusy.github.io/#AWCV) has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).
 
@@ -71,7 +75,7 @@ permalink: /news-all.html
 
 <!-- * **2023.11** : 👩‍🎓Passed the doctoral thesis defense with unanimous distinction. -->
 
-**2023.11** : 📝One [paper](https://huuuuusy.github.io/#CSAI23) has been accepted by International Conference on Computer Science and Artificial Intelligence (CSAI, oral).
+**2023.11** : 📝One [paper](https://huuuuusy.github.io/#CSAI23) has been accepted by International Conference on Computer Science and Artificial Intelligence (CSAI, **<font color=DarkRed>Oral</font>**).
 
 **2023.10** : 🏆Obtain China National Scholarship (国家奖学金, top 1%, only 8 Ph.D. students in main campus of UCAS win this scholarship).
 
