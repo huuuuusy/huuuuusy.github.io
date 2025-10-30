@@ -19,7 +19,7 @@
 
 **[2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/)**
 - **Title:** The Synergy of Large Language Models and Evolutionary Optimization on Complex Networks 
-- **Date & Location:** 5th-8th October, 2025, Vienna, Austria
+- **Date & Location:** 5th October, 2025, Vienna, Austria
 <!-- - **Duration:** Half-day<br> -->
 <!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
 <!-- [🌐 Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->

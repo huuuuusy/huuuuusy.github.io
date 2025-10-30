@@ -365,11 +365,26 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <span class='anchor' id='CEAI-adaptive'></span>
 
 **Artificial Intelligence-Enabled Adaptive Learning Platforms: A Review**<br>
-L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 *[Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)*<br>
 📌 Adaptive Learning Platforms 📌 AI for Education 📌 Educational Technology<br>
 [📃 Paper](https://www.sciencedirect.com/science/article/pii/S2666920X25000694) 
 [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='../../images/Mathematics-AGS.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='Mathematics-AGS'></span>
+
+**A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques**<br>
+L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+*[Mathematics](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)*<br>
+📌 Automated Grading Systems 📌 AI for Education 📌 Educational Technology<br>
+[📃 Paper](https://www.mdpi.com/2227-7390/13/17/2828) 
+<!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
 
 </div>
 </div>
@@ -412,7 +427,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 <span class='anchor' id='FIOVA'></span>
 
 **FIOVA: A Multi-Annotator Benchmark for Human-Aligned Video Captioning**<br>
-***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li\*](https://github.com/Xuchen-Li), [X. Li](https://github.com/XuzhaoLi), J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [X. Zhao](https://www.xinzhaoai.com/), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
+***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li\*](https://github.com/Xuchen-Li), [X. Li](https://github.com/XuzhaoLi), J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [X. Zhao](https://www.xinzhaoai.com/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
 📌 Large Vision-Language Models 📌 Video Caption 📌 Video Understanding<br>
 [📃 Paper](https://arxiv.org/abs/2410.15270) 
 [📑 PDF](https://arxiv.org/pdf/2410.15270) 
@@ -427,10 +442,52 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 <span class='anchor' id='SOEI'></span>
 
 **When LLMs Learn to be Students: The SOEI Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction**<br>
-Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [K. Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
 📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
 [📃 Paper](https://arxiv.org/abs/2410.15701) 
 [📑 PDF](https://arxiv.org/pdf/2410.15701) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/EduVerse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='EduVerse'></span>
+
+**EduVerse: A User-Defined Multi-Agent Simulation Space for Education Scenario**<br>
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Kang, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+[📃 Paper](https://arxiv.org/abs/2510.05650) 
+[📑 PDF](https://arxiv.org/pdf/2510.05650) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/EduPersona.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='EduPersona'></span>
+
+**EduPersona: Benchmarking Subjective Ability Boundaries of Virtual Student Agents**<br>
+B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+[📃 Paper](https://arxiv.org/abs/2510.04648) 
+[📑 PDF](https://arxiv.org/pdf/2510.04648) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/MATrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='MATrack'></span>
+
+**MATrack: Efficient Multiscale Adaptive Tracker for Real-Time Nighttime UAV Operations**<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
+📌 Nighttime UAVs Tracking 📌 Multiscale Adaptive Tracker 📌 Visual Object Tracking <br>
+[📃 Paper](https://arxiv.org/abs/2510.21586)
+[📑 PDF](https://arxiv.org/pdf/2510.21586)
 </div>
 </div>
 
@@ -505,6 +562,20 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. L
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/EARL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='EARL'></span>
+
+**Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning**<br>
+[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+📌 Video Large Language Models 📌 Video Reasoning 📌 Video Understanding <br>
+[📃 Paper](https://arxiv.org/abs/2510.15440)
+[📑 PDF](https://arxiv.org/pdf/2510.15440)
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/CausalStep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -543,6 +614,20 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. L
 📌 Visual Understanding 📌 Video Generation 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2507.11245) 
 [📑 PDF](https://arxiv.org/pdf/2507.11245) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/RGRL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='RGRL'></span>
+
+**Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning**<br>
+[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [W. Zhang](https://zwt233.github.io/)<br>
+📌 Thinking-with-Image 📌 Vision-Language Models 📌 Pixel Reasoning<br>
+[📃 Paper](https://arxiv.org/abs/2510.01681) 
+[📑 PDF](https://arxiv.org/pdf/2510.01681) 
 </div>
 </div>
 

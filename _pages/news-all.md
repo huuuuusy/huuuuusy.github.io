@@ -9,6 +9,10 @@ permalink: /news-all.html
 
 # 🔥 News
 
+**2025.10**: 📣We have conducted a tutorial at [28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/) (26th October, 2025, Bologna, Italy).
+
+**2025.10**: 📣We have conducted a tutorial at [2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/) (5th October, 2025, Vienna, Austria).
+
 **2025.08**: 📣We have conducted a tutorial at [34th International Joint Conference on Artificial Intelligence (IJCAI)](https://2025.ijcai.org/) (18th August, 2025, Montreal, Canada).
 
 **2025.07**: 🏆Obtain IEEE SMCS TEAM Program Award.
