@@ -182,6 +182,38 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 
 <!-- 合作论文按时间顺序排列 -->
 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='../../images/CausalStep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='CausalStep'></span>
+
+**CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos**<br>
+[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Zhang](https://zwt233.github.io/)<br>
+*[Proceedings of the AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/) (CCF-A Conference, **<font color=DarkRed>Oral</font>**)*<br>
+📌 Video-based QA 📌 Video Reasoning 📌 Video Understanding <br>
+[📃 Paper](https://arxiv.org/abs/2507.16878)
+[📑 PDF](https://arxiv.org/pdf/2507.16878)
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='../../images/VerifyBench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='VerifyBench'></span>
+
+**VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains**<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Guo](https://openreview.net/profile?id=~yongzhen.gyz1), [W. Zhang](https://zwt233.github.io/)<br>
+*[Proceedings of the AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/) (CCF-A Conference, **<font color=DarkRed>Oral</font>**)*<br>
+📌 Verifable Reward 📌 Reinforcement Learning <br>
+[📃 Paper](https://arxiv.org/abs/2507.09884)
+[📑 PDF](https://arxiv.org/pdf/2507.09884)
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='../../images/CSTrack.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -389,6 +421,22 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Innovation and Emerging Technologies 2025</div><img src='../../images/IET-AI4Edu.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='IET-AI4Edu'></span>
+
+**Trustworthy AI in education: Framework, cases, and governance strategies**<br>
+Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  <br>
+*[Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?cmpid=6350db6df59e5b0001f79b4b)*<br>
+📌 Trustworthy Artificial Intelligence 📌 Educational Governance 📌 Algorithmic Fairness;<br>
+[📃 Paper](https://www.worldscientific.com/doi/abs/10.1142/S2737599425500264) 
+<!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国心理卫生杂志 2025</div><img src='../../images/IGBA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -575,33 +623,6 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. L
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/CausalStep.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='CausalStep'></span>
-
-**CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos**<br>
-[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Zhang](https://zwt233.github.io/)<br>
-📌 Video-based QA 📌 Video Reasoning 📌 Video Understanding <br>
-[📃 Paper](https://arxiv.org/abs/2507.16878)
-[📑 PDF](https://arxiv.org/pdf/2507.16878)
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/VerifyBench.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='VerifyBench'></span>
-
-**VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains**<br>
-[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Guo](https://openreview.net/profile?id=~yongzhen.gyz1), [W. Zhang](https://zwt233.github.io/)<br>
-📌 Verifable Reward 📌 Reinforcement Learning <br>
-[📃 Paper](https://arxiv.org/abs/2507.09884)
-[📑 PDF](https://arxiv.org/pdf/2507.09884)
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/NarrLV.jpg' alt="sym" width="100%"></div></div>

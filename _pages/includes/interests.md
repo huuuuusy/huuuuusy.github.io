@@ -1,75 +1,74 @@
 # 🔍️ Research Interests
 
-<!-- ## The development of artificial intelligence is inherently interconnected with human factors. -->
-
-
 ## Research Foundation
 
 <img align="left" src="../../images/goal.png" width="50%" height="auto" hspace="20" vspace="10">
 
-My previous research has primarily been dedicated to evaluating and exploring machine vision intelligence. This research encompasses various aspects such as task modeling, environment construction, evaluation technique, and human-machine comparisons. I strongly hold the belief that ***<font color=DarkRed>the development of artificial intelligence is inherently interconnected with human factors</font>***. Hence, drawing inspiration from the renowned ***<font color=DarkRed>Turing Test</font>***, I have focused my investigation on the concept of ***<font color=DarkRed>Visual Turing Test</font>***, aiming to integrate human elements into the evaluation of dynamic visual tasks. The ultimate goal of my previous work is to assess and analyze machine vision intelligence by benchmarking against human abilities. I believe that effective evaluation techniques are the foundation for helping us achieve trustworthy and secure artificial general intelligence. 
-The following are several key aspects: 
+My research has long focused on **evaluating and modeling machine vision intelligence**, covering task modeling, environment construction, evaluation techniques, and human–machine comparisons.  
+I firmly believe that ***<font color=DarkRed>the development of artificial intelligence is inherently intertwined with human factors</font>***.  
+Inspired by the classical ***<font color=DarkRed>Turing Test</font>***, I have extended this concept to visual understanding, proposing the ***<font color=DarkRed>Visual Turing Test</font>*** as a human-centered framework for evaluating dynamic vision tasks.  
+The overarching goal is to benchmark machine visual intelligence against human abilities, building **trustworthy and explainable evaluation systems** that advance us toward secure and reliable Artificial General Intelligence (AGI).
 
-- **What are the abilities of humans? Designing more human-like tasks.**
-In my research, I focused on utilizing Visual Object Tracking (VOT) as a representative task to explore dynamic visual abilities. VOT holds a pivotal role in computer vision; however, its original definition imposes excessive constraints that hinder alignment with human dynamic visual tracking abilities. 
-To address this problem, I adopted a humanoid modeling perspective and expanded the original VOT definition. By eliminating the presumption of continuous motion, I introduced a more humanoid-oriented [Global Instance Tracking (GIT)](https://huuuuusy.github.io/#GIT) task. This expansion of the research objectives transformed VOT from a ***<font color=DarkRed>perceptual level</font>***, which involves locating targets in short video sequences through visual feature contrasts, to a ***<font color=DarkRed>cognitive level</font>*** that addresses the continuous localization of targets in long videos without presuming continuous motion. 
-Building upon this, I endeavored to incorporate semantic information into the GIT task and introduced the [Multi-modal GIT (MGIT)](https://huuuuusy.github.io/#MGIT) task. The goal is to integrate a human-like understanding of long videos with hierarchically structured semantic labels, thereby further advancing the research objectives to include ***<font color=DarkRed>visual reasoning</font>*** within complex spatio-temporal causal relationships.
+---
 
-- **What are the living environments of humans? Constructing more comprehensive and realistic datasets.**
-The environment in which humans reside is characterized by complexity and constant change. However, current research predominantly employs static and limited datasets as closed experimental environments. These toy examples fail to provide machines with authentic human-like visual intelligence. 
-To address this limitation, I draw inspiration from film theory and propose a framework for decoupling video narrative content. In doing so, I have developed [VideoCube](http://videocube.aitestunion.com/), the largest-scale object tracking benchmark. 
-Expanding on this work, I integrate diverse environments from the field of VOT to create [SOTVerse](https://huuuuusy.github.io/#SOTVerse), a dynamic and open task space comprising 12.56 million frames. Within this task space, researchers can efficiently construct different subspaces to train algorithms, thereby improving their ***<font color=DarkRed>visual generalization</font>*** across various scenarios. 
-Furthermore, my research also focuses on visual robustness. Leveraging a bio-inspired flapping-wing drone developed by our team, I establish the first flapping-wing drone-based benchmark named [BioDrone](https://huuuuusy.github.io/#BioDrone) to enhance ***<font color=DarkRed>visual robustness</font>*** in challenging environments.
+### 1️⃣ What abilities define human perception? Designing more human-like visual tasks
 
-- **How significant is the disparity between human and machine dynamic vision abilities? Utilizing human abilities as a baseline to evaluate machine intelligence.**
-Computer scientists typically use large-scale datasets to evaluate machine models, while neuroscientists typically employ simple experimental environments to evaluate human subjects. This discrepancy makes it challenging to integrate human-machine evaluation into a unified framework for comparison and analysis. 
-To address the aforementioned issues ([How significant is the disparity between human and machine dynamic vision abilities?](https://huuuuusy.github.io/#VTT-ICLR)), I construct an experimental environment based on SOTVerse to enable a fair comparison between human and machine dynamic visual abilities. These sequences provide a thorough examination of the perceptual abilities, cognitive abilities, and robust tracking abilities of humans and machines. Based on this foundation, a human-machine dynamic visual capability evaluation framework is designed. 
-Finally, a fine-grained experimental analysis is carried out from the perspectives of human-machine comparison and human-machine collaboration. The experimental results demonstrate that representative tracking algorithms have gradually narrowed the gap with human subjects. Furthermore, both humans and machines exhibit unique strengths in dynamic visual tasks, suggesting significant potential for human-machine collaboration. 
+I take **Visual Object Tracking (VOT)** as a representative task to explore the boundaries of machine dynamic visual ability.  
+Traditional VOT is limited by its assumption of continuous motion, which fails to align with human cognitive tracking capabilities.  
+To overcome this, I proposed ***<font color=DarkRed>Global Instance Tracking (GIT)</font>*** — a humanoid-inspired reformulation that shifts tracking from a short-term perceptual level to a long-term **cognitive level**.  
+Building on this, I introduced ***<font color=DarkRed>Multi-modal GIT (MGIT)</font>*** by incorporating hierarchical semantic structures, enabling machines to perform **visual reasoning** over complex spatio-temporal causal relationships.  
+Together, these extensions mark a transition from perceptual recognition to cognitive understanding.
 
-<img align="left" src="../../images/3E.png" width="100%" height="auto" >
+---
 
-This human-centered evaluation concept is referred to as [Visual Turing Test](https://huuuuusy.github.io/#VTT), and I have presented my thoughts and future prospects in this direction through a comprehensive review on [intelligent evaluation techniques](https://huuuuusy.github.io/#JIG-survey).
-These research contents can be summarized using the [3E paradigm](http://metaverse.aitestunion.com/paradigm). In order to enable machines to acquire human ***<font color=DarkRed>abilities</font>***, we need to construct a humanoid proxy ***<font color=DarkRed>task</font>*** and execute it through interactions among the ***<font color=DarkRed>environment</font>***, ***<font color=DarkRed>evaluation</font>***, and ***<font color=DarkRed>executors</font>***. Ultimately, the executors' performance reflects their level of ability, and their upper limit of ability is continuously improved through ongoing iterations. I hope these research can create a comprehensive system that lays a solid research foundation for improving the dynamic visual abilities of machines. 
+### 2️⃣ What environments do humans perceive? Constructing more open and realistic visual spaces
 
-<!-- ### Ongoing Research
+Human environments are dynamic, continuous, and semantically rich, yet most datasets remain static and task-limited.  
+To address this, I developed the ***[VideoCube](http://videocube.aitestunion.com/)*** benchmark by integrating **narrative theory** to decompose video content into interpretable units.  
+Building further, I proposed ***[SOTVerse](https://huuuuusy.github.io/#SOTVerse)***, a large-scale and open **task space** (12.56M frames) that enables flexible subspace generation for evaluating **visual generalization** across diverse conditions.  
+To tackle visual robustness in real-world dynamics, I further developed ***[BioDrone](https://huuuuusy.github.io/#BioDrone)*** — the first bio-inspired flapping-wing drone benchmark — providing a novel testing ground for **robust visual intelligence** under motion perturbations and environmental challenges.
 
-- **Optimizing algorithms from the perspective of human-like modeling: locating target more like humans.** 
-Building upon these above works, my [🤝 Collaborators](https://huuuuusy.github.io/#collaborators) and I are focusing on design intelligent tracking algorithms through a human-like modeling approach. For example, we develop [MemVLT](https://huuuuusy.github.io/#MemVLT), a robust visual language tracker based on human memory modelling to enhance tracking performance in complex scenarios. Besides, by considering the cognitive disparities between humans and machines when it comes to dealing with Similar Object Interference (SOI) challenge, we investigate the impact of the SOI challenge on tracking robustness, and construct a [TrackingSOI](https://huuuuusy.github.io/#CSAI23) benchmark by using a data mining method. We then propose the [TransKT](https://huuuuusy.github.io/#SOI) algorithm to enhance the algorithm's perception abilities towards the SOI challenge, aiming to improve its visual robustness.
+---
 
-- **Integrating dynamic visual research and application scenarios: from human-like modeling to human-intelligence interaction.**
-The primary objective of human-like modeling is to develop advanced algorithms that enable effective human-machine interaction, serving as the fundamental basis for subsequent collaborations between humans and machines in various scenarios. 
-In our recent work, we have integrated language as a communication medium with the dynamic visual task of [unconstrained air-writing](https://huuuuusy.github.io/#AWCV). The overarching goal is to establish a natural and seamless mode of human-machine interaction, specifically catered to intelligent applications like AR/VR. 
-Moreover, we are actively expanding the scope of visual language tracking task and exploring the potential development directions from the standpoint of human-machine interaction. We hope to leverage the abilities of Large Language Models (LLMs) and construct more interactive dynamic visual algorithms.
+### 3️⃣ How large is the human–machine gap? Benchmarking machine vision against human ability
 
-- **Evaluation is science: more comprehensive and in-depth evaluation techniques are needed in the era of LLMs.**
-LLMs are gaining increasing popularity in academia and industry due to their exceptional performance across various applications. As LLMs continue to play a vital role in both research and daily use, the need for critical evaluation techniques becomes increasingly apparent. 
-My previous research has primarily focused on intelligence evaluation, encompassing abilities related to visual perception, cognition, and reasoning. I will further collaborate with my team to develop more comprehensive intelligence evaluation techniques and conduct a finer-grained analysis of human-machine dynamic visual abilities, providing support for research on model safety and interpretability. 
-Furthermore, we are also moving forward to expand the hierarchical levels of evaluation to a deeper dimension—[the psychological dimension](https://huuuuusy.github.io/#PRCV23). By utilizing the dynamic and open environment of psychological sandbox, we aim to integrate technologies from human-computer interaction, game design, psychology, and artificial intelligence to construct a more intelligent [psychological analysis system](https://huuuuusy.github.io/#Sandplay). -->
+While computer scientists evaluate models on large datasets and neuroscientists assess humans in controlled experiments, this disciplinary gap prevents unified human–machine evaluation.  
+To bridge this, I constructed a unified evaluation environment based on SOTVerse, enabling **direct human–machine comparisons** in perception, cognition, and robustness.  
+Results reveal that recent algorithms are closing the gap with human subjects, with humans excelling in semantic understanding and machines in precision and persistence.  
+This complementary behavior suggests the emerging potential for ***<font color=DarkRed>human–machine collaborative intelligence</font>*** in dynamic vision.
+
+---
+
+<img align="left" src="../../images/3E.png" width="100%" height="auto">
+
+This human-centered evaluation paradigm is formalized as the ***<font color=DarkRed>3E Framework</font>*** — **Environment**, **Evaluation**, and **Executors** — forming a closed loop that defines, measures, and evolves intelligent behavior.  
+Machines acquire human-like abilities by iteratively performing humanoid proxy tasks within evolving environments and evaluation criteria.  
+Through this iterative mechanism, their cognitive upper bounds are continuously improved, laying the foundation for building **evaluative, explainable, and human-aligned intelligence**.
+
+---
 
 ## Detailed Lists of Current Research Interests
 
-**Data-Centric AI**
-- Research on the construction strategy of single-modal and multi-modal datasets incorporating human knowledge structure.
-- Research on designing evaluation mechanism for visual robustness, generalization, and safety.
+**Visual Intelligence**  
+- Focuses on visual intelligence as the core channel to study how AI systems perceive, reason, and interpret in complex environments.  
+- Builds interpretable and generalizable cognitive evaluation frameworks under the “Environment–Task–Executor” paradigm.  
+- Explores unified quantitative models for robustness, generalization, and safety, promoting a paradigm shift from performance-driven to cognition-driven evaluation.  
+- Investigates human-referenced measurement principles of intelligence to support the development of human–AI integrated cognitive systems.  
 
-**Visual Turing Test**
-- Design of a human-machine universal visual ability evaluation framework.
-- Benchmarking the performance of algorithms based on human abilities in perceptual, cognitive, inferential, etc. Analyzing the bottlenecks of algorithms and human subjects in depth, providing guidance for research on human-like modeling, human-machine collaboration, and human-machine integration.
+**Multimodal Cognition**  
+- Investigates the structural role of vision within multimodal cognition, exploring unified mechanisms for cross-modal fusion and spatiotemporal reasoning.  
+- Develops multiscale models from perception to semantics to reveal intrinsic connections among vision, language, and knowledge.  
+- Studies semantic diversity, causal associations, and narrative generation to build explainable and generalizable multimodal understanding frameworks.  
+- Advances visual understanding from static perception toward dynamic cognition, providing a structural foundation for next-generation multimodal intelligence.  
 
-**Video Understanding**
-- Exploring using Large Language Models (LLMs) and Large Vision Models (LVMs) for long video understanding.
+**AI4Edu**  
+- Positions educational environments as ideal domains for studying human–AI co-evolution and cognitive learning mechanisms.  
+- Focuses on intelligent agents with personality, cognition, and social adaptability, emphasizing cognitive tracking, personalized feedback, and adaptive learning.  
+- Explores multi-agent collaboration and reflective learning mechanisms, enabling human–AI interaction with understanding, empathy, and shared growth.  
+- Promotes the transformation of educational AI from an assistive tool to a cognitive partner, fostering educational equity, innovation, and sustainable learning.  
 
-**Visual Object Tracking (VOT)**
-- Research on single object tracking algorithms in general scenes and specific scenarios (such as unmanned aerial vehicles).
-
-**Visual Language Tracking (VLT)**
-- Research on multi-modal tracking, video understanding, and visual reasoning tasks based on long video sequences.
-
-**Human-machine Interaction**
-- Exploring human-computer interaction patterns in video sequences with various proxy tasks.
-
-**AI4Science**
-- **Education:** Research on human-computer interaction (HCI) technology for education scenarios, including designing an intelligent education framework from a multidisciplinary perspective, investigating HCI technology, conducting qualitative and quantitative analysis.
-- **Cognitive Science:** Visual task design, environment construction, and human-machine capability analysis based on human-like modeling principles.
-- **Medical Science:** Research on medical image processing techniques based on artificial intelligence technologies (e.g., cell segmentation and tracking, denoising of cryo-electron microscopy images).
-- **Psychology:** Development of gamified assessment systems targeting psychological dimensions such as anxiety, depression, and obsession, along with research on intelligent psychological evaluation technologies. Exploring using Large Language Models (LLMs) and Large Vision Models (LVMs) for visual comprehension with psychological elements.
+**AI4Science**  
+- Explores the cognitive modeling pathways of AI in scientific discovery, experimental design, and knowledge reasoning.  
+- Studies AI’s cognitive role in scientific understanding, data modeling, and hypothesis generation, abstracting cognitive principles from human reasoning.  
+- Constructs integrated vision–language–symbol frameworks for scientific intelligence, bridging computational learning and human scientific cognition.  
+- Advances interdisciplinary applications of AI in education, medicine, psychology, and cognitive science toward the co-evolution of artificial and human intelligence.  

@@ -1,5 +1,7 @@
 # 🔥 News
 
+**2025.11**: 📝Two papers ([CausalStep](https://huuuuusy.github.io/#CausalStep) and [VerifyBench](https://huuuuusy.github.io/#VerifyBench)) have been accepted by the 40th Annual AAAI Conference on Artificial Intelligence (AAAI, CCF-A Conference, **<font color=DarkRed>Oral</font>**).
+
 **2025.10**: 📣We have conducted a tutorial at [28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/) (26th October, 2025, Bologna, Italy).
 
 **2025.10**: 📣We have conducted a tutorial at [2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/) (5th October, 2025, Vienna, Austria).
