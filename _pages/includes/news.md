@@ -40,8 +40,5 @@
 
 **2024.12**: 📣We have prepared a tutorial at [International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/) (Dec. 1st 2024, Kolkata, India). 
 
-**2024.10**: 📣We have conducted a tutorial at [IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/) (Oct. 27th 2024, Abu Dhabi, United Arab Emirates).
-
-**2024.09**: 📝Two papers ([MemVLT](https://huuuuusy.github.io/#MemVLT) and [CPDTrack](https://huuuuusy.github.io/#CPDTrack)) have been accepted by Conference on Neural Information Processing Systems (NeurIPS, CCF-A Conference).
 
 [▶️For More News](https://huuuuusy.github.io/news-all)
