@@ -46,7 +46,7 @@ My homepage visitors recorded from April 18th, 2024. Thanks for attention.
 <p>
   <center>
     <font>
-        <br>&copy; Shiyu Hu | Last updated: 2025-11
+        <br>&copy; Shiyu Hu | Last updated: 2025-12
     </font>
   </center>
 </p>

@@ -42,7 +42,7 @@
 </div>
 
 
-## Acceptance
+## Accept
 
 <!-- 代表作按照固定顺序排列 -->
 
@@ -183,7 +183,6 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 <!-- 合作论文按时间顺序排列 -->
 
 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='../../images/CausalStep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -254,26 +253,6 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 [📃 Paper](https://neurips.cc/virtual/2024/poster/94643)
 [📑 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/1af3e0bf5905e33789979f666c31192d-Paper-Conference.pdf)
 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div><img src='../../images/DTLLM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='DTLLM'></span>
-
-**Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
-[X. Li](https://github.com/Xuchen-Li), [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-*[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, **<font color=DarkRed>Oral, Best Paper Honorable Mention</font>**)*<br>
-📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
-[📃 Paper](https://arxiv.org/abs/2405.12139) 
-[📃 PDF](https://huuuuusy.github.io/files/DTLLM-VLT.pdf)
-[🪧 Poster](https://github.com/Xuchen-Lifiles/DTLLM-poster.pdf)
-[📹 Slides](https://github.com/Xuchen-Lifiles/DTLLM-Slides.pdf)
-[🌐 Platform](http://videocube.aitestunion.com/)
-[🔧 Toolkit](https://github.com/Xuchen-Li/DTLLM-VLT) 
-[💾 Dataset](http://videocube.aitestunion.com/downloads)
-[🏆 Award](https://huuuuusy.github.io/files/DTLLM-VLT-Award.pdf)
 </div>
 </div>
 
@@ -465,6 +444,75 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 
 </div>
 </div>
+
+## Workshop
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div>
+<!-- <img src='../../images/SOEI.png' alt="sym" width="100%"></div></div> -->
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='SOEI-workshop'></span>
+
+**Learning to Be Taught: A Structured SOEI Framework for Modeling and Evaluating Personality-Aligned Virtual Student Agents**<br>
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+<!-- [📃 Paper](https://arxiv.org/abs/2410.15701)  -->
+<!-- [📑 PDF](https://arxiv.org/pdf/2410.15701)  -->
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div>
+<!-- <img src='../../images/EduVerse.png' alt="sym" width="100%"></div></div> -->
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='EduVerse-workshop'></span>
+
+**Redefining Educational Simulation: EduVerse as a User-Defined and Developmental Multi-Agent Simulation Space**<br>
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Kang, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+<!-- [📃 Paper](https://arxiv.org/abs/2510.05650)  -->
+<!-- [📑 PDF](https://arxiv.org/pdf/2510.05650)  -->
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='../../images/EduPersona.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='EduPersona'></span>
+
+**From Objective to Subjective: A Benchmark for Virtual Student Abilities**<br>
+B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
+📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+<!-- [📃 Paper](https://arxiv.org/abs/2510.04648)  -->
+<!-- [📑 PDF](https://arxiv.org/pdf/2510.04648)  -->
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div>
+<!-- <img src='../../images/DTLLM.png' alt="sym" width="100%"></div></div> -->
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='DTLLM'></span>
+
+**Diverse Text Generation for Visual Language Tracking Based on LLM**<br>
+[X. Li](https://github.com/Xuchen-Li), [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+*[the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, **<font color=DarkRed>Oral, Best Paper Honorable Mention</font>**)*<br>
+📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
+[📃 Paper](https://arxiv.org/abs/2405.12139) 
+[📃 PDF](https://huuuuusy.github.io/files/DTLLM-VLT.pdf)
+[🪧 Poster](https://github.com/Xuchen-Lifiles/DTLLM-poster.pdf)
+[📹 Slides](https://github.com/Xuchen-Lifiles/DTLLM-Slides.pdf)
+[🌐 Platform](http://videocube.aitestunion.com/)
+[🔧 Toolkit](https://github.com/Xuchen-Li/DTLLM-VLT) 
+[💾 Dataset](http://videocube.aitestunion.com/downloads)
+[🏆 Award](https://huuuuusy.github.io/files/DTLLM-VLT-Award.pdf)
+</div>
+</div>
+
+
 
 
 ## Preprint
