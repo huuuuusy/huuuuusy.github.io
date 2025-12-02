@@ -448,7 +448,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 ## Workshop
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div>
-<!-- <img src='../../images/SOEI.png' alt="sym" width="100%"></div></div> -->
+<img src='../../images/SOEI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='SOEI-workshop'></span>
@@ -463,7 +463,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div>
-<!-- <img src='../../images/EduVerse.png' alt="sym" width="100%"></div></div> -->
+<img src='../../images/EduVerse.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='EduVerse-workshop'></span>
@@ -492,7 +492,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div>
-<!-- <img src='../../images/DTLLM.png' alt="sym" width="100%"></div></div> -->
+<img src='../../images/DTLLM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='DTLLM'></span>
