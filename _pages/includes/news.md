@@ -1,5 +1,7 @@
 # 🔥 News
 
+**2025.12**: 📣We will conduct a Mini-Symposium (topic: Complex Network Systems and Large Language Models) on [NODYCON 2026 (The Fifth International Nonlinear Dynamics Conference)](https://nodycon2026.app.earendelplatform.com/), more information will be released soon.
+
 **2025.11**: 📝Three papers have been accepted by the AI for Education Workshop in the 40th Annual AAAI Conference on Artificial Intelligence (AAAIW).
 
 **2025.11**: 📝Two papers ([CausalStep](https://huuuuusy.github.io/#CausalStep) and [VerifyBench](https://huuuuusy.github.io/#VerifyBench)) have been accepted by the 40th Annual AAAI Conference on Artificial Intelligence (AAAI, CCF-A Conference, **<font color=DarkRed>Oral</font>**).

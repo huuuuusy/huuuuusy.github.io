@@ -44,6 +44,16 @@
 [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf)
 [🌐 Webpage](https://sites.google.com/view/accv-tutorial-vtt4vot/) 
 
+## Mini-Symposium
+
+**[The Fifth International Nonlinear Dynamics Conference (NODYCON 2026)](https://nodycon2026.app.earendelplatform.com/)**
+- **Title:** Complex Network Systems and Large Language Models
+- **Date & Location:** 20th-23rd, September, 2026, Sapienza University of Rome, Italy
+<!-- - **Duration:** Half-day<br> -->
+<!-- [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
+[🌐 Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000) 
+
+
 ## Guest Editor
 - **Journals**: [Electronics](https://www.mdpi.com/journal/electronics) (Special Issue: [Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E))
 
