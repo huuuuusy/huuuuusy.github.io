@@ -62,8 +62,8 @@
 
 ## Reviewer
 
-- **Conferences:**  NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, AAAI, IJCAI, ACMMM, ICRA, AISTATS, etc.
-- **Journals**: IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, IEEE Transactions on Network Science and Engineering, IEEE Transactions on Vehicular Technology, Information Fusion, Engineering Applications of Artificial Intelligence, Expert Systems with Applications, Neurocomputing, Knowledge-Based Systems, Scientific Reports, etc.
+- **Conferences:**  NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, ACL, AAAI, IJCAI, ACMMM, ICRA, AISTATS, etc.
+- **Journals**: IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, Pattern Recognition, IEEE Transactions on Network Science and Engineering, IEEE Transactions on Vehicular Technology, Information Fusion, Engineering Applications of Artificial Intelligence, Expert Systems with Applications, Neurocomputing, Knowledge-Based Systems, Scientific Reports, etc.
 
 ## Member
 
