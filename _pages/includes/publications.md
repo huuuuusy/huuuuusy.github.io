@@ -186,7 +186,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 📌 Verifable Reward 📌 Reinforcement Learning <br>
 [📃 Paper](https://arxiv.org/abs/2507.09884)
 [📑 PDF](https://arxiv.org/pdf/2507.09884)
-[📹 Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf)
+[📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)
 </div>
 </div>
 
