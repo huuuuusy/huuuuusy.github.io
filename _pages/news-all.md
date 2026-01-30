@@ -6,8 +6,11 @@ permalink: /news-all.html
 
 
 ---
-
 # 🔥 News
+
+**2026.01**: 📣We showcased two oral papers ([📹 CausalStep Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf) and [📹 VerifyBench Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)) in the main conference and three workshop papers ([📹 SOEI Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-SOEI-Slides.pdf), [📹 EduVerse Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduVerse-Slides.pdf) and [📹 EduPersona Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduPersona-Slides.pdf)) at AAAI 2026. Thanks to everyone who visited us at the Singapore EXPO for the engaging discussions and exchanges!
+
+**2026.01**: 📝One paper ([NarrLV](https://huuuuusy.github.io/#NarrLV)) has been accepted by the 14th International Conference on Learning Representations (ICLR, CAAI-A Conference).
 
 **2025.12**: 📣We will conduct a Mini-Symposium (topic: Complex Network Systems and Large Language Models) on [NODYCON 2026 (The Fifth International Nonlinear Dynamics Conference)](https://nodycon2026.app.earendelplatform.com/), more information will be released soon.
 

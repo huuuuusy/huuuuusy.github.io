@@ -190,6 +190,19 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='../../images/NarrLV.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='NarrLV'></span>
+
+**NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation Models**<br>
+[X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), H. Yu, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, J. Chen, C. Zhu, J. Wu, [X. Chu](https://cxxgtxy.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+📌 Visual Understanding 📌 Video Generation 📌 Evaluation Technique<br>
+[📃 Paper](https://arxiv.org/abs/2507.11245) 
+[📑 PDF](https://arxiv.org/pdf/2507.11245) 
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='../../images/CSTrack.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -620,19 +633,6 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. L
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/NarrLV.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='NarrLV'></span>
-
-**NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation Models**<br>
-[X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), H. Yu, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, J. Chen, C. Zhu, J. Wu, [X. Chu](https://cxxgtxy.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-📌 Visual Understanding 📌 Video Generation 📌 Evaluation Technique<br>
-[📃 Paper](https://arxiv.org/abs/2507.11245) 
-[📑 PDF](https://arxiv.org/pdf/2507.11245) 
-</div>
-</div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/RGRL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -644,6 +644,20 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. L
 📌 Thinking-with-Image 📌 Vision-Language Models 📌 Pixel Reasoning<br>
 [📃 Paper](https://arxiv.org/abs/2510.01681) 
 [📑 PDF](https://arxiv.org/pdf/2510.01681) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/ViEBench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='ViEBench'></span>
+
+**Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images**<br>
+[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ),[J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en)<br>
+📌 Thinking-with-Image 📌 Vision-Language Models 📌 Agentic Models<br>
+[📃 Paper](https://arxiv.org/abs/2601.11633) 
+[📑 PDF](https://arxiv.org/abs/2601.11633) 
 </div>
 </div>
 

@@ -1,5 +1,9 @@
 # 🔥 News
 
+**2026.01**: 📣We showcased two oral papers ([📹 CausalStep Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf) and [📹 VerifyBench Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)) in the main conference and three workshop papers ([📹 SOEI Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-SOEI-Slides.pdf), [📹 EduVerse Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduVerse-Slides.pdf) and [📹 EduPersona Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduPersona-Slides.pdf)) at AAAI 2026. Thanks to everyone who visited us at the Singapore EXPO for the engaging discussions and exchanges!
+
+**2026.01**: 📝One paper ([NarrLV](https://huuuuusy.github.io/#NarrLV)) has been accepted by the 14th International Conference on Learning Representations (ICLR, CAAI-A Conference).
+
 **2025.12**: 📣We will conduct a Mini-Symposium (topic: Complex Network Systems and Large Language Models) on [NODYCON 2026 (The Fifth International Nonlinear Dynamics Conference)](https://nodycon2026.app.earendelplatform.com/), more information will be released soon.
 
 **2025.11**: 📝Three papers have been accepted by the AI for Education Workshop in the 40th Annual AAAI Conference on Artificial Intelligence (AAAIW).
@@ -39,10 +43,6 @@
 **2025.01**: 📝One paper ([CTVLT](https://huuuuusy.github.io/#ICASSP25)) has been accepted by IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B conference). 
 
 **2025.01**: 📣A special issue ([Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E)) in [Electronics](https://www.mdpi.com/journal/electronics) has been announced, all papers related to this topic are welcomed for submission!
-
-**2024.12**: 📣We have conducted a tutorial at [Asian Conference on Computer Vision (ACCV)](https://accv2024.org/) (Dec. 9th 2024, Hanoi, Vietnam). 
-
-**2024.12**: 📣We have prepared a tutorial at [International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/) (Dec. 1st 2024, Kolkata, India). 
 
 
 [▶️For More News](https://huuuuusy.github.io/news-all)
