@@ -8,6 +8,8 @@ permalink: /news-all.html
 ---
 # 🔥 News
 
+**2026.02**: 📝One paper ([MATrack](https://huuuuusy.github.io/#MATrack)) has been accepted by the 2026 IEEE International Conference on Robotics & Automation (ICRA, CAAI-A Conference).
+
 **2026.01**: 📣We showcased two oral papers ([📹 CausalStep Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf) and [📹 VerifyBench Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)) in the main conference and three workshop papers ([📹 SOEI Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-SOEI-Slides.pdf), [📹 EduVerse Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduVerse-Slides.pdf) and [📹 EduPersona Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduPersona-Slides.pdf)) at AAAI 2026. Thanks to everyone who visited us at the Singapore EXPO for the engaging discussions and exchanges!
 
 **2026.01**: 📝One paper ([NarrLV](https://huuuuusy.github.io/#NarrLV)) has been accepted by the 14th International Conference on Learning Representations (ICLR, CAAI-A Conference).
@@ -26,7 +28,7 @@ permalink: /news-all.html
 
 **2025.07**: 🏆Obtain IEEE SMCS TEAM Program Award.
 
-**2025.06**: 📝One co-first author paper ([ATCTrack](https://huuuuusy.github.io/#ATCTrack)) has been accepted by International Conference on Computer Vision (ICCV, CCF-A conference, **<font color=DarkRed>Highlight</font>**). 
+**2025.06**: 📝One paper ([ATCTrack](https://huuuuusy.github.io/#ATCTrack)) has been accepted by International Conference on Computer Vision (ICCV, CCF-A conference, **<font color=DarkRed>Highlight</font>**). 
 
 **2025.05**: 📝One [review paper](https://huuuuusy.github.io/#CEAI-adaptive) has been accepted by Computers and Education: Artificial Intelligence. 
 
@@ -38,9 +40,9 @@ permalink: /news-all.html
 
 **2025.05**: 📝One paper ([CSTrack](https://huuuuusy.github.io/#CSTrack)) has been accepted by International Conference on Machine Learning (ICML, CCF-A conference). 
 
-**2025.05**: 📝One corresponding paper ([DARTer](https://huuuuusy.github.io/#DARTer)) has been accepted by International Conference on Multimedia Retrieval (ICMR, CCF-B conference).
+**2025.05**: 📝One paper ([DARTer](https://huuuuusy.github.io/#DARTer)) has been accepted by International Conference on Multimedia Retrieval (ICMR, CCF-B conference).
 
-**2025.05**: 📝One corresponding paper ([MSAD](https://huuuuusy.github.io/#MSAD)) has been accepted by IET Computer Vision (IET-CVI, CCF-C journal).
+**2025.05**: 📝One paper ([MSAD](https://huuuuusy.github.io/#MSAD)) has been accepted by IET Computer Vision (IET-CVI, CCF-C journal).
 
 **2025.04**: 📣We will conduct a tutorial at [28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/) (25th-30th October, 2025, Bologna, Italy).
 
@@ -94,13 +96,13 @@ permalink: /news-all.html
 
 **2023.10** : 🏆Obtain First Prize of Climbing Scholarship (攀登一等奖学金, only 6 students in CASIA win this scholarship).
 
-**2023.10** : 📝One second author & corresponding author [paper](https://huuuuusy.github.io/#BioDrone) has been accepted by International Journal of Computer Vision (IJCV, CCF-A journal).
+**2023.10** : 📝One [paper](https://huuuuusy.github.io/#BioDrone) has been accepted by International Journal of Computer Vision (IJCV, CCF-A journal).
 
-**2023.09** : 📝One first author [survey](https://huuuuusy.github.io/#JIG-survey) has been accepted by Journal of Images and Graphics (《中国图像图形学报》). 
+**2023.09** : 📝One [survey](https://huuuuusy.github.io/#JIG-survey) has been accepted by Journal of Images and Graphics (《中国图像图形学报》). 
 
-**2023.09** : 📝One first author [paper](https://huuuuusy.github.io/#MGIT) has been accepted by Conference on Neural Information Processing Systems (NeurIPS, CCF-A conference).
+**2023.09** : 📝One [paper](https://huuuuusy.github.io/#MGIT) has been accepted by Conference on Neural Information Processing Systems (NeurIPS, CCF-A conference).
 
-**2023.09** : 📝One first author [paper](https://huuuuusy.github.io/#SOTVerse) has been accepted by International Journal of Computer Vision (IJCV, CCF-A journal). 
+**2023.09** : 📝One [paper](https://huuuuusy.github.io/#SOTVerse) has been accepted by International Journal of Computer Vision (IJCV, CCF-A journal). 
 
 **2023.08** : 📝One [paper](https://huuuuusy.github.io/#PRCV23) has been accepted by Chinese Conference on Pattern Recognition and Computer Vision (PRCV, CCF-C conference).
 
@@ -108,7 +110,7 @@ permalink: /news-all.html
 
 **2022.06** : 📝One [paper](https://huuuuusy.github.io/#Neu22) has been accepted by Neurocomputing (Neu). 
 
-**2022.02** : 📝One first author [paper](https://huuuuusy.github.io/#GIT) has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, CCF-A journal). 
+**2022.02** : 📝One [paper](https://huuuuusy.github.io/#GIT) has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, CCF-A journal). 
 
 **2021.06** : 📝One [survey](https://huuuuusy.github.io/#VTT) has been accepted by Journal of Graphics (《图学学报》). 
 

@@ -20,6 +20,7 @@
 
 ## Accept
 
+### First Author / Corresponding Author
 <!-- 代表作按照固定顺序排列 -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='../../images/GIT.png' alt="sym" width="100%"></div></div>
@@ -109,6 +110,34 @@
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2026</div><img src='../../images/MATrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='MATrack'></span>
+
+**MATrack: Efficient Multiscale Adaptive Tracker for Real-Time Nighttime UAV Operations**<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
+[International Conference on Robotics and Automation](https://2026.ieee-icra.org/) (CAAI-A Conference)<br>
+📌 Nighttime UAVs Tracking 📌 Multiscale Adaptive Tracker 📌 Visual Object Tracking <br>
+[📃 Paper](https://arxiv.org/abs/2510.21586)
+[📑 PDF](https://arxiv.org/pdf/2510.21586)
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2025</div><img src='../../images/DARTer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='DARTer'></span>
+
+**DARTer: Dynamic Adaptive Representation Tracker for Nighttime UAV Tracking**<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
+[International Conference on Multimedia Retrieval](https://www.icmr-2025.org/) (CCF-B Conference)<br>
+📌 Nighttime UAVs Tracking 📌 Dark Feature Blending 📌 Dynamic Feature Activation <br>
+[📃 Paper](https://dl.acm.org/doi/abs/10.1145/3731715.3733473)
+[📑 PDF](https://dl.acm.org/doi/pdf/10.1145/3731715.3733473)
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国图象图形学报 2023</div><img src='../../images/Survey23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -126,21 +155,6 @@
 </div>
 
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2025</div><img src='../../images/DARTer.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='DARTer'></span>
-
-**DARTer: Dynamic Adaptive Representation Tracker for Nighttime UAV Tracking**<br>
-[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
-[International Conference on Multimedia Retrieval](https://www.icmr-2025.org/) (CCF-B Conference)<br>
-📌 Nighttime UAVs Tracking 📌 Dark Feature Blending 📌 Dynamic Feature Activation <br>
-[📃 Paper](https://dl.acm.org/doi/abs/10.1145/3731715.3733473)
-[📑 PDF](https://dl.acm.org/doi/pdf/10.1145/3731715.3733473)
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IET-CVI 2025</div><img src='../../images/MSAD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -155,9 +169,9 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 </div>
 </div>
 
+### Collaborator (Arranged in Chronological Order)
 
 <!-- 合作论文按时间顺序排列 -->
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='../../images/CausalStep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -218,6 +232,82 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='../../images/ICASSP25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='ICASSP25'></span>
+
+**Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<br>
+[X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li),  [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2025.ieeeicassp.org/) (CCF-B Conference, Poster)<br>
+📌 Visual Language Tracking 📌 Multi-modal Learning 📌 Grounding Model<br>
+[📃 Paper](https://ieeexplore.ieee.org/document/10888064) 
+[📃 PDF](https://arxiv.org/pdf/2412.19648)
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">C&E:AI 2025</div><img src='../../images/CEAI-adaptive.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='CEAI-adaptive'></span>
+
+**Artificial Intelligence-Enabled Adaptive Learning Platforms: A Review**<br>
+L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+[Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
+📌 Adaptive Learning Platforms 📌 AI for Education 📌 Educational Technology<br>
+[📃 Paper](https://www.sciencedirect.com/science/article/pii/S2666920X25000694) 
+[📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='../../images/Mathematics-AGS.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='Mathematics-AGS'></span>
+
+**A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques**<br>
+L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+[Mathematics](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
+📌 Automated Grading Systems 📌 AI for Education 📌 Educational Technology<br>
+[📃 Paper](https://www.mdpi.com/2227-7390/13/17/2828) 
+<!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Innovation and Emerging Technologies 2025</div><img src='../../images/IET-AI4Edu.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='IET-AI4Edu'></span>
+
+**Trustworthy AI in education: Framework, cases, and governance strategies**<br>
+Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  <br>
+[Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?cmpid=6350db6df59e5b0001f79b4b)<br>
+📌 Trustworthy Artificial Intelligence 📌 Educational Governance 📌 Algorithmic Fairness;<br>
+[📃 Paper](https://www.worldscientific.com/doi/abs/10.1142/S2737599425500264) 
+<!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国心理卫生杂志 2025</div><img src='../../images/IGBA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='IGBA'></span>
+
+**A Review of Intelligent Psychological Assessment Based on Interactive Environment (基于交互环境的智能化心理测评)**<br>
+[K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
+[Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSSCI Journal, Top Psychological Journal in China)<br>
+📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='../../images/CPDTrack.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -247,20 +337,6 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='../../images/ICASSP25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='ICASSP25'></span>
-
-**Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<br>
-[X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li),  [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2025.ieeeicassp.org/) (CCF-B Conference, Poster)<br>
-📌 Visual Language Tracking 📌 Multi-modal Learning 📌 Grounding Model<br>
-[📃 Paper](https://ieeexplore.ieee.org/document/10888064) 
-[📃 PDF](https://arxiv.org/pdf/2412.19648)
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='../../images/ICASSP24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -330,6 +406,23 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSAI 2023</div><img src='../../images/CSAI23.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='CSAI23'></span>
+
+**Rethinking Similar Object Interference in Single Object Tracking**<br>
+[Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
+[International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **<font color=DarkRed>Oral</font>**)<br>
+📌 Visual Object Tracking 📌 Similar Object Interference 📌 Data Mining<br>
+[📃 Paper](https://dl.acm.org/doi/abs/10.1145/3638584.3638644) 
+[🗒 bibTex](https://huuuuusy.github.io/files/CSAI23.bib) 
+[📑 PDF](https://huuuuusy.github.io/files/CSAI23.pdf)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurocomputing 2022</div><img src='../../images/Neu22.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -361,80 +454,8 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">C&E:AI 2025</div><img src='../../images/CEAI-adaptive.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='CEAI-adaptive'></span>
-
-**Artificial Intelligence-Enabled Adaptive Learning Platforms: A Review**<br>
-L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
-[Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
-📌 Adaptive Learning Platforms 📌 AI for Education 📌 Educational Technology<br>
-[📃 Paper](https://www.sciencedirect.com/science/article/pii/S2666920X25000694) 
-[📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf)
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='../../images/Mathematics-AGS.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='Mathematics-AGS'></span>
-
-**A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques**<br>
-L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
-[Mathematics](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
-📌 Automated Grading Systems 📌 AI for Education 📌 Educational Technology<br>
-[📃 Paper](https://www.mdpi.com/2227-7390/13/17/2828) 
-<!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
-
-</div>
-</div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Innovation and Emerging Technologies 2025</div><img src='../../images/IET-AI4Edu.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='IET-AI4Edu'></span>
-
-**Trustworthy AI in education: Framework, cases, and governance strategies**<br>
-Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  <br>
-[Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?cmpid=6350db6df59e5b0001f79b4b)<br>
-📌 Trustworthy Artificial Intelligence 📌 Educational Governance 📌 Algorithmic Fairness;<br>
-[📃 Paper](https://www.worldscientific.com/doi/abs/10.1142/S2737599425500264) 
-<!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国心理卫生杂志 2025</div><img src='../../images/IGBA.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='IGBA'></span>
-
-**A Review of Intelligent Psychological Assessment Based on Interactive Environment (基于交互环境的智能化心理测评)**<br>
-[K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
-[Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSSCI Journal, Top Psychological Journal in China)<br>
-📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSAI 2023</div><img src='../../images/CSAI23.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='CSAI23'></span>
-
-**Rethinking Similar Object Interference in Single Object Tracking**<br>
-[Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
-[International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **<font color=DarkRed>Oral</font>**)<br>
-📌 Visual Object Tracking 📌 Similar Object Interference 📌 Data Mining<br>
-[📃 Paper](https://dl.acm.org/doi/abs/10.1145/3638584.3638644) 
-[🗒 bibTex](https://huuuuusy.github.io/files/CSAI23.bib) 
-[📑 PDF](https://huuuuusy.github.io/files/CSAI23.pdf)
-
-</div>
-</div>
 
 ## Workshop
 
@@ -534,18 +555,6 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/MATrack.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='MATrack'></span>
-
-**MATrack: Efficient Multiscale Adaptive Tracker for Real-Time Nighttime UAV Operations**<br>
-[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
-📌 Nighttime UAVs Tracking 📌 Multiscale Adaptive Tracker 📌 Visual Object Tracking <br>
-[📃 Paper](https://arxiv.org/abs/2510.21586)
-[📑 PDF](https://arxiv.org/pdf/2510.21586)
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/SOI-V2.png' alt="sym" width="100%"></div></div>

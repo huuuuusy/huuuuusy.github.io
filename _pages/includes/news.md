@@ -1,5 +1,7 @@
 # 🔥 News
 
+**2026.02**: 📝One paper ([MATrack](https://huuuuusy.github.io/#MATrack)) has been accepted by the 2026 IEEE International Conference on Robotics & Automation (ICRA, CAAI-A Conference).
+
 **2026.01**: 📣We showcased two oral papers ([📹 CausalStep Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf) and [📹 VerifyBench Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)) in the main conference and three workshop papers ([📹 SOEI Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-SOEI-Slides.pdf), [📹 EduVerse Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduVerse-Slides.pdf) and [📹 EduPersona Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduPersona-Slides.pdf)) at AAAI 2026. Thanks to everyone who visited us at the Singapore EXPO for the engaging discussions and exchanges!
 
 **2026.01**: 📝One paper ([NarrLV](https://huuuuusy.github.io/#NarrLV)) has been accepted by the 14th International Conference on Learning Representations (ICLR, CAAI-A Conference).
@@ -18,7 +20,7 @@
 
 **2025.07**: 🏆Obtain IEEE SMCS TEAM Program Award.
 
-**2025.06**: 📝One co-first author paper ([ATCTrack](https://huuuuusy.github.io/#ATCTrack)) has been accepted by International Conference on Computer Vision (ICCV, CCF-A conference, **<font color=DarkRed>Highlight</font>**). 
+**2025.06**: 📝One paper ([ATCTrack](https://huuuuusy.github.io/#ATCTrack)) has been accepted by International Conference on Computer Vision (ICCV, CCF-A conference, **<font color=DarkRed>Highlight</font>**). 
 
 **2025.05**: 📝One [review paper](https://huuuuusy.github.io/#CEAI-adaptive) has been accepted by Computers and Education: Artificial Intelligence. 
 
@@ -30,19 +32,13 @@
 
 **2025.05**: 📝One paper ([CSTrack](https://huuuuusy.github.io/#CSTrack)) has been accepted by International Conference on Machine Learning (ICML, CCF-A conference). 
 
-**2025.05**: 📝One corresponding paper ([DARTer](https://huuuuusy.github.io/#DARTer)) has been accepted by International Conference on Multimedia Retrieval (ICMR, CCF-B conference).
+**2025.05**: 📝One paper ([DARTer](https://huuuuusy.github.io/#DARTer)) has been accepted by International Conference on Multimedia Retrieval (ICMR, CCF-B conference).
 
-**2025.05**: 📝One corresponding paper ([MSAD](https://huuuuusy.github.io/#MSAD)) has been accepted by IET Computer Vision (IET-CVI, CCF-C journal).
+**2025.05**: 📝One paper ([MSAD](https://huuuuusy.github.io/#MSAD)) has been accepted by IET Computer Vision (IET-CVI, CCF-C journal).
 
 **2025.04**: 📣We will conduct a tutorial at [28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/) (25th-30th October, 2025, Bologna, Italy).
 
 **2025.03**: 📣We will conduct a tutorial at [2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/) (5th-8th October, 2025, Vienna, Austria).
-
-**2025.02**: 📖The book [*Visual Object Tracking: An Evaluation Perspective*](https://link.springer.com/book/9789819645572) is online.
-
-**2025.01**: 📝One paper ([CTVLT](https://huuuuusy.github.io/#ICASSP25)) has been accepted by IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B conference). 
-
-**2025.01**: 📣A special issue ([Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E)) in [Electronics](https://www.mdpi.com/journal/electronics) has been announced, all papers related to this topic are welcomed for submission!
 
 
 [▶️For More News](https://huuuuusy.github.io/news-all)
