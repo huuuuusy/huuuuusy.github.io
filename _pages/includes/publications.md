@@ -227,6 +227,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 
 **NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation Models**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), H. Yu, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, J. Chen, C. Zhu, J. Wu, [X. Chu](https://cxxgtxy.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+[International Conference on Learning Representations](https://iclr.cc/Conferences/2026) (CAAI-A Conference)<br>
 📌 Visual Understanding 📌 Video Generation 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2507.11245) 
 [📑 PDF](https://arxiv.org/pdf/2507.11245) 
@@ -257,7 +258,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 
 **Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspectives**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
-[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (TNSE)<br>
+[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering)<br>
 📌 Constraint-driven Video Intelligence 📌Multimodal Understanding and Reasoning <br>
 <!-- [📃 Paper](https://arxiv.org/abs/2507.09884)
 [📑 PDF](https://arxiv.org/pdf/2507.09884)
