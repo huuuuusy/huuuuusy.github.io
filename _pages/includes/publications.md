@@ -173,6 +173,22 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 
 <!-- 合作论文按时间顺序排列 -->
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='../../images/EARL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='EARL'></span>
+
+**Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning**<br>
+[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+[Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr.thecvf.com/Conferences/2026) (CCF-A Conference)<br>
+📌 Video Large Language Models 📌 Video Reasoning 📌 Video Understanding <br>
+[📃 Paper](https://arxiv.org/abs/2510.15440)
+[📑 PDF](https://arxiv.org/pdf/2510.15440)
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='../../images/CausalStep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -214,6 +230,38 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 📌 Visual Understanding 📌 Video Generation 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2507.11245) 
 [📑 PDF](https://arxiv.org/pdf/2507.11245) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2026</div><img src='../../images/DAAWBench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='DAAWBench'></span>
+
+**Talk with Your Fingers: A Depth-Aware Benchmark for Air-Writing Recognition**<br>
+[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***,  [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), J. Wu, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)<br>
+📌 Depth-aware Air-writing 📌 Benchmark Construction 📌 Human-machine Interaction<br>
+<!-- [📃 Paper](https://ieeexplore.ieee.org/document/10496279) 
+[📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf)
+[🔧 Toolkit](https://github.com/wmeiqi/AWCV)  -->
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='../../images/TNSE26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='TNSE26'></span>
+
+**Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspectives**<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
+[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (TNSE)<br>
+📌 Constraint-driven Video Intelligence 📌Multimodal Understanding and Reasoning <br>
+<!-- [📃 Paper](https://arxiv.org/abs/2507.09884)
+[📑 PDF](https://arxiv.org/pdf/2507.09884)
+[📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf) -->
 </div>
 </div>
 
@@ -623,20 +671,6 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. L
 📌 Multi-object Tracking 📌 Tracking by Detection 📌 Tracking by Query<br>
 [📃 Paper](https://arxiv.org/abs/2411.06197) 
 [📑 PDF](https://arxiv.org/pdf/2411.06197) 
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/EARL.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='EARL'></span>
-
-**Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning**<br>
-[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-📌 Video Large Language Models 📌 Video Reasoning 📌 Video Understanding <br>
-[📃 Paper](https://arxiv.org/abs/2510.15440)
-[📑 PDF](https://arxiv.org/pdf/2510.15440)
 </div>
 </div>
 
