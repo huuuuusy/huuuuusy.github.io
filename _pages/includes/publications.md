@@ -227,7 +227,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 
 **NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation Models**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), H. Yu, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, J. Chen, C. Zhu, J. Wu, [X. Chu](https://cxxgtxy.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-[International Conference on Learning Representations](https://iclr.cc/Conferences/2026) (CAAI-A Conference)<br>
+[International Conference on Learning Representations](https://iclr.cc/Conferences/2026) (CCF-A Conference)<br>
 📌 Visual Understanding 📌 Video Generation 📌 Evaluation Technique<br>
 [📃 Paper](https://arxiv.org/abs/2507.11245) 
 [📑 PDF](https://arxiv.org/pdf/2507.11245) 
@@ -244,9 +244,9 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***,  [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), J. Wu, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)<br>
 📌 Depth-aware Air-writing 📌 Benchmark Construction 📌 Human-machine Interaction<br>
-<!-- [📃 Paper](https://ieeexplore.ieee.org/document/10496279) 
-[📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf)
-[🔧 Toolkit](https://github.com/wmeiqi/AWCV)  -->
+[📃 Paper](https://ieeexplore.ieee.org/abstract/document/11421430) 
+<!-- [📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf) -->
+<!-- [🔧 Toolkit](https://github.com/wmeiqi/AWCV)  -->
 </div>
 </div>
 
@@ -260,9 +260,9 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
 [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering)<br>
 📌 Constraint-driven Video Intelligence 📌Multimodal Understanding and Reasoning <br>
-<!-- [📃 Paper](https://arxiv.org/abs/2507.09884)
-[📑 PDF](https://arxiv.org/pdf/2507.09884)
-[📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf) -->
+[📃 Paper](https://ieeexplore.ieee.org/abstract/document/11417444/)
+<!-- [📑 PDF](https://arxiv.org/pdf/2507.09884) -->
+<!-- [📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf) -->
 </div>
 </div>
 
