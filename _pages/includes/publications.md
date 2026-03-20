@@ -242,7 +242,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 
 **Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking**<br>
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
-[Pattern Recognition](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)<br>
+[Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) (CCF-B Journal)<br>
 📌 Multi-object Tracking 📌 Tracking by Detection 📌 Tracking by Query<br>
 [📃 Paper](https://arxiv.org/abs/2411.06197) 
 [📑 PDF](https://arxiv.org/pdf/2411.06197) 
