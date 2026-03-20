@@ -8,6 +8,8 @@ permalink: /news-all.html
 ---
 # 🔥 News
 
+**2026.03**: 📝One paper ([TBDQ](https://huuuuusy.github.io/#TBDQ)) has been accepted by the Pattern Recognition (PR, CCF-B Journal).
+
 **2026.02**: 📝One paper ([EARL](https://huuuuusy.github.io/#EARL)) has been accepted by the 2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A Conference).
 
 **2026.02**: 📝One paper ([MATrack](https://huuuuusy.github.io/#MATrack)) has been accepted by the 2026 IEEE International Conference on Robotics & Automation (ICRA, CAAI-A Conference).

@@ -235,6 +235,21 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='../../images/TBDQ.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='TBDQ'></span>
+
+**Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking**<br>
+S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
+[Pattern Recognition](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)<br>
+📌 Multi-object Tracking 📌 Tracking by Detection 📌 Tracking by Query<br>
+[📃 Paper](https://arxiv.org/abs/2411.06197) 
+[📑 PDF](https://arxiv.org/pdf/2411.06197) 
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2026</div><img src='../../images/DAAWBench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -263,6 +278,22 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/11417444/)
 <!-- [📑 PDF](https://arxiv.org/pdf/2507.09884) -->
 <!-- [📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf) -->
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2026</div><img src='../../images/Mathematics-CalcTutor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='Mathematics-CalcTutor'></span>
+
+**CalcTutor: Multi-Agent LLM Grading of Handwritten Mathematics with RAG-Grounded Feedback for Adaptive Learning Support**<br>
+L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+[Mathematics](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
+📌 Adaptive Learning 📌 Multi-agent LLM 📌 Retrieval Augmented Generation<br>
+<!-- [📃 Paper](https://www.mdpi.com/2227-7390/13/17/2828)  -->
+<!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
+
 </div>
 </div>
 
@@ -661,20 +692,6 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 [🌐 Project](http://videocube.aitestunion.com/) 
 </div>
 </div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/TBDQ.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='TBDQ'></span>
-
-**Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking**<br>
-S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
-📌 Multi-object Tracking 📌 Tracking by Detection 📌 Tracking by Query<br>
-[📃 Paper](https://arxiv.org/abs/2411.06197) 
-[📑 PDF](https://arxiv.org/pdf/2411.06197) 
-</div>
-</div>
-
 
 
 

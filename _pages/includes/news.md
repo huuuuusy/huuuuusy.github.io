@@ -1,5 +1,7 @@
 # 🔥 News
 
+**2026.03**: 📝One paper ([TBDQ](https://huuuuusy.github.io/#TBDQ)) has been accepted by the Pattern Recognition (PR, CCF-B Journal).
+
 **2026.02**: 📝One paper ([EARL](https://huuuuusy.github.io/#EARL)) has been accepted by the 2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A Conference).
 
 **2026.02**: 📝One paper ([MATrack](https://huuuuusy.github.io/#MATrack)) has been accepted by the 2026 IEEE International Conference on Robotics & Automation (ICRA, CAAI-A Conference).
@@ -44,7 +46,6 @@
 
 **2025.04**: 📣We will conduct a tutorial at [28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/) (25th-30th October, 2025, Bologna, Italy).
 
-**2025.03**: 📣We will conduct a tutorial at [2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/) (5th-8th October, 2025, Vienna, Austria).
 
 
 [▶️For More News](https://huuuuusy.github.io/news-all)
