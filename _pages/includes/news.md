@@ -2,7 +2,7 @@
 
 **2026.05**: 📣I am glad to have the opportunity to give a talk at the [Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/) in Guangzhou, China. Many thanks to the special session *Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges*. I sincerely look forward to exchanging ideas with everyone and hearing your valuable suggestions😄
 
-**2026.04**: 📝One paper ([RGRL](https://huuuuusy.github.io/#TRGRL)) has been accepted by the main conference of the 64th Annual Meeting of the Association for Computational Linguistics (ACL, CCF-A Conference).
+**2026.04**: 📝One paper ([RGRL](https://huuuuusy.github.io/#RGRL)) has been accepted by the main conference of the 64th Annual Meeting of the Association for Computational Linguistics (ACL, CCF-A Conference).
 
 **2026.04**: 📝One [research paper](https://huuuuusy.github.io/#Retina-EMBC) has been accepted by the 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC, CAAI-B Conference).
 
