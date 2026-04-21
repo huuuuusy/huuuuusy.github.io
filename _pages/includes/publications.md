@@ -234,6 +234,21 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='../../images/RGRL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='RGRL'></span>
+
+**Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning**<br>
+[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [W. Zhang](https://zwt233.github.io/)<br>
+[Annual Meeting of the Association for Computational Linguistics](https://2026.aclweb.org/) (CCF-A Conference)<br>
+📌 Thinking-with-Image 📌 Vision-Language Models 📌 Pixel Reasoning<br>
+[📃 Paper](https://arxiv.org/abs/2510.01681) 
+[📑 PDF](https://arxiv.org/pdf/2510.01681) 
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='../../images/TBDQ.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -262,6 +277,19 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. L
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/11421430) 
 <!-- [📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf) -->
 <!-- [🔧 Toolkit](https://github.com/wmeiqi/AWCV)  -->
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMBC 2026</div><img src='../../images/Retina-EMBC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='Retina-EMBC'></span>
+
+**Global-Local Semi-Supervised Modeling for Retinal Layer Boundary Estimation in OCT**<br>
+K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en), H. Yu, ***<font color=DarkRed>Shiyu Hu</font>***, S. W. Tan, [W. Y. Low](https://scholar.google.com/citations?user=XK5N6moAAAAJ&hl=en), [X. Su](https://www.a-star.edu.sg/imcb/people/su-xinyi), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+[Annual International Conference of the IEEE Engineering in Medicine and Biology Society](https://embc.embs.org/2026/) (CAAI-B Conference)<br>
+📌 Optical Coherence Tomography 📌 Semi-supervised Learning <br>
+
 </div>
 </div>
 
@@ -695,18 +723,6 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/RGRL.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='RGRL'></span>
-
-**Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning**<br>
-[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [W. Zhang](https://zwt233.github.io/)<br>
-📌 Thinking-with-Image 📌 Vision-Language Models 📌 Pixel Reasoning<br>
-[📃 Paper](https://arxiv.org/abs/2510.01681) 
-[📑 PDF](https://arxiv.org/pdf/2510.01681) 
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/ViEBench.png' alt="sym" width="100%"></div></div>

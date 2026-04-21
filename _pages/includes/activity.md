@@ -53,6 +53,15 @@
 <!-- [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
 [🌐 Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000) 
 
+## Talk
+
+**[Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/)**
+- **Title:** Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency
+- **Date & Location:** 29th, May, 2026, GuangZhou, China<br>
+<!-- - **Duration:** Half-day<br> -->
+<!-- [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
+<!-- [🌐 Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)  -->
+
 
 ## Guest Editor
 - **Journals**: [Electronics](https://www.mdpi.com/journal/electronics) (Special Issue: [Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E))
