@@ -14,6 +14,8 @@ permalink: /news-all.html
 
 **2026.04**: 📝One ([research paper](https://huuuuusy.github.io/#Retina-EMBC)) has been accepted by the 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC, CAAI-B Conference).
 
+**2026.04**: 📝One paper ([COAL](https://huuuuusy.github.io/#COAL)) has been accepted by the 35th International Joint Conference on Artificial Intelligence (IJCAI, CCF-B Conference).
+
 **2026.03**: 📝One paper ([TBDQ](https://huuuuusy.github.io/#TBDQ)) has been accepted by the Pattern Recognition (PR, CCF-B Journal).
 
 **2026.02**: 📝One paper ([EARL](https://huuuuusy.github.io/#EARL)) has been accepted by the 2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A Conference).

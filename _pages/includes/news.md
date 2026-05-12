@@ -6,6 +6,8 @@
 
 **2026.04**: 📝One [research paper](https://huuuuusy.github.io/#Retina-EMBC) has been accepted by the 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC, CAAI-B Conference).
 
+**2026.04**: 📝One paper ([COAL](https://huuuuusy.github.io/#COAL)) has been accepted by the 35th International Joint Conference on Artificial Intelligence (IJCAI, CCF-B Conference).
+
 **2026.03**: 📝One paper ([TBDQ](https://huuuuusy.github.io/#TBDQ)) has been accepted by the Pattern Recognition (PR, CCF-B Journal).
 
 **2026.02**: 📝One paper ([EARL](https://huuuuusy.github.io/#EARL)) has been accepted by the 2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A Conference).
@@ -35,20 +37,5 @@
 **2025.07**: 🏆Obtain IEEE SMCS TEAM Program Award.
 
 **2025.06**: 📝One paper ([ATCTrack](https://huuuuusy.github.io/#ATCTrack)) has been accepted by International Conference on Computer Vision (ICCV, CCF-A conference, **<font color=DarkRed>Highlight</font>**). 
-
-**2025.05**: 📝One [review paper](https://huuuuusy.github.io/#CEAI-adaptive) has been accepted by Computers and Education: Artificial Intelligence. 
-
-**2025.05**: 📣Our new work [FIOVA](https://huuuuusy.github.io/#FIOVA) is now online! We introduce a multi-annotator benchmark for human-aligned video captioning, supporting semantic diversity and cognitive-aware evaluation. Check out the [project page](https://huuuuusy.github.io/fiova/) and [arXiv paper](https://arxiv.org/pdf/2410.15270) for more details.
-
-**2025.05**: 📣Our updated work [SOEI](https://huuuuusy.github.io/#SOEI) now available! Building upon our previous framework, this version introduces interactive multi-turn simulation to model open-ended educational dialogues with cognitively plausible virtual students. We further validate the framework's effectiveness through behavioral analysis, personality recognition, and teacher-student reflection. Read more in the [arXiv paper](https://arxiv.org/pdf/2410.15701).
-
-**2025.05**: 📣We will present our work ([SOTVerse](https://huuuuusy.github.io/#SOTVerse)) at IJCV2024 during the [VALSE2025](https://valser.org/2025/) poster session (June 2025, Zhuhai, China).
-
-**2025.05**: 📝One paper ([CSTrack](https://huuuuusy.github.io/#CSTrack)) has been accepted by International Conference on Machine Learning (ICML, CCF-A conference). 
-
-**2025.05**: 📝One paper ([DARTer](https://huuuuusy.github.io/#DARTer)) has been accepted by International Conference on Multimedia Retrieval (ICMR, CCF-B conference).
-
-**2025.05**: 📝One paper ([MSAD](https://huuuuusy.github.io/#MSAD)) has been accepted by IET Computer Vision (IET-CVI, CCF-C journal).
-
 
 [▶️For More News](https://huuuuusy.github.io/news-all)

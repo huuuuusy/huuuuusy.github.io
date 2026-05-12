@@ -256,7 +256,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 <span class='anchor' id='TBDQ'></span>
 
 **Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking**<br>
-S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
+S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
 [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) (CCF-B Journal)<br>
 📌 Multi-object Tracking 📌 Tracking by Detection 📌 Tracking by Query<br>
 [📃 Paper](https://arxiv.org/abs/2411.06197) 
@@ -280,13 +280,29 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, Y. Cao, F. Yang, X. Lu, [X. L
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2026</div><img src='../../images/COAL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='TBDQ'></span>
+
+**COAL: Counterfactual and Observation-Enhanced Alignment Learning for Discriminative Referring Multi-Object Tracking**<br>
+S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), X. Cheng, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
+[International Joint Conference on Artificial Intelligence](https://2026.ijcai.org/) (CCF-B Conference)<br>
+📌 Multi-object Tracking 📌 Referring Multi-object Tracking <br>
+<!-- [📃 Paper](https://arxiv.org/abs/2411.06197) 
+[📑 PDF](https://arxiv.org/pdf/2411.06197)  -->
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMBC 2026</div><img src='../../images/Retina-EMBC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='Retina-EMBC'></span>
 
 **Global-Local Semi-Supervised Modeling for Retinal Layer Boundary Estimation in OCT**<br>
-K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en), H. Yu, ***<font color=DarkRed>Shiyu Hu</font>***, S. W. Tan, [W. Y. Low](https://scholar.google.com/citations?user=XK5N6moAAAAJ&hl=en), [X. Su](https://www.a-star.edu.sg/imcb/people/su-xinyi), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en), H. Yue, ***<font color=DarkRed>Shiyu Hu</font>***, S. W. Tan, [W. Y. Low](https://scholar.google.com/citations?user=XK5N6moAAAAJ&hl=en), [X. Su](https://www.a-star.edu.sg/imcb/people/su-xinyi), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 [Annual International Conference of the IEEE Engineering in Medicine and Biology Society](https://embc.embs.org/2026/) (CAAI-B Conference)<br>
 📌 Optical Coherence Tomography 📌 Semi-supervised Learning <br>
 
