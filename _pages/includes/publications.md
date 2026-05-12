@@ -284,7 +284,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2026</div><img src='../../images/COAL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<span class='anchor' id='TBDQ'></span>
+<span class='anchor' id='COAL'></span>
 
 **COAL: Counterfactual and Observation-Enhanced Alignment Learning for Discriminative Referring Multi-Object Tracking**<br>
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), X. Cheng, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
