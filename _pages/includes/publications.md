@@ -618,8 +618,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 [the AI for Education Workshop in the 40th Annual AAAI Conference on Artificial Intelligence](https://ai4ed.cc/workshops/aaai2026) (Workshop in CCF-A Conference),
 [📹 Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduPersona-Slides.pdf)
 
-- ``CVPRW 2024`` <span class='anchor' id='DTLLM'></span>
-**Diverse Text Generation for Visual Language Tracking Based on LLM**, 
+- <span class='anchor workshop-anchor' id='DTLLM'></span>``CVPRW 2024`` **Diverse Text Generation for Visual Language Tracking Based on LLM**,
 [X. Li](https://github.com/Xuchen-Li), [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), 
 [the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, **<font color=DarkRed>Oral, Best Paper Honorable Mention</font>**), 
 [📃 Paper](https://arxiv.org/abs/2405.12139) 

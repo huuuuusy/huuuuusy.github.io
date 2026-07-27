@@ -1327,10 +1327,10 @@ a {
 body {
     color: #252a31;
     background: #f7f8fa;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: -.004em;
-    line-height: 1.62;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1.5;
 }
 
 .masthead {
@@ -1347,7 +1347,8 @@ body {
         padding: .45rem .62rem;
         border-radius: .62rem;
         color: #53606d;
-        font-weight: 560;
+        font-size: 1rem;
+        font-weight: normal;
 
         &:hover {
             color: #244d6a;
@@ -1358,6 +1359,10 @@ body {
 
     .visible-links a:before {
         display: none;
+    }
+
+    .visible-links li:first-child a {
+        font-weight: bold;
     }
 
     button {
@@ -1497,8 +1502,8 @@ body {
 
 .paper-box .paper-box-text {
     color: #4b5967;
-    font-size: .9rem;
-    line-height: 1.56;
+    font-size: 1rem;
+    line-height: 1.5;
 
     > p:first-of-type strong:first-child {
         color: #253c50;
@@ -1532,9 +1537,7 @@ body {
 }
 
 .badge-preprint {
-    border-color: #dde1e6;
-    color: #5c6570;
-    background: #f2f4f6;
+    display: none;
 }
 
 .publication-subheading {
@@ -1555,8 +1558,8 @@ body {
         border-radius: .9rem;
         color: #4b5967;
         background: #fafbfc;
-        font-size: .9rem;
-        line-height: 1.56;
+        font-size: 1rem;
+        line-height: 1.5;
     }
 
     p {
@@ -1584,6 +1587,10 @@ body {
     }
 }
 
+.workshop-anchor:before {
+    display: none;
+}
+
 .home-section--cv {
     > ul {
         margin: 0;
@@ -1599,7 +1606,7 @@ body {
     border-radius: .62rem;
     color: #315d7b;
     background: #f6f9fb;
-    font-size: .84rem;
+    font-size: 1rem;
     font-weight: 650;
 
     &:hover {
@@ -1694,7 +1701,7 @@ body {
     .workshop-list li {
         padding: .8rem .85rem;
         border-radius: .8rem;
-        font-size: .86rem;
+        font-size: 1rem;
     }
 
     .platform-statistics-note {
