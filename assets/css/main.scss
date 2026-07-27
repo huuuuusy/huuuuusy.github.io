@@ -970,6 +970,19 @@ a {
     }
 }
 
+.institution-entry__logo--casia {
+    overflow: hidden;
+    justify-content: flex-start;
+
+    img {
+        width: auto;
+        max-width: none;
+        height: 54px;
+        max-height: none;
+        object-fit: initial;
+    }
+}
+
 .institution-entry__content {
     min-width: 0;
     color: #4b5d71;
@@ -1529,6 +1542,10 @@ body {
         img {
             max-height: 42px;
         }
+    }
+
+    .institution-entry__logo--casia img {
+        height: 48px;
     }
 
     .institution-entry__content {

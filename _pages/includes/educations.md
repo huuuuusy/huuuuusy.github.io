@@ -1,7 +1,7 @@
 # 📖 Educations
 
 <article class="institution-entry">
-  <a class="institution-entry__logo" href="http://english.ia.cas.cn/" aria-label="Institute of Automation, Chinese Academy of Sciences">
+  <a class="institution-entry__logo institution-entry__logo--casia" href="http://english.ia.cas.cn/" aria-label="Institute of Automation, Chinese Academy of Sciences">
     <img src="/images/institutions/casia.png" alt="Institute of Automation, Chinese Academy of Sciences logo">
   </a>
   <div class="institution-entry__content" markdown="1">
