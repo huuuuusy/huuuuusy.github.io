@@ -63,4 +63,4 @@ redirect_from:
   </center>
 </p>
 
-<script src="{{ '/assets/js/visitor-counter.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/visitor-counter.js' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}" defer></script>
