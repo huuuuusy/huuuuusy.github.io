@@ -125,6 +125,25 @@ h1:before, .anchor:before {
     font-size: .72em;
 }
 
+.research-figure {
+    margin: 1rem auto 1.5rem;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: .35rem;
+    }
+}
+
+.research-figure--history {
+    max-width: 680px;
+}
+
+.research-figure--framework {
+    max-width: 820px;
+}
+
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
