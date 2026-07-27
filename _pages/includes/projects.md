@@ -22,6 +22,11 @@ A cross-platform acceleration framework developed for Android and Ubuntu across 
 
 ## Research Platforms
 
+<p class="platform-statistics-note">
+  <span>Data snapshot</span>
+  Platform usage figures below are reported as of July 2026.
+</p>
+
 <div class="project-grid">
 <article class="project-card" markdown="1">
 

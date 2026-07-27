@@ -1376,6 +1376,29 @@ body {
     background: #eef4f9;
 }
 
+.platform-statistics-note {
+    display: flex;
+    gap: .55rem;
+    align-items: center;
+    margin: -.15rem 0 1rem;
+    padding: .55rem .72rem;
+    border: 1px solid rgba(40, 92, 143, .08);
+    border-radius: .72rem;
+    color: #586b7f;
+    background: #f4f8fb;
+    font-size: .74rem;
+    line-height: 1.45;
+
+    span {
+        flex: 0 0 auto;
+        color: #315f89;
+        font-size: .62rem;
+        font-weight: 800;
+        letter-spacing: .055em;
+        text-transform: uppercase;
+    }
+}
+
 .home-section--experience > p,
 .home-section--education > p,
 .home-section--honors > ul > li {
@@ -1427,5 +1450,11 @@ body {
     .paper-box,
     .project-card {
         border-radius: .85rem;
+    }
+
+    .platform-statistics-note {
+        align-items: flex-start;
+        margin-bottom: .8rem;
+        padding: .55rem .65rem;
     }
 }
