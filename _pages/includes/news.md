@@ -46,4 +46,7 @@
 
 </div>
 
-<a class="section-more" href="/news-all">View all news <span aria-hidden="true">→</span></a>
+<button class="section-more news-toggle" type="button" aria-expanded="false" hidden>
+  <span class="news-toggle__label">Show all news</span>
+  <span class="news-toggle__icon" aria-hidden="true">↓</span>
+</button>

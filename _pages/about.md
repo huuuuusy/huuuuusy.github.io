@@ -68,3 +68,4 @@ redirect_from:
 <p class="homepage-footer">&copy; Shiyu Hu <span aria-hidden="true">·</span> Last updated: 2026-07</p>
 
 <script src="{{ '/assets/js/visitor-counter.js' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/news-toggle.js' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}" defer></script>
