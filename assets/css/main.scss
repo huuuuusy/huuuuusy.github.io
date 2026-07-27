@@ -310,8 +310,15 @@ html {
 body {
     color: $home-ink;
     background: $home-canvas;
-    font-size: 15px;
-    line-height: 1.65;
+    font-family: $sans-serif;
+    font-size: 15.5px;
+    font-kerning: normal;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    letter-spacing: -.006em;
+    line-height: 1.64;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -471,7 +478,8 @@ a {
         color: $home-blue-dark;
         border-bottom: 1px solid #e8edf3;
         font-size: 1.45rem;
-        letter-spacing: -.025em;
+        font-weight: 650;
+        letter-spacing: -.018em;
 
         &:after {
             content: "";
@@ -489,11 +497,14 @@ a {
         margin-top: 1.75rem;
         color: #344a62;
         font-size: 1.12rem;
-        letter-spacing: -.012em;
+        font-weight: 650;
+        letter-spacing: -.008em;
     }
 
     h3 {
         color: #2d4259;
+        font-weight: 650;
+        letter-spacing: -.006em;
         line-height: 1.35;
     }
 }
@@ -931,8 +942,8 @@ a {
 
 .institution-entry {
     display: grid;
-    grid-template-columns: 112px minmax(0, 1fr);
-    gap: 1rem;
+    grid-template-columns: 78px minmax(0, 1fr);
+    gap: .85rem;
     align-items: start;
     padding: 1.05rem 0;
     border-top: 1px solid rgba(31, 55, 80, .075);
@@ -947,11 +958,11 @@ a {
     position: relative;
     display: flex;
     box-sizing: border-box;
-    width: 112px;
-    min-height: 80px;
+    width: 78px;
+    min-height: 72px;
     align-items: center;
     justify-content: center;
-    padding: .58rem;
+    padding: .4rem;
     border: 1px solid rgba(31, 55, 80, .075);
     border-radius: .82rem;
     background: #fff;
@@ -1561,15 +1572,15 @@ body {
     }
 
     .institution-entry {
-        grid-template-columns: 88px minmax(0, 1fr);
-        gap: .75rem;
+        grid-template-columns: 72px minmax(0, 1fr);
+        gap: .65rem;
         padding: .9rem 0;
     }
 
     .institution-entry__logo {
-        width: 88px;
-        min-height: 72px;
-        padding: .45rem;
+        width: 72px;
+        min-height: 68px;
+        padding: .32rem;
 
         img {
             max-height: 58px;
