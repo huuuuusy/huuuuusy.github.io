@@ -388,6 +388,16 @@ a {
 .home-page .page__content {
     color: $home-ink;
 
+    #about-me {
+        margin-top: 0;
+
+        &:before {
+            display: none;
+            height: 0;
+            margin-top: 0;
+        }
+    }
+
     a {
         text-decoration-color: rgba(40, 92, 143, .35);
         text-underline-offset: .14em;
