@@ -137,11 +137,24 @@ h1:before, .anchor:before {
 }
 
 .research-figure--history {
-    max-width: 680px;
+    max-width: 430px;
 }
 
 .research-figure--framework {
-    max-width: 820px;
+    max-width: 720px;
+    margin-top: 1.75rem;
+}
+
+.research-figure-clear {
+    clear: both;
+}
+
+@media (min-width: 48em) {
+    .research-figure--history {
+        float: left;
+        width: 46%;
+        margin: .35rem 1.5rem .75rem 0;
+    }
 }
 
 .badge {

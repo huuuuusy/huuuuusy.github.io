@@ -1,16 +1,38 @@
 # 🔍️ Research Interests
 
-## Research Trajectory
+## Research Foundation
 
 <figure class="research-figure research-figure--history">
   <img src="/images/goal.png" alt="Research trajectory from visual perception tasks to human-grounded intelligence evaluation">
 </figure>
 
-My research began with **visual object tracking and machine vision evaluation**. I studied how to design more human-like tasks, build open and realistic evaluation environments, and measure the gap between machine and human visual abilities. This work led to Global Instance Tracking, SOTVerse, the Visual Turing Test, and the 3E evaluation framework.
+My research began with **visual object tracking and machine vision evaluation**. I have studied task modeling, evaluation environments, measurement techniques, and human-machine comparison. Inspired by the Turing Test, I proposed the **Visual Turing Test** to evaluate dynamic visual intelligence against human abilities.
 
-As visual systems moved from closed benchmarks to long videos, multimodal inputs, and interaction with people, my focus expanded from tracking a target to maintaining reliable state and evidence over time. My current work asks how AI systems preserve object identity, world state, task-relevant evidence, and human context in open and changing environments.
+The central idea has remained consistent: AI evaluation should reveal what a system can perceive, understand, and reliably maintain in real environments, rather than report a benchmark score alone.
 
-## Current Directions
+<div class="research-figure-clear"></div>
+
+---
+
+### 1️⃣ What abilities define human perception?
+
+I used Visual Object Tracking as a representative task for studying dynamic visual ability. Traditional tracking assumes continuous motion and short-term observation. **Global Instance Tracking (GIT)** extends the task to long-term target retrieval, while **Multi-modal GIT (MGIT)** introduces hierarchical semantics and spatiotemporal reasoning. This work moved my research from perceptual localization toward cognitive visual tasks.
+
+---
+
+### 2️⃣ What environments do humans perceive?
+
+Human visual environments are continuous, open, and semantically rich. I developed [VideoCube](http://videocube.aitestunion.com/) to organize long videos through narrative structure, and [SOTVerse](https://huuuuusy.github.io/#SOTVerse) as an open task space for testing visual generalization. [BioDrone](https://huuuuusy.github.io/#BioDrone) further examines reliable perception under motion disturbance and real-world physical constraints.
+
+---
+
+### 3️⃣ How large is the human-machine gap?
+
+I constructed unified evaluation settings in which people and models perform comparable visual tasks. The results show different strengths: people use semantics and context more effectively, while machines often sustain precision and persistence. These comparisons shaped my interest in human-grounded evaluation and reliable human-AI collaboration.
+
+---
+
+## Current Research Directions
 
 ### Open-World Vision
 
@@ -22,12 +44,10 @@ I investigate whether multimodal foundation models select and use the right evid
 
 ### Human-Centered Agents
 
-I develop agents that model cognitive and learning states, capability boundaries, and social interaction. Education is a representative testbed for personalized agents, virtual students, multi-agent simulation, and reliable human-AI collaboration.
-
-## Research Framework
+I develop agents that model cognitive and learning states, capability boundaries, and social interaction. Education provides a practical setting for personalized agents, virtual students, multi-agent simulation, and reliable human-AI collaboration.
 
 <figure class="research-figure research-figure--framework">
   <img src="/images/3E.png" alt="The 3E framework connecting environment, evaluation, and executors">
 </figure>
 
-Across these three directions, I build open task spaces, human-grounded evaluation protocols, and process-level diagnostics. Evaluation identifies capability boundaries and failure mechanisms; those findings guide the design of more reliable models and systems.
+The **3E framework** connects Environment, Evaluation, and Executors in one evaluation loop. Across the three directions above, I build open task spaces, human-grounded protocols, and process-level diagnostics to identify capability boundaries and failure mechanisms, then use those findings to improve model and system design.
