@@ -1577,6 +1577,10 @@ body {
         height: 58px;
     }
 
+    .institution-entry__logo--crop img {
+        max-height: none;
+    }
+
     .institution-entry__content {
         font-size: .88rem;
     }
