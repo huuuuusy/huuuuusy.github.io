@@ -1189,18 +1189,6 @@ a {
     }
 }
 
-.home-section--cv a[href$="CV-EN.pdf"] {
-    display: inline-flex;
-    align-items: center;
-    padding: .55rem .85rem;
-    border: 1px solid $home-blue-dark;
-    border-radius: .5rem;
-    color: #fff;
-    background: $home-blue-dark;
-    font-weight: 700;
-    text-decoration: none;
-}
-
 .visitor-insights {
     border-color: #dce5ee;
     border-radius: 1rem;
@@ -1680,28 +1668,10 @@ body {
     display: none;
 }
 
-.home-section--cv {
+.home-section--contact {
     > ul {
         margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-}
-
-.home-section--cv a[href$="CV-EN.pdf"] {
-    min-height: 0;
-    padding: .42rem .72rem;
-    border: 1px solid #ccd8e1;
-    border-radius: .62rem;
-    color: #315d7b;
-    background: #f6f9fb;
-    font-size: 1rem;
-    font-weight: 650;
-
-    &:hover {
-        border-color: #aebfcb;
-        color: #244d6a;
-        background: #eef3f6;
+        padding-left: 1.2rem;
     }
 }
 

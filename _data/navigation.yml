@@ -6,6 +6,12 @@ main:
   - title: "News"
     url: "/#news"
 
+  - title: "Experience"
+    url: "/#experiences"
+
+  - title: "Education"
+    url: "/#educations"
+
   - title: "Research"
     url: "/#research-interests"
 
@@ -15,14 +21,14 @@ main:
   - title: "Projects"
     url: "/#projects"
 
-  - title: "Experience"
-    url: "/#experiences"
+  - title: "Honors"
+    url: "/#honors-and-awards"
 
   - title: "Service"
     url: "/#activities-and-services"
 
-  - title: "CV"
-    url: "/#cv"
+  - title: "Contact"
+    url: "/#contact"
 
   # - title: "Talks"
   #   url: /talks/    

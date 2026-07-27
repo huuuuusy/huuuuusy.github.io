@@ -44,8 +44,8 @@ redirect_from:
 {% include_relative includes/activity.md %}
 </section>
 
-<section class="home-section home-section--cv" id="cv" markdown="1">
-{% include_relative includes/cv.md %}
+<section class="home-section home-section--contact" id="contact" markdown="1">
+{% include_relative includes/contact.md %}
 </section>
 
 
