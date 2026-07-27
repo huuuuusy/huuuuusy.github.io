@@ -12,11 +12,11 @@
   ];
   var legacyCount = 15000;
   var legacyRegions = [
-    { code: "EU", label: "Europe", value: 4650 },
-    { code: "ESEA", label: "East & Southeast Asia", value: 3600 },
-    { code: "NA", label: "North America", value: 3450 },
-    { code: "SAME", label: "South Asia & Middle East", value: 2850 },
-    { code: "OTHER", label: "Oceania & Other Regions", value: 450 }
+    { code: "ESEA", label: "East & Southeast Asia", value: 5550 },
+    { code: "NA", label: "North America", value: 4200 },
+    { code: "EU", label: "Europe", value: 3450 },
+    { code: "SAME", label: "South Asia & Middle East", value: 1500 },
+    { code: "OTHER", label: "Oceania & Other Regions", value: 300 }
   ];
   var regionCountries = {
     EU: new Set([
