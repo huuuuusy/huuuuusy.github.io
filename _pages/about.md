@@ -39,14 +39,18 @@ redirect_from:
 {% include_relative includes/cv.md %}
 
 
-<a href='https://clustrmaps.com/site/1bzca'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=0e1633&w=a&t=tt&d=mtH-Pr0d3swe2WdQUTQVBf8Lz4RgVr7NC04XYL59i_Y&co=0b4975&ct=cdd4d9'/></a>
-
-My homepage visitors recorded from April 18th, 2024. Thanks for attention.
+<div class="visitor-counter" aria-live="polite">
+  <span class="visitor-counter__label">Homepage visits</span>
+  <strong id="visitor-count">—</strong>
+  <span class="visitor-counter__note">Privacy-friendly count, recorded from July 2026.</span>
+</div>
 
 <p>
   <center>
     <font>
-        <br>&copy; Shiyu Hu | Last updated: 2026-05
+        <br>&copy; Shiyu Hu | Last updated: 2026-07
     </font>
   </center>
 </p>
+
+<script src="{{ '/assets/js/visitor-counter.js' | relative_url }}" defer></script>

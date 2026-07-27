@@ -24,7 +24,7 @@
 <!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
 <!-- [🌐 Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
 
-**[31th IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/)**
+**[31st IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/)**
 - **Title:** An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis
 - **Date & Location:** 9:00-12:30, 27th October, 2024, Abu Dhabi, United Arab Emirates
 - **Duration:** Half-day<br>
@@ -48,7 +48,7 @@
 
 **[The Fifth International Nonlinear Dynamics Conference (NODYCON 2026)](https://nodycon2026.app.earendelplatform.com/)**
 - **Title:** Complex Network Systems and Large Language Models
-- **Date & Location:** 20th-23rd, September, 2026, Sapienza University of Rome, Italy<br>
+- **Date & Location:** 20th-23rd September, 2026, Sapienza University of Rome, Italy<br>
 <!-- - **Duration:** Half-day<br> -->
 <!-- [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
 [🌐 Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000) 
@@ -57,26 +57,32 @@
 
 **[Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/)**
 - **Title:** Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency
-- **Date & Location:** 29th, May, 2026, GuangZhou, China<br>
+- **Date & Location:** 29th May, 2026, Guangzhou, China<br>
 <!-- - **Duration:** Half-day<br> -->
 <!-- [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
 <!-- [🌐 Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)  -->
 
 
+## TPC Member
+
+- [Pacific Graphics 2026](https://pacificgraphics2026.github.io/) (CCF-B Conference)
+
 ## Guest Editor
-- **Journals**: [Electronics](https://www.mdpi.com/journal/electronics) (Special Issue: [Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E))
+
+- **Journal:** [Electronics](https://www.mdpi.com/journal/electronics) (Special Issue: [Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E))
 
 ## Associate Editor
-- **Journals**: [Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?srsltid=AfmBOopLcOIWa7JxQc87iT1UUl3PDKfsm47298tFwNS4qDaTVNTsS_JU)
+
+- **Journal:** [Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet)
 
 ## Reviewer
 
-- **Conferences:**  NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, ACL, AAAI, IJCAI, ACMMM, ICRA, AISTATS, etc.
-- **Journals**: IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, Pattern Recognition, IEEE Transactions on Network Science and Engineering, IEEE Transactions on Vehicular Technology, Information Fusion, Visual Intelligence, Engineering Applications of Artificial Intelligence, Expert Systems with Applications, Neurocomputing, Knowledge-Based Systems, Scientific Reports, Signal Processing: Image Communication, etc.
+- **Conferences:** NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, ACL, AAAI, IJCAI, ACM MM, ICRA, and AISTATS.
+- **Journals:** ACM Computing Surveys, IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, Pattern Recognition, Transactions on Machine Learning Research, IEEE Transactions on Network Science and Engineering, IEEE Transactions on Vehicular Technology, Information Fusion, Visual Intelligence, Engineering Applications of Artificial Intelligence, Expert Systems with Applications, Neurocomputing, and Knowledge-Based Systems.
 
 ## Member
 
-- **Societies:** Institute of Electrical and Electronics Engineers (IEEE, No.97803543), China Society of Image and Graphics (CSIG, No.E651129499M), Chinese Association for Artificial Intelligence (CAAI, No.E660120827A), China Computer Federation (CCF, No.Z1771M).
+- **Societies:** Institute of Electrical and Electronics Engineers (IEEE), China Society of Image and Graphics (CSIG), Chinese Association for Artificial Intelligence (CAAI), and China Computer Federation (CCF).
 
 <!-- <span class='anchor' id='collaborators'></span>
 

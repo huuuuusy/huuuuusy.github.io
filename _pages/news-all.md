@@ -8,7 +8,11 @@ permalink: /news-all.html
 ---
 # 🔥 News
 
+**2026.06**: 📝Our paper on [temporal modeling in visual object tracking](https://huuuuusy.github.io/#ECCV26-Temporal) has been accepted by the 2026 European Conference on Computer Vision (ECCV, CCF-B Conference).
+
 **2026.05**: 📣I am glad to have the opportunity to give a talk at the [Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/) in Guangzhou, China. Many thanks to the special session *Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges*. I sincerely look forward to exchanging ideas with everyone and hearing your valuable suggestions😄
+
+**2026.05**: 🏆I received a Reviewer Award from the 43rd International Conference on Machine Learning (ICML 2026).
 
 **2026.04**: 📝One paper ([RGRL](https://huuuuusy.github.io/#RGRL)) has been accepted by the main conference of the 64th Annual Meeting of the Association for Computational Linguistics (ACL, CCF-A Conference).
 
@@ -20,13 +24,13 @@ permalink: /news-all.html
 
 **2026.02**: 📝One paper ([EARL](https://huuuuusy.github.io/#EARL)) has been accepted by the 2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A Conference).
 
-**2026.02**: 📝One paper ([MATrack](https://huuuuusy.github.io/#MATrack)) has been accepted by the 2026 IEEE International Conference on Robotics & Automation (ICRA, CAAI-A Conference).
+**2026.02**: 📝One paper ([MATrack](https://huuuuusy.github.io/#MATrack)) has been accepted by the 2026 IEEE International Conference on Robotics & Automation (ICRA, CCF-B Conference).
 
 **2026.02**: 📝One paper ([DAAWBench](https://huuuuusy.github.io/#DAAWBench)) has been accepted by the IEEE Transactions on Circuits and Systems for Video Technology (TCSVT, CCF-B Journal).
 
 **2026.02**: 📝One [review paper](https://huuuuusy.github.io/#TNSE26) has been accepted by the IEEE Transactions on Network Science and Engineering (TNSE). 
 
-**2026.01**: 📣We showcased two oral papers ([📹 CausalStep Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf) and [📹 VerifyBench Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)) in the main conference and three workshop papers ([📹 SOEI Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-SOEI-Slides.pdf), [📹 EduVerse Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduVerse-Slides.pdf) and [📹 EduPersona Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduPersona-Slides.pdf)) at AAAI 2026. Thanks to everyone who visited us at the Singapore EXPO for the engaging discussions and exchanges!
+**2026.01**: 📣We presented two main-conference Oral papers ([📹 CausalStep Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf) and [📹 VerifyBench Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)) and three workshop papers ([📹 SOEI Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-SOEI-Slides.pdf), [📹 EduVerse Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduVerse-Slides.pdf), and [📹 EduPersona Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduPersona-Slides.pdf)) at AAAI 2026. Thanks to everyone who visited us at the Singapore EXPO for the discussions.
 
 **2026.01**: 📝One paper ([NarrLV](https://huuuuusy.github.io/#NarrLV)) has been accepted by the 14th International Conference on Learning Representations (ICLR, CCF-A Conference).
 

@@ -34,6 +34,6 @@ Third-party advertisers may also place and read cookies on your browser and/or u
 
 If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
 
-#### Google Analytics
+#### Privacy-friendly visitor statistics
 
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+This site uses a first-party visit counter and Cloudflare Web Analytics to understand aggregate website traffic. The public counter does not store IP addresses or personal profiles. A small local browser value prevents repeated refreshes from being counted as new visits within the same day.

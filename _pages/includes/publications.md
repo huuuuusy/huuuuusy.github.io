@@ -117,7 +117,7 @@
 
 **MATrack: Efficient Multiscale Adaptive Tracker for Real-Time Nighttime UAV Operations**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
-[International Conference on Robotics and Automation](https://2026.ieee-icra.org/) (CAAI-A Conference)<br>
+[International Conference on Robotics and Automation](https://2026.ieee-icra.org/) (CCF-B Conference)<br>
 📌 Nighttime UAVs Tracking 📌 Multiscale Adaptive Tracker 📌 Visual Object Tracking <br>
 [📃 Paper](https://arxiv.org/abs/2510.21586)
 [📑 PDF](https://arxiv.org/pdf/2510.21586)
@@ -139,7 +139,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国图象图形学报 2023</div><img src='../../images/Survey23.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国图象图形学报 2024</div><img src='../../images/Survey23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='JIG-survey'></span>
@@ -213,7 +213,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 **VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Guo](https://openreview.net/profile?id=~yongzhen.gyz1), [W. Zhang](https://zwt233.github.io/)<br>
 [Proceedings of the AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/) (CCF-A Conference, **<font color=DarkRed>Oral</font>**)<br>
-📌 Verifable Reward 📌 Reinforcement Learning <br>
+📌 Verifiable Reward 📌 Reinforcement Learning <br>
 [📃 Paper](https://arxiv.org/abs/2507.09884)
 [📑 PDF](https://arxiv.org/pdf/2507.09884)
 [📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)
@@ -296,6 +296,20 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><a href='../../images/ECCV26-Temporal.png' title="View the complete figure"><img class="paper-thumb" src='../../images/ECCV26-Temporal-thumb.png' alt="Complete figure for Rethinking Temporal Modeling in Visual Object Tracking" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='ECCV26-Temporal'></span>
+
+**Rethinking Temporal Modeling in Visual Object Tracking via Decoupled Auxiliary Supervision**<br>
+[D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, H. Fu, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+[European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (CCF-B Conference)<br>
+📌 Visual Object Tracking 📌 Temporal Modeling 📌 Auxiliary Supervision<br>
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMBC 2026</div><img src='../../images/Retina-EMBC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -315,7 +329,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 
 <span class='anchor' id='TNSE26'></span>
 
-**Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspectives**<br>
+**Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspective**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
 [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering)<br>
 📌 Constraint-driven Video Intelligence 📌Multimodal Understanding and Reasoning <br>
@@ -333,10 +347,9 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 
 **CalcTutor: Multi-Agent LLM Grading of Handwritten Mathematics with RAG-Grounded Feedback for Adaptive Learning Support**<br>
 L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
-[Mathematics](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
+[Mathematics](https://www.mdpi.com/2227-7390/14/7/1094)<br>
 📌 Adaptive Learning 📌 Multi-agent LLM 📌 Retrieval Augmented Generation<br>
-<!-- [📃 Paper](https://www.mdpi.com/2227-7390/13/17/2828)  -->
-<!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
+[📃 Paper](https://www.mdpi.com/2227-7390/14/7/1094)
 
 </div>
 </div>
@@ -605,6 +618,8 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 
 - ``CVPRW 2024``
+<span class='anchor' id='DTLLM'></span>
+
 **Diverse Text Generation for Visual Language Tracking Based on LLM**, 
 [X. Li](https://github.com/Xuchen-Li), [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), 
 [the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, **<font color=DarkRed>Oral, Best Paper Honorable Mention</font>**), 
@@ -621,6 +636,19 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 
 ## Preprint
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><a href='../../images/Streaming-Video-Survey.jpg' title="View the complete figure"><img class="paper-thumb" src='../../images/Streaming-Video-Survey-thumb.png' alt="Complete figure for the survey of streaming video understanding" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='Streaming-Video-Survey'></span>
+
+**How to Respond, How to Memorize, How to Be Fast: A Survey of Streaming Video Understanding**<br>
+[X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), J. Zhao, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions)<br>
+📌 Streaming Video Understanding 📌 Memory Modeling 📌 Efficient Inference<br>
+[📃 Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7008298)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/FIOVA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -709,6 +737,21 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><a href='../../images/STEMVerse.png' title="View the complete figure"><img class="paper-thumb" src='../../images/STEMVerse-thumb.png' alt="Complete STEMVerse diagnostic framework for STEM reasoning" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='STEMVerse'></span>
+
+**STEMVerse: A Dual-Axis Diagnostic Framework for STEM Reasoning in Large Language Models**<br>
+[X. Li](https://github.com/XuzhaoLi), [X. Li](https://github.com/Xuchen-Li), [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
+📌 STEM Reasoning 📌 Large Language Models 📌 Diagnostic Evaluation<br>
+[📃 Paper](https://arxiv.org/abs/2602.02497)
+[📑 PDF](https://arxiv.org/pdf/2602.02497)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/DTVLT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -766,4 +809,3 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 [📑 PDF](https://huuuuusy.github.io/files/VTT-ICLR.pdf)
 </div>
 </div>
-

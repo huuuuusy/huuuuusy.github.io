@@ -60,6 +60,14 @@
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
         }
+
+        .paper-thumb {
+            aspect-ratio: 16 / 9;
+            width: 100%;
+            box-sizing: border-box;
+            object-fit: contain;
+            background: #fff;
+        }
     }
     
     .paper-box-text{
@@ -88,13 +96,33 @@
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
+h1:before, .anchor:before {
     content: ''; 
     display: block; 
     position: relative; 
     width: 0; 
     height: $scroll_offset; 
     margin-top: -$scroll_offset;
+}
+
+.visitor-counter {
+    margin: 2rem 0 1rem;
+    padding: .85rem 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: .5rem;
+    background: #fafafa;
+    text-align: center;
+}
+
+.visitor-counter__label {
+    margin-right: .35rem;
+}
+
+.visitor-counter__note {
+    display: block;
+    margin-top: .2rem;
+    color: #666;
+    font-size: .72em;
 }
 
 .badge {

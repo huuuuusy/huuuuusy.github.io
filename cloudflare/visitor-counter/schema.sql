@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS counters (
+  name TEXT PRIMARY KEY,
+  value INTEGER NOT NULL DEFAULT 0 CHECK (value >= 0)
+);
