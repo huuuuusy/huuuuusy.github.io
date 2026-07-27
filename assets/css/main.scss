@@ -972,8 +972,8 @@ a {
 }
 
 .institution-entry__logo--emblem img {
-    width: 62px;
-    height: 62px;
+    width: 56px;
+    height: 56px;
 }
 
 .institution-entry__logo--crop {
@@ -996,19 +996,23 @@ a {
 }
 
 .institution-entry__logo--ntu {
-    --emblem-size: 62px;
-    --source-height: 80px;
+    --emblem-size: 64px;
+    --source-height: 72px;
 }
 
 .institution-entry__logo--casia {
-    --emblem-size: 68px;
-    --source-height: 61px;
+    --emblem-size: 62px;
+    --source-height: 50px;
 }
 
-.institution-entry__logo--bit,
+.institution-entry__logo--bit {
+    --emblem-size: 60px;
+    --source-height: 56px;
+}
+
 .institution-entry__logo--cas {
-    --emblem-size: 64px;
-    --source-height: 64px;
+    --emblem-size: 60px;
+    --source-height: 56px;
 }
 
 .institution-entry__content {
@@ -1573,8 +1577,8 @@ body {
     }
 
     .institution-entry__logo--emblem img {
-        width: 58px;
-        height: 58px;
+        width: 56px;
+        height: 56px;
     }
 
     .institution-entry__logo--crop img {
