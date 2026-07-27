@@ -14,7 +14,7 @@
 - **Thesis Committee:** [Prof. Jianbin Jiao](https://people.ucas.ac.cn/~jiaojianbin), [Prof. Yuxin Peng](http://39.108.48.32/mipl/pengyuxin/) (The National Science Fund for Distinguished Young Scholars), [Prof. Yao Zhao](https://faculty.bjtu.edu.cn/5900/) (IEEE Fellow, IET Fellow, The National Science Fund for Distinguished Young Scholars), [Prof. Yunhong Wang](https://vrlab.buaa.edu.cn/info/1161/1500.htm) (IEEE Fellow, IAPR Fellow, CCF Fellow), [Prof. Ming Tang](https://people.ucas.ac.cn/~mingt)
 - **Thesis Defense Grade:** Excellent
 
-  </div>
+</div>
 </article>
 
 <article class="institution-entry">
@@ -29,7 +29,7 @@
 - **Thesis Title:** NightRunner: Deep Learning for Autonomous Driving Cars after Dark [[🌐Project](https://github.com/huuuuusy/Darknet-Cross)]
 - **Thesis Defense Grade:** A+
 
-  </div>
+</div>
 </article>
 
 <article class="institution-entry">
@@ -44,7 +44,7 @@
 - **Thesis Title:** Text Sentiment Analysis Based on Deep Neural Network
 - **Thesis Defense Grade:** Excellent
 
-  </div>
+</div>
 </article>
 
 <article class="institution-entry">
@@ -57,5 +57,5 @@
 - **Course:** New Media
 - **Course Grade:** A
 
-  </div>
+</div>
 </article>

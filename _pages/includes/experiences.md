@@ -10,7 +10,7 @@
 - **Research:** Computer Vision, Multimodal AI, and AI for Education
 - **PI:** [Assoc. Prof. Kang Hao Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (IEEE Senior Member)
 
-  </div>
+</div>
 </article>
 
 <article class="institution-entry">
@@ -23,7 +23,7 @@
 - **Direction:** High Performance Computing, Heterogeneous Computing
 - **PI:** [Prof. Choli Wang](https://www.cs.hku.hk/people/academic-staff/clwang)
 
-  </div>
+</div>
 </article>
 
 <article class="institution-entry">
@@ -34,5 +34,5 @@
 
 **2016.08 - 2016.09** : Research Intern at Institute of Electronics, Chinese Academy of Sciences (CASIE)
 
-  </div>
+</div>
 </article>
