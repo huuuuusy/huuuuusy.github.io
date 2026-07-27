@@ -5,7 +5,6 @@
   if (!countElement) return;
 
   var countriesElement = document.getElementById("visitor-countries");
-  var countryTotalElement = document.getElementById("visitor-country-total");
   var latestElement = document.getElementById("visitor-latest");
   var endpoints = [
     "https://counter.hushiyu1995.com/",
@@ -113,10 +112,9 @@
 
   function renderRegions(data) {
     var regions = estimatedRegions(data);
-    if (!countriesElement || !countryTotalElement) return;
+    if (!countriesElement) return;
 
     var maximum = Number(regions[0].value) || 1;
-    countryTotalElement.textContent = "5 estimated global regions";
 
     countriesElement.textContent = "";
     regions.forEach(function (region) {

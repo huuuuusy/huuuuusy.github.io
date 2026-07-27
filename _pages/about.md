@@ -53,8 +53,7 @@ redirect_from:
   <div class="visitor-insights__summary">
     <span class="visitor-insights__eyebrow">Visitor insights</span>
     <span class="visitor-insights__total" id="visitor-count">—</span>
-    <span class="visitor-insights__label">cumulative homepage visits</span>
-    <span class="visitor-insights__coverage" id="visitor-country-total">5 estimated global regions</span>
+    <span class="visitor-insights__label">cumulative homepage page views</span>
   </div>
   <div class="visitor-insights__geography">
     <div class="visitor-insights__heading">Estimated visitor distribution</div>
@@ -62,8 +61,16 @@ redirect_from:
       <span class="visitor-insights__empty">Loading the estimated regional distribution.</span>
     </div>
   </div>
+  <div class="visitor-insights__reach">
+    <span class="visitor-insights__reach-heading">Representative historical reach <em>estimated</em></span>
+    <div class="visitor-insights__reach-row"><span>East &amp; Southeast Asia</span><span aria-label="Singapore, China, Hong Kong, Japan, South Korea, Taiwan, Malaysia, Indonesia, Thailand, Vietnam, and the Philippines">🇸🇬 🇨🇳 🇭🇰 🇯🇵 🇰🇷 🇹🇼 🇲🇾 🇮🇩 🇹🇭 🇻🇳 🇵🇭</span></div>
+    <div class="visitor-insights__reach-row"><span>North America</span><span aria-label="United States, Canada, and Mexico">🇺🇸 🇨🇦 🇲🇽</span></div>
+    <div class="visitor-insights__reach-row"><span>Europe</span><span aria-label="United Kingdom, Germany, France, Italy, Netherlands, Switzerland, Spain, and Sweden">🇬🇧 🇩🇪 🇫🇷 🇮🇹 🇳🇱 🇨🇭 🇪🇸 🇸🇪</span></div>
+    <div class="visitor-insights__reach-row"><span>South Asia &amp; Middle East</span><span aria-label="India, United Arab Emirates, Saudi Arabia, Israel, Turkey, Pakistan, and Bangladesh">🇮🇳 🇦🇪 🇸🇦 🇮🇱 🇹🇷 🇵🇰 🇧🇩</span></div>
+    <div class="visitor-insights__reach-row"><span>Oceania</span><span aria-label="Australia and New Zealand">🇦🇺 🇳🇿</span></div>
+  </div>
   <span class="visitor-insights__latest" id="visitor-latest">Loading the latest page-view location.</span>
-  <span class="visitor-insights__note">Cumulative total includes approximately 15,000 legacy visits estimated from MapMyVisitors (Feb. 9–Apr. 18, 2024) and ClustrMaps (Apr. 18, 2024–approximately May 27, 2026), plus first-party page views recorded since July 27, 2026. Each page load or refresh is counted; historical regional figures are proportionally reconstructed.</span>
+  <span class="visitor-insights__note">Cumulative total includes approximately 15,000 legacy visits estimated from MapMyVisitors (Feb. 9–Apr. 18, 2024) and ClustrMaps (Apr. 18, 2024–approximately May 27, 2026), plus first-party page views recorded since July 27, 2026. Each page load or refresh is counted. Historical regional figures are proportionally reconstructed; representative flags are illustrative rather than a complete country-level reconstruction.</span>
 </div>
 
 <p class="homepage-footer">&copy; Shiyu Hu <span aria-hidden="true">·</span> Last updated: 2026-07</p>
