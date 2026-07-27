@@ -22,6 +22,30 @@ function responseHeaders(origin) {
   return headers;
 }
 
+function visitorCountry(request) {
+  const country = request.cf && request.cf.country;
+  return /^[A-Z]{2}$/.test(country || "") ? country : "XX";
+}
+
+async function readSnapshot(env) {
+  const [counter, countries, countryTotal] = await env.DB.batch([
+    env.DB.prepare("SELECT value FROM counters WHERE name = 'homepage'"),
+    env.DB.prepare(
+      "SELECT code, value FROM country_counts " +
+      "WHERE code != 'XX' ORDER BY value DESC, code ASC LIMIT 8"
+    ),
+    env.DB.prepare(
+      "SELECT COUNT(*) AS value FROM country_counts WHERE code != 'XX'"
+    )
+  ]);
+
+  return {
+    count: counter.results[0] ? counter.results[0].value : 0,
+    countries: countries.results,
+    countryTotal: countryTotal.results[0] ? countryTotal.results[0].value : 0
+  };
+}
+
 export default {
   async fetch(request, env) {
     const origin = request.headers.get("Origin") || "";
@@ -42,19 +66,22 @@ export default {
     }
 
     if (request.method === "POST") {
-      const row = await env.DB.prepare(
-        "INSERT INTO counters (name, value) VALUES ('homepage', 1) " +
-        "ON CONFLICT(name) DO UPDATE SET value = value + 1 " +
-        "RETURNING value"
-      ).first();
-      return new Response(JSON.stringify({ count: row.value }), { headers });
+      await env.DB.batch([
+        env.DB.prepare(
+          "INSERT INTO counters (name, value) VALUES ('homepage', 1) " +
+          "ON CONFLICT(name) DO UPDATE SET value = value + 1"
+        ),
+        env.DB.prepare(
+          "INSERT INTO country_counts (code, value) VALUES (?, 1) " +
+          "ON CONFLICT(code) DO UPDATE SET value = value + 1"
+        ).bind(visitorCountry(request))
+      ]);
+
+      return new Response(JSON.stringify(await readSnapshot(env)), { headers });
     }
 
     if (request.method === "GET") {
-      const row = await env.DB.prepare(
-        "SELECT value FROM counters WHERE name = 'homepage'"
-      ).first();
-      return new Response(JSON.stringify({ count: row ? row.value : 0 }), {
+      return new Response(JSON.stringify(await readSnapshot(env)), {
         headers
       });
     }

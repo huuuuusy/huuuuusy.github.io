@@ -39,10 +39,20 @@ redirect_from:
 {% include_relative includes/cv.md %}
 
 
-<div class="visitor-counter" aria-live="polite">
-  <span class="visitor-counter__label">Homepage visits</span>
-  <strong id="visitor-count">—</strong>
-  <span class="visitor-counter__note">Privacy-friendly count, recorded from July 2026.</span>
+<div class="visitor-insights" aria-live="polite">
+  <div class="visitor-insights__summary">
+    <span class="visitor-insights__eyebrow">Visitor insights</span>
+    <span class="visitor-insights__total" id="visitor-count">—</span>
+    <span class="visitor-insights__label">homepage visits</span>
+    <span class="visitor-insights__coverage" id="visitor-country-total">Collecting geographic distribution</span>
+  </div>
+  <div class="visitor-insights__geography">
+    <div class="visitor-insights__heading">Top countries and regions</div>
+    <div class="visitor-insights__countries" id="visitor-countries">
+      <span class="visitor-insights__empty">Country-level statistics will appear as visits accumulate.</span>
+    </div>
+  </div>
+  <span class="visitor-insights__note">Anonymous country-level aggregates only; IP addresses are not stored. Recorded from July 2026.</span>
 </div>
 
 <p>
