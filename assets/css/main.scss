@@ -166,7 +166,7 @@ h1:before, .anchor:before {
 
 .visitor-country {
     display: grid;
-    grid-template-columns: minmax(90px, 1.1fr) minmax(80px, 1fr) 2.2rem;
+    grid-template-columns: minmax(170px, 1.3fr) minmax(70px, .8fr) 2.6rem;
     align-items: center;
     gap: .65rem;
     font-size: .76em;
@@ -187,14 +187,12 @@ h1:before, .anchor:before {
 .visitor-country__flags {
     display: block;
     margin-top: .08rem;
-    overflow: hidden;
     color: #62717f;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Emoji", sans-serif;
     font-size: 1.08em;
     letter-spacing: .055em;
     line-height: 1.35;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .visitor-country__bar {
@@ -279,6 +277,11 @@ h1:before, .anchor:before {
         flex-wrap: wrap;
         gap: .2rem .4rem;
         padding: .58rem .65rem;
+    }
+
+    .visitor-country {
+        grid-template-columns: minmax(0, 1fr) 3.5rem 2.6rem;
+        gap: .45rem;
     }
 
 }
