@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # Cloudflare Web Analytics will be enabled after its site token is issued
+  provider               : "custom"
   google:
     tracking_id          :
 
