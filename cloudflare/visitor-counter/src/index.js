@@ -1,4 +1,6 @@
 const ALLOWED_ORIGINS = new Set([
+  "http://hushiyu1995.com",
+  "http://www.hushiyu1995.com",
   "https://hushiyu1995.com",
   "https://www.hushiyu1995.com",
   "https://huuuuusy.github.io"
