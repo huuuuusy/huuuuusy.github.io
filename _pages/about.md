@@ -8,35 +8,45 @@ redirect_from:
   - /about.html
 ---
 
-<span class='anchor' id='about-me'></span>
+<section class="home-section home-section--intro" id="about-me" markdown="1">
 {% include_relative includes/intro.md %}
+</section>
 
-<span class='anchor' id='news'></span>
+<section class="home-section home-section--news" id="news" markdown="1">
 {% include_relative includes/news.md %}
+</section>
 
-<span class='anchor' id='experiences'></span>
+<section class="home-section home-section--experience" id="experiences" markdown="1">
 {% include_relative includes/experiences.md %}
+</section>
 
-<span class='anchor' id='educations'></span>
+<section class="home-section home-section--education" id="educations" markdown="1">
 {% include_relative includes/educations.md %}
+</section>
 
-<span class='anchor' id='research-interests'></span>
+<section class="home-section home-section--research" id="research-interests" markdown="1">
 {% include_relative includes/interests.md %}
+</section>
 
-<span class='anchor' id='publications'></span>
+<section class="home-section home-section--publications" id="publications" markdown="1">
 {% include_relative includes/publications.md %}
+</section>
 
-<span class='anchor' id='projects'></span>
+<section class="home-section home-section--projects" id="projects" markdown="1">
 {% include_relative includes/projects.md %}
+</section>
 
-<span class='anchor' id='honors-and-awards'></span>
+<section class="home-section home-section--honors" id="honors-and-awards" markdown="1">
 {% include_relative includes/honors.md %}
+</section>
 
-<span class='anchor' id='activities-and-services'></span>
+<section class="home-section home-section--activities" id="activities-and-services" markdown="1">
 {% include_relative includes/activity.md %}
+</section>
 
-<span class='anchor' id='cv'></span>
+<section class="home-section home-section--cv" id="cv" markdown="1">
 {% include_relative includes/cv.md %}
+</section>
 
 
 <div class="visitor-insights" aria-live="polite">
@@ -55,12 +65,6 @@ redirect_from:
   <span class="visitor-insights__note">Anonymous country-level aggregates only; IP addresses are not stored. Recorded from July 2026.</span>
 </div>
 
-<p>
-  <center>
-    <font>
-        <br>&copy; Shiyu Hu | Last updated: 2026-07
-    </font>
-  </center>
-</p>
+<p class="homepage-footer">&copy; Shiyu Hu <span aria-hidden="true">·</span> Last updated: 2026-07</p>
 
 <script src="{{ '/assets/js/visitor-counter.js' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}" defer></script>

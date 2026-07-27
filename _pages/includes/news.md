@@ -1,5 +1,7 @@
 # 🔥 News
 
+<div class="news-timeline" markdown="1">
+
 **2026.06**: 📝One paper ([DASTrack](https://huuuuusy.github.io/#DASTrack)) has been accepted by the 2026 European Conference on Computer Vision (ECCV, CCF-B Conference).
 
 **2026.05**: 📣I am glad to have the opportunity to give a talk at the [Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/) in Guangzhou, China. Many thanks to the special session *Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges*. I sincerely look forward to exchanging ideas with everyone and hearing your valuable suggestions😄
@@ -42,4 +44,6 @@
 
 **2025.06**: 📝One paper ([ATCTrack](https://huuuuusy.github.io/#ATCTrack)) has been accepted by International Conference on Computer Vision (ICCV, CCF-A conference, **<font color=DarkRed>Highlight</font>**). 
 
-[▶️For More News](https://huuuuusy.github.io/news-all)
+</div>
+
+<a class="section-more" href="/news-all">View all news <span aria-hidden="true">→</span></a>

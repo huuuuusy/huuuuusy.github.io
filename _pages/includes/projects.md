@@ -4,58 +4,130 @@ This section documents research software, evaluation platforms, academic challen
 
 ## Research Software
 
-### Darknet-Cross: Lightweight Deep Learning Framework for Heterogeneous Computing
+<div class="project-grid project-grid--single">
+<article class="project-card" markdown="1">
 
-**2018.03 - 2018.11** · [GitHub](https://github.com/huuuuusy/Darknet-Cross)
+### Darknet-Cross
+
+<span class="project-card__subtitle">Lightweight Deep Learning Framework for Heterogeneous Computing</span>
+
+<span class="project-card__meta">2018.03 – 2018.11</span>
 
 A cross-platform acceleration framework developed for Android and Ubuntu across mobile and desktop GPUs. This work formed the engineering component of my master's thesis at HKU.
 
+[GitHub repository →](https://github.com/huuuuusy/Darknet-Cross)
+
+</article>
+</div>
+
 ## Research Platforms
 
-### VideoCube / MGIT Platform
+<div class="project-grid">
+<article class="project-card" markdown="1">
 
-**2019.11 - Present** · [Platform](http://videocube.aitestunion.com)
+### VideoCube / MGIT
 
-Evaluation infrastructure developed and maintained for the Global Instance Tracking and Multi-modal Global Instance Tracking studies published at TPAMI 2023 and NeurIPS 2023. The platform supports dataset access, tracker registration, standardized result submission, and reproducible evaluation. As of July 2026, it had recorded more than 1.66 million visits, 1,900 data users, 720 registered trackers, and 960 result submissions.
+<span class="project-card__meta">2019.11 – Present</span>
 
-### SOTVerse / VLTVerse Platform
+Evaluation infrastructure for the Global Instance Tracking and Multi-modal Global Instance Tracking studies published at TPAMI 2023 and NeurIPS 2023. The platform supports dataset access, tracker registration, standardized submission, and reproducible evaluation.
 
-**2021.07 - Present** · [Platform](http://metaverse.aitestunion.com)
+<div class="project-metrics">
+  <span>1.66M+ visits</span><span>1.9K+ users</span><span>720+ trackers</span><span>960+ submissions</span>
+</div>
 
-A task-space evaluation platform developed and maintained for the SOTVerse and VLTVerse research program, including the study published in IJCV 2024. The platform provides structured evaluation across tracking scenarios, target categories, and linguistic specifications, and had recorded more than 267,000 visits as of July 2026.
+[Visit platform →](http://videocube.aitestunion.com)
 
-### BioDrone Platform
+</article>
 
-**2022.05 - Present** · [Platform](http://biodrone.aitestunion.com/)
+<article class="project-card" markdown="1">
 
-Benchmark and evaluation infrastructure developed and maintained for real-world drone tracking research, including the BioDrone study published in IJCV 2024. The platform supports dataset access, standardized benchmarking, and comparative evaluation, and had recorded more than 541,000 visits as of July 2026.
+### SOTVerse / VLTVerse
 
-### GOT-10k Platform
+<span class="project-card__meta">2021.07 – Present</span>
 
-**2020.07 - Present** · [Platform](http://got-10k.aitestunion.com/)
+A task-space evaluation platform for the SOTVerse and VLTVerse research program, including the study published in IJCV 2024. It provides structured evaluation across tracking scenarios, target categories, and linguistic specifications.
 
-Long-term maintenance of the large-scale evaluation platform supporting the GOT-10k research published in TPAMI 2021. The platform provides standardized benchmark access, tracker registration, result submission, and evaluation services. As of July 2026, it had recorded more than 7.56 million visits, 11,000 data users, 32,700 registered trackers, and 406,000 result submissions.
+<div class="project-metrics">
+  <span>267K+ visits</span><span>Task-space evaluation</span>
+</div>
+
+[Visit platform →](http://metaverse.aitestunion.com)
+
+</article>
+
+<article class="project-card" markdown="1">
+
+### BioDrone
+
+<span class="project-card__meta">2022.05 – Present</span>
+
+Benchmark and evaluation infrastructure for real-world drone tracking research, including the BioDrone study published in IJCV 2024. It supports dataset access, standardized benchmarking, and comparative evaluation.
+
+<div class="project-metrics">
+  <span>541K+ visits</span><span>Real-world UAV tracking</span>
+</div>
+
+[Visit platform →](http://biodrone.aitestunion.com/)
+
+</article>
+
+<article class="project-card" markdown="1">
+
+### GOT-10k
+
+<span class="project-card__meta">2020.07 – Present</span>
+
+Long-term maintenance of the large-scale evaluation platform supporting the GOT-10k research published in TPAMI 2021. It provides benchmark access, tracker registration, result submission, and evaluation services.
+
+<div class="project-metrics">
+  <span>7.56M+ visits</span><span>11K+ users</span><span>32.7K+ trackers</span><span>406K+ submissions</span>
+</div>
+
+[Visit platform →](http://got-10k.aitestunion.com/)
+
+</article>
+</div>
 
 ## Challenges
 
+<div class="project-grid">
+<article class="project-card project-card--compact" markdown="1">
+
 ### Hislopvision Challenge
 
-**2023.05 - 2023.11** · [Platform](http://hislopvision.aitestunion.com/)
+<span class="project-card__meta">2023.05 – 2023.11</span>
 
 Organization of the Hislopvision track for the 3rd High-speed and Low-power Visual Understanding Challenge at PRCV 2023, with participating teams from Tsinghua University, Beijing Institute of Technology, and Jilin University.
 
+[Challenge platform →](http://hislopvision.aitestunion.com/)
+
+</article>
+
+<article class="project-card project-card--compact" markdown="1">
+
 ### Cell Tracking Challenge
 
-**2021.01 - 2021.04** · [Challenge](https://celltrackingchallenge.net/)
+<span class="project-card__meta">2021.01 – 2021.04</span>
 
 Our method ranked second on Fluo-C2FL-MSC+ and third on Fluo-C2FL-Huh7, based on the challenge rankings recorded in October 2023.
+
+[Challenge website →](https://celltrackingchallenge.net/)
+
+</article>
+</div>
 
 ## Funded Research Project
 
 <span class='anchor' id='IEPRF23'></span>
 
+<div class="project-grid project-grid--single">
+<article class="project-card project-card--compact" markdown="1">
+
 ### Human-Computer Interaction in Intelligent Education
 
-**2024.01 - 2025.01**
+<span class="project-card__meta">2024.01 – 2025.01</span>
 
 Proposal development and project delivery for a study funded by the 2023 Intelligent Education PhD Research Fund at the Shanghai Institute of AI Education, East China Normal University.
+
+</article>
+</div>

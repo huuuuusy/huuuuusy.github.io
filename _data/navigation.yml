@@ -5,14 +5,8 @@ main:
 
   - title: "News"
     url: "/#news"
-  
-  - title: "Experiences"
-    url: "/#experiences"
 
-  - title: "Educations"
-    url: "/#educations"
-
-  - title: "Research Interests"
+  - title: "Research"
     url: "/#research-interests"
 
   - title: "Publications"
@@ -21,10 +15,10 @@ main:
   - title: "Projects"
     url: "/#projects"
 
-  - title: "Honors"
-    url: "/#honors-and-awards"
+  - title: "Experience"
+    url: "/#experiences"
 
-  - title: "Activities"
+  - title: "Service"
     url: "/#activities-and-services"
 
   - title: "CV"
@@ -35,10 +29,9 @@ main:
 
  # - title: "Teaching"
  #   url: /teaching/    
-    
+
  # - title: "Portfolio"
  #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
