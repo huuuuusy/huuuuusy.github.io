@@ -53,16 +53,16 @@ redirect_from:
   <div class="visitor-insights__summary">
     <span class="visitor-insights__eyebrow">Visitor insights</span>
     <span class="visitor-insights__total" id="visitor-count">—</span>
-    <span class="visitor-insights__label">homepage visits</span>
-    <span class="visitor-insights__coverage" id="visitor-country-total">Collecting geographic distribution</span>
+    <span class="visitor-insights__label">cumulative homepage visits</span>
+    <span class="visitor-insights__coverage" id="visitor-country-total">5 estimated global regions</span>
   </div>
   <div class="visitor-insights__geography">
-    <div class="visitor-insights__heading">Top countries and regions</div>
+    <div class="visitor-insights__heading">Estimated visitor distribution</div>
     <div class="visitor-insights__countries" id="visitor-countries">
-      <span class="visitor-insights__empty">Country-level statistics will appear as visits accumulate.</span>
+      <span class="visitor-insights__empty">Loading the estimated regional distribution.</span>
     </div>
   </div>
-  <span class="visitor-insights__note">Anonymous country-level aggregates only; IP addresses are not stored. Recorded from July 2026.</span>
+  <span class="visitor-insights__note">Cumulative total includes approximately 15,000 legacy visits estimated from MapMyVisitors (Feb. 9–Apr. 18, 2024) and ClustrMaps (Apr. 18, 2024–approximately May 27, 2026), plus first-party visits recorded since July 27, 2026. Historical regional figures are proportionally reconstructed.</span>
 </div>
 
 <p class="homepage-footer">&copy; Shiyu Hu <span aria-hidden="true">·</span> Last updated: 2026-07</p>
