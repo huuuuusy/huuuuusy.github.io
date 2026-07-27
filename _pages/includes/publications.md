@@ -296,12 +296,13 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><a href='../../images/ECCV26-Temporal.png' title="View the complete figure"><img class="paper-thumb" src='../../images/ECCV26-Temporal-thumb.png' alt="Complete figure for Rethinking Temporal Modeling in Visual Object Tracking" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><a href='../../images/ECCV26-Temporal.png' title="View the complete DASTrack figure"><img class="paper-thumb" src='../../images/ECCV26-Temporal-thumb.png' alt="Complete DASTrack figure" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='ECCV26-Temporal'></span>
+<span class='anchor' id='DASTrack'></span>
 
-**Rethinking Temporal Modeling in Visual Object Tracking via Decoupled Auxiliary Supervision**<br>
+**DASTrack: Rethinking Temporal Modeling in Visual Object Tracking via Decoupled Auxiliary Supervision**<br>
 [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, H. Fu, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (CCF-B Conference)<br>
 📌 Visual Object Tracking 📌 Temporal Modeling 📌 Auxiliary Supervision<br>
