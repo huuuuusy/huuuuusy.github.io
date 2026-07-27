@@ -924,24 +924,39 @@ a {
     list-style: none;
 
     > li {
-        position: relative;
         margin: 0;
-        padding: .58rem .65rem .58rem 2.8rem;
+        padding: .62rem .65rem;
         border-bottom: 1px solid #edf1f5;
         color: #4b5d71;
-
-        &:before {
-            content: "Award";
-            position: absolute;
-            top: .68rem;
-            left: .2rem;
-            color: #7890a7;
-            font-size: .58rem;
-            font-weight: 800;
-            letter-spacing: .04em;
-            text-transform: uppercase;
-        }
     }
+}
+
+.honor-kind {
+    display: inline-flex;
+    min-width: 3.45rem;
+    justify-content: center;
+    margin-right: .5rem;
+    padding: .16rem .42rem;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font-size: .6rem;
+    font-weight: 800;
+    letter-spacing: .045em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    vertical-align: .08rem;
+}
+
+.honor-kind--award {
+    border-color: #c9dae9;
+    color: #315f89;
+    background: #edf5fb;
+}
+
+.honor-kind--honor {
+    border-color: #ded5ba;
+    color: #735e25;
+    background: #faf6e9;
 }
 
 .home-section--activities {
