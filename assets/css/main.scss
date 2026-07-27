@@ -929,6 +929,63 @@ a {
     }
 }
 
+.institution-entry {
+    display: grid;
+    grid-template-columns: 104px minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    padding: 1.05rem 0;
+    border-top: 1px solid rgba(31, 55, 80, .075);
+
+    &:first-of-type {
+        padding-top: .2rem;
+        border-top: 0;
+    }
+}
+
+.institution-entry__logo {
+    display: flex;
+    box-sizing: border-box;
+    width: 104px;
+    min-height: 66px;
+    align-items: center;
+    justify-content: center;
+    padding: .58rem;
+    border: 1px solid rgba(31, 55, 80, .075);
+    border-radius: .82rem;
+    background: #fff;
+    transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+
+    &:hover {
+        border-color: rgba(40, 92, 143, .16);
+        box-shadow: 0 7px 20px rgba(31, 45, 61, .06);
+        transform: translateY(-1px);
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        max-height: 48px;
+        object-fit: contain;
+    }
+}
+
+.institution-entry__content {
+    min-width: 0;
+    color: #4b5d71;
+
+    > p:first-child {
+        margin: .05rem 0 .45rem;
+        color: #334b64;
+    }
+
+    > ul {
+        margin: 0;
+        padding-left: 1.15rem;
+        color: #536579;
+    }
+}
+
 .home-section--honors > ul {
     padding-left: 0;
     list-style: none;
@@ -1456,5 +1513,25 @@ body {
         align-items: flex-start;
         margin-bottom: .8rem;
         padding: .55rem .65rem;
+    }
+
+    .institution-entry {
+        grid-template-columns: 82px minmax(0, 1fr);
+        gap: .75rem;
+        padding: .9rem 0;
+    }
+
+    .institution-entry__logo {
+        width: 82px;
+        min-height: 58px;
+        padding: .45rem;
+
+        img {
+            max-height: 42px;
+        }
+    }
+
+    .institution-entry__content {
+        font-size: .88rem;
     }
 }
