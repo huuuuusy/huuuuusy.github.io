@@ -1,7 +1,7 @@
 # 📖 Educations
 
 <article class="institution-entry">
-  <a class="institution-entry__logo institution-entry__logo--casia" href="http://english.ia.cas.cn/" aria-label="Institute of Automation, Chinese Academy of Sciences">
+  <a class="institution-entry__logo institution-entry__logo--crop institution-entry__logo--casia" href="http://english.ia.cas.cn/" aria-label="Institute of Automation, Chinese Academy of Sciences">
     <img src="/images/institutions/casia.png" alt="Institute of Automation, Chinese Academy of Sciences logo">
   </a>
   <div class="institution-entry__content" markdown="1">
@@ -18,8 +18,8 @@
 </article>
 
 <article class="institution-entry">
-  <a class="institution-entry__logo" href="https://www.hku.hk/" aria-label="The University of Hong Kong">
-    <img src="/images/institutions/hku.svg" alt="The University of Hong Kong logo">
+  <a class="institution-entry__logo institution-entry__logo--emblem" href="https://www.hku.hk/" aria-label="The University of Hong Kong">
+    <img src="/images/institutions/hku-emblem.png" alt="The University of Hong Kong emblem">
   </a>
   <div class="institution-entry__content" markdown="1">
 
@@ -33,7 +33,7 @@
 </article>
 
 <article class="institution-entry">
-  <a class="institution-entry__logo" href="https://english.bit.edu.cn/" aria-label="Beijing Institute of Technology">
+  <a class="institution-entry__logo institution-entry__logo--crop institution-entry__logo--bit" href="https://english.bit.edu.cn/" aria-label="Beijing Institute of Technology">
     <img src="/images/institutions/bit.png" alt="Beijing Institute of Technology logo">
   </a>
   <div class="institution-entry__content" markdown="1">
@@ -48,8 +48,8 @@
 </article>
 
 <article class="institution-entry">
-  <a class="institution-entry__logo" href="https://www.berkeley.edu/" aria-label="University of California, Berkeley">
-    <img src="/images/institutions/berkeley.svg" alt="University of California, Berkeley logo">
+  <a class="institution-entry__logo institution-entry__logo--emblem" href="https://www.berkeley.edu/" aria-label="University of California, Berkeley">
+    <img src="/images/institutions/berkeley-emblem.svg" alt="University of California, Berkeley seal">
   </a>
   <div class="institution-entry__content" markdown="1">
 

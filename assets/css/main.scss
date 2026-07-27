@@ -931,7 +931,7 @@ a {
 
 .institution-entry {
     display: grid;
-    grid-template-columns: 104px minmax(0, 1fr);
+    grid-template-columns: 112px minmax(0, 1fr);
     gap: 1rem;
     align-items: start;
     padding: 1.05rem 0;
@@ -944,10 +944,11 @@ a {
 }
 
 .institution-entry__logo {
+    position: relative;
     display: flex;
     box-sizing: border-box;
-    width: 104px;
-    min-height: 66px;
+    width: 112px;
+    min-height: 80px;
     align-items: center;
     justify-content: center;
     padding: .58rem;
@@ -965,22 +966,49 @@ a {
     img {
         display: block;
         width: 100%;
-        max-height: 48px;
+        max-height: 62px;
         object-fit: contain;
     }
 }
 
-.institution-entry__logo--casia {
+.institution-entry__logo--emblem img {
+    width: 62px;
+    height: 62px;
+}
+
+.institution-entry__logo--crop {
+    --emblem-size: 64px;
+    --source-height: 64px;
     overflow: hidden;
-    justify-content: flex-start;
 
     img {
+        position: absolute;
+        top: 50%;
+        left: calc(50% - (var(--emblem-size) / 2));
         width: auto;
         max-width: none;
-        height: 54px;
+        height: var(--source-height);
         max-height: none;
         object-fit: initial;
+        clip-path: inset(0 calc(100% - var(--emblem-size)) 0 0);
+        transform: translateY(-50%);
     }
+}
+
+.institution-entry__logo--ntu {
+    --emblem-size: 62px;
+    --source-height: 80px;
+}
+
+.institution-entry__logo--casia {
+    --emblem-size: 68px;
+    --source-height: 61px;
+}
+
+.institution-entry__logo--bit,
+.institution-entry__logo--cas {
+    --emblem-size: 64px;
+    --source-height: 64px;
 }
 
 .institution-entry__content {
@@ -1529,23 +1557,24 @@ body {
     }
 
     .institution-entry {
-        grid-template-columns: 82px minmax(0, 1fr);
+        grid-template-columns: 88px minmax(0, 1fr);
         gap: .75rem;
         padding: .9rem 0;
     }
 
     .institution-entry__logo {
-        width: 82px;
-        min-height: 58px;
+        width: 88px;
+        min-height: 72px;
         padding: .45rem;
 
         img {
-            max-height: 42px;
+            max-height: 58px;
         }
     }
 
-    .institution-entry__logo--casia img {
-        height: 48px;
+    .institution-entry__logo--emblem img {
+        width: 58px;
+        height: 58px;
     }
 
     .institution-entry__content {

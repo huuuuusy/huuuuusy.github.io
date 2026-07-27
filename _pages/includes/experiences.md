@@ -1,7 +1,7 @@
 # 👩‍💻 Experiences
 
 <article class="institution-entry">
-  <a class="institution-entry__logo" href="https://www.ntu.edu.sg/" aria-label="Nanyang Technological University">
+  <a class="institution-entry__logo institution-entry__logo--crop institution-entry__logo--ntu" href="https://www.ntu.edu.sg/" aria-label="Nanyang Technological University">
     <img src="/images/institutions/ntu.png" alt="Nanyang Technological University logo">
   </a>
   <div class="institution-entry__content" markdown="1">
@@ -14,8 +14,8 @@
 </article>
 
 <article class="institution-entry">
-  <a class="institution-entry__logo" href="https://www.hku.hk/" aria-label="The University of Hong Kong">
-    <img src="/images/institutions/hku.svg" alt="The University of Hong Kong logo">
+  <a class="institution-entry__logo institution-entry__logo--emblem" href="https://www.hku.hk/" aria-label="The University of Hong Kong">
+    <img src="/images/institutions/hku-emblem.png" alt="The University of Hong Kong emblem">
   </a>
   <div class="institution-entry__content" markdown="1">
 
@@ -27,7 +27,7 @@
 </article>
 
 <article class="institution-entry">
-  <a class="institution-entry__logo" href="https://english.cas.cn/" aria-label="Chinese Academy of Sciences">
+  <a class="institution-entry__logo institution-entry__logo--crop institution-entry__logo--cas" href="https://english.cas.cn/" aria-label="Chinese Academy of Sciences">
     <img src="/images/institutions/cas.png" alt="Chinese Academy of Sciences logo">
   </a>
   <div class="institution-entry__content" markdown="1">
