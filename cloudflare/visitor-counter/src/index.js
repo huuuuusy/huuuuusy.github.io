@@ -32,7 +32,7 @@ async function readSnapshot(env) {
     env.DB.prepare("SELECT value FROM counters WHERE name = 'homepage'"),
     env.DB.prepare(
       "SELECT code, value FROM country_counts " +
-      "WHERE code != 'XX' ORDER BY value DESC, code ASC LIMIT 8"
+      "WHERE code != 'XX' ORDER BY value DESC, code ASC"
     ),
     env.DB.prepare(
       "SELECT COUNT(*) AS value FROM country_counts WHERE code != 'XX'"

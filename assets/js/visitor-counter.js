@@ -12,11 +12,54 @@
   ];
   var legacyCount = 15000;
   var legacyRegions = [
-    { code: "ESEA", label: "East & Southeast Asia", value: 5550 },
-    { code: "NA", label: "North America", value: 4200 },
-    { code: "EU", label: "Europe", value: 3450 },
-    { code: "SAME", label: "South Asia & Middle East", value: 1500 },
-    { code: "OTHER", label: "Oceania & Other Regions", value: 300 }
+    {
+      code: "ESEA",
+      label: "East & Southeast Asia",
+      value: 5550,
+      flags: "🇸🇬 🇨🇳 🇭🇰 🇲🇴 🇯🇵 🇰🇷 🇹🇼 🇲🇾 🇮🇩 🇹🇭 🇻🇳 🇵🇭 🇧🇳 🇰🇭 🇲🇲"
+    },
+    {
+      code: "NA",
+      label: "North America",
+      value: 4200,
+      flags: "🇺🇸 🇨🇦 🇧🇲"
+    },
+    {
+      code: "EU",
+      label: "Europe",
+      value: 3450,
+      flags: "🇬🇧 🇮🇪 🇫🇷 🇩🇪 🇮🇹 🇪🇸 🇵🇹 🇳🇱 🇧🇪 🇨🇭 🇦🇹 🇸🇪 🇳🇴 🇩🇰 🇫🇮 🇵🇱"
+    },
+    {
+      code: "SAME",
+      label: "South Asia & Middle East",
+      value: 1100,
+      flags: "🇮🇳 🇵🇰 🇧🇩 🇱🇰 🇳🇵 🇦🇪 🇸🇦 🇶🇦 🇰🇼 🇮🇱 🇯🇴 🇹🇷"
+    },
+    {
+      code: "LAC",
+      label: "Latin America & Caribbean",
+      value: 350,
+      flags: "🇧🇷 🇦🇷 🇨🇱 🇨🇴 🇵🇪 🇺🇾 🇲🇽 🇨🇷 🇵🇦 🇬🇹 🇩🇴 🇯🇲"
+    },
+    {
+      code: "OCE",
+      label: "Oceania",
+      value: 200,
+      flags: "🇦🇺 🇳🇿 🇫🇯 🇵🇬"
+    },
+    {
+      code: "AF",
+      label: "Africa",
+      value: 150,
+      flags: "🇿🇦 🇪🇬 🇲🇦 🇹🇳 🇰🇪 🇳🇬 🇬🇭 🇪🇹"
+    },
+    {
+      code: "OTHER",
+      label: "Other / Unclassified",
+      value: 0,
+      flags: ""
+    }
   ];
   var regionCountries = {
     EU: new Set([
@@ -31,15 +74,32 @@
       "MN", "MY", "PH", "SG", "TH", "TL", "TW", "VN"
     ]),
     NA: new Set([
-      "AG", "AI", "AW", "BB", "BM", "BQ", "BS", "BZ", "CA", "CR", "CU",
-      "CW", "DM", "DO", "GD", "GL", "GP", "GT", "HN", "HT", "JM", "KN",
-      "KY", "LC", "MQ", "MS", "MX", "NI", "PA", "PR", "SV", "SX", "TC",
-      "TT", "US", "VC", "VG", "VI"
+      "BM", "CA", "GL", "US"
     ]),
     SAME: new Set([
       "AE", "AF", "AM", "AZ", "BD", "BH", "BT", "GE", "IL", "IN", "IQ",
       "IR", "JO", "KG", "KW", "KZ", "LB", "LK", "MV", "NP", "OM", "PK",
       "PS", "QA", "SA", "SY", "TJ", "TM", "TR", "UZ", "YE"
+    ]),
+    LAC: new Set([
+      "AG", "AI", "AR", "AW", "BB", "BO", "BQ", "BR", "BS", "BZ", "CL",
+      "CO", "CR", "CU", "CW", "DM", "DO", "EC", "FK", "GD", "GP", "GT",
+      "GY", "HN", "HT", "JM", "KN", "KY", "LC", "MQ", "MS", "MX", "NI",
+      "PA", "PE", "PR", "PY", "SR", "SV", "SX", "TC", "TT", "UY", "VC",
+      "VE", "VG", "VI"
+    ]),
+    OCE: new Set([
+      "AS", "AU", "CK", "FJ", "FM", "GU", "KI", "MH", "MP", "NC", "NF",
+      "NR", "NU", "NZ", "PF", "PG", "PN", "PW", "SB", "TK", "TO", "TV",
+      "VU", "WF", "WS"
+    ]),
+    AF: new Set([
+      "AO", "BF", "BI", "BJ", "BW", "CD", "CF", "CG", "CI", "CM", "CV",
+      "DJ", "DZ", "EG", "EH", "ER", "ET", "GA", "GH", "GM", "GN", "GQ",
+      "GW", "KE", "KM", "LR", "LS", "LY", "MA", "MG", "ML", "MR", "MU",
+      "MW", "MZ", "NA", "NE", "NG", "RE", "RW", "SC", "SD", "SH", "SL",
+      "SN", "SO", "SS", "ST", "SZ", "TD", "TG", "TN", "TZ", "UG", "YT",
+      "ZA", "ZM", "ZW"
     ])
   };
   function request(endpoint, method) {
@@ -65,7 +125,7 @@
   }
 
   function regionCode(countryCode) {
-    var regions = ["EU", "ESEA", "NA", "SAME"];
+    var regions = ["EU", "ESEA", "NA", "SAME", "LAC", "OCE", "AF"];
     var index;
 
     for (index = 0; index < regions.length; index += 1) {
@@ -82,7 +142,8 @@
       return {
         code: region.code,
         label: region.label,
-        value: region.value
+        value: region.value,
+        flags: region.flags
       };
     });
     var countryRows = Array.isArray(data.countries) ? data.countries : [];
@@ -119,14 +180,23 @@
     countriesElement.textContent = "";
     regions.forEach(function (region) {
       var row = document.createElement("div");
+      var identity = document.createElement("span");
       var label = document.createElement("span");
+      var flags = document.createElement("span");
       var bar = document.createElement("span");
       var fill = document.createElement("span");
       var value = document.createElement("span");
 
       row.className = "visitor-country";
+      identity.className = "visitor-country__identity";
       label.className = "visitor-country__label";
       label.textContent = region.label;
+      flags.className = "visitor-country__flags";
+      flags.textContent = region.flags;
+      flags.setAttribute(
+        "aria-label",
+        "Representative countries and regions in " + region.label
+      );
       bar.className = "visitor-country__bar";
       fill.className = "visitor-country__fill";
       fill.style.width =
@@ -135,8 +205,10 @@
       value.textContent =
         "\u2248" + Number(region.value || 0).toLocaleString("en-US");
 
+      identity.appendChild(label);
+      if (region.flags) identity.appendChild(flags);
       bar.appendChild(fill);
-      row.appendChild(label);
+      row.appendChild(identity);
       row.appendChild(bar);
       row.appendChild(value);
       countriesElement.appendChild(row);
