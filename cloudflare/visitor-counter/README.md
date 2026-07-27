@@ -1,8 +1,10 @@
 # First-party visitor counter
 
-This Cloudflare Worker provides the public visit total shown on the homepage.
-It stores only one aggregate integer in D1 and does not store visitor IP
-addresses, user agents, or individual profiles.
+This Cloudflare Worker provides the public page-view total shown on the
+homepage. Each page load or refresh increments the counter. D1 stores the
+aggregate total, aggregate country counts, and only the latest page view's
+country code and timestamp. It does not store visitor IP addresses, user
+agents, individual profiles, or a row-by-row visit history.
 
 Deployment requires:
 

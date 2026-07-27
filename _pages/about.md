@@ -62,7 +62,8 @@ redirect_from:
       <span class="visitor-insights__empty">Loading the estimated regional distribution.</span>
     </div>
   </div>
-  <span class="visitor-insights__note">Cumulative total includes approximately 15,000 legacy visits estimated from MapMyVisitors (Feb. 9–Apr. 18, 2024) and ClustrMaps (Apr. 18, 2024–approximately May 27, 2026), plus first-party visits recorded since July 27, 2026. Historical regional figures are proportionally reconstructed.</span>
+  <span class="visitor-insights__latest" id="visitor-latest">Loading the latest page-view location.</span>
+  <span class="visitor-insights__note">Cumulative total includes approximately 15,000 legacy visits estimated from MapMyVisitors (Feb. 9–Apr. 18, 2024) and ClustrMaps (Apr. 18, 2024–approximately May 27, 2026), plus first-party page views recorded since July 27, 2026. Each page load or refresh is counted; historical regional figures are proportionally reconstructed.</span>
 </div>
 
 <p class="homepage-footer">&copy; Shiyu Hu <span aria-hidden="true">·</span> Last updated: 2026-07</p>

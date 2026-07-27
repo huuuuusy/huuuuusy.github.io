@@ -6,6 +6,7 @@
 
   var countriesElement = document.getElementById("visitor-countries");
   var countryTotalElement = document.getElementById("visitor-country-total");
+  var latestElement = document.getElementById("visitor-latest");
   var endpoints = [
     "https://counter.hushiyu1995.com/",
     "https://shiyu-homepage-counter.hushiyu199510.workers.dev/"
@@ -42,16 +43,6 @@
       "PS", "QA", "SA", "SY", "TJ", "TM", "TR", "UZ", "YE"
     ])
   };
-  var today = new Date().toISOString().slice(0, 10);
-  var storageKey = "shiyu-homepage-visit-date";
-  var shouldIncrement = true;
-
-  try {
-    shouldIncrement = window.localStorage.getItem(storageKey) !== today;
-  } catch (error) {
-    shouldIncrement = true;
-  }
-
   function request(endpoint, method) {
     return fetch(endpoint, {
       method: method,
@@ -154,25 +145,82 @@
     });
   }
 
+  function countryFlag(code) {
+    if (!/^[A-Z]{2}$/.test(code) || code === "XX") return "\uD83C\uDF10";
+    return String.fromCodePoint(
+      code.charCodeAt(0) + 127397,
+      code.charCodeAt(1) + 127397
+    );
+  }
+
+  function countryName(code) {
+    if (!/^[A-Z]{2}$/.test(code) || code === "XX") return "Unknown region";
+
+    try {
+      return new Intl.DisplayNames(["en"], { type: "region" }).of(code) || code;
+    } catch (error) {
+      return code;
+    }
+  }
+
+  function visitTime(value) {
+    var date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "";
+
+    try {
+      return new Intl.DateTimeFormat("en", {
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        timeZoneName: "short"
+      }).format(date);
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function renderLatest(data) {
+    if (!latestElement) return;
+
+    var latest = data.latestVisit;
+    if (!latest) {
+      latestElement.textContent =
+        "Latest page-view location will appear after the next visit.";
+      return;
+    }
+
+    var code = String(latest.countryCode || "XX").toUpperCase();
+    var label = document.createElement("span");
+    var location = document.createElement("span");
+    var time = document.createElement("span");
+
+    latestElement.textContent = "";
+    label.className = "visitor-insights__latest-label";
+    label.textContent = "Latest page view";
+    location.className = "visitor-insights__latest-location";
+    location.textContent = countryFlag(code) + " " + countryName(code);
+    time.className = "visitor-insights__latest-time";
+    time.textContent = visitTime(latest.visitedAt);
+
+    latestElement.appendChild(label);
+    latestElement.appendChild(location);
+    if (time.textContent) latestElement.appendChild(time);
+  }
+
   countElement.textContent = legacyCount.toLocaleString("en-US");
   renderRegions({ count: 0, countries: [] });
+  renderLatest({});
 
   findAvailableEndpoint(0)
     .then(function (available) {
-      if (!shouldIncrement) return available.data;
       return request(available.endpoint, "POST");
     })
     .then(function (data) {
       countElement.textContent =
         (legacyCount + Number(data.count || 0)).toLocaleString("en-US");
       renderRegions(data);
-      if (shouldIncrement) {
-        try {
-          window.localStorage.setItem(storageKey, today);
-        } catch (error) {
-          // The counter still works when browser storage is unavailable.
-        }
-      }
+      renderLatest(data);
     })
     .catch(function () {
       countElement.textContent = legacyCount.toLocaleString("en-US");

@@ -28,7 +28,7 @@ function visitorCountry(request) {
 }
 
 async function readSnapshot(env) {
-  const [counter, countries, countryTotal] = await env.DB.batch([
+  const [counter, countries, countryTotal, latestVisit] = await env.DB.batch([
     env.DB.prepare("SELECT value FROM counters WHERE name = 'homepage'"),
     env.DB.prepare(
       "SELECT code, value FROM country_counts " +
@@ -36,13 +36,24 @@ async function readSnapshot(env) {
     ),
     env.DB.prepare(
       "SELECT COUNT(*) AS value FROM country_counts WHERE code != 'XX'"
+    ),
+    env.DB.prepare(
+      "SELECT country_code, visited_at FROM latest_visit WHERE id = 1"
     )
   ]);
+
+  const latest = latestVisit.results[0];
 
   return {
     count: counter.results[0] ? counter.results[0].value : 0,
     countries: countries.results,
-    countryTotal: countryTotal.results[0] ? countryTotal.results[0].value : 0
+    countryTotal: countryTotal.results[0] ? countryTotal.results[0].value : 0,
+    latestVisit: latest
+      ? {
+          countryCode: latest.country_code,
+          visitedAt: latest.visited_at
+        }
+      : null
   };
 }
 
@@ -74,6 +85,13 @@ export default {
         env.DB.prepare(
           "INSERT INTO country_counts (code, value) VALUES (?, 1) " +
           "ON CONFLICT(code) DO UPDATE SET value = value + 1"
+        ).bind(visitorCountry(request)),
+        env.DB.prepare(
+          "INSERT INTO latest_visit (id, country_code, visited_at) " +
+          "VALUES (1, ?, strftime('%Y-%m-%dT%H:%M:%SZ', 'now')) " +
+          "ON CONFLICT(id) DO UPDATE SET " +
+          "country_code = excluded.country_code, " +
+          "visited_at = excluded.visited_at"
         ).bind(visitorCountry(request))
       ]);
 

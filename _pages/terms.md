@@ -36,4 +36,4 @@ If you wish to disable cookies, you may do so through your web browser options. 
 
 #### Privacy-friendly visitor statistics
 
-This site uses a first-party visit counter and Cloudflare Web Analytics to understand aggregate website traffic. The public counter does not store IP addresses or personal profiles. A small local browser value prevents repeated refreshes from being counted as new visits within the same day.
+This site uses a first-party page-view counter and Cloudflare Web Analytics to understand aggregate website traffic. Each page load or refresh is counted. The public counter stores aggregate country totals and only the latest page view's country code and timestamp; it does not store IP addresses, user agents, personal profiles, or a row-by-row visit history.
