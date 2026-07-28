@@ -19,15 +19,7 @@ redirect_from:
 <section class="home-section home-section--background" id="background" markdown="1">
 # 🧭 Background
 
-<div class="background-grid">
-  <div class="background-column" id="experiences" markdown="1">
-  {% include_relative includes/experiences.md %}
-  </div>
-
-  <div class="background-column" id="educations" markdown="1">
-  {% include_relative includes/educations.md %}
-  </div>
-</div>
+{% include_relative includes/background.md %}
 </section>
 
 <section class="home-section home-section--research" id="research-interests" markdown="1">
