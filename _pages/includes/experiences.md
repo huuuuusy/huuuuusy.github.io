@@ -1,4 +1,4 @@
-# 👩‍💻 Experiences
+## Professional Experience
 
 <article class="institution-entry">
   <a class="institution-entry__logo institution-entry__logo--crop institution-entry__logo--ntu" href="https://www.ntu.edu.sg/" aria-label="Nanyang Technological University">

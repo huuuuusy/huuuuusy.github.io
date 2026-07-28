@@ -1,43 +1,50 @@
 # 🔍️ Research Interests
 
-## Research Foundation
+## Research Trajectory
 
 <figure class="research-figure research-figure--history">
   <img src="/images/goal.png" alt="Research trajectory from visual perception tasks to human-grounded intelligence evaluation">
 </figure>
 
-My research began with **visual object tracking and machine vision evaluation**. I have studied task modeling, evaluation environments, measurement techniques, and human-machine comparison. Inspired by the Turing Test, I proposed the **Visual Turing Test** to evaluate dynamic visual intelligence against human abilities.
+My research began with **visual object tracking and machine vision evaluation**, spanning task modeling, evaluation environments, measurement techniques, and human-machine comparison. Inspired by the Turing Test, I proposed the **Visual Turing Test** to evaluate dynamic visual intelligence against human abilities.
 
-The central idea has remained consistent: AI evaluation should reveal what a system can perceive, understand, and reliably maintain in real environments, rather than report a benchmark score alone.
+The central question has remained consistent: **how can AI capabilities be measured and diagnosed in open, human-centered contexts?** Rather than reporting benchmark scores alone, I study what a system can perceive, understand, and reliably maintain as tasks and environments become more open.
 
 <div class="research-figure-clear"></div>
 
----
+<div class="research-path">
 
-<div class="research-questions">
+<article class="research-step" markdown="1">
+<span class="research-step__index" aria-hidden="true">01</span>
+<div class="research-step__content" markdown="1">
 
-<article class="research-question" markdown="1">
+### From visual localization to capability diagnosis
 
-### 1 · What abilities define human perception?
+Visual Object Tracking provided a concrete task for studying dynamic visual ability. **Global Instance Tracking (GIT)** extends tracking to long-term target retrieval, while **Multi-modal GIT (MGIT)** introduces hierarchical semantics and spatiotemporal-causal reasoning.
 
-I used Visual Object Tracking as a representative task for studying dynamic visual ability. Traditional tracking assumes continuous motion and short-term observation. **Global Instance Tracking (GIT)** extends the task to long-term target retrieval, while **Multi-modal GIT (MGIT)** introduces hierarchical semantics and spatiotemporal reasoning. This work moved my research from perceptual localization toward cognitive visual tasks.
-
+</div>
 </article>
 
-<article class="research-question" markdown="1">
+<article class="research-step" markdown="1">
+<span class="research-step__index" aria-hidden="true">02</span>
+<div class="research-step__content" markdown="1">
 
-### 2 · What environments do humans perceive?
+### From closed benchmarks to open environments
 
-Human visual environments are continuous, open, and semantically rich. I developed [VideoCube](http://videocube.aitestunion.com/) to organize long videos through narrative structure, and [SOTVerse](https://huuuuusy.github.io/#SOTVerse) as an open task space for testing visual generalization. [BioDrone](https://huuuuusy.github.io/#BioDrone) further examines reliable perception under motion disturbance and real-world physical constraints.
+Human visual environments are continuous, open, and semantically rich. [VideoCube](http://videocube.aitestunion.com/) organizes long videos through narrative structure, [SOTVerse](https://huuuuusy.github.io/#SOTVerse) supports user-defined task spaces, and [BioDrone](https://huuuuusy.github.io/#BioDrone) examines reliable perception under physical disturbance.
 
+</div>
 </article>
 
-<article class="research-question" markdown="1">
+<article class="research-step" markdown="1">
+<span class="research-step__index" aria-hidden="true">03</span>
+<div class="research-step__content" markdown="1">
 
-### 3 · How large is the human-machine gap?
+### From performance comparison to human-grounded evaluation
 
-I constructed unified evaluation settings in which people and models perform comparable visual tasks. The results show different strengths: people use semantics and context more effectively, while machines often sustain precision and persistence. These comparisons shaped my interest in human-grounded evaluation and reliable human-AI collaboration.
+By placing people and models in comparable visual tasks, I study how their capabilities differ and where conventional metrics conceal those differences. This perspective now guides my work on human-grounded evaluation and reliable human-AI collaboration.
 
+</div>
 </article>
 
 </div>
@@ -50,23 +57,23 @@ I constructed unified evaluation settings in which people and models perform com
 
 ### Open-World Vision
 
-I study dynamic visual perception and world-state modeling under occlusion, interference, and physical disturbance. Current topics include object tracking, vision-language grounding, long-horizon visual memory, and reliable perception for UAVs and embodied systems.
+I study whether visual systems can maintain target identity and world state under occlusion, interference, and physical disturbance. Current topics include open-world tracking, vision-language grounding, visual memory, and reliable perception for UAVs and embodied systems.
 
 </article>
 
 <article class="research-direction" markdown="1">
 
-### Multimodal Reasoning
+### Evidence-Grounded Multimodal Reasoning
 
-I investigate whether multimodal foundation models select and use the right evidence in images and long videos. My work covers spatiotemporal and causal reasoning, streaming memory, adaptive visual computation, and process-level verification.
+I investigate whether multimodal models select and use the right evidence in images and long videos. My work covers spatiotemporal and causal reasoning, streaming memory, adaptive visual computation, and process-level verification.
 
 </article>
 
 <article class="research-direction" markdown="1">
 
-### Human-Centered Agents
+### Human-Centered Agents and AI for Education
 
-I develop agents that model cognitive and learning states, capability boundaries, and social interaction. Education provides a practical setting for personalized agents, virtual students, multi-agent simulation, and reliable human-AI collaboration.
+I develop agents that model cognitive and learning states, capability boundaries, and social interaction. Education provides a practical setting for virtual students, personalized agents, multi-agent simulation, and reliable human-AI collaboration.
 
 </article>
 
@@ -77,5 +84,5 @@ I develop agents that model cognitive and learning states, capability boundaries
 </figure>
 
 <div class="research-synthesis" markdown="1">
-The **3E framework** connects Environment, Evaluation, and Executors in one evaluation loop. Across the three directions above, I build open task spaces, human-grounded protocols, and process-level diagnostics to identify capability boundaries and failure mechanisms, then use those findings to improve model and system design.
+The **3E framework** connects Environment, Evaluation, and Executors in one evaluation loop. Across these directions, I build open task spaces, human-grounded protocols, and process-level diagnostics to reveal capability boundaries and improve model and system design.
 </div>

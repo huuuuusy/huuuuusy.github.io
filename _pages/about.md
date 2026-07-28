@@ -16,12 +16,18 @@ redirect_from:
 {% include_relative includes/news.md %}
 </section>
 
-<section class="home-section home-section--experience" id="experiences" markdown="1">
-{% include_relative includes/experiences.md %}
-</section>
+<section class="home-section home-section--background" id="background" markdown="1">
+# 🧭 Background
 
-<section class="home-section home-section--education" id="educations" markdown="1">
-{% include_relative includes/educations.md %}
+<div class="background-grid">
+  <div class="background-column" id="experiences" markdown="1">
+  {% include_relative includes/experiences.md %}
+  </div>
+
+  <div class="background-column" id="educations" markdown="1">
+  {% include_relative includes/educations.md %}
+  </div>
+</div>
 </section>
 
 <section class="home-section home-section--research" id="research-interests" markdown="1">

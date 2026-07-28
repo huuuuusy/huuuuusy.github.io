@@ -6,11 +6,8 @@ main:
   - title: "News"
     url: "/#news"
 
-  - title: "Experience"
-    url: "/#experiences"
-
-  - title: "Education"
-    url: "/#educations"
+  - title: "Background"
+    url: "/#background"
 
   - title: "Research"
     url: "/#research-interests"

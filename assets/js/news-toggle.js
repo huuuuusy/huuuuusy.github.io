@@ -13,7 +13,8 @@
       return item.tagName === "P";
     });
     var today = new Date();
-    var cutoff = new Date(today.getFullYear() - 1, today.getMonth(), 1);
+    // Keep the current month and the previous five calendar months visible.
+    var cutoff = new Date(today.getFullYear(), today.getMonth() - 5, 1);
     var olderItems = [];
 
     items.forEach(function (item) {
@@ -45,7 +46,7 @@
 
       timeline.classList.toggle("is-expanded", !expanded);
       toggle.setAttribute("aria-expanded", String(!expanded));
-      label.textContent = expanded ? "Show all news" : "Show recent news";
+      label.textContent = expanded ? "Show all news" : "Show recent six months";
       icon.textContent = expanded ? "↓" : "↑";
     });
   }
