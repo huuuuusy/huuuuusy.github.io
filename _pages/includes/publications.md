@@ -1,5 +1,13 @@
 # 📝 Publications
 
+<!--
+Publication keyword taxonomy (fixed three-level hierarchy):
+1. Research Area: a recognizable, current research field.
+2. Capability Problem: the capability being maintained, diagnosed, or evaluated.
+3. Research Interface: the paper's principal method, benchmark, or evaluation mechanism.
+Use Title Case, keep at most three keywords, and avoid generic catch-all labels.
+-->
+
 ## Book
 
 
@@ -11,7 +19,7 @@
 **Visual Object Tracking: An Evaluation Perspective**<br>
 [X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu</font>***,  [X. Yin](https://scce.ustb.edu.cn/shiziduiwu/jiaoshixinxi/2018-04-12/62.html)<br>
 [Springer, Part of the book series: Advances in Computer Vision and Pattern Recognition (ACVPR)](https://www.springer.com/series/4205)<br>
-📌 Visual Object Tracking 📌 Intelligent Evaluation Technology <br>
+📌 Dynamic Vision 📌 Visual Intelligence Evaluation 📌 Task-Space Diagnosis<br>
 [📃 Book](https://link.springer.com/book/9789819645572)
 
 </div>
@@ -31,7 +39,7 @@
 **Global Instance Tracking: Locating Target More Like Humans**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [L. Huang](https://github.com/huanglianghua), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (CCF-A Journal)<br>
-📌 Visual Object Tracking 📌 Large-scale Benchmark Construction 📌 Intelligent Evaluation Technology <br>
+📌 Open-World Tracking 📌 Global Instance Localization 📌 Human-Referenced Evaluation<br>
 [📃 Paper](https://ieeexplore.ieee.org/document/9720246/)
 [📑 PDF](https://huuuuusy.github.io/files/GIT.pdf)
 [🪧 Poster](https://huuuuusy.github.io/files/VALSE24Poster-364.pdf)
@@ -49,7 +57,7 @@
 **SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal)<br>
-📌 Visual Object Tracking 📌 Dynamic Open Environment Construction 📌 3E Paradigm<br>
+📌 Open-World Tracking 📌 Task-Space Modeling 📌 Diagnostic Evaluation<br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)
 [📑 PDF](https://huuuuusy.github.io/files/SOTVerse.pdf)
 [🪧 Poster](https://huuuuusy.github.io/files/VALSE25Poster-G19.jpg)
@@ -66,7 +74,7 @@
 **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
 [X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu✉️</font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), J. Zhang, Y. Hu, R. Liu, [H. Lin](https://www3.cs.stonybrook.edu/~hling/), [Y. Li](https://www.biostat.wisc.edu/~yli/), R. Li, K. Liu, [J. Li](http://yjsb.sinano.ac.cn/Doctor/info.aspx?itemid=920) <br>
 [International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal)<br>
-📌 Visual Object Tracking 📌 Drone-based Tracking 📌 Visual Robustness<br>
+📌 Robust Visual Tracking 📌 Open-Environment Vision 📌 UAV Benchmark<br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01937-0)
 [🌐 Platform](http://biodrone.aitestunion.com/) 
 [📑 PDF](https://huuuuusy.github.io/files/BioDrone.pdf)
@@ -83,7 +91,7 @@
 **A Multi-modal Global Instance Tracking Benchmark (MGIT): Better Locating Target in Complex Spatio-temporal and causal Relationship**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) (CCF-A Conference, Poster)<br>
-📌 Visual Language Tracking 📌 Long Video Understanding and Reasoning 📌 Hierarchical Semantic Information Annotation<br>
+📌 Multimodal Video Understanding 📌 Global Instance Tracking 📌 Spatiotemporal-Causal Reasoning<br>
 [📃 Paper](https://proceedings.nips.cc/paper_files/paper/2023/hash/4ea14e6090343523ddcd5d3ca449695f-Abstract-Datasets_and_Benchmarks.html) 
 [📃 PDF](https://huuuuusy.github.io/files/MGIT.pdf)
 [🪧 Poster](https://huuuuusy.github.io/files/MGIT-poster.pdf)
@@ -103,7 +111,7 @@
 **ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking**<br>
 [X. Feng\*](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions) <br>
 [International Conference on Computer Vision](https://iccv.thecvf.com/) (CCF-A Conference, **<font color=DarkRed>Highlight</font>**)<br>
-📌 Visual Language Tracking 📌 Multimodal Learning 📌 Adaptive Prompts<br>
+📌 Vision-Language Tracking 📌 Dynamic State Alignment 📌 Multimodal Memory<br>
 [📃 Paper](https://arxiv.org/abs/2507.19875)
 [📑 PDF](https://arxiv.org/pdf/2507.19875)
 </div>
@@ -118,7 +126,7 @@
 **MATrack: Efficient Multiscale Adaptive Tracker for Real-Time Nighttime UAV Operations**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
 [International Conference on Robotics and Automation](https://2026.ieee-icra.org/) (CCF-B Conference)<br>
-📌 Nighttime UAVs Tracking 📌 Multiscale Adaptive Tracker 📌 Visual Object Tracking <br>
+📌 Robust Visual Tracking 📌 Nighttime UAV Vision 📌 Real-Time Adaptation<br>
 [📃 Paper](https://arxiv.org/abs/2510.21586)
 [📑 PDF](https://arxiv.org/pdf/2510.21586)
 </div>
@@ -133,7 +141,7 @@
 **DARTer: Dynamic Adaptive Representation Tracker for Nighttime UAV Tracking**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
 [International Conference on Multimedia Retrieval](https://www.icmr-2025.org/) (CCF-B Conference)<br>
-📌 Nighttime UAVs Tracking 📌 Dark Feature Blending 📌 Dynamic Feature Activation <br>
+📌 Robust Visual Tracking 📌 Nighttime UAV Vision 📌 Dynamic Representation Learning<br>
 [📃 Paper](https://dl.acm.org/doi/abs/10.1145/3731715.3733473)
 [📑 PDF](https://dl.acm.org/doi/pdf/10.1145/3731715.3733473)
 </div>
@@ -147,7 +155,7 @@
 **Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey (单目标跟踪中的视觉智能评估技术综述)**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [Journal of Images and Graphics](http://www.cjig.cn/jig/ch/index.aspx) (《中国图象图形学报》, CCF-B Chinese Journal)<br>
-📌 Visual Object Tracking 📌 Intelligent Evaluation Technique 📌 AI4Science<br>
+📌 Dynamic Vision 📌 Visual Intelligence Evaluation 📌 Capability Diagnosis<br>
 [📃 Paper](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?flag=2&file_no=202307100000002&journal_id=jig) 
 [📑 PDF](https://huuuuusy.github.io/files/JIG-survey.pdf) 
 
@@ -163,7 +171,7 @@
 **Improved SAR Aircraft Detection Algorithm Based on Visual State Space Models**<br>
 Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***, B. Shen, Z. Hou, [W. Zhou](https://scholar.google.com/citations?user=r8x76hUAAAAJ)<br>
 [IET Computer Vision](https://digital-library.theiet.org/journal/iet-cvi) (CCF-C Journal)<br>
-📌 Synthetic Aperture Radar 📌 State Space Models 📌 Aircraft Object Detection <br>
+📌 Remote Sensing 📌 SAR Aircraft Detection 📌 Vision State-Space Models<br>
 <!-- [📃 Paper](https://www.arxiv.org/abs/2505.00752) -->
 <!-- [📑 PDF](https://www.arxiv.org/pdf/2505.00752) -->
 </div>
@@ -182,7 +190,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 **Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning**<br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr.thecvf.com/Conferences/2026) (CCF-A Conference)<br>
-📌 Video Large Language Models 📌 Video Reasoning 📌 Video Understanding <br>
+📌 Video-LLM Reasoning 📌 Evidence Purity 📌 Agentic Frame Selection<br>
 [📃 Paper](https://arxiv.org/abs/2510.15440)
 [📑 PDF](https://arxiv.org/pdf/2510.15440)
 </div>
@@ -197,7 +205,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 **CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos**<br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Zhang](https://zwt233.github.io/)<br>
 [Proceedings of the AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/) (CCF-A Conference, **<font color=DarkRed>Oral</font>**)<br>
-📌 Video-based QA 📌 Video Reasoning 📌 Video Understanding <br>
+📌 Video-LLM Reasoning 📌 Stepwise Causal Reasoning 📌 Diagnostic Benchmark<br>
 [📃 Paper](https://arxiv.org/abs/2507.16878)
 [📑 PDF](https://arxiv.org/pdf/2507.16878)
 [📹 Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf)
@@ -213,7 +221,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 **VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Guo](https://openreview.net/profile?id=~yongzhen.gyz1), [W. Zhang](https://zwt233.github.io/)<br>
 [Proceedings of the AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/) (CCF-A Conference, **<font color=DarkRed>Oral</font>**)<br>
-📌 Verifiable Reward 📌 Reinforcement Learning <br>
+📌 LLM Reasoning 📌 Reasoning Verifiers 📌 RLVR Evaluation<br>
 [📃 Paper](https://arxiv.org/abs/2507.09884)
 [📑 PDF](https://arxiv.org/pdf/2507.09884)
 [📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)
@@ -228,7 +236,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 **NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation Models**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), H. Yu, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, J. Chen, C. Zhu, J. Wu, [X. Chu](https://cxxgtxy.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [International Conference on Learning Representations](https://iclr.cc/Conferences/2026) (CCF-A Conference)<br>
-📌 Visual Understanding 📌 Video Generation 📌 Evaluation Technique<br>
+📌 Generative Video Models 📌 Narrative Coherence 📌 Narrative-Centric Evaluation<br>
 [📃 Paper](https://arxiv.org/abs/2507.11245) 
 [📑 PDF](https://arxiv.org/pdf/2507.11245) 
 </div>
@@ -242,7 +250,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 **Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning**<br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [W. Zhang](https://zwt233.github.io/)<br>
 [Annual Meeting of the Association for Computational Linguistics](https://2026.aclweb.org/) (CCF-A Conference)<br>
-📌 Thinking-with-Image 📌 Vision-Language Models 📌 Pixel Reasoning<br>
+📌 Multimodal Reasoning 📌 Grounded Visual Evidence 📌 Adaptive Pixel-Space Reasoning<br>
 [📃 Paper](https://arxiv.org/abs/2510.01681) 
 [📑 PDF](https://arxiv.org/pdf/2510.01681) 
 </div>
@@ -258,7 +266,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 **Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking**<br>
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
 [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) (CCF-B Journal)<br>
-📌 Multi-object Tracking 📌 Tracking by Detection 📌 Tracking by Query<br>
+📌 Multi-Object Tracking 📌 Query-Based Association 📌 Efficient End-to-End Learning<br>
 [📃 Paper](https://arxiv.org/abs/2411.06197) 
 [📑 PDF](https://arxiv.org/pdf/2411.06197) 
 </div>
@@ -273,7 +281,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 **Talk with Your Fingers: A Depth-Aware Benchmark for Air-Writing Recognition**<br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***,  [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), J. Wu, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)<br>
-📌 Depth-aware Air-writing 📌 Benchmark Construction 📌 Human-machine Interaction<br>
+📌 Human-Centered Vision 📌 Depth-Aware Air-Writing 📌 Multimodal Benchmark<br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/11421430) 
 <!-- [📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf) -->
 <!-- [🔧 Toolkit](https://github.com/wmeiqi/AWCV)  -->
@@ -289,7 +297,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 **COAL: Counterfactual and Observation-Enhanced Alignment Learning for Discriminative Referring Multi-Object Tracking**<br>
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), X. Cheng, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br> 
 [International Joint Conference on Artificial Intelligence](https://2026.ijcai.org/) (CCF-B Conference)<br>
-📌 Multi-object Tracking 📌 Referring Multi-object Tracking <br>
+📌 Referring Multi-Object Tracking 📌 Robust Language Grounding 📌 Counterfactual Alignment Learning<br>
 <!-- [📃 Paper](https://arxiv.org/abs/2411.06197) 
 [📑 PDF](https://arxiv.org/pdf/2411.06197)  -->
 </div>
@@ -305,7 +313,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 **DASTrack: Rethinking Temporal Modeling in Visual Object Tracking via Decoupled Auxiliary Supervision**<br>
 [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, H. Fu, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (CCF-B Conference)<br>
-📌 Visual Object Tracking 📌 Temporal Modeling 📌 Auxiliary Supervision<br>
+📌 Visual Object Tracking 📌 Temporal Representation Learning 📌 Decoupled Auxiliary Supervision<br>
 
 </div>
 </div>
@@ -319,7 +327,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 **Global-Local Semi-Supervised Modeling for Retinal Layer Boundary Estimation in OCT**<br>
 K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en), H. Yue, ***<font color=DarkRed>Shiyu Hu</font>***, S. W. Tan, [W. Y. Low](https://scholar.google.com/citations?user=XK5N6moAAAAJ&hl=en), [X. Su](https://www.a-star.edu.sg/imcb/people/su-xinyi), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 [Annual International Conference of the IEEE Engineering in Medicine and Biology Society](https://embc.embs.org/2026/) (CAAI-B Conference)<br>
-📌 Optical Coherence Tomography 📌 Semi-supervised Learning <br>
+📌 Medical Imaging 📌 Retinal Boundary Estimation 📌 Semi-Supervised Structure Learning<br>
 
 </div>
 </div>
@@ -333,7 +341,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 **Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspective**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
 [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering)<br>
-📌 Constraint-driven Video Intelligence 📌Multimodal Understanding and Reasoning <br>
+📌 Multimodal Video Intelligence 📌 Constraint-Aware AI 📌 System-Level Reliability<br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/11417444/)
 <!-- [📑 PDF](https://arxiv.org/pdf/2507.09884) -->
 <!-- [📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf) -->
@@ -349,7 +357,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 **CalcTutor: Multi-Agent LLM Grading of Handwritten Mathematics with RAG-Grounded Feedback for Adaptive Learning Support**<br>
 L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 [Mathematics](https://www.mdpi.com/2227-7390/14/7/1094)<br>
-📌 Adaptive Learning 📌 Multi-agent LLM 📌 Retrieval Augmented Generation<br>
+📌 AI for Education 📌 Multi-Agent Assessment 📌 RAG-Grounded Feedback<br>
 [📃 Paper](https://www.mdpi.com/2227-7390/14/7/1094)
 
 </div>
@@ -364,7 +372,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 **CSTrack: Enhancing RGB-X Tracking via Compact Spatiotemporal Features**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 [International Conference on Machine Learning](https://icml.cc/) (CCF-A Conference, Poster)<br>
-📌 Visual Object Tracking 📌 Multi-modal Learning <br>
+📌 Multimodal Tracking 📌 Spatiotemporal Representation Learning 📌 Efficient Sensor Fusion<br>
 [📃 Paper](https://openreview.net/forum?id=JZIJxr9KsO)
 [📑 PDF](https://openreview.net/pdf?id=JZIJxr9KsO5)
 </div>
@@ -379,7 +387,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 **Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li),  [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2025.ieeeicassp.org/) (CCF-B Conference, Poster)<br>
-📌 Visual Language Tracking 📌 Multi-modal Learning 📌 Grounding Model<br>
+📌 Vision-Language Tracking 📌 Visual Grounding 📌 Foundation Model Transfer<br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10888064) 
 [📃 PDF](https://arxiv.org/pdf/2412.19648)
 </div>
@@ -394,7 +402,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 **Artificial Intelligence-Enabled Adaptive Learning Platforms: A Review**<br>
 L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 [Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
-📌 Adaptive Learning Platforms 📌 AI for Education 📌 Educational Technology<br>
+📌 AI for Education 📌 Personalized Learning 📌 Adaptive Learning Systems<br>
 [📃 Paper](https://www.sciencedirect.com/science/article/pii/S2666920X25000694) 
 [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf)
 
@@ -409,7 +417,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 **A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques**<br>
 L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 [Mathematics](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
-📌 Automated Grading Systems 📌 AI for Education 📌 Educational Technology<br>
+📌 AI for Education 📌 Automated STEM Assessment 📌 Learning Analytics<br>
 [📃 Paper](https://www.mdpi.com/2227-7390/13/17/2828) 
 <!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
 
@@ -425,7 +433,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 **Trustworthy AI in education: Framework, cases, and governance strategies**<br>
 Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  <br>
 [Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?cmpid=6350db6df59e5b0001f79b4b)<br>
-📌 Trustworthy Artificial Intelligence 📌 Educational Governance 📌 Algorithmic Fairness;<br>
+📌 Trustworthy AI 📌 AI for Education 📌 Governance and Fairness<br>
 [📃 Paper](https://www.worldscientific.com/doi/abs/10.1142/S2737599425500264) 
 <!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
 
@@ -440,7 +448,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 **A Review of Intelligent Psychological Assessment Based on Interactive Environment (基于交互环境的智能化心理测评)**<br>
 [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
 [Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSSCI Journal, Top Psychological Journal in China)<br>
-📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
+📌 Human-Centered AI 📌 Interactive Psychological Assessment 📌 Validity and Ethics<br>
 
 </div>
 </div>
@@ -454,7 +462,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 **Beyond Accuracy: Tracking more like Human via Visual Search**<br>
 [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 [Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference, Poster)<br>
-📌  Visual Object Tracking 📌 Visual Search Mechanism 📌 Visual Turing Test<br>
+📌 Human-Centered Vision 📌 Visual Search 📌 Process-Level Evaluation<br>
 [📃 Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/050f8591be3874b52fdac4e1060eeb29-Abstract-Conference.htmlO)
 [📑 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/050f8591be3874b52fdac4e1060eeb29-Paper-Conference.pdf)
 </div>
@@ -468,7 +476,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 **MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 [Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference, Poster)<br>
-📌 Visual Language Tracking 📌 Human-like Memory Modeling 📌 Adaptive Prompts<br>
+📌 Vision-Language Tracking 📌 Long-Term Memory 📌 Adaptive Prompting<br>
 [📃 Paper](https://neurips.cc/virtual/2024/poster/94643)
 [📑 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/1af3e0bf5905e33789979f666c31192d-Paper-Conference.pdf)
 
@@ -484,7 +492,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
 J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
 [IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference, Poster)<br>
-📌 Medical Image Processing 📌 AI4Science 📌 Diffusion Model<br>
+📌 AI for Science 📌 Cryo-EM Restoration 📌 Diffusion Models<br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/10447135) 
 [📑 PDF](https://huuuuusy.github.io/files/ICASSP24.pdf)
 
@@ -500,7 +508,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
 [IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)<br>
-📌 Air-writing Technique 📌 Benchmark Construction 📌 Human-machine Interaction<br>
+📌 Human-Computer Interaction 📌 Unconstrained Air-Writing 📌 Real-World Benchmark<br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10496279) 
 [📃 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf)
 [🔧 Toolkit](https://github.com/wmeiqi/AWCV) 
@@ -517,7 +525,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **VS-LLM: Visual-Semantic Depression Assessment based on LLM for Drawing Projection Test**<br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), Y. Kang, [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, Y. kang, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference)<br>
-📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
+📌 Human-Centered AI 📌 Multimodal Mental Health Assessment 📌 LLM-Assisted Interpretation<br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-97-8692-3_17) 
 [📃 PDF](https://huuuuusy.github.io/files/VSLLM.pdf)
 
@@ -534,7 +542,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv) (CCF-C Conference, Poster)<br>
-📌 Psychological Assessment System 📌 Gamified Assessment 📌 AI4Science<br>
+📌 Human-Centered AI 📌 Computational Mental Health 📌 Knowledge-Guided Recognition<br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-99-8462-6_20) 
 [📑 PDF](https://huuuuusy.github.io/files/PRCV23.pdf)
 [🔖 Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)
@@ -552,7 +560,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **Rethinking Similar Object Interference in Single Object Tracking**<br>
 [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
 [International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **<font color=DarkRed>Oral</font>**)<br>
-📌 Visual Object Tracking 📌 Similar Object Interference 📌 Data Mining<br>
+📌 Robust Visual Tracking 📌 Similar-Object Interference 📌 Failure Diagnosis<br>
 [📃 Paper](https://dl.acm.org/doi/abs/10.1145/3638584.3638644) 
 [🗒 bibTex](https://huuuuusy.github.io/files/CSAI23.bib) 
 [📑 PDF](https://huuuuusy.github.io/files/CSAI23.pdf)
@@ -569,7 +577,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
 [Y. Zhang](https://wesleyzhang1991.github.io/), [C. Liu](https://scholar.google.com/citations?user=atOfOgMAAAAJ&hl=zh-CN&oi=sra), [W. Chen](https://scholar.google.com/citations?user=KWVlYaMAAAAJ&hl=zh-CN&oi=sra), [X. Xu](https://scholar.google.com/citations?user=nJc6BvgAAAAJ&hl=zh-CN&oi=sra), [F. Wang](https://scholar.google.com/citations?user=WCRGTHsAAAAJ), [H. Li](https://scholar.google.com/citations?user=pHN-QIwAAAAJ&hl=zh-CN&oi=sra), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
 [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)  (CCF-C Journal)<br>
-📌 Video Instance Search 📌 Benchmark Construction  📌 Data Mining<br>
+📌 Open-World Retrieval 📌 Cross-Camera Instance Search 📌 Cycle Self-Training<br>
 [📃 Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445) 
 [📑 PDF](https://huuuuusy.github.io/files/Neu22.pdf) 
 [🌐 Project](https://github.com/Instance-Search/) 
@@ -585,7 +593,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
 [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [X. Zhao](https://www.xinzhaoai.com/), [Q. Li](https://scholar.google.com/citations?user=7xmxBagAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***<br>
 [Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml) (《图学学报》, CCF-C Chinese Journal)<br>
-📌 Visual Object Tracking 📌 Intelligent Evaluation Technique  📌 AI4Science<br>
+📌 Human-Centered AI 📌 Visual Intelligence Evaluation 📌 Human-Machine Benchmarking<br>
 [📃 Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339) 
 [📑 PDF](https://huuuuusy.github.io/files/VTT.pdf)
 
@@ -642,7 +650,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **How to Respond, How to Memorize, How to Be Fast: A Survey of Streaming Video Understanding**<br>
 [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), J. Zhao, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions)<br>
-📌 Streaming Video Understanding 📌 Memory Modeling 📌 Efficient Inference<br>
+📌 Streaming Video Understanding 📌 Long-Term Memory 📌 Efficient Inference<br>
 [📃 Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7008298)
 
 </div>
@@ -655,7 +663,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **FIOVA: A Multi-Annotator Benchmark for Human-Aligned Video Captioning**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li\*](https://github.com/Xuchen-Li), [X. Li](https://github.com/XuzhaoLi), J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [X. Zhao](https://www.xinzhaoai.com/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
-📌 Large Vision-Language Models 📌 Video Caption 📌 Video Understanding<br>
+📌 Large Vision-Language Models 📌 Human-Aligned Video Understanding 📌 Multi-Annotator Evaluation<br>
 [📃 Paper](https://arxiv.org/abs/2410.15270) 
 [📑 PDF](https://arxiv.org/pdf/2410.15270) 
 [🌐 Project](https://huuuuusy.github.io/fiova/) 
@@ -670,7 +678,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **When LLMs Learn to be Students: The SOEI Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction**<br>
 Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
-📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+📌 AI for Education 📌 Virtual Student Agents 📌 Interaction-Centered Evaluation<br>
 [📃 Paper](https://arxiv.org/abs/2410.15701) 
 [📑 PDF](https://arxiv.org/pdf/2410.15701) 
 </div>
@@ -684,7 +692,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 
 **EduVerse: A User-Defined Multi-Agent Simulation Space for Education Scenario**<br>
 Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Kang, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
-📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+📌 AI for Education 📌 Multi-Agent Simulation 📌 User-Defined Classroom Space<br>
 [📃 Paper](https://arxiv.org/abs/2510.05650) 
 [📑 PDF](https://arxiv.org/pdf/2510.05650) 
 </div>
@@ -698,7 +706,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://
 
 **EduPersona: Benchmarking Subjective Ability Boundaries of Virtual Student Agents**<br>
 B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br> 
-📌 AI4Education 📌 LLMs 📌 LLM-based Agent<br>
+📌 AI for Education 📌 Persona-Aware Agents 📌 Subjective Ability Diagnosis<br>
 [📃 Paper](https://arxiv.org/abs/2510.04648) 
 [📑 PDF](https://arxiv.org/pdf/2510.04648) 
 </div>
@@ -714,7 +722,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **SOI is the Root of All Evil: Quantifying and Breaking Similar Object Interference in Single Object Tracking**<br>
 [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, S. Jia, P. Xu, H. Ma, Y. Ma, J. Zhang, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm), [X. Zhao](https://www.xinzhaoai.com/) (*Equal Contributions) <br> 
-📌 Visual Object Tracking 📌 Similar Object Interference 📌 Multimodal Learning<br>
+📌 Robust Visual Tracking 📌 Similar-Object Interference 📌 VLM-Guided Correction<br>
 [📃 Paper](https://www.arxiv.org/abs/2508.09524) 
 [📑 PDF](https://www.arxiv.org/pdf/2508.09524) 
 </div>
@@ -728,7 +736,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **How Texts Help? A Fine-grained Evaluation to Reveal the Role of Language in Vision-Language Tracking**<br>
 [X. Li](https://github.com/Xuchen-Li)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions) <br>
-📌 Visual Language Tracking 📌 Multimodal Learning 📌 Evaluation Technique<br>
+📌 Vision-Language Tracking 📌 Language Utility Diagnosis 📌 Fine-Grained Evaluation<br>
 [📃 Paper](https://arxiv.org/abs/2411.15600) 
 [📑 PDF](https://arxiv.org/pdf/2411.15600) 
 </div>
@@ -742,7 +750,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **STEMVerse: A Dual-Axis Diagnostic Framework for STEM Reasoning in Large Language Models**<br>
 [X. Li](https://github.com/XuzhaoLi), [X. Li](https://github.com/Xuchen-Li), [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
-📌 STEM Reasoning 📌 Large Language Models 📌 Diagnostic Evaluation<br>
+📌 AI for Education 📌 STEM Reasoning 📌 Cognitive Diagnosis<br>
 [📃 Paper](https://arxiv.org/abs/2602.02497)
 [📑 PDF](https://arxiv.org/pdf/2602.02497)
 
@@ -757,7 +765,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **DTVLT: A Multi-modal Diverse Text Benchmark for Visual Language Tracking Based on LLM**<br>
 [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-📌 Visual Language Tracking 📌 Large Language Model 📌 Evaluation Technique<br>
+📌 Vision-Language Tracking 📌 Data-Centric AI 📌 Diverse Text Benchmark<br>
 [📃 Paper](https://arxiv.org/abs/2410.02492) 
 [📑 PDF](https://arxiv.org/pdf/2410.02492) 
 [🌐 Project](http://videocube.aitestunion.com/) 
@@ -771,7 +779,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **Visual Language Tracking with Multi-modal Interaction: A Robust Benchmark**<br>
 [X. Li](https://github.com/Xuchen-Li),  ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-📌 Visual Language Tracking 📌 Multi-modal Interaction 📌 Evaluation Technology<br>
+📌 Vision-Language Tracking 📌 Multimodal Interaction 📌 Interactive Robustness Evaluation<br>
 [📃 Paper](https://arxiv.org/abs/2409.08887) 
 [📑 PDF](https://arxiv.org/pdf/2409.08887) 
 [🌐 Project](http://videocube.aitestunion.com/) 
@@ -789,7 +797,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images**<br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ),[J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en)<br>
-📌 Thinking-with-Image 📌 Vision-Language Models 📌 Agentic Models<br>
+📌 Agentic Visual Reasoning 📌 Grounded Visual Evidence 📌 Dual-Axis Diagnosis<br>
 [📃 Paper](https://arxiv.org/abs/2601.11633) 
 [📑 PDF](https://arxiv.org/abs/2601.11633) 
 </div>
@@ -803,7 +811,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **Nearing or Surpassing: Overall Evaluation of Human-Machine Dynamic Vision Ability**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [Y. Shan](https://scholar.google.com/citations?user=_nc83HsAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-📌 Visual Object Tracking 📌 Intelligent Evaluation Technique 📌 AI4Science<br>
+📌 Human-Centered AI 📌 Dynamic Vision Capability 📌 Human-Machine Evaluation<br>
 [📑 PDF](https://huuuuusy.github.io/files/VTT-ICLR.pdf)
 </div>
 </div>
