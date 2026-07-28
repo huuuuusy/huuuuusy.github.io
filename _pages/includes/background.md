@@ -62,7 +62,8 @@
           <h3>Ph.D.</h3>
           <p class="background-entry__institution"><a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences (CASIA)</a></p>
           <p class="background-entry__summary"><strong>Field:</strong> Computer Application Technology</p>
-          <p class="background-entry__summary"><strong>Supervisors:</strong> <a href="https://people.ucas.ac.cn/~huangkaiqi">Prof. Kaiqi Huang</a> and <a href="https://www.xinzhaoai.com/">Prof. Xin Zhao</a></p>
+          <p class="background-entry__summary"><strong>Supervisor:</strong> <a href="https://people.ucas.ac.cn/~huangkaiqi">Prof. Kaiqi Huang</a></p>
+          <p class="background-entry__summary"><strong>Co-supervisor:</strong> <a href="https://www.xinzhaoai.com/">Prof. Xin Zhao</a></p>
           <details class="background-details">
             <summary>Thesis and degree details</summary>
             <div class="background-details__body">
