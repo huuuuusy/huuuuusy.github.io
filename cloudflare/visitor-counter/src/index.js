@@ -27,8 +27,75 @@ function visitorCountry(request) {
   return /^[A-Z]{2}$/.test(country || "") ? country : "XX";
 }
 
+function singaporePeriods() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Singapore",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date());
+  const values = {};
+
+  parts.forEach((part) => {
+    if (part.type !== "literal") values[part.type] = Number(part.value);
+  });
+
+  const current = new Date(
+    Date.UTC(values.year, values.month - 1, values.day)
+  );
+  const mondayOffset = (current.getUTCDay() + 6) % 7;
+  const weekStart = new Date(current);
+
+  weekStart.setUTCDate(current.getUTCDate() - mondayOffset);
+
+  function dateKey(date) {
+    return date.toISOString().slice(0, 10);
+  }
+
+  return {
+    timezone: "Asia/Singapore",
+    today: {
+      from: dateKey(current),
+      to: dateKey(current)
+    },
+    week: {
+      from: dateKey(weekStart),
+      to: dateKey(current)
+    },
+    month: {
+      from: dateKey(new Date(Date.UTC(values.year, values.month - 1, 1))),
+      to: dateKey(current)
+    }
+  };
+}
+
+function periodResult(rows, range) {
+  const countries = rows.map((row) => ({
+    code: row.code,
+    value: Number(row.value || 0)
+  }));
+
+  return {
+    from: range.from,
+    to: range.to,
+    total: countries.reduce((sum, country) => sum + country.value, 0),
+    countryCount: countries.filter((country) => country.code !== "XX").length,
+    countries
+  };
+}
+
 async function readSnapshot(env) {
-  const [counter, countries, countryTotal, latestVisit] = await env.DB.batch([
+  const periods = singaporePeriods();
+  const [
+    counter,
+    countries,
+    countryTotal,
+    latestVisit,
+    periodStart,
+    todayCountries,
+    weekCountries,
+    monthCountries
+  ] = await env.DB.batch([
     env.DB.prepare("SELECT value FROM counters WHERE name = 'homepage'"),
     env.DB.prepare(
       "SELECT code, value FROM country_counts " +
@@ -39,7 +106,25 @@ async function readSnapshot(env) {
     ),
     env.DB.prepare(
       "SELECT country_code, visited_at FROM latest_visit WHERE id = 1"
-    )
+    ),
+    env.DB.prepare(
+      "SELECT MIN(visit_date) AS value FROM daily_country_counts"
+    ),
+    env.DB.prepare(
+      "SELECT country_code AS code, SUM(value) AS value " +
+      "FROM daily_country_counts WHERE visit_date BETWEEN ? AND ? " +
+      "GROUP BY country_code ORDER BY value DESC, country_code ASC"
+    ).bind(periods.today.from, periods.today.to),
+    env.DB.prepare(
+      "SELECT country_code AS code, SUM(value) AS value " +
+      "FROM daily_country_counts WHERE visit_date BETWEEN ? AND ? " +
+      "GROUP BY country_code ORDER BY value DESC, country_code ASC"
+    ).bind(periods.week.from, periods.week.to),
+    env.DB.prepare(
+      "SELECT country_code AS code, SUM(value) AS value " +
+      "FROM daily_country_counts WHERE visit_date BETWEEN ? AND ? " +
+      "GROUP BY country_code ORDER BY value DESC, country_code ASC"
+    ).bind(periods.month.from, periods.month.to)
   ]);
 
   const latest = latestVisit.results[0];
@@ -53,7 +138,16 @@ async function readSnapshot(env) {
           countryCode: latest.country_code,
           visitedAt: latest.visited_at
         }
-      : null
+      : null,
+    recent: {
+      timezone: periods.timezone,
+      trackingStartedOn: periodStart.results[0]
+        ? periodStart.results[0].value
+        : null,
+      today: periodResult(todayCountries.results, periods.today),
+      week: periodResult(weekCountries.results, periods.week),
+      month: periodResult(monthCountries.results, periods.month)
+    }
   };
 }
 
@@ -92,6 +186,13 @@ export default {
           "ON CONFLICT(id) DO UPDATE SET " +
           "country_code = excluded.country_code, " +
           "visited_at = excluded.visited_at"
+        ).bind(visitorCountry(request)),
+        env.DB.prepare(
+          "INSERT INTO daily_country_counts " +
+          "(visit_date, country_code, value) " +
+          "VALUES (date('now', '+8 hours'), ?, 1) " +
+          "ON CONFLICT(visit_date, country_code) " +
+          "DO UPDATE SET value = value + 1"
         ).bind(visitorCountry(request))
       ]);
 

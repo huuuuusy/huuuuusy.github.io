@@ -2,9 +2,11 @@
 
 This Cloudflare Worker provides the public page-view total shown on the
 homepage. Each page load or refresh increments the counter. D1 stores the
-aggregate total, aggregate country counts, and only the latest page view's
-country code and timestamp. It does not store visitor IP addresses, user
-agents, individual profiles, or a row-by-row visit history.
+aggregate total, aggregate country counts, daily country-or-region buckets,
+and only the latest page view's country code and timestamp. The daily buckets
+support exact Today, This Week, and This Month summaries in Singapore Time.
+It does not store visitor IP addresses, user agents, individual profiles, or
+a row-by-row visit history.
 
 Deployment requires:
 

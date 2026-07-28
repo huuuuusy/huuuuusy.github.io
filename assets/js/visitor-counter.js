@@ -6,6 +6,19 @@
 
   var countriesElement = document.getElementById("visitor-countries");
   var latestElement = document.getElementById("visitor-latest");
+  var periodTotalElement = document.getElementById("visitor-period-total");
+  var periodCountryCountElement = document.getElementById(
+    "visitor-period-country-count"
+  );
+  var periodRangeElement = document.getElementById("visitor-period-range");
+  var periodCountriesElement = document.getElementById(
+    "visitor-period-countries"
+  );
+  var periodToggleElement = document.getElementById("visitor-period-toggle");
+  var periodTabs = document.querySelectorAll(".visitor-period-tab");
+  var activePeriod = "today";
+  var periodExpanded = false;
+  var recentSnapshot = null;
   var endpoints = [
     "https://counter.hushiyu1995.com/",
     "https://shiyu-homepage-counter.hushiyu199510.workers.dev/"
@@ -278,9 +291,167 @@
     if (time.textContent) latestElement.appendChild(time);
   }
 
+  function periodDate(value) {
+    if (!value) return "";
+
+    try {
+      return new Intl.DateTimeFormat("en", {
+        month: "short",
+        day: "numeric",
+        timeZone: "Asia/Singapore"
+      }).format(new Date(value + "T00:00:00+08:00"));
+    } catch (error) {
+      return value;
+    }
+  }
+
+  function periodName(period) {
+    if (period === "week") return "This week";
+    if (period === "month") return "This month";
+    return "Today";
+  }
+
+  function renderPeriodTabs() {
+    Array.prototype.forEach.call(periodTabs, function (tab) {
+      var selected = tab.getAttribute("data-period") === activePeriod;
+      tab.classList.toggle("is-active", selected);
+      tab.setAttribute("aria-selected", selected ? "true" : "false");
+    });
+  }
+
+  function renderRecentPeriod() {
+    if (
+      !periodCountriesElement ||
+      !periodTotalElement ||
+      !periodCountryCountElement
+    ) {
+      return;
+    }
+
+    var recent = recentSnapshot;
+    var period = recent && recent[activePeriod];
+
+    periodCountriesElement.textContent = "";
+    renderPeriodTabs();
+
+    if (!period) {
+      var unavailable = document.createElement("span");
+      unavailable.className = "visitor-insights__empty";
+      unavailable.textContent =
+        "Exact period statistics will begin with the next recorded page view.";
+      periodCountriesElement.appendChild(unavailable);
+      periodTotalElement.textContent = "—";
+      periodCountryCountElement.textContent = "—";
+      if (periodToggleElement) periodToggleElement.hidden = true;
+      return;
+    }
+
+    var countries = Array.isArray(period.countries)
+      ? period.countries.slice()
+      : [];
+    var total = Number(period.total || 0);
+    var visibleCountries = periodExpanded ? countries : countries.slice(0, 5);
+
+    periodTotalElement.textContent = total.toLocaleString("en-US");
+    periodCountryCountElement.textContent = Number(
+      period.countryCount || 0
+    ).toLocaleString("en-US");
+
+    if (periodRangeElement) {
+      var range = periodDate(period.from);
+      if (period.to && period.to !== period.from) {
+        range += "–" + periodDate(period.to);
+      }
+      var trackingStart = periodDate(recent.trackingStartedOn);
+      periodRangeElement.textContent =
+        periodName(activePeriod) +
+        (range ? " · " + range : "") +
+        " · Singapore Time (UTC+8)" +
+        (trackingStart ? " · recorded since " + trackingStart : "");
+    }
+
+    if (!visibleCountries.length) {
+      var empty = document.createElement("span");
+      empty.className = "visitor-insights__empty";
+      empty.textContent = "No page views have been recorded in this period.";
+      periodCountriesElement.appendChild(empty);
+    }
+
+    visibleCountries.forEach(function (country) {
+      var code = String(country.code || "XX").toUpperCase();
+      var value = Number(country.value || 0);
+      var row = document.createElement("div");
+      var identity = document.createElement("span");
+      var flag = document.createElement("span");
+      var name = document.createElement("span");
+      var bar = document.createElement("span");
+      var fill = document.createElement("span");
+      var metric = document.createElement("span");
+      var count = document.createElement("strong");
+      var share = document.createElement("small");
+
+      row.className = "visitor-period-country";
+      identity.className = "visitor-period-country__identity";
+      flag.className = "visitor-period-country__flag";
+      flag.textContent = countryFlag(code);
+      name.className = "visitor-period-country__name";
+      name.textContent = countryName(code);
+      bar.className = "visitor-period-country__bar";
+      fill.className = "visitor-period-country__fill";
+      fill.style.width =
+        Math.max(6, total ? (value / total) * 100 : 0) + "%";
+      metric.className = "visitor-period-country__metric";
+      count.textContent = value.toLocaleString("en-US");
+      share.textContent =
+        total ? Math.round((value / total) * 100) + "%" : "0%";
+
+      identity.appendChild(flag);
+      identity.appendChild(name);
+      bar.appendChild(fill);
+      metric.appendChild(count);
+      metric.appendChild(share);
+      row.appendChild(identity);
+      row.appendChild(bar);
+      row.appendChild(metric);
+      periodCountriesElement.appendChild(row);
+    });
+
+    if (periodToggleElement) {
+      periodToggleElement.hidden = countries.length <= 5;
+      periodToggleElement.textContent = periodExpanded
+        ? "Show top 5"
+        : "Show all countries and regions";
+      periodToggleElement.setAttribute(
+        "aria-expanded",
+        periodExpanded ? "true" : "false"
+      );
+    }
+  }
+
+  function renderRecent(data) {
+    recentSnapshot = data && data.recent ? data.recent : null;
+    renderRecentPeriod();
+  }
+
+  Array.prototype.forEach.call(periodTabs, function (tab) {
+    tab.addEventListener("click", function () {
+      activePeriod = tab.getAttribute("data-period") || "today";
+      periodExpanded = false;
+      renderRecentPeriod();
+    });
+  });
+
+  if (periodToggleElement) {
+    periodToggleElement.addEventListener("click", function () {
+      periodExpanded = !periodExpanded;
+      renderRecentPeriod();
+    });
+  }
+
   countElement.textContent = legacyCount.toLocaleString("en-US");
   renderRegions({ count: 0, countries: [] });
   renderLatest({});
+  renderRecent({});
 
   findAvailableEndpoint(0)
     .then(function (available) {
@@ -291,6 +462,7 @@
         (legacyCount + Number(data.count || 0)).toLocaleString("en-US");
       renderRegions(data);
       renderLatest(data);
+      renderRecent(data);
     })
     .catch(function () {
       countElement.textContent = legacyCount.toLocaleString("en-US");

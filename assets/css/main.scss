@@ -262,6 +262,194 @@ h1:before, .anchor:before {
     text-align: center;
 }
 
+.visitor-recent {
+    grid-column: 1 / -1;
+    padding: 1rem;
+    border: 1px solid rgba(35, 50, 64, .075);
+    border-radius: .9rem;
+    background: #f8fafc;
+}
+
+.visitor-recent__header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.visitor-recent__title {
+    margin: .08rem 0 0;
+    color: #28394a;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.visitor-period-tabs {
+    display: inline-grid;
+    grid-template-columns: repeat(3, auto);
+    gap: .15rem;
+    padding: .18rem;
+    border-radius: .62rem;
+    background: #e9eef3;
+}
+
+.visitor-period-tab {
+    min-height: 1.85rem;
+    padding: .28rem .72rem;
+    border: 0;
+    border-radius: .48rem;
+    color: #62717f;
+    background: transparent;
+    font: inherit;
+    font-size: .71rem;
+    font-weight: 650;
+    line-height: 1;
+    cursor: pointer;
+    transition: color .18s ease, background-color .18s ease, box-shadow .18s ease;
+
+    &:hover {
+        color: #284f76;
+    }
+
+    &.is-active {
+        color: #244d76;
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(31, 45, 61, .12);
+    }
+
+    &:focus-visible {
+        outline: 2px solid rgba(40, 92, 143, .28);
+        outline-offset: 1px;
+    }
+}
+
+.visitor-period-summary {
+    display: flex;
+    gap: .7rem;
+    align-items: stretch;
+    margin: .85rem 0 .7rem;
+}
+
+.visitor-period-metric {
+    display: flex;
+    min-width: 112px;
+    padding: .6rem .72rem;
+    border: 1px solid rgba(35, 50, 64, .06);
+    border-radius: .68rem;
+    flex-direction: column;
+    background: rgba(255, 255, 255, .86);
+
+    strong {
+        color: #244d76;
+        font-size: 1.18rem;
+        font-variant-numeric: tabular-nums;
+        line-height: 1.05;
+    }
+
+    small {
+        margin-top: .16rem;
+        color: #74808b;
+        font-size: .66rem;
+        line-height: 1.2;
+    }
+}
+
+.visitor-period-range {
+    align-self: center;
+    margin-left: auto;
+    color: #7a858f;
+    font-size: .66rem;
+    line-height: 1.35;
+    text-align: right;
+}
+
+.visitor-period-countries {
+    display: grid;
+    gap: .38rem;
+}
+
+.visitor-period-country {
+    display: grid;
+    grid-template-columns: minmax(150px, 1.25fr) minmax(80px, 1fr) 3.4rem;
+    gap: .65rem;
+    align-items: center;
+    min-height: 1.9rem;
+    color: #3c4a57;
+    font-size: .74rem;
+}
+
+.visitor-period-country__identity {
+    display: flex;
+    min-width: 0;
+    gap: .42rem;
+    align-items: center;
+}
+
+.visitor-period-country__flag {
+    flex: 0 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Emoji", sans-serif;
+    font-size: 1rem;
+}
+
+.visitor-period-country__name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.visitor-period-country__bar {
+    height: .3rem;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e5ebf0;
+}
+
+.visitor-period-country__fill {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #396e9f, #8bb0d1);
+}
+
+.visitor-period-country__metric {
+    display: grid;
+    justify-items: end;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.08;
+
+    strong {
+        color: #465767;
+        font-size: .74rem;
+    }
+
+    small {
+        color: #8a949d;
+        font-size: .61rem;
+    }
+}
+
+.visitor-period-toggle {
+    display: block;
+    margin: .65rem auto 0;
+    padding: .26rem .48rem;
+    border: 0;
+    color: #3c6f9e;
+    background: transparent;
+    font: inherit;
+    font-size: .68rem;
+    font-weight: 650;
+    cursor: pointer;
+
+    &:hover {
+        color: #214f79;
+    }
+
+    &[hidden] {
+        display: none;
+    }
+}
+
 @media (max-width: 35em) {
     .visitor-insights {
         grid-template-columns: 1fr;
@@ -282,6 +470,46 @@ h1:before, .anchor:before {
     .visitor-country {
         grid-template-columns: minmax(0, 1fr) 3.5rem 2.6rem;
         gap: .45rem;
+    }
+
+    .visitor-recent {
+        padding: .85rem;
+    }
+
+    .visitor-recent__header {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .visitor-period-tabs {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .visitor-period-tab {
+        padding-right: .35rem;
+        padding-left: .35rem;
+    }
+
+    .visitor-period-summary {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: .5rem;
+    }
+
+    .visitor-period-metric {
+        min-width: 0;
+    }
+
+    .visitor-period-range {
+        grid-column: 1 / -1;
+        margin: .12rem 0 0;
+        text-align: left;
+    }
+
+    .visitor-period-country {
+        grid-template-columns: minmax(0, 1fr) 3.2rem 2.8rem;
+        gap: .42rem;
     }
 
 }

@@ -1,0 +1,19 @@
+{
+  "name": "shiyu-homepage-counter",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-28",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "counter.hushiyu1995.com",
+      "custom_domain": true
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "shiyu-homepage-visits",
+      "database_id": "4ec40acc-587b-4de1-8ec4-8bcbb6d294eb"
+    }
+  ]
+}
