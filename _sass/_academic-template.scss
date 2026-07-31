@@ -103,12 +103,12 @@ body {
 
 .home-section {
     margin-bottom: 1.25rem;
-    padding: 1.55rem 1.65rem 1.7rem;
+    padding: 1.75rem 2rem 1.95rem;
     font-size: var(--academic-text-size);
 }
 
 .home-section > h1:first-child {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.5rem;
     color: var(--academic-accent-strong);
     font-family: var(--academic-serif);
     font-size: 1.48rem;
@@ -134,7 +134,7 @@ body {
 }
 
 .home-section--intro {
-    padding: 1.55rem 1.65rem 1.7rem;
+    padding: 1.75rem 2rem 1.95rem;
     background:
         linear-gradient(110deg, rgba(255, 255, 255, .99), rgba(247, 250, 252, .96)),
         var(--academic-surface);
@@ -362,7 +362,8 @@ body {
 }
 
 .background-entry__logo.institution-entry__logo--bit {
-    --emblem-size: 45px;
+    --emblem-size: 43px;
+    --source-height: 38px;
 }
 
 .background-entry__content {
@@ -381,6 +382,18 @@ body {
 .background-entry__period,
 .background-details summary {
     font-size: var(--academic-meta-size);
+}
+
+.background-entry__period {
+    white-space: nowrap;
+}
+
+.visitor-insights {
+    padding: 1.55rem 1.65rem 1.35rem;
+}
+
+.visitor-recent {
+    padding: 1.2rem 1.3rem;
 }
 
 .research-step__content p,
@@ -430,6 +443,30 @@ body {
         width: auto;
         margin: 0;
         padding: 0;
+    }
+
+    .background-tracks {
+        grid-template-columns: minmax(0, .45fr) minmax(0, .55fr);
+        gap: 2rem;
+    }
+
+    .background-track__timeline:before {
+        left: calc(7rem + .55rem + 24px);
+    }
+
+    .background-entry {
+        grid-template-columns: 7rem 48px minmax(0, 1fr);
+        gap: .55rem;
+    }
+
+    .background-entry__logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .background-entry__period {
+        font-size: .69rem;
+        letter-spacing: -.006em;
     }
 }
 
