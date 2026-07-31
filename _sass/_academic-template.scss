@@ -176,6 +176,36 @@ body {
     max-width: 78ch;
 }
 
+.research-trajectory {
+    display: grid;
+    grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+    gap: 1.35rem;
+    align-items: start;
+    margin: .15rem 0 1.35rem;
+}
+
+.home-section--research .research-trajectory .research-figure--history {
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+}
+
+.research-trajectory__copy {
+    min-width: 0;
+    color: #4b5d71;
+    font-size: .86rem;
+    line-height: 1.62;
+}
+
+.research-trajectory__copy p {
+    margin: 0 0 .7rem;
+}
+
+.research-trajectory__copy p:last-child {
+    margin-bottom: 0;
+}
+
 .home-section--publications .paper-box {
     grid-template-columns: 158px minmax(0, 1fr);
     gap: 1.05rem;
@@ -256,6 +286,31 @@ body {
     display: none !important;
 }
 
+.home-section--publications .workshop-list li {
+    color: #526171;
+    font-size: .79rem;
+    line-height: 1.46;
+}
+
+.home-section--publications .workshop-list li > p > code + strong {
+    color: #253e52;
+    font-family: var(--academic-serif);
+    font-size: .94rem;
+    line-height: 1.34;
+}
+
+.background-tracks {
+    align-items: start;
+}
+
+.background-track {
+    align-self: start;
+}
+
+.background-entry__logo.institution-entry__logo--bit {
+    --emblem-size: 45px;
+}
+
 .project-card,
 .research-question,
 .research-direction {
@@ -264,12 +319,6 @@ body {
 
 .homepage-footer {
     color: #74818d;
-}
-
-@media (min-width: 64em) {
-    .home-main .sidebar {
-        width: 210px;
-    }
 }
 
 @media (max-width: 47.99em) {
@@ -298,6 +347,15 @@ body {
         font-size: 1.48rem;
     }
 
+    .research-trajectory {
+        grid-template-columns: 1fr;
+        gap: .85rem;
+    }
+
+    .research-trajectory__copy {
+        font-size: .82rem;
+    }
+
     .home-section--publications .paper-box {
         grid-template-columns: 104px minmax(0, 1fr);
         gap: .7rem;
@@ -313,6 +371,14 @@ body {
     }
 
     .home-section--publications .paper-box .paper-box-text > p:first-of-type strong:first-child {
+        font-size: .85rem;
+    }
+
+    .home-section--publications .workshop-list li {
+        font-size: .72rem;
+    }
+
+    .home-section--publications .workshop-list li > p > code + strong {
         font-size: .85rem;
     }
 

@@ -2,15 +2,19 @@
 
 ## Research Trajectory
 
-<figure class="research-figure research-figure--history">
-  <img src="/images/goal.png" alt="Research trajectory from visual perception tasks to human-grounded intelligence evaluation">
-</figure>
+<div class="research-trajectory">
+  <figure class="research-figure research-figure--history">
+    <img src="/images/goal.png" alt="Research trajectory from visual perception tasks to human-grounded intelligence evaluation">
+  </figure>
+
+  <div class="research-trajectory__copy" markdown="1">
 
 My research began with **visual object tracking and machine vision evaluation**, spanning task modeling, evaluation environments, measurement techniques, and human-machine comparison. Inspired by the Turing Test, I proposed the **Visual Turing Test** to evaluate dynamic visual intelligence against human abilities.
 
 The central question has remained consistent: **how can AI capabilities be measured and diagnosed in open, human-centered contexts?** Rather than reporting benchmark scores alone, I study what a system can perceive, understand, and reliably maintain as tasks and environments become more open.
 
-<div class="research-figure-clear"></div>
+  </div>
+</div>
 
 <div class="research-path">
 

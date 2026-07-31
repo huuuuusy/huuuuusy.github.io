@@ -177,7 +177,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 </div>
 </div>
 
-### Collaborative Work
+<h3 id="collaborative-publications">Collaborative Work</h3>
 
 <!-- 合作论文按时间顺序排列 -->
 
@@ -640,8 +640,15 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 </div>
 
+<div class="publication-browser" data-publication-group="collaborative" aria-live="polite">
+  <p class="publication-browser__note">Selected collaborative publications are shown for concise browsing.</p>
+  <button class="section-more publication-toggle" data-publication-toggle="collaborative" type="button" aria-expanded="false" hidden>
+    <span class="publication-toggle__label">Show all collaborative publications</span>
+    <span class="publication-toggle__icon" aria-hidden="true">↓</span>
+  </button>
+</div>
 
-## Preprints
+<h2 id="preprints">Preprints</h2>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><a href='../../images/Streaming-Video-Survey.jpg' title="View the complete figure"><img class="paper-thumb" src='../../images/Streaming-Video-Survey-thumb.png' alt="Complete figure for the survey of streaming video understanding" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -815,10 +822,10 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 </div>
 
-<div class="publication-browser" aria-live="polite">
-  <p class="publication-browser__note">A selected set is shown for concise browsing; the complete publication record remains available on demand.</p>
-  <button class="section-more publication-toggle" type="button" aria-expanded="false" hidden>
-    <span class="publication-toggle__label">Show complete publication list</span>
+<div class="publication-browser" data-publication-group="preprints" aria-live="polite">
+  <p class="publication-browser__note">Selected preprints are shown for concise browsing.</p>
+  <button class="section-more publication-toggle" data-publication-toggle="preprints" type="button" aria-expanded="false" hidden>
+    <span class="publication-toggle__label">Show all preprints</span>
     <span class="publication-toggle__icon" aria-hidden="true">↓</span>
   </button>
 </div>

@@ -1,69 +1,74 @@
 (function () {
   "use strict";
 
-  function groupLimit(sectionHeading, subsectionHeading) {
-    var section = sectionHeading.toLowerCase();
-    var subsection = subsectionHeading.toLowerCase();
+  var publicationGroups = [
+    {
+      name: "collaborative",
+      startSelector: "#collaborative-publications",
+      stopSelector: "#preprints",
+      visiblePaperCount: 5,
+      collapsedLabel: "Show all collaborative publications",
+      expandedLabel: "Show selected collaborative publications"
+    },
+    {
+      name: "preprints",
+      startSelector: "#preprints",
+      stopSelector: null,
+      visiblePaperCount: 3,
+      collapsedLabel: "Show all preprints",
+      expandedLabel: "Show selected preprints"
+    }
+  ];
 
-    if (section.indexOf("monograph") !== -1) {
-      return 1;
+  function collectAdditionalItems(section, config, browser) {
+    var start = section.querySelector(config.startSelector);
+    var stop = config.stopSelector
+      ? section.querySelector(config.stopSelector)
+      : browser;
+
+    if (!start || !stop) {
+      return [];
     }
 
-    if (section.indexOf("preprint") !== -1) {
-      return 3;
-    }
-
-    if (subsection.indexOf("lead") !== -1 ||
-        subsection.indexOf("corresponding") !== -1) {
-      return 4;
-    }
-
-    if (subsection.indexOf("collaborative") !== -1) {
-      return 5;
-    }
-
-    return Infinity;
-  }
-
-  function initialisePublicationBrowser() {
-    var section = document.querySelector(".home-section--publications");
-    var toggle = section && section.querySelector(".publication-toggle");
-    var browser = section && section.querySelector(".publication-browser");
-
-    if (!section || !toggle || !browser) {
-      return;
-    }
-
-    var sectionHeading = "";
-    var subsectionHeading = "";
-    var groupCounts = {};
+    var paperCount = 0;
+    var hideFollowingItems = false;
     var additionalItems = [];
+    var element = start.nextElementSibling;
 
-    Array.prototype.forEach.call(section.children, function (element) {
-      if (element.tagName === "H2") {
-        sectionHeading = element.textContent.trim();
-        subsectionHeading = "";
-        return;
+    while (element && element !== stop && element !== browser) {
+      if (element.classList.contains("paper-box")) {
+        paperCount += 1;
+        hideFollowingItems = paperCount > config.visiblePaperCount;
       }
 
-      if (element.tagName === "H3") {
-        subsectionHeading = element.textContent.trim();
-        return;
-      }
-
-      if (!element.classList.contains("paper-box")) {
-        return;
-      }
-
-      var groupKey = sectionHeading + "::" + subsectionHeading;
-      groupCounts[groupKey] = (groupCounts[groupKey] || 0) + 1;
-
-      if (groupCounts[groupKey] > groupLimit(sectionHeading, subsectionHeading)) {
-        element.classList.add("publication-item--additional");
+      if (hideFollowingItems) {
+        element.classList.add(
+          "publication-item--additional",
+          "publication-item--" + config.name
+        );
         element.hidden = true;
         additionalItems.push(element);
       }
-    });
+
+      element = element.nextElementSibling;
+    }
+
+    return additionalItems;
+  }
+
+  function initialisePublicationGroup(section, config) {
+    var browser = section.querySelector(
+      '.publication-browser[data-publication-group="' + config.name + '"]'
+    );
+    var toggle = section.querySelector(
+      '.publication-toggle[data-publication-toggle="' + config.name + '"]'
+    );
+
+    if (!browser || !toggle) {
+      return;
+    }
+
+    var additionalItems = collectAdditionalItems(section, config, browser);
 
     if (!additionalItems.length) {
       return;
@@ -84,9 +89,21 @@
 
       toggle.setAttribute("aria-expanded", String(nextExpanded));
       label.textContent = nextExpanded
-        ? "Show selected publications"
-        : "Show complete publication list";
+        ? config.expandedLabel
+        : config.collapsedLabel;
       icon.textContent = nextExpanded ? "↑" : "↓";
+    });
+  }
+
+  function initialisePublicationBrowser() {
+    var section = document.querySelector(".home-section--publications");
+
+    if (!section) {
+      return;
+    }
+
+    publicationGroups.forEach(function (config) {
+      initialisePublicationGroup(section, config);
     });
   }
 
