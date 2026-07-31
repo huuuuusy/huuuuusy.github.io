@@ -956,7 +956,8 @@ a {
     }
 }
 
-.news-toggle__icon {
+.news-toggle__icon,
+.honors-toggle__icon {
     font-size: .9em;
     transition: transform .2s ease;
 }
@@ -1331,7 +1332,7 @@ a {
     }
 }
 
-.home-section--honors > ul {
+.honors-list > ul {
     padding-left: 0;
     list-style: none;
 
@@ -1341,6 +1342,10 @@ a {
         border-bottom: 1px solid #edf1f5;
         color: #4b5d71;
     }
+}
+
+.honors-list.is-collapsible:not(.is-expanded) > ul > li.honor-item--older {
+    display: none;
 }
 
 .honor-kind {
@@ -1906,7 +1911,7 @@ body {
 
 .home-section--experience > p,
 .home-section--education > p,
-.home-section--honors > ul > li {
+.honors-list > ul > li {
     border-color: rgba(31, 55, 80, .075);
 }
 
@@ -2345,55 +2350,8 @@ body {
     background: transparent;
 }
 
-.honors-archive {
-    margin-top: .7rem;
-    padding-top: .15rem;
-
-    > summary {
-        display: inline-flex;
-        gap: .35rem;
-        align-items: center;
-        padding: .42rem .72rem;
-        border-radius: .68rem;
-        color: #315d7b;
-        background: #eef3f6;
-        font-size: .75rem;
-        font-weight: 700;
-        cursor: pointer;
-        list-style: none;
-
-        &:after {
-            content: "↓";
-            font-size: .9em;
-        }
-
-        &::-webkit-details-marker {
-            display: none;
-        }
-
-        &:hover,
-        &:focus-visible {
-            color: #fff;
-            background: #315d7b;
-        }
-    }
-
-    &[open] > summary:after {
-        content: "↑";
-    }
-
-    ul {
-        margin: .65rem 0 0;
-        padding: 0;
-        list-style: none;
-
-        > li {
-            margin: 0;
-            padding: .62rem .65rem;
-            border-bottom: 1px solid rgba(31, 55, 80, .075);
-            color: #4b5d71;
-        }
-    }
+.honors-list {
+    margin-bottom: .7rem;
 }
 
 @media (min-width: 64em) {

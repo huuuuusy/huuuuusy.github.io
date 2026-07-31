@@ -1,5 +1,7 @@
 # 🏆 Honors and Awards
 
+<div class="honors-list" markdown="1">
+
 * <span class="honor-kind honor-kind--award">Award</span> 2026 **Reviewer Award**, the 43rd International Conference on Machine Learning (ICML 2026)
 * <span class="honor-kind honor-kind--award">Award</span> 2025 **IEEE SMCS TEAM Program Award** by the IEEE Systems, Man, and Cybernetics Society
 * <span class="honor-kind honor-kind--award">Award</span> 2024 **Best Paper Honorable Mention** in the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024 (CVPRW最佳论文提名)
@@ -7,10 +9,6 @@
 * <span class="honor-kind honor-kind--award">Award</span> 2023 **China National Scholarship** (国家奖学金, top 1%, only 8 Ph.D. students in main campus of University of Chinese Academy of Sciences win this scholarship)
 * <span class="honor-kind honor-kind--award">Award</span> 2023 **First Prize of Climbing Scholarship** in Institute of Automation, Chinese Academy of Sciences (攀登一等奖学金, only 6 students in Institute of Automation, Chinese Academy of Sciences win this scholarship)
 * <span class="honor-kind honor-kind--honor">Honor</span> 2022 **Merit Student** of University of Chinese Academy of Sciences (中国科学院大学三好学生)
-
-<details class="honors-archive">
-<summary>Earlier honors and awards</summary>
-<div markdown="1">
 
 * <span class="honor-kind honor-kind--honor">Honor</span> 2017 **Excellent Innovative Student** of Beijing Institute of Technology (北京理工大学优秀创新学生)
 * <span class="honor-kind honor-kind--award">Award</span> 2016 **College Scholarship** of Chinese Academy of Sciences (中国科学院大学生奖学金)
@@ -29,4 +27,8 @@
 * <span class="honor-kind honor-kind--award">Award</span> 2014, 2015, 2016, 2017 **Academic Scholarship** of Beijing Institute of Technology (北京理工大学学业奖学金)
 
 </div>
-</details>
+
+<button class="section-more honors-toggle" type="button" aria-expanded="false" hidden>
+  <span class="honors-toggle__label">Show all honors and awards</span>
+  <span class="honors-toggle__icon" aria-hidden="true">↓</span>
+</button>

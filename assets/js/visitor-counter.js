@@ -239,6 +239,15 @@
   function countryName(code) {
     if (!/^[A-Z]{2}$/.test(code) || code === "XX") return "Unknown region";
 
+    var chinaRegionNames = {
+      CN: "China",
+      HK: "Hong Kong (China)",
+      MO: "Macao (China)",
+      TW: "Taiwan (China)"
+    };
+
+    if (chinaRegionNames[code]) return chinaRegionNames[code];
+
     try {
       return new Intl.DisplayNames(["en"], { type: "region" }).of(code) || code;
     } catch (error) {

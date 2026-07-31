@@ -51,9 +51,58 @@
     });
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initialiseNewsTimeline);
-  } else {
+  function initialiseHonorsList() {
+    var honors = document.querySelector(".honors-list");
+    var toggle = document.querySelector(".honors-toggle");
+
+    if (!honors || !toggle) {
+      return;
+    }
+
+    var list = honors.querySelector("ul");
+    if (!list) {
+      return;
+    }
+
+    var items = Array.prototype.slice.call(list.children).filter(function (item) {
+      return item.tagName === "LI";
+    });
+    var visibleItemCount = 7;
+    var olderItems = items.slice(visibleItemCount);
+
+    if (!olderItems.length) {
+      return;
+    }
+
+    olderItems.forEach(function (item) {
+      item.classList.add("honor-item--older");
+    });
+
+    honors.classList.add("is-collapsible");
+    toggle.hidden = false;
+
+    toggle.addEventListener("click", function () {
+      var expanded = toggle.getAttribute("aria-expanded") === "true";
+      var label = toggle.querySelector(".honors-toggle__label");
+      var icon = toggle.querySelector(".honors-toggle__icon");
+
+      honors.classList.toggle("is-expanded", !expanded);
+      toggle.setAttribute("aria-expanded", String(!expanded));
+      label.textContent = expanded
+        ? "Show all honors and awards"
+        : "Show recent honors and awards";
+      icon.textContent = expanded ? "↓" : "↑";
+    });
+  }
+
+  function initialiseCollapsibleSections() {
     initialiseNewsTimeline();
+    initialiseHonorsList();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initialiseCollapsibleSections);
+  } else {
+    initialiseCollapsibleSections();
   }
 })();
