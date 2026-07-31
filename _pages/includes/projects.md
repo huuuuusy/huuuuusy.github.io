@@ -1,4 +1,4 @@
-# ⚙️ Projects
+# Projects
 
 This section documents research software, evaluation platforms, academic challenges, and funded projects. Associated research outputs are listed under [Publications](https://huuuuusy.github.io/#publications).
 

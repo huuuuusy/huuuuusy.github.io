@@ -1,4 +1,4 @@
-# 🏆 Honors and Awards
+# Honors and Awards
 
 <div class="honors-list" markdown="1">
 

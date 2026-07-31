@@ -1,39 +1,32 @@
 ---
 permalink: /terms/
-title: "Terms and Privacy Policy"
-modified: 2016-06-06
+title: "Privacy Policy"
+modified: 2026-07-31
 ---
-
-{% include base_path %}
-{% include toc %}
 
 ## Privacy Policy
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+This website uses a first-party page-view counter and Cloudflare Web Analytics
+to understand aggregate traffic and maintain the site.
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+The public counter records:
 
-### Log Files
+- an aggregate page-view total;
+- aggregate country-or-region counts;
+- daily country-or-region totals used for recent statistics; and
+- the country-or-region code and timestamp of the latest page view.
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+The counter does not store IP addresses, user agents, names, email addresses,
+personal profiles, or a row-by-row visit history. Each page load or refresh is
+counted as one page view.
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+Cloudflare may process limited technical data to deliver the website, protect it
+from abuse, and provide aggregate analytics. For details, see
+[Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).
 
-All of this information is not linked to anything that is personally identifiable.
+This site does not use advertising services, Disqus comments, or marketing
+cookies. External links are governed by the privacy policies of their
+respective websites.
 
-### Cookies and Web Beacons
-
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
-
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
-
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
-
-#### Privacy-friendly visitor statistics
-
-This site uses a first-party page-view counter and Cloudflare Web Analytics to understand aggregate website traffic. Each page load or refresh is counted. The public counter stores aggregate country totals and only the latest page view's country code and timestamp; it does not store IP addresses, user agents, personal profiles, or a row-by-row visit history.
+For questions about this policy, contact
+[shiyu.hu@ntu.edu.sg](mailto:shiyu.hu@ntu.edu.sg).

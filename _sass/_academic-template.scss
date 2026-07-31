@@ -1,0 +1,348 @@
+/* ==========================================================================
+   Academic template refinement
+
+   These custom properties are the intended customization surface for forks.
+   Content-specific component styles stay in main.scss; this layer controls
+   hierarchy, density, and the shared visual language.
+   ========================================================================== */
+
+:root {
+    --academic-canvas: #f4f6f8;
+    --academic-surface: #ffffff;
+    --academic-ink: #243342;
+    --academic-muted: #617080;
+    --academic-accent: #315d7b;
+    --academic-accent-strong: #21465f;
+    --academic-accent-soft: #edf3f7;
+    --academic-rule: #dfe5ea;
+    --academic-serif: "Iowan Old Style", "Palatino Linotype", Palatino,
+        "Noto Serif", Georgia, serif;
+    --academic-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    --academic-radius: .8rem;
+}
+
+body {
+    color: var(--academic-ink);
+    background: var(--academic-canvas);
+    font-family: var(--academic-sans);
+    line-height: 1.62;
+}
+
+.masthead {
+    background: rgba(250, 251, 252, .94);
+}
+
+.masthead__inner-wrap {
+    max-width: 1220px;
+}
+
+.greedy-nav a {
+    color: #536270;
+    font-size: .86rem;
+    font-weight: 560;
+}
+
+.greedy-nav .visible-links li:first-child a {
+    color: var(--academic-accent-strong);
+    font-family: var(--academic-serif);
+    font-size: 1.03rem;
+    font-weight: 700;
+}
+
+#main.home-main {
+    max-width: 1220px;
+    margin-top: 1.2rem;
+}
+
+.home-main .sidebar,
+.home-section {
+    border-color: var(--academic-rule);
+    border-radius: var(--academic-radius);
+    box-shadow: 0 5px 18px rgba(34, 48, 62, .035);
+}
+
+.home-main .sidebar {
+    padding: 1rem;
+}
+
+.home-main .author__avatar img {
+    max-width: 116px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.home-main .author__name {
+    margin-top: .7rem;
+    color: var(--academic-accent-strong);
+    font-family: var(--academic-serif);
+    font-size: 1.08rem;
+}
+
+.home-main .author__bio {
+    color: var(--academic-muted);
+    font-size: .77rem;
+    line-height: 1.52;
+}
+
+.home-main .author__urls {
+    font-size: .77rem;
+}
+
+.home-main .author__urls a {
+    padding-top: .28rem;
+    padding-bottom: .28rem;
+}
+
+.home-section {
+    margin-bottom: 1.05rem;
+    padding: 1.45rem 1.6rem 1.6rem;
+}
+
+.home-section > h1:first-child {
+    margin-bottom: 1.25rem;
+    color: var(--academic-accent-strong);
+    font-family: var(--academic-serif);
+    font-size: 1.48rem;
+    font-weight: 700;
+    letter-spacing: -.018em;
+}
+
+.home-section > h1:first-child:after {
+    width: 2.25rem;
+    background: #7996aa;
+}
+
+.home-section h2 {
+    color: #344f63;
+    font-size: .86rem;
+    font-weight: 720;
+    letter-spacing: .055em;
+    text-transform: uppercase;
+}
+
+.home-section h3 {
+    color: #2e465a;
+}
+
+.home-section--intro {
+    padding: 1.8rem 1.85rem;
+    background:
+        linear-gradient(110deg, rgba(255, 255, 255, .99), rgba(247, 250, 252, .96)),
+        var(--academic-surface);
+}
+
+.home-section--intro h3 {
+    margin: .75rem 0 .85rem;
+    color: #203f57;
+    font-family: var(--academic-serif);
+    font-size: 1.78rem;
+    font-weight: 700;
+    letter-spacing: -.024em;
+}
+
+.home-section--intro p {
+    max-width: 75ch;
+}
+
+.intro-kicker {
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    color: var(--academic-accent);
+    background: var(--academic-accent-soft);
+    font-size: .66rem;
+    letter-spacing: .06em;
+    line-height: 1.35;
+}
+
+.home-section--intro blockquote {
+    max-width: 72ch;
+    border-left-color: #8ca6b8;
+    background: #f6f8fa;
+}
+
+.page__content a.intro-action {
+    border-radius: .42rem;
+}
+
+.page__content a.intro-action--primary {
+    border-color: var(--academic-accent);
+    background: var(--academic-accent);
+}
+
+.news-timeline > p {
+    max-width: 78ch;
+}
+
+.home-section--publications .paper-box {
+    grid-template-columns: 158px minmax(0, 1fr);
+    gap: 1.05rem;
+    align-items: start;
+    margin: .68rem 0;
+    padding: .82rem;
+    border-radius: .64rem;
+    background: #fbfcfd;
+}
+
+.home-section--publications .paper-box .paper-box-image img {
+    max-height: 126px;
+}
+
+.home-section--publications .paper-box .paper-box-text {
+    color: #526171;
+    font-size: .79rem;
+    line-height: 1.46;
+}
+
+.home-section--publications .paper-box .paper-box-text > p:first-of-type {
+    margin: 0;
+}
+
+.home-section--publications .paper-box .paper-box-text > p:first-of-type strong:first-child {
+    color: #253e52;
+    font-family: var(--academic-serif);
+    font-size: .94rem;
+    line-height: 1.34;
+}
+
+.home-section--publications .badge,
+.home-section--publications .badge-under-review,
+.home-section--publications .badge-preprint {
+    margin-bottom: .38rem;
+    padding: .16rem .48rem;
+    border-color: #d7e0e7;
+    color: #3c627c;
+    background: #eef3f6;
+    font-size: .61rem;
+}
+
+.publication-browser {
+    display: none;
+    gap: .75rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-top: .9rem;
+    border-top: 1px solid var(--academic-rule);
+}
+
+.publication-browser.is-ready {
+    display: flex;
+}
+
+.publication-browser__note {
+    max-width: 62ch;
+    margin: 0;
+    color: var(--academic-muted);
+    font-size: .75rem;
+    line-height: 1.45;
+}
+
+.publication-toggle {
+    flex: 0 0 auto;
+}
+
+.publication-toggle[hidden] {
+    display: none !important;
+}
+
+.publication-toggle__icon {
+    font-size: .9em;
+}
+
+.publication-item--additional[hidden] {
+    display: none !important;
+}
+
+.project-card,
+.research-question,
+.research-direction {
+    border-radius: .64rem;
+}
+
+.homepage-footer {
+    color: #74818d;
+}
+
+@media (min-width: 64em) {
+    .home-main .sidebar {
+        width: 210px;
+    }
+}
+
+@media (max-width: 47.99em) {
+    :root {
+        --academic-radius: .72rem;
+    }
+
+    #main.home-main {
+        padding-right: .55rem;
+        padding-left: .55rem;
+    }
+
+    .home-main .author__avatar img {
+        max-width: 62px;
+    }
+
+    .home-section {
+        padding: 1.15rem 1rem 1.25rem;
+    }
+
+    .home-section--intro {
+        padding: 1.35rem 1.1rem;
+    }
+
+    .home-section--intro h3 {
+        font-size: 1.48rem;
+    }
+
+    .home-section--publications .paper-box {
+        grid-template-columns: 104px minmax(0, 1fr);
+        gap: .7rem;
+        padding: .72rem;
+    }
+
+    .home-section--publications .paper-box .paper-box-image img {
+        max-height: 92px;
+    }
+
+    .home-section--publications .paper-box .paper-box-text {
+        font-size: .72rem;
+    }
+
+    .home-section--publications .paper-box .paper-box-text > p:first-of-type strong:first-child {
+        font-size: .85rem;
+    }
+
+    .publication-browser {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 27em) {
+    .home-section--publications .paper-box {
+        grid-template-columns: 1fr;
+    }
+
+    .home-section--publications .paper-box .paper-box-image {
+        max-width: 180px;
+    }
+}
+
+@media print {
+    body {
+        background: #fff;
+    }
+
+    .publication-item--additional[hidden] {
+        display: grid !important;
+    }
+
+    .publication-browser,
+    .masthead {
+        display: none !important;
+    }
+}

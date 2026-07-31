@@ -1,4 +1,4 @@
-# 📝 Publications
+# Publications
 
 <!--
 Publication keyword taxonomy (fixed three-level hierarchy):
@@ -8,7 +8,7 @@ Publication keyword taxonomy (fixed three-level hierarchy):
 Use Title Case, keep at most three keywords, and avoid generic catch-all labels.
 -->
 
-## Book
+## Research Monograph
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Springer 2025</div><img src='../../images/SpringerBook.webp' alt="sym" width="100%"></div></div>
@@ -26,9 +26,9 @@ Use Title Case, keep at most three keywords, and avoid generic catch-all labels.
 </div>
 
 
-## Accept
+## Peer-Reviewed Publications
 
-### First Author / Corresponding Author
+### Lead or Corresponding Author
 <!-- 代表作按照固定顺序排列 -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='../../images/GIT.png' alt="sym" width="100%"></div></div>
@@ -177,7 +177,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 </div>
 </div>
 
-### Collaborator (Arranged in Chronological Order)
+### Collaborative Work
 
 <!-- 合作论文按时间顺序排列 -->
 
@@ -641,7 +641,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 
 
-## Preprint
+## Preprints
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><a href='../../images/Streaming-Video-Survey.jpg' title="View the complete figure"><img class="paper-thumb" src='../../images/Streaming-Video-Survey-thumb.png' alt="Complete figure for the survey of streaming video understanding" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -669,7 +669,6 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 [🌐 Project](https://huuuuusy.github.io/fiova/) 
 </div>
 </div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='../../images/SOEI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -814,4 +813,12 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 📌 Human-Centered AI 📌 Dynamic Vision Capability 📌 Human-Machine Evaluation<br>
 [📑 PDF](https://huuuuusy.github.io/files/VTT-ICLR.pdf)
 </div>
+</div>
+
+<div class="publication-browser" aria-live="polite">
+  <p class="publication-browser__note">A selected set is shown for concise browsing; the complete publication record remains available on demand.</p>
+  <button class="section-more publication-toggle" type="button" aria-expanded="false" hidden>
+    <span class="publication-toggle__label">Show complete publication list</span>
+    <span class="publication-toggle__icon" aria-hidden="true">↓</span>
+  </button>
 </div>

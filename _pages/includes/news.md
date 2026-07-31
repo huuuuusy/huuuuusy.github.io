@@ -1,4 +1,4 @@
-# 🔥 News
+# News
 
 <div class="news-timeline" markdown="1">
 

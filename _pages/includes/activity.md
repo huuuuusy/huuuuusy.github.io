@@ -1,4 +1,4 @@
-# 📣 Activities and Services
+# Activities and Service
 
 ## Tutorial
 

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Research Profile"
 # excerpt: "Shiyu Hu"
 author_profile: true
 redirect_from: 
@@ -17,7 +17,7 @@ redirect_from:
 </section>
 
 <section class="home-section home-section--background" id="background" markdown="1">
-# 🧭 Background
+# Background
 
 {% include_relative includes/background.md %}
 </section>
@@ -95,3 +95,4 @@ redirect_from:
 
 <script src="{{ '/assets/js/visitor-counter.js' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}" defer></script>
 <script src="{{ '/assets/js/news-toggle.js' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/publications-toggle.js' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}" defer></script>

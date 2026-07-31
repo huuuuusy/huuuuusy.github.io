@@ -1,13 +1,7 @@
 # main links
 main:
-  - title: "About Me"
+  - title: "About"
     url: "/#about-me"
-
-  - title: "News"
-    url: "/#news"
-
-  - title: "Background"
-    url: "/#background"
 
   - title: "Research"
     url: "/#research-interests"
@@ -18,23 +12,11 @@ main:
   - title: "Projects"
     url: "/#projects"
 
-  - title: "Honors"
-    url: "/#honors-and-awards"
+  - title: "Background"
+    url: "/#background"
 
   - title: "Service"
     url: "/#activities-and-services"
 
-  - title: "Contact"
-    url: "/#contact"
-
-  # - title: "Talks"
-  #   url: /talks/    
-
- # - title: "Teaching"
- #   url: /teaching/    
-
- # - title: "Portfolio"
- #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  - title: "CV"
+    url: "/files/CV-EN.pdf"

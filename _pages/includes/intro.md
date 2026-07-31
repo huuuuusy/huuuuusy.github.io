@@ -1,8 +1,8 @@
-# About Me
+# About
 
 <span class="intro-kicker">Research Fellow · Nanyang Technological University</span>
 
-### Hi there, I am Shiyu Hu (胡世宇)!
+### Shiyu Hu (胡世宇)
 
 I am a Research Fellow in the **[School of Physical and Mathematical Sciences (SPMS), Nanyang Technological University (NTU)](https://www.ntu.edu.sg/spms)**, working with **[Assoc. Prof. Kang Hao Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)**.
 
