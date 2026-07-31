@@ -15,6 +15,9 @@
     --academic-accent-strong: #21465f;
     --academic-accent-soft: #edf3f7;
     --academic-rule: #dfe5ea;
+    --academic-text-size: .86rem;
+    --academic-card-size: .82rem;
+    --academic-meta-size: .74rem;
     --academic-serif: "Iowan Old Style", "Palatino Linotype", Palatino,
         "Noto Serif", Georgia, serif;
     --academic-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -34,7 +37,9 @@ body {
 }
 
 .masthead__inner-wrap {
-    max-width: 1220px;
+    max-width: 1560px;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
 }
 
 .greedy-nav a {
@@ -51,8 +56,10 @@ body {
 }
 
 #main.home-main {
-    max-width: 1220px;
-    margin-top: 1.2rem;
+    max-width: 1560px;
+    margin-top: 1.1rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
 }
 
 .home-main .sidebar,
@@ -95,8 +102,9 @@ body {
 }
 
 .home-section {
-    margin-bottom: 1.05rem;
-    padding: 1.45rem 1.6rem 1.6rem;
+    margin-bottom: 1rem;
+    padding: 1.35rem 1.5rem 1.45rem;
+    font-size: var(--academic-text-size);
 }
 
 .home-section > h1:first-child {
@@ -126,7 +134,7 @@ body {
 }
 
 .home-section--intro {
-    padding: 1.8rem 1.85rem;
+    padding: 1.55rem 1.5rem 1.65rem;
     background:
         linear-gradient(110deg, rgba(255, 255, 255, .99), rgba(247, 250, 252, .96)),
         var(--academic-surface);
@@ -142,7 +150,9 @@ body {
 }
 
 .home-section--intro p {
-    max-width: 75ch;
+    max-width: 88ch;
+    font-size: .9rem;
+    line-height: 1.62;
 }
 
 .intro-kicker {
@@ -173,12 +183,16 @@ body {
 }
 
 .news-timeline > p {
-    max-width: 78ch;
+    max-width: none;
+    padding-top: .52rem;
+    padding-bottom: .52rem;
+    font-size: var(--academic-text-size);
+    line-height: 1.55;
 }
 
 .research-trajectory {
     display: grid;
-    grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+    grid-template-columns: minmax(320px, 36%) minmax(0, 1fr);
     gap: 1.35rem;
     align-items: start;
     margin: .15rem 0 1.35rem;
@@ -194,7 +208,7 @@ body {
 .research-trajectory__copy {
     min-width: 0;
     color: #4b5d71;
-    font-size: .86rem;
+    font-size: var(--academic-text-size);
     line-height: 1.62;
 }
 
@@ -207,7 +221,7 @@ body {
 }
 
 .home-section--publications .paper-box {
-    grid-template-columns: 158px minmax(0, 1fr);
+    grid-template-columns: 172px minmax(0, 1fr);
     gap: 1.05rem;
     align-items: start;
     margin: .68rem 0;
@@ -222,7 +236,7 @@ body {
 
 .home-section--publications .paper-box .paper-box-text {
     color: #526171;
-    font-size: .79rem;
+    font-size: var(--academic-card-size);
     line-height: 1.46;
 }
 
@@ -266,7 +280,7 @@ body {
     max-width: 62ch;
     margin: 0;
     color: var(--academic-muted);
-    font-size: .75rem;
+    font-size: var(--academic-meta-size);
     line-height: 1.45;
 }
 
@@ -288,7 +302,7 @@ body {
 
 .home-section--publications .workshop-list li {
     color: #526171;
-    font-size: .79rem;
+    font-size: var(--academic-card-size);
     line-height: 1.46;
 }
 
@@ -311,6 +325,33 @@ body {
     --emblem-size: 45px;
 }
 
+.background-entry__content {
+    font-size: var(--academic-card-size);
+}
+
+.background-entry__content h3 {
+    font-size: .88rem;
+}
+
+.background-entry__institution {
+    font-size: var(--academic-card-size);
+}
+
+.background-entry__affiliation,
+.background-entry__period,
+.background-details summary {
+    font-size: var(--academic-meta-size);
+}
+
+.research-step__content p,
+.home-section--research .research-direction p,
+.home-section--research .research-synthesis,
+.honors-list > ul > li,
+.home-section--activities > p,
+.home-section--activities > ul {
+    font-size: var(--academic-text-size);
+}
+
 .project-card,
 .research-question,
 .research-direction {
@@ -319,6 +360,37 @@ body {
 
 .homepage-footer {
     color: #74818d;
+}
+
+@media (min-width: 64em) {
+    #main.home-main {
+        display: grid;
+        grid-template-columns: clamp(190px, 15vw, 220px) minmax(0, 1fr);
+        gap: 1.5rem;
+        align-items: start;
+
+        &:before,
+        &:after {
+            display: none;
+        }
+    }
+
+    .home-main .sidebar {
+        grid-column: 1;
+        grid-row: 1;
+        float: none;
+        width: auto;
+        margin: 0;
+    }
+
+    .home-main .home-page {
+        grid-column: 2;
+        grid-row: 1;
+        float: none;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media (max-width: 47.99em) {
@@ -336,11 +408,11 @@ body {
     }
 
     .home-section {
-        padding: 1.15rem 1rem 1.25rem;
+        padding: 1.1rem 1rem 1.2rem;
     }
 
     .home-section--intro {
-        padding: 1.35rem 1.1rem;
+        padding: 1.25rem 1rem 1.35rem;
     }
 
     .home-section--intro h3 {
