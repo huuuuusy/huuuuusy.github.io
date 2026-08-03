@@ -389,11 +389,11 @@ body {
 }
 
 .visitor-insights {
-    padding: 1.55rem 1.65rem 1.35rem;
+    padding: 1.1rem 1.25rem 1rem;
 }
 
 .visitor-recent {
-    padding: 1.2rem 1.3rem;
+    padding: .9rem 1rem;
 }
 
 .research-step__content p,
@@ -467,6 +467,88 @@ body {
     .background-entry__period {
         font-size: .69rem;
         letter-spacing: -.006em;
+    }
+}
+
+@media (min-width: 48em) {
+    .visitor-insights {
+        grid-template-columns: minmax(180px, .5fr) minmax(0, 2fr);
+        gap: .9rem 1.4rem;
+    }
+
+    .visitor-insights__summary {
+        min-height: 0;
+        padding-left: 0;
+    }
+
+    .visitor-insights__total {
+        font-size: 2.35em;
+    }
+
+    .visitor-insights__heading {
+        margin-bottom: .4rem;
+    }
+
+    .visitor-insights__countries {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: .38rem 1rem;
+    }
+
+    .visitor-country {
+        grid-template-columns: minmax(112px, 1fr) minmax(54px, .62fr) 2.4rem;
+        gap: .42rem;
+        font-size: .7em;
+    }
+
+    .visitor-country__flags {
+        font-size: 1em;
+        line-height: 1.2;
+    }
+
+    .visitor-recent__title {
+        font-size: .92rem;
+    }
+
+    .visitor-period-tab {
+        min-height: 1.65rem;
+        padding: .22rem .62rem;
+    }
+
+    .visitor-period-summary {
+        gap: .55rem;
+        margin: .58rem 0 .5rem;
+    }
+
+    .visitor-period-metric {
+        min-width: 96px;
+        padding: .45rem .58rem;
+    }
+
+    .visitor-period-metric strong {
+        font-size: 1.02rem;
+    }
+
+    .visitor-period-countries {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: .28rem 1rem;
+    }
+
+    .visitor-period-country {
+        grid-template-columns: minmax(92px, 1fr) minmax(52px, .72fr) 2.7rem;
+        gap: .45rem;
+        min-height: 1.55rem;
+        font-size: .7rem;
+    }
+
+    .visitor-insights__latest {
+        padding: .45rem .7rem;
+        font-size: .7em;
+    }
+
+    .visitor-insights__note {
+        padding-top: .5rem;
+        font-size: .61em;
+        line-height: 1.4;
     }
 }
 
