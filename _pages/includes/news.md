@@ -24,7 +24,7 @@
 
 **2026.02** 📝One [review paper](https://huuuuusy.github.io/#TNSE26) has been accepted by the IEEE Transactions on Network Science and Engineering (TNSE).
 
-**2026.01** 📣I am honored to have participated in [Humanity's Last Exam (HLE)](https://www.nature.com/articles/s41586-025-09962-4), published in *Nature*, by submitting a question as a member of the [HLE Contributors Consortium](https://www.nature.com/articles/s41586-025-09962-4#group-3).
+**2026.01** 📣I am honored to have participated in [Humanity's Last Exam (HLE)](https://www.nature.com/articles/s41586-025-09962-4), published in *Nature*, by submitting expert-level questions related to AI as a member of the [HLE Contributors Consortium](https://www.nature.com/articles/s41586-025-09962-4#group-3).
 
 **2026.01** 📣We presented two main-conference Oral papers ([📹 CausalStep Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf) and [📹 VerifyBench Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)) and three workshop papers ([📹 SOEI Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-SOEI-Slides.pdf), [📹 EduVerse Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduVerse-Slides.pdf), and [📹 EduPersona Slides](https://huuuuusy.github.io/files/AAAI26-AI4Edu-EduPersona-Slides.pdf)) at AAAI 2026. Thanks to everyone who visited us at the Singapore EXPO for the discussions.
 

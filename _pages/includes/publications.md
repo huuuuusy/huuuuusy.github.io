@@ -372,7 +372,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 **A benchmark of expert-level academic questions to assess AI capabilities**<br>
 [Center for AI Safety](https://www.safe.ai/), [Scale AI](https://scale.com/), and [HLE Contributors Consortium](https://www.nature.com/articles/s41586-025-09962-4#group-3)<br>
 [Nature](https://www.nature.com/articles/s41586-025-09962-4), 649, 1139–1146 (2026)<br>
-**Contribution:** ***<font color=DarkRed>Shiyu Hu</font>*** submitted a question to the HLE benchmark as a member of the HLE Contributors Consortium.<br>
+**Contribution:** ***<font color=DarkRed>Shiyu Hu</font>*** submitted expert-level questions related to AI to the HLE benchmark as a member of the HLE Contributors Consortium.<br>
 📌 Frontier AI Evaluation 📌 Expert-Level Benchmarking 📌 Consortium Contribution<br>
 [📃 Paper](https://www.nature.com/articles/s41586-025-09962-4)
 [🌐 Benchmark](https://lastexam.ai/)
