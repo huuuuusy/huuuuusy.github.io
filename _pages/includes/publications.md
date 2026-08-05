@@ -364,6 +364,23 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 </div>
 
 
+<div class='paper-box paper-box--consortium'><div class='paper-box-image'><div><div class="badge">Nature 2026</div><div class="paper-identity" aria-hidden="true"><strong>HLE</strong><span>Consortium Contribution</span></div></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='HLE'></span>
+
+**A benchmark of expert-level academic questions to assess AI capabilities**<br>
+[Center for AI Safety](https://www.safe.ai/), [Scale AI](https://scale.com/), and [HLE Contributors Consortium](https://www.nature.com/articles/s41586-025-09962-4#group-3)<br>
+[Nature](https://www.nature.com/articles/s41586-025-09962-4), 649, 1139–1146 (2026)<br>
+**Contribution:** ***<font color=DarkRed>Shiyu Hu</font>*** submitted a question to the HLE benchmark as a member of the HLE Contributors Consortium.<br>
+📌 Frontier AI Evaluation 📌 Expert-Level Benchmarking 📌 Consortium Contribution<br>
+[📃 Paper](https://www.nature.com/articles/s41586-025-09962-4)
+[🌐 Benchmark](https://lastexam.ai/)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='../../images/CSTrack.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

@@ -274,6 +274,40 @@ body {
     max-height: 126px;
 }
 
+.paper-identity {
+    display: flex;
+    min-height: 106px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: .85rem;
+    border: 1px solid #dbe4eb;
+    border-radius: .5rem;
+    flex-direction: column;
+    color: var(--academic-accent-strong);
+    background:
+        radial-gradient(circle at 82% 18%, rgba(49, 93, 123, .12), transparent 34%),
+        linear-gradient(145deg, #f8fafc, #eef3f6);
+    text-align: center;
+}
+
+.paper-identity strong {
+    font-family: var(--academic-serif);
+    font-size: 2rem;
+    letter-spacing: -.035em;
+    line-height: 1;
+}
+
+.paper-identity span {
+    margin-top: .42rem;
+    color: var(--academic-muted);
+    font-size: .62rem;
+    font-weight: 700;
+    letter-spacing: .075em;
+    line-height: 1.35;
+    text-transform: uppercase;
+}
+
 .home-section--publications .paper-box .paper-box-text {
     color: #526171;
     font-size: var(--academic-card-size);
