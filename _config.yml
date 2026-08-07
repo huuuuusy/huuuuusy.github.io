@@ -1,6 +1,7 @@
 # Core site metadata
 locale: "en-US"
 title: "Shiyu Hu"
+bilingual_enabled: false
 title_separator: "-"
 name: "Shiyu Hu"
 description: "Shiyu Hu - Research Fellow at Nanyang Technological University working on reliable multimodal intelligence."

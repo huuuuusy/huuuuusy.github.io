@@ -6,6 +6,12 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css?v={{ site.github.build_revision | default: site.time | url_encode }}"/>
 <script>
   (function () {
+    {% unless site.bilingual_enabled %}
+    document.documentElement.setAttribute("data-language", "en");
+    document.documentElement.setAttribute("lang", "en");
+    return;
+    {% endunless %}
+
     var language = "en";
     try {
       var requested = new URLSearchParams(window.location.search).get("lang");
