@@ -1,22 +1,29 @@
 # main links
 main:
   - title: "About"
+    title_zh: "关于"
     url: "/#about-me"
 
   - title: "Research"
+    title_zh: "研究"
     url: "/#research-interests"
 
   - title: "Publications"
+    title_zh: "论文"
     url: "/#publications"
 
   - title: "Projects"
+    title_zh: "项目"
     url: "/#projects"
 
   - title: "Background"
+    title_zh: "经历"
     url: "/#background"
 
   - title: "Service"
+    title_zh: "学术服务"
     url: "/#activities-and-services"
 
   - title: "CV"
+    title_zh: "简历"
     url: "/files/CV-EN.pdf"

@@ -32,6 +32,16 @@ body {
     line-height: 1.62;
 }
 
+html[data-language="en"] [data-lang="zh"],
+html[data-language="zh"] [data-lang="en"] {
+    display: none !important;
+}
+
+html[data-language="zh"] body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+        "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", sans-serif;
+}
+
 .masthead {
     background: rgba(250, 251, 252, .94);
 }
@@ -40,6 +50,64 @@ body {
     max-width: 1440px;
     padding-right: 1.25rem;
     padding-left: 1.25rem;
+}
+
+.masthead__menu {
+    display: flex;
+    gap: .55rem;
+    align-items: center;
+}
+
+.masthead__menu .greedy-nav {
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+.language-switcher {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    padding: .2rem;
+    border: 1px solid #d9e2e9;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .86);
+    box-shadow: 0 2px 8px rgba(31, 45, 61, .04);
+}
+
+.language-switcher__option {
+    min-width: 2.2rem;
+    padding: .32rem .52rem;
+    border: 0;
+    border-radius: 999px;
+    color: #697785;
+    background: transparent;
+    font: inherit;
+    font-size: .7rem;
+    font-weight: 650;
+    line-height: 1;
+    cursor: pointer;
+    transition: color .18s ease, background-color .18s ease, box-shadow .18s ease;
+
+    &:hover {
+        color: var(--academic-accent-strong);
+    }
+
+    &[aria-pressed="true"] {
+        color: #fff;
+        background: var(--academic-accent);
+        box-shadow: 0 2px 6px rgba(49, 93, 123, .16);
+    }
+
+    &:focus-visible {
+        outline: 2px solid rgba(49, 93, 123, .28);
+        outline-offset: 2px;
+    }
+}
+
+.language-switcher__divider {
+    width: 1px;
+    height: .9rem;
+    background: #dce4ea;
 }
 
 .greedy-nav a {
@@ -477,17 +545,17 @@ body {
 }
 
 .visitor-recent[open] .visitor-recent__hint {
-    font-size: 0;
-
-    &:before {
-        content: "Hide details";
-        font-size: .62rem;
-    }
-
     &:after {
         content: " ↑";
-        font-size: .62rem;
     }
+}
+
+.platform-statistics-note__copy {
+    color: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
 }
 
 .visitor-recent__body {
@@ -746,6 +814,20 @@ body {
 
     .visitor-method {
         text-align: left;
+    }
+
+    .masthead__menu {
+        gap: .25rem;
+    }
+
+    .language-switcher {
+        padding: .15rem;
+    }
+
+    .language-switcher__option {
+        min-width: 1.95rem;
+        padding: .3rem .4rem;
+        font-size: .64rem;
     }
 
     #main.home-main {

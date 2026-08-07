@@ -45,8 +45,10 @@ compress_html:
 author:
   name: "Shiyu Hu"
   avatar: "profile.jpg"
-  bio: "Research Fellow at Nanyang Technological University. I study reliable multimodal intelligence in open and interactive environments."
+  bio: "Research Fellow at Nanyang Technological University. I study how AI capabilities can be measured and diagnosed in open contexts."
+  bio_zh: "南洋理工大学研究员，研究开放情境下 AI 能力的度量与诊断。"
   location: "Singapore"
+  location_zh: "新加坡"
   googlescholar: "https://scholar.google.com/citations?user=49W-Rx4AAAAJ"
   email: "shiyu.hu@ntu.edu.sg"
   researchgate: "https://www.researchgate.net/profile/Shiyu-Hu-8"

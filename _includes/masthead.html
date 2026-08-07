@@ -13,11 +13,18 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"><span data-lang="en">{{ link.title }}</span><span data-lang="zh">{{ link.title_zh | default: link.title }}</span></a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      {% if page.permalink == "/" %}
+        <div class="language-switcher" role="group" aria-label="Language selection">
+          <button class="language-switcher__option" type="button" data-language-option="en" aria-pressed="true">EN</button>
+          <span class="language-switcher__divider" aria-hidden="true"></span>
+          <button class="language-switcher__option" type="button" data-language-option="zh" aria-pressed="false">中文</button>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>

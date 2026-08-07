@@ -1,6 +1,14 @@
 (function () {
   "use strict";
 
+  function isChinese() {
+    return document.documentElement.getAttribute("data-language") === "zh";
+  }
+
+  function localizedText(english, chinese) {
+    return isChinese() ? chinese : english;
+  }
+
   function initialiseNewsTimeline() {
     var timeline = document.querySelector(".news-timeline");
     var toggle = document.querySelector(".news-toggle");
@@ -39,15 +47,27 @@
     timeline.classList.add("is-collapsible");
     toggle.hidden = false;
 
+    function updateLabel(expanded) {
+      var label = toggle.querySelector(".news-toggle__label");
+      label.textContent = expanded
+        ? localizedText("Show recent six months", "仅显示近六个月")
+        : localizedText("Show all news", "展开全部动态");
+    }
+
+    updateLabel(false);
+
     toggle.addEventListener("click", function () {
       var expanded = toggle.getAttribute("aria-expanded") === "true";
-      var label = toggle.querySelector(".news-toggle__label");
       var icon = toggle.querySelector(".news-toggle__icon");
 
       timeline.classList.toggle("is-expanded", !expanded);
       toggle.setAttribute("aria-expanded", String(!expanded));
-      label.textContent = expanded ? "Show all news" : "Show recent six months";
+      updateLabel(!expanded);
       icon.textContent = expanded ? "↓" : "↑";
+    });
+
+    document.addEventListener("site-language-change", function () {
+      updateLabel(toggle.getAttribute("aria-expanded") === "true");
     });
   }
 
@@ -81,17 +101,33 @@
     honors.classList.add("is-collapsible");
     toggle.hidden = false;
 
+    function updateLabel(expanded) {
+      var label = toggle.querySelector(".honors-toggle__label");
+      label.textContent = expanded
+        ? localizedText(
+            "Show recent honors and awards",
+            "仅显示近期奖励与荣誉"
+          )
+        : localizedText(
+            "Show all honors and awards",
+            "展开全部奖励与荣誉"
+          );
+    }
+
+    updateLabel(false);
+
     toggle.addEventListener("click", function () {
       var expanded = toggle.getAttribute("aria-expanded") === "true";
-      var label = toggle.querySelector(".honors-toggle__label");
       var icon = toggle.querySelector(".honors-toggle__icon");
 
       honors.classList.toggle("is-expanded", !expanded);
       toggle.setAttribute("aria-expanded", String(!expanded));
-      label.textContent = expanded
-        ? "Show all honors and awards"
-        : "Show recent honors and awards";
+      updateLabel(!expanded);
       icon.textContent = expanded ? "↓" : "↑";
+    });
+
+    document.addEventListener("site-language-change", function () {
+      updateLabel(toggle.getAttribute("aria-expanded") === "true");
     });
   }
 

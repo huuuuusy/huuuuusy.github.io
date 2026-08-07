@@ -8,7 +8,9 @@
       stopSelector: "#preprints",
       visiblePaperCount: 5,
       collapsedLabel: "Show all collaborative publications",
-      expandedLabel: "Show selected collaborative publications"
+      expandedLabel: "Show selected collaborative publications",
+      collapsedLabelZh: "展开全部合作论文",
+      expandedLabelZh: "仅显示部分合作论文"
     },
     {
       name: "preprints",
@@ -16,9 +18,15 @@
       stopSelector: null,
       visiblePaperCount: 3,
       collapsedLabel: "Show all preprints",
-      expandedLabel: "Show selected preprints"
+      expandedLabel: "Show selected preprints",
+      collapsedLabelZh: "展开全部预印本",
+      expandedLabelZh: "仅显示部分预印本"
     }
   ];
+
+  function isChinese() {
+    return document.documentElement.getAttribute("data-language") === "zh";
+  }
 
   function collectAdditionalItems(section, config, browser) {
     var start = section.querySelector(config.startSelector);
@@ -77,10 +85,24 @@
     browser.classList.add("is-ready");
     toggle.hidden = false;
 
+    function updateLabel(expanded) {
+      var label = toggle.querySelector(".publication-toggle__label");
+      if (isChinese()) {
+        label.textContent = expanded
+          ? config.expandedLabelZh
+          : config.collapsedLabelZh;
+      } else {
+        label.textContent = expanded
+          ? config.expandedLabel
+          : config.collapsedLabel;
+      }
+    }
+
+    updateLabel(false);
+
     toggle.addEventListener("click", function () {
       var expanded = toggle.getAttribute("aria-expanded") === "true";
       var nextExpanded = !expanded;
-      var label = toggle.querySelector(".publication-toggle__label");
       var icon = toggle.querySelector(".publication-toggle__icon");
 
       additionalItems.forEach(function (item) {
@@ -88,10 +110,12 @@
       });
 
       toggle.setAttribute("aria-expanded", String(nextExpanded));
-      label.textContent = nextExpanded
-        ? config.expandedLabel
-        : config.collapsedLabel;
+      updateLabel(nextExpanded);
       icon.textContent = nextExpanded ? "↑" : "↓";
+    });
+
+    document.addEventListener("site-language-change", function () {
+      updateLabel(toggle.getAttribute("aria-expanded") === "true");
     });
   }
 

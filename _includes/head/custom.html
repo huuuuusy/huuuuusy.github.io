@@ -4,5 +4,21 @@
 
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css?v={{ site.github.build_revision | default: site.time | url_encode }}"/>
+<script>
+  (function () {
+    var language = "en";
+    try {
+      var requested = new URLSearchParams(window.location.search).get("lang");
+      var saved = window.localStorage.getItem("site-language");
+      language = requested === "zh" || requested === "en"
+        ? requested
+        : saved === "zh" || saved === "en" ? saved : "en";
+    } catch (error) {
+      language = "en";
+    }
+    document.documentElement.setAttribute("data-language", language);
+    document.documentElement.setAttribute("lang", language === "zh" ? "zh-CN" : "en");
+  }());
+</script>
 
 <!-- end custom head snippets -->

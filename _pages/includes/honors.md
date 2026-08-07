@@ -1,4 +1,4 @@
-# Honors and Awards
+<h1><span data-lang="en">Honors and Awards</span><span data-lang="zh">奖励与荣誉</span></h1>
 
 <div class="honors-list" markdown="1">
 
@@ -29,6 +29,6 @@
 </div>
 
 <button class="section-more honors-toggle" type="button" aria-expanded="false" hidden>
-  <span class="honors-toggle__label">Show all honors and awards</span>
+  <span class="honors-toggle__label" data-i18n-en="Show all honors and awards" data-i18n-zh="展开全部奖励与荣誉">Show all honors and awards</span>
   <span class="honors-toggle__icon" aria-hidden="true">↓</span>
 </button>

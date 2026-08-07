@@ -1,4 +1,4 @@
-# Publications
+<h1><span data-lang="en">Publications</span><span data-lang="zh">论文发表</span></h1>
 
 <!--
 Publication keyword taxonomy (fixed three-level hierarchy):
@@ -8,7 +8,7 @@ Publication keyword taxonomy (fixed three-level hierarchy):
 Use Title Case, keep at most three keywords, and avoid generic catch-all labels.
 -->
 
-## Research Monograph
+<h2><span data-lang="en">Research Monograph</span><span data-lang="zh">学术专著</span></h2>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Springer 2025</div><img src='../../images/SpringerBook.webp' alt="sym" width="100%"></div></div>
@@ -26,9 +26,9 @@ Use Title Case, keep at most three keywords, and avoid generic catch-all labels.
 </div>
 
 
-## Peer-Reviewed Publications
+<h2><span data-lang="en">Peer-Reviewed Publications</span><span data-lang="zh">同行评审论文</span></h2>
 
-### Lead or Corresponding Author
+<h3><span data-lang="en">Lead or Corresponding Author</span><span data-lang="zh">第一作者或通讯作者</span></h3>
 <!-- 代表作按照固定顺序排列 -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='../../images/GIT.png' alt="sym" width="100%"></div></div>
@@ -177,7 +177,7 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 </div>
 </div>
 
-<h3 id="collaborative-publications">Collaborative Work</h3>
+<h3 id="collaborative-publications"><span data-lang="en">Collaborative Work</span><span data-lang="zh">合作论文</span></h3>
 
 <!-- 合作论文按时间顺序排列 -->
 
@@ -620,7 +620,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 
 
-<h2 class="publication-subheading">Workshop</h2>
+<h2 class="publication-subheading"><span data-lang="en">Workshop</span><span data-lang="zh">Workshop 论文</span></h2>
 
 <div class="workshop-list" markdown="1">
 
@@ -658,14 +658,14 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 
 <div class="publication-browser" data-publication-group="collaborative" aria-live="polite">
-  <p class="publication-browser__note">Selected collaborative publications are shown for concise browsing.</p>
+  <p class="publication-browser__note"><span data-lang="en">Selected collaborative publications are shown for concise browsing.</span><span data-lang="zh">默认展示部分合作论文，完整列表可按需展开。</span></p>
   <button class="section-more publication-toggle" data-publication-toggle="collaborative" type="button" aria-expanded="false" hidden>
-    <span class="publication-toggle__label">Show all collaborative publications</span>
+    <span class="publication-toggle__label" data-i18n-en="Show all collaborative publications" data-i18n-zh="展开全部合作论文">Show all collaborative publications</span>
     <span class="publication-toggle__icon" aria-hidden="true">↓</span>
   </button>
 </div>
 
-<h2 id="preprints">Preprints</h2>
+<h2 id="preprints"><span data-lang="en">Preprints</span><span data-lang="zh">预印本</span></h2>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><a href='../../images/Streaming-Video-Survey.jpg' title="View the complete figure"><img class="paper-thumb" src='../../images/Streaming-Video-Survey-thumb.png' alt="Complete figure for the survey of streaming video understanding" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -840,9 +840,9 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 
 <div class="publication-browser" data-publication-group="preprints" aria-live="polite">
-  <p class="publication-browser__note">Selected preprints are shown for concise browsing.</p>
+  <p class="publication-browser__note"><span data-lang="en">Selected preprints are shown for concise browsing.</span><span data-lang="zh">默认展示部分预印本，完整列表可按需展开。</span></p>
   <button class="section-more publication-toggle" data-publication-toggle="preprints" type="button" aria-expanded="false" hidden>
-    <span class="publication-toggle__label">Show all preprints</span>
+    <span class="publication-toggle__label" data-i18n-en="Show all preprints" data-i18n-zh="展开全部预印本">Show all preprints</span>
     <span class="publication-toggle__icon" aria-hidden="true">↓</span>
   </button>
 </div>

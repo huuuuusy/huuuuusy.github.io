@@ -1,6 +1,6 @@
-# Activities and Service
+<h1><span data-lang="en">Activities and Service</span><span data-lang="zh">学术活动与服务</span></h1>
 
-## Tutorial
+<h2><span data-lang="en">Tutorial</span><span data-lang="zh">教程报告</span></h2>
 
 **[34th International Joint Conference on Artificial Intelligence (IJCAI)](https://2025.ijcai.org/)**
 - **Title:** Human-Centric and Multimodal Evaluation for Explainable AI: Moving Beyond Benchmarks
@@ -44,7 +44,7 @@
 [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf)
 [🌐 Webpage](https://sites.google.com/view/accv-tutorial-vtt4vot/) 
 
-## Mini-Symposium
+<h2><span data-lang="en">Mini-Symposium</span><span data-lang="zh">专题研讨会</span></h2>
 
 **[The Fifth International Nonlinear Dynamics Conference (NODYCON 2026)](https://nodycon2026.app.earendelplatform.com/)**
 - **Title:** Complex Network Systems and Large Language Models
@@ -53,7 +53,7 @@
 <!-- [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
 [🌐 Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000) 
 
-## Talk
+<h2><span data-lang="en">Talk</span><span data-lang="zh">学术报告</span></h2>
 
 **[Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/)**
 - **Title:** Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency
@@ -63,24 +63,24 @@
 <!-- [🌐 Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)  -->
 
 
-## TPC Member
+<h2><span data-lang="en">TPC Member</span><span data-lang="zh">程序委员会委员</span></h2>
 
 - [Pacific Graphics 2026](https://pacificgraphics2026.github.io/) (CCF-B Conference)
 
-## Guest Editor
+<h2><span data-lang="en">Guest Editor</span><span data-lang="zh">客座编辑</span></h2>
 
 - **Journal:** [Electronics](https://www.mdpi.com/journal/electronics) (Special Issue: [Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E))
 
-## Associate Editor
+<h2><span data-lang="en">Associate Editor</span><span data-lang="zh">副编辑</span></h2>
 
 - **Journal:** [Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet)
 
-## Reviewer
+<h2><span data-lang="en">Reviewer</span><span data-lang="zh">审稿服务</span></h2>
 
 - **Conferences:** NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, ACL, AAAI, IJCAI, ACM MM, ICRA, and AISTATS.
 - **Journals:** ACM Computing Surveys, IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, Pattern Recognition, Transactions on Machine Learning Research, IEEE Transactions on Network Science and Engineering, IEEE Transactions on Vehicular Technology, Information Fusion, Visual Intelligence, Engineering Applications of Artificial Intelligence, Expert Systems with Applications, Neurocomputing, and Knowledge-Based Systems.
 
-## Member
+<h2><span data-lang="en">Member</span><span data-lang="zh">学会会员</span></h2>
 
 - **Societies:** Institute of Electrical and Electronics Engineers (IEEE), China Society of Image and Graphics (CSIG), Chinese Association for Artificial Intelligence (CAAI), and China Computer Federation (CCF).
 

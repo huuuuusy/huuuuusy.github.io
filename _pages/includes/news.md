@@ -1,4 +1,4 @@
-# News
+<h1><span data-lang="en">News</span><span data-lang="zh">动态</span></h1>
 
 <div class="news-timeline" markdown="1">
 
@@ -129,6 +129,6 @@
 </div>
 
 <button class="section-more news-toggle" type="button" aria-expanded="false" hidden>
-  <span class="news-toggle__label">Show all news</span>
+  <span class="news-toggle__label" data-i18n-en="Show all news" data-i18n-zh="展开全部动态">Show all news</span>
   <span class="news-toggle__icon" aria-hidden="true">↓</span>
 </button>
