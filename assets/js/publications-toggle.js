@@ -8,9 +8,7 @@
       stopSelector: "#preprints",
       visiblePaperCount: 5,
       collapsedLabel: "Show all collaborative publications",
-      expandedLabel: "Show selected collaborative publications",
-      collapsedLabelZh: "展开全部合作论文",
-      expandedLabelZh: "仅显示部分合作论文"
+      expandedLabel: "Show selected collaborative publications"
     },
     {
       name: "preprints",
@@ -18,15 +16,9 @@
       stopSelector: null,
       visiblePaperCount: 3,
       collapsedLabel: "Show all preprints",
-      expandedLabel: "Show selected preprints",
-      collapsedLabelZh: "展开全部预印本",
-      expandedLabelZh: "仅显示部分预印本"
+      expandedLabel: "Show selected preprints"
     }
   ];
-
-  function isChinese() {
-    return document.documentElement.getAttribute("data-language") === "zh";
-  }
 
   function collectAdditionalItems(section, config, browser) {
     var start = section.querySelector(config.startSelector);
@@ -87,15 +79,9 @@
 
     function updateLabel(expanded) {
       var label = toggle.querySelector(".publication-toggle__label");
-      if (isChinese()) {
-        label.textContent = expanded
-          ? config.expandedLabelZh
-          : config.collapsedLabelZh;
-      } else {
-        label.textContent = expanded
-          ? config.expandedLabel
-          : config.collapsedLabel;
-      }
+      label.textContent = expanded
+        ? config.expandedLabel
+        : config.collapsedLabel;
     }
 
     updateLabel(false);
@@ -114,9 +100,6 @@
       icon.textContent = nextExpanded ? "↑" : "↓";
     });
 
-    document.addEventListener("site-language-change", function () {
-      updateLabel(toggle.getAttribute("aria-expanded") === "true");
-    });
   }
 
   function initialisePublicationBrowser() {

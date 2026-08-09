@@ -1,0 +1,6 @@
+{% assign asset_version = site.github.build_revision | default: site.time | date: "%s" %}
+{% if site.visitor_insights.enabled %}
+  <script src="{{ '/assets/js/visitor-counter.js' | relative_url }}?v={{ asset_version }}" defer></script>
+{% endif %}
+<script src="{{ '/assets/js/news-toggle.js' | relative_url }}?v={{ asset_version }}" defer></script>
+<script src="{{ '/assets/js/publications-toggle.js' | relative_url }}?v={{ asset_version }}" defer></script>

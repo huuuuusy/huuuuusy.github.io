@@ -1,14 +1,6 @@
 (function () {
   "use strict";
 
-  function isChinese() {
-    return document.documentElement.getAttribute("data-language") === "zh";
-  }
-
-  function localizedText(english, chinese) {
-    return isChinese() ? chinese : english;
-  }
-
   function initialiseNewsTimeline() {
     var timeline = document.querySelector(".news-timeline");
     var toggle = document.querySelector(".news-toggle");
@@ -50,8 +42,8 @@
     function updateLabel(expanded) {
       var label = toggle.querySelector(".news-toggle__label");
       label.textContent = expanded
-        ? localizedText("Show recent six months", "仅显示近六个月")
-        : localizedText("Show all news", "展开全部动态");
+        ? "Show recent six months"
+        : "Show all news";
     }
 
     updateLabel(false);
@@ -66,9 +58,6 @@
       icon.textContent = expanded ? "↓" : "↑";
     });
 
-    document.addEventListener("site-language-change", function () {
-      updateLabel(toggle.getAttribute("aria-expanded") === "true");
-    });
   }
 
   function initialiseHonorsList() {
@@ -104,14 +93,8 @@
     function updateLabel(expanded) {
       var label = toggle.querySelector(".honors-toggle__label");
       label.textContent = expanded
-        ? localizedText(
-            "Show recent honors and awards",
-            "仅显示近期奖励与荣誉"
-          )
-        : localizedText(
-            "Show all honors and awards",
-            "展开全部奖励与荣誉"
-          );
+        ? "Show recent honors and awards"
+        : "Show all honors and awards";
     }
 
     updateLabel(false);
@@ -126,9 +109,6 @@
       icon.textContent = expanded ? "↓" : "↑";
     });
 
-    document.addEventListener("site-language-change", function () {
-      updateLabel(toggle.getAttribute("aria-expanded") === "true");
-    });
   }
 
   function initialiseCollapsibleSections() {

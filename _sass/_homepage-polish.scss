@@ -1,0 +1,403 @@
+/* ==========================================================================
+   iOS-inspired visual refinement
+
+   Surface, spacing, and control refinements layered over the main layout.
+   ========================================================================== */
+
+body {
+    color: #252a31;
+    background: #f7f8fa;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1.5;
+}
+
+.masthead {
+    border-bottom: 1px solid rgba(35, 50, 64, .065);
+    background: rgba(250, 251, 252, .86);
+    box-shadow: none;
+    -webkit-backdrop-filter: saturate(180%) blur(18px);
+    backdrop-filter: saturate(180%) blur(18px);
+}
+
+.greedy-nav {
+    a {
+        margin: 0 .18rem;
+        padding: .45rem .62rem;
+        border-radius: .62rem;
+        color: #53606d;
+        font-size: 1rem;
+        font-weight: normal;
+
+        &:hover {
+            color: #244d6a;
+            background: rgba(52, 94, 123, .065);
+            text-decoration: none;
+        }
+    }
+
+    .visible-links a:before {
+        display: none;
+    }
+
+    .visible-links li:first-child a {
+        font-weight: bold;
+    }
+
+    button {
+        border-radius: .7rem;
+        background: #315d7b;
+        box-shadow: 0 2px 8px rgba(49, 93, 123, .16);
+    }
+}
+
+#main.home-main {
+    margin-top: 1.35rem;
+}
+
+.home-main .sidebar,
+.home-section {
+    border-color: rgba(35, 50, 64, .075);
+    border-radius: 1.25rem;
+    background: rgba(255, 255, 255, .96);
+    box-shadow:
+        0 1px 2px rgba(31, 45, 61, .02),
+        0 10px 28px rgba(31, 45, 61, .035);
+}
+
+.home-main .sidebar {
+    padding: 1.1rem;
+}
+
+.home-main .author__avatar img {
+    border-color: rgba(31, 55, 80, .1);
+    box-shadow: 0 8px 24px rgba(31, 45, 61, .09);
+}
+
+.home-section {
+    margin-bottom: 1.25rem;
+    padding: 1.55rem 1.7rem 1.7rem;
+
+    > h1:first-child {
+        margin-bottom: 1.2rem;
+        padding-bottom: 0;
+        border-bottom: 0;
+        color: #263d50;
+        font-size: 1.38rem;
+        font-weight: 650;
+
+        &:after {
+            bottom: -.5rem;
+            width: 1.9rem;
+            height: 2px;
+            background: #6f91aa;
+        }
+    }
+}
+
+.home-section--intro {
+    background:
+        radial-gradient(circle at 100% 0, rgba(116, 151, 176, .09), transparent 36%),
+        linear-gradient(145deg, #fff, #fafbfc);
+}
+
+.intro-kicker {
+    border-color: rgba(40, 92, 143, .13);
+    border-radius: 999px;
+    background: rgba(245, 249, 252, .9);
+}
+
+.page__content a.intro-action,
+.page__content .section-more {
+    border-radius: .68rem;
+    box-shadow: none;
+}
+
+.page__content a.intro-action--primary {
+    border-color: #315d7b;
+    background: #315d7b;
+
+    &:hover {
+        background: #244d6a;
+    }
+}
+
+.news-timeline {
+    &:before {
+        background: #e3e9ef;
+    }
+
+    > p {
+        padding-top: .68rem;
+        padding-bottom: .68rem;
+        color: #34485e;
+
+        &:before {
+            width: .36rem;
+            height: .36rem;
+            border-width: 2px;
+            background: #7a9bb9;
+            box-shadow: 0 0 0 1px #bdccd9;
+        }
+
+        > strong:first-child {
+            color: #244e77;
+            font-size: .76rem;
+        }
+    }
+}
+
+.research-question,
+.research-direction,
+.paper-box,
+.project-card {
+    border-color: rgba(35, 50, 64, .075);
+    border-radius: 1rem;
+    background: #fafbfc;
+    box-shadow: none;
+    transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+
+    &:hover {
+        border-color: rgba(49, 93, 123, .16);
+        box-shadow: 0 8px 22px rgba(31, 45, 61, .045);
+        transform: translateY(-1px);
+    }
+}
+
+.paper-box .paper-box-image {
+    > div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    img {
+        width: 100%;
+        box-sizing: border-box;
+        border-color: rgba(35, 50, 64, .085);
+        border-radius: .5rem;
+    }
+}
+
+.paper-box .paper-box-text {
+    color: #4b5967;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    > p:first-of-type strong:first-child {
+        color: #253c50;
+        font-size: 1rem;
+        font-weight: 650;
+    }
+}
+
+.badge,
+.badge-under-review,
+.badge-preprint {
+    position: static;
+    align-self: flex-start;
+    margin: 0 0 .48rem;
+    padding: .2rem .56rem;
+    border: 1px solid #d8e2e9;
+    border-radius: 999px;
+    box-shadow: none;
+    color: #315d7b;
+    background: #eef3f6;
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .015em;
+    line-height: 1.35;
+}
+
+.badge-under-review {
+    border-color: #d8e4db;
+    color: #4d6d56;
+    background: #f0f5f1;
+}
+
+.badge-preprint {
+    display: none;
+}
+
+.publication-subheading {
+    margin-bottom: .8rem;
+}
+
+.workshop-list {
+    > ul {
+        margin: 0 0 1.4rem;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        margin: 0 0 .65rem;
+        padding: .9rem 1rem;
+        border: 1px solid rgba(35, 50, 64, .075);
+        border-radius: .9rem;
+        color: #4b5967;
+        background: #fafbfc;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    code {
+        display: inline-block;
+        margin: 0 .28rem .15rem 0;
+        padding: .16rem .46rem;
+        border: 1px solid #d8e2e9;
+        border-radius: 999px;
+        color: #315d7b;
+        background: #eef3f6;
+        font-family: inherit;
+        font-size: .68rem;
+        font-weight: 700;
+        letter-spacing: .015em;
+        vertical-align: .08rem;
+    }
+
+    strong {
+        color: #253c50;
+        font-weight: 650;
+    }
+}
+
+.workshop-anchor:before {
+    display: none;
+}
+
+.home-section--contact {
+    > ul {
+        margin: 0;
+        padding-left: 1.2rem;
+    }
+}
+
+.project-card__metric {
+    border-color: rgba(40, 92, 143, .1);
+    border-radius: 999px;
+    background: #eef4f9;
+}
+
+.platform-statistics-note {
+    display: flex;
+    gap: .55rem;
+    align-items: center;
+    margin: -.15rem 0 1rem;
+    padding: .55rem .72rem;
+    border: 1px solid rgba(40, 92, 143, .08);
+    border-radius: .72rem;
+    color: #586b7f;
+    background: #f4f8fb;
+    font-size: .74rem;
+    line-height: 1.45;
+
+    span {
+        flex: 0 0 auto;
+        color: #315f89;
+        font-size: .62rem;
+        font-weight: 800;
+        letter-spacing: .055em;
+        text-transform: uppercase;
+    }
+}
+
+.home-section--experience > p,
+.home-section--education > p,
+.honors-list > ul > li {
+    border-color: rgba(31, 55, 80, .075);
+}
+
+.honor-kind {
+    border-radius: 999px;
+}
+
+.visitor-insights {
+    border-color: rgba(35, 50, 64, .075);
+    border-radius: 1.2rem;
+    background: rgba(255, 255, 255, .96);
+    box-shadow:
+        0 1px 2px rgba(31, 45, 61, .025),
+        0 12px 32px rgba(31, 45, 61, .04);
+}
+
+@media (max-width: 47.99em) {
+    body {
+        background: #f7f8fa;
+    }
+
+    #main.home-main {
+        margin-top: .7rem;
+        padding-right: .65rem;
+        padding-left: .65rem;
+    }
+
+    .home-main .sidebar,
+    .home-section {
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, .98);
+    }
+
+    .home-main .sidebar {
+        margin-bottom: .75rem;
+        padding: .78rem;
+    }
+
+    .home-section {
+        margin-bottom: .8rem;
+        padding: 1.2rem 1rem 1.3rem;
+    }
+
+    .research-question,
+    .research-direction,
+    .paper-box,
+    .project-card {
+        border-radius: .85rem;
+    }
+
+    .workshop-list li {
+        padding: .8rem .85rem;
+        border-radius: .8rem;
+        font-size: 1rem;
+    }
+
+    .platform-statistics-note {
+        align-items: flex-start;
+        margin-bottom: .8rem;
+        padding: .55rem .65rem;
+    }
+
+    .institution-entry {
+        grid-template-columns: 72px minmax(0, 1fr);
+        gap: .65rem;
+        padding: .9rem 0;
+    }
+
+    .institution-entry__logo {
+        width: 72px;
+        min-height: 68px;
+        padding: .32rem;
+
+        img {
+            max-height: 58px;
+        }
+    }
+
+    .institution-entry__logo--emblem img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .institution-entry__logo--crop img {
+        max-height: none;
+    }
+
+    .institution-entry__content {
+        font-size: .88rem;
+    }
+}

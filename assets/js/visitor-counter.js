@@ -4,6 +4,7 @@
   var countElement = document.getElementById("visitor-count");
   if (!countElement) return;
 
+  var containerElement = countElement.closest(".visitor-insights");
   var countriesElement = document.getElementById("visitor-countries");
   var latestElement = document.getElementById("visitor-latest");
   var periodTotalElement = document.getElementById("visitor-period-total");
@@ -21,52 +22,61 @@
   var recentSnapshot = null;
   var counterSnapshot = { count: 0, countries: [] };
   var counterUnavailable = false;
-  var endpoints = [
-    "https://counter.hushiyu1995.com/",
-    "https://shiyu-homepage-counter.hushiyu199510.workers.dev/"
-  ];
-  var legacyCount = 15000;
+  var endpoints = [];
+  var legacyCount = Number(
+    containerElement && containerElement.getAttribute("data-legacy-count")
+  ) || 0;
+  var legacyScale = legacyCount / 15000;
+
+  try {
+    endpoints = JSON.parse(
+      containerElement &&
+      containerElement.getAttribute("data-counter-endpoints") || "[]"
+    );
+  } catch (_error) {
+    endpoints = [];
+  }
   var legacyRegions = [
     {
       code: "ESEA",
       label: "East & Southeast Asia",
-      value: 5550,
+      value: Math.round(5550 * legacyScale),
       flags: "🇸🇬 🇨🇳 🇭🇰 🇲🇴 🇯🇵 🇰🇷 🇹🇼 🇲🇾 🇮🇩 🇹🇭 🇻🇳 🇵🇭 🇧🇳 🇰🇭 🇲🇲"
     },
     {
       code: "NA",
       label: "North America",
-      value: 4200,
+      value: Math.round(4200 * legacyScale),
       flags: "🇺🇸 🇨🇦 🇧🇲"
     },
     {
       code: "EU",
       label: "Europe",
-      value: 3450,
+      value: Math.round(3450 * legacyScale),
       flags: "🇬🇧 🇮🇪 🇫🇷 🇩🇪 🇮🇹 🇪🇸 🇵🇹 🇳🇱 🇧🇪 🇨🇭 🇦🇹 🇸🇪 🇳🇴 🇩🇰 🇫🇮 🇵🇱"
     },
     {
       code: "SAME",
       label: "South Asia & Middle East",
-      value: 1100,
+      value: Math.round(1100 * legacyScale),
       flags: "🇮🇳 🇵🇰 🇧🇩 🇱🇰 🇳🇵 🇦🇪 🇸🇦 🇶🇦 🇰🇼 🇮🇱 🇯🇴 🇹🇷"
     },
     {
       code: "LAC",
       label: "Latin America & Caribbean",
-      value: 350,
+      value: Math.round(350 * legacyScale),
       flags: "🇧🇷 🇦🇷 🇨🇱 🇨🇴 🇵🇪 🇺🇾 🇲🇽 🇨🇷 🇵🇦 🇬🇹 🇩🇴 🇯🇲"
     },
     {
       code: "OCE",
       label: "Oceania",
-      value: 200,
+      value: Math.round(200 * legacyScale),
       flags: "🇦🇺 🇳🇿 🇫🇯 🇵🇬"
     },
     {
       code: "AF",
       label: "Africa",
-      value: 150,
+      value: Math.round(150 * legacyScale),
       flags: "🇿🇦 🇪🇬 🇲🇦 🇹🇳 🇰🇪 🇳🇬 🇬🇭 🇪🇹"
     },
     {
@@ -118,36 +128,13 @@
     ])
   };
 
-  function isChinese() {
-    return document.documentElement.getAttribute("data-language") === "zh";
-  }
-
   function updateCounterStatusTitle() {
     if (!counterUnavailable) return;
 
     countElement.setAttribute(
       "title",
-      isChinese()
-        ? "实时访问计数暂不可用，当前仍显示历史估算值"
-        : "Live visitor count is temporarily unavailable; the legacy estimate is still shown"
+      "Live visitor count is temporarily unavailable; the legacy estimate is still shown"
     );
-  }
-
-  function regionLabel(code, fallback) {
-    if (!isChinese()) return fallback;
-
-    var labels = {
-      ESEA: "东亚与东南亚",
-      NA: "北美洲",
-      EU: "欧洲",
-      SAME: "南亚与中东",
-      LAC: "拉丁美洲与加勒比地区",
-      OCE: "大洋洲",
-      AF: "非洲",
-      OTHER: "其他 / 未分类"
-    };
-
-    return labels[code] || fallback;
   }
   function request(endpoint, method) {
     return fetch(endpoint, {
@@ -237,14 +224,12 @@
       row.className = "visitor-country";
       identity.className = "visitor-country__identity";
       label.className = "visitor-country__label";
-      label.textContent = regionLabel(region.code, region.label);
+      label.textContent = region.label;
       flags.className = "visitor-country__flags";
       flags.textContent = region.flags;
       flags.setAttribute(
         "aria-label",
-        isChinese()
-          ? regionLabel(region.code, region.label) + "的代表性国家和地区"
-          : "Representative countries and regions in " + region.label
+        "Representative countries and regions in " + region.label
       );
       bar.className = "visitor-country__bar";
       fill.className = "visitor-country__fill";
@@ -274,27 +259,20 @@
 
   function countryName(code) {
     if (!/^[A-Z]{2}$/.test(code) || code === "XX") {
-      return isChinese() ? "未知地区" : "Unknown region";
+      return "Unknown region";
     }
 
-    var chinaRegionNames = isChinese()
-      ? {
-          CN: "中国大陆",
-          HK: "香港（中国）",
-          MO: "澳门（中国）",
-          TW: "台湾（中国）"
-        }
-      : {
-          CN: "China",
-          HK: "Hong Kong (China)",
-          MO: "Macao (China)",
-          TW: "Taiwan (China)"
-        };
+    var chinaRegionNames = {
+      CN: "China",
+      HK: "Hong Kong (China)",
+      MO: "Macao (China)",
+      TW: "Taiwan (China)"
+    };
 
     if (chinaRegionNames[code]) return chinaRegionNames[code];
 
     try {
-      return new Intl.DisplayNames([isChinese() ? "zh-CN" : "en"], {
+      return new Intl.DisplayNames(["en"], {
         type: "region"
       }).of(code) || code;
     } catch (error) {
@@ -307,7 +285,7 @@
     if (Number.isNaN(date.getTime())) return "";
 
     try {
-      return new Intl.DateTimeFormat(isChinese() ? "zh-CN" : "en", {
+      return new Intl.DateTimeFormat("en", {
         month: "short",
         day: "numeric",
         hour: "2-digit",
@@ -325,9 +303,7 @@
     var latest = data.latestVisit;
     if (!latest) {
       latestElement.textContent =
-        isChinese()
-          ? "下一次访问后将显示最近访问地区。"
-          : "Latest page-view location will appear after the next visit.";
+        "Latest page-view location will appear after the next visit.";
       return;
     }
 
@@ -338,7 +314,7 @@
 
     latestElement.textContent = "";
     label.className = "visitor-insights__latest-label";
-    label.textContent = isChinese() ? "最近访问" : "Latest page view";
+    label.textContent = "Latest page view";
     location.className = "visitor-insights__latest-location";
     location.textContent = countryFlag(code) + " " + countryName(code);
     time.className = "visitor-insights__latest-time";
@@ -353,7 +329,7 @@
     if (!value) return "";
 
     try {
-      return new Intl.DateTimeFormat(isChinese() ? "zh-CN" : "en", {
+      return new Intl.DateTimeFormat("en", {
         month: "short",
         day: "numeric",
         timeZone: "Asia/Singapore"
@@ -364,9 +340,9 @@
   }
 
   function periodName(period) {
-    if (period === "week") return isChinese() ? "本周" : "This week";
-    if (period === "month") return isChinese() ? "本月" : "This month";
-    return isChinese() ? "今天" : "Today";
+    if (period === "week") return "This week";
+    if (period === "month") return "This month";
+    return "Today";
   }
 
   function renderPeriodTabs() {
@@ -395,9 +371,8 @@
     if (!period) {
       var unavailable = document.createElement("span");
       unavailable.className = "visitor-insights__empty";
-      unavailable.textContent = isChinese()
-        ? "下一次访问记录后将开始显示近期精确统计。"
-        : "Exact period statistics will begin with the next recorded page view.";
+      unavailable.textContent =
+        "Exact period statistics will begin with the next recorded page view.";
       periodCountriesElement.appendChild(unavailable);
       periodTotalElement.textContent = "—";
       periodCountryCountElement.textContent = "—";
@@ -425,18 +400,16 @@
       periodRangeElement.textContent =
         periodName(activePeriod) +
         (range ? " · " + range : "") +
-        (isChinese() ? " · 新加坡时间 (UTC+8)" : " · Singapore Time (UTC+8)") +
+        " · Singapore Time (UTC+8)" +
         (trackingStart
-          ? (isChinese() ? " · 记录始于 " : " · recorded since ") + trackingStart
+          ? " · recorded since " + trackingStart
           : "");
     }
 
     if (!visibleCountries.length) {
       var empty = document.createElement("span");
       empty.className = "visitor-insights__empty";
-      empty.textContent = isChinese()
-        ? "该时间段内暂无访问记录。"
-        : "No page views have been recorded in this period.";
+      empty.textContent = "No page views have been recorded in this period.";
       periodCountriesElement.appendChild(empty);
     }
 
@@ -482,10 +455,8 @@
     if (periodToggleElement) {
       periodToggleElement.hidden = countries.length <= 5;
       periodToggleElement.textContent = periodExpanded
-        ? (isChinese() ? "仅显示前 5 项" : "Show top 5")
-        : (isChinese()
-            ? "展开全部国家和地区"
-            : "Show all countries and regions");
+        ? "Show top 5"
+        : "Show all countries and regions";
       periodToggleElement.setAttribute(
         "aria-expanded",
         periodExpanded ? "true" : "false"
@@ -518,6 +489,12 @@
   renderLatest(counterSnapshot);
   renderRecent({});
 
+  if (!endpoints.length) {
+    counterUnavailable = true;
+    updateCounterStatusTitle();
+    return;
+  }
+
   findAvailableEndpoint(0)
     .then(function (available) {
       return request(available.endpoint, "POST");
@@ -536,10 +513,4 @@
       updateCounterStatusTitle();
     });
 
-  document.addEventListener("site-language-change", function () {
-    renderRegions(counterSnapshot);
-    renderLatest(counterSnapshot);
-    renderRecentPeriod();
-    updateCounterStatusTitle();
-  });
 }());

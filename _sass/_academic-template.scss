@@ -32,16 +32,6 @@ body {
     line-height: 1.62;
 }
 
-html[data-language="en"] [data-lang="zh"],
-html[data-language="zh"] [data-lang="en"] {
-    display: none !important;
-}
-
-html[data-language="zh"] body {
-    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
-        "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", sans-serif;
-}
-
 .masthead {
     background: rgba(250, 251, 252, .94);
 }
@@ -61,53 +51,6 @@ html[data-language="zh"] body {
 .masthead__menu .greedy-nav {
     min-width: 0;
     flex: 1 1 auto;
-}
-
-.language-switcher {
-    display: inline-flex;
-    flex: 0 0 auto;
-    align-items: center;
-    padding: .2rem;
-    border: 1px solid #d9e2e9;
-    border-radius: 999px;
-    background: rgba(255, 255, 255, .86);
-    box-shadow: 0 2px 8px rgba(31, 45, 61, .04);
-}
-
-.language-switcher__option {
-    min-width: 2.2rem;
-    padding: .32rem .52rem;
-    border: 0;
-    border-radius: 999px;
-    color: #697785;
-    background: transparent;
-    font: inherit;
-    font-size: .7rem;
-    font-weight: 650;
-    line-height: 1;
-    cursor: pointer;
-    transition: color .18s ease, background-color .18s ease, box-shadow .18s ease;
-
-    &:hover {
-        color: var(--academic-accent-strong);
-    }
-
-    &[aria-pressed="true"] {
-        color: #fff;
-        background: var(--academic-accent);
-        box-shadow: 0 2px 6px rgba(49, 93, 123, .16);
-    }
-
-    &:focus-visible {
-        outline: 2px solid rgba(49, 93, 123, .28);
-        outline-offset: 2px;
-    }
-}
-
-.language-switcher__divider {
-    width: 1px;
-    height: .9rem;
-    background: #dce4ea;
 }
 
 .greedy-nav a {
@@ -551,10 +494,13 @@ html[data-language="zh"] body {
 }
 
 .platform-statistics-note__copy {
+    flex: 1 1 auto !important;
+    min-width: 0;
     color: inherit !important;
     font-size: inherit !important;
     font-weight: inherit !important;
     letter-spacing: normal !important;
+    overflow-wrap: anywhere;
     text-transform: none !important;
 }
 
@@ -818,16 +764,6 @@ html[data-language="zh"] body {
 
     .masthead__menu {
         gap: .25rem;
-    }
-
-    .language-switcher {
-        padding: .15rem;
-    }
-
-    .language-switcher__option {
-        min-width: 1.95rem;
-        padding: .3rem .4rem;
-        font-size: .64rem;
     }
 
     #main.home-main {

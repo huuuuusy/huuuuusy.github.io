@@ -9,7 +9,9 @@ SOURCE_PATTERNS = [
   "_includes/**/*.{md,html}",
   "_data/**/*.{yml,yaml}",
   "assets/**/*.{scss,css}",
-  "README.md"
+  "README.md",
+  "CONTRIBUTING.md",
+  "docs/**/*.md"
 ].freeze
 
 MARKDOWN_REFERENCE = /\]\(([^)\s]+)(?:\s+["'][^"']*["'])?\)/

@@ -1,0 +1,32 @@
+{% capture intro_content %}{% include home/content/intro.md %}{% endcapture %}
+{% include home/section.html id="about-me" modifier="intro" title="About" content=intro_content %}
+
+{% capture news_content %}{% include home/content/news.md %}{% endcapture %}
+{% include home/section.html id="news" modifier="news" title="News" content=news_content %}
+
+{% capture background_content %}{% include home/content/background.md %}{% endcapture %}
+{% include home/section.html id="background" modifier="background" title="Background" content=background_content %}
+
+{% capture research_content %}{% include home/content/research.md %}{% endcapture %}
+{% include home/section.html id="research-interests" modifier="research" title="Research Interests" content=research_content %}
+
+{% capture publications_content %}{% include home/content/publications.md %}{% endcapture %}
+{% include home/section.html id="publications" modifier="publications" title="Publications" content=publications_content %}
+
+{% capture projects_content %}{% include home/content/projects.md %}{% endcapture %}
+{% include home/section.html id="projects" modifier="projects" title="Projects" content=projects_content %}
+
+{% capture honors_content %}{% include home/content/honors.md %}{% endcapture %}
+{% include home/section.html id="honors-and-awards" modifier="honors" title="Honors and Awards" content=honors_content %}
+
+{% capture activity_content %}{% include home/content/activity.md %}{% endcapture %}
+{% include home/section.html id="activities-and-services" modifier="activities" title="Activities and Service" content=activity_content %}
+
+{% capture contact_content %}{% include home/content/contact.md %}{% endcapture %}
+{% include home/section.html id="contact" modifier="contact" title="Contact" content=contact_content %}
+
+{% if site.visitor_insights.enabled %}
+  {% include home/visitor-insights.html %}
+{% endif %}
+{% include home/footer.html %}
+{% include home/scripts.html %}

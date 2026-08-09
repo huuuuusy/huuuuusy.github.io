@@ -1,210 +1,240 @@
-# Shiyu Hu — Academic Homepage
+# Shiyu Hu Academic Homepage
 
-Source repository for [hushiyu1995.com](https://hushiyu1995.com), the academic
-homepage of Shiyu Hu. The site presents research interests, publications,
-projects, academic background, honors, professional service, and contact
-information.
+This repository contains the source for
+[hushiyu1995.com](https://hushiyu1995.com). It is also a reusable Jekyll
+template for researchers who want a publication-focused homepage without a
+database or a JavaScript framework.
 
-The website is built with Jekyll and deployed through GitHub Pages. Its visual
-foundation is derived from
+The site runs on GitHub Pages. Its upstream theme code comes from
 [Academic Pages](https://github.com/academicpages/academicpages.github.io) and
-[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), with a
-custom homepage design and a privacy-conscious visitor counter backed by a
-Cloudflare Worker and D1.
+[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes). The homepage
+layout, academic content model, responsive styles, publication browser, and
+visitor-statistics interface are maintained in this repository.
 
-## Live site
+## Use this repository as a template
 
-- Canonical domain: [https://hushiyu1995.com](https://hushiyu1995.com)
-- GitHub Pages domain:
-  [https://huuuuusy.github.io](https://huuuuusy.github.io)
+The safest route is to publish the fork as a GitHub user site:
 
-## Repository structure
+1. Fork this repository and rename the fork to `<your-username>.github.io`.
+2. Open **Settings**, then **Pages**, and publish the `master`
+   branch from the repository root.
+3. Follow [the fork guide](docs/FORKING.md) before making the repository public.
+4. Replace the profile image, CV, site metadata, content files, and links.
+5. Run the fork identity audit and the normal validation suite:
 
-| Path | Purpose |
+   ```bash
+   ruby scripts/audit_fork_identity.rb
+   ruby scripts/validate_site.rb --build
+   ```
+
+The identity audit intentionally fails in this original repository. In a fork,
+it identifies any remaining Shiyu-specific name, email, domain, analytics, or
+visitor-counter configuration.
+
+Do not publish a fork before replacing the files under `files/` and `images/`.
+They include personal and research assets, not generic template data.
+
+## What the homepage includes
+
+- a compact author profile and research introduction;
+- dated news with automatic six-month collapsing;
+- work and education timelines with optional details;
+- a research narrative, project cards, honors, and service records;
+- publication sections organized by authorship and output type;
+- independent controls for collaborative papers and preprints;
+- optional Cloudflare Web Analytics and first-party visitor statistics;
+- responsive desktop and mobile layouts.
+
+The public site is English-only. Paper titles, venue names, author lists, and
+download links remain ordinary Markdown or HTML, so they can be updated without
+changing the templates.
+
+## Repository map
+
+| Path | What to edit there |
 | --- | --- |
-| `_pages/about.md` | Homepage composition and section order |
-| `_pages/includes/` | Maintainable content modules for the homepage |
-| `_pages/terms.md` | Privacy policy |
+| `_config.yml` | Site metadata, author profile, analytics, visitor settings, and update month |
 | `_data/navigation.yml` | Header navigation |
-| `_config.yml` | Production Jekyll configuration and author metadata |
-| `_config.dev.yml` | Local-development overrides |
-| `assets/css/main.scss` | Site-specific visual design and responsive styles |
-| `_sass/_academic-template.scss` | Reusable academic design tokens and final visual refinements |
-| `assets/js/news-toggle.js` | Collapsible News and Honors interactions |
-| `assets/js/publications-toggle.js` | Selected-versus-complete publication browsing |
-| `assets/js/visitor-counter.js` | Public visitor statistics UI |
-| `images/` | Publication figures, profile image, and institutional assets |
-| `files/` | Public CV, papers, posters, and presentation downloads |
-| `scripts/` | Dependency-free repository validation utilities |
-| `cloudflare/visitor-counter/` | Cloudflare Worker, D1 schema, and deployment notes |
+| `_pages/about.md` | Minimal homepage entry point; usually no edits are needed |
+| `_includes/home/homepage.html` | Homepage section order |
+| `_includes/home/content/` | Public biography, news, background, projects, honors, service, and contact details |
+| `_includes/home/content/publications/` | Publication records grouped by authorship and output type |
+| `_includes/home/` | Shared section, publication, statistics, footer, and script templates |
+| `images/` | Profile image, institutional emblems, and publication figures |
+| `files/` | Public CV, papers, posters, slides, and other downloads |
+| `assets/css/main.scss` | Ordered stylesheet entry point |
+| `_sass/_homepage-*.scss` | Homepage foundation, layout, polish, and section rules |
+| `_sass/_academic-template.scss` | Design tokens and final visual refinements |
+| `assets/js/` | News, publication, and visitor interactions |
+| `cloudflare/visitor-counter/` | Optional Cloudflare Worker and D1 counter |
+| `scripts/` | Source, asset, fork, and production-build checks |
 
-The homepage is intentionally assembled from small content files:
+The nine content files under `_includes/home/content/` map directly to the
+homepage sections:
 
-- `intro.md` — research identity and primary profile links;
-- `news.md` — dated research and professional updates;
-- `background.md` — work and education timeline;
-- `interests.md` — research questions and directions;
-- `publications.md` — publication cards and preprints;
-- `projects.md` — software, platforms, challenges, and funded projects;
-- `honors.md` — awards and honors;
-- `activity.md` — tutorials, talks, editorial work, reviewing, and service;
-- `contact.md` — current contact channels.
+```text
+intro.md          identity and primary links
+news.md           dated updates
+background.md     work and education
+research.md       research trajectory and directions
+publications.md   publication section composition
+projects.md       software, platforms, and funded work
+honors.md         awards and honors
+activity.md       talks, tutorials, reviewing, and service
+contact.md        public contact channels
+```
 
-The legacy `package.json`, `assets/js/_main.js`, and the source files under
-`assets/js/plugins/` and `assets/js/vendor/` are retained only to reproduce the
-theme bundle in `assets/js/main.min.js`. Homepage-specific behavior remains in
-separate, readable JavaScript files.
+Detailed publication records live in:
 
-## Reuse as an academic template
+```text
+publications/monograph.md
+publications/lead-author.md
+publications/collaborative.md
+publications/workshop.md
+publications/preprints.md
+```
 
-The homepage is designed to remain personal while exposing a small,
-fork-friendly customization surface. To adapt it for another researcher:
-
-1. replace the site and author metadata in `_config.yml`;
-2. replace `profile.jpg`, the CV, and the content modules under
-   `_pages/includes/`;
-3. update the main navigation in `_data/navigation.yml`;
-4. customize the `--academic-*` design tokens at the top of
-   `_sass/_academic-template.scss`;
-5. replace or remove the visitor-counter configuration and privacy disclosure.
-
-The default information hierarchy follows common academic browsing priorities:
-identity and research agenda first, selected publications next, then projects,
-background, honors, service, and contact details. The publication browser keeps
-the initial page concise while preserving the complete record in the document.
-Its visible-item limits are intentionally centralized in
-`assets/js/publications-toggle.js`.
-
-When making a public fork, also replace `CNAME`, repository metadata, analytics,
-social links, downloadable files, images, and all personal or institutional
-identifiers. Do not publish Shiyu Hu's CV, visitor data, or research assets as
-part of another person's site.
+This separation keeps prose and academic records out of the shared templates.
+It also lets a fork remove an unused section without rewriting the rest of the
+page.
 
 ## Local development
 
-Prerequisites:
-
-- Ruby and Bundler;
-- the dependency versions provided by the `github-pages` gem.
-
-Install dependencies:
+The GitHub Actions workflow uses Ruby 3.1. Use the same major version locally
+when possible.
 
 ```bash
 bundle install
-```
-
-Run the local site:
-
-```bash
 bundle exec jekyll serve --config _config.yml,_config.dev.yml
 ```
 
-Then open [http://localhost:4000](http://localhost:4000).
+Open [http://localhost:4000](http://localhost:4000). The development config
+disables analytics and visitor requests, then expands CSS output for debugging.
 
-Build the production site without serving it:
+Run a production build with all repository checks:
 
 ```bash
-bundle exec jekyll build
+ruby scripts/validate_site.rb --build
 ```
 
-If the local environment does not have the required GitHub Pages gems, use the
-source-level checks below and verify the deployed GitHub Pages build before
-publishing.
+The command checks homepage composition, local file references, public assets,
+JavaScript syntax, Git whitespace, the Jekyll build, rendered section order,
+and duplicate HTML IDs.
 
-## Content maintenance
+Node is not required for normal content updates. `package.json` only rebuilds
+the inherited theme bundle in `assets/js/main.min.js`. If you edit
+`assets/js/_main.js` or the vendored theme plugins, run `npm install` followed
+by `npm run build:js` and commit the rebuilt bundle.
 
-### Update the homepage
+## Common updates
 
-1. Edit the relevant file under `_pages/includes/`.
-2. Keep `_pages/about.md` limited to section composition and shared scripts.
-3. Update the `Last updated` month in `_pages/about.md` when public content
-   changes materially.
-4. Verify desktop and mobile layouts, especially publication cards, timelines,
-   and expandable sections.
+### Change the profile
+
+Edit `_config.yml`, replace `images/profile.jpg`, and replace
+`files/CV-EN.pdf`. Update `_includes/home/content/intro.md` and `contact.md` for
+the longer biography and public email addresses.
 
 ### Add a publication
 
-1. Add its card or list entry to `_pages/includes/publications.md`.
-2. Store the display figure in `images/`.
-3. Store only intentionally public downloads in `files/`.
-4. Use a stable, unique HTML anchor and update related News links to the same
-   anchor.
-5. Confirm that title, venue, authorship, links, and status match the current CV.
+1. Choose the appropriate file under
+   `_includes/home/content/publications/`.
+2. Give the record a stable, unique HTML `id`.
+3. Put figures in `images/` and public downloads in `files/`.
+4. Link related news entries to the same publication ID.
+5. Confirm the title, status, venue, author order, and links against the CV.
 
-### Add a news item
+The lead-author and corresponding-author section remains fully visible.
+Collaborative papers and preprints use their own independent controls.
 
-Add the newest item at the top of `_pages/includes/news.md` using the
-`YYYY.MM` date format. The homepage automatically keeps the most recent six
-calendar months visible and places older entries behind the shared toggle.
+### Add news or an honor
 
-### Add an honor or award
+Add the newest news entry at the top of `news.md` using `YYYY.MM`. The script
+keeps the latest six calendar months visible. Add new honors at the top of
+`honors.md`; the first seven remain visible by default.
 
-Add the newest item at the top of `_pages/includes/honors.md`. The first seven
-items remain visible by default; older entries are handled by the same
-expand/collapse interaction used for News.
+### Change the section order
 
-### Manage public assets
+Reorder the capture/include blocks in `_includes/home/homepage.html`, then
+update the expected order in `scripts/validate_site.rb`. Keep section headings
+in the shared template rather than duplicating them in content files.
 
-- Use descriptive, stable filenames.
-- Avoid duplicate copies such as `file copy.pdf`.
-- Do not keep local working drafts, private material, or superseded exports in
-  `files/`.
-- Before deleting an asset, search the entire repository for its filename.
-- Large binary files remain recoverable from Git history, but removing them
-  from the latest commit does not reduce historical repository size.
+### Change the visual style
 
-## Visitor statistics
+Start with the `--academic-*` tokens in `_sass/_academic-template.scss`.
+Homepage styles load in this order:
 
-The homepage combines:
-
-- an estimated historical total reconstructed from earlier third-party
-  counters; and
-- first-party page-view aggregates recorded by the Cloudflare Worker.
-
-The Worker stores aggregate totals, aggregate country-or-region counts, daily
-country-or-region totals, and only the latest page view's country-or-region
-code and timestamp. It does not store IP addresses, user agents, profiles, or a
-row-by-row visit history.
-
-Worker implementation and deployment requirements are documented in
-[`cloudflare/visitor-counter/README.md`](cloudflare/visitor-counter/README.md).
-
-## Validation checklist
-
-Run the checks relevant to the files changed:
-
-```bash
-bundle exec jekyll build
-ruby scripts/validate_local_references.rb
-node --check assets/js/news-toggle.js
-node --check assets/js/publications-toggle.js
-node --check assets/js/visitor-counter.js
-node --check cloudflare/visitor-counter/src/index.js
-git diff --check
+```scss
+@import "homepage-foundation";
+@import "homepage-layout";
+@import "homepage-polish";
+@import "homepage-sections";
+@import "academic-template";
 ```
 
-Before pushing a public update:
+Later layers intentionally refine earlier rules. Keep the import order stable.
 
-1. confirm that all local image and download links resolve;
-2. inspect the homepage at desktop width and at approximately `390 × 844`;
-3. test News, Publications, Honors, Background details, and visitor-statistics
-   controls;
-4. confirm that no unpublished or private files are included;
-5. after pushing, wait for the GitHub Pages build to finish and verify the
-   canonical domain with a cache-busting query.
+## Optional analytics and visitor statistics
+
+Cloudflare Web Analytics and the public visitor panel are independent.
+
+To disable Web Analytics, set:
+
+```yaml
+analytics:
+  provider: false
+```
+
+To disable the visitor panel and its JavaScript request, set:
+
+```yaml
+visitor_insights:
+  enabled: false
+```
+
+To use the visitor panel, replace its endpoints, legacy count, and explanatory
+note under `visitor_insights` in `_config.yml`. Deploy your own Worker and D1
+database by following
+[cloudflare/visitor-counter/README.md](cloudflare/visitor-counter/README.md).
+Never reuse this site's endpoint, database identifier, or analytics token in a
+fork.
+
+## Public assets
+
+- Keep only files that visitors should be able to download.
+- Use stable, descriptive filenames and update every reference when renaming.
+- Avoid duplicate exports and copy-style names such as `paper copy.pdf`.
+- Keep individual files below 95 MiB. Files above 50 MiB produce a warning.
+- Removing a large file from the current tree does not remove it from Git
+  history.
+
+The asset validator checks local references and exact duplicate files. It does
+not decide whether a document is private or licensed for redistribution.
 
 ## Deployment
 
-GitHub Pages deploys the `master` branch automatically. The `CNAME` file binds
-the deployment to `hushiyu1995.com`.
+This repository publishes the `master` branch through GitHub Pages. The
+`CNAME` file assigns the custom domain. Delete `CNAME` if the fork will use only
+its `github.io` address, or replace it before configuring another custom domain.
 
-The visitor counter is deployed separately from
-`cloudflare/visitor-counter/`; updating the static website does not deploy the
-Worker.
+GitHub Actions runs the validation suite on pushes to `master`, pull requests,
+and manual workflow dispatches. After a successful push, verify the Pages
+deployment and test the canonical URL in a private browser window.
+
+For project sites that are not named `<username>.github.io`, set `url` and
+`baseurl` according to the repository path and prefer `relative_url` for local
+assets. The user-site naming scheme requires fewer changes and is the supported
+fork path in this guide.
+
+## Contributing
+
+Bug fixes and reusable template improvements are welcome. Read
+[CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Do not submit
+personal profile content, private documents, or unrelated publication updates
+to the upstream repository.
 
 ## License and attribution
 
-Theme code retains the upstream
-[MIT License](LICENSE). Site content, research materials, publications, and
-personal assets remain the property of their respective authors and rights
-holders unless explicitly stated otherwise.
+The inherited theme code remains available under the
+[MIT License](LICENSE). Personal content, publication files, research figures,
+institutional marks, and other third-party assets retain their original rights.
+Forking the code does not grant permission to republish those assets.

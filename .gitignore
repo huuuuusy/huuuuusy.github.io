@@ -1,2 +1,6 @@
 _site/
+.sass-cache/
+.playwright-cli/
+.bundle/
+vendor/bundle/
 .DS_Store

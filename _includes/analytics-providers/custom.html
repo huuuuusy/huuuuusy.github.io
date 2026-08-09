@@ -1,6 +1,8 @@
 <!-- start custom analytics snippet -->
 
+{% if site.analytics.cloudflare_token %}
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon='{"token":"fa5370345e8f4dcc8362695323fb5d63"}'></script>
+        data-cf-beacon='{"token":"{{ site.analytics.cloudflare_token }}"}'></script>
+{% endif %}
 
 <!-- end custom analytics snippet -->
