@@ -124,7 +124,8 @@ Review `_pages/terms.md` after changing either service.
 
 ## 7. Install and validate
 
-Use Ruby 3.1 when possible because it matches the CI workflow.
+Use Ruby 3.3 when possible because it matches the CI workflow and the secure
+dependency floors in `Gemfile`.
 
 ```bash
 bundle install

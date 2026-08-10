@@ -2,22 +2,14 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a class="site-nav__title" href="{{ base_path }}/" target="_self">{{ site.title }}</a>
+      <div class="site-nav__links">
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+          <a href="{{ domain }}{{ link.url }}"{% unless link.url contains 'http' %} target="_self"{% endunless %}>{{ link.title }}</a>
+        {% endfor %}
+      </div>
+    </nav>
   </div>
 </div>

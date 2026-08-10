@@ -47,50 +47,16 @@ a {
     padding: .62rem 1rem;
 }
 
-.greedy-nav {
-    background: transparent;
+.site-nav__title {
+    color: $home-blue-dark;
+    font-size: 1rem;
+    letter-spacing: -.01em;
+}
 
-    a {
-        margin: 0 .72rem;
-        padding: .5rem 0;
-        color: #526174;
-        font-size: .88rem;
-        font-weight: 600;
-    }
-
-    .visible-links li:first-child a {
-        color: $home-blue-dark;
-        font-size: 1rem;
-        letter-spacing: -.01em;
-    }
-
-    .visible-links a:before {
-        bottom: -.62rem;
-        height: 2px;
-        background: $home-blue;
-    }
-
-    button {
-        right: .2rem;
-        width: 2.45rem;
-        height: 2.45rem;
-        padding: 0;
-        border-radius: .55rem;
-        background: $home-blue-dark;
-    }
-
-    .hidden-links {
-        margin-top: .65rem;
-        padding: .4rem;
-        border-color: $home-border;
-        border-radius: .75rem;
-        box-shadow: 0 16px 40px rgba(34, 50, 71, .14);
-
-        a {
-            padding: .62rem .85rem;
-            border-radius: .45rem;
-        }
-    }
+.site-nav__links a {
+    color: #526174;
+    font-size: .88rem;
+    font-weight: 600;
 }
 
 #main.home-main {
@@ -848,8 +814,7 @@ a {
         padding: .45rem .55rem;
     }
 
-    .greedy-nav a {
-        margin: 0 .55rem;
+    .site-nav__links a {
         font-size: .82rem;
     }
 
@@ -912,7 +877,7 @@ a {
         grid-column: 3;
         margin: 0;
 
-        button {
+        summary {
             width: auto;
             min-width: 3.4rem;
             padding: .42rem .55rem;
@@ -920,6 +885,17 @@ a {
             border-radius: .48rem;
             color: $home-blue-dark !important;
             font-size: .68rem;
+
+            &:hover,
+            &:focus-visible {
+                color: #fff !important;
+                background: $home-blue-dark;
+            }
+        }
+
+        &[open] summary {
+            color: #fff !important;
+            background: $home-blue-dark;
         }
     }
 

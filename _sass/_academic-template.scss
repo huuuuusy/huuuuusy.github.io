@@ -42,24 +42,13 @@ body {
     padding-left: 1.25rem;
 }
 
-.masthead__menu {
-    display: flex;
-    gap: .55rem;
-    align-items: center;
-}
-
-.masthead__menu .greedy-nav {
-    min-width: 0;
-    flex: 1 1 auto;
-}
-
-.greedy-nav a {
+.site-nav__links a {
     color: #536270;
     font-size: .86rem;
     font-weight: 560;
 }
 
-.greedy-nav .visible-links li:first-child a {
+.site-nav__title {
     color: var(--academic-accent-strong);
     font-family: var(--academic-serif);
     font-size: 1.03rem;

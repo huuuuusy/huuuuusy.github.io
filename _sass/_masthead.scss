@@ -5,60 +5,54 @@
 .masthead {
   position: sticky;
   top: 0;
-  background-color: white;
-  border-bottom: 1px solid $border-color;
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
   z-index: 20;
-
-  &__inner-wrap {
-    @include container;
-    @include clearfix;
-    padding: .5em;
-    font-family: $sans-serif-narrow;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
-
-    nav {
-      z-index: 10;
-    }
-
-    a {
-      text-decoration: none;
-    }
-  }
+  border-bottom: 1px solid $border-color;
+  background: $background-color;
 }
 
-.masthead__menu {
-
-  ul {
-    margin: 0;
-    padding: 0;
-    clear: both;
-    list-style-type: none;
-  }
+.masthead__inner-wrap {
+  max-width: $x-large;
+  margin: 0 auto;
+  padding: .5rem 1rem;
+  font-family: $sans-serif-narrow;
 }
 
-.masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
-  }
-  display: none !important;
+.site-nav {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 1rem;
 }
 
-.masthead__menu-item {
-  display: block;
-  list-style-type: none;
+.site-nav__title,
+.site-nav__links a {
+  color: $masthead-link-color;
+  text-decoration: none;
   white-space: nowrap;
-
-  &--lg {
-    padding-right: 2em;
-    font-weight: 700;
-  }
 }
 
+.site-nav__title {
+  flex: 0 0 auto;
+  color: $masthead-link-color-hover;
+  font-weight: 700;
+}
 
+.site-nav__links {
+  display: flex;
+  min-width: 0;
+  flex: 1 1 auto;
+  align-items: center;
+  gap: .15rem;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  a {
+    display: block;
+    padding: .5rem .65rem;
+  }
+}

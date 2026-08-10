@@ -24,10 +24,6 @@ visitor_insights:
   note: "Cumulative total includes approximately 15,000 legacy visits estimated from MapMyVisitors (Feb. 9–Apr. 18, 2024) and ClustrMaps (Apr. 18, 2024–approximately May 27, 2026), plus first-party page views recorded since July 27, 2026. Each page load or refresh is counted. Historical regional figures are proportionally reconstructed; recent period statistics are exact first-party aggregates and do not include the legacy estimate."
 
 # Rendering
-breadcrumbs: false
-future: true
-words_per_minute: 160
-read_more: "disabled"
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
@@ -86,13 +82,9 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
   - cloudflare
   - docs
   - node_modules
-  - package.json
   - scripts
   - tmp
   - vendor
@@ -103,7 +95,6 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
 
 # Analytics and GitHub Pages plugins
 analytics:

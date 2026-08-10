@@ -165,10 +165,17 @@
     display: block;
   }
 
-  button {
+  summary {
+    list-style: none;
     margin-bottom: 0;
     width: 120px;
     padding: 0.5em;
+    text-align: center;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
     @include breakpoint($large) {
       display: none;
     }
@@ -251,6 +258,11 @@
       text-decoration: underline;
     }
   }
+}
+
+.author__urls-wrapper[open] .author__urls {
+  display: block;
+  z-index: 20;
 }
 
 .author__urls_sm{

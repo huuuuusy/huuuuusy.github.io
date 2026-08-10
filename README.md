@@ -5,11 +5,12 @@ This repository contains the source for
 template for researchers who want a publication-focused homepage without a
 database or a JavaScript framework.
 
-The site runs on GitHub Pages. Its upstream theme code comes from
+The site runs on GitHub Pages. Its original structure came from
 [Academic Pages](https://github.com/academicpages/academicpages.github.io) and
-[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes). The homepage
-layout, academic content model, responsive styles, publication browser, and
-visitor-statistics interface are maintained in this repository.
+[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), but unused
+blog, archive, comment, taxonomy, lightbox, and jQuery features have been
+removed. The remaining layouts, academic content model, responsive styles,
+publication browser, and visitor-statistics interface are maintained here.
 
 ## Use this repository as a template
 
@@ -100,7 +101,7 @@ page.
 
 ## Local development
 
-The GitHub Actions workflow uses Ruby 3.1. Use the same major version locally
+The GitHub Actions workflow uses Ruby 3.3. Use the same major version locally
 when possible.
 
 ```bash
@@ -121,10 +122,9 @@ The command checks homepage composition, local file references, public assets,
 JavaScript syntax, Git whitespace, the Jekyll build, rendered section order,
 and duplicate HTML IDs.
 
-Node is not required for normal content updates. `package.json` only rebuilds
-the inherited theme bundle in `assets/js/main.min.js`. If you edit
-`assets/js/_main.js` or the vendored theme plugins, run `npm install` followed
-by `npm run build:js` and commit the rebuilt bundle.
+Node packages are not required. Homepage behavior is implemented in three
+small, dependency-free scripts under `assets/js/`; the obsolete jQuery theme
+bundle and its build toolchain are intentionally not retained.
 
 ## Common updates
 

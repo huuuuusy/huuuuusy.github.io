@@ -10,6 +10,21 @@ SECTIONS = %w[intro news background research publications projects honors activi
 TEMPLATES = %w[homepage section publication-browser visitor-insights footer scripts].freeze
 PUBLICATION_PARTS = %w[monograph lead-author collaborative workshop preprints].freeze
 STYLE_PARTIALS = %w[homepage-foundation homepage-layout homepage-polish homepage-sections academic-template].freeze
+LEGACY_TEMPLATE_PATHS = %w[
+  _data/ui-text.yml
+  _includes/comments.html
+  _includes/page__hero.html
+  _includes/social-share.html
+  _layouts/archive.html
+  _layouts/splash.html
+  _sass/_archive.scss
+  _sass/_navigation.scss
+  assets/js/_main.js
+  assets/js/main.min.js
+  assets/js/plugins
+  assets/js/vendor
+  package.json
+].freeze
 
 errors = []
 config = YAML.safe_load(File.read(CONFIG_PATH, encoding: "UTF-8"), aliases: true)
@@ -99,6 +114,14 @@ errors << "_pages/about.md must not contain homepage section markup" if entry.in
 legacy_files = Dir.glob(File.join(ROOT, "_pages", "includes", "*.md"))
 errors << "legacy homepage files remain under _pages/includes" unless legacy_files.empty?
 
+legacy_template_paths = LEGACY_TEMPLATE_PATHS.select do |relative_path|
+  path = File.join(ROOT, relative_path)
+  File.file?(path) || (File.directory?(path) && Dir.glob(File.join(path, "**", "*")).any? { |entry| File.file?(entry) })
+end
+unless legacy_template_paths.empty?
+  errors << "unused legacy template paths remain: #{legacy_template_paths.join(", ")}"
+end
+
 locale_directories = %w[en zh].select { |language| Dir.exist?(File.join(CONTENT_ROOT, language)) }
 errors << "obsolete language content directories remain: #{locale_directories.join(", ")}" unless locale_directories.empty?
 
@@ -127,7 +150,7 @@ errors << "obsolete language toggle script remains" if File.exist?(language_scri
 errors << "obsolete Chinese CV remains" if File.exist?(File.join(ROOT, "files", "CV-CN.pdf"))
 
 if errors.empty?
-  puts "Homepage structure validation passed: English content, shared templates, and no bilingual runtime."
+  puts "Homepage structure validation passed: English content, shared templates, and no legacy runtime."
 else
   warn errors.map { |error| "- #{error}" }.join("\n")
   exit 1

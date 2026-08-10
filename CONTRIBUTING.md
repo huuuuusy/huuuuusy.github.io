@@ -28,6 +28,7 @@ when the change addresses an existing report.
 
 ## Theme attribution
 
-Changes to inherited Academic Pages or Minimal Mistakes code must remain
-compatible with the repository's MIT license and preserve required notices.
-Do not add third-party assets unless their redistribution terms are clear.
+The lean site shell is derived from Academic Pages and Minimal Mistakes.
+Changes must remain compatible with the repository's MIT license and preserve
+required notices. Do not restore unused upstream feature bundles or add
+third-party assets unless their purpose and redistribution terms are clear.
