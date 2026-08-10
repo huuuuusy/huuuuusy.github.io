@@ -4,8 +4,6 @@ title: "Privacy Policy"
 modified: 2026-07-31
 ---
 
-## Privacy Policy
-
 This website uses a first-party page-view counter and Cloudflare Web Analytics
 to understand aggregate traffic and maintain the site.
 

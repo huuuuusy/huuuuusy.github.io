@@ -10,6 +10,7 @@ SECTIONS = %w[intro news background research publications projects honors activi
 TEMPLATES = %w[homepage section publication-browser visitor-insights footer scripts].freeze
 PUBLICATION_PARTS = %w[monograph lead-author collaborative workshop preprints].freeze
 STYLE_PARTIALS = %w[homepage-foundation homepage-layout homepage-polish homepage-sections academic-template].freeze
+NAVIGATION_TITLES = %w[About Background Research Publications Projects Service CV].freeze
 LEGACY_TEMPLATE_PATHS = %w[
   _data/ui-text.yml
   _includes/comments.html
@@ -30,6 +31,7 @@ errors = []
 config = YAML.safe_load(File.read(CONFIG_PATH, encoding: "UTF-8"), aliases: true)
 homepage = config.fetch("homepage", {})
 visitor_insights = config.fetch("visitor_insights", {})
+navigation = YAML.safe_load(File.read(File.join(ROOT, "_data", "navigation.yml"), encoding: "UTF-8"), aliases: true)
 
 errors << "homepage.last_updated must use YYYY-MM" unless homepage["last_updated"].to_s.match?(/\A\d{4}-\d{2}\z/)
 unless [true, false].include?(visitor_insights["enabled"])
@@ -43,6 +45,11 @@ if visitor_insights["enabled"]
 end
 %w[available_languages published_language show_language_switcher].each do |obsolete_key|
   errors << "obsolete bilingual configuration remains: homepage.#{obsolete_key}" if homepage.key?(obsolete_key)
+end
+
+navigation_titles = navigation.fetch("main", []).map { |item| item["title"] }
+unless navigation_titles == NAVIGATION_TITLES
+  errors << "primary navigation order must be: #{NAVIGATION_TITLES.join(" -> ")}"
 end
 
 SECTIONS.each do |section|
@@ -148,6 +155,28 @@ end
 language_script = File.join(ROOT, "assets", "js", "language-toggle.js")
 errors << "obsolete language toggle script remains" if File.exist?(language_script)
 errors << "obsolete Chinese CV remains" if File.exist?(File.join(ROOT, "files", "CV-CN.pdf"))
+
+profile_template = File.read(File.join(ROOT, "_includes", "author-profile.html"), encoding: "UTF-8")
+unless profile_template.include?("author__urls-toggle") &&
+       profile_template.include?('id="author-links"') &&
+       profile_template.include?('class="author__urls social-icons"')
+  errors << "profile links must retain their desktop list and mobile toggle contract"
+end
+
+profile_script_include = File.read(File.join(ROOT, "_includes", "home", "scripts.html"), encoding: "UTF-8")
+unless profile_script_include.include?("/assets/js/profile-links.js")
+  errors << "homepage scripts must load the profile links controller"
+end
+
+masthead_template = File.read(File.join(ROOT, "_includes", "masthead.html"), encoding: "UTF-8")
+unless masthead_template.include?("site-nav__toggle") && masthead_template.include?('id="primary-navigation-links"')
+  errors << "primary navigation must retain its mobile menu contract"
+end
+
+global_scripts = File.read(File.join(ROOT, "_includes", "scripts.html"), encoding: "UTF-8")
+unless global_scripts.include?("/assets/js/navigation.js")
+  errors << "global scripts must load the primary navigation controller"
+end
 
 if errors.empty?
   puts "Homepage structure validation passed: English content, shared templates, and no legacy runtime."

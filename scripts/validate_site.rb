@@ -25,6 +25,8 @@ checks = [
   ["Fork identity audit syntax", [RbConfig.ruby, "-c", "scripts/audit_fork_identity.rb"]],
   ["News and honors JavaScript", ["node", "--check", "assets/js/news-toggle.js"]],
   ["Publication JavaScript", ["node", "--check", "assets/js/publications-toggle.js"]],
+  ["Profile links JavaScript", ["node", "--check", "assets/js/profile-links.js"]],
+  ["Primary navigation JavaScript", ["node", "--check", "assets/js/navigation.js"]],
   ["Visitor JavaScript", ["node", "--check", "assets/js/visitor-counter.js"]],
   ["Visitor Worker JavaScript", ["node", "--check", "cloudflare/visitor-counter/src/index.js"]],
   ["Git whitespace", ["git", "diff", "--check"]]
@@ -76,12 +78,37 @@ if site_path
   abort("Rendered homepage contains unprocessed Markdown attributes") if html.include?('markdown="1"')
   abort("Rendered homepage contains an unprocessed introduction heading") if html.include?('### Shiyu Hu')
   abort("Rendered homepage is missing its semantic introduction heading") unless html.include?('<h3>Shiyu Hu (胡世宇)</h3>')
+  abort("Rendered homepage is missing the profile links toggle") unless html.include?('class="btn btn--inverse author__urls-toggle"')
+  abort("Rendered homepage is missing the profile links list") unless html.include?('id="author-links" class="author__urls social-icons"')
+  abort("Rendered homepage is missing the mobile navigation toggle") unless html.include?('class="site-nav__toggle"')
+  abort("Rendered homepage is missing the navigation controller") unless html.include?("/assets/js/navigation.js")
+
+  navigation_html = html[/<div class="site-nav__links"[^>]*>(.*?)<\/div>/m].to_s
+  navigation_titles = navigation_html.scan(/<a href="[^"]+" target="_self">([^<]+)<\/a>/).flatten
+  expected_navigation_titles = %w[About Background Research Publications Projects Service CV]
+  unless navigation_titles == expected_navigation_titles
+    abort("Rendered primary navigation order is incorrect: #{navigation_titles.join(" -> ")}")
+  end
 
   maintenance_outputs = %w[CONTRIBUTING.md cloudflare docs scripts].select do |relative_path|
     File.exist?(File.join(site_path, relative_path))
   end
   unless maintenance_outputs.empty?
     abort("Maintenance files leaked into the published site: #{maintenance_outputs.join(", ")}")
+  end
+
+  terms_path = File.join(site_path, "terms", "index.html")
+  abort("Rendered privacy page is missing") unless File.file?(terms_path)
+  terms_html = File.read(terms_path, encoding: "UTF-8")
+  abort("Rendered privacy page repeats its title") if terms_html.include?("<h2 id=privacy-policy>Privacy Policy</h2>")
+  abort("Rendered privacy page is missing the navigation controller") unless terms_html.include?("/assets/js/navigation.js")
+
+  not_found_path = File.join(site_path, "404.html")
+  abort("Rendered 404 page is missing") unless File.file?(not_found_path)
+  not_found_html = File.read(not_found_path, encoding: "UTF-8")
+  unless not_found_html.match?(%r{<a href=/ target=_self>Return to the homepage</a>}) ||
+         not_found_html.match?(%r{<a href="/" target="_self">Return to the homepage</a>})
+    abort("Rendered 404 return link must stay in the current tab")
   end
 
   puts "Rendered homepage OK: #{rendered_sections.length} sections and #{ids.length} unique IDs."

@@ -122,7 +122,7 @@ The command checks homepage composition, local file references, public assets,
 JavaScript syntax, Git whitespace, the Jekyll build, rendered section order,
 and duplicate HTML IDs.
 
-Node packages are not required. Homepage behavior is implemented in three
+Node packages are not required. Homepage behavior is implemented in five
 small, dependency-free scripts under `assets/js/`; the obsolete jQuery theme
 bundle and its build toolchain are intentionally not retained.
 

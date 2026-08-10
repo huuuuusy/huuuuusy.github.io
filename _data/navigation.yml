@@ -3,6 +3,9 @@ main:
   - title: "About"
     url: "/#about-me"
 
+  - title: "Background"
+    url: "/#background"
+
   - title: "Research"
     url: "/#research-interests"
 
@@ -11,9 +14,6 @@ main:
 
   - title: "Projects"
     url: "/#projects"
-
-  - title: "Background"
-    url: "/#background"
 
   - title: "Service"
     url: "/#activities-and-services"

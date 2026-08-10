@@ -165,16 +165,12 @@
     display: block;
   }
 
-  summary {
+  .author__urls-toggle {
     list-style: none;
     margin-bottom: 0;
     width: 120px;
     padding: 0.5em;
     text-align: center;
-
-    &::-webkit-details-marker {
-      display: none;
-    }
 
     @include breakpoint($large) {
       display: none;
@@ -260,7 +256,7 @@
   }
 }
 
-.author__urls-wrapper[open] .author__urls {
+.author__urls-wrapper.is-open .author__urls {
   display: block;
   z-index: 20;
 }

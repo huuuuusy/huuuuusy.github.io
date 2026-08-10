@@ -139,7 +139,7 @@ ruby scripts/audit_fork_identity.rb
 ruby scripts/validate_site.rb --build
 ```
 
-Inspect the homepage at a desktop width and near `390 × 844`. Test the News,
+Inspect the homepage at a desktop width and near `390 × 844`. Test the mobile Menu, profile Links, News,
 Publications, Honors, education-details, and visitor-statistics controls that
 remain enabled.
 

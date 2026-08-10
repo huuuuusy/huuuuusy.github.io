@@ -17,9 +17,9 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
-  <details class="author__urls-wrapper">
-    <summary class="btn btn--inverse">Links</summary>
-    <ul class="author__urls social-icons">
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse author__urls-toggle" type="button" aria-expanded="false" aria-controls="author-links">Links</button>
+    <ul id="author-links" class="author__urls social-icons">
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
@@ -45,5 +45,5 @@
         <li><a href="{{ author.zhihu }}"><i class="fas fa-fw fa-graduation-cap"></i> Zhihu</a></li>
       {% endif %}
     </ul>
-  </details>
+  </div>
 </div>
