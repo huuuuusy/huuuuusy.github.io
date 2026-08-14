@@ -52,6 +52,10 @@
 
 ## Talk
 
+**International Conference on Image and Graphics (ICIG 2026)**
+- **Title:** From Object Tracking to Process Understanding: State Modeling in Dynamic Vision
+- **Date & Location:** 2nd-4th October, 2026, Singapore<br>
+
 **[Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/)**
 - **Title:** Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency
 - **Date & Location:** 29th May, 2026, Guangzhou, China<br>
@@ -78,7 +82,8 @@
 
 ## Member
 
-- **Societies:** Institute of Electrical and Electronics Engineers (IEEE), China Society of Image and Graphics (CSIG), Chinese Association for Artificial Intelligence (CAAI), and China Computer Federation (CCF).
+- **Committee:** China Society of Image and Graphics (CSIG) Technical Committee on Video and Image Security.
+- **Societies:** Institute of Electrical and Electronics Engineers (IEEE), Chinese Association for Artificial Intelligence (CAAI), and China Computer Federation (CCF).
 
 <!-- <span class='anchor' id='collaborators'></span>
 
