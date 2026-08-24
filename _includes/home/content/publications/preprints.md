@@ -134,19 +134,6 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/ViEBench.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='ViEBench'></span>
-
-**Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images**<br>
-[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ),[J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en)<br>
-📌 Agentic Visual Reasoning 📌 Grounded Visual Evidence 📌 Dual-Axis Diagnosis<br>
-[📃 Paper](https://arxiv.org/abs/2601.11633)
-[📑 PDF](https://arxiv.org/abs/2601.11633)
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

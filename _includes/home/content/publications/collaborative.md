@@ -2,6 +2,32 @@
 
 <!-- 合作论文按时间顺序排列 -->
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><a href='/images/FakeNewsCourt.png' title="View the Fake News Court framework"><img class="paper-thumb" src='/images/FakeNewsCourt.png' alt="Fake News Court multi-agent adversarial framework" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='FakeNewsCourt'></span>
+
+**Fake News Court: A Multi-Agent Adversarial Framework for Robust Detection of LLM-Generated Fake News**<br>
+M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
+[Conference on Empirical Methods in Natural Language Processing](https://2026.emnlp.org/) (CCF-B Conference)<br>
+📌 LLM-Generated Fake News 📌 Multi-Agent Adversarial Reasoning 📌 Robust Detection<br>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP Findings 2026</div><a href='/images/ViEBench.png' title="View the ViEBench evaluation framework"><img class="paper-thumb" src='/images/ViEBench.png' alt="ViEBench grounded visual evidence evaluation framework" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='ViEBench'></span>
+
+**Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images**<br>
+[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en)<br>
+[Findings of the Association for Computational Linguistics: EMNLP 2026](https://2026.emnlp.org/)<br>
+📌 Agentic Visual Reasoning 📌 Grounded Visual Evidence 📌 Dual-Axis Diagnosis<br>
+[📃 Paper](https://arxiv.org/abs/2601.11633)
+[📑 PDF](https://arxiv.org/pdf/2601.11633)
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='/images/EARL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

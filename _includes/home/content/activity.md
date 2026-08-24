@@ -53,8 +53,9 @@
 ## Talk
 
 **International Conference on Image and Graphics (ICIG 2026)**
+- **Forum:** Visual Intelligence in Transition: From Physical Perception to Psychological Cognition
 - **Title:** From Object Tracking to Process Understanding: State Modeling in Dynamic Vision
-- **Date & Location:** 2nd-4th October, 2026, Singapore<br>
+- **Date & Location:** 4th October, 2026, Singapore<br>
 
 **[Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/)**
 - **Title:** Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency
@@ -82,7 +83,7 @@
 
 ## Member
 
-- **Committee:** China Society of Image and Graphics (CSIG) Technical Committee on Video and Image Security.
+- **Committee:** Technical Committee on Video and Image Security (CSIG-TCVIS).
 - **Societies:** Institute of Electrical and Electronics Engineers (IEEE), Chinese Association for Artificial Intelligence (CAAI), and China Computer Federation (CCF).
 
 <!-- <span class='anchor' id='collaborators'></span>

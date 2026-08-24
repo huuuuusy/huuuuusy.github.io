@@ -1,5 +1,7 @@
 <div class="news-timeline" markdown="1">
 
+**2026.08** 📝Two papers ([Fake News Court](https://huuuuusy.github.io/#FakeNewsCourt) and [Beyond Accuracy](https://huuuuusy.github.io/#ViEBench)) have been accepted by EMNLP 2026, including one main-conference paper and one Findings paper.
+
 **2026.06** 📝One paper ([DASTrack](https://huuuuusy.github.io/#DASTrack)) has been accepted by the 2026 European Conference on Computer Vision (ECCV, CCF-B Conference).
 
 **2026.05** 📣I am glad to have the opportunity to give a talk at the [Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/) in Guangzhou, China. Many thanks to the special session *Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges*. I sincerely look forward to exchanging ideas with everyone and hearing your valuable suggestions😄
