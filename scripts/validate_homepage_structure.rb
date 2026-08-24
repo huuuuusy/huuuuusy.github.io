@@ -64,6 +64,9 @@ SECTIONS.each do |section|
   errors << "empty homepage content source: #{relative_path}" if source.strip.empty?
   errors << "runtime language markup remains in #{relative_path}" if source.include?("data-lang=") || source.include?("data-i18n-")
   errors << "section heading must stay in the shared template, not #{relative_path}" if source.start_with?("# ")
+  if source.match?(%r{https://(?:huuuuusy\.github\.io|hushiyu1995\.com)/#})
+    errors << "same-page homepage links must use local #anchors in #{relative_path}"
+  end
 end
 
 TEMPLATES.each do |template|
@@ -176,6 +179,12 @@ end
 global_scripts = File.read(File.join(ROOT, "_includes", "scripts.html"), encoding: "UTF-8")
 unless global_scripts.include?("/assets/js/navigation.js")
   errors << "global scripts must load the primary navigation controller"
+end
+
+navigation_script = File.read(File.join(ROOT, "assets", "js", "navigation.js"), encoding: "UTF-8")
+unless navigation_script.include?('a[href^="#"], a[href^="/#"]') &&
+       navigation_script.include?('link.setAttribute("target", "_self")')
+  errors << "same-page anchor links must stay in the current browser tab"
 end
 
 if errors.empty?

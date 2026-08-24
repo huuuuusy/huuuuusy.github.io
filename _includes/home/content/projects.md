@@ -1,4 +1,4 @@
-<p>This section documents research software, evaluation platforms, academic challenges, and funded projects. Associated research outputs are listed under <a href="https://huuuuusy.github.io/#publications">Publications</a>.</p>
+<p>This section documents research software, evaluation platforms, academic challenges, and funded projects. Associated research outputs are listed under <a href="#publications">Publications</a>.</p>
 
 ## Research Software
 

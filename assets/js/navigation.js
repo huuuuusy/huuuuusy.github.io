@@ -1,6 +1,10 @@
 (function () {
   "use strict";
 
+  document.querySelectorAll('a[href^="#"], a[href^="/#"]').forEach(function (link) {
+    link.setAttribute("target", "_self");
+  });
+
   var navigation = document.querySelector(".site-nav");
   if (!navigation) return;
 

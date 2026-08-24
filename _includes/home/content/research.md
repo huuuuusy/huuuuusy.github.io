@@ -33,7 +33,7 @@
 
 ### From closed benchmarks to open environments
 
-<p>Human visual environments are continuous, open, and semantically rich. <a href="http://videocube.aitestunion.com/">VideoCube</a> organizes long videos through narrative structure, <a href="https://huuuuusy.github.io/#SOTVerse">SOTVerse</a> supports user-defined task spaces, and <a href="https://huuuuusy.github.io/#BioDrone">BioDrone</a> examines reliable perception under physical disturbance.</p>
+<p>Human visual environments are continuous, open, and semantically rich. <a href="http://videocube.aitestunion.com/">VideoCube</a> organizes long videos through narrative structure, <a href="#SOTVerse">SOTVerse</a> supports user-defined task spaces, and <a href="#BioDrone">BioDrone</a> examines reliable perception under physical disturbance.</p>
 
 </div>
 </article>
