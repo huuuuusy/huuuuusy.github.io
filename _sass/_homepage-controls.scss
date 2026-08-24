@@ -1,0 +1,82 @@
+/* Homepage-only edge controls for long-page navigation. */
+
+.home-scroll-controls {
+    position: fixed;
+    right: max(.75rem, calc((100vw - 1440px) / 2 - 3.25rem));
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    z-index: 20;
+    display: none;
+    gap: .38rem;
+    flex-direction: column;
+}
+
+.home-scroll-controls.is-ready {
+    display: flex;
+}
+
+.home-scroll-control {
+    display: inline-flex;
+    width: 2.45rem;
+    height: 2.45rem;
+    padding: 0;
+    border: 1px solid #d5dde4;
+    border-radius: .48rem;
+    align-items: center;
+    justify-content: center;
+    color: #36566d;
+    background: rgba(255, 255, 255, .92);
+    box-shadow: 0 3px 12px rgba(34, 48, 62, .08);
+    font: inherit;
+    font-size: 1.05rem;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transition: color .16s ease, border-color .16s ease, background-color .16s ease,
+        opacity .16s ease;
+
+    &:hover:not(:disabled) {
+        border-color: #9fadb8;
+        color: #21465f;
+        background: #fff;
+    }
+
+    &:focus-visible {
+        outline: 2px solid #315d7b;
+        outline-offset: 2px;
+    }
+
+    &:disabled {
+        opacity: .34;
+        cursor: default;
+    }
+}
+
+@media (max-width: 47.99em) {
+    .home-scroll-controls {
+        right: max(.55rem, env(safe-area-inset-right));
+        bottom: max(.65rem, env(safe-area-inset-bottom));
+    }
+
+    .home-scroll-control {
+        width: 2.75rem;
+        height: 2.75rem;
+        border-radius: .55rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .home-scroll-control {
+        transition: none;
+    }
+}
+
+@media print {
+    .home-scroll-controls {
+        display: none !important;
+    }
+}

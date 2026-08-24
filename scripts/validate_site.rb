@@ -26,6 +26,7 @@ checks = [
   ["News and honors JavaScript", ["node", "--check", "assets/js/news-toggle.js"]],
   ["Publication JavaScript", ["node", "--check", "assets/js/publications-toggle.js"]],
   ["Profile links JavaScript", ["node", "--check", "assets/js/profile-links.js"]],
+  ["Homepage scrolling JavaScript", ["node", "--check", "assets/js/homepage-scroll.js"]],
   ["Primary navigation JavaScript", ["node", "--check", "assets/js/navigation.js"]],
   ["Visitor JavaScript", ["node", "--check", "assets/js/visitor-counter.js"]],
   ["Visitor Worker JavaScript", ["node", "--check", "cloudflare/visitor-counter/src/index.js"]],
@@ -82,6 +83,11 @@ if site_path
   abort("Rendered homepage is missing the profile links list") unless html.include?('id="author-links" class="author__urls social-icons"')
   abort("Rendered homepage is missing the mobile navigation toggle") unless html.include?('class="site-nav__toggle"')
   abort("Rendered homepage is missing the navigation controller") unless html.include?("/assets/js/navigation.js")
+  abort("Rendered homepage is missing the page scrolling controls") unless
+    html.include?('class="home-scroll-controls"') &&
+    html.include?('data-scroll-target="top"') &&
+    html.include?('data-scroll-target="bottom"')
+  abort("Rendered homepage is missing the page scrolling controller") unless html.include?("/assets/js/homepage-scroll.js")
 
   navigation_html = html[/<div class="site-nav__links"[^>]*>(.*?)<\/div>/m].to_s
   navigation_titles = navigation_html.scan(/<a href="[^"]+" target="_self">([^<]+)<\/a>/).flatten

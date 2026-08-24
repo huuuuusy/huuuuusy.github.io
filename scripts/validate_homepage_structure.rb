@@ -7,9 +7,9 @@ ROOT = File.expand_path("..", __dir__)
 CONFIG_PATH = File.join(ROOT, "_config.yml")
 CONTENT_ROOT = File.join(ROOT, "_includes", "home", "content")
 SECTIONS = %w[intro news background research publications projects honors activity contact].freeze
-TEMPLATES = %w[homepage section publication-browser visitor-insights footer scripts].freeze
+TEMPLATES = %w[homepage section publication-browser visitor-insights footer scroll-controls scripts].freeze
 PUBLICATION_PARTS = %w[monograph lead-author collaborative workshop preprints].freeze
-STYLE_PARTIALS = %w[homepage-foundation homepage-layout homepage-polish homepage-sections academic-template].freeze
+STYLE_PARTIALS = %w[homepage-foundation homepage-layout homepage-polish homepage-sections academic-template homepage-controls].freeze
 NAVIGATION_TITLES = %w[About Background Research Publications Projects Service CV].freeze
 LEGACY_TEMPLATE_PATHS = %w[
   _data/ui-text.yml
@@ -169,6 +169,24 @@ end
 profile_script_include = File.read(File.join(ROOT, "_includes", "home", "scripts.html"), encoding: "UTF-8")
 unless profile_script_include.include?("/assets/js/profile-links.js")
   errors << "homepage scripts must load the profile links controller"
+end
+unless profile_script_include.include?("/assets/js/homepage-scroll.js")
+  errors << "homepage scripts must load the page scrolling controller"
+end
+
+scroll_controls_template = File.read(File.join(ROOT, "_includes", "home", "scroll-controls.html"), encoding: "UTF-8")
+unless scroll_controls_template.include?('data-scroll-target="top"') &&
+       scroll_controls_template.include?('data-scroll-target="bottom"') &&
+       scroll_controls_template.include?('aria-label="Go to top"') &&
+       scroll_controls_template.include?('aria-label="Go to bottom"')
+  errors << "homepage scroll controls must retain their top, bottom, and accessible-label contract"
+end
+
+scroll_script = File.read(File.join(ROOT, "assets", "js", "homepage-scroll.js"), encoding: "UTF-8")
+unless scroll_script.include?('reduceMotion.matches ? "auto" : "smooth"') &&
+       scroll_script.include?('window.requestAnimationFrame(updateState)') &&
+       scroll_script.include?('pageResizeObserver.observe(document.body)')
+  errors << "homepage scroll controls must respect reduced motion and update after layout changes"
 end
 
 masthead_template = File.read(File.join(ROOT, "_includes", "masthead.html"), encoding: "UTF-8")
