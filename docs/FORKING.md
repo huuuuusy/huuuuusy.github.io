@@ -11,7 +11,7 @@ GitHub Pages treats that name as your user site and publishes it at
 `https://<your-username>.github.io`.
 
 In **Settings**, open **Pages**, choose **Deploy from a branch**, select
-`master`, and use the repository root. GitHub documents the current Pages setup in
+`main`, and use the repository root. GitHub documents the current Pages setup in
 [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
 If you keep a different repository name, the site becomes a project site. Set
@@ -145,7 +145,7 @@ remain enabled.
 
 ## 8. Publish
 
-Commit the personalized content and push `master`. Wait for both the validation
+Commit the personalized content and push `main`. Wait for both the validation
 workflow and the GitHub Pages deployment to finish. Check the public URL in a
 private browser window so a cached local build does not hide missing assets.
 

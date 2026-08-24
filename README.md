@@ -17,7 +17,7 @@ publication browser, and visitor-statistics interface are maintained here.
 The safest route is to publish the fork as a GitHub user site:
 
 1. Fork this repository and rename the fork to `<your-username>.github.io`.
-2. Open **Settings**, then **Pages**, and publish the `master`
+2. Open **Settings**, then **Pages**, and publish the `main`
    branch from the repository root.
 3. Follow [the fork guide](docs/FORKING.md) before making the repository public.
 4. Replace the profile image, CV, site metadata, content files, and links.
@@ -212,11 +212,11 @@ not decide whether a document is private or licensed for redistribution.
 
 ## Deployment
 
-This repository publishes the `master` branch through GitHub Pages. The
+This repository publishes the `main` branch through GitHub Pages. The
 `CNAME` file assigns the custom domain. Delete `CNAME` if the fork will use only
 its `github.io` address, or replace it before configuring another custom domain.
 
-GitHub Actions runs the validation suite on pushes to `master`, pull requests,
+GitHub Actions runs the validation suite on pushes to `main`, pull requests,
 and manual workflow dispatches. After a successful push, verify the Pages
 deployment and test the canonical URL in a private browser window.
 
