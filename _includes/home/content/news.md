@@ -1,5 +1,7 @@
 <div class="news-timeline" markdown="1">
 
+**2026.08** I will give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the International Conference on Image and Graphics (ICIG 2026) on 4 October 2026 in Singapore, as part of the forum *Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*.
+
 **2026.08** Two papers ([Fake News Court](#FakeNewsCourt) and [Beyond Accuracy](#ViEBench)) have been accepted by EMNLP 2026, including one main-conference paper and one Findings paper.
 
 **2026.06** One paper ([DASTrack](#DASTrack)) has been accepted by the 2026 European Conference on Computer Vision (ECCV, CCF-B Conference).

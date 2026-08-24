@@ -24,6 +24,45 @@
     if (event.target.closest(".site-nav__links a")) setExpanded(false);
   });
 
+  var sectionLinks = Array.prototype.slice.call(
+    navigation.querySelectorAll('.site-nav__links a[href^="/#"]')
+  ).map(function (link) {
+    var target = document.getElementById(link.getAttribute("href").slice(2));
+    return target ? { link: link, target: target } : null;
+  }).filter(Boolean);
+
+  var currentFrame = null;
+
+  function updateCurrentSection() {
+    currentFrame = null;
+    if (!sectionLinks.length) return;
+
+    var marker = window.scrollY + navigation.getBoundingClientRect().height + 96;
+    var current = sectionLinks[0];
+
+    sectionLinks.forEach(function (item) {
+      var targetTop = item.target.getBoundingClientRect().top + window.scrollY;
+      if (targetTop <= marker) current = item;
+    });
+
+    sectionLinks.forEach(function (item) {
+      var isCurrent = item === current;
+      item.link.classList.toggle("is-current", isCurrent);
+      if (isCurrent) item.link.setAttribute("aria-current", "location");
+      else item.link.removeAttribute("aria-current");
+    });
+  }
+
+  function requestCurrentSectionUpdate() {
+    if (currentFrame !== null) return;
+    currentFrame = window.requestAnimationFrame(updateCurrentSection);
+  }
+
+  updateCurrentSection();
+  window.addEventListener("scroll", requestCurrentSectionUpdate, { passive: true });
+  window.addEventListener("resize", requestCurrentSectionUpdate);
+  window.addEventListener("hashchange", requestCurrentSectionUpdate);
+
   document.addEventListener("click", function (event) {
     if (!navigation.contains(event.target)) setExpanded(false);
   });
