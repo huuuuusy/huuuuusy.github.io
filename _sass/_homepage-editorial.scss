@@ -12,8 +12,8 @@
     --editorial-paper: #ffffff;
     --editorial-surface: #ffffff;
     --editorial-muted: #6e6e73;
-    --editorial-rule: #e5e5e7;
-    --editorial-rule-strong: #d2d2d7;
+    --editorial-rule: #ececef;
+    --editorial-rule-strong: #dcdde2;
     --editorial-soft: #f5f7fb;
     --ntu-navy: #181c62;
     --orbit-blue: var(--ntu-navy);
@@ -31,8 +31,8 @@
     color: var(--editorial-ink);
     background: var(--editorial-paper);
     font-family: var(--editorial-sans);
-    font-size: 17px;
-    line-height: 1.62;
+    font-size: 16px;
+    line-height: 1.58;
     letter-spacing: 0;
 }
 
@@ -242,7 +242,7 @@
 
 .homepage-shell .home-section {
     margin: 0;
-    padding: 4rem 0 4.2rem;
+    padding: 3rem 0;
     scroll-margin-top: 4.8rem;
     border: 0;
     border-top: 1px solid var(--editorial-rule);
@@ -276,7 +276,7 @@
     border: 0;
     color: var(--editorial-heading);
     font-family: var(--editorial-serif);
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: -.025em;
     line-height: 1.18;
@@ -298,6 +298,13 @@
         content: "";
     }
 
+}
+
+.homepage-shell .home-section > h1:first-child:before {
+    display: none;
+    height: 0;
+    margin: 0;
+    content: none;
 }
 
 .homepage-shell .home-section h2 {
@@ -480,8 +487,8 @@
     position: relative;
     max-width: none;
     margin: 0;
-    padding: .92rem 0 .92rem 6.7rem;
-    border-bottom: 1px solid var(--editorial-rule);
+    padding: .68rem 0 .68rem 6.35rem;
+    border-bottom: 0;
     color: var(--editorial-ink);
     font-size: 16px;
     line-height: 1.6;
@@ -493,7 +500,7 @@
 
     > strong:first-child {
         position: absolute;
-        top: .92rem;
+        top: .68rem;
         left: 0;
         width: 5.25rem;
         color: var(--orbit-blue);
@@ -727,7 +734,7 @@
 .homepage-shell #lead-author-publications,
 .homepage-shell #collaborative-publications,
 .homepage-shell #preprints {
-    margin: 2.7rem 0 .55rem;
+    margin: 2.2rem 0 .45rem;
     padding: 0 0 .7rem;
     border-bottom: 1px solid var(--editorial-rule-strong);
     color: var(--editorial-heading);
@@ -741,10 +748,10 @@
 .homepage-shell .home-section--publications .paper-box {
     display: grid;
     grid-template-columns: 184px minmax(0, 1fr);
-    gap: 1.55rem;
+    gap: 1.35rem;
     align-items: start;
     margin: 0;
-    padding: 1.45rem 0;
+    padding: 1.15rem 0;
     border: 0;
     border-bottom: 1px solid var(--editorial-rule);
     border-radius: 0;
@@ -930,7 +937,7 @@
 /* Projects, honors, and service */
 
 .homepage-shell .project-grid {
-    gap: 2rem 2.5rem;
+    gap: 1.6rem 2.3rem;
 }
 
 .homepage-shell .project-card {
@@ -1014,7 +1021,7 @@
 
 .homepage-shell .honors-list > ul > li {
     margin: 0;
-    padding: .82rem 0;
+    padding: .68rem 0;
     border: 0;
     border-bottom: 1px solid var(--editorial-rule);
     border-radius: 0;
@@ -1044,7 +1051,7 @@
 
 .homepage-shell .home-section--activities h2 {
     display: block;
-    margin: 2.3rem 0 .75rem;
+    margin: 1.8rem 0 .7rem;
     padding: 0 0 .55rem;
     border-bottom: 1px solid var(--editorial-rule-strong);
     border-radius: 0;
@@ -1066,11 +1073,11 @@
 
 .homepage-shell .visitor-insights {
     display: block;
-    margin: 2.7rem 0 .8rem;
+    margin: .2rem 0 .65rem;
     padding: 0;
     overflow: visible;
     border: 0;
-    border-top: 1px solid var(--editorial-rule-strong);
+    border-top: 0;
     border-bottom: 1px solid var(--editorial-rule);
     border-radius: 0;
     background: transparent;
@@ -1083,7 +1090,8 @@
     min-height: 0;
     gap: .65rem;
     align-items: baseline;
-    padding: .8rem 0;
+    padding: .68rem 0;
+    border-right: 0;
     color: var(--editorial-heading);
     cursor: pointer;
     list-style: none;
@@ -1204,17 +1212,38 @@
     }
 
     .homepage-shell .home-section {
-        padding-top: 3.5rem;
-        padding-bottom: 3.7rem;
+        padding-top: 1.9rem;
+        padding-bottom: 2rem;
     }
 
     .homepage-shell .home-section--intro {
         padding-top: .45rem;
-        padding-bottom: 4rem;
+        padding-bottom: 1.7rem;
     }
 
     .homepage-shell .home-section > h1:first-child {
-        margin-bottom: 2rem;
+        margin-bottom: 1.35rem;
+    }
+
+    .homepage-shell .home-section--background {
+        padding-bottom: 1.35rem;
+    }
+
+    .homepage-shell .home-section--research {
+        padding-top: 1.65rem;
+    }
+
+    .homepage-shell .background-entry {
+        padding-top: .6rem;
+        padding-bottom: .6rem;
+    }
+
+    .homepage-shell .background-entry:first-child {
+        padding-top: .5rem;
+    }
+
+    .homepage-shell .background-entry:last-child {
+        padding-bottom: .2rem;
     }
 
     .homepage-shell .home-main .sidebar {
@@ -1239,12 +1268,6 @@
         width: 148px;
         margin: 1.1rem auto 0;
         font-size: 12.75px;
-    }
-
-    .homepage-shell .home-main .author-link--location,
-    .homepage-shell .home-main .author-link--email,
-    .homepage-shell .home-main .author-link--scholar {
-        display: none;
     }
 
     .homepage-shell .home-main .home-page {
@@ -1411,12 +1434,24 @@
     }
 
     .homepage-shell .home-section {
-        padding: 3rem 0 3.2rem;
+        padding: 1.8rem 0 1.9rem;
     }
 
     .homepage-shell .home-section:first-child,
     .homepage-shell .home-section--intro {
         padding-top: .3rem;
+    }
+
+    .homepage-shell .home-section--intro {
+        padding-bottom: 1.75rem;
+    }
+
+    .homepage-shell .home-section--background {
+        padding-bottom: 1.3rem;
+    }
+
+    .homepage-shell .home-section--research {
+        padding-top: 1.5rem;
     }
 
     .homepage-shell .home-section > h1:first-child {
@@ -1548,6 +1583,22 @@
         grid-template-columns: 94px minmax(0, 1fr);
         gap: .78rem;
     }
+}
+
+/* Tighter closing rhythm: keep one heading accent and one footer divider. */
+
+.homepage-shell .home-section--activities {
+    padding-bottom: 1rem;
+}
+
+.homepage-shell .home-section--contact {
+    padding-top: 1.25rem;
+    padding-bottom: .5rem;
+    border-top: 0;
+}
+
+.homepage-shell .home-section--contact > h1:first-child {
+    margin-bottom: 1.05rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
