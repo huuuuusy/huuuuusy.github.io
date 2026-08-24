@@ -187,6 +187,13 @@ unless navigation_script.include?('a[href^="#"], a[href^="/#"]') &&
   errors << "same-page anchor links must stay in the current browser tab"
 end
 
+publication_script = File.read(File.join(ROOT, "assets", "js", "publications-toggle.js"), encoding: "UTF-8")
+unless publication_script.include?("revealHashTarget") &&
+       publication_script.include?("additionalItem") &&
+       publication_script.include?("scrollIntoView")
+  errors << "publication hash links must reveal and scroll to collapsed cards"
+end
+
 if errors.empty?
   puts "Homepage structure validation passed: English content, shared templates, and no legacy runtime."
 else
