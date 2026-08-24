@@ -1,12 +1,14 @@
-<div class="visitor-insights"
+<details class="visitor-insights"
      aria-live="polite"
      data-counter-endpoints="{{ site.visitor_insights.endpoints | jsonify | escape }}"
      data-legacy-count="{{ site.visitor_insights.legacy_count | default: 0 }}">
-  <div class="visitor-insights__summary">
+  <summary class="visitor-insights__summary">
     <span class="visitor-insights__eyebrow">Visitor insights</span>
     <span class="visitor-insights__total" id="visitor-count">—</span>
     <span class="visitor-insights__label">cumulative homepage page views</span>
-  </div>
+    <span class="visitor-insights__disclosure">View details</span>
+  </summary>
+  <div class="visitor-insights__body">
   <div class="visitor-insights__geography">
     <div class="visitor-insights__heading">Estimated visitor distribution by region</div>
     <div class="visitor-insights__countries" id="visitor-countries">
@@ -53,4 +55,5 @@
       <span class="visitor-insights__note">{{ site.visitor_insights.note }}</span>
     </details>
   </div>
-</div>
+  </div>
+</details>

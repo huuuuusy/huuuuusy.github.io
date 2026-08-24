@@ -63,6 +63,7 @@ if site_path
   abort("Rendered homepage is missing: #{index_path}") unless File.file?(index_path)
 
   html = File.read(index_path, encoding: "UTF-8")
+  abort("Rendered homepage is missing its scoped editorial body class") unless html.include?('<body class=homepage-shell>') || html.include?('<body class="homepage-shell">')
   expected_sections = %w[
     about-me news background research-interests publications projects
     honors-and-awards activities-and-services contact

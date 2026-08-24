@@ -4,42 +4,42 @@
 - **Title:** Human-Centric and Multimodal Evaluation for Explainable AI: Moving Beyond Benchmarks
 - **Date & Location:** 14:00-15:30, 18th August, 2025, Montreal, Canada
 <!-- - **Duration:** Half-day<br> -->
-<!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
-<!-- [🌐 Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
+<!-- [Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
+<!-- [Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
 
 **[28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/)**
 - **Title:** From Benchmarking to Trustworthy AI: Rethinking Evaluation Methods Across Vision and Complex Systems
 - **Date & Location:** 26th October, 2025, Bologna, Italy<br>
-[🌐 Webpage](https://sites.google.com/view/ecai25-trusteval-tutorial/) 
+[Webpage](https://sites.google.com/view/ecai25-trusteval-tutorial/)
 <!-- - **Duration:** Half-day<br> -->
-<!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
+<!-- [Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
 
 **[2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/)**
 - **Title:** The Synergy of Large Language Models and Evolutionary Optimization on Complex Networks 
 - **Date & Location:** 5th October, 2025, Vienna, Austria
 <!-- - **Duration:** Half-day<br> -->
-<!-- [📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
-<!-- [🌐 Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
+<!-- [Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
+<!-- [Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
 
 **[31st IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/)**
 - **Title:** An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis
 - **Date & Location:** 9:00-12:30, 27th October, 2024, Abu Dhabi, United Arab Emirates
 - **Duration:** Half-day<br>
-[📹 Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf)
-[🌐 Webpage](https://sites.google.com/view/icip24-tutorial-vot/) 
+[Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf)
+[Webpage](https://sites.google.com/view/icip24-tutorial-vot/)
 
 **[27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/)**
 - **Title:** Visual Turing Test in Visual Object Tracking: A New Vision Intelligence Evaluation Technique based on Human-Machine Comparison
 - **Date & Location:** 14:30-18:00, 1st December, 2024, Kolkata, India
 - **Duration:** Half-day<br>
-[📹 Slides](https://huuuuusy.github.io/files/ICPR2024-slides.pdf)
+[Slides](https://huuuuusy.github.io/files/ICPR2024-slides.pdf)
 
 **[17th Asian Conference on Computer Vision (ACCV)](https://accv2024.org/)**
 - **Title:** From Machine-Machine Comparison to Human-Machine Comparison: Adapting Visual Turing Test in Visual Object Tracking
 - **Date & Location:** 9:00-12:00, 9th December, 2024, Hanoi, Vietnam
 - **Duration:** Half-day<br>
-[📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf)
-[🌐 Webpage](https://sites.google.com/view/accv-tutorial-vtt4vot/) 
+[Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf)
+[Webpage](https://sites.google.com/view/accv-tutorial-vtt4vot/)
 
 ## Mini-Symposium
 
@@ -47,8 +47,8 @@
 - **Title:** Complex Network Systems and Large Language Models
 - **Date & Location:** 20th-23rd September, 2026, Sapienza University of Rome, Italy<br>
 <!-- - **Duration:** Half-day<br> -->
-<!-- [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
-[🌐 Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000) 
+<!-- [Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
+[Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)
 
 ## Talk
 
@@ -61,8 +61,8 @@
 - **Title:** Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency
 - **Date & Location:** 29th May, 2026, Guangzhou, China<br>
 <!-- - **Duration:** Half-day<br> -->
-<!-- [📹 Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
-<!-- [🌐 Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)  -->
+<!-- [Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
+<!-- [Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)  -->
 
 ## TPC Member
 

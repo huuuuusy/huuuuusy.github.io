@@ -3,6 +3,14 @@
 
   var publicationGroups = [
     {
+      name: "lead",
+      startSelector: "#lead-author-publications",
+      stopSelector: "#collaborative-publications",
+      visiblePaperCount: 5,
+      collapsedLabel: "Show all lead or corresponding-author publications",
+      expandedLabel: "Show selected lead or corresponding-author publications"
+    },
+    {
       name: "collaborative",
       startSelector: "#collaborative-publications",
       stopSelector: "#preprints",
@@ -115,7 +123,7 @@
 
       setExpanded(true);
       window.requestAnimationFrame(function () {
-        target.scrollIntoView({ block: "start" });
+        additionalItem.scrollIntoView({ block: "start" });
       });
     }
 

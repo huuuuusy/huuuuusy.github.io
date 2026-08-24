@@ -13,7 +13,7 @@
 * <span class="honor-kind honor-kind--honor">Honor</span> 2016 **Excellent League Member** on Youth Day Competition of Beijing Institute of Technology (北京理工大学优秀团员)
 * <span class="honor-kind honor-kind--award">Award</span> 2015 **National First Prize** in [Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)](http://en.mcm.edu.cn/) (全国大学生数学建模竞赛国家一等奖, top 1%, only 1 team in Beijing Institute of Technology win this prize)
 [[📑PDF](https://huuuuusy.github.io/files/CUMCM15.pdf)]
-[[📖Selected and Reviewed Outstanding Papers in CUMCM (2011-2015) (Chapter 9)](http://www.tup.tsinghua.edu.cn/booksCenter/book_06811101.html)]
+[[Selected and Reviewed Outstanding Papers in CUMCM (2011-2015) (Chapter 9)](http://www.tup.tsinghua.edu.cn/booksCenter/book_06811101.html)]
 * <span class="honor-kind honor-kind--award">Award</span> 2015 **First Prize of Mathematics Modeling Competition** within Beijing Institute of Technology (北京理工大学数学建模校内选拔赛第一名)
 * <span class="honor-kind honor-kind--honor">Honor</span> 2015 **Outstanding Individual** on Summer Social Practice of Beijing Institute of Technology (北京理工大学暑期社会实践优秀个人)
 * <span class="honor-kind honor-kind--award">Award</span> 2015 **Second Prize** on Summer Social Practice of Beijing Institute of Technology (北京理工大学暑期社会实践二等奖, team leader)

@@ -10,6 +10,8 @@ Use Title Case, keep at most three keywords, and avoid generic catch-all labels.
 
 {% include home/content/publications/lead-author.md %}
 
+{% include home/publication-browser.html group="lead" note="Selected lead or corresponding-author publications are shown for concise browsing." label="Show all lead or corresponding-author publications" %}
+
 {% include home/content/publications/collaborative.md %}
 
 {% include home/content/publications/workshop.md %}

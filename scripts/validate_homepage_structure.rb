@@ -9,7 +9,7 @@ CONTENT_ROOT = File.join(ROOT, "_includes", "home", "content")
 SECTIONS = %w[intro news background research publications projects honors activity contact].freeze
 TEMPLATES = %w[homepage section publication-browser visitor-insights footer scroll-controls scripts].freeze
 PUBLICATION_PARTS = %w[monograph lead-author collaborative workshop preprints].freeze
-STYLE_PARTIALS = %w[homepage-foundation homepage-layout homepage-polish homepage-sections academic-template homepage-controls].freeze
+STYLE_PARTIALS = %w[homepage-foundation homepage-layout homepage-polish homepage-sections academic-template homepage-controls homepage-editorial].freeze
 NAVIGATION_TITLES = %w[About Background Research Publications Projects Service CV].freeze
 LEGACY_TEMPLATE_PATHS = %w[
   _data/ui-text.yml
@@ -121,6 +121,11 @@ entry = File.read(entry_path, encoding: "UTF-8")
 errors << "_pages/about.md must delegate rendering to home/homepage.html" unless entry.include?("{% include home/homepage.html %}")
 errors << "_pages/about.md must not contain homepage section markup" if entry.include?("<section")
 
+default_layout = File.read(File.join(ROOT, "_layouts", "default.html"), encoding: "UTF-8")
+unless default_layout.include?('class="homepage-shell"') && default_layout.include?('page.url == "/"')
+  errors << "homepage must retain its scoped editorial body class"
+end
+
 legacy_files = Dir.glob(File.join(ROOT, "_pages", "includes", "*.md"))
 errors << "legacy homepage files remain under _pages/includes" unless legacy_files.empty?
 
@@ -210,6 +215,11 @@ unless publication_script.include?("revealHashTarget") &&
        publication_script.include?("additionalItem") &&
        publication_script.include?("scrollIntoView")
   errors << "publication hash links must reveal and scroll to collapsed cards"
+end
+unless publication_script.include?('name: "lead"') &&
+       publication_index.include?('group="lead"') &&
+       publication_sources.join.include?('id="lead-author-publications"')
+  errors << "lead-author publications must retain their collapsible browsing contract"
 end
 
 if errors.empty?
