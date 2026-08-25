@@ -1,8 +1,13 @@
-{% assign asset_version = site.github.build_revision | default: site.time | date: "%s" %}
+{% if jekyll.environment == "development" %}
+  {% assign asset_version = site.time | date: "%s" %}
+{% else %}
+  {% assign asset_version = site.github.build_revision | default: site.time | date: "%s" %}
+{% endif %}
 {% if site.visitor_insights.enabled %}
   <script src="{{ '/assets/js/visitor-counter.js' | relative_url }}?v={{ asset_version }}" defer></script>
 {% endif %}
 <script src="{{ '/assets/js/news-toggle.js' | relative_url }}?v={{ asset_version }}" defer></script>
 <script src="{{ '/assets/js/publications-toggle.js' | relative_url }}?v={{ asset_version }}" defer></script>
+<script src="{{ '/assets/js/publication-keywords.js' | relative_url }}?v={{ asset_version }}" defer></script>
 <script src="{{ '/assets/js/profile-links.js' | relative_url }}?v={{ asset_version }}" defer></script>
 <script src="{{ '/assets/js/homepage-scroll.js' | relative_url }}?v={{ asset_version }}" defer></script>

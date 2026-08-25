@@ -61,7 +61,38 @@
   updateCurrentSection();
   window.addEventListener("scroll", requestCurrentSectionUpdate, { passive: true });
   window.addEventListener("resize", requestCurrentSectionUpdate);
-  window.addEventListener("hashchange", requestCurrentSectionUpdate);
+
+  function restoreInitialHashPosition() {
+    if (!window.location.hash) return;
+
+    var target = document.getElementById(
+      decodeURIComponent(window.location.hash.slice(1))
+    );
+    if (!target) return;
+
+    var scrollTarget = target.closest(".paper-box") || target;
+
+    window.requestAnimationFrame(function () {
+      var root = document.documentElement;
+      var previousScrollBehavior = root.style.scrollBehavior;
+      root.style.scrollBehavior = "auto";
+      scrollTarget.scrollIntoView({ block: "start" });
+      root.style.scrollBehavior = previousScrollBehavior;
+      requestCurrentSectionUpdate();
+    });
+  }
+
+  // Collapsible news, publication, and honors groups change the document
+  // height after the browser's native first-pass anchor positioning. Re-align
+  // once images and deferred scripts have settled so shared deep links remain
+  // reliable on a cold load.
+  if (document.readyState === "complete") {
+    restoreInitialHashPosition();
+  } else {
+    window.addEventListener("load", restoreInitialHashPosition, { once: true });
+  }
+
+  window.addEventListener("hashchange", restoreInitialHashPosition);
 
   document.addEventListener("click", function (event) {
     if (!navigation.contains(event.target)) setExpanded(false);

@@ -1,3 +1,7 @@
-{% assign global_asset_version = site.github.build_revision | default: site.time | date: "%s" %}
+{% if jekyll.environment == "development" %}
+  {% assign global_asset_version = site.time | date: "%s" %}
+{% else %}
+  {% assign global_asset_version = site.github.build_revision | default: site.time | date: "%s" %}
+{% endif %}
 <script src="{{ '/assets/js/navigation.js' | relative_url }}?v={{ global_asset_version }}" defer></script>
 {% include analytics.html %}

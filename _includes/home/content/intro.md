@@ -1,7 +1,7 @@
 <div class="intro-grid">
 <div class="intro-primary">
 <span class="intro-kicker">Research Fellow · Nanyang Technological University</span>
-<h3>Shiyu Hu (胡世宇)</h3>
+<h2>Shiyu Hu (胡世宇)</h2>
 <p>My research examines how the <strong>reliability of AI capabilities can be measured, diagnosed, and modeled in open and interactive contexts</strong>. I study whether AI systems can maintain object identity, world state, task-relevant evidence, and interaction context as observations unfold over time or humans participate. My current work spans open-world vision, multimodal reasoning, and human-centered agents.</p>
 </div>
 <aside class="intro-profile" aria-label="Current appointment and profile links">

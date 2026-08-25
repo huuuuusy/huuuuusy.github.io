@@ -79,7 +79,7 @@ if site_path
   abort("Rendered homepage contains obsolete bilingual runtime") if html.match?(obsolete_runtime)
   abort("Rendered homepage contains unprocessed Markdown attributes") if html.include?('markdown="1"')
   abort("Rendered homepage contains an unprocessed introduction heading") if html.include?('### Shiyu Hu')
-  abort("Rendered homepage is missing its semantic introduction heading") unless html.include?('<h3>Shiyu Hu (胡世宇)</h3>')
+  abort("Rendered homepage is missing its semantic introduction heading") unless html.include?('<h2>Shiyu Hu (胡世宇)</h2>')
   abort("Rendered homepage is missing the profile links toggle") unless html.include?('class="btn btn--inverse author__urls-toggle"')
   abort("Rendered homepage is missing the profile links list") unless html.include?('id="author-links" class="author__urls social-icons"')
   abort("Rendered homepage is missing the mobile navigation toggle") unless html.include?('class="site-nav__toggle"')

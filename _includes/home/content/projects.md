@@ -119,18 +119,40 @@
 </article>
 </div>
 
-## Funded Research Project
+## Funded Research Projects
+
+<span class='anchor' id='MOE2022-TRF-029'></span>
+
+<div class="project-grid project-grid--single project-grid--funded">
+<article class="project-card project-card--compact" markdown="1">
+
+### MOE2022-TRF-029
+
+<span class="project-card__meta">Singapore MOE Tertiary Education Research Fund</span>
+
+<div class="project-metrics"><span>Core Researcher</span><span>NTU Singapore</span></div>
+
+</article>
+
+<article class="project-card project-card--compact" markdown="1">
+
+### MOE2024-TRF-004
+
+<span class="project-card__meta">Singapore MOE Tertiary Education Research Fund</span>
+
+<div class="project-metrics"><span>Core Researcher</span><span>NTU Singapore</span></div>
+
+</article>
+
+<article class="project-card project-card--compact" markdown="1">
 
 <span class='anchor' id='IEPRF23'></span>
 
-<div class="project-grid project-grid--single">
-<article class="project-card project-card--compact" markdown="1">
+### 2023 Intelligent Education PhD Research Fund
 
-### Human-Computer Interaction in Intelligent Education
+<span class="project-card__meta">Shanghai Institute of AI Education · East China Normal University</span>
 
-<span class="project-card__meta">2024.01 – 2025.01</span>
-
-<p>Proposal development and project delivery for a study funded by the 2023 Intelligent Education PhD Research Fund at the Shanghai Institute of AI Education, East China Normal University.</p>
+<div class="project-metrics"><span>Research Contributor</span><span>2024.01 – 2025.01</span></div>
 
 </article>
 </div>
