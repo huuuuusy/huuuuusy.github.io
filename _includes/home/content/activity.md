@@ -64,6 +64,11 @@
 <!-- [Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
 <!-- [Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)  -->
 
+## Publicity Chair
+
+**2026 CSIG Annual Conference on Video and Image Security**
+- **Date & Location:** 21st November, 2026, Xiong'an, China
+
 ## TPC Member
 
 - [Pacific Graphics 2026](https://pacificgraphics2026.github.io/) (CCF-B Conference)

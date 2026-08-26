@@ -1,5 +1,7 @@
 <div class="news-timeline" markdown="1">
 
+**2026.08** I will serve as a Publicity Chair for the 2026 CSIG Annual Conference on Video and Image Security, to be held on 21 November 2026 in Xiong'an, China. Further information will be shared as it becomes available.
+
 **2026.08** I will give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the International Conference on Image and Graphics (ICIG 2026) on 4 October 2026 in Singapore, as part of the forum *Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*.
 
 **2026.08** Two papers ([FNC](#FakeNewsCourt) and [ViEBench](#ViEBench)) have been accepted by EMNLP 2026, including one main-conference paper and one Findings paper.

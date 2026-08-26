@@ -121,26 +121,26 @@
 
 ## Funded Research Projects
 
-<span class='anchor' id='MOE2022-TRF-029'></span>
-
 <div class="project-grid project-grid--single project-grid--funded">
-<article class="project-card project-card--compact" markdown="1">
-
-### MOE2022-TRF-029
-
-<span class="project-card__meta">Singapore MOE Tertiary Education Research Fund</span>
-
-<div class="project-metrics"><span>Core Researcher</span><span>NTU Singapore</span></div>
-
-</article>
-
 <article class="project-card project-card--compact" markdown="1">
 
 ### MOE2024-TRF-004
 
 <span class="project-card__meta">Singapore MOE Tertiary Education Research Fund</span>
 
-<div class="project-metrics"><span>Core Researcher</span><span>NTU Singapore</span></div>
+<div class="project-metrics"><span>Core Researcher</span><span>NTU Singapore</span><span>2025 – Present</span></div>
+
+</article>
+
+<article class="project-card project-card--compact" markdown="1">
+
+<span class='anchor' id='MOE2022-TRF-029'></span>
+
+### MOE2022-TRF-029
+
+<span class="project-card__meta">Singapore MOE Tertiary Education Research Fund</span>
+
+<div class="project-metrics"><span>Core Researcher</span><span>NTU Singapore</span><span>2023 – 2025</span></div>
 
 </article>
 
