@@ -9,7 +9,7 @@
 
 <p>My research began with <strong>visual object tracking and machine vision evaluation</strong>, spanning task modeling, evaluation environments, measurement techniques, and human-machine comparison. Inspired by the Turing Test, I proposed the <strong>Visual Turing Test</strong> to evaluate dynamic visual intelligence against human abilities.</p>
 
-<p>The central question has remained consistent: <strong>how can AI capabilities be measured and diagnosed in open, human-centered contexts?</strong> Rather than reporting benchmark scores alone, I study what a system can perceive, understand, and reliably maintain as tasks and environments become more open.</p>
+<p>The central question has remained consistent: <strong>how can AI capabilities be modeled, measured, and diagnosed in open, human-centered contexts?</strong> Rather than reporting benchmark scores alone, I study what a system can perceive, understand, and reliably maintain as tasks and environments become more open.</p>
 
   </div>
 </div>
