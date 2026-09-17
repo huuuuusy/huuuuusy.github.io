@@ -1,5 +1,9 @@
 <div class="news-timeline" markdown="1">
 
+**2026.09** I am pleased to serve as an Area Chair for the 15th International Conference on Learning Representations (ICLR). I look forward to contributing to the community and supporting a thoughtful peer-review process.
+
+**2026.09** The [second edition of our *Electronics* Special Issue on Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/29DX8J83OK) is now open. Thank you to everyone who supported the [first edition](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E).
+
 **2026.08** I will serve as a Publicity Chair for the 2026 CSIG Annual Conference on Video and Image Security, to be held on 21 November 2026 in Xiong'an, China. Further information will be shared as it becomes available.
 
 **2026.08** I will give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the International Conference on Image and Graphics (ICIG 2026) on 4 October 2026 in Singapore, as part of the forum *Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*.

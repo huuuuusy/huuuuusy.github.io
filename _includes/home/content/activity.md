@@ -73,9 +73,13 @@
 
 - [Pacific Graphics 2026](https://pacificgraphics2026.github.io/) (CCF-B Conference)
 
-## Guest Editor
+## Area Chair
 
-- **Journal:** [Electronics](https://www.mdpi.com/journal/electronics) (Special Issue: [Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E))
+- **15th International Conference on Learning Representations (ICLR)**
+
+## Lead Guest Editor
+
+- **Journal:** [Electronics](https://www.mdpi.com/journal/electronics) (Special Issues: Techniques and Applications of Multimodal Data Fusion — [1st Edition](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E) and [2nd Edition](https://www.mdpi.com/journal/electronics/special_issues/29DX8J83OK))
 
 ## Associate Editor
 
