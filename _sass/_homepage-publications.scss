@@ -37,6 +37,8 @@
     margin: 0;
     padding: var(--home-space-5) 0;
     border: 0;
+    /* navigation.js scrolls the whole entry into view for #paper links. */
+    scroll-margin-top: var(--home-scroll-offset);
 
     + .paper-box {
         border-top: 1px solid var(--home-rule);

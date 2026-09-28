@@ -2,6 +2,18 @@
 
 <!-- 合作论文按时间顺序排列 -->
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='/images/META-PAP.png' alt="META-PAP framework: grid-based pair generation, meta-network weighting, and bilevel optimization" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='META-PAP'></span>
+
+**META-PAP: Meta-learning for Prompt-aware Preference Pairing in LLM Alignment**<br>
+P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
+[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2026) (CCF-A Conference, Poster)<br>
+<span class="paper-keywords">LLM Alignment · Prompt-Aware Preference Pairing · Bilevel Meta-Reweighting</span><br>
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='/images/EARL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

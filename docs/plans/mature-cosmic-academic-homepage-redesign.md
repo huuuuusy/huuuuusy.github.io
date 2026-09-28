@@ -1,15 +1,19 @@
 ---
 type: consequential_design_plan
 title: "Quiet Orbit: mature cosmic academic homepage redesign"
-status: implemented_locally_waiting_for_human_acceptance
+status: superseded
 sensitivity: public_homepage_ui
 current_consumer: Shiyu Hu
-next_action: inspect_local_preview_and_accept_or_request_revision
+next_action: none
+superseded_on: 2026-09-28
+superseded_by: token-driven homepage style consolidation (commit ced9e5b)
 does_not_authorize: implementation_commit_push_release
 reasoning_policy: phase_specific_low_medium_high; xhigh_requires_explicit_authorization
 ---
 
 # Quiet Orbit：成熟、克制的宇宙科技感学术主页
+
+> **状态：已被取代（2026-09-28）。** 本文保留为历史记录。Quiet Orbit 的原则（白底、NTU 蓝、克制、不叠加补丁）被继承，但 `_sass/_homepage-editorial.scss` 单一覆盖层的实现已被按职责拆分、由 token 驱动的主页样式体系取代，见文末「继任实施记录」。文中的分支、文件路径与 Gate 状态均反映 2026-08-24 的现场，不代表当前仓库。
 
 ## Agent Summary
 
@@ -57,7 +61,7 @@ reasoning_policy: phase_specific_low_medium_high; xhigh_requires_explicit_author
 ## Authority / Owner / Identity
 
 - 内容事实与论文顺序的唯一 owner：最新 CV 与 Shiyu 已确认的主页内容；本次不改研究事实。
-- 视觉 token 与组件样式 owner：`_sass/_homepage-editorial.scss`，实现时应成为单一主页视觉层，而非新增第二个覆盖文件。
+- 视觉 token 与组件样式 owner：`_sass/_homepage-editorial.scss`，实现时应成为单一主页视觉层，而非新增第二个覆盖文件。（2026-09-28 起改为 `_sass/_homepage-tokens.scss` 及各职责分部，该文件已删除。）
 - 页面结构 owner：现有 `_includes/home/` 与 `_layouts/default.html`；只有 CSS 无法表达必要语义时才做最小 HTML 调整。
 - 用户身份映射、论文链接、作者名、会议名和图片均冻结，不因视觉重构重写。
 
@@ -139,7 +143,7 @@ reasoning_policy: phase_specific_low_medium_high; xhigh_requires_explicit_author
 
 ### Phase 1：视觉系统收敛
 
-- 在 `_sass/_homepage-editorial.scss` 定义字体、颜色、尺寸、间距和响应式 token。
+- 在 `_sass/_homepage-editorial.scss` 定义字体、颜色、尺寸、间距和响应式 token。（历史步骤；现由 `_sass/_homepage-tokens.scss` 承担。）
 - 移除同文件中被新系统取代的层叠覆盖，禁止通过文件末尾继续追加补丁。
 - 将页面恢复到最强简单基线 B，再验证信息层级。
 - 推理强度：medium；主要是系统化映射与回归控制。
@@ -227,10 +231,11 @@ reasoning_policy: phase_specific_low_medium_high; xhigh_requires_explicit_author
 
 - Plan candidate：已于 2026-08-24 获 Shiyu 接受。
 - Implementation：已在本地完成；Quiet Orbit token、字体尺度、轨道母题和响应式样式已进入 `_sass/_homepage-editorial.scss`。
-- Commit：未授权。
-- Push：未授权。
-- Release / GitHub Pages：未授权。
-- 远端 fetch 与 CI：未检查。
+- Commit：未授权（2026-08-24 时）。
+- Push：未授权（2026-08-24 时）。
+- Release / GitHub Pages：未授权（2026-08-24 时）。
+- 远端 fetch 与 CI：未检查（2026-08-24 时）。
+- 后续交付见「继任实施记录」。
 
 ### 本地实施回执（2026-08-24）
 
@@ -244,5 +249,30 @@ reasoning_policy: phase_specific_low_medium_high; xhigh_requires_explicit_author
 ## 计划生命周期
 
 - `closure_condition`: Quiet Orbit 实现完成，Definition of Done 关闭，并得到 Shiyu 的首屏/论文区人类验收。
+- 实际结局：2026-09-28 标为 `superseded`，由下述继任实施取代。
 - 完成后本计划由 `candidate_waiting_for_user_acceptance` 更新为 `completed`，并记录最终验证证据；若选择方案 B 或新路线，则标为 `superseded` 并链接继任方案。
 - 本计划退场不代表 delivery gate 自动关闭；commit、push、release 继续需要单独授权。
+
+## 继任实施记录（2026-09-28）
+
+### 为什么取代
+
+Quiet Orbit 在本地实现后，主页样式仍由 7 个依次覆盖的文件组成（foundation → layout → polish → sections → academic-template → controls → editorial，约 5,000 行），与本计划「不再保留多套互相覆盖的视觉系统」的 failure gate 相冲突。实际表现为：字号散落成 9 种取值、内容宽度不统一、分隔线重复、Work/Education 下方留有大块空白、首屏三栏失衡、移动端 Links 面板遮挡正文。
+
+### 实施内容
+
+- 删除 `_homepage-foundation`、`_homepage-polish`、`_academic-template`、`_homepage-editorial`；样式改为按职责拆分：`_homepage-tokens`（唯一 token 来源）、`_homepage-base`、`_homepage-layout`、`_homepage-sections`、`_homepage-publications`、`_homepage-visitor`、`_homepage-controls`。主页 SCSS 由约 5,000 行降至约 2,300 行，编译后 CSS 由 149KB 降至 103KB。
+- 字号：姓名 32（移动端 28）、版块标题 22、小标题 17、首屏介绍 16、正文 15、次要 14、元信息 13、venue 12；字重只用 400/500/600；单一系统字体栈，中文回退 PingFang SC。
+- 颜色：白底；标题 #1D2027、正文 #3A3E46；NTU 蓝 #181C62 为唯一品牌色；NTU 红 #D71440 只用于论文中本人姓名与版块顶线的小刻痕。未采用轨道装饰。
+- 桌面端保留三栏首屏（左栏头像、简介与链接；中栏研究叙事；右栏任职与联系方式），三栏顶端对齐，三个按钮保持同一行；论文缩略图放大为 16:10，资源链接为统一的轻量按钮；Activities 改为简历式左侧分类栏。
+- 移动端 Links 改为在页内展开，不遮挡正文；Esc 仅在面板打开时生效。
+
+### 验证
+
+- `ruby scripts/validate_site.rb --build` 全部通过（9 个版块、118 个唯一 ID）。
+- 前后构建对比：页面文字、507 个链接、69 个图片地址一致。
+- 1440 / 1024 / 390 浏览器检查：无横向溢出、无 JS 错误；51 篇论文默认 14 篇可见，preprints 默认 3 / 11；到顶/到底按钮与导航锚点正常。
+
+### 交付
+
+- 经 Shiyu 授权，提交为 `ced9e5b`，合并到 `main` 并推送；GitHub「Validate site」与「pages build and deployment」均成功，hushiyu1995.com 已上线新样式。
