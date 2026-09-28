@@ -285,4 +285,6 @@ Quiet Orbit 在本地实现后，主页样式仍由 7 个依次覆盖的文件�
 - `77b6565`、`248b763`：合并 Dependabot PR #3（faraday 2.14.4，连带 json 3.0.2）与 #4（activesupport 8.1.4，`Gemfile` 约束改为 `~> 8.1`）；两者在当前 `main` 上构建输出与原版一致（忽略缓存参数与时间戳）。Dependabot 告警 #25（rubyzip）以 not_used 关闭：rubyzip 仅经 `github-pages` 232 → `jekyll-remote-theme` 引入，站点未配置 `remote_theme`。
 - `c46a5ac`：`files/CV-EN.pdf` 更新为 2026-09-28 17:50 版 CV；Activities → Talk 首位新增 Wenzhou-Kean University College of Liberal Arts 的 CLA Invited Academic Talk（2026 年 11 月，*Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*），并作为 9 月第三条 News。
 
+上述 META-PAP 与温州肯恩大学报告的变更已同步到 Shiyu 的私有研究记录；该记录不公开，本文件不转录其内容。
+
 当前主页共 52 个论文条目（含 META-PAP），默认可见 14 个，preprints 默认 3 / 11；每次推送后 GitHub「Validate site」与「pages build and deployment」均成功。
