@@ -1,0 +1,81 @@
+/* ==========================================================================
+   Homepage design tokens
+
+   The single customization surface for the homepage. Every homepage partial
+   reads these custom properties; change values here rather than adding
+   overrides further down the cascade. The root font size inherited from the
+   base theme is 15px, so sizes are expressed in px for predictability.
+   ========================================================================== */
+
+:root {
+    /* Colour: white canvas, graphite text, NTU blue as the only brand colour,
+       NTU red reserved for the author's own name and a small section tick. */
+    --home-canvas: #ffffff;
+    --home-ink-strong: #1d2027;
+    --home-ink: #3a3e46;
+    --home-ink-soft: #5a5e67;
+    --home-ink-muted: #6c7079;
+    --home-rule: #e7e8ec;
+    --home-rule-strong: #d5d7dd;
+    --home-blue: #181c62;
+    --home-blue-hover: #2a3290;
+    --home-blue-tint: #f3f4f9;
+    --home-blue-line: rgba(24, 28, 98, .28);
+    --home-red: #d71440;
+
+    /* Type: one system family; Latin first, CJK fallbacks for 中文. */
+    --home-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+        "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    --home-fs-name: 32px;
+    --home-fs-section: 22px;
+    --home-fs-subsection: 17px;
+    --home-fs-lead: 16px;
+    --home-fs-body: 15px;
+    --home-fs-small: 14px;
+    --home-fs-meta: 13px;
+    --home-fs-micro: 12px;
+    --home-lh-body: 1.6;
+    --home-lh-compact: 1.5;
+    --home-lh-heading: 1.3;
+
+    /* Space: 4px base. */
+    --home-space-1: 4px;
+    --home-space-2: 8px;
+    --home-space-3: 12px;
+    --home-space-4: 16px;
+    --home-space-5: 20px;
+    --home-space-6: 24px;
+    --home-space-7: 32px;
+    --home-space-8: 40px;
+
+    /* Geometry */
+    --home-container: 1200px;
+    --home-gutter: 32px;
+    --home-sidebar: 156px;
+    --home-column-gap: 48px;
+    --home-masthead: 54px;
+    --home-scroll-offset: 72px;
+    --home-paper-media: clamp(200px, 26%, 256px);
+    --home-logo: 48px;
+    --home-radius: 6px;
+    --home-radius-small: 5px;
+}
+
+@media (max-width: 63.99em) {
+    :root {
+        --home-gutter: 28px;
+        --home-column-gap: 32px;
+    }
+}
+
+@media (max-width: 47.99em) {
+    :root {
+        --home-fs-name: 28px;
+        --home-fs-section: 20px;
+        --home-fs-subsection: 16px;
+        --home-gutter: 20px;
+        --home-masthead: 50px;
+        --home-scroll-offset: 64px;
+    }
+}

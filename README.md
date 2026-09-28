@@ -64,8 +64,8 @@ changing the templates.
 | `images/` | Profile image, institutional emblems, and publication figures |
 | `files/` | Public CV, papers, posters, slides, and other downloads |
 | `assets/css/main.scss` | Ordered stylesheet entry point |
-| `_sass/_homepage-*.scss` | Homepage foundation, layout, polish, and section rules |
-| `_sass/_academic-template.scss` | Design tokens and final visual refinements |
+| `_sass/_homepage-tokens.scss` | Homepage design tokens: colour, type scale, spacing, and geometry |
+| `_sass/_homepage-*.scss` | Homepage base, layout, sections, publications, visitor panel, and controls |
 | `assets/js/` | News, publication, and visitor interactions |
 | `cloudflare/visitor-counter/` | Optional Cloudflare Worker and D1 counter |
 | `scripts/` | Source, asset, fork, and production-build checks |
@@ -160,18 +160,22 @@ in the shared template rather than duplicating them in content files.
 
 ### Change the visual style
 
-Start with the `--academic-*` tokens in `_sass/_academic-template.scss`.
-Homepage styles load in this order:
+Start with the `--home-*` tokens in `_sass/_homepage-tokens.scss`; colours,
+the type scale, spacing, and column widths are all defined there. Homepage
+styles load in this order:
 
 ```scss
-@import "homepage-foundation";
+@import "homepage-tokens";
+@import "homepage-base";
 @import "homepage-layout";
-@import "homepage-polish";
 @import "homepage-sections";
-@import "academic-template";
+@import "homepage-publications";
+@import "homepage-visitor";
+@import "homepage-controls";
 ```
 
-Later layers intentionally refine earlier rules. Keep the import order stable.
+Each partial owns one responsibility and reads the tokens; prefer changing a
+token or the owning partial over appending overrides.
 
 ## Optional analytics and visitor statistics
 

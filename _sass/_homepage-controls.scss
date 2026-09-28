@@ -1,82 +1,130 @@
-/* Homepage-only edge controls for long-page navigation. */
+/* ==========================================================================
+   Homepage controls: disclosure buttons, page-edge scrolling, motion, print
+   ========================================================================== */
+
+/* "Show all" buttons for news, honors, and publication groups. */
+.page__content .section-more {
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+    min-height: 32px;
+    margin: var(--home-space-3) 0 0;
+    padding: 0 12px;
+    border: 1px solid var(--home-rule-strong);
+    border-radius: var(--home-radius);
+    color: var(--home-blue);
+    background: var(--home-canvas);
+    font-family: var(--home-font);
+    font-size: var(--home-fs-meta);
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+    transition: border-color .15s ease, background-color .15s ease;
+
+    &:hover {
+        border-color: var(--home-blue);
+        background: var(--home-blue-tint);
+    }
+
+    &[hidden] {
+        display: none;
+    }
+}
+
+/* Page-edge scrolling
+   ========================================================================== */
 
 .home-scroll-controls {
     position: fixed;
-    right: max(.75rem, calc((100vw - 1440px) / 2 - 3.25rem));
-    bottom: max(1rem, env(safe-area-inset-bottom));
+    right: max(16px, calc((100vw - var(--home-container)) / 2 - 64px));
+    bottom: max(20px, env(safe-area-inset-bottom));
     z-index: 20;
     display: none;
-    gap: .38rem;
+    gap: 8px;
     flex-direction: column;
-}
 
-.home-scroll-controls.is-ready {
-    display: flex;
+    &.is-ready {
+        display: flex;
+    }
 }
 
 .home-scroll-control {
     display: inline-flex;
-    width: 2.45rem;
-    height: 2.45rem;
+    width: 36px;
+    height: 36px;
     padding: 0;
-    border: 1px solid #d5dde4;
-    border-radius: .48rem;
+    border: 1px solid var(--home-rule-strong);
+    border-radius: 50%;
     align-items: center;
     justify-content: center;
-    color: #36566d;
-    background: rgba(255, 255, 255, .92);
-    box-shadow: 0 3px 12px rgba(34, 48, 62, .08);
+    color: var(--home-blue);
+    background: rgba(255, 255, 255, .96);
+    box-shadow: 0 2px 8px rgba(29, 32, 39, .08);
     font: inherit;
-    font-size: 1.05rem;
+    font-size: 15px;
     line-height: 1;
     cursor: pointer;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    transition: color .16s ease, border-color .16s ease, background-color .16s ease,
-        opacity .16s ease;
+    transition: border-color .15s ease, background-color .15s ease, opacity .15s ease;
 
     &:hover:not(:disabled) {
-        border-color: #9fadb8;
-        color: #21465f;
-        background: #fff;
+        border-color: var(--home-blue);
+        background: var(--home-blue-tint);
     }
 
-    &:focus-visible {
-        outline: 2px solid #315d7b;
-        outline-offset: 2px;
-    }
-
+    /* At the top or bottom edge the matching control has nothing to do. */
     &:disabled {
-        opacity: .34;
-        cursor: default;
+        visibility: hidden;
     }
 }
 
 @media (max-width: 47.99em) {
     .home-scroll-controls {
-        right: max(.55rem, env(safe-area-inset-right));
-        bottom: max(.65rem, env(safe-area-inset-bottom));
+        right: max(12px, env(safe-area-inset-right));
+        bottom: max(16px, env(safe-area-inset-bottom));
     }
 
     .home-scroll-control {
-        width: 2.75rem;
-        height: 2.75rem;
-        border-radius: .55rem;
+        width: 40px;
+        height: 40px;
     }
 }
+
+/* Motion and print
+   ========================================================================== */
 
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
     }
 
-    .home-scroll-control {
-        transition: none;
+    *,
+    *:before,
+    *:after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
     }
 }
 
 @media print {
-    .home-scroll-controls {
+    body {
+        color: #000;
+        background: #fff;
+    }
+
+    .masthead,
+    .home-scroll-controls,
+    .publication-browser,
+    .author__urls-toggle {
         display: none !important;
+    }
+
+    .publication-item--additional[hidden] {
+        display: grid !important;
+    }
+
+    .home-main .sidebar {
+        position: static;
     }
 }

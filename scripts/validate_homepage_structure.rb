@@ -9,7 +9,7 @@ CONTENT_ROOT = File.join(ROOT, "_includes", "home", "content")
 SECTIONS = %w[intro news background research publications projects honors activity contact].freeze
 TEMPLATES = %w[homepage section publication-browser visitor-insights footer scroll-controls scripts].freeze
 PUBLICATION_PARTS = %w[monograph lead-author collaborative workshop preprints].freeze
-STYLE_PARTIALS = %w[homepage-foundation homepage-layout homepage-polish homepage-sections academic-template homepage-controls homepage-editorial].freeze
+STYLE_PARTIALS = %w[homepage-tokens homepage-base homepage-layout homepage-sections homepage-publications homepage-visitor homepage-controls].freeze
 NAVIGATION_TITLES = %w[About Background Research Publications Projects Service CV].freeze
 LEGACY_TEMPLATE_PATHS = %w[
   _data/ui-text.yml
@@ -152,7 +152,7 @@ bilingual_surfaces = %w[
   assets/js/news-toggle.js
   assets/js/publications-toggle.js
   assets/js/visitor-counter.js
-  _sass/_academic-template.scss
+  _sass/_homepage-tokens.scss
 ]
 bilingual_markers = /data-lang=|data-i18n-|data-language|site-language-change|published_language|show_language_switcher|title_zh|bio_zh|location_zh/
 bilingual_surfaces.each do |relative_path|

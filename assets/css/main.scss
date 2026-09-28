@@ -32,11 +32,12 @@
 @import "vendor/font-awesome/brands";
 @import "print";
 
-// Homepage styles are split by responsibility; import order preserves the cascade.
-@import "homepage-foundation";
+// Homepage styles: tokens first, then one partial per responsibility. Each
+// partial reads the tokens; none of them overrides another.
+@import "homepage-tokens";
+@import "homepage-base";
 @import "homepage-layout";
-@import "homepage-polish";
 @import "homepage-sections";
-@import "academic-template";
+@import "homepage-publications";
+@import "homepage-visitor";
 @import "homepage-controls";
-@import "homepage-editorial";

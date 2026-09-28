@@ -1,0 +1,317 @@
+/* ==========================================================================
+   Publications
+
+   Each entry is a two-column grid: the figure on the left, and on the right
+   the venue label, title, authors, venue, keywords, and resource buttons.
+   The figure wrappers use display: contents so the venue label sits in the
+   text column and the figure top aligns with it. On phones the figure moves
+   above the text.
+   ========================================================================== */
+
+.home-section--publications {
+    h2 {
+        margin-bottom: var(--home-space-2);
+    }
+
+    > h2 + h3 {
+        margin-top: var(--home-space-2);
+    }
+
+    h3,
+    .publication-subheading {
+        margin: var(--home-space-6) 0 var(--home-space-1);
+        color: var(--home-blue);
+        font-size: var(--home-fs-small);
+        font-weight: 600;
+        letter-spacing: .01em;
+        line-height: var(--home-lh-heading);
+    }
+}
+
+.paper-box {
+    display: grid;
+    grid-template-columns: var(--home-paper-media) minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    column-gap: 28px;
+    align-items: start;
+    margin: 0;
+    padding: var(--home-space-5) 0;
+    border: 0;
+
+    + .paper-box {
+        border-top: 1px solid var(--home-rule);
+    }
+}
+
+.paper-box-image,
+.paper-box-image > div {
+    display: contents;
+}
+
+.paper-box-image > div > img,
+.paper-box-image > div > a {
+    display: block;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    min-width: 0;
+}
+
+.paper-box-image img {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    aspect-ratio: 16 / 10;
+    padding: 4px;
+    border: 1px solid var(--home-rule);
+    border-radius: var(--home-radius);
+    background: #fff;
+    box-shadow: none;
+    object-fit: contain;
+}
+
+.paper-box-image > div > a:hover img {
+    border-color: var(--home-rule-strong);
+}
+
+.paper-box .badge,
+.paper-box .badge-preprint,
+.paper-box .badge-under-review {
+    position: static;
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0 0 2px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    color: var(--home-blue);
+    background: none;
+    box-shadow: none;
+    font-size: var(--home-fs-micro);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: .02em;
+    line-height: 18px;
+    text-transform: none;
+}
+
+.paper-box-text {
+    grid-column: 2;
+    grid-row: 2;
+    min-width: 0;
+    max-width: none;
+    padding: 0;
+    color: var(--home-ink-soft);
+
+    .home-section & p {
+        margin: 0;
+        font-size: var(--home-fs-small);
+        line-height: 1.55;
+    }
+
+    > p > strong:first-child {
+        color: var(--home-ink-strong);
+        font-size: var(--home-fs-body);
+        font-weight: 600;
+        letter-spacing: -.004em;
+        line-height: 1.4;
+    }
+
+    a:not(.paper-link) {
+        color: inherit;
+        text-decoration-color: var(--home-rule-strong);
+
+        &:hover {
+            color: var(--home-blue);
+            text-decoration-color: currentColor;
+        }
+    }
+}
+
+/* The author's own name keeps the NTU red emphasis from the source markup. */
+.home-section--publications font[color="DarkRed" i] {
+    color: var(--home-red);
+    font-weight: 600;
+}
+
+.home-section--publications em:has(> font[color]) {
+    font-style: normal;
+}
+
+.paper-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 14px;
+    margin: 6px 0 0;
+    color: var(--home-ink-muted);
+    font-size: var(--home-fs-meta);
+    line-height: 1.6;
+
+    + br {
+        display: none;
+    }
+}
+
+.paper-keyword:before {
+    margin-right: 4px;
+    content: "📌";
+    font-size: 11px;
+}
+
+/* Resource links are grouped by publication-keywords.js. */
+.paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.page__content a.paper-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 26px;
+    box-sizing: border-box;
+    padding: 0 9px;
+    border: 1px solid var(--home-rule-strong);
+    border-radius: var(--home-radius-small);
+    color: var(--home-ink);
+    background: var(--home-canvas);
+    font-size: 12.5px;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &:hover {
+        border-color: var(--home-blue);
+        color: var(--home-blue);
+        background: var(--home-blue-tint);
+    }
+}
+
+/* Workshop papers: a compact list without figures. */
+.workshop-list {
+    > ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        margin: 0;
+        padding: var(--home-space-4) 0;
+        color: var(--home-ink-soft);
+
+        + li {
+            border-top: 1px solid var(--home-rule);
+        }
+    }
+
+    .home-section & p,
+    .home-section & li {
+        margin: 0;
+        font-size: var(--home-fs-small);
+        line-height: 1.55;
+    }
+
+    code {
+        display: block;
+        margin: 0 0 2px;
+        padding: 0;
+        border: 0;
+        color: var(--home-blue);
+        background: none;
+        font-family: var(--home-font);
+        font-size: var(--home-fs-micro);
+        font-weight: 600;
+        letter-spacing: .02em;
+        line-height: 18px;
+    }
+
+    code + strong {
+        color: var(--home-ink-strong);
+        font-size: var(--home-fs-body);
+        font-weight: 600;
+        line-height: 1.4;
+    }
+
+    a:not(.paper-link) {
+        color: inherit;
+        text-decoration-color: var(--home-rule-strong);
+
+        &:hover {
+            color: var(--home-blue);
+        }
+    }
+}
+
+.workshop-anchor {
+    display: block;
+    height: 0;
+}
+
+/* Collapsed publication groups and their toggles. */
+.publication-browser {
+    display: none;
+    flex-wrap: wrap;
+    gap: var(--home-space-2) var(--home-space-4);
+    align-items: center;
+    margin: var(--home-space-2) 0 0;
+    padding-top: var(--home-space-4);
+    border-top: 1px solid var(--home-rule);
+
+    &.is-ready {
+        display: flex;
+    }
+
+    .home-section & .publication-browser__note {
+        margin: 0;
+        color: var(--home-ink-muted);
+        font-size: var(--home-fs-meta);
+        line-height: 1.45;
+    }
+
+    .publication-toggle {
+        margin: 0;
+    }
+}
+
+.publication-toggle[hidden],
+.publication-item--additional[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 47.99em) {
+    .paper-box {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: none;
+        row-gap: var(--home-space-3);
+    }
+
+    .paper-box-image > div > img,
+    .paper-box-image > div > a {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .paper-box .badge,
+    .paper-box .badge-preprint,
+    .paper-box .badge-under-review {
+        grid-column: 1;
+        grid-row: 2;
+        margin-bottom: -8px;
+    }
+
+    .paper-box-text {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .publication-browser {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
