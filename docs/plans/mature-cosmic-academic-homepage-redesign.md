@@ -276,3 +276,13 @@ Quiet Orbit 在本地实现后，主页样式仍由 7 个依次覆盖的文件�
 ### 交付
 
 - 经 Shiyu 授权，提交为 `ced9e5b`，合并到 `main` 并推送；GitHub「Validate site」与「pages build and deployment」均成功，hushiyu1995.com 已上线新样式。
+
+### 后续内容同步（2026-09-28）
+
+继任样式上线后，同日按新版 CV 做了三次内容同步。样式体系未再调整，仅修复一处回归。
+
+- `743c514`：`files/CV-EN.pdf` 更新为 2026-09-28 版 CV；Collaborative Work 首位新增 META-PAP（NeurIPS 2026，poster；P. Zhao, Shiyu Hu, J. Zhang, M. Li），主图暂用投稿版 Figure 1，论文链接与共一/通讯标记待 camera-ready 后补；9 月 News 新增一条，按 Shiyu 要求置于当月其他条目之后。同一提交修复回归：整合样式时丢失了 `.paper-box` 的 `scroll-margin-top`，导致 News 中的论文链接跳转后条目被顶部导航遮挡，已恢复。
+- `77b6565`、`248b763`：合并 Dependabot PR #3（faraday 2.14.4，连带 json 3.0.2）与 #4（activesupport 8.1.4，`Gemfile` 约束改为 `~> 8.1`）；两者在当前 `main` 上构建输出与原版一致（忽略缓存参数与时间戳）。Dependabot 告警 #25（rubyzip）以 not_used 关闭：rubyzip 仅经 `github-pages` 232 → `jekyll-remote-theme` 引入，站点未配置 `remote_theme`。
+- `c46a5ac`：`files/CV-EN.pdf` 更新为 2026-09-28 17:50 版 CV；Activities → Talk 首位新增 Wenzhou-Kean University College of Liberal Arts 的 CLA Invited Academic Talk（2026 年 11 月，*Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*），并作为 9 月第三条 News。
+
+当前主页共 52 个论文条目（含 META-PAP），默认可见 14 个，preprints 默认 3 / 11；每次推送后 GitHub「Validate site」与「pages build and deployment」均成功。
