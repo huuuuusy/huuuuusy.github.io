@@ -1,16 +1,16 @@
 <div class="news-timeline" markdown="1">
 
-**2026.09** I am pleased to serve as an Area Chair for the 15th International Conference on Learning Representations (ICLR). I look forward to contributing to the community and supporting a thoughtful peer-review process.
+**2026.09** I am honored to be invited to give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the International Conference on Image and Graphics (ICIG 2026) on 4 October 2026 in Singapore, as part of the forum *Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*.
+
+**2026.09** I am honored to be invited to give a talk, *Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*, in the CLA Invited Academic Talks series at the College of Liberal Arts, Wenzhou-Kean University, in November 2026 in Wenzhou, China.
 
 **2026.09** The [second edition of our *Electronics* Special Issue on Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/29DX8J83OK) is now open. Thank you to everyone who supported the [first edition](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E).
 
-**2026.09** I am honored to be invited to give a talk, *Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*, in the CLA Invited Academic Talks series at the College of Liberal Arts, Wenzhou-Kean University, in November 2026 in Wenzhou, China.
+**2026.09** I am pleased to serve as an Area Chair for the 15th International Conference on Learning Representations (ICLR). I look forward to contributing to the community and supporting a thoughtful peer-review process.
 
 **2026.09** One paper ([META-PAP](#META-PAP)) has been accepted by the 40th Conference on Neural Information Processing Systems (NeurIPS, CCF-A Conference).
 
 **2026.08** I will serve as a Publicity Chair for the 2026 CSIG Annual Conference on Video and Image Security, to be held on 21 November 2026 in Xiong'an, China. Further information will be shared as it becomes available.
-
-**2026.08** I will give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the International Conference on Image and Graphics (ICIG 2026) on 4 October 2026 in Singapore, as part of the forum *Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*.
 
 **2026.08** Two papers ([FNC](#FakeNewsCourt) and [ViEBench](#ViEBench)) have been accepted by EMNLP 2026, including one main-conference paper and one Findings paper.
 
