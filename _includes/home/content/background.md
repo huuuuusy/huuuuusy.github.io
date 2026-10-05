@@ -21,7 +21,7 @@
       </article>
 
       <article class="background-entry">
-        <time class="background-entry__period">2018.03 – 2018.11</time>
+        <time class="background-entry__period">2018.02 – 2018.12</time>
         <a class="background-entry__logo institution-entry__logo--emblem" href="https://www.hku.hk/" aria-label="The University of Hong Kong">
           <img src="/images/institutions/hku-emblem.png" alt="The University of Hong Kong emblem">
         </a>

@@ -9,7 +9,7 @@
 
 <span class="project-card__subtitle">Lightweight Deep Learning Framework for Heterogeneous Computing</span>
 
-<span class="project-card__meta">2018.03 – 2018.11</span>
+<span class="project-card__meta">2018.02 – 2018.12</span>
 
 <p>A cross-platform acceleration framework developed for Android and Ubuntu across mobile and desktop GPUs. This work formed the engineering component of my master's thesis at HKU.</p>
 
