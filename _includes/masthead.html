@@ -6,9 +6,12 @@
       <a class="site-nav__title" href="{{ base_path }}/" target="_self">{{ site.title }}</a>
       <button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="primary-navigation-links">Menu</button>
       <div class="site-nav__links" id="primary-navigation-links">
+        {% assign file_version = site.github.build_revision | default: site.time | url_encode %}
         {% for link in site.data.navigation.main %}
           {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
-          <a href="{{ domain }}{{ link.url }}"{% unless link.url contains 'http' %} target="_self"{% endunless %}>{{ link.title }}</a>
+          {% comment %}Version local PDFs (the CV) so a redeploy is never hidden by a cached copy.{% endcomment %}
+          {% assign link_query = '' %}{% if link.url contains '.pdf' %}{% unless link.url contains 'http' %}{% assign link_query = '?v=' | append: file_version %}{% endunless %}{% endif %}
+          <a href="{{ domain }}{{ link.url }}{{ link_query }}"{% unless link.url contains 'http' %} target="_self"{% endunless %}>{{ link.title }}</a>
         {% endfor %}
       </div>
     </nav>

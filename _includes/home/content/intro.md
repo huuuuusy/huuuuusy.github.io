@@ -13,7 +13,7 @@
 <p class="intro-profile__contact">I welcome research discussions and collaborations. Please contact me at <a href="mailto:shiyu.hu@ntu.edu.sg">shiyu.hu@ntu.edu.sg</a>.</p>
 
 <div class="intro-actions">
-<a class="intro-action intro-action--primary" href="/files/CV-EN.pdf">View CV</a>
+<a class="intro-action intro-action--primary" href="/files/CV-EN.pdf?v={{ site.github.build_revision | default: site.time | url_encode }}">View CV</a>
 <a class="intro-action" href="https://scholar.google.com/citations?user=49W-Rx4AAAAJ">Google Scholar</a>
 <a class="intro-action" href="mailto:shiyu.hu@ntu.edu.sg">Email</a>
 </div>

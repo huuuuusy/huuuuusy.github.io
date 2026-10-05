@@ -322,3 +322,9 @@ Quiet Orbit 在本地实现后，主页样式仍由 7 个依次覆盖的文件�
 - 失效链接：《中国心理卫生杂志》原站点无响应，改为其 CNKI 期刊门户；PRCV 2023 会议站点域名已失效，改为 PRCV 系列官网。论文条目与对应 News 同步替换。
 - 未加链接：奖学金与校内荣誉、BIT 各项荣誉、ECNU 基金一条、Wenzhou-Kean 报告系列名（无公开页面，改链学院主页）。IEEE SMCS TEAM 项目无独立页面，链接到学会主页。
 - 未能自动核验：ScienceDirect 与 ACM Digital Library 拦截自动访问，相关期刊链接采用其标准期刊页地址；Pattern Recognition 与 Neurocomputing 复用论文条目中已有的链接。
+
+### 日期更正（2026-10-05）
+
+`c66fd2f`：按 Shiyu 更正，HKU Research Assistant（Background → Work）与 Darknet-Cross（Projects → Research Software）的时间由 2018.03 – 2018.11 改为 2018.02 – 2018.12；`files/CV-EN.pdf` 换为据同一更正重新编译的 CV（除 “Last updated” 页脚外，正文仅这两处日期变化）。CV 源文件同步修改。
+
+同日发现：CV 链接地址固定为 `/files/CV-EN.pdf`，更新后浏览器可能仍显示缓存的旧版。导航栏 “CV” 与首屏 “View CV” 现在带 `?v=<构建版本>` 查询参数（GitHub Pages 上为提交号，与样式表的缓存参数同源），每次部署后访问者都会取到最新 CV；源文件中的路径保持不变。
