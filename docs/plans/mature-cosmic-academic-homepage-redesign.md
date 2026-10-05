@@ -328,3 +328,5 @@ Quiet Orbit 在本地实现后，主页样式仍由 7 个依次覆盖的文件�
 `c66fd2f`：按 Shiyu 更正，HKU Research Assistant（Background → Work）与 Darknet-Cross（Projects → Research Software）的时间由 2018.03 – 2018.11 改为 2018.02 – 2018.12；`files/CV-EN.pdf` 换为据同一更正重新编译的 CV（除 “Last updated” 页脚外，正文仅这两处日期变化）。CV 源文件同步修改。
 
 同日发现：CV 链接地址固定为 `/files/CV-EN.pdf`，更新后浏览器可能仍显示缓存的旧版。导航栏 “CV” 与首屏 “View CV” 现在带 `?v=<构建版本>` 查询参数（GitHub Pages 上为提交号，与样式表的缓存参数同源），每次部署后访问者都会取到最新 CV；源文件中的路径保持不变。
+
+HKU 日期更正已同步到 Shiyu 的私有研究记录（以更正说明形式保留原记录）；本文件不转录其内容。
