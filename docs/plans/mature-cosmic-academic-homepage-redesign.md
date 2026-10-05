@@ -288,3 +288,19 @@ Quiet Orbit 在本地实现后，主页样式仍由 7 个依次覆盖的文件�
 上述 META-PAP 与温州肯恩大学报告的变更已同步到 Shiyu 的私有研究记录；该记录不公开，本文件不转录其内容。
 
 当前主页共 52 个论文条目（含 META-PAP），默认可见 14 个，preprints 默认 3 / 11；每次推送后 GitHub「Validate site」与「pages build and deployment」均成功。
+
+### 后续内容同步（2026-09-29 至 2026-10-05）
+
+样式体系未调整，只做内容与标注更新。
+
+- `7ae1123`（2026-09-29）：ICIG 2026 邀请报告的 News 移到 2026.09 首位，改为 “I am honored to be invited to give a talk …”；9 月条目顺序调整为 ICIG 报告、Wenzhou-Kean 报告、*Electronics* 专刊、ICLR Area Chair、META-PAP。
+- `9aa1ffe`（2026-10-05）：
+  - Collaborative Work 在 TNSE 2026 “Constraint-Driven Evolution of Multimodal Video Intelligence” 之后、CalcTutor 之前新增两篇已录用论文，顺序与 CV `[C23]`→`[C26]` 一致：*Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems*（IEEE TNSE，锚点 `#HyperRationality`）与 *From Observation to Generation: A Complex-Systems Perspective on Generative Human-AI Social Systems*（Chaos, Solitons & Fractals，锚点 `#GHASS`）。主图分别取自论文 Fig. 4 与 Figure 3；暂无 Paper / PDF 按钮，待 DOI。
+  - 期刊标注与 CV 统一：CCF 国际目录期刊保持原样；其他期刊写 JCR 2026 分区与 2025 IF（TNSE Q1 7.3、CSF Q1 5.7、Mathematics Q1 2.3、Nature Q1 56.1、C&E:AI Q1 23.4、Innovation and Emerging Technologies Q2 2.3）；中文期刊按 CCF 2025 分级写 CCF-T2（《中国图象图形学报》，英文名更正为 Journal of Image and Graphics）、CCF-T3（《图学学报》）；《中国心理卫生杂志》改为 CSCD Core, PKU Core。Publications 下新增一行口径说明（`.publication-metrics-note`）。
+  - News 新增两条 2026.10（TNSE、CSF 各一条，不突出）；2023.09 JIG 一条的英文名与中文刊名同步更正。
+  - `files/CV-EN.pdf` 更新为 2026-10-04 版 CV（10 页，论文列表移至末尾）；主页期刊与会议论文为 9 + 33 = 42 篇、CCF-A 14 篇，与 CV 一致。
+- `579b4b3`（2026-10-05）：Mathematics 2025 一文的期刊链接原误指 *Computers & Education: Artificial Intelligence* 期刊页，改为 MDPI Mathematics 期刊页。
+
+两篇新论文的主页写回已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
+
+当前主页共 54 个论文条目，默认可见 14 个，preprints 默认 3 / 11；每次推送后 GitHub「Validate site」与「pages build and deployment」均成功。
