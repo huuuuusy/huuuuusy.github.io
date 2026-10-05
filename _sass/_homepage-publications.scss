@@ -255,6 +255,14 @@
     height: 0;
 }
 
+/* One-line note on how journal metrics are reported. */
+.home-section .publication-metrics-note {
+    margin: 0 0 var(--home-space-2);
+    color: var(--home-ink-muted);
+    font-size: var(--home-fs-meta);
+    line-height: 1.45;
+}
+
 /* Collapsed publication groups and their toggles. */
 .publication-browser {
     display: none;

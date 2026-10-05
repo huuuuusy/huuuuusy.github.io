@@ -1,5 +1,7 @@
 ## Peer-Reviewed Publications
 
+<p class="publication-metrics-note">Journal metrics: JCR 2026 quartiles and 2025 impact factors for journals outside the CCF list; CCF-T1/T2/T3 are the CCF 2025 tiers for Chinese journals.</p>
+
 <h3 id="lead-author-publications">Lead or Corresponding Author</h3>
 <!-- 代表作按照固定顺序排列 -->
 
@@ -123,7 +125,7 @@
 
 **Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey (单目标跟踪中的视觉智能评估技术综述)**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-[Journal of Images and Graphics](http://www.cjig.cn/jig/ch/index.aspx) (《中国图象图形学报》, CCF-B Chinese Journal)<br>
+[Journal of Image and Graphics](http://www.cjig.cn/jig/ch/index.aspx) (《中国图象图形学报》, CCF-T2 Chinese Journal)<br>
 <span class="paper-keywords">Dynamic Vision · Visual Intelligence Evaluation · Capability Diagnosis</span><br>
 [📃 Paper](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?flag=2&file_no=202307100000002&journal_id=jig)
 [📑 PDF](https://huuuuusy.github.io/files/JIG-survey.pdf)

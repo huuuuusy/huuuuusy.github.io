@@ -189,11 +189,35 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 
 **Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspective**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
-[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering)<br>
+[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
 <span class="paper-keywords">Multimodal Video Intelligence · Constraint-Aware AI · System-Level Reliability</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/11417444/)
 <!-- [📑 PDF](https://arxiv.org/pdf/2507.09884) -->
 <!-- [📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf) -->
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/HyperRationality.png' alt="Roadmap from the hyper-rationality trap of LLM agents to resilient behavioral heterogeneity" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='HyperRationality'></span>
+
+**Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems**<br>
+S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
+[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
+<span class="paper-keywords">LLM Agents · Persona-Driven Heterogeneity · Agent-Based Social Simulation</span><br>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSF 2026</div><img src='/images/GHASS.png' alt="From Observation to Simulation to Generation: human social systems, artificial social systems, and generative human-AI social systems" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='GHASS'></span>
+
+**From Observation to Generation: A Complex-Systems Perspective on Generative Human-AI Social Systems**<br>
+Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
+[Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (JCR Q1, IF 5.7)<br>
+<span class="paper-keywords">Generative Human-AI Social Systems · Complex Systems · Collective Dynamics</span><br>
 </div>
 </div>
 
@@ -204,7 +228,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 
 **CalcTutor: Multi-Agent LLM Grading of Handwritten Mathematics with RAG-Grounded Feedback for Adaptive Learning Support**<br>
 L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
-[Mathematics](https://www.mdpi.com/2227-7390/14/7/1094)<br>
+[Mathematics](https://www.mdpi.com/2227-7390/14/7/1094) (JCR Q1, IF 2.3)<br>
 <span class="paper-keywords">AI for Education · Multi-Agent Assessment · RAG-Grounded Feedback</span><br>
 [📃 Paper](https://www.mdpi.com/2227-7390/14/7/1094)
 
@@ -218,7 +242,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 
 **A benchmark of expert-level academic questions to assess AI capabilities**<br>
 [Center for AI Safety](https://www.safe.ai/), [Scale AI](https://scale.com/), and [HLE Contributors Consortium](https://www.nature.com/articles/s41586-025-09962-4#group-3)<br>
-[Nature](https://www.nature.com/articles/s41586-025-09962-4), 649, 1139–1146 (2026)<br>
+[Nature](https://www.nature.com/articles/s41586-025-09962-4), 649, 1139–1146 (2026) (JCR Q1, IF 56.1)<br>
 **Contribution:** ***<font color=DarkRed>Shiyu Hu</font>*** submitted expert-level questions related to AI to the HLE benchmark as a member of the HLE Contributors Consortium.<br>
 <span class="paper-keywords">Frontier AI Evaluation · Expert-Level Benchmarking · Consortium Contribution</span><br>
 [📃 Paper](https://www.nature.com/articles/s41586-025-09962-4)
@@ -262,7 +286,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 
 **Artificial Intelligence-Enabled Adaptive Learning Platforms: A Review**<br>
 L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
-[Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
+[Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence) (JCR Q1, IF 23.4)<br>
 <span class="paper-keywords">AI for Education · Personalized Learning · Adaptive Learning Systems</span><br>
 [📃 Paper](https://www.sciencedirect.com/science/article/pii/S2666920X25000694)
 [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf)
@@ -277,7 +301,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 
 **A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques**<br>
 L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
-[Mathematics](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence)<br>
+[Mathematics](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence) (JCR Q1, IF 2.3)<br>
 <span class="paper-keywords">AI for Education · Automated STEM Assessment · Learning Analytics</span><br>
 [📃 Paper](https://www.mdpi.com/2227-7390/13/17/2828)
 <!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
@@ -292,7 +316,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 
 **Trustworthy AI in education: Framework, cases, and governance strategies**<br>
 Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  <br>
-[Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?cmpid=6350db6df59e5b0001f79b4b)<br>
+[Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?cmpid=6350db6df59e5b0001f79b4b) (JCR Q2, IF 2.3)<br>
 <span class="paper-keywords">Trustworthy AI · AI for Education · Governance and Fairness</span><br>
 [📃 Paper](https://www.worldscientific.com/doi/abs/10.1142/S2737599425500264)
 <!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
@@ -307,7 +331,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 
 **A Review of Intelligent Psychological Assessment Based on Interactive Environment (基于交互环境的智能化心理测评)**<br>
 [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
-[Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSSCI Journal, Top Psychological Journal in China)<br>
+[Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSCD Core, PKU Core)<br>
 <span class="paper-keywords">Human-Centered AI · Interactive Psychological Assessment · Validity and Ethics</span><br>
 
 </div>
@@ -443,7 +467,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
 [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [X. Zhao](https://www.xinzhaoai.com/), [Q. Li](https://scholar.google.com/citations?user=7xmxBagAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***<br>
-[Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml) (《图学学报》, CCF-C Chinese Journal)<br>
+[Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml) (《图学学报》, CCF-T3 Chinese Journal)<br>
 <span class="paper-keywords">Human-Centered AI · Visual Intelligence Evaluation · Human-Machine Benchmarking</span><br>
 [📃 Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)
 [📑 PDF](https://huuuuusy.github.io/files/VTT.pdf)

@@ -1,5 +1,9 @@
 <div class="news-timeline" markdown="1">
 
+**2026.10** One paper ([Beyond Hyper-Rationality](#HyperRationality)) has been accepted by the IEEE Transactions on Network Science and Engineering (TNSE).
+
+**2026.10** One paper ([From Observation to Generation](#GHASS)) has been accepted by Chaos, Solitons & Fractals (CSF).
+
 **2026.09** I am honored to be invited to give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the International Conference on Image and Graphics (ICIG 2026) on 4 October 2026 in Singapore, as part of the forum *Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*.
 
 **2026.09** I am honored to be invited to give a talk, *Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*, in the CLA Invited Academic Talks series at the College of Liberal Arts, Wenzhou-Kean University, in November 2026 in Wenzhou, China.
@@ -122,7 +126,7 @@
 
 **2023.10** One [paper](#BioDrone) has been accepted by International Journal of Computer Vision (IJCV, CCF-A journal).
 
-**2023.09** One [survey](#JIG-survey) has been accepted by Journal of Images and Graphics (《中国图像图形学报》).
+**2023.09** One [survey](#JIG-survey) has been accepted by Journal of Image and Graphics (《中国图象图形学报》).
 
 **2023.09** One [paper](#MGIT) has been accepted by Conference on Neural Information Processing Systems (NeurIPS, CCF-A conference).
 
