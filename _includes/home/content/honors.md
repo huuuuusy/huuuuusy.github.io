@@ -1,8 +1,8 @@
 <div class="honors-list" markdown="1">
 
-* <span class="honor-kind honor-kind--award">Award</span> 2026 **Reviewer Award**, the 43rd International Conference on Machine Learning (ICML 2026)
-* <span class="honor-kind honor-kind--award">Award</span> 2025 **IEEE SMCS TEAM Program Award** by the IEEE Systems, Man, and Cybernetics Society
-* <span class="honor-kind honor-kind--award">Award</span> 2024 **Best Paper Honorable Mention** in the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024 (CVPRW最佳论文提名)
+* <span class="honor-kind honor-kind--award">Award</span> 2026 **Reviewer Award**, the [43rd International Conference on Machine Learning (ICML 2026)](https://icml.cc/Conferences/2026)
+* <span class="honor-kind honor-kind--award">Award</span> 2025 **IEEE SMCS TEAM Program Award** by the [IEEE Systems, Man, and Cybernetics Society](https://www.ieeesmc.org/)
+* <span class="honor-kind honor-kind--award">Award</span> 2024 **Best Paper Honorable Mention** in the [3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (CVPRW最佳论文提名)
 * <span class="honor-kind honor-kind--honor">Honor</span> 2024 **Beijing Outstanding Graduates** (北京市优秀毕业生, top 5%)
 * <span class="honor-kind honor-kind--award">Award</span> 2023 **China National Scholarship** (国家奖学金, top 1%, only 8 Ph.D. students in main campus of University of Chinese Academy of Sciences win this scholarship)
 * <span class="honor-kind honor-kind--award">Award</span> 2023 **First Prize of Climbing Scholarship** in Institute of Automation, Chinese Academy of Sciences (攀登一等奖学金, only 6 students in Institute of Automation, Chinese Academy of Sciences win this scholarship)

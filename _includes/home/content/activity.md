@@ -52,13 +52,13 @@
 
 ## Talk
 
-**College of Liberal Arts, Wenzhou-Kean University**
+**[College of Liberal Arts, Wenzhou-Kean University](https://cla.wku.edu.cn/en)**
 - **Series:** CLA Invited Academic Talks
 - **Title:** Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation
 - **Date & Location:** November, 2026, Wenzhou, China<br>
 
-**International Conference on Image and Graphics (ICIG 2026)**
-- **Forum:** Visual Intelligence in Transition: From Physical Perception to Psychological Cognition
+**[International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html)**
+- **Forum:** [Visual Intelligence in Transition: From Physical Perception to Psychological Cognition](https://icig.csig.org.cn/2026/14104/list.html)
 - **Title:** From Object Tracking to Process Understanding: State Modeling in Dynamic Vision
 - **Date & Location:** 4th October, 2026, Singapore<br>
 
@@ -71,7 +71,7 @@
 
 ## Publicity Chair
 
-**2026 CSIG Annual Conference on Video and Image Security**
+**[2026 CSIG Annual Conference on Video and Image Security](https://www.csig.org.cn/21/202608/59772.html)**
 - **Date & Location:** 21st November, 2026, Xiong'an, China
 
 ## TPC Member
@@ -80,7 +80,7 @@
 
 ## Area Chair
 
-- **15th International Conference on Learning Representations (ICLR)**
+- **[15th International Conference on Learning Representations (ICLR)](https://iclr.cc/Conferences/2027)**
 
 ## Lead Guest Editor
 
@@ -92,13 +92,13 @@
 
 ## Reviewer
 
-- **Conferences:** NeurIPS, ICML, ICLR, CVPR, ECCV, ICCV, ACL, AAAI, IJCAI, ACM MM, ICRA, and AISTATS.
-- **Journals:** ACM Computing Surveys, IEEE Transactions on Image Processing, SCIENCE CHINA Information Sciences, Pattern Recognition, Transactions on Machine Learning Research, IEEE Transactions on Network Science and Engineering, IEEE Transactions on Vehicular Technology, Information Fusion, Visual Intelligence, Engineering Applications of Artificial Intelligence, Expert Systems with Applications, Neurocomputing, and Knowledge-Based Systems.
+- **Conferences:** [NeurIPS](https://neurips.cc/), [ICML](https://icml.cc/), [ICLR](https://iclr.cc/), [CVPR](https://cvpr.thecvf.com/), [ECCV](https://eccv.ecva.net/), [ICCV](https://iccv.thecvf.com/), [ACL](https://www.aclweb.org/portal/), [AAAI](https://aaai.org/conference/aaai/), [IJCAI](https://www.ijcai.org/), [ACM MM](https://acmmm.org/), [ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), and [AISTATS](https://aistats.org/).
+- **Journals:** [ACM Computing Surveys](https://dl.acm.org/journal/csur), [IEEE Transactions on Image Processing](https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing), [SCIENCE CHINA Information Sciences](https://link.springer.com/journal/11432), [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition), [Transactions on Machine Learning Research](https://jmlr.org/tmlr/), [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering), [IEEE Transactions on Vehicular Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=25), [Information Fusion](https://www.sciencedirect.com/journal/information-fusion), [Visual Intelligence](https://link.springer.com/journal/44267), [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications), [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing), and [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems).
 
 ## Member
 
-- **Committee:** Technical Committee on Video and Image Security (CSIG-TCVIS).
-- **Societies:** Institute of Electrical and Electronics Engineers (IEEE), Chinese Association for Artificial Intelligence (CAAI), and China Computer Federation (CCF).
+- **Committee:** [Technical Committee on Video and Image Security (CSIG-TCVIS)](https://www.csig.org.cn/329/index.html).
+- **Societies:** [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/), [Chinese Association for Artificial Intelligence (CAAI)](https://www.caai.cn/), and [China Computer Federation (CCF)](https://www.ccf.org.cn/).
 
 <!-- <span class='anchor' id='collaborators'></span>
 

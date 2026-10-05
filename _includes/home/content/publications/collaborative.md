@@ -331,7 +331,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 
 **A Review of Intelligent Psychological Assessment Based on Interactive Environment (基于交互环境的智能化心理测评)**<br>
 [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
-[Chinese Mental Health Journal](http://xlwszz.tgcssci.com/) (《中国心理卫生杂志》, CSCD Core, PKU Core)<br>
+[Chinese Mental Health Journal](https://zxws.cbpt.cnki.net/portal) (《中国心理卫生杂志》, CSCD Core, PKU Core)<br>
 <span class="paper-keywords">Human-Centered AI · Interactive Psychological Assessment · Validity and Ethics</span><br>
 
 </div>
@@ -418,7 +418,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-[Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv2023.cn/2023prcv) (CCF-C Conference, Poster)<br>
+[Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference, Poster)<br>
 <span class="paper-keywords">Human-Centered AI · Computational Mental Health · Knowledge-Guided Recognition</span><br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-99-8462-6_20)
 [📑 PDF](https://huuuuusy.github.io/files/PRCV23.pdf)
