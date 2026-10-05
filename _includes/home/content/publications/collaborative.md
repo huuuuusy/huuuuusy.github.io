@@ -301,7 +301,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 
 **A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques**<br>
 L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
-[Mathematics](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence) (JCR Q1, IF 2.3)<br>
+[Mathematics](https://www.mdpi.com/journal/mathematics) (JCR Q1, IF 2.3)<br>
 <span class="paper-keywords">AI for Education · Automated STEM Assessment · Learning Analytics</span><br>
 [📃 Paper](https://www.mdpi.com/2227-7390/13/17/2828)
 <!-- [📑 PDF](https://www.sciencedirect.com/science/article/pii/S2666920X25000694/pdfft?md5=78d8390b2042b0b007698f2e3db4fe76&pid=1-s2.0-S2666920X25000694-main.pdf) -->
