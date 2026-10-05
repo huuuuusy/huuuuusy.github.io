@@ -304,3 +304,21 @@ Quiet Orbit 在本地实现后，主页样式仍由 7 个依次覆盖的文件�
 两篇新论文的主页写回已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
 
 当前主页共 54 个论文条目，默认可见 14 个，preprints 默认 3 / 11；每次推送后 GitHub「Validate site」与「pages build and deployment」均成功。
+
+### 链接补全（2026-10-05）
+
+`8511cfd`：为 News、Activities 与 Honors 中提到的期刊、会议、活动和机构补官方链接，共新增 87 个链接、替换 2 个失效链接；样式与内容文字未改。
+
+- 原则：论文录用类 News 的期刊／会议链接，直接复用该论文条目中已有的 venue 链接，保持两处一致；其余新链接逐一核对官方页面后加入。没有公开页面的不加链接。
+- News（50）：
+  - 全部论文录用条目的期刊／会议名；
+  - ICIG 2026 主页及 “Visual Intelligence in Transition” 论坛页（论坛页列有 Shiyu 的报告）；
+  - 2026 CSIG 视频图像与安全学术年会（CSIG 官网开放注册通知）、ICLR 2027、ICML 2026（Reviewer Award）、Wenzhou-Kean University College of Liberal Arts、IEEE SMC Society、NTU、CASIA、UCAS。
+- Activities（34）：
+  - ICIG 2026 与论坛、CSIG 年会、ICLR 2027、Wenzhou-Kean College of Liberal Arts；
+  - Reviewer 中的 12 个会议链接到会议官方主页，13 个期刊链接到期刊主页；
+  - CSIG-TCVIS 专委会页面，以及 IEEE、CAAI、CCF。
+- Honors（3）：ICML 2026、IEEE SMC Society、CVPR 2024 VDU workshop。
+- 失效链接：《中国心理卫生杂志》原站点无响应，改为其 CNKI 期刊门户；PRCV 2023 会议站点域名已失效，改为 PRCV 系列官网。论文条目与对应 News 同步替换。
+- 未加链接：奖学金与校内荣誉、BIT 各项荣誉、ECNU 基金一条、Wenzhou-Kean 报告系列名（无公开页面，改链学院主页）。IEEE SMCS TEAM 项目无独立页面，链接到学会主页。
+- 未能自动核验：ScienceDirect 与 ACM Digital Library 拦截自动访问，相关期刊链接采用其标准期刊页地址；Pattern Recognition 与 Neurocomputing 复用论文条目中已有的链接。
