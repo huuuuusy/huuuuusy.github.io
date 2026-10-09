@@ -521,6 +521,7 @@
 
 .page__content a.paper-chip,
 .paper-chip--key {
+    /* Same size as the publication buttons (.paper-link). */
     display: inline-flex;
     gap: 5px;
     align-items: center;
@@ -531,7 +532,7 @@
     border-radius: var(--home-radius-small);
     color: var(--home-ink);
     background: var(--home-canvas);
-    font-size: 12px;
+    font-size: 12.5px;
     font-weight: 500;
     line-height: 1.2;
     text-decoration: none;
@@ -716,6 +717,16 @@
 
 .project-grid--single {
     grid-template-columns: minmax(0, 1fr);
+}
+
+.project-grid--single .project-card {
+    max-width: 720px;
+}
+
+/* Section intros and notes share the 720px prose measure used in Research. */
+.home-section--projects > p,
+.home-section .publication-metrics-note {
+    max-width: 720px;
 }
 
 .project-grid--funded {
