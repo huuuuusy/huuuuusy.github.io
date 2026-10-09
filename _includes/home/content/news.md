@@ -10,11 +10,11 @@
 
 **2026.09** The [second edition of our *Electronics* Special Issue on Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/29DX8J83OK) is now open. Thank you to everyone who supported the [first edition](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E).
 
-**2026.09** I am pleased to serve as an Area Chair for the [15th International Conference on Learning Representations (ICLR)](https://iclr.cc/Conferences/2027). I look forward to contributing to the community and supporting a thoughtful peer-review process.
-
 **2026.09** One paper ([META-PAP](#META-PAP)) has been accepted by the [40th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2026) (NeurIPS, CCF-A Conference).
 
 **2026.09** I am co-hosting a [Virtual Collection on Control and Decision Intelligence for Unmanned Systems](https://www.the-innovation.org/the-innovation-informatics/unmanned-systems) in *The Innovation Informatics*. Submissions are welcome until 30 June 2027.
+
+**2026.09** I am pleased to serve as an Area Chair for the [15th International Conference on Learning Representations (ICLR)](https://iclr.cc/Conferences/2027). I look forward to contributing to the community and supporting a thoughtful peer-review process.
 
 **2026.08** I will serve as a Publicity Chair for the [2026 CSIG Annual Conference on Video and Image Security](https://www.csig.org.cn/21/202608/59772.html), to be held on 21 November 2026 in Xiong'an, China. Further information will be shared as it becomes available.
 
