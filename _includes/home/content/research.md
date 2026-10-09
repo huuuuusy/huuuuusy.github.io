@@ -107,7 +107,7 @@
       <span class="crossing__index">03</span>
       <svg class="crossing__icon" viewBox="0 0 96 64" aria-hidden="true"><circle class="o-human" cx="38" cy="32" r="19"/><circle class="o-ai" cx="58" cy="32" r="19"/><circle class="o-dot" cx="48" cy="32" r="3"/></svg>
     </div>
-    <h3>Between Humans and AI</h3>
+    <h3>Humans and AI</h3>
     <p class="crossing__question">When people disagree, or work with AI, what counts as correct?</p>
     <p>A single ground truth is the wrong reference when people disagree. I treat human judgments as a reference distribution, compare people and models on the same tasks and the same scale, and model LLM-based virtual students that should behave like learners rather than only sound like them.</p>
     <p class="crossing__papers"><a href="#FIOVA">FIOVA</a> · <a href="#VTT-ICLR">Human–machine dynamic vision</a> · <a href="#EduPersona">EduPersona</a> · <a href="#SOEI">SOEI</a> · <a href="#CPDTrack">Beyond Accuracy</a> · <a href="#VTT">Visual Turing</a> · <a href="#EduVerse">EduVerse</a> · <a href="#HyperRationality">Beyond Hyper-Rationality</a> · <a href="#Mathematics-CalcTutor">CalcTutor</a> · <a href="#CEAI-adaptive">Adaptive learning review</a> · <a href="#Mathematics-AGS">Automated grading review</a> · <a href="#IET-AI4Edu">Trustworthy AI in education</a> · <a href="#GHASS">Generative human–AI social systems</a> · <a href="#IGBA">Psychological assessment review</a> · <a href="#VSLLM">VS-LLM</a> · <a href="#PRCV23">Sandplay therapy</a> · <a href="#FakeNewsCourt">Fake News Court</a> · <a href="#META-PAP">META-PAP</a></p>
