@@ -24,7 +24,7 @@
 
 <p>My research began with <strong>visual object tracking and machine vision evaluation</strong>: how a task should be defined, how an evaluation space should be built, and how machines compare with people. Building on the idea of a visual Turing test, I placed humans and machines on the same dynamic visual tasks to see where conventional metrics hide the difference.</p>
 
-<p>Each of these steps released something that standard evaluation takes for granted. My current work follows the same move along three lines: <strong>across conditions, over time, and between humans and AI</strong>. In short, from giving an answer to keeping the right state.</p>
+<p>Each of these steps asked what a system carries forward when something changes. My current work follows this question along three lines: <strong>across conditions, over time, and between humans and AI</strong>. In short, from giving an answer to keeping the right state.</p>
 
   </div>
 </div>
@@ -68,29 +68,31 @@
 
 ## Research Framework
 
-<p class="research-framework__lead">Standard evaluation fixes three things. My research releases each of them, which gives <strong>three crossings</strong>: across conditions, over time, and between humans and AI.</p>
+<p class="research-framework__lead">In open environments, a system's state is challenged in three ways: <strong>conditions change, time passes, and people take part</strong>. Each gives one line of work, and each line runs from evaluation to modeling to application.</p>
 
 <div class="research-framework">
 
 <article class="crossing">
-  <p class="crossing__fixed"><svg class="crossing__lock" viewBox="0 0 12 14" aria-hidden="true"><rect x="1" y="6" width="10" height="7.5" rx="1.5"/><path d="M3.5 6V4.2a2.5 2.5 0 0 1 5 0V6"/></svg><span>Standard evaluation fixes</span>one set of test conditions</p>
-  <p class="crossing__release" aria-hidden="true">release</p>
+  <p class="crossing__scene"><span>Open environments</span>tasks and conditions keep changing</p>
   <div class="crossing__card">
     <div class="crossing__head">
       <span class="crossing__index">01</span>
       <svg class="crossing__icon" viewBox="0 0 96 64" aria-hidden="true"><path class="o-base" d="M6 56 H90"/><path class="o-base" d="M20 53 V59 M48 53 V59 M76 53 V59"/><circle class="o-ring" cx="20" cy="30" r="10"/><circle class="o-dot" cx="20" cy="20" r="2.6"/><circle class="o-ring" cx="48" cy="30" r="10"/><circle class="o-dot" cx="48" cy="20" r="2.6"/><circle class="o-ring o-ring--faint" cx="76" cy="30" r="10"/><circle class="o-dot o-dot--open" cx="76" cy="20" r="2.6"/></svg>
     </div>
     <h3>Across Conditions</h3>
-    <p class="crossing__question">Does a score still measure a capability once the conditions change?</p>
-    <p>I break tasks and environments into conditions that can be recombined, with human baselines, and test whether a capability measured under some conditions predicts behavior under others.</p>
-    <p class="crossing__works"><span class="crossing__works-label">Lead</span><a href="#SOTVerse">SOTVerse</a> · <a href="#BioDrone">BioDrone</a> · <a href="#VLTVerse">VLTVerse</a> · <a href="#STEMVerse">STEMVerse</a> · <a href="#JIG-survey">SOT evaluation survey</a> · <a href="#MATrack">MATrack</a> · <a href="#DARTer">DARTer</a></p>
-    <details class="crossing__more"><summary>With collaborators (6)</summary><p><a href="#SpringerBook">Evaluation monograph</a> · <a href="#TBDQ">TBDQ</a> · <a href="#HLE">Humanity's Last Exam</a> · <a href="#Neu22">Instance search</a> · <a href="#DAAWBench">Air-writing benchmark</a> · <a href="#AWCV">Unconstrained air-writing</a></p></details>
+    <p class="crossing__question">When the conditions change, does the capability still hold?</p>
+    <p>A tracker that works well by day may fail at night or on a shaking drone, and an average score does not show where. I break tasks and environments into conditions that can be recombined, add human baselines, and test whether a capability measured under some conditions predicts behavior under others.</p>
+    <dl class="crossing__steps">
+      <div><dt>Evaluate</dt><dd><a href="#SOTVerse">SOTVerse</a> · <a href="#BioDrone">BioDrone</a> · <a href="#VLTVerse">VLTVerse</a> · <a href="#STEMVerse">STEMVerse</a> · <a href="#JIG-survey">SOT evaluation survey</a></dd></div>
+      <div><dt>Model</dt><dd><a href="#MATrack">MATrack</a> · <a href="#DARTer">DARTer</a></dd></div>
+      <div><dt>Apply</dt><dd>UAV and nighttime vision</dd></div>
+    </dl>
+    <details class="crossing__more"><summary>With collaborators (9)</summary><p><a href="#SpringerBook">Evaluation monograph</a> · <a href="#TBDQ">TBDQ</a> · <a href="#HLE">Humanity's Last Exam</a> · <a href="#Neu22">Instance search</a> · <a href="#DAAWBench">Air-writing benchmark</a> · <a href="#AWCV">Unconstrained air-writing</a> · <a href="#MSAD">SAR detection</a> · <a href="#Retina-EMBC">Retinal OCT</a> · <a href="#ICASSP24">Cryo-EM denoising</a></p></details>
   </div>
 </article>
 
 <article class="crossing">
-  <p class="crossing__fixed"><svg class="crossing__lock" viewBox="0 0 12 14" aria-hidden="true"><rect x="1" y="6" width="10" height="7.5" rx="1.5"/><path d="M3.5 6V4.2a2.5 2.5 0 0 1 5 0V6"/></svg><span>Standard evaluation fixes</span>one moment of judgment</p>
-  <p class="crossing__release" aria-hidden="true">release</p>
+  <p class="crossing__scene"><span>Sustained interaction</span>observation and action unfold over time</p>
   <div class="crossing__card">
     <div class="crossing__head">
       <span class="crossing__index">02</span>
@@ -98,15 +100,18 @@
     </div>
     <h3>Over Time</h3>
     <p class="crossing__question">When the answer is right, has the system kept the right state?</p>
-    <p>Trackers and video models must keep what still holds, update what has changed, and leave open what the evidence cannot support. Because logs alone cannot show what an untried intervention would have done, I diagnose through controlled interventions.</p>
-    <p class="crossing__works"><span class="crossing__works-label">Lead</span><a href="#GIT">GIT</a> · <a href="#MGIT">MGIT</a> · <a href="#ATCTrack">ATCTrack</a> · <a href="#SOI-V2">SOI</a> · <a href="#Streaming-Video-Survey">Streaming video survey</a></p>
+    <p>A target leaves the view and returns, a description given at the start goes stale, and similar objects pull identity away. I describe state by three rules: keep what still holds, update what has changed, and leave open what the evidence cannot support.</p>
+    <dl class="crossing__steps">
+      <div><dt>Evaluate</dt><dd><a href="#GIT">GIT</a> · <a href="#MGIT">MGIT</a></dd></div>
+      <div><dt>Model</dt><dd><a href="#ATCTrack">ATCTrack</a> · <a href="#SOI-V2">SOI</a></dd></div>
+      <div><dt>Apply</dt><dd>Long and streaming video (<a href="#Streaming-Video-Survey">survey</a>)</dd></div>
+    </dl>
     <details class="crossing__more"><summary>With collaborators (16)</summary><p><a href="#EARL">Select Less</a> · <a href="#RGRL">Look Less</a> · <a href="#CausalStep">CausalStep</a> · <a href="#VerifyBench">VerifyBench</a> · <a href="#ViEBench">ViEBench</a> · <a href="#NarrLV">NarrLV</a> · <a href="#MemVLT">MemVLT</a> · <a href="#CSTrack">CSTrack</a> · <a href="#ICASSP25">Text-to-visual cues</a> · <a href="#DTVLT">DTVLT</a> · <a href="#VLT-MI">VLT-MI</a> · <a href="#DTLLM">DTLLM-VLT</a> · <a href="#COAL">COAL</a> · <a href="#DASTrack">DASTrack</a> · <a href="#TNSE26">Video intelligence survey</a> · <a href="#CSAI23">Similar object interference</a></p></details>
   </div>
 </article>
 
 <article class="crossing">
-  <p class="crossing__fixed"><svg class="crossing__lock" viewBox="0 0 12 14" aria-hidden="true"><rect x="1" y="6" width="10" height="7.5" rx="1.5"/><path d="M3.5 6V4.2a2.5 2.5 0 0 1 5 0V6"/></svg><span>Standard evaluation fixes</span>one reference, machines only</p>
-  <p class="crossing__release" aria-hidden="true">release</p>
+  <p class="crossing__scene"><span>Human–AI interaction</span>people and AI compare and work together</p>
   <div class="crossing__card">
     <div class="crossing__head">
       <span class="crossing__index">03</span>
@@ -114,21 +119,23 @@
     </div>
     <h3>Between Humans and AI</h3>
     <p class="crossing__question">When people disagree, or work with AI, what counts as correct?</p>
-    <p>I treat human judgments as a reference distribution, place people and models on the same tasks and the same scale, and test whether LLM-based virtual students behave like learners rather than only sounding like them. Education is the main setting.</p>
-    <p class="crossing__works"><span class="crossing__works-label">Lead</span><a href="#FIOVA">FIOVA</a> · <a href="#VTT-ICLR">Human–machine dynamic vision</a> · <a href="#SOEI">SOEI</a> · <a href="#EduPersona">EduPersona</a></p>
-    <details class="crossing__more"><summary>With collaborators (11)</summary><p><a href="#CPDTrack">Beyond Accuracy</a> · <a href="#VTT">Visual Turing</a> · <a href="#EduVerse">EduVerse</a> · <a href="#HyperRationality">Beyond Hyper-Rationality</a> · <a href="#Mathematics-CalcTutor">CalcTutor</a> · <a href="#CEAI-adaptive">Adaptive learning review</a> · <a href="#Mathematics-AGS">Automated grading review</a> · <a href="#IET-AI4Edu">Trustworthy AI in education</a> · <a href="#GHASS">Generative human–AI social systems</a> · <a href="#IGBA">Psychological assessment review</a> · <a href="#VSLLM">VS-LLM</a></p></details>
+    <p>A single ground truth is the wrong reference when people disagree. I treat human judgments as a reference distribution, compare people and models on the same tasks and the same scale, and model LLM-based virtual students that should behave like learners rather than only sound like them.</p>
+    <dl class="crossing__steps">
+      <div><dt>Evaluate</dt><dd><a href="#FIOVA">FIOVA</a> · <a href="#VTT-ICLR">Human–machine dynamic vision</a> · <a href="#EduPersona">EduPersona</a></dd></div>
+      <div><dt>Model</dt><dd><a href="#SOEI">SOEI</a></dd></div>
+      <div><dt>Apply</dt><dd>Education</dd></div>
+    </dl>
+    <details class="crossing__more"><summary>With collaborators (14)</summary><p><a href="#CPDTrack">Beyond Accuracy</a> · <a href="#VTT">Visual Turing</a> · <a href="#EduVerse">EduVerse</a> · <a href="#HyperRationality">Beyond Hyper-Rationality</a> · <a href="#Mathematics-CalcTutor">CalcTutor</a> · <a href="#CEAI-adaptive">Adaptive learning review</a> · <a href="#Mathematics-AGS">Automated grading review</a> · <a href="#IET-AI4Edu">Trustworthy AI in education</a> · <a href="#GHASS">Generative human–AI social systems</a> · <a href="#IGBA">Psychological assessment review</a> · <a href="#VSLLM">VS-LLM</a> · <a href="#PRCV23">Sandplay therapy</a> · <a href="#FakeNewsCourt">Fake News Court</a> · <a href="#META-PAP">META-PAP</a></p></details>
   </div>
 </article>
 
 </div>
 
-<p class="research-framework__beyond"><span>Other collaborations</span><a href="#FakeNewsCourt">Fake News Court</a> · <a href="#META-PAP">META-PAP</a> · <a href="#PRCV23">Sandplay therapy</a> · <a href="#Retina-EMBC">Retinal OCT</a> · <a href="#ICASSP24">Cryo-EM denoising</a> · <a href="#MSAD">SAR detection</a></p>
-
 <div class="research-framework__loop">
-  <p class="research-framework__loop-label">In every crossing, against human reference</p>
+  <p class="research-framework__loop-label">In every line, against human reference</p>
   <ol>
-    <li><strong>Evaluate</strong><span>does the state hold, and under what conditions?</span></li>
-    <li><strong>Diagnose</strong><span>where and why does it break?</span></li>
-    <li><strong>Model</strong><span>how can it be kept, updated, or left open?</span></li>
+    <li><strong>Evaluate</strong><span>where does the state hold, and where and why does it break?</span></li>
+    <li><strong>Model</strong><span>how can a system keep, update, or leave it open?</span></li>
+    <li><strong>Apply</strong><span>does it hold up in UAV vision, video understanding, and education?</span></li>
   </ol>
 </div>
