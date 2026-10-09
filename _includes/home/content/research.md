@@ -22,9 +22,7 @@
 
   <div class="research-trajectory__copy" markdown="1">
 
-<p>My research began with <strong>visual object tracking and machine vision evaluation</strong>: how a task should be defined, how an evaluation space should be built, and how machines compare with people. Building on the idea of a visual Turing test, I placed humans and machines on the same dynamic visual tasks to see where conventional metrics hide the difference.</p>
-
-<p>Each of these steps asked what a system carries forward when something changes. My current work follows this question along three lines: <strong>across conditions, over time, and between humans and AI</strong>. In short, from giving an answer to keeping the right state.</p>
+<p>My research began with <strong>visual object tracking</strong> and machine vision evaluation. Three questions from that work still shape it: how a task should be defined, how an evaluation space should be built, and how machines compare with people.</p>
 
   </div>
 </div>
@@ -32,39 +30,38 @@
 <div class="research-path">
 
 <article class="research-step" markdown="1">
-<span class="research-step__index" aria-hidden="true">01</span>
 <div class="research-step__content" markdown="1">
 
 ### Task definition: from local tracking to global instance tracking
 
-<p>Visual object tracking provided a concrete task for studying dynamic visual ability. <strong><a href="#GIT">Global Instance Tracking (GIT)</a></strong> removes the assumption of continuous motion and asks a system to find the same target across a long video, while <strong><a href="#MGIT">Multi-modal GIT (MGIT)</a></strong> adds hierarchical semantics and spatiotemporal-causal relations.</p>
+<p>Visual object tracking gave a concrete task for studying dynamic visual ability. <a href="#GIT">Global Instance Tracking (GIT)</a> removes the assumption of continuous motion and asks a system to find the same target across a long video, while <a href="#MGIT">Multi-modal GIT (MGIT)</a> adds hierarchical semantics and spatiotemporal-causal relations.</p>
 
 </div>
 </article>
 
 <article class="research-step" markdown="1">
-<span class="research-step__index" aria-hidden="true">02</span>
 <div class="research-step__content" markdown="1">
 
 ### Evaluation space: from fixed benchmarks to conditions
 
-<p>An average score hides the conditions under which a system fails. <a href="http://videocube.aitestunion.com/">VideoCube</a> organizes long videos through narrative structure, <a href="#SOTVerse">SOTVerse</a> turns challenge factors into a user-defined task space built on the 3E framework (environment, evaluation, executor), and <a href="#BioDrone">BioDrone</a> examines perception under physical disturbance.</p>
+<p>Benchmarks usually test a tracker under one fixed mix of conditions. <a href="http://videocube.aitestunion.com/">VideoCube</a> organizes long videos through narrative structure, <a href="#SOTVerse">SOTVerse</a> turns challenge factors into a user-defined task space built on the 3E framework (environment, evaluation, executor), and <a href="#BioDrone">BioDrone</a> examines perception under physical disturbance.</p>
 
 </div>
 </article>
 
 <article class="research-step" markdown="1">
-<span class="research-step__index" aria-hidden="true">03</span>
 <div class="research-step__content" markdown="1">
 
 ### Human-machine comparison: people as the reference
 
-<p>By placing people and models in comparable visual tasks, I study how their capabilities differ and where conventional metrics conceal those differences. This comparison is the starting point for my current work on how humans and AI should be described in the same frame of reference.</p>
+<p>Building on the idea of a <a href="#VTT">visual Turing test</a>, I placed people and trackers on the same dynamic visual tasks (<a href="#VTT-ICLR">human–machine dynamic vision</a>) to see where conventional metrics hide the difference between them.</p>
 
 </div>
 </article>
 
 </div>
+
+<p class="research-bridge">Each step asked what a system carries forward when something changes. My current work follows this question along three lines: across conditions, over time, and between humans and AI. In short, <strong>from giving an answer to keeping the right state</strong>.</p>
 
 ## Research Framework
 
@@ -75,12 +72,12 @@
 <div class="research-framework">
 
 <article class="crossing">
-  <p class="crossing__scene"><span>Open environments</span>tasks and conditions keep changing</p>
   <div class="crossing__card">
     <div class="crossing__head">
       <span class="crossing__index">01</span>
       <svg class="crossing__icon" viewBox="0 0 96 64" aria-hidden="true"><path class="o-base" d="M6 56 H90"/><path class="o-base" d="M20 53 V59 M48 53 V59 M76 53 V59"/><circle class="o-ring" cx="20" cy="30" r="10"/><circle class="o-dot" cx="20" cy="20" r="2.6"/><circle class="o-ring" cx="48" cy="30" r="10"/><circle class="o-dot" cx="48" cy="20" r="2.6"/><circle class="o-ring o-ring--faint" cx="76" cy="30" r="10"/><circle class="o-dot o-dot--open" cx="76" cy="20" r="2.6"/></svg>
     </div>
+    <p class="crossing__kicker">Open environments</p>
     <h3>Across Conditions</h3>
     <p class="crossing__question">When the conditions change, does the capability still hold?</p>
     <p>A tracker that works well by day may fail at night or on a shaking drone, and an average score does not show where. I break tasks and environments into conditions that can be recombined, add human baselines, and test whether a capability measured under some conditions predicts behavior under others.</p>
@@ -89,12 +86,12 @@
 </article>
 
 <article class="crossing">
-  <p class="crossing__scene"><span>Sustained interaction</span>observation and action unfold over time</p>
   <div class="crossing__card">
     <div class="crossing__head">
       <span class="crossing__index">02</span>
       <svg class="crossing__icon" viewBox="0 0 96 64" aria-hidden="true"><circle class="o-ring o-ring--faint" cx="48" cy="32" r="22"/><path class="o-trail" opacity=".18" d="M28.95 43.0 A22 22 0 0 1 28.95 21.0"/><path class="o-trail" opacity=".45" d="M28.95 21.0 A22 22 0 0 1 48.0 10.0"/><path class="o-trail" opacity=".85" d="M48.0 10.0 A22 22 0 0 1 66.66 20.34"/><circle class="o-dot" cx="67.05" cy="21.0" r="3"/><circle class="o-dot o-dot--open" cx="60.62" cy="50.02" r="2.6"/></svg>
     </div>
+    <p class="crossing__kicker">Sustained interaction</p>
     <h3>Over Time</h3>
     <p class="crossing__question">When the answer is right, has the system kept the right state?</p>
     <p>A target leaves the view and returns, a description given at the start goes stale, and similar objects pull identity away. I describe state by three rules: keep what still holds, update what has changed, and leave open what the evidence cannot support.</p>
@@ -103,12 +100,12 @@
 </article>
 
 <article class="crossing">
-  <p class="crossing__scene"><span>Human–AI interaction</span>people and AI compare and work together</p>
   <div class="crossing__card">
     <div class="crossing__head">
       <span class="crossing__index">03</span>
       <svg class="crossing__icon" viewBox="0 0 96 64" aria-hidden="true"><circle class="o-human" cx="38" cy="32" r="19"/><circle class="o-ai" cx="58" cy="32" r="19"/><circle class="o-dot" cx="48" cy="32" r="3"/></svg>
     </div>
+    <p class="crossing__kicker">Human–AI interaction</p>
     <h3>Humans and AI</h3>
     <p class="crossing__question">When people disagree, or work with AI, what counts as correct?</p>
     <p>A single ground truth is the wrong reference when people disagree. I treat human judgments as a reference distribution, compare people and models on the same tasks and the same scale, and model LLM-based virtual students that should behave like learners rather than only sound like them.</p>
