@@ -20,7 +20,7 @@
 
 **FIOVA: A Multi-Annotator Benchmark for Human-Aligned Video Captioning**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li\*](https://github.com/Xuchen-Li), [X. Li](https://github.com/XuzhaoLi), J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [X. Zhao](https://www.xinzhaoai.com/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
-<span class="paper-keywords">Large Vision-Language Models · Human-Aligned Video Understanding · Multi-Annotator Evaluation</span><br>
+<span class="paper-keywords">Human Reference Distribution · Multi-Annotator Video Captioning · LVLM Evaluation</span><br>
 [📃 Paper](https://arxiv.org/abs/2410.15270)
 [📑 PDF](https://arxiv.org/pdf/2410.15270)
 [🌐 Project](https://huuuuusy.github.io/fiova/)
@@ -34,7 +34,7 @@
 
 **When LLMs Learn to be Students: The SOEI Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction**<br>
 Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br>
-<span class="paper-keywords">AI for Education · Virtual Student Agents · Interaction-Centered Evaluation</span><br>
+<span class="paper-keywords">Virtual Student Agents · Personality-Grounded Learner Modeling · Interaction-Centered Evaluation</span><br>
 [📃 Paper](https://arxiv.org/abs/2410.15701)
 [📑 PDF](https://arxiv.org/pdf/2410.15701)
 </div>
@@ -60,7 +60,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://
 
 **EduPersona: Benchmarking Subjective Ability Boundaries of Virtual Student Agents**<br>
 B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br>
-<span class="paper-keywords">AI for Education · Persona-Aware Agents · Subjective Ability Diagnosis</span><br>
+<span class="paper-keywords">Virtual Student Agents · Persona Consistency · Subjective Ability Boundaries</span><br>
 [📃 Paper](https://arxiv.org/abs/2510.04648)
 [📑 PDF](https://arxiv.org/pdf/2510.04648)
 </div>
@@ -73,7 +73,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **SOI is the Root of All Evil: Quantifying and Breaking Similar Object Interference in Single Object Tracking**<br>
 [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, S. Jia, P. Xu, H. Ma, Y. Ma, J. Zhang, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm), [X. Zhao](https://www.xinzhaoai.com/) (*Equal Contributions) <br>
-<span class="paper-keywords">Robust Visual Tracking · Similar-Object Interference · VLM-Guided Correction</span><br>
+<span class="paper-keywords">Similar-Object Interference · Quantified Failure Analysis · VLM-Guided Correction</span><br>
 [📃 Paper](https://www.arxiv.org/abs/2508.09524)
 [📑 PDF](https://www.arxiv.org/pdf/2508.09524)
 </div>
@@ -86,7 +86,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **How Texts Help? A Fine-grained Evaluation to Reveal the Role of Language in Vision-Language Tracking**<br>
 [X. Li](https://github.com/Xuchen-Li)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions) <br>
-<span class="paper-keywords">Vision-Language Tracking · Language Utility Diagnosis · Fine-Grained Evaluation</span><br>
+<span class="paper-keywords">Vision-Language Tracking · Fine-Grained Condition Subspaces · Language Utility Diagnosis</span><br>
 [📃 Paper](https://arxiv.org/abs/2411.15600)
 [📑 PDF](https://arxiv.org/pdf/2411.15600)
 </div>
@@ -99,7 +99,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **STEMVerse: A Dual-Axis Diagnostic Framework for STEM Reasoning in Large Language Models**<br>
 [X. Li](https://github.com/XuzhaoLi), [X. Li](https://github.com/Xuchen-Li), [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
-<span class="paper-keywords">AI for Education · STEM Reasoning · Cognitive Diagnosis</span><br>
+<span class="paper-keywords">LLM STEM Reasoning · Discipline × Bloom-Level Axes · Diagnostic Evaluation</span><br>
 [📃 Paper](https://arxiv.org/abs/2602.02497)
 [📑 PDF](https://arxiv.org/pdf/2602.02497)
 
@@ -141,7 +141,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 **Nearing or Surpassing: Overall Evaluation of Human-Machine Dynamic Vision Ability**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [Y. Shan](https://scholar.google.com/citations?user=_nc83HsAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-<span class="paper-keywords">Human-Centered AI · Dynamic Vision Capability · Human-Machine Evaluation</span><br>
+<span class="paper-keywords">Human-Machine Comparison · Dynamic Vision · Shared 3E Environment</span><br>
 [📑 PDF](https://huuuuusy.github.io/files/VTT-ICLR.pdf)
 </div>
 </div>

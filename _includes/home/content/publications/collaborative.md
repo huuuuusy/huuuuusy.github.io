@@ -332,7 +332,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 **A Review of Intelligent Psychological Assessment Based on Interactive Environment (基于交互环境的智能化心理测评)**<br>
 [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Kang, C. Yan, ***<font color=DarkRed>Shiyu Hu</font>***, [L. Wang](https://people.ucas.ac.cn/~wanglg), [T. Tao](https://people.ucas.ac.cn/~0072960), [W. Gao](https://people.ucas.ac.cn/~0000893) <br>
 [Chinese Mental Health Journal](https://zxws.cbpt.cnki.net/portal) (《中国心理卫生杂志》, CSCD Core, PKU Core)<br>
-<span class="paper-keywords">Human-Centered AI · Interactive Psychological Assessment · Validity and Ethics</span><br>
+<span class="paper-keywords">Game-Based Psychological Assessment · Interactive Environments · Validity and Ethics</span><br>
 
 </div>
 </div>
@@ -374,7 +374,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
 J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
 [IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference, Poster)<br>
-<span class="paper-keywords">AI for Science · Cryo-EM Restoration · Diffusion Models</span><br>
+<span class="paper-keywords">Scientific Imaging · Cryo-EM Restoration · Diffusion Models</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/10447135)
 [📑 PDF](https://huuuuusy.github.io/files/ICASSP24.pdf)
 
@@ -389,7 +389,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
 [IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)<br>
-<span class="paper-keywords">Human-Computer Interaction · Unconstrained Air-Writing · Real-World Benchmark</span><br>
+<span class="paper-keywords">Real-World Air-Writing · Unconstrained Recognition · Large-Scale Benchmark</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10496279)
 [📑 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf)
 [🔧 Toolkit](https://github.com/wmeiqi/AWCV)
@@ -404,7 +404,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **VS-LLM: Visual-Semantic Depression Assessment based on LLM for Drawing Projection Test**<br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), Y. Kang, [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, Y. kang, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference)<br>
-<span class="paper-keywords">Human-Centered AI · Multimodal Mental Health Assessment · LLM-Assisted Interpretation</span><br>
+<span class="paper-keywords">Drawing-Based Depression Assessment · Multimodal Mental Health · LLM-Assisted Interpretation</span><br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-97-8692-3_17)
 [📑 PDF](https://huuuuusy.github.io/files/VSLLM.pdf)
 
@@ -419,7 +419,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference, Poster)<br>
-<span class="paper-keywords">Human-Centered AI · Computational Mental Health · Knowledge-Guided Recognition</span><br>
+<span class="paper-keywords">Sandplay Therapy · Hierarchical Theme Recognition · Knowledge-Guided Recognition</span><br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-99-8462-6_20)
 [📑 PDF](https://huuuuusy.github.io/files/PRCV23.pdf)
 [📎 Supplementary](https://huuuuusy.github.io/files/PRCV23-Supp.pdf)
@@ -468,7 +468,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 **Visual Turing: The Next Development of Computer Vision in The View of Human-computer Gaming (视觉图灵：从人机对抗看计算机视觉下一步发展)**<br>
 [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [X. Zhao](https://www.xinzhaoai.com/), [Q. Li](https://scholar.google.com/citations?user=7xmxBagAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***<br>
 [Journal of Graphics](http://www.txxb.com.cn/CN/2095-302X/home.shtml) (《图学学报》, CCF-T3 Chinese Journal)<br>
-<span class="paper-keywords">Human-Centered AI · Visual Intelligence Evaluation · Human-Machine Benchmarking</span><br>
+<span class="paper-keywords">Visual Turing Test · Visual Intelligence Evaluation · Human-Machine Benchmarking</span><br>
 [📃 Paper](http://www.txxb.com.cn/CN/10.11996/JG.j.2095-302X.2021030339)
 [📑 PDF](https://huuuuusy.github.io/files/VTT.pdf)
 
