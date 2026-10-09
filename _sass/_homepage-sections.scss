@@ -497,12 +497,54 @@
 }
 
 .crossing__card .crossing__papers {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 6px;
     margin: auto 0 0;
     padding-top: var(--home-space-3);
     border-top: 1px solid var(--home-rule);
+}
+
+.page__content a.paper-chip {
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+    min-height: 24px;
+    box-sizing: border-box;
+    padding: 0 8px;
+    border: 1px solid var(--home-rule-strong);
+    border-radius: var(--home-radius-small);
+    color: var(--home-ink);
+    background: var(--home-canvas);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+
+    span {
+        font-size: 11px;
+    }
+
+    &:hover {
+        border-color: var(--home-blue);
+        color: var(--home-blue);
+        background: var(--home-blue-tint);
+    }
+}
+
+.research-framework__legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px var(--home-space-4);
+    margin: calc(var(--home-space-4) * -1) 0 var(--home-space-5);
     color: var(--home-ink-muted);
     font-size: var(--home-fs-meta);
-    line-height: 1.7;
+
+    > span > span {
+        margin-right: 5px;
+        font-size: 11px;
+    }
 }
 
 .research-framework__loop {
