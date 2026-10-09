@@ -82,6 +82,10 @@
 
 - **[15th International Conference on Learning Representations (ICLR)](https://iclr.cc/Conferences/2027)**
 
+## Virtual Collection Host
+
+- **Journal:** [The Innovation Informatics](https://www.the-innovation.org/the-innovation-informatics/unmanned-systems) (Virtual Collection: Control and Decision Intelligence for Unmanned Systems; submissions open until 30 June 2027)
+
 ## Lead Guest Editor
 
 - **Journal:** [Electronics](https://www.mdpi.com/journal/electronics) (Special Issues: Techniques and Applications of Multimodal Data Fusion — [1st Edition](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E) and [2nd Edition](https://www.mdpi.com/journal/electronics/special_issues/29DX8J83OK))

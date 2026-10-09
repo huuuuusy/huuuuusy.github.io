@@ -4,6 +4,8 @@
 
 **2026.10** One paper ([From Observation to Generation](#GHASS)) has been accepted by [Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (CSF).
 
+**2026.09** I am co-hosting a [Virtual Collection on Control and Decision Intelligence for Unmanned Systems](https://www.the-innovation.org/the-innovation-informatics/unmanned-systems) in *The Innovation Informatics*. Submissions are welcome until 30 June 2027.
+
 **2026.09** I am honored to be invited to give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the [International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html) on 4 October 2026 in Singapore, as part of the forum [*Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*](https://icig.csig.org.cn/2026/14104/list.html).
 
 **2026.09** I am honored to be invited to give a talk, *Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*, in the CLA Invited Academic Talks series at the [College of Liberal Arts, Wenzhou-Kean University](https://cla.wku.edu.cn/en), in November 2026 in Wenzhou, China.
