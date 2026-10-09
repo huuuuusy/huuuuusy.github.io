@@ -4,8 +4,6 @@
 
 **2026.10** One paper ([From Observation to Generation](#GHASS)) has been accepted by [Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (CSF).
 
-**2026.09** I am co-hosting a [Virtual Collection on Control and Decision Intelligence for Unmanned Systems](https://www.the-innovation.org/the-innovation-informatics/unmanned-systems) in *The Innovation Informatics*. Submissions are welcome until 30 June 2027.
-
 **2026.09** I am honored to be invited to give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the [International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html) on 4 October 2026 in Singapore, as part of the forum [*Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*](https://icig.csig.org.cn/2026/14104/list.html).
 
 **2026.09** I am honored to be invited to give a talk, *Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*, in the CLA Invited Academic Talks series at the [College of Liberal Arts, Wenzhou-Kean University](https://cla.wku.edu.cn/en), in November 2026 in Wenzhou, China.
@@ -15,6 +13,8 @@
 **2026.09** I am pleased to serve as an Area Chair for the [15th International Conference on Learning Representations (ICLR)](https://iclr.cc/Conferences/2027). I look forward to contributing to the community and supporting a thoughtful peer-review process.
 
 **2026.09** One paper ([META-PAP](#META-PAP)) has been accepted by the [40th Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2026) (NeurIPS, CCF-A Conference).
+
+**2026.09** I am co-hosting a [Virtual Collection on Control and Decision Intelligence for Unmanned Systems](https://www.the-innovation.org/the-innovation-informatics/unmanned-systems) in *The Innovation Informatics*. Submissions are welcome until 30 June 2027.
 
 **2026.08** I will serve as a Publicity Chair for the [2026 CSIG Annual Conference on Video and Image Security](https://www.csig.org.cn/21/202608/59772.html), to be held on 21 November 2026 in Xiong'an, China. Further information will be shared as it becomes available.
 
