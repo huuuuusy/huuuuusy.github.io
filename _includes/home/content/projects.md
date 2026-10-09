@@ -32,7 +32,7 @@
 
 <span class="project-card__meta">2019.11 – Present</span>
 
-<p>Evaluation infrastructure for the Global Instance Tracking and Multi-modal Global Instance Tracking studies published at TPAMI 2023 and NeurIPS 2023. The platform supports dataset access, tracker registration, standardized submission, and reproducible evaluation.</p>
+<p>Evaluation infrastructure for the <a href="#GIT">Global Instance Tracking</a> and <a href="#MGIT">Multi-modal Global Instance Tracking</a> studies published at TPAMI 2023 and NeurIPS 2023. The platform supports dataset access, tracker registration, standardized submission, and reproducible evaluation.</p>
 
 <div class="project-metrics">
   <span>1.66M+ visits</span><span>1.9K+ users</span><span>720+ trackers</span><span>960+ submissions</span>
@@ -48,7 +48,7 @@
 
 <span class="project-card__meta">2021.07 – Present</span>
 
-<p>A task-space evaluation platform for the SOTVerse and VLTVerse research program, including the study published in IJCV 2024. It provides structured evaluation across tracking scenarios, target categories, and linguistic specifications.</p>
+<p>A task-space evaluation platform for the <a href="#SOTVerse">SOTVerse</a> and <a href="#VLTVerse">VLTVerse</a> research program, including the study published in IJCV 2024. It provides structured evaluation across tracking scenarios, target categories, and linguistic specifications.</p>
 
 <div class="project-metrics">
   <span>267K+ visits</span><span>Task-space evaluation</span>
@@ -64,7 +64,7 @@
 
 <span class="project-card__meta">2022.05 – Present</span>
 
-<p>Benchmark and evaluation infrastructure for real-world drone tracking research, including the BioDrone study published in IJCV 2024. It supports dataset access, standardized benchmarking, and comparative evaluation.</p>
+<p>Benchmark and evaluation infrastructure for real-world drone tracking research, including the <a href="#BioDrone">BioDrone</a> study published in IJCV 2024. It supports dataset access, standardized benchmarking, and comparative evaluation.</p>
 
 <div class="project-metrics">
   <span>541K+ visits</span><span>Real-world UAV tracking</span>
