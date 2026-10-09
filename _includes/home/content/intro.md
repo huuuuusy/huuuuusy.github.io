@@ -2,7 +2,7 @@
 <div class="intro-primary">
 <span class="intro-kicker">Research Fellow · Nanyang Technological University</span>
 <h2>Shiyu Hu <span class="intro-name-zh" lang="zh-CN">(胡世宇)</span></h2>
-<p>My research examines how the <strong>reliability of AI capabilities can be modeled, measured, and diagnosed in open and interactive contexts</strong>. I study whether AI systems can maintain object identity, world state, task-relevant evidence, and interaction context as observations unfold over time or humans participate. My current work spans open-world vision, multimodal reasoning, and human-centered agents.</p>
+<p>Standard evaluation quietly fixes three things: <strong>the conditions under which a model is tested, the moment at which its answer is judged, and who does the judging</strong>. My research releases each in turn. When conditions change, does a score still measure a capability? When a system answers correctly over time, has it kept the right state? When the reference is people who disagree, or people working with AI, what counts as correct? Using human performance and human judgement as reference, I build task spaces, benchmarks, and human reference data to evaluate, diagnose, and model AI capability, starting from dynamic vision and extending to multimodal video understanding and AI for education.</p>
 </div>
 <aside class="intro-profile" aria-label="Current appointment and profile links">
 <div class="intro-profile__item">

@@ -3,7 +3,7 @@ locale: "en-US"
 title: "Shiyu Hu"
 title_separator: "-"
 name: "Shiyu Hu"
-description: "Shiyu Hu - Research Fellow at Nanyang Technological University working on reliable multimodal intelligence."
+description: "Shiyu Hu - Research Fellow at Nanyang Technological University working on human-referenced evaluation, diagnosis, and modelling of AI capability."
 url: "https://hushiyu1995.com"
 baseurl: ""
 repository: "huuuuusy/huuuuusy.github.io"
@@ -11,7 +11,7 @@ timezone: "Asia/Singapore"
 
 # Homepage metadata
 homepage:
-  last_updated: "2026-09"
+  last_updated: "2026-10"
 
 # Optional public visitor statistics. Forks can set enabled to false without
 # editing templates or JavaScript.
@@ -55,7 +55,7 @@ compress_html:
 author:
   name: "Shiyu Hu"
   avatar: "profile.jpg"
-  bio: "Research Fellow at Nanyang Technological University. I study how AI capabilities can be modeled, measured, and diagnosed in open contexts."
+  bio: "Research Fellow at Nanyang Technological University. I study AI capability across conditions, over time, and between humans and AI."
   location: "Singapore"
   googlescholar: "https://scholar.google.com/citations?user=49W-Rx4AAAAJ"
   email: "shiyu.hu@ntu.edu.sg"
