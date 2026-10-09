@@ -617,7 +617,7 @@
     }
 }
 
-.research-framework__loop-label {
+.research-framework__loop .research-framework__loop-label {
     max-width: 160px;
     margin: 0;
     color: var(--home-ink-soft);
@@ -658,6 +658,10 @@
 
     .research-framework__loop {
         grid-template-columns: minmax(0, 1fr);
+    }
+
+    .research-framework__loop .research-framework__loop-label {
+        max-width: none;
     }
 }
 
