@@ -82,12 +82,7 @@
     <h3>Across Conditions</h3>
     <p class="crossing__question">When the conditions change, does the capability still hold?</p>
     <p>A tracker that works well by day may fail at night or on a shaking drone, and an average score does not show where. I break tasks and environments into conditions that can be recombined, add human baselines, and test whether a capability measured under some conditions predicts behavior under others.</p>
-    <dl class="crossing__steps">
-      <div><dt>Evaluate</dt><dd><a href="#SOTVerse">SOTVerse</a> · <a href="#BioDrone">BioDrone</a> · <a href="#VLTVerse">VLTVerse</a> · <a href="#STEMVerse">STEMVerse</a> · <a href="#JIG-survey">SOT evaluation survey</a></dd></div>
-      <div><dt>Model</dt><dd><a href="#MATrack">MATrack</a> · <a href="#DARTer">DARTer</a></dd></div>
-      <div><dt>Apply</dt><dd>UAV and nighttime vision</dd></div>
-    </dl>
-    <details class="crossing__more"><summary>With collaborators (9)</summary><p><a href="#SpringerBook">Evaluation monograph</a> · <a href="#TBDQ">TBDQ</a> · <a href="#HLE">Humanity's Last Exam</a> · <a href="#Neu22">Instance search</a> · <a href="#DAAWBench">Air-writing benchmark</a> · <a href="#AWCV">Unconstrained air-writing</a> · <a href="#MSAD">SAR detection</a> · <a href="#Retina-EMBC">Retinal OCT</a> · <a href="#ICASSP24">Cryo-EM denoising</a></p></details>
+    <p class="crossing__papers"><a href="#SOTVerse">SOTVerse</a> · <a href="#BioDrone">BioDrone</a> · <a href="#VLTVerse">VLTVerse</a> · <a href="#STEMVerse">STEMVerse</a> · <a href="#JIG-survey">SOT evaluation survey</a> · <a href="#MATrack">MATrack</a> · <a href="#DARTer">DARTer</a> · <a href="#SpringerBook">Evaluation monograph</a> · <a href="#TBDQ">TBDQ</a> · <a href="#HLE">Humanity's Last Exam</a> · <a href="#Neu22">Instance search</a> · <a href="#DAAWBench">Air-writing benchmark</a> · <a href="#AWCV">Unconstrained air-writing</a> · <a href="#MSAD">SAR detection</a> · <a href="#Retina-EMBC">Retinal OCT</a> · <a href="#ICASSP24">Cryo-EM denoising</a></p>
   </div>
 </article>
 
@@ -101,12 +96,7 @@
     <h3>Over Time</h3>
     <p class="crossing__question">When the answer is right, has the system kept the right state?</p>
     <p>A target leaves the view and returns, a description given at the start goes stale, and similar objects pull identity away. I describe state by three rules: keep what still holds, update what has changed, and leave open what the evidence cannot support.</p>
-    <dl class="crossing__steps">
-      <div><dt>Evaluate</dt><dd><a href="#GIT">GIT</a> · <a href="#MGIT">MGIT</a></dd></div>
-      <div><dt>Model</dt><dd><a href="#ATCTrack">ATCTrack</a> · <a href="#SOI-V2">SOI</a></dd></div>
-      <div><dt>Apply</dt><dd>Long and streaming video (<a href="#Streaming-Video-Survey">survey</a>)</dd></div>
-    </dl>
-    <details class="crossing__more"><summary>With collaborators (16)</summary><p><a href="#EARL">Select Less</a> · <a href="#RGRL">Look Less</a> · <a href="#CausalStep">CausalStep</a> · <a href="#VerifyBench">VerifyBench</a> · <a href="#ViEBench">ViEBench</a> · <a href="#NarrLV">NarrLV</a> · <a href="#MemVLT">MemVLT</a> · <a href="#CSTrack">CSTrack</a> · <a href="#ICASSP25">Text-to-visual cues</a> · <a href="#DTVLT">DTVLT</a> · <a href="#VLT-MI">VLT-MI</a> · <a href="#DTLLM">DTLLM-VLT</a> · <a href="#COAL">COAL</a> · <a href="#DASTrack">DASTrack</a> · <a href="#TNSE26">Video intelligence survey</a> · <a href="#CSAI23">Similar object interference</a></p></details>
+    <p class="crossing__papers"><a href="#GIT">GIT</a> · <a href="#MGIT">MGIT</a> · <a href="#ATCTrack">ATCTrack</a> · <a href="#SOI-V2">SOI</a> · <a href="#Streaming-Video-Survey">Streaming video survey</a> · <a href="#EARL">Select Less</a> · <a href="#RGRL">Look Less</a> · <a href="#CausalStep">CausalStep</a> · <a href="#VerifyBench">VerifyBench</a> · <a href="#ViEBench">ViEBench</a> · <a href="#NarrLV">NarrLV</a> · <a href="#MemVLT">MemVLT</a> · <a href="#CSTrack">CSTrack</a> · <a href="#ICASSP25">Text-to-visual cues</a> · <a href="#DTVLT">DTVLT</a> · <a href="#VLT-MI">VLT-MI</a> · <a href="#DTLLM">DTLLM-VLT</a> · <a href="#COAL">COAL</a> · <a href="#DASTrack">DASTrack</a> · <a href="#TNSE26">Video intelligence survey</a> · <a href="#CSAI23">Similar object interference</a></p>
   </div>
 </article>
 
@@ -120,12 +110,7 @@
     <h3>Between Humans and AI</h3>
     <p class="crossing__question">When people disagree, or work with AI, what counts as correct?</p>
     <p>A single ground truth is the wrong reference when people disagree. I treat human judgments as a reference distribution, compare people and models on the same tasks and the same scale, and model LLM-based virtual students that should behave like learners rather than only sound like them.</p>
-    <dl class="crossing__steps">
-      <div><dt>Evaluate</dt><dd><a href="#FIOVA">FIOVA</a> · <a href="#VTT-ICLR">Human–machine dynamic vision</a> · <a href="#EduPersona">EduPersona</a></dd></div>
-      <div><dt>Model</dt><dd><a href="#SOEI">SOEI</a></dd></div>
-      <div><dt>Apply</dt><dd>Education</dd></div>
-    </dl>
-    <details class="crossing__more"><summary>With collaborators (14)</summary><p><a href="#CPDTrack">Beyond Accuracy</a> · <a href="#VTT">Visual Turing</a> · <a href="#EduVerse">EduVerse</a> · <a href="#HyperRationality">Beyond Hyper-Rationality</a> · <a href="#Mathematics-CalcTutor">CalcTutor</a> · <a href="#CEAI-adaptive">Adaptive learning review</a> · <a href="#Mathematics-AGS">Automated grading review</a> · <a href="#IET-AI4Edu">Trustworthy AI in education</a> · <a href="#GHASS">Generative human–AI social systems</a> · <a href="#IGBA">Psychological assessment review</a> · <a href="#VSLLM">VS-LLM</a> · <a href="#PRCV23">Sandplay therapy</a> · <a href="#FakeNewsCourt">Fake News Court</a> · <a href="#META-PAP">META-PAP</a></p></details>
+    <p class="crossing__papers"><a href="#FIOVA">FIOVA</a> · <a href="#VTT-ICLR">Human–machine dynamic vision</a> · <a href="#EduPersona">EduPersona</a> · <a href="#SOEI">SOEI</a> · <a href="#CPDTrack">Beyond Accuracy</a> · <a href="#VTT">Visual Turing</a> · <a href="#EduVerse">EduVerse</a> · <a href="#HyperRationality">Beyond Hyper-Rationality</a> · <a href="#Mathematics-CalcTutor">CalcTutor</a> · <a href="#CEAI-adaptive">Adaptive learning review</a> · <a href="#Mathematics-AGS">Automated grading review</a> · <a href="#IET-AI4Edu">Trustworthy AI in education</a> · <a href="#GHASS">Generative human–AI social systems</a> · <a href="#IGBA">Psychological assessment review</a> · <a href="#VSLLM">VS-LLM</a> · <a href="#PRCV23">Sandplay therapy</a> · <a href="#FakeNewsCourt">Fake News Court</a> · <a href="#META-PAP">META-PAP</a></p>
   </div>
 </article>
 

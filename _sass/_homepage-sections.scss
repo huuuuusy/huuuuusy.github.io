@@ -186,8 +186,7 @@
     }
 }
 
-.background-details,
-.crossing__more {
+.background-details {
     margin-top: 2px;
 
     summary {
@@ -497,38 +496,10 @@
     font-weight: 600;
 }
 
-.crossing__steps {
-    display: grid;
-    gap: var(--home-space-1);
-    margin: auto 0 var(--home-space-1);
+.crossing__card .crossing__papers {
+    margin: auto 0 0;
     padding-top: var(--home-space-3);
     border-top: 1px solid var(--home-rule);
-    font-size: var(--home-fs-meta);
-    line-height: 1.6;
-
-    div {
-        display: grid;
-        grid-template-columns: 5.2em minmax(0, 1fr);
-        gap: var(--home-space-2);
-        align-items: baseline;
-    }
-
-    dt {
-        color: var(--home-blue);
-        font-size: var(--home-fs-micro);
-        font-weight: 600;
-        letter-spacing: .06em;
-        text-transform: uppercase;
-    }
-
-    dd {
-        margin: 0;
-        color: var(--home-ink-muted);
-    }
-}
-
-.crossing__card .crossing__more p {
-    margin: var(--home-space-1) 0 0;
     color: var(--home-ink-muted);
     font-size: var(--home-fs-meta);
     line-height: 1.7;
