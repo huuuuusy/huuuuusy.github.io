@@ -48,6 +48,8 @@
 
 **2026.01** One paper ([NarrLV](#NarrLV)) has been accepted by the [14th International Conference on Learning Representations](https://iclr.cc/Conferences/2026) (ICLR, CCF-A Conference).
 
+**2025.12** I was invited to share my research experience as a UCAS alum at the Artificial Intelligence Sub-forum of the [University of Chinese Academy of Sciences 2025 Graduate Academic Forum](https://mp.weixin.qq.com/s/Frgc8iEkhvYBO5XM7wGQsw) (13th December, 2025, Beijing).
+
 **2025.12** We will conduct a Mini-Symposium (topic: Complex Network Systems and Large Language Models) on [NODYCON 2026 (The Fifth International Nonlinear Dynamics Conference)](https://nodycon2026.app.earendelplatform.com/), more information will be released soon.
 
 **2025.11** Three papers have been accepted by the [AI for Education Workshop in the 40th Annual AAAI Conference on Artificial Intelligence](https://ai4ed.cc/workshops/aaai2026) (AAAIW).
@@ -57,6 +59,8 @@
 **2025.10** We have conducted a tutorial at [28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/) (26th October, 2025, Bologna, Italy).
 
 **2025.10** We have conducted a tutorial at [2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/) (5th October, 2025, Vienna, Austria).
+
+**2025.08** I gave an invited talk, *Human-Centric Multimodal Visual Intelligence: From Benchmarks to Human-Like Modeling*, at the [Visual Intelligence International Postdoctoral (Doctoral) Academic Frontier Seminar](https://mp.weixin.qq.com/s/dBXVdb6BAalmFctsUCJOwA) (30th August, 2025, online).
 
 **2025.08** We have conducted a tutorial at [34th International Joint Conference on Artificial Intelligence (IJCAI)](https://2025.ijcai.org/) (18th August, 2025, Montreal, Canada).
 

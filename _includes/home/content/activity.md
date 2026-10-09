@@ -65,6 +65,14 @@
 **[Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/)**
 - **Title:** Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency
 - **Date & Location:** 29th May, 2026, Guangzhou, China<br>
+
+**[University of Chinese Academy of Sciences, 2025 Graduate Academic Forum (Artificial Intelligence Sub-forum)](https://mp.weixin.qq.com/s/Frgc8iEkhvYBO5XM7wGQsw)**
+- **Role:** Alumni speaker, research experience sharing
+- **Date & Location:** 13th December, 2025, Beijing, China<br>
+
+**[Visual Intelligence International Postdoctoral (Doctoral) Academic Frontier Seminar](https://mp.weixin.qq.com/s/dBXVdb6BAalmFctsUCJOwA)**
+- **Title:** Human-Centric Multimodal Visual Intelligence: From Benchmarks to Human-Like Modeling
+- **Date & Location:** 30th August, 2025, Online<br>
 <!-- - **Duration:** Half-day<br> -->
 <!-- [Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
 <!-- [Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)  -->
