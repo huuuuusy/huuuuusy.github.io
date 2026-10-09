@@ -1,4 +1,4 @@
-## Research Trajectory
+<p class="research-thesis"><strong>The dynamic states of humans and AI in open environments.</strong> From giving an answer to keeping the right state: what a system should keep, update, or leave open as conditions change, time passes, and people take part.</p>
 
 <div class="research-trajectory">
   <figure class="research-figure research-figure--history">
@@ -20,48 +20,7 @@
     </svg>
   </figure>
 
-  <div class="research-trajectory__copy" markdown="1">
-
-<p>My research began with <strong>visual object tracking</strong> and machine vision evaluation. Three questions from that work still shape it: how a task should be defined, how an evaluation space should be built, and how machines compare with people.</p>
-
-  </div>
 </div>
-
-<div class="research-path">
-
-<article class="research-step" markdown="1">
-<div class="research-step__content" markdown="1">
-
-### Task definition: from local tracking to global instance tracking
-
-<p>Visual object tracking gave a concrete task for studying dynamic visual ability. <a href="#GIT">Global Instance Tracking (GIT)</a> removes the assumption of continuous motion and asks a system to find the same target across a long video, while <a href="#MGIT">Multi-modal GIT (MGIT)</a> adds hierarchical semantics and spatiotemporal-causal relations.</p>
-
-</div>
-</article>
-
-<article class="research-step" markdown="1">
-<div class="research-step__content" markdown="1">
-
-### Evaluation space: from fixed benchmarks to conditions
-
-<p>Benchmarks usually test a tracker under one fixed mix of conditions. <a href="http://videocube.aitestunion.com/">VideoCube</a> organizes long videos through narrative structure, <a href="#SOTVerse">SOTVerse</a> turns challenge factors into a user-defined task space built on the 3E framework (environment, evaluation, executor), and <a href="#BioDrone">BioDrone</a> examines perception under physical disturbance.</p>
-
-</div>
-</article>
-
-<article class="research-step" markdown="1">
-<div class="research-step__content" markdown="1">
-
-### Human-machine comparison: people as the reference
-
-<p>Building on the idea of a <a href="#VTT">visual Turing test</a>, I placed people and trackers on the same dynamic visual tasks (<a href="#VTT-ICLR">human–machine dynamic vision</a>) to see where conventional metrics hide the difference between them.</p>
-
-</div>
-</article>
-
-</div>
-
-<p class="research-bridge">Each step asked what a system carries forward when something changes. My current work follows this question along three lines: across conditions, over time, and between humans and AI. In short, <strong>from giving an answer to keeping the right state</strong>.</p>
 
 ## Research Framework
 
@@ -123,3 +82,43 @@
     <li><strong>Apply</strong><span>does it hold up in UAV vision, video understanding, and education?</span></li>
   </ol>
 </div>
+
+## Where It Started
+
+<p>My research began with <strong>visual object tracking</strong> and machine vision evaluation. Three questions from that work still shape it: how a task should be defined, how an evaluation space should be built, and how machines compare with people.</p>
+
+<div class="research-path">
+
+<article class="research-step" markdown="1">
+<div class="research-step__content" markdown="1">
+
+### Task definition: from local tracking to global instance tracking
+
+<p>Visual object tracking gave a concrete task for studying dynamic visual ability. <a href="#GIT">Global Instance Tracking (GIT)</a> removes the assumption of continuous motion and asks a system to find the same target across a long video, while <a href="#MGIT">Multi-modal GIT (MGIT)</a> adds hierarchical semantics and spatiotemporal-causal relations.</p>
+
+</div>
+</article>
+
+<article class="research-step" markdown="1">
+<div class="research-step__content" markdown="1">
+
+### Evaluation space: from fixed benchmarks to conditions
+
+<p>Benchmarks usually test a tracker under one fixed mix of conditions. <a href="http://videocube.aitestunion.com/">VideoCube</a> organizes long videos through narrative structure, <a href="#SOTVerse">SOTVerse</a> turns challenge factors into a user-defined task space built on the 3E framework (environment, evaluation, executor), and <a href="#BioDrone">BioDrone</a> examines perception under physical disturbance.</p>
+
+</div>
+</article>
+
+<article class="research-step" markdown="1">
+<div class="research-step__content" markdown="1">
+
+### Human-machine comparison: people as the reference
+
+<p>Building on the idea of a <a href="#VTT">visual Turing test</a>, I placed people and trackers on the same dynamic visual tasks (<a href="#VTT-ICLR">human–machine dynamic vision</a>) to see where conventional metrics hide the difference between them.</p>
+
+</div>
+</article>
+
+</div>
+
+<p class="research-bridge">Each step asked what a system carries forward when something changes. The three lines above follow this question across conditions, over time, and between humans and AI.</p>

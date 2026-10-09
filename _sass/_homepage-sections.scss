@@ -412,6 +412,7 @@
     }
 }
 
+.research-thesis,
 .research-trajectory__copy,
 .research-bridge,
 .research-framework__lead,
@@ -421,6 +422,21 @@
 
 .research-bridge {
     margin: 0 0 var(--home-space-2);
+}
+
+.research-thesis {
+    margin: 0 0 var(--home-space-4);
+    color: var(--home-ink);
+    font-size: var(--home-fs-lead);
+    line-height: var(--home-lh-body);
+
+    strong {
+        display: block;
+        margin-bottom: 2px;
+        color: var(--home-ink-strong);
+        font-size: var(--home-fs-subsection);
+        font-weight: 600;
+    }
 }
 
 .research-framework__lead {

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Research Profile"
+title: "Shiyu Hu · Dynamic States of Humans and AI"
 # excerpt: "Shiyu Hu"
 author_profile: true
 redirect_from: 

@@ -10,7 +10,7 @@ SECTIONS = %w[intro news background research publications projects honors activi
 TEMPLATES = %w[homepage section publication-browser visitor-insights footer scroll-controls scripts].freeze
 PUBLICATION_PARTS = %w[monograph lead-author collaborative workshop preprints].freeze
 STYLE_PARTIALS = %w[homepage-tokens homepage-base homepage-layout homepage-sections homepage-publications homepage-visitor homepage-controls].freeze
-NAVIGATION_TITLES = %w[About Background Research Publications Projects Service CV].freeze
+NAVIGATION_TITLES = %w[About Research Publications Projects Background Service CV].freeze
 LEGACY_TEMPLATE_PATHS = %w[
   _data/ui-text.yml
   _includes/comments.html

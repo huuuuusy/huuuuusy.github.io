@@ -1,22 +1,4 @@
-<p>This section documents research software, evaluation platforms, academic challenges, and funded projects. Associated research outputs are listed under <a href="#publications">Publications</a>.</p>
-
-## Research Software
-
-<div class="project-grid project-grid--single">
-<article class="project-card" markdown="1">
-
-### Darknet-Cross
-
-<span class="project-card__subtitle">Lightweight Deep Learning Framework for Heterogeneous Computing</span>
-
-<span class="project-card__meta">2018.02 – 2018.12</span>
-
-<p>A cross-platform acceleration framework developed for Android and Ubuntu across mobile and desktop GPUs. This work formed the engineering component of my master's thesis at HKU.</p>
-
-<a href="https://github.com/huuuuusy/Darknet-Cross">GitHub repository →</a>
-
-</article>
-</div>
+<p>The evaluation platforms below are the infrastructure behind the <a href="#research-interests">across-conditions and over-time lines</a>: they make task spaces, long videos, and physical disturbance testable at scale. Funded projects, academic challenges, and earlier research software follow; associated research outputs are listed under <a href="#publications">Publications</a>.</p>
 
 ## Research Platforms
 
@@ -91,34 +73,6 @@
 </article>
 </div>
 
-## Challenges
-
-<div class="project-grid">
-<article class="project-card project-card--compact" markdown="1">
-
-### Hislopvision Challenge
-
-<span class="project-card__meta">2023.05 – 2023.11</span>
-
-<p>Organization of the Hislopvision track for the 3rd High-speed and Low-power Visual Understanding Challenge at PRCV 2023, with participating teams from Tsinghua University, Beijing Institute of Technology, and Jilin University.</p>
-
-<a href="http://hislopvision.aitestunion.com/">Challenge platform →</a>
-
-</article>
-
-<article class="project-card project-card--compact" markdown="1">
-
-### Cell Tracking Challenge
-
-<span class="project-card__meta">2021.01 – 2021.04</span>
-
-<p>Our method ranked second on Fluo-C2FL-MSC+ and third on Fluo-C2FL-Huh7, based on the challenge rankings recorded in October 2023.</p>
-
-<a href="https://celltrackingchallenge.net/">Challenge website →</a>
-
-</article>
-</div>
-
 ## Funded Research Projects
 
 <div class="project-grid project-grid--single project-grid--funded">
@@ -153,6 +107,52 @@
 <span class="project-card__meta">Shanghai Institute of AI Education · East China Normal University</span>
 
 <div class="project-metrics"><span>Research Contributor</span><span>2024.01 – 2025.01</span></div>
+
+</article>
+</div>
+
+## Challenges
+
+<div class="project-grid">
+<article class="project-card project-card--compact" markdown="1">
+
+### Hislopvision Challenge
+
+<span class="project-card__meta">2023.05 – 2023.11</span>
+
+<p>Organization of the Hislopvision track for the 3rd High-speed and Low-power Visual Understanding Challenge at PRCV 2023, with participating teams from Tsinghua University, Beijing Institute of Technology, and Jilin University.</p>
+
+<a href="http://hislopvision.aitestunion.com/">Challenge platform →</a>
+
+</article>
+
+<article class="project-card project-card--compact" markdown="1">
+
+### Cell Tracking Challenge
+
+<span class="project-card__meta">2021.01 – 2021.04</span>
+
+<p>Our method ranked second on Fluo-C2FL-MSC+ and third on Fluo-C2FL-Huh7, based on the challenge rankings recorded in October 2023.</p>
+
+<a href="https://celltrackingchallenge.net/">Challenge website →</a>
+
+</article>
+</div>
+
+## Research Software
+
+<div class="project-grid project-grid--single">
+<article class="project-card" markdown="1">
+
+### Darknet-Cross
+
+<span class="project-card__subtitle">Lightweight Deep Learning Framework for Heterogeneous Computing</span>
+
+<span class="project-card__meta">2018.02 – 2018.12</span>
+
+<p>A cross-platform acceleration framework developed for Android and Ubuntu across mobile and desktop GPUs. This work formed the engineering component of my master's thesis at HKU.</p>
+
+<a href="https://github.com/huuuuusy/Darknet-Cross">GitHub repository →</a>
 
 </article>
 </div>

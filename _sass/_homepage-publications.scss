@@ -325,3 +325,57 @@
         flex-direction: column;
     }
 }
+
+/* Line filter: options mirror the framework cards in the Research section. */
+.home-section--publications .paper-box[hidden],
+.home-section--publications .publication-browser[hidden],
+.home-section--publications .workshop-list li[hidden],
+.home-section--publications h2[hidden],
+.home-section--publications h3[hidden] {
+    display: none;
+}
+
+.publication-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin: 0 0 var(--home-space-5);
+
+    &[hidden] {
+        display: none;
+    }
+}
+
+.publication-filter__label {
+    margin-right: var(--home-space-2);
+    color: var(--home-ink-muted);
+    font-size: var(--home-fs-micro);
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.publication-filter__option {
+    min-height: 26px;
+    padding: 0 10px;
+    border: 1px solid var(--home-rule-strong);
+    border-radius: var(--home-radius-small);
+    color: var(--home-ink);
+    background: var(--home-canvas);
+    font: inherit;
+    font-size: 12.5px;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+        border-color: var(--home-blue);
+        color: var(--home-blue);
+    }
+
+    &[aria-pressed="true"] {
+        border-color: var(--home-blue);
+        color: var(--home-blue);
+        background: var(--home-blue-tint);
+    }
+}

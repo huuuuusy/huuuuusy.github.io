@@ -65,7 +65,7 @@ if site_path
   html = File.read(index_path, encoding: "UTF-8")
   abort("Rendered homepage is missing its scoped editorial body class") unless html.include?('<body class=homepage-shell>') || html.include?('<body class="homepage-shell">')
   expected_sections = %w[
-    about-me news background research-interests publications projects
+    about-me research-interests publications news projects background
     honors-and-awards activities-and-services contact
   ]
   rendered_sections = html.scan(/<section class="home-section[^>]*id="([^"]+)"/).flatten
@@ -92,7 +92,7 @@ if site_path
 
   navigation_html = html[/<div class="site-nav__links"[^>]*>(.*?)<\/div>/m].to_s
   navigation_titles = navigation_html.scan(/<a href="[^"]+" target="_self">([^<]+)<\/a>/).flatten
-  expected_navigation_titles = %w[About Background Research Publications Projects Service CV]
+  expected_navigation_titles = %w[About Research Publications Projects Background Service CV]
   unless navigation_titles == expected_navigation_titles
     abort("Rendered primary navigation order is incorrect: #{navigation_titles.join(" -> ")}")
   end
