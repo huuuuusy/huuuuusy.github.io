@@ -82,14 +82,14 @@
     </div>
     <h3>Across Conditions</h3>
     <p class="crossing__question">Does a score still measure a capability once the conditions change?</p>
-    <p>I break tasks and environments into conditions that can be recombined, with human baselines, and test whether a capability measured under some conditions predicts behaviour under others.</p>
+    <p>I break tasks and environments into conditions that can be recombined, with human baselines, and test whether a capability measured under some conditions predicts behavior under others.</p>
     <p class="crossing__works"><span class="crossing__works-label">Lead</span><a href="#SOTVerse">SOTVerse</a> · <a href="#BioDrone">BioDrone</a> · <a href="#VLTVerse">VLTVerse</a> · <a href="#STEMVerse">STEMVerse</a> · <a href="#JIG-survey">SOT evaluation survey</a> · <a href="#MATrack">MATrack</a> · <a href="#DARTer">DARTer</a></p>
     <details class="crossing__more"><summary>With collaborators (6)</summary><p><a href="#SpringerBook">Evaluation monograph</a> · <a href="#TBDQ">TBDQ</a> · <a href="#HLE">Humanity's Last Exam</a> · <a href="#Neu22">Instance search</a> · <a href="#DAAWBench">Air-writing benchmark</a> · <a href="#AWCV">Unconstrained air-writing</a></p></details>
   </div>
 </article>
 
 <article class="crossing">
-  <p class="crossing__fixed"><svg class="crossing__lock" viewBox="0 0 12 14" aria-hidden="true"><rect x="1" y="6" width="10" height="7.5" rx="1.5"/><path d="M3.5 6V4.2a2.5 2.5 0 0 1 5 0V6"/></svg><span>Standard evaluation fixes</span>one moment of judgement</p>
+  <p class="crossing__fixed"><svg class="crossing__lock" viewBox="0 0 12 14" aria-hidden="true"><rect x="1" y="6" width="10" height="7.5" rx="1.5"/><path d="M3.5 6V4.2a2.5 2.5 0 0 1 5 0V6"/></svg><span>Standard evaluation fixes</span>one moment of judgment</p>
   <p class="crossing__release" aria-hidden="true">release</p>
   <div class="crossing__card">
     <div class="crossing__head">
@@ -114,7 +114,7 @@
     </div>
     <h3>Between Humans and AI</h3>
     <p class="crossing__question">When people disagree, or work with AI, what counts as correct?</p>
-    <p>I treat human judgements as a reference distribution, place people and models on the same tasks and the same scale, and test whether LLM-based virtual students behave like learners rather than only sounding like them. Education is the main setting.</p>
+    <p>I treat human judgments as a reference distribution, place people and models on the same tasks and the same scale, and test whether LLM-based virtual students behave like learners rather than only sounding like them. Education is the main setting.</p>
     <p class="crossing__works"><span class="crossing__works-label">Lead</span><a href="#FIOVA">FIOVA</a> · <a href="#VTT-ICLR">Human–machine dynamic vision</a> · <a href="#SOEI">SOEI</a> · <a href="#EduPersona">EduPersona</a></p>
     <details class="crossing__more"><summary>With collaborators (11)</summary><p><a href="#CPDTrack">Beyond Accuracy</a> · <a href="#VTT">Visual Turing</a> · <a href="#EduVerse">EduVerse</a> · <a href="#HyperRationality">Beyond Hyper-Rationality</a> · <a href="#Mathematics-CalcTutor">CalcTutor</a> · <a href="#CEAI-adaptive">Adaptive learning review</a> · <a href="#Mathematics-AGS">Automated grading review</a> · <a href="#IET-AI4Edu">Trustworthy AI in education</a> · <a href="#GHASS">Generative human–AI social systems</a> · <a href="#IGBA">Psychological assessment review</a> · <a href="#VSLLM">VS-LLM</a></p></details>
   </div>
