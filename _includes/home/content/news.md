@@ -4,7 +4,7 @@
 
 **2026.10** One paper ([GHASS](#GHASS)) has been accepted by [Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (CSF, JCR Q1, IF 5.7).
 
-**2026.09** I am honored to be invited to give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the [International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html) (CCF-C Conference) on 4 October 2026 in Singapore, as part of the forum [*Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*](https://mp.weixin.qq.com/s/A4x_gxXGLLJTHXG1RIE9HQ).
+**2026.09** I am honored to be invited to give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the [International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html) (CCF-C Conference) on 4 October 2026 in Singapore, as part of the forum *Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*.
 
 **2026.09** I am honored to be invited to give a talk, *Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*, in the CLA Invited Academic Talks series at the [College of Liberal Arts, Wenzhou-Kean University](https://cla.wku.edu.cn/en), in November 2026 in Wenzhou, China.
 
@@ -22,7 +22,7 @@
 
 **2026.06** One paper ([DASTrack](#DASTrack)) has been accepted by the [2026 European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (ECCV, CCF-B Conference).
 
-**2026.05** I am glad to have the opportunity to give a talk at the [Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/) in Guangzhou, China. Many thanks to the special session [*Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges*](https://mp.weixin.qq.com/s/HlhbVIXIuAIwHpVa3Vyf1Q). I sincerely look forward to exchanging ideas with everyone and hearing your valuable suggestions.
+**2026.05** I am glad to have the opportunity to give a talk at the [Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/) in Guangzhou, China. Many thanks to the special session *Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges*. I sincerely look forward to exchanging ideas with everyone and hearing your valuable suggestions.
 
 **2026.05** I received a Reviewer Award from the [43rd International Conference on Machine Learning (ICML 2026)](https://icml.cc/Conferences/2026).
 
