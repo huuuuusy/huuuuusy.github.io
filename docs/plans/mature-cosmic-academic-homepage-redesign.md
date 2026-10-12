@@ -370,3 +370,10 @@ HKU 日期更正已同步到 Shiyu 的私有研究记录（以更正说明形式
 - `files/CV-EN.pdf` 换为同步上述期刊指标、引用数据与说明的新版 CV。Google Scholar 当前为 h-index 17、i10-index 26（此前 CV 写 18、27，Scholar 端有条目合并或移除），CV 与主页统一为当前值。
 
 CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，下边距由 1.2 cm 减为 0.95 cm，仍为一页）。期刊指标及来源已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
+
+### News 标注与出版物对齐（2026-10-12）
+
+- News 中的期刊录用条目补 JCR 分区与 2025 IF，数值与出版物条目一致（含 HLE 一条的 *Nature*）；两本中文期刊与 Electronics 特刊条目不变。
+- 会议没有 JCR/IF，改为与出版物条目同样标 CCF 级别：补 EMNLP 2026（CCF-B）、AAAI 与 CVPR workshop（Workshop in CCF-A Conference）、PRCV（CCF-C）、CSAI（EI Conference）；小写 “conference” 统一为 “Conference”。
+- 三篇 AAAI 2026 AI4Edu workshop 论文（SOEI、EduVerse、EduPersona）经 Shiyu 确认为 Oral，出版物条目与 News 补 Oral 标注，与 CV 一致。
+- 新增 `scripts/update_scholar_metrics.rb`：每天首次更新主页或 CV 前运行，读取 Google Scholar 公开主页并更新 `_data/scholar.yml`；当天已更新则跳过，遇到错误或验证码页面不改文件。
