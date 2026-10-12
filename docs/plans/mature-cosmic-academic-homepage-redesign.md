@@ -377,3 +377,9 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - 会议没有 JCR/IF，改为与出版物条目同样标 CCF 级别：补 EMNLP 2026（CCF-B）、AAAI 与 CVPR workshop（Workshop in CCF-A Conference）、PRCV（CCF-C）、CSAI（EI Conference）；小写 “conference” 统一为 “Conference”。
 - 三篇 AAAI 2026 AI4Edu workshop 论文（SOEI、EduVerse、EduPersona）经 Shiyu 确认为 Oral，出版物条目与 News 补 Oral 标注，与 CV 一致。
 - 新增 `scripts/update_scholar_metrics.rb`：每天首次更新主页或 CV 前运行，读取 Google Scholar 公开主页并更新 `_data/scholar.yml`；当天已更新则跳过，遇到错误或验证码页面不改文件。
+
+### ICIG 与 CCIG 报告信息（2026-10-12）
+
+- 依据中国图像图形学会视频图像与安全专委会发布的两篇论坛报道，Activities → Talk 的 ICIG 2026 条目写作第十四届，地点补为南洋理工大学（ICIG 2026 于 2026-10-01 至 05 在 NTU 举行），CCIG 2026 条目补论坛名；两条各加 “Forum Report” 链接，News 中对应的两条报告消息末尾加 “See the forum report”。
+- ICIG 按 Shiyu 确认标注 CCF-C（Activities 与 News）。同日核对 CCF 官网第七版计算机图形学与多媒体、人工智能两类目录均未见 ICIG，第三方会议库标为 CCF C；此标注以 Shiyu 的确认为依据。完整版 CV 同步（ICIG 加 CCF-C，CCIG 加论坛名，页数由 10 页变为 11 页）；一页版 CV 的服务条目一贯不标 CCF 级别，未改。
+- 会议级别已同步到 Shiyu 的私有研究记录；本文件不转录其内容。

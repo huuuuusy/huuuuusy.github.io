@@ -57,14 +57,17 @@
 - **Title:** Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation
 - **Date & Location:** November, 2026, Wenzhou, China<br>
 
-**[International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html)**
+**[14th International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html)** (CCF-C Conference)
 - **Forum:** [Visual Intelligence in Transition: From Physical Perception to Psychological Cognition](https://icig.csig.org.cn/2026/14104/list.html)
 - **Title:** From Object Tracking to Process Understanding: State Modeling in Dynamic Vision
-- **Date & Location:** 4th October, 2026, Singapore<br>
+- **Date & Location:** 4th October, 2026, Nanyang Technological University, Singapore<br>
+[Forum Report](https://mp.weixin.qq.com/s/A4x_gxXGLLJTHXG1RIE9HQ)
 
 **[Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/)**
+- **Forum:** Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges
 - **Title:** Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency
 - **Date & Location:** 29th May, 2026, Guangzhou, China<br>
+[Forum Report](https://mp.weixin.qq.com/s/HlhbVIXIuAIwHpVa3Vyf1Q)
 
 **[University of Chinese Academy of Sciences, 2025 Graduate Academic Forum (Artificial Intelligence Sub-forum)](https://mp.weixin.qq.com/s/Frgc8iEkhvYBO5XM7wGQsw)**
 - **Role:** Alumni speaker, research experience sharing
