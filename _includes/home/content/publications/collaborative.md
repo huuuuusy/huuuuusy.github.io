@@ -11,6 +11,7 @@
 P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 [Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2026) (CCF-A Conference, Poster)<br>
 <span class="paper-keywords">LLM Alignment · Prompt-Aware Preference Pairing · Bilevel Meta-Reweighting</span><br>
+[📃 Paper](https://openreview.net/forum?id=yiQav1vmSS)
 </div>
 </div>
 
@@ -37,7 +38,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Zhang](https://zwt233.github.io/)<br>
 [Proceedings of the AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/) (CCF-A Conference, **<font color=DarkRed>Oral</font>**)<br>
 <span class="paper-keywords">Video-LLM Reasoning · Stepwise Causal Reasoning · Diagnostic Benchmark</span><br>
-[📃 Paper](https://arxiv.org/abs/2507.16878)
+[📃 Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37582)
 [📑 PDF](https://arxiv.org/pdf/2507.16878)
 [📹 Slides](https://huuuuusy.github.io/files/CausalStep-Slides.pdf)
 </div>
@@ -52,7 +53,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Guo](https://openreview.net/profile?id=~yongzhen.gyz1), [W. Zhang](https://zwt233.github.io/)<br>
 [Proceedings of the AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/) (CCF-A Conference, **<font color=DarkRed>Oral</font>**)<br>
 <span class="paper-keywords">LLM Reasoning · Reasoning Verifiers · RLVR Evaluation</span><br>
-[📃 Paper](https://arxiv.org/abs/2507.09884)
+[📃 Paper](https://ojs.aaai.org/index.php/AAAI/article/view/40448)
 [📑 PDF](https://arxiv.org/pdf/2507.09884)
 [📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf)
 </div>
@@ -124,6 +125,8 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), X. Cheng, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br>
 [International Joint Conference on Artificial Intelligence](https://2026.ijcai.org/) (CCF-B Conference)<br>
 <span class="paper-keywords">Referring Multi-Object Tracking · Robust Language Grounding · Counterfactual Alignment Learning</span><br>
+[📃 Paper](https://www.ijcai.org/proceedings/2026/141)
+[📑 PDF](https://www.ijcai.org/proceedings/2026/0141.pdf)
 <!-- [📃 Paper](https://arxiv.org/abs/2411.06197)
 [📑 PDF](https://arxiv.org/pdf/2411.06197)  -->
 </div>
@@ -139,6 +142,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, H. Fu, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (CCF-B Conference)<br>
 <span class="paper-keywords">Visual Object Tracking · Temporal Representation Learning · Decoupled Auxiliary Supervision</span><br>
+[📃 Paper](https://link.springer.com/chapter/10.1007/978-3-032-37432-5_12)
 
 </div>
 </div>

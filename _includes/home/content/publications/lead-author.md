@@ -99,7 +99,7 @@
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
 [International Conference on Robotics and Automation](https://2026.ieee-icra.org/) (CCF-B Conference)<br>
 <span class="paper-keywords">Nighttime UAV Tracking · Multiscale Adaptation · Real-Time Deployment</span><br>
-[📃 Paper](https://arxiv.org/abs/2510.21586)
+[📃 Paper](https://ieeexplore.ieee.org/document/11696451/)
 [📑 PDF](https://arxiv.org/pdf/2510.21586)
 </div>
 </div>
@@ -142,6 +142,7 @@
 Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***, B. Shen, Z. Hou, [W. Zhou](https://scholar.google.com/citations?user=r8x76hUAAAAJ)<br>
 [IET Computer Vision](https://digital-library.theiet.org/journal/iet-cvi) (CCF-C Journal)<br>
 <span class="paper-keywords">Remote Sensing · SAR Aircraft Detection · Vision State-Space Models</span><br>
+[📃 Paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cvi2.70032)
 <!-- [📃 Paper](https://www.arxiv.org/abs/2505.00752) -->
 <!-- [📑 PDF](https://www.arxiv.org/pdf/2505.00752) -->
 </div>

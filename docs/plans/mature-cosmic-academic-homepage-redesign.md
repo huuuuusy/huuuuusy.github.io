@@ -346,3 +346,11 @@ HKU 日期更正已同步到 Shiyu 的私有研究记录（以更正说明形式
 - 照片右侧的眼睛开合度比另一侧小约 15%，以该眼为中心做小范围、以纵向为主的放大，使两眼开合大致相当；瞳孔与眼睑形状不变。
 - 下唇线左半段比右半段多下垂几个像素，局部上提使唇线与双眼连线平行；右嘴角另上提约 1 像素。
 - 仍未做磨皮、调色、脸型或背景修改；5° 扶正保持不变。
+
+### 论文官方链接补充（2026-10-12）
+
+逐篇按题名（并尽量按作者）在出版方页面或 Crossref 记录核对后加入：
+
+- 新增 📃 Paper：COAL（IJCAI 2026 论文集页，另加论文集官方 📑 PDF）、DASTrack（Springer ECCV 2026 章节）、MSAD（IET Computer Vision，Wiley 页面）、META-PAP（NeurIPS 2026 官方海报页所列的 OpenReview 页面）。
+- 📃 Paper 由 arXiv 改为正式出版页：MATrack（IEEE Xplore，ICRA 2026）、CausalStep 与 VerifyBench（AAAI 2026 论文集）；这三篇的 📑 PDF 仍指向 arXiv。
+- 暂无公开页面、未加链接：Retinal OCT（EMBC 2026）、Fake News Court（EMNLP 2026）、Hyper-Rationality（TNSE）、GHASS（CSF）；《中国心理卫生杂志》综述无法自动核验，待人工在 CNKI 查找。
