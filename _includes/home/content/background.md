@@ -131,3 +131,72 @@
     </div>
   </section>
 </div>
+
+<section class="background-mentoring" id="mentoring" aria-labelledby="background-mentoring-title">
+  <h2 id="background-mentoring-title">Student Co-Supervision and Mentoring</h2>
+  <p class="background-mentoring__intro">I co-supervise the following graduate students together with their primary supervisors. Joint publications with mentees include papers at CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, ACL, EMNLP, AAAI, IJCAI, and ICRA, and in IJCV, TCSVT, and Pattern Recognition; see the publications on which I am a corresponding, co-first, second, or third author.</p>
+  <div class="mentoring-groups">
+    <div class="mentoring-group">
+      <h3>Ph.D. Students</h3>
+      <ul class="mentee-list">
+        <li><time class="mentee__period">2023.08 – Present</time><span class="mentee__name">Yiping Ma</span><span class="mentee__institution">East China Normal University</span></li>
+        <li><time class="mentee__period">2023.08 – Present</time><span class="mentee__name"><a href="https://zhangdailing8.github.io/">Dailing Zhang</a></span><span class="mentee__institution">Institute of Automation, Chinese Academy of Sciences</span></li>
+        <li><time class="mentee__period">2024.08 – Present</time><span class="mentee__name"><a href="https://github.com/Xuchen-Li">Xuchen Li</a></span><span class="mentee__institution">Institute of Automation, Chinese Academy of Sciences</span></li>
+        <li><time class="mentee__period">2024.08 – Present</time><span class="mentee__name"><a href="https://github.com/updateforever">Yipei Wang</a></span><span class="mentee__institution">Southeast University</span></li>
+        <li><time class="mentee__period">2025.01 – Present</time><span class="mentee__name">Shukun Jia</span><span class="mentee__institution">Southeast University</span></li>
+        <li><time class="mentee__period">2025.01 – Present</time><span class="mentee__name">Buyuan Zhu</span><span class="mentee__institution">Nanyang Technological University</span></li>
+        <li><time class="mentee__period">2025.08 – Present</time><span class="mentee__name">Zi Ye</span><span class="mentee__institution">University of Science and Technology Beijing</span></li>
+        <li><time class="mentee__period">2025.08 – Present</time><span class="mentee__name">Yihan Meng</span><span class="mentee__institution">University of Science and Technology Beijing</span></li>
+        <li><time class="mentee__period">2026.02 – Present</time><span class="mentee__name">Shunya Hirashima</span><span class="mentee__institution">Nanyang Technological University</span></li>
+      </ul>
+    </div>
+    <div class="mentoring-group">
+      <h3>M.S. Students</h3>
+      <ul class="mentee-list">
+        <li><time class="mentee__period">2024.07 – Present</time><span class="mentee__name"><a href="https://github.com/XuzhaoLi">Xuzhao Li</a></span><span class="mentee__institution">Beijing Institute of Technology</span></li>
+        <li><time class="mentee__period">2024.09 – Present</time><span class="mentee__name">Panxi Xu</span><span class="mentee__institution">University of Science and Technology Beijing</span></li>
+        <li><time class="mentee__period">2025.07 – Present</time><span class="mentee__name">Hongfei Ma</span><span class="mentee__institution">University of Science and Technology Beijing</span></li>
+      </ul>
+    </div>
+  </div>
+  <details class="background-details mentoring-past">
+    <summary>Completed mentoring (20 Ph.D., M.S., and B.E. stages)</summary>
+    <div class="mentoring-groups mentoring-groups--past">
+        <div class="mentoring-group">
+          <h3>Ph.D.</h3>
+          <ul class="mentee-list">
+            <li><time class="mentee__period">2022.08 – 2025.06</time><span class="mentee__name"><a href="https://wmeiqi.github.io/">Meiqi Wu</a></span><span class="mentee__institution">University of Chinese Academy of Sciences</span></li>
+            <li><time class="mentee__period">2023.04 – 2026.06</time><span class="mentee__name"><a href="https://xiaokunfeng.github.io/">Xiaokun Feng</a></span><span class="mentee__institution">Institute of Automation, Chinese Academy of Sciences</span></li>
+          </ul>
+        </div>
+        <div class="mentoring-group">
+          <h3>M.S.</h3>
+          <ul class="mentee-list">
+            <li><time class="mentee__period">2022.05 – 2023.07</time><span class="mentee__name">Yiping Ma</span><span class="mentee__institution">Nanjing Normal University</span></li>
+            <li><time class="mentee__period">2022.08 – 2024.07</time><span class="mentee__name"><a href="https://github.com/updateforever">Yipei Wang</a></span><span class="mentee__institution">Southeast University</span></li>
+            <li><time class="mentee__period">2024.07 – 2025.01</time><span class="mentee__name">Yuqi Cui</span><span class="mentee__institution">University of Science and Technology Beijing</span></li>
+            <li><time class="mentee__period">2025.02 – 2025.11</time><span class="mentee__name">Nguyen Khanh Truong</span><span class="mentee__institution">Nanyang Technological University</span></li>
+          </ul>
+        </div>
+        <div class="mentoring-group mentoring-group--wide">
+          <h3>B.E.</h3>
+          <ul class="mentee-list">
+            <li><time class="mentee__period">2022.09 – 2023.08</time><span class="mentee__name">Junyou Zhu</span><span class="mentee__institution">University of Chinese Academy of Sciences</span></li>
+            <li><time class="mentee__period">2022.09 – 2023.08</time><span class="mentee__name">Lihang Hu</span><span class="mentee__institution">University of Chinese Academy of Sciences</span></li>
+            <li><time class="mentee__period">2022.09 – 2023.08</time><span class="mentee__name"><a href="https://zhangdailing8.github.io/">Dailing Zhang</a></span><span class="mentee__institution">Southeast University</span></li>
+            <li><time class="mentee__period">2023.04 – 2024.07</time><span class="mentee__name"><a href="https://github.com/Xuchen-Li">Xuchen Li</a></span><span class="mentee__institution">Beijing University of Posts and Telecommunications</span></li>
+            <li><time class="mentee__period">2024.09 – 2025.05</time><span class="mentee__name">Le Ying Tan</span><span class="mentee__institution">Nanyang Technological University</span></li>
+            <li><time class="mentee__period">2024.09 – 2025.07</time><span class="mentee__name">Zi Ye</span><span class="mentee__institution">University of Science and Technology Beijing</span></li>
+            <li><time class="mentee__period">2024.10 – 2025.07</time><span class="mentee__name">Jinlin Ma</span><span class="mentee__institution">Nanyang Technological University</span></li>
+            <li><time class="mentee__period">2024.10 – 2026.05</time><span class="mentee__name">Yuxiao Li</span><span class="mentee__institution">Nanyang Technological University</span></li>
+            <li><time class="mentee__period">2024.12 – 2025.07</time><span class="mentee__name">Yihan Meng</span><span class="mentee__institution">University of Science and Technology Beijing</span></li>
+            <li><time class="mentee__period">2025.01 – 2025.05</time><span class="mentee__name">Yihui Jiang</span><span class="mentee__institution">University of Science and Technology Beijing</span></li>
+            <li><time class="mentee__period">2025.04 – 2025.07</time><span class="mentee__name">Shunya Hirashima</span><span class="mentee__institution">Nanyang Technological University</span></li>
+            <li><time class="mentee__period">2025.07 – 2025.09</time><span class="mentee__name">Anastasiia Bohachenko</span><span class="mentee__institution">Nanyang Technological University (Global Connect Fellow)</span></li>
+            <li><time class="mentee__period">2025.08 – 2026.05</time><span class="mentee__name">Jia Ling Ow</span><span class="mentee__institution">Nanyang Technological University</span></li>
+            <li><time class="mentee__period">2025.08 – 2026.05</time><span class="mentee__name">Jian Feng Ho</span><span class="mentee__institution">Nanyang Technological University</span></li>
+          </ul>
+        </div>
+    </div>
+  </details>
+</section>
