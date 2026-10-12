@@ -9,7 +9,7 @@
 
 **META-PAP: Meta-learning for Prompt-aware Preference Pairing in LLM Alignment**<br>
 P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
-[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2026) (CCF-A Conference, Poster)<br>
+[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2026) (CCF-A Conference)<br>
 <span class="paper-keywords">LLM Alignment · Prompt-Aware Preference Pairing · Bilevel Meta-Reweighting</span><br>
 [📃 Paper](https://openreview.net/forum?id=yiQav1vmSS)
 </div>
@@ -94,7 +94,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 
 **Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking**<br>
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br>
-[Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) (CCF-B Journal)<br>
+[Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) (CCF-B Journal, JCR Q1, IF 9.1)<br>
 <span class="paper-keywords">Multi-Object Tracking · Query-Based Association · Efficient End-to-End Learning</span><br>
 [📃 Paper](https://arxiv.org/abs/2411.06197)
 [📑 PDF](https://arxiv.org/pdf/2411.06197)
@@ -108,7 +108,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 
 **Talk with Your Fingers: A Depth-Aware Benchmark for Air-Writing Recognition**<br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***,  [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), J. Wu, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)<br>
+[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, JCR Q1, IF 10.8)<br>
 <span class="paper-keywords">Human-Centered Vision · Depth-Aware Air-Writing · Multimodal Benchmark</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/11421430)
 <!-- [📑 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf) -->
@@ -262,7 +262,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 
 **CSTrack: Enhancing RGB-X Tracking via Compact Spatiotemporal Features**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
-[International Conference on Machine Learning](https://icml.cc/) (CCF-A Conference, Poster)<br>
+[International Conference on Machine Learning](https://icml.cc/) (CCF-A Conference)<br>
 <span class="paper-keywords">Multimodal Tracking · Spatiotemporal Representation Learning · Efficient Sensor Fusion</span><br>
 [📃 Paper](https://openreview.net/forum?id=JZIJxr9KsO)
 [📑 PDF](https://openreview.net/pdf?id=JZIJxr9KsO)
@@ -276,7 +276,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 
 **Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li),  [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2025.ieeeicassp.org/) (CCF-B Conference, Poster)<br>
+[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2025.ieeeicassp.org/) (CCF-B Conference)<br>
 <span class="paper-keywords">Vision-Language Tracking · Visual Grounding · Foundation Model Transfer</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10888064)
 [📑 PDF](https://arxiv.org/pdf/2412.19648)
@@ -348,7 +348,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 
 **Beyond Accuracy: Tracking more like Human via Visual Search**<br>
 [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
-[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference, Poster)<br>
+[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference)<br>
 <span class="paper-keywords">Human-Centered Vision · Visual Search · Process-Level Evaluation</span><br>
 [📃 Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/050f8591be3874b52fdac4e1060eeb29-Abstract-Conference.html)
 [📑 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/050f8591be3874b52fdac4e1060eeb29-Paper-Conference.pdf)
@@ -362,7 +362,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 
 **MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
-[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference, Poster)<br>
+[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference)<br>
 <span class="paper-keywords">Vision-Language Tracking · Long-Term Memory · Adaptive Prompting</span><br>
 [📃 Paper](https://neurips.cc/virtual/2024/poster/94643)
 [📑 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/1af3e0bf5905e33789979f666c31192d-Paper-Conference.pdf)
@@ -377,7 +377,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 
 **Robust Single-particle Cryo-EM Image Denoising and Restoration**<br>
 J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
-[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference, Poster)<br>
+[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (CCF-B Conference)<br>
 <span class="paper-keywords">Scientific Imaging · Cryo-EM Restoration · Diffusion Models</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/10447135)
 [📑 PDF](https://huuuuusy.github.io/files/ICASSP24.pdf)
@@ -392,7 +392,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 **Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
-[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal)<br>
+[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, JCR Q1, IF 10.8)<br>
 <span class="paper-keywords">Real-World Air-Writing · Unconstrained Recognition · Large-Scale Benchmark</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10496279)
 [📑 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf)
@@ -422,7 +422,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 **A Hierarchical Theme Recognition Model for Sandplay Therapy**<br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-[Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference, Poster)<br>
+[Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference)<br>
 <span class="paper-keywords">Sandplay Therapy · Hierarchical Theme Recognition · Knowledge-Guided Recognition</span><br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-99-8462-6_20)
 [📑 PDF](https://huuuuusy.github.io/files/PRCV23.pdf)
@@ -455,7 +455,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 **Revisiting Instance Search: A New Benchmark Using Cycle Self-training**<br>
 [Y. Zhang](https://wesleyzhang1991.github.io/), [C. Liu](https://scholar.google.com/citations?user=atOfOgMAAAAJ&hl=zh-CN&oi=sra), [W. Chen](https://scholar.google.com/citations?user=KWVlYaMAAAAJ&hl=zh-CN&oi=sra), [X. Xu](https://scholar.google.com/citations?user=nJc6BvgAAAAJ&hl=zh-CN&oi=sra), [F. Wang](https://scholar.google.com/citations?user=WCRGTHsAAAAJ), [H. Li](https://scholar.google.com/citations?user=pHN-QIwAAAAJ&hl=zh-CN&oi=sra), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
-[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)  (CCF-C Journal)<br>
+[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) (CCF-C Journal, JCR Q1, IF 6.7)<br>
 <span class="paper-keywords">Open-World Retrieval · Cross-Camera Instance Search · Cycle Self-Training</span><br>
 [📃 Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007445)
 [📑 PDF](https://huuuuusy.github.io/files/Neu22.pdf)

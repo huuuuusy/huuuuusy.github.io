@@ -10,6 +10,16 @@
 <p>Research Fellow at the <a href="https://www.ntu.edu.sg/spms">School of Physical and Mathematical Sciences (SPMS), Nanyang Technological University (NTU)</a>, working with <a href="https://dr.ntu.edu.sg/cris/rp/rp02319">Assoc. Prof. Kang Hao Cheong</a>.</p>
 
 </div>
+<div class="intro-profile__item">
+<a class="intro-profile__label" href="#background">Education</a>
+<p>Ph.D., CASIA, 2024<br>M.Sc., HKU, 2019<br>B.E., BIT, 2017</p>
+</div>
+{% assign scholar = site.data.scholar %}
+<div class="intro-profile__item intro-profile__item--metrics">
+<a class="intro-profile__label" href="{{ site.author.googlescholar }}">Citations</a>
+<p class="intro-metrics"><span><strong>{% if scholar.citations >= 1000 %}{{ scholar.citations | divided_by: 1000 }},{{ scholar.citations | modulo: 1000 | prepend: '00' | slice: -3, 3 }}{% else %}{{ scholar.citations }}{% endif %}</strong> citations</span><span><strong>{{ scholar.h_index }}</strong> h-index</span><span><strong>{{ scholar.i10_index }}</strong> i10-index</span></p>
+<p class="intro-metrics__date">As of {{ scholar.as_of | date: "%-d %B %Y" }}</p>
+</div>
 <p class="intro-profile__contact">I welcome research discussions and collaborations. Please contact me at <a href="mailto:shiyu.hu@ntu.edu.sg">shiyu.hu@ntu.edu.sg</a>.</p>
 
 <div class="intro-actions">

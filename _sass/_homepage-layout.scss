@@ -511,6 +511,28 @@ p:has(> .anchor:only-child) {
     margin-top: var(--home-space-3);
 }
 
+.intro-profile__item + .intro-profile__item {
+    margin-top: var(--home-space-3);
+}
+
+.intro-profile .intro-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px var(--home-space-3);
+
+    strong {
+        color: var(--home-ink-strong);
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+    }
+}
+
+.intro-profile .intro-metrics__date {
+    margin-top: 2px;
+    color: var(--home-ink-muted, var(--home-ink-soft));
+    font-size: var(--home-fs-meta);
+}
+
 .intro-profile strong {
     font-weight: 500;
 }

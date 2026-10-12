@@ -1,6 +1,6 @@
 ## Peer-Reviewed Publications
 
-<p class="publication-metrics-note">Journal metrics: JCR 2026 quartiles and 2025 impact factors for journals outside the CCF list; CCF-T1/T2/T3 are the CCF 2025 tiers for Chinese journals.</p>
+<p class="publication-metrics-note">Journal metrics: JCR 2026 quartiles and 2025 impact factors for every journal indexed in JCR; CCF-T1/T2/T3 are the CCF 2025 tiers for Chinese journals.</p>
 
 <h3 id="lead-author-publications">Lead or Corresponding Author</h3>
 <!-- 代表作按照固定顺序排列 -->
@@ -12,7 +12,7 @@
 
 **Global Instance Tracking: Locating Target More Like Humans**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [L. Huang](https://github.com/huanglianghua), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-[IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (CCF-A Journal)<br>
+[IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (CCF-A Journal, JCR Q1, IF 20.4)<br>
 <span class="paper-keywords">Global Instance Tracking · Target Identity Across Shots · Human Visual Baselines</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/document/9720246/)
 [📑 PDF](https://huuuuusy.github.io/files/GIT.pdf)
@@ -30,7 +30,7 @@
 
 **SOTVerse: A User-defined Task Space of Single Object Tracking**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal)<br>
+[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, JCR Q1, IF 10.3)<br>
 <span class="paper-keywords">User-Defined Task Space · Challenge-Factor Conditions · Diagnostic Evaluation</span><br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01908-5)
 [📑 PDF](https://huuuuusy.github.io/files/SOTVerse.pdf)
@@ -47,7 +47,7 @@
 
 **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
 [X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu✉️</font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), J. Zhang, Y. Hu, R. Liu, [H. Lin](https://www3.cs.stonybrook.edu/~hling/), [Y. Li](https://www.biostat.wisc.edu/~yli/), R. Li, K. Liu, [J. Li](http://yjsb.sinano.ac.cn/Doctor/info.aspx?itemid=920) <br>
-[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal)<br>
+[International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, JCR Q1, IF 10.3)<br>
 <span class="paper-keywords">Bionic UAV Vision · Real Physical Disturbance · Robustness Benchmark</span><br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01937-0)
 [🌐 Platform](http://biodrone.aitestunion.com/)
@@ -64,7 +64,7 @@
 
 **A Multi-modal Global Instance Tracking Benchmark (MGIT): Better Locating Target in Complex Spatio-temporal and causal Relationship**<br>
 ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), [X. Zhao](https://www.xinzhaoai.com/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) (CCF-A Conference, Poster)<br>
+[Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023) (CCF-A Conference)<br>
 <span class="paper-keywords">Long-Video Tracking · Multi-Granular Semantic Hierarchy · Spatiotemporal-Causal Reasoning</span><br>
 [📃 Paper](https://proceedings.nips.cc/paper_files/paper/2023/hash/4ea14e6090343523ddcd5d3ca449695f-Abstract-Datasets_and_Benchmarks.html)
 [📑 PDF](https://huuuuusy.github.io/files/MGIT.pdf)
@@ -140,7 +140,7 @@
 
 **Improved SAR Aircraft Detection Algorithm Based on Visual State Space Models**<br>
 Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***, B. Shen, Z. Hou, [W. Zhou](https://scholar.google.com/citations?user=r8x76hUAAAAJ)<br>
-[IET Computer Vision](https://digital-library.theiet.org/journal/iet-cvi) (CCF-C Journal)<br>
+[IET Computer Vision](https://digital-library.theiet.org/journal/iet-cvi) (CCF-C Journal, JCR Q4, IF 1.4)<br>
 <span class="paper-keywords">Remote Sensing · SAR Aircraft Detection · Vision State-Space Models</span><br>
 [📃 Paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cvi2.70032)
 <!-- [📃 Paper](https://www.arxiv.org/abs/2505.00752) -->

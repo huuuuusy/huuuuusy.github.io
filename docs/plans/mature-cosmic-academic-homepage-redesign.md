@@ -354,3 +354,13 @@ HKU 日期更正已同步到 Shiyu 的私有研究记录（以更正说明形式
 - 新增 📃 Paper：COAL（IJCAI 2026 论文集页，另加论文集官方 📑 PDF）、DASTrack（Springer ECCV 2026 章节）、MSAD（IET Computer Vision，Wiley 页面）、META-PAP（NeurIPS 2026 官方海报页所列的 OpenReview 页面）。
 - 📃 Paper 由 arXiv 改为正式出版页：MATrack（IEEE Xplore，ICRA 2026）、CausalStep 与 VerifyBench（AAAI 2026 论文集）；这三篇的 📑 PDF 仍指向 arXiv。
 - 暂无公开页面、未加链接：Retinal OCT（EMBC 2026）、Fake News Court（EMNLP 2026）、Hyper-Rationality（TNSE）、GHASS（CSF）；《中国心理卫生杂志》综述无法自动核验，待人工在 CNKI 查找。
+
+### 首屏、板块顺序与期刊指标（2026-10-12）
+
+- 板块顺序改为 About → News → Research → Publications → Projects → Background → Honors → Service；导航（含手机菜单）在 About 后加 News。原先 News 在 Publications 之后，桌面约第 6.6 屏、手机约第 15.6 屏才出现，现在分别约第 0.6 屏和第 1.4 屏。两个校验脚本的板块与导航顺序同步更新。
+- 首屏右栏在 Current Appointment 下新增两块：Education（Ph.D., CASIA, 2024 / M.Sc., HKU, 2019 / B.E., BIT, 2017，标题链到 Background）与 Citations（引用数、h-index、i10-index 及日期，标题链到 Google Scholar）。引用数据放在 `_data/scholar.yml`，构建时读取；按需手动更新，不做定时抓取（Google Scholar 常拦截 CI 服务器，自动提交也会增加噪音）。Background 保持原位。
+- 去掉论文条目中的 “Poster” 标注（8 处）；Oral、Highlights 等报告形式保留。CV 源文件本无 Poster 标注。
+- 期刊指标：所有 JCR 收录期刊都标 JCR 分区与 2025 IF，CCF 期刊写作 “CCF-A Journal, JCR Q1, IF 20.4”（TPAMI 20.4、IJCV 10.3、TCSVT 10.8、PR 9.1、Neurocomputing 6.7 均为 Q1，IET-CVI 为 Q4、1.4，为保持规则一致照标）。三本中文期刊不在 SCIE/ESCI，保留 CCF-T 分级或 CSCD/北大核心，不加知网影响因子，以免与 JCR IF 并列造成误读。出版物顶部的指标说明同步改写。
+- 讨论后不加的：编辑与审稿所在刊会的 IF（指标描述的是期刊而非本人贡献，且数值参差、会议无 IF）；“某领域国际顶级期刊”一类自述（英文语境显得自我宣传，部分期刊称顶级有争议）；会议 h5-index（反映领域规模，跨领域不可比，CS 惯例用 CCF/CORE）。中文申报材料如需这类表述，另做申报版并挂在客观依据上。
+- Background 的博士导师行直接显示头衔：黄凯奇（IAPR Fellow, IEEE Senior Member）、赵鑫（IEEE Senior Member）；折叠的学位详情不变。
+- `files/CV-EN.pdf` 换为同步上述期刊指标、引用数据与说明的新版 CV。Google Scholar 当前为 h-index 17、i10-index 26（此前 CV 写 18、27，Scholar 端有条目合并或移除），CV 与主页统一为当前值。

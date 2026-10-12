@@ -1,14 +1,14 @@
 {% capture intro_content %}{% include home/content/intro.md %}{% endcapture %}
 {% include home/section.html id="about-me" modifier="intro" title="About" content=intro_content %}
 
+{% capture news_content %}{% include home/content/news.md %}{% endcapture %}
+{% include home/section.html id="news" modifier="news" title="News" content=news_content %}
+
 {% capture research_content %}{% include home/content/research.md %}{% endcapture %}
 {% include home/section.html id="research-interests" modifier="research" title="Research" content=research_content %}
 
 {% capture publications_content %}{% include home/content/publications.md %}{% endcapture %}
 {% include home/section.html id="publications" modifier="publications" title="Publications" content=publications_content %}
-
-{% capture news_content %}{% include home/content/news.md %}{% endcapture %}
-{% include home/section.html id="news" modifier="news" title="News" content=news_content %}
 
 {% capture projects_content %}{% include home/content/projects.md %}{% endcapture %}
 {% include home/section.html id="projects" modifier="projects" title="Projects" content=projects_content %}
