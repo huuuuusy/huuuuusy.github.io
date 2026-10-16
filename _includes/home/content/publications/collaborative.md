@@ -210,6 +210,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
 [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
 <span class="paper-keywords">LLM Agents · Persona-Driven Heterogeneity · Agent-Based Social Simulation</span><br>
+[📃 Paper](https://ieeexplore.ieee.org/document/11737546)
 </div>
 </div>
 
