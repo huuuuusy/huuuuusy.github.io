@@ -85,7 +85,7 @@
 [X. Feng\*](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions) <br>
 [International Conference on Computer Vision](https://iccv.thecvf.com/) (CCF-A Conference, **<font color=DarkRed>Highlight</font>**)<br>
 <span class="paper-keywords">Vision-Language Tracking · Dynamic Target States · Target-Context Cue Alignment</span><br>
-[📃 Paper](https://arxiv.org/abs/2507.19875)
+[📃 Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Feng_ATCTrack_Aligning_Target-Context_Cues_with_Dynamic_Target_States_for_Robust_ICCV_2025_paper.html)
 [📑 PDF](https://arxiv.org/pdf/2507.19875)
 </div>
 </div>

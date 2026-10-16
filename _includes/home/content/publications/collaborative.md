@@ -24,7 +24,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr.thecvf.com/Conferences/2026) (CCF-A Conference)<br>
 <span class="paper-keywords">Video-LLM Reasoning · Evidence Purity · Agentic Frame Selection</span><br>
-[📃 Paper](https://arxiv.org/abs/2510.15440)
+[📃 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Select_Less_Reason_More_Prioritizing_Evidence_Purity_for_Video_Reasoning_CVPR_2026_paper.html)
 [📑 PDF](https://arxiv.org/pdf/2510.15440)
 </div>
 </div>
@@ -82,7 +82,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [W. Zhang](https://zwt233.github.io/)<br>
 [Annual Meeting of the Association for Computational Linguistics](https://2026.aclweb.org/) (CCF-A Conference)<br>
 <span class="paper-keywords">Multimodal Reasoning · Grounded Visual Evidence · Adaptive Pixel-Space Reasoning</span><br>
-[📃 Paper](https://arxiv.org/abs/2510.01681)
+[📃 Paper](https://aclanthology.org/2026.acl-long.225/)
 [📑 PDF](https://arxiv.org/pdf/2510.01681)
 </div>
 </div>
@@ -96,7 +96,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br>
 [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) (CCF-B Journal, JCR Q1, IF 9.1)<br>
 <span class="paper-keywords">Multi-Object Tracking · Query-Based Association · Efficient End-to-End Learning</span><br>
-[📃 Paper](https://arxiv.org/abs/2411.06197)
+[📃 Paper](https://www.sciencedirect.com/science/article/pii/S0031320326005182)
 [📑 PDF](https://arxiv.org/pdf/2411.06197)
 </div>
 </div>
@@ -265,7 +265,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 [International Conference on Machine Learning](https://icml.cc/) (CCF-A Conference)<br>
 <span class="paper-keywords">Multimodal Tracking · Spatiotemporal Representation Learning · Efficient Sensor Fusion</span><br>
-[📃 Paper](https://openreview.net/forum?id=JZIJxr9KsO)
+[📃 Paper](https://proceedings.mlr.press/v267/feng25t.html)
 [📑 PDF](https://openreview.net/pdf?id=JZIJxr9KsO)
 </div>
 </div>
