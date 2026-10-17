@@ -81,7 +81,7 @@
 
 <span class='anchor' id='ATCTrack'></span>
 
-**ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Feng\*](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions) <br>
 [International Conference on Computer Vision](https://iccv.thecvf.com/) (CCF-A Conference, **<font color=DarkRed>Highlight</font>**)<br>
 <span class="paper-keywords">Vision-Language Tracking · Dynamic Target States · Target-Context Cue Alignment</span><br>

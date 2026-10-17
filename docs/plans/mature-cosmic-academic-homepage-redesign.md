@@ -433,3 +433,8 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - 23 篇论文在标题后加上标 †（不加在作者名上，按 Shiyu 要求；悬停提示同图例文字，离顶部图例较远的合作论文与 workshop 也能看懂），规则与 CV 一致：一作是 Shiyu 指导的学生、排在她前面的都是她指导的学生、她不是通讯作者（共一包括在内）。分布为 Lead or Corresponding Author 1 篇（ATCTrack）、Collaborative Work 18 篇、Workshop 4 篇；预印本不标。
 - `files/CV-EN.pdf` 同步为按这一规则重新编译的完整 CV（Overleaf `7e70a90`）。
 - 已知问题，未改：Workshop 中 DTLLM-VLT 的 Poster 与 Slides 链接（`github.com/Xuchen-Lifiles/...`）自 2026-08 重构前即为 404，正确地址待确认。
+
+### † 的说明改为 “Mentee-led work I guided”（2026-10-18）
+
+- 按 Shiyu 要求，图例与 23 处悬停提示由 “Mentee-first work I co‑mentored” 改为 “Mentee-led work I guided”：同时说明一作是她指导的学生、这项工作主要由她指导；篇目与规则不变（`9a54b05`）。
+- `files/CV-EN.pdf` 同步为同一措辞的完整 CV（Overleaf `27aa984`）。

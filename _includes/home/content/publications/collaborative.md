@@ -20,7 +20,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 
 <span class='anchor' id='EARL'></span>
 
-**Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr.thecvf.com/Conferences/2026) (CCF-A Conference)<br>
 <span class="paper-keywords">Video-LLM Reasoning · Evidence Purity · Agentic Frame Selection</span><br>
@@ -34,7 +34,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 
 <span class='anchor' id='CausalStep'></span>
 
-**CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), ***<font color=DarkRed>Shiyu Hu</font>***, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [W. Zhang](https://zwt233.github.io/)<br>
 [Proceedings of the AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/) (CCF-A Conference, **<font color=DarkRed>Oral</font>**)<br>
 <span class="paper-keywords">Video-LLM Reasoning · Stepwise Causal Reasoning · Diagnostic Benchmark</span><br>
@@ -49,7 +49,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 
 <span class='anchor' id='VerifyBench'></span>
 
-**VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Guo](https://openreview.net/profile?id=~yongzhen.gyz1), [W. Zhang](https://zwt233.github.io/)<br>
 [Proceedings of the AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/) (CCF-A Conference, **<font color=DarkRed>Oral</font>**)<br>
 <span class="paper-keywords">LLM Reasoning · Reasoning Verifiers · RLVR Evaluation</span><br>
@@ -92,7 +92,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 
 <span class='anchor' id='TBDQ'></span>
 
-**Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking**<sup title="Mentee-led work I guided">†</sup><br>
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), F. Yang, X. Lu, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br>
 [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) (CCF-B Journal, JCR Q1, IF 9.1)<br>
 <span class="paper-keywords">Multi-Object Tracking · Query-Based Association · Efficient End-to-End Learning</span><br>
@@ -121,7 +121,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 
 <span class='anchor' id='COAL'></span>
 
-**COAL: Counterfactual and Observation-Enhanced Alignment Learning for Discriminative Referring Multi-Object Tracking**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**COAL: Counterfactual and Observation-Enhanced Alignment Learning for Discriminative Referring Multi-Object Tracking**<sup title="Mentee-led work I guided">†</sup><br>
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), X. Cheng, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br>
 [International Joint Conference on Artificial Intelligence](https://2026.ijcai.org/) (CCF-B Conference)<br>
 <span class="paper-keywords">Referring Multi-Object Tracking · Robust Language Grounding · Counterfactual Alignment Learning</span><br>
@@ -138,7 +138,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 <span class='anchor' id='ECCV26-Temporal'></span>
 <span class='anchor' id='DASTrack'></span>
 
-**DASTrack: Rethinking Temporal Modeling in Visual Object Tracking via Decoupled Auxiliary Supervision**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**DASTrack: Rethinking Temporal Modeling in Visual Object Tracking via Decoupled Auxiliary Supervision**<sup title="Mentee-led work I guided">†</sup><br>
 [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, H. Fu, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (CCF-B Conference)<br>
 <span class="paper-keywords">Visual Object Tracking · Temporal Representation Learning · Decoupled Auxiliary Supervision</span><br>
@@ -191,7 +191,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 
 <span class='anchor' id='TNSE26'></span>
 
-**Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspective**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspective**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
 [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
 <span class="paper-keywords">Multimodal Video Intelligence · Constraint-Aware AI · System-Level Reliability</span><br>
@@ -206,7 +206,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 
 <span class='anchor' id='HyperRationality'></span>
 
-**Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems**<sup title="Mentee-led work I guided">†</sup><br>
 S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
 [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
 <span class="paper-keywords">LLM Agents · Persona-Driven Heterogeneity · Agent-Based Social Simulation</span><br>
@@ -231,7 +231,7 @@ Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang]
 
 <span class='anchor' id='Mathematics-CalcTutor'></span>
 
-**CalcTutor: Multi-Agent LLM Grading of Handwritten Mathematics with RAG-Grounded Feedback for Adaptive Learning Support**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**CalcTutor: Multi-Agent LLM Grading of Handwritten Mathematics with RAG-Grounded Feedback for Adaptive Learning Support**<sup title="Mentee-led work I guided">†</sup><br>
 L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 [Mathematics](https://www.mdpi.com/2227-7390/14/7/1094) (JCR Q1, IF 2.3)<br>
 <span class="paper-keywords">AI for Education · Multi-Agent Assessment · RAG-Grounded Feedback</span><br>
@@ -261,7 +261,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 
 <span class='anchor' id='CSTrack'></span>
 
-**CSTrack: Enhancing RGB-X Tracking via Compact Spatiotemporal Features**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**CSTrack: Enhancing RGB-X Tracking via Compact Spatiotemporal Features**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 [International Conference on Machine Learning](https://icml.cc/) (CCF-A Conference)<br>
 <span class="paper-keywords">Multimodal Tracking · Spatiotemporal Representation Learning · Efficient Sensor Fusion</span><br>
@@ -275,7 +275,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 
 <span class='anchor' id='ICASSP25'></span>
 
-**Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Li](https://github.com/Xuchen-Li),  [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2025.ieeeicassp.org/) (CCF-B Conference)<br>
 <span class="paper-keywords">Vision-Language Tracking · Visual Grounding · Foundation Model Transfer</span><br>
@@ -289,7 +289,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 
 <span class='anchor' id='CEAI-adaptive'></span>
 
-**Artificial Intelligence-Enabled Adaptive Learning Platforms: A Review**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**Artificial Intelligence-Enabled Adaptive Learning Platforms: A Review**<sup title="Mentee-led work I guided">†</sup><br>
 L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 [Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence) (JCR Q1, IF 23.4)<br>
 <span class="paper-keywords">AI for Education · Personalized Learning · Adaptive Learning Systems</span><br>
@@ -304,7 +304,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 
 <span class='anchor' id='Mathematics-AGS'></span>
 
-**A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques**<sup title="Mentee-led work I guided">†</sup><br>
 L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
 [Mathematics](https://www.mdpi.com/journal/mathematics) (JCR Q1, IF 2.3)<br>
 <span class="paper-keywords">AI for Education · Automated STEM Assessment · Learning Analytics</span><br>
@@ -319,7 +319,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 
 <span class='anchor' id='IET-AI4Edu'></span>
 
-**Trustworthy AI in education: Framework, cases, and governance strategies**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**Trustworthy AI in education: Framework, cases, and governance strategies**<sup title="Mentee-led work I guided">†</sup><br>
 Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  <br>
 [Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?cmpid=6350db6df59e5b0001f79b4b) (JCR Q2, IF 2.3)<br>
 <span class="paper-keywords">Trustworthy AI · AI for Education · Governance and Fairness</span><br>
@@ -347,7 +347,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 
 <span class='anchor' id='CPDTrack'></span>
 
-**Beyond Accuracy: Tracking more like Human via Visual Search**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**Beyond Accuracy: Tracking more like Human via Visual Search**<sup title="Mentee-led work I guided">†</sup><br>
 [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 [Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference)<br>
 <span class="paper-keywords">Human-Centered Vision · Visual Search · Process-Level Evaluation</span><br>
@@ -361,7 +361,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 
 <span class='anchor' id='MemVLT'></span>
 
-**MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)  <br>
 [Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2024) (CCF-A Conference)<br>
 <span class="paper-keywords">Vision-Language Tracking · Long-Term Memory · Adaptive Prompting</span><br>
@@ -421,7 +421,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <span class='anchor' id='PRCV23'></span>
 
-**A Hierarchical Theme Recognition Model for Sandplay Therapy**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**A Hierarchical Theme Recognition Model for Sandplay Therapy**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference)<br>
 <span class="paper-keywords">Sandplay Therapy · Hierarchical Theme Recognition · Knowledge-Guided Recognition</span><br>
@@ -438,7 +438,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <span class='anchor' id='CSAI23'></span>
 
-**Rethinking Similar Object Interference in Single Object Tracking**<sup title="Mentee-first work I co-mentored">†</sup><br>
+**Rethinking Similar Object Interference in Single Object Tracking**<sup title="Mentee-led work I guided">†</sup><br>
 [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
 [International Conference on Computer Science and Artificial Intelligence](http://www.csai.org/) (EI Conference, **<font color=DarkRed>Oral</font>**)<br>
 <span class="paper-keywords">Robust Visual Tracking · Similar-Object Interference · Failure Diagnosis</span><br>
