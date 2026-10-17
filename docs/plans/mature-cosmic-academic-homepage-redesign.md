@@ -403,3 +403,8 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 - News 改为与合作论文相同的时间轴：左侧竖条，每年第一条消息旁标年份；月份日期（如 2026.10）与正文顺序不变。手机端日期已含年份，只保留竖条与色调，不另标年份。默认只显示近六个月时只出现 2026 一段，展开后依次出现 2025 至 2021。
 - 两处时间轴的竖条改为 3px 的逐年色条：每年一段，年与年之间留一小段空隙；按 Shiyu 的要求，每年用同一套颜色，在年内由 NTU 蓝渐变到浅蓝（按条目高度分配，渐变均匀），下一年重新从深蓝开始。最初的“逐年整体变浅”方案看不出渐进感，已替换。渐变按当前显示的条目重新计算，因此 News 默认的近六个月视图、合作论文的折叠与按研究线筛选状态下，每段年份色条都完整呈现由深到浅。年份与颜色由 `news-toggle.js`、`publications-toggle.js` 自动计算，新增条目无需手动维护。
+
+### 合作论文折叠按钮位置（2026-10-17）
+
+- “Selected collaborative publications…” 说明与 “Show all / Show selected collaborative publications” 按钮从 Workshop 之后移到 Collaborative Work 末尾、Workshop 之前，紧跟它所控制的列表。
+- 由此 Workshop 不再落在合作论文的折叠范围内，4 篇 workshop 论文（含 3 篇 AAAI Oral 与 CVPR workshop Best Paper Honorable Mention）始终显示。
