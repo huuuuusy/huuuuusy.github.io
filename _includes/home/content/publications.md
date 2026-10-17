@@ -14,6 +14,8 @@ Use Title Case, keep at most three keywords, and avoid generic catch-all labels.
   <button type="button" class="publication-filter__option" data-line="humans" aria-pressed="false">Humans and AI</button>
 </div>
 
+<p class="publication-legend">* Equal contribution · ✉️ Corresponding author · <sup>†</sup> Mentee-first work I co‑mentored</p>
+
 {% include home/content/publications/monograph.md %}
 
 {% include home/content/publications/lead-author.md %}

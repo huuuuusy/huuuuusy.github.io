@@ -426,3 +426,10 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 ### CV 标出学生主导、共同指导的论文（2026-10-17）
 
 - `files/CV-EN.pdf` 换为新版完整 CV（仍为 10 页）：学生为一作、Shiyu 不是一作、共一或通讯的 26 篇论文在编号后加 †，图例为 “student-led work I co-mentored”；Student Mentoring and Co-Supervision 开头一句改为指向这些论文。CV 源文件另行提交（Overleaf `fdd8c5f`）。主页页面本身不变。
+
+### 论文标题标出共同指导的学生一作工作（2026-10-17）
+
+- Publications 顶部筛选栏下新增一行图例：“* Equal contribution · ✉️ Corresponding author · † Mentee-first work I co‑mentored”（样式 `.publication-legend`，与说明文字同色同号）。
+- 23 篇论文在标题后加上标 †（不加在作者名上，按 Shiyu 要求；悬停提示同图例文字，离顶部图例较远的合作论文与 workshop 也能看懂），规则与 CV 一致：一作是 Shiyu 指导的学生、排在她前面的都是她指导的学生、她不是通讯作者（共一包括在内）。分布为 Lead or Corresponding Author 1 篇（ATCTrack）、Collaborative Work 18 篇、Workshop 4 篇；预印本不标。
+- `files/CV-EN.pdf` 同步为按这一规则重新编译的完整 CV（Overleaf `7e70a90`）。
+- 已知问题，未改：Workshop 中 DTLLM-VLT 的 Poster 与 Slides 链接（`github.com/Xuchen-Lifiles/...`）自 2026-08 重构前即为 404，正确地址待确认。
