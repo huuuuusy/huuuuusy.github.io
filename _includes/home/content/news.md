@@ -20,6 +20,8 @@
 
 **2026.08** Two papers ([FNC](#FakeNewsCourt) and [ViEBench](#ViEBench)) have been accepted by [EMNLP 2026](https://2026.emnlp.org/) (CCF-B Conference), including one main-conference paper and one Findings paper.
 
+**2026.06** I am honored to have participated in the project *Evaluation, Representation, and Modeling of Semantic Structure Diversity for Generalizable Visual Understanding*, which received the [2025 Beijing Science and Technology Award](https://www.beijing.gov.cn/zhengce/zhengcefagui/202606/t20260618_4705440.html) (Natural Science Award, Second Prize) (2/4).
+
 **2026.06** One paper ([DASTrack](#DASTrack)) has been accepted by the [2026 European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (ECCV, CCF-B Conference).
 
 **2026.05** I am glad to have the opportunity to give a talk at the [Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/) in Guangzhou, China. Many thanks to the special session *Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges*. I sincerely look forward to exchanging ideas with everyone and hearing your valuable suggestions.

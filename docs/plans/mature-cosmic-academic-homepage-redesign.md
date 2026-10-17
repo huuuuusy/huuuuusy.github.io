@@ -408,3 +408,10 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 - “Selected collaborative publications…” 说明与 “Show all / Show selected collaborative publications” 按钮从 Workshop 之后移到 Collaborative Work 末尾、Workshop 之前，紧跟它所控制的列表。
 - 由此 Workshop 不再落在合作论文的折叠范围内，4 篇 workshop 论文（含 3 篇 AAAI Oral 与 CVPR workshop Best Paper Honorable Mention）始终显示。
+
+### 北京市科技奖、SoL 项目与两页版 CV（2026-10-17）
+
+- 北京市科学技术奖：按 Shiyu 提供的《2025年度北京市科学技术奖项目奖评审委员会评审结果目录》与 2026-06-12 的正式授奖决定，Honors 第二条加 “2025 Beijing Science and Technology Award, Natural Science Award (Second Prize)”，附项目英文译名与中文奖名，完成人位次按惯例写 2/4，奖名链接到首都之窗的授奖决定；News 2026.06 加一条 “I am honored to have participated in the project … (2/4)”。两版 CV 同步。
+- Funded Research Projects 首张卡加 Singapore MOE Science of Learning Grant（AY251001V62NK，Conversational AI for Higher-Order Thinking，Core Researcher，NTU，2026–2030），不写金额，与其他项目一致；两版 CV 同步。
+- CV 不再保留一页版，短版改为两页：第 1 页为研究兴趣、任职与教育、经费、平台、荣誉、共同指导，第 2 页为 20 篇代表论文（9 篇一作或通讯、专著、10 篇合作）与服务和报告；版心恢复正常边距。两版 CV 的主页链接改为 hushiyu1995.com。主页仍只链接完整版 CV。
+- 以上奖项与项目信息已同步到 Shiyu 的私有研究记录；本文件不转录其内容。

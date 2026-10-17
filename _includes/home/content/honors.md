@@ -1,6 +1,7 @@
 <div class="honors-list" markdown="1">
 
 * <span class="honor-kind honor-kind--award">Award</span> 2026 **Reviewer Award**, the [43rd International Conference on Machine Learning (ICML 2026)](https://icml.cc/Conferences/2026)
+* <span class="honor-kind honor-kind--award">Award</span> 2025 **[Beijing Science and Technology Award](https://www.beijing.gov.cn/zhengce/zhengcefagui/202606/t20260618_4705440.html), Natural Science Award (Second Prize)** for *Evaluation, Representation, and Modeling of Semantic Structure Diversity for Generalizable Visual Understanding* (2025年度北京市科学技术奖自然科学奖二等奖, 2/4)
 * <span class="honor-kind honor-kind--award">Award</span> 2025 **IEEE SMCS TEAM Program Award** by the [IEEE Systems, Man, and Cybernetics Society](https://www.ieeesmc.org/)
 * <span class="honor-kind honor-kind--award">Award</span> 2024 **Best Paper Honorable Mention** in the [3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (CVPRW最佳论文提名)
 * <span class="honor-kind honor-kind--honor">Honor</span> 2024 **Beijing Outstanding Graduates** (北京市优秀毕业生, top 5%)

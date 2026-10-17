@@ -78,6 +78,18 @@
 <div class="project-grid project-grid--single project-grid--funded">
 <article class="project-card project-card--compact" markdown="1">
 
+<span class='anchor' id='MOE-SoL-AY251001V62NK'></span>
+
+### AY251001V62NK
+
+<span class="project-card__meta">Singapore MOE Science of Learning Grant · Conversational AI for Higher-Order Thinking: A Science of Learning-Based Intervention in Secondary Education</span>
+
+<div class="project-metrics"><span>Core Researcher</span><span>NTU Singapore</span><span>2026 – 2030</span></div>
+
+</article>
+
+<article class="project-card project-card--compact" markdown="1">
+
 ### MOE2024-TRF-004
 
 <span class="project-card__meta">Singapore MOE Tertiary Education Research Fund</span>
