@@ -1,10 +1,46 @@
 (function () {
   "use strict";
 
-  // Opacity of the NTU blue rail for the nth most recent year.
-  function yearTone(rank) {
-    return String(Math.max(0.16, 1 - rank * 0.2));
+  // Rail colour at position t within a year (0 = newest, 1 = oldest):
+  // NTU blue fading to a pale blue.
+  function railColour(t) {
+    var from = [24, 28, 98];
+    var to = [214, 219, 240];
+    var mix = from.map(function (value, index) {
+      return Math.round(value + (to[index] - value) * Math.min(1, Math.max(0, t)));
+    });
+    return "rgb(" + mix.join(", ") + ")";
   }
+
+  // Give each year's bar the same fade, from NTU blue at the year's newest
+  // shown item to a pale blue at its oldest; each item gets its slice of it.
+  function paintRail(items) {
+    var groups = {};
+
+    items.forEach(function (item) {
+      var year = item.getAttribute("data-year");
+      (groups[year] = groups[year] || []).push(item);
+    });
+
+    Object.keys(groups).forEach(function (year) {
+      // Split the fade by each item's height so it runs evenly down the bar.
+      var group = groups[year];
+      var heights = group.map(function (item) {
+        return Math.max(1, item.offsetHeight);
+      });
+      var total = heights.reduce(function (sum, height) {
+        return sum + height;
+      }, 0);
+      var offset = 0;
+
+      group.forEach(function (item, index) {
+        item.style.setProperty("--rail-top", railColour(offset / total));
+        offset += heights[index];
+        item.style.setProperty("--rail-bottom", railColour(offset / total));
+      });
+    });
+  }
+
 
   function initialiseNewsTimeline() {
     var timeline = document.querySelector(".news-timeline");
@@ -79,6 +115,7 @@
       return item.tagName === "P";
     });
     var years = [];
+    var dated = [];
 
     items.forEach(function (item) {
       var dateLabel = item.querySelector("strong");
@@ -93,12 +130,32 @@
         years.push(match[1]);
         item.classList.add("news-item--year-start");
       }
-      item.style.setProperty("--year-tone", yearTone(years.indexOf(match[1])));
+      dated.push(item);
     });
 
-    if (years.length) {
-      timeline.classList.add("has-year-rail");
+    if (!dated.length) {
+      return;
     }
+
+    // Repaint over the items now shown, so each visible year has the full
+    // fade in both the recent-months view and the full list.
+    function repaint() {
+      paintRail(dated.filter(function (item) {
+        return item.offsetParent !== null;
+      }));
+    }
+
+    timeline.classList.add("has-year-rail");
+    repaint();
+
+    var toggle = document.querySelector(".news-toggle");
+    if (toggle) {
+      toggle.addEventListener("click", function () {
+        window.setTimeout(repaint, 0);
+      });
+    }
+
+    return repaint;
   }
 
   function initialiseHonorsList() {
@@ -153,8 +210,11 @@
   }
 
   function initialiseCollapsibleSections() {
-    initialiseNewsYears();
+    var repaintNewsRail = initialiseNewsYears();
     initialiseNewsTimeline();
+    if (repaintNewsRail) {
+      repaintNewsRail();
+    }
     initialiseHonorsList();
   }
 

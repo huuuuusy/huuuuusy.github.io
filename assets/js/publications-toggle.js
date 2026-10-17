@@ -287,6 +287,47 @@
     filter.hidden = false;
   }
 
+  // Rail colour at position t within a year (0 = newest, 1 = oldest):
+  // NTU blue fading to a pale blue.
+  function railColour(t) {
+    var from = [24, 28, 98];
+    var to = [214, 219, 240];
+    var mix = from.map(function (value, index) {
+      return Math.round(value + (to[index] - value) * Math.min(1, Math.max(0, t)));
+    });
+    return "rgb(" + mix.join(", ") + ")";
+  }
+
+  // Give each year's bar the same fade, from NTU blue at the year's newest
+  // shown item to a pale blue at its oldest; each item gets its slice of it.
+  function paintRail(items) {
+    var groups = {};
+
+    items.forEach(function (item) {
+      var year = item.getAttribute("data-year");
+      (groups[year] = groups[year] || []).push(item);
+    });
+
+    Object.keys(groups).forEach(function (year) {
+      // Split the fade by each item's height so it runs evenly down the bar.
+      var group = groups[year];
+      var heights = group.map(function (item) {
+        return Math.max(1, item.offsetHeight);
+      });
+      var total = heights.reduce(function (sum, height) {
+        return sum + height;
+      }, 0);
+      var offset = 0;
+
+      group.forEach(function (item, index) {
+        item.style.setProperty("--rail-top", railColour(offset / total));
+        offset += heights[index];
+        item.style.setProperty("--rail-bottom", railColour(offset / total));
+      });
+    });
+  }
+
+
   function notifyChange(section) {
     section.dispatchEvent(new CustomEvent("publications:change"));
   }
@@ -322,18 +363,6 @@
       return;
     }
 
-    // Each year's stretch of the rail fades from the newest year back.
-    var years = [];
-    papers.forEach(function (paper) {
-      var year = paper.getAttribute("data-year");
-      if (years.indexOf(year) === -1) {
-        years.push(year);
-      }
-      paper.style.setProperty(
-        "--year-tone",
-        String(Math.max(0.16, 1 - years.indexOf(year) * 0.2))
-      );
-    });
 
     function update() {
       var previousYear = null;
@@ -347,6 +376,11 @@
           previousYear = paper.getAttribute("data-year");
         }
       });
+
+      // Each shown year gets the full fade, whatever is collapsed or filtered.
+      paintRail(papers.filter(function (paper) {
+        return !paper.hidden;
+      }));
     }
 
     section.classList.add("has-year-timeline");

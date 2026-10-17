@@ -46,7 +46,7 @@
         bottom: 0;
         left: 52px;
         width: 3px;
-        background: rgba(24, 28, 98, var(--year-tone, .2));
+        background: linear-gradient(var(--rail-top, var(--home-rule)), var(--rail-bottom, var(--home-rule)));
         content: "";
     }
 
