@@ -448,3 +448,8 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - 按 Shiyu 要求，† 改为：一作是她指导的学生、她不是通讯作者即标注（共一包括在内；不再要求排在她前面的都是她的学生）。起因是 GHASS（From Observation to Generation）被上一条规则漏掉。新增 7 篇：NarrLV、Look Less, Reason More、Talk with Your Fingers、Beyond Accuracy（EMNLP Findings）、From Observation to Generation、Finger in Camera Speaks Everything、VS-LLM；主页共 30 篇（Lead or Corresponding Author 1、Collaborative Work 25、Workshop 4），预印本不标。
 - `files/CV-EN.pdf` 同步为同一规则的完整 CV（Overleaf `deeff36`）。
 - 核对时发现：MemVLT 在主页标题为 “Vision-Language Tracking …”，CV 文献库为 “Visual-Language Tracking …”，未改，待确认正式题目。
+
+### 预印本也标 †（2026-10-18）
+
+- 按 Shiyu 要求，学生一作、她不是通讯的预印本也加 †，新增 8 篇：流视频理解综述、SOEI、EduVerse、EduPersona、SOI、How Texts Help、DTVLT、多模态交互 VLT 基准；主页共 38 篇（Lead or Corresponding Author 1、Collaborative Work 25、Workshop 4、Preprints 8）。STEMVerse 预印本她是通讯，不标。
+- `files/CV-EN.pdf` 同步（Overleaf `c493bd7`）。

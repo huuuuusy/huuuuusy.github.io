@@ -5,7 +5,7 @@
 
 <span class='anchor' id='Streaming-Video-Survey'></span>
 
-**How to Respond, How to Memorize, How to Be Fast: A Survey of Streaming Video Understanding**<br>
+**How to Respond, How to Memorize, How to Be Fast: A Survey of Streaming Video Understanding**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), J. Zhao, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions)<br>
 <span class="paper-keywords">Streaming Video Understanding · Long-Term Memory · Efficient Inference</span><br>
 [📃 Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7008298)
@@ -32,7 +32,7 @@
 
 <span class='anchor' id='SOEI'></span>
 
-**When LLMs Learn to be Students: The SOEI Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction**<br>
+**When LLMs Learn to be Students: The SOEI Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction**<sup title="Mentee-led work I guided">†</sup><br>
 Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br>
 <span class="paper-keywords">Virtual Student Agents · Personality-Grounded Learner Modeling · Interaction-Centered Evaluation</span><br>
 [📃 Paper](https://arxiv.org/abs/2410.15701)
@@ -45,7 +45,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 
 <span class='anchor' id='EduVerse'></span>
 
-**EduVerse: A User-Defined Multi-Agent Simulation Space for Education Scenario**<br>
+**EduVerse: A User-Defined Multi-Agent Simulation Space for Education Scenario**<sup title="Mentee-led work I guided">†</sup><br>
 Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Kang, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br>
 <span class="paper-keywords">AI for Education · Multi-Agent Simulation · User-Defined Classroom Space</span><br>
 [📃 Paper](https://arxiv.org/abs/2510.05650)
@@ -58,7 +58,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://
 
 <span class='anchor' id='EduPersona'></span>
 
-**EduPersona: Benchmarking Subjective Ability Boundaries of Virtual Student Agents**<br>
+**EduPersona: Benchmarking Subjective Ability Boundaries of Virtual Student Agents**<sup title="Mentee-led work I guided">†</sup><br>
 B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br>
 <span class="paper-keywords">Virtual Student Agents · Persona Consistency · Subjective Ability Boundaries</span><br>
 [📃 Paper](https://arxiv.org/abs/2510.04648)
@@ -71,7 +71,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 <span class='anchor' id='SOI-V2'></span>
 
-**SOI is the Root of All Evil: Quantifying and Breaking Similar Object Interference in Single Object Tracking**<br>
+**SOI is the Root of All Evil: Quantifying and Breaking Similar Object Interference in Single Object Tracking**<sup title="Mentee-led work I guided">†</sup><br>
 [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, S. Jia, P. Xu, H. Ma, Y. Ma, J. Zhang, [X. Lu](https://automation.seu.edu.cn/lxb/list.htm), [X. Zhao](https://www.xinzhaoai.com/) (*Equal Contributions) <br>
 <span class="paper-keywords">Similar-Object Interference · Quantified Failure Analysis · VLM-Guided Correction</span><br>
 [📃 Paper](https://www.arxiv.org/abs/2508.09524)
@@ -84,7 +84,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 <span class='anchor' id='VLTVerse'></span>
 
-**How Texts Help? A Fine-grained Evaluation to Reveal the Role of Language in Vision-Language Tracking**<br>
+**How Texts Help? A Fine-grained Evaluation to Reveal the Role of Language in Vision-Language Tracking**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li](https://github.com/Xuchen-Li)\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) (*Equal Contributions) <br>
 <span class="paper-keywords">Vision-Language Tracking · Fine-Grained Condition Subspaces · Language Utility Diagnosis</span><br>
 [📃 Paper](https://arxiv.org/abs/2411.15600)
@@ -111,7 +111,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 <span class='anchor' id='DTVLT'></span>
 
-**DTVLT: A Multi-modal Diverse Text Benchmark for Visual Language Tracking Based on LLM**<br>
+**DTVLT: A Multi-modal Diverse Text Benchmark for Visual Language Tracking Based on LLM**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 <span class="paper-keywords">Vision-Language Tracking · Data-Centric AI · Diverse Text Benchmark</span><br>
 [📃 Paper](https://arxiv.org/abs/2410.02492)
@@ -125,7 +125,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 
 <span class='anchor' id='VLT-MI'></span>
 
-**Visual Language Tracking with Multi-modal Interaction: A Robust Benchmark**<br>
+**Visual Language Tracking with Multi-modal Interaction: A Robust Benchmark**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li](https://github.com/Xuchen-Li),  ***<font color=DarkRed>Shiyu Hu</font>***, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), J. Zhang, [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 <span class="paper-keywords">Vision-Language Tracking · Multimodal Interaction · Interactive Robustness Evaluation</span><br>
 [📃 Paper](https://arxiv.org/abs/2409.08887)
