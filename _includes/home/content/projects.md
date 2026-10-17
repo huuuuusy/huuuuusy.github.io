@@ -82,7 +82,7 @@
 
 ### AY251001V62NK
 
-<span class="project-card__meta">Singapore MOE Science of Learning Grant · Conversational AI for Higher-Order Thinking: A Science of Learning-Based Intervention in Secondary Education</span>
+<span class="project-card__meta">Singapore MOE Science of Learning Grant</span>
 
 <div class="project-metrics"><span>Core Researcher</span><span>NTU Singapore</span><span>2026 – Present</span></div>
 

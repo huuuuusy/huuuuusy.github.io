@@ -414,6 +414,11 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 `53c2716`、`c3d3639`：
 
 - 北京市科学技术奖：按 Shiyu 提供的《2025年度北京市科学技术奖项目奖评审委员会评审结果目录》与 2026-06-12 的正式授奖决定，Honors 第二条加 “2025 Beijing Science and Technology Award, Natural Science Award (Second Prize)”，附项目英文译名与中文奖名，完成人位次按惯例写 2/4，奖名链接到首都之窗的授奖决定；News 2026.06 加一条 “I am honored to have participated in the project … (2/4)”。两版 CV 同步。
-- Funded Research Projects 首张卡加 Singapore MOE Science of Learning Grant（AY251001V62NK，Conversational AI for Higher-Order Thinking，Core Researcher，NTU，2026 – Present；按 Shiyu 要求只写起始年，`c3d3639` 由最初的 2026 – 2030 改为此写法），不写金额，与其他项目一致；两版 CV 同步。
-- CV 不再保留一页版，短版改为两页：第 1 页为研究兴趣、任职与教育、经费、平台、荣誉、共同指导，第 2 页为 20 篇代表论文（9 篇一作或通讯、专著、10 篇合作）与服务和报告；版心恢复正常边距。两版 CV 的主页链接改为 hushiyu1995.com。主页仍只链接完整版 CV。两页版因排版需要省略 SoL 项目题名，并把共同指导压缩为一段放在第 1 页末。CV 源文件（含 README 中对两页版的说明）另行提交。
+- Funded Research Projects 首张卡加 Singapore MOE Science of Learning Grant（AY251001V62NK，Core Researcher，NTU，2026 – Present；按 Shiyu 要求不写项目题目；按 Shiyu 要求只写起始年，`c3d3639` 由最初的 2026 – 2030 改为此写法），不写金额，与其他项目一致；两版 CV 同步。
+- CV 不再保留一页版，短版改为两页：第 1 页为研究兴趣、任职与教育、经费、平台、荣誉、共同指导，第 2 页为 20 篇代表论文（9 篇一作或通讯、专著、10 篇合作）与服务和报告；版心恢复正常边距。两版 CV 的主页链接改为 hushiyu1995.com。主页仍只链接完整版 CV。两页版把共同指导压缩为一段放在第 1 页末。CV 源文件（含 README 中对两页版的说明）另行提交。
 - 以上奖项与项目信息已同步到 Shiyu 的私有研究记录（含对奖项完成人名单的更正）；本文件不转录其内容。
+
+### News 默认显示近三个月（2026-10-17）
+
+- News 默认只显示当月及前两个月（此前为近六个月）；若这段时间少于 6 条，则至少显示最近 6 条，避免消息少的月份显得空。展开后的按钮文字由 “Show recent six months” 改为 “Show recent news”。年份色条按当前显示的条目重新计算，默认视图中 2026 一段仍完整由深到浅。
+- SoL 项目在主页与 CV 中按 Shiyu 要求不写项目题目，只保留项目编号、资助计划、角色与 2026 – Present。

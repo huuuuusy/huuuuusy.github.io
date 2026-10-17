@@ -54,9 +54,13 @@
       return item.tagName === "P";
     });
     var today = new Date();
-    // Keep the current month and the previous five calendar months visible.
-    var cutoff = new Date(today.getFullYear(), today.getMonth() - 5, 1);
+    // Keep the current month and the previous two calendar months visible,
+    // and never fewer than MIN_VISIBLE items, so a quiet stretch still shows
+    // the latest news.
+    var MIN_VISIBLE = 6;
+    var cutoff = new Date(today.getFullYear(), today.getMonth() - 2, 1);
     var olderItems = [];
+    var shown = 0;
 
     items.forEach(function (item) {
       var dateLabel = item.querySelector("strong");
@@ -67,9 +71,11 @@
       }
 
       var itemDate = new Date(Number(match[1]), Number(match[2]) - 1, 1);
-      if (itemDate < cutoff) {
+      if (itemDate < cutoff && shown >= MIN_VISIBLE) {
         item.classList.add("news-item--older");
         olderItems.push(item);
+      } else {
+        shown += 1;
       }
     });
 
@@ -83,7 +89,7 @@
     function updateLabel(expanded) {
       var label = toggle.querySelector(".news-toggle__label");
       label.textContent = expanded
-        ? "Show recent six months"
+        ? "Show recent news"
         : "Show all news";
     }
 
@@ -138,7 +144,7 @@
     }
 
     // Repaint over the items now shown, so each visible year has the full
-    // fade in both the recent-months view and the full list.
+    // fade in both the recent-news view and the full list.
     function repaint() {
       paintRail(dated.filter(function (item) {
         return item.offsetParent !== null;
