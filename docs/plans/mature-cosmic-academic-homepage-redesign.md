@@ -422,3 +422,7 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 - News 默认只显示当月及前两个月（此前为近六个月）；若这段时间少于 6 条，则至少显示最近 6 条，避免消息少的月份显得空。展开后的按钮文字由 “Show recent six months” 改为 “Show recent news”。年份色条按当前显示的条目重新计算，默认视图中 2026 一段仍完整由深到浅。
 - SoL 项目在主页与 CV 中按 Shiyu 要求不写项目题目，只保留项目编号、资助计划、角色与 2026 – Present。
+
+### CV 标出学生主导、共同指导的论文（2026-10-17）
+
+- `files/CV-EN.pdf` 换为新版完整 CV（仍为 10 页）：学生为一作、Shiyu 不是一作、共一或通讯的 26 篇论文在编号后加 †，图例为 “student-led work I co-mentored”；Student Mentoring and Co-Supervision 开头一句改为指向这些论文。CV 源文件另行提交（Overleaf `fdd8c5f`）。主页页面本身不变。
