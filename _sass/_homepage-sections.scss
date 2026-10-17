@@ -34,6 +34,47 @@
     }
 }
 
+/* Year rail (added by news-toggle.js): the year sits beside the first item
+   of each year, and each year's stretch of the rail fades from the current
+   year (NTU blue) back to the oldest. */
+.news-timeline.has-year-rail > p {
+    padding-left: 148px;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 52px;
+        width: 3px;
+        background: rgba(24, 28, 98, var(--year-tone, .2));
+        content: "";
+    }
+
+    > strong:first-child {
+        left: 70px;
+    }
+
+    &.news-item--year-start::after {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 42px;
+        color: var(--home-blue);
+        font-size: var(--home-fs-meta);
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+        line-height: calc(var(--home-fs-body) * 1.6);
+        text-align: right;
+        content: attr(data-year);
+    }
+
+    /* Each year's bar starts level with its label, leaving a short gap
+       after the previous year. */
+    &.news-item--year-start::before {
+        top: 9px;
+    }
+}
+
 /* Background
    ========================================================================== */
 
@@ -1012,6 +1053,24 @@
 @media (max-width: 47.99em) {
     .news-timeline > p {
         padding-left: 70px;
+    }
+
+    /* Dates already carry the year on narrow screens: keep the rail and its
+       tones, drop the separate year labels. */
+    .news-timeline.has-year-rail > p {
+        padding-left: 86px;
+
+        &::before {
+            left: 0;
+        }
+
+        > strong:first-child {
+            left: 14px;
+        }
+
+        &.news-item--year-start::after {
+            content: none;
+        }
     }
 
     .home-section--contact > ul {

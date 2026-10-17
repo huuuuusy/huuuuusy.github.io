@@ -322,6 +322,19 @@
       return;
     }
 
+    // Each year's stretch of the rail fades from the newest year back.
+    var years = [];
+    papers.forEach(function (paper) {
+      var year = paper.getAttribute("data-year");
+      if (years.indexOf(year) === -1) {
+        years.push(year);
+      }
+      paper.style.setProperty(
+        "--year-tone",
+        String(Math.max(0.16, 1 - years.indexOf(year) * 0.2))
+      );
+    });
+
     function update() {
       var previousYear = null;
 

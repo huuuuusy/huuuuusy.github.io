@@ -1,6 +1,11 @@
 (function () {
   "use strict";
 
+  // Opacity of the NTU blue rail for the nth most recent year.
+  function yearTone(rank) {
+    return String(Math.max(0.16, 1 - rank * 0.2));
+  }
+
   function initialiseNewsTimeline() {
     var timeline = document.querySelector(".news-timeline");
     var toggle = document.querySelector(".news-toggle");
@@ -60,6 +65,42 @@
 
   }
 
+  // Year rail: the news runs newest first, so the first item of each year
+  // carries the year label, and each year's stretch of the rail gets a tone
+  // that fades from the current year back to the oldest one.
+  function initialiseNewsYears() {
+    var timeline = document.querySelector(".news-timeline");
+
+    if (!timeline) {
+      return;
+    }
+
+    var items = Array.prototype.slice.call(timeline.children).filter(function (item) {
+      return item.tagName === "P";
+    });
+    var years = [];
+
+    items.forEach(function (item) {
+      var dateLabel = item.querySelector("strong");
+      var match = dateLabel && dateLabel.textContent.match(/^(\d{4})\./);
+
+      if (!match) {
+        return;
+      }
+
+      item.setAttribute("data-year", match[1]);
+      if (years.indexOf(match[1]) === -1) {
+        years.push(match[1]);
+        item.classList.add("news-item--year-start");
+      }
+      item.style.setProperty("--year-tone", yearTone(years.indexOf(match[1])));
+    });
+
+    if (years.length) {
+      timeline.classList.add("has-year-rail");
+    }
+  }
+
   function initialiseHonorsList() {
     var honors = document.querySelector(".honors-list");
     var toggle = document.querySelector(".honors-toggle");
@@ -112,6 +153,7 @@
   }
 
   function initialiseCollapsibleSections() {
+    initialiseNewsYears();
     initialiseNewsTimeline();
     initialiseHonorsList();
   }

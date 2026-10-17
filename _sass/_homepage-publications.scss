@@ -301,9 +301,9 @@
         position: absolute;
         top: 0;
         bottom: 0;
-        left: calc(var(--timeline-gutter) * -1 + 22px);
-        width: 1px;
-        background: var(--home-rule);
+        left: calc(var(--timeline-gutter) * -1 + 21px);
+        width: 3px;
+        background: rgba(24, 28, 98, var(--year-tone, .2));
         content: "";
     }
 
@@ -331,8 +331,9 @@
 
 }
 
-/* Start the rail at the first year label instead of above it. */
-.has-year-timeline .paper-box--timeline-first::before {
+/* Each year's bar starts level with its label, leaving a short gap after
+   the previous year. */
+.has-year-timeline .paper-box--year-start::before {
     top: var(--home-space-5);
 }
 
