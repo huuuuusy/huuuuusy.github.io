@@ -438,3 +438,7 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 - 按 Shiyu 要求，图例与 23 处悬停提示由 “Mentee-first work I co‑mentored” 改为 “Mentee-led work I guided”：同时说明一作是她指导的学生、这项工作主要由她指导；篇目与规则不变（`9a54b05`）。
 - `files/CV-EN.pdf` 同步为同一措辞的完整 CV（Overleaf `27aa984`）。
+
+### CV 链接去掉版本号（2026-10-18）
+
+- 按 Shiyu 要求，导航栏 “CV” 与首屏 “View CV” 恢复为不带查询参数的 `/files/CV-EN.pdf`，撤回 `c66fd2f` 同日加入的 `?v=<构建版本>`，地址可直接复制分享。代价是更新后浏览器可能短暂显示旧版：GitHub Pages 对该文件返回 `Cache-Control: max-age=600`（2026-10-18 核），最多约 10 分钟，刷新即可。样式表与头像的缓存参数不受影响。
