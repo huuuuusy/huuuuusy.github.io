@@ -442,3 +442,9 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 ### CV 链接去掉版本号（2026-10-18）
 
 - 按 Shiyu 要求，导航栏 “CV” 与首屏 “View CV” 恢复为不带查询参数的 `/files/CV-EN.pdf`，撤回 `c66fd2f` 同日加入的 `?v=<构建版本>`，地址可直接复制分享。代价是更新后浏览器可能短暂显示旧版：GitHub Pages 对该文件返回 `Cache-Control: max-age=600`（2026-10-18 核），最多约 10 分钟，刷新即可。样式表与头像的缓存参数不受影响。
+
+### † 规则放宽为“一作是 Shiyu 指导的学生”（2026-10-18）
+
+- 按 Shiyu 要求，† 改为：一作是她指导的学生、她不是通讯作者即标注（共一包括在内；不再要求排在她前面的都是她的学生）。起因是 GHASS（From Observation to Generation）被上一条规则漏掉。新增 7 篇：NarrLV、Look Less, Reason More、Talk with Your Fingers、Beyond Accuracy（EMNLP Findings）、From Observation to Generation、Finger in Camera Speaks Everything、VS-LLM；主页共 30 篇（Lead or Corresponding Author 1、Collaborative Work 25、Workshop 4），预印本不标。
+- `files/CV-EN.pdf` 同步为同一规则的完整 CV（Overleaf `deeff36`）。
+- 核对时发现：MemVLT 在主页标题为 “Vision-Language Tracking …”，CV 文献库为 “Visual-Language Tracking …”，未改，待确认正式题目。

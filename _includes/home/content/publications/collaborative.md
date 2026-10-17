@@ -64,7 +64,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 
 <span class='anchor' id='NarrLV'></span>
 
-**NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation Models**<br>
+**NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation Models**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), H. Yu, [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, J. Chen, C. Zhu, J. Wu, [X. Chu](https://cxxgtxy.github.io/), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [International Conference on Learning Representations](https://iclr.cc/Conferences/2026) (CCF-A Conference)<br>
 <span class="paper-keywords">Generative Video Models · Narrative Coherence · Narrative-Centric Evaluation</span><br>
@@ -78,7 +78,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 
 <span class='anchor' id='RGRL'></span>
 
-**Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning**<br>
+**Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [W. Zhang](https://zwt233.github.io/)<br>
 [Annual Meeting of the Association for Computational Linguistics](https://2026.aclweb.org/) (CCF-A Conference)<br>
 <span class="paper-keywords">Multimodal Reasoning · Grounded Visual Evidence · Adaptive Pixel-Space Reasoning</span><br>
@@ -106,7 +106,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 
 <span class='anchor' id='DAAWBench'></span>
 
-**Talk with Your Fingers: A Depth-Aware Benchmark for Air-Writing Recognition**<br>
+**Talk with Your Fingers: A Depth-Aware Benchmark for Air-Writing Recognition**<sup title="Mentee-led work I guided">†</sup><br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***,  [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), J. Wu, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, JCR Q1, IF 10.8)<br>
 <span class="paper-keywords">Human-Centered Vision · Depth-Aware Air-Writing · Multimodal Benchmark</span><br>
@@ -164,7 +164,7 @@ M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
 
 <span class='anchor' id='ViEBench'></span>
 
-**Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images**<br>
+**Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en)<br>
 [Conference on Empirical Methods in Natural Language Processing](https://2026.emnlp.org/) (EMNLP Findings, CCF-B Conference)<br>
 <span class="paper-keywords">Agentic Visual Reasoning · Grounded Visual Evidence · Dual-Axis Diagnosis</span><br>
@@ -219,7 +219,7 @@ S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.
 
 <span class='anchor' id='GHASS'></span>
 
-**From Observation to Generation: A Complex-Systems Perspective on Generative Human-AI Social Systems**<br>
+**From Observation to Generation: A Complex-Systems Perspective on Generative Human-AI Social Systems**<sup title="Mentee-led work I guided">†</sup><br>
 Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
 [Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (JCR Q1, IF 5.7)<br>
 <span class="paper-keywords">Generative Human-AI Social Systems · Complex Systems · Collective Dynamics</span><br>
@@ -391,7 +391,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <span class='anchor' id='AWCV'></span>
 
-**Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<br>
+**Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<sup title="Mentee-led work I guided">†</sup><br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
 [IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, JCR Q1, IF 10.8)<br>
 <span class="paper-keywords">Real-World Air-Writing · Unconstrained Recognition · Large-Scale Benchmark</span><br>
@@ -406,7 +406,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 
 <span class='anchor' id='VSLLM'></span>
 
-**VS-LLM: Visual-Semantic Depression Assessment based on LLM for Drawing Projection Test**<br>
+**VS-LLM: Visual-Semantic Depression Assessment based on LLM for Drawing Projection Test**<sup title="Mentee-led work I guided">†</sup><br>
 [M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), Y. Kang, [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, Y. kang, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference)<br>
 <span class="paper-keywords">Drawing-Based Depression Assessment · Multimodal Mental Health · LLM-Assisted Interpretation</span><br>
