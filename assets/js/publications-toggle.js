@@ -102,6 +102,7 @@
       toggle.setAttribute("aria-expanded", String(expanded));
       updateLabel(expanded);
       icon.textContent = expanded ? "↑" : "↓";
+      notifyChange(section);
     }
 
     function revealHashTarget(hash) {
@@ -271,6 +272,8 @@
       Array.prototype.forEach.call(options, function (option) {
         option.setAttribute("aria-pressed", String(option.getAttribute("data-line") === line));
       });
+
+      notifyChange(section);
     }
 
     filter.addEventListener("click", function (event) {
@@ -284,12 +287,68 @@
     filter.hidden = false;
   }
 
+  function notifyChange(section) {
+    section.dispatchEvent(new CustomEvent("publications:change"));
+  }
+
+  // Year timeline for collaborative work: the list runs newest first, so the
+  // first visible paper of each year carries the year label in the left rail.
+  function initialiseYearTimeline(section) {
+    var start = section.querySelector("#collaborative-publications");
+
+    if (!start) {
+      return;
+    }
+
+    var papers = [];
+    var element = start.nextElementSibling;
+
+    while (element && !element.matches("h2, h3")) {
+      if (element.classList.contains("paper-box")) {
+        var badge = element.querySelector(".badge");
+        var year = badge && badge.textContent.match(/(19|20)\d{2}/);
+
+        if (year) {
+          element.setAttribute("data-year", year[0]);
+          element.classList.add("paper-box--timeline");
+          papers.push(element);
+        }
+      }
+
+      element = element.nextElementSibling;
+    }
+
+    if (!papers.length) {
+      return;
+    }
+
+    function update() {
+      var previousYear = null;
+
+      papers.forEach(function (paper) {
+        var isStart = !paper.hidden && paper.getAttribute("data-year") !== previousYear;
+
+        paper.classList.toggle("paper-box--year-start", isStart);
+        paper.classList.toggle("paper-box--timeline-first", isStart && previousYear === null);
+        if (!paper.hidden) {
+          previousYear = paper.getAttribute("data-year");
+        }
+      });
+    }
+
+    section.classList.add("has-year-timeline");
+    section.addEventListener("publications:change", update);
+    update();
+  }
+
   function initialisePublicationBrowser() {
     var section = document.querySelector(".home-section--publications");
 
     if (!section) {
       return;
     }
+
+    initialiseYearTimeline(section);
 
     publicationGroups.forEach(function (config) {
       initialisePublicationGroup(section, config);

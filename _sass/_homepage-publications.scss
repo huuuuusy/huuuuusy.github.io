@@ -289,12 +289,63 @@
     }
 }
 
+/* Year timeline for collaborative work (added by publications-toggle.js):
+   a rail in the left gutter, with the year printed beside the first visible
+   paper of each year. */
+.has-year-timeline .paper-box--timeline {
+    --timeline-gutter: 64px;
+    position: relative;
+    margin-left: var(--timeline-gutter);
+
+    &::before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: calc(var(--timeline-gutter) * -1 + 22px);
+        width: 1px;
+        background: var(--home-rule);
+        content: "";
+    }
+
+    + .paper-box--timeline {
+        border-top: 1px solid var(--home-rule);
+    }
+}
+
+.has-year-timeline .paper-box--year-start {
+    &::after {
+        position: absolute;
+        top: calc(var(--home-space-5) - 3px);
+        left: calc(var(--timeline-gutter) * -1);
+        min-width: 44px;
+        padding: 2px 0;
+        color: var(--home-blue);
+        background: var(--home-canvas);
+        font-size: var(--home-fs-meta);
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+        line-height: 1.4;
+        text-align: center;
+        content: attr(data-year);
+    }
+
+}
+
+/* Start the rail at the first year label instead of above it. */
+.has-year-timeline .paper-box--timeline-first::before {
+    top: var(--home-space-5);
+}
+
 .publication-toggle[hidden],
 .publication-item--additional[hidden] {
     display: none !important;
 }
 
 @media (max-width: 47.99em) {
+    .has-year-timeline .paper-box--timeline {
+        --timeline-gutter: 46px;
+    }
+
     .paper-box {
         grid-template-columns: minmax(0, 1fr);
         grid-template-rows: none;
