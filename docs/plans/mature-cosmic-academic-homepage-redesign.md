@@ -453,3 +453,8 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 - 按 Shiyu 要求，学生一作、她不是通讯的预印本也加 †，新增 8 篇：流视频理解综述、SOEI、EduVerse、EduPersona、SOI、How Texts Help、DTVLT、多模态交互 VLT 基准；主页共 38 篇（Lead or Corresponding Author 1、Collaborative Work 25、Workshop 4、Preprints 8）。STEMVerse 预印本她是通讯，不标。
 - `files/CV-EN.pdf` 同步（Overleaf `c493bd7`）。
+
+### MemVLT 题目核对与 Scholar 刷新（2026-10-18）
+
+- 按 NeurIPS 2024 官方 PDF 与论文页，正式题目为 “MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts”，主页原本正确，CV 文献库中的 “Visual-Language” 已改正（Overleaf `08fcab3`）。
+- Google Scholar 刷新为 1,748 次引用、h-index 17、i10-index 26（`_data/scholar.yml`，较 10-17 多 12 次引用）；三版 CV 同步（Overleaf `ca556d5`），`files/CV-EN.pdf` 换为该版本。
