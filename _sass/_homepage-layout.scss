@@ -469,6 +469,10 @@ p:has(> .anchor:only-child) {
     letter-spacing: .02em;
 }
 
+.intro-primary > p + p {
+    margin-top: var(--home-space-4);
+}
+
 .intro-primary > p {
     max-width: 68ch;
     margin: 0;
