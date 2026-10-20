@@ -40,7 +40,7 @@
         </a>
         <div class="background-entry__content">
           <h3>Research Intern</h3>
-          <p class="background-entry__institution">Institute of Electronics, Chinese Academy of Sciences (CASIE)</p>
+          <p class="background-entry__institution"><a href="http://english.aircas.cas.cn/">Aerospace Information Research Institute, Chinese Academy of Sciences (AIR)</a></p>
         </div>
       </article>
     </div>
@@ -114,10 +114,10 @@
           <img src="/images/institutions/bit.png" alt="Beijing Institute of Technology emblem">
         </a>
         <div class="background-entry__content">
-          <h3>B.E. in the Elite Class</h3>
+          <h3>B.E., Elite Class in Information Engineering</h3>
           <p class="background-entry__institution"><a href="https://english.bit.edu.cn/">Beijing Institute of Technology (BIT)</a></p>
           <p class="background-entry__affiliation">School of Information and Electronics</p>
-          <p class="background-entry__summary"><strong>Field:</strong> Information Engineering</p>
+          <p class="background-entry__summary"><strong>Joint training:</strong> with the <a href="http://english.aircas.cas.cn/">Aerospace Information Research Institute, Chinese Academy of Sciences (AIR)</a>, where part of the third- and fourth-year courses and an internship took place</p>
           <details class="background-details">
             <summary>Thesis and degree details</summary>
             <div class="background-details__body">
