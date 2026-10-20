@@ -6,7 +6,7 @@
 <span class='anchor' id='SpringerBook'></span>
 
 **Visual Object Tracking: An Evaluation Perspective**<br>
-[X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu</font>***,  [X. Yin](https://scce.ustb.edu.cn/shiziduiwu/jiaoshixinxi/2018-04-12/62.html)<br>
+[X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu</font>***,  X. Yin<br>
 [Springer, Part of the book series: Advances in Computer Vision and Pattern Recognition (ACVPR)](https://www.springer.com/series/4205)<br>
 <span class="paper-keywords">Visual Object Tracking · Task–Environment–Executor Framework · Visual Turing Test</span><br>
 [📘 Book](https://link.springer.com/book/9789819645572)

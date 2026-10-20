@@ -25,10 +25,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 [the 3rd Workshop on Vision Datasets Understanding and DataCV Challenge in CVPR 2024](https://sites.google.com/view/vdu-cvpr24/) (Workshop in CCF-A Conference, **<font color=DarkRed>Oral, Best Paper Honorable Mention</font>**),
 [📃 Paper](https://arxiv.org/abs/2405.12139)
 [📑 PDF](https://huuuuusy.github.io/files/DTLLM-VLT.pdf)
-[🪧 Poster](https://github.com/Xuchen-Lifiles/DTLLM-poster.pdf)
-[📹 Slides](https://github.com/Xuchen-Lifiles/DTLLM-Slides.pdf)
 [🌐 Platform](http://videocube.aitestunion.com/)
-[🔧 Toolkit](https://github.com/Xuchen-Li/DTLLM-VLT)
 [💾 Dataset](http://videocube.aitestunion.com/downloads)
 [🏆 Award](https://huuuuusy.github.io/files/DTLLM-VLT-Award.pdf)
 

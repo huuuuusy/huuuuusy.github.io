@@ -70,7 +70,7 @@
               <p><strong>Thesis:</strong> Research of Intelligence Evaluation Techniques for Single Object Tracking</p>
               <p><strong>Supervisor:</strong> <a href="https://people.ucas.ac.cn/~huangkaiqi">Prof. Kaiqi Huang</a> (IAPR Fellow, IEEE Senior Member, 10,000 Talents Program – Leading Talents)</p>
               <p><strong>Co-supervisor:</strong> <a href="https://www.xinzhaoai.com/">Prof. Xin Zhao</a> (IEEE Senior Member, Beijing Science Fund for Distinguished Young Scholars)</p>
-              <p><strong>Thesis Committee:</strong> <a href="https://people.ucas.ac.cn/~jiaojianbin">Prof. Jianbin Jiao</a>; <a href="http://39.108.48.32/mipl/pengyuxin/">Prof. Yuxin Peng</a> (National Science Fund for Distinguished Young Scholars); <a href="https://faculty.bjtu.edu.cn/5900/">Prof. Yao Zhao</a> (IEEE Fellow, IET Fellow, National Science Fund for Distinguished Young Scholars); <a href="https://vrlab.buaa.edu.cn/info/1161/1500.htm">Prof. Yunhong Wang</a> (IEEE Fellow, IAPR Fellow, CCF Fellow); and <a href="https://people.ucas.ac.cn/~mingt">Prof. Ming Tang</a></p>
+              <p><strong>Thesis Committee:</strong> <a href="https://people.ucas.ac.cn/~jiaojianbin">Prof. Jianbin Jiao</a>; <a href="http://39.108.48.32/mipl/pengyuxin/">Prof. Yuxin Peng</a> (National Science Fund for Distinguished Young Scholars); <a href="https://faculty.bjtu.edu.cn/5900/">Prof. Yao Zhao</a> (IEEE Fellow, IET Fellow, National Science Fund for Distinguished Young Scholars); Prof. Yunhong Wang (IEEE Fellow, IAPR Fellow, CCF Fellow); and Prof. Ming Tang</p>
               <p><strong>Thesis Defense Grade:</strong> Excellent</p>
             </div>
           </details>
