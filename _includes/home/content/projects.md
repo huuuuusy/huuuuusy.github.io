@@ -134,7 +134,6 @@
 
 <p>Organization of the Hislopvision track for the 3rd High-speed and Low-power Visual Understanding Challenge at PRCV 2023, with participating teams from Tsinghua University, Beijing Institute of Technology, and Jilin University.</p>
 
-<a href="http://hislopvision.aitestunion.com/">Challenge platform →</a>
 
 </article>
 
