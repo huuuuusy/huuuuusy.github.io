@@ -1484,7 +1484,7 @@ Streaming-Video-Survey:
     }
 
 FIOVA:
-  source: "arXiv:2410.15270 (v2, 2025-05-19; arXiv metadata); abstract from arXiv:2410.15270"
+  source: "arXiv:2410.15270 (v2, 2025-05-19; arXiv metadata); abstract from arXiv:2410.15270; BibTeX follows arXiv's own export for the latest version (v2, checked 2026-10-21)"
   abstract: >-
     Despite rapid progress in large vision-language models (LVLMs), existing video caption
     benchmarks remain limited in evaluating their alignment with human understanding. Most rely on a
@@ -1511,15 +1511,18 @@ FIOVA:
     - "Proposes FIOVA-DQ, an event-level evaluation metric with cognitive weights derived from annotator consensus for fine-grained assessment of event relevance and semantic coverage."
     - "Evaluates nine representative LVLMs with a complexity-aware analysis based on inter-annotator variation, revealing consistency gaps and issues such as event under-description and template convergence."
   bibtex: |-
-    @article{hu2024fiova,
-      title   = {{FIOVA}: A Multi-Annotator Benchmark for Human-Aligned Video Captioning},
-      author  = {Hu, Shiyu and Li, Xuchen and Li, Xuzhao and Zhang, Jing and Wang, Yipei and Zhao, Xin and Cheong, Kang Hao},
-      journal = {arXiv preprint arXiv:2410.15270},
-      year    = {2024}
+    @misc{hu2025fiova,
+      title         = {{FIOVA}: A Multi-Annotator Benchmark for Human-Aligned Video Captioning},
+      author        = {Hu, Shiyu and Li, Xuchen and Li, Xuzhao and Zhang, Jing and Wang, Yipei and Zhao, Xin and Cheong, Kang Hao},
+      year          = {2025},
+      eprint        = {2410.15270},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      url           = {https://arxiv.org/abs/2410.15270}
     }
 
 SOEI:
-  source: "arXiv:2410.15701 (v2, 2025-05-22; arXiv metadata); abstract from arXiv:2410.15701"
+  source: "arXiv:2410.15701 (v2, 2025-05-22; arXiv metadata); abstract from arXiv:2410.15701; BibTeX follows arXiv's own export for the latest version (v2, checked 2026-10-21)"
   abstract: >-
     Recent advances in large language models (LLMs) have enabled intelligent tutoring systems, yet
     the development of LLM-based Virtual Student Agents (LVSAs) remains underexplored. Such agents
@@ -1546,15 +1549,18 @@ SOEI:
     - "Builds five LVSAs based on Big Five traits for Chinese language instruction via LoRA fine-tuning and expert-informed prompts, assessed with hybrid human and GPT-4 evaluation."
     - "Shows in controlled experiments with real pre-service teachers that LVSAs elicit adaptive teaching strategies and keep trait-consistent behavior across multi-turn dialogues."
   bibtex: |-
-    @article{ma2024llms,
-      title   = {When {LLMs} Learn to be Students: The {SOEI} Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction},
-      author  = {Ma, Yiping and Hu, Shiyu and Li, Xuchen and Wang, Yipei and Chen, Yuqing and Liu, Shiqing and Cheong, Kang Hao},
-      journal = {arXiv preprint arXiv:2410.15701},
-      year    = {2024}
+    @misc{ma2025llms,
+      title         = {When {LLMs} Learn to be Students: The {SOEI} Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction},
+      author        = {Ma, Yiping and Hu, Shiyu and Li, Xuchen and Wang, Yipei and Chen, Yuqing and Liu, Shiqing and Cheong, Kang Hao},
+      year          = {2025},
+      eprint        = {2410.15701},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      url           = {https://arxiv.org/abs/2410.15701}
     }
 
 EduVerse:
-  source: "arXiv:2510.05650 (arXiv API record, v1); abstract from arXiv:2510.05650"
+  source: "arXiv:2510.05650 (arXiv API record, v1); abstract from arXiv:2510.05650; BibTeX follows arXiv's own export for the latest version (v1, checked 2026-10-21)"
   abstract: >-
     Reproducing cognitive development, group interaction, and long-term evolution in virtual
     classrooms remains a core challenge for educational AI, as real classrooms integrate open-ended
@@ -1581,15 +1587,18 @@ EduVerse:
     - "Builds a layered Cognition-Interaction-Evolution (CIE) architecture for individual consistency, authentic interaction and longitudinal adaptation in cognition, emotion and behavior."
     - "Validates it in middle-school Chinese classes, with simulated IRF rates (0.28-0.64) close to real classrooms (0.37-0.49) and an average 11.7% rise in the positive transition rate across sessions."
   bibtex: |-
-    @article{ma2025eduverse,
-      title   = {{EduVerse}: A User-Defined Multi-Agent Simulation Space for Education Scenario},
-      author  = {Ma, Yiping and Hu, Shiyu and Zhu, Buyuan and Wang, Yipei and Kang, Yaxuan and Liu, Shiqing and Cheong, Kang Hao},
-      journal = {arXiv preprint arXiv:2510.05650},
-      year    = {2025}
+    @misc{ma2025eduverse,
+      title         = {{EduVerse}: A User-Defined Multi-Agent Simulation Space for Education Scenario},
+      author        = {Ma, Yiping and Hu, Shiyu and Zhu, Buyuan and Wang, Yipei and Kang, Yaxuan and Liu, Shiqing and Cheong, Kang Hao},
+      year          = {2025},
+      eprint        = {2510.05650},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      url           = {https://arxiv.org/abs/2510.05650}
     }
 
 EduPersona:
-  source: "arXiv:2510.04648 (arXiv API record, v1); abstract from arXiv:2510.04648"
+  source: "arXiv:2510.04648 (arXiv API record, v1); abstract from arXiv:2510.04648; BibTeX follows arXiv's own export for the latest version (v1, checked 2026-10-21)"
   abstract: >-
     As large language models are increasingly integrated into education, virtual student agents are
     becoming vital for classroom simulation and teacher training. Yet their classroom-oriented
@@ -1616,15 +1625,18 @@ EduPersona:
     - "Decomposes subjective ability into three progressive tasks: basic coherence, student realism and long-term persona consistency, grounded in educational theory."
     - "Shows that persona-fine-tuned variants of three LLMs improve on average by 33.6%, 30.6% and 14.9% on the three tasks, while revealing uneven difficulty across personas."
   bibtex: |-
-    @article{zhu2025edupersona,
-      title   = {{EduPersona}: Benchmarking Subjective Ability Boundaries of Virtual Student Agents},
-      author  = {Zhu, Buyuan and Hu, Shiyu and Ma, Yiping and Zhang, Yuanming and Cheong, Kang Hao},
-      journal = {arXiv preprint arXiv:2510.04648},
-      year    = {2025}
+    @misc{zhu2025edupersona,
+      title         = {{EduPersona}: Benchmarking Subjective Ability Boundaries of Virtual Student Agents},
+      author        = {Zhu, Buyuan and Hu, Shiyu and Ma, Yiping and Zhang, Yuanming and Cheong, Kang Hao},
+      year          = {2025},
+      eprint        = {2510.04648},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      url           = {https://arxiv.org/abs/2510.04648}
     }
 
 SOI-V2:
-  source: "arXiv:2508.09524 (arXiv API record, v2); abstract from arXiv:2508.09524"
+  source: "arXiv:2508.09524 (arXiv API record, v2); abstract from arXiv:2508.09524; BibTeX follows arXiv's own export for the latest version (v2, checked 2026-10-21)"
   abstract: >-
     In this paper, we present the first systematic investigation and quantification of Similar
     Object Interference (SOI), a long-overlooked yet critical bottleneck in Single Object Tracking
@@ -1650,15 +1662,18 @@ SOI-V2:
     - "Builds SOIBench, a semantic cognitive guidance benchmark that mines SOI frames by multi-tracker collective judgment and annotates guidance texts with a multi-level protocol."
     - "Proposes using large vision-language models as external cognitive engines for any RGB tracker, gaining up to 0.93 AUC where existing VLT methods change by only -0.26 to +0.71."
   bibtex: |-
-    @article{wang2025soi,
-      title   = {{SOI} is the Root of All Evil: Quantifying and Breaking Similar Object Interference in Single Object Tracking},
-      author  = {Wang, Yipei and Hu, Shiyu and Jia, Shukun and Xu, Panxi and Ma, Hongfei and Ma, Yiping and Zhang, Jing and Lu, Xiaobo and Zhao, Xin},
-      journal = {arXiv preprint arXiv:2508.09524},
-      year    = {2025}
+    @misc{wang2025soi,
+      title         = {{SOI} is the Root of All Evil: Quantifying and Breaking Similar Object Interference in Single Object Tracking},
+      author        = {Wang, Yipei and Hu, Shiyu and Jia, Shukun and Xu, Panxi and Ma, Hongfei and Ma, Yiping and Zhang, Jing and Lu, Xiaobo and Zhao, Xin},
+      year          = {2025},
+      eprint        = {2508.09524},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      url           = {https://arxiv.org/abs/2508.09524}
     }
 
 VLTVerse:
-  source: "arXiv:2411.15600 (arXiv API record, v1); abstract from arXiv:2411.15600 (\\url{} markup removed)"
+  source: "arXiv:2411.15600 (arXiv API record, v1); abstract from arXiv:2411.15600 (\\url{} markup removed); BibTeX follows arXiv's own export for the latest version (v1, checked 2026-10-21)"
   abstract: >-
     Vision-language tracking (VLT) extends traditional single object tracking by incorporating
     textual information, providing semantic guidance to enhance tracking performance under
@@ -1682,15 +1697,18 @@ VLTVerse:
     - "Evaluates three mainstream SOTA VLT trackers across 60 subspaces combining challenge factors and semantic types, exposing their bottlenecks in complex scenarios."
     - "Analyzes how each semantic type affects specific challenge factors for different algorithms, giving guidance on data, evaluation and algorithm design for VLT."
   bibtex: |-
-    @article{li2024texts,
-      title   = {How Texts Help? A Fine-grained Evaluation to Reveal the Role of Language in Vision-Language Tracking},
-      author  = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
-      journal = {arXiv preprint arXiv:2411.15600},
-      year    = {2024}
+    @misc{li2024texts,
+      title         = {How Texts Help? A Fine-grained Evaluation to Reveal the Role of Language in Vision-Language Tracking},
+      author        = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
+      year          = {2024},
+      eprint        = {2411.15600},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      url           = {https://arxiv.org/abs/2411.15600}
     }
 
 STEMVerse:
-  source: "arXiv:2602.02497 (arXiv API record, v1); abstract from arXiv:2602.02497 ($\\times$ rendered as ×)"
+  source: "arXiv:2602.02497 (arXiv API record, v1); abstract from arXiv:2602.02497 ($\\times$ rendered as ×); BibTeX follows arXiv's own export for the latest version (v1, checked 2026-10-21)"
   abstract: >-
     As Large Language Models (LLMs) achieve significant breakthroughs in complex reasoning tasks,
     evaluating their proficiency in science, technology, engineering, and mathematics (STEM) has
@@ -1714,15 +1732,18 @@ STEMVerse:
     - "Re-aggregates over 20,000 STEM problems from mainstream benchmarks into a unified \"Discipline × Cognition\" capability space with dual-axis labels on every instance."
     - "Evaluates representative LLM families across parameter scales and training paradigms, revealing structural failure patterns in STEM reasoning."
   bibtex: |-
-    @article{li2026stemverse,
-      title   = {{STEMVerse}: A Dual-Axis Diagnostic Framework for {STEM} Reasoning in Large Language Models},
-      author  = {Li, Xuzhao and Li, Xuchen and Zhao, Jian and Hu, Shiyu},
-      journal = {arXiv preprint arXiv:2602.02497},
-      year    = {2026}
+    @misc{li2026stemverse,
+      title         = {{STEMVerse}: A Dual-Axis Diagnostic Framework for {STEM} Reasoning in Large Language Models},
+      author        = {Li, Xuzhao and Li, Xuchen and Zhao, Jian and Hu, Shiyu},
+      year          = {2026},
+      eprint        = {2602.02497},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CL},
+      url           = {https://arxiv.org/abs/2602.02497}
     }
 
 DTVLT:
-  source: "arXiv:2410.02492 (arXiv API record, v2); abstract from arXiv:2410.02492"
+  source: "arXiv:2410.02492 (arXiv API record, v2); abstract from arXiv:2410.02492; BibTeX follows arXiv's own export for the latest version (v2, checked 2026-10-21)"
   abstract: >-
     Visual language tracking (VLT) has emerged as a cutting-edge research area, harnessing
     linguistic data to enhance algorithms with multi-modal inputs and broadening the scope of
@@ -1750,15 +1771,18 @@ DTVLT:
     - "Provides texts at four granularities that vary the extent and density of semantic information, moving beyond single, uniform human annotations."
     - "Evaluates how diverse text affects tracking performance and identifies bottlenecks of existing algorithms for VLT and video understanding."
   bibtex: |-
-    @article{li2024dtvlt,
-      title   = {{DTVLT}: A Multi-modal Diverse Text Benchmark for Visual Language Tracking Based on {LLM}},
-      author  = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
-      journal = {arXiv preprint arXiv:2410.02492},
-      year    = {2024}
+    @misc{li2024dtvlt,
+      title         = {{DTVLT}: A Multi-modal Diverse Text Benchmark for Visual Language Tracking Based on {LLM}},
+      author        = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
+      year          = {2024},
+      eprint        = {2410.02492},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      url           = {https://arxiv.org/abs/2410.02492}
     }
 
 VLT-MI:
-  source: "arXiv:2409.08887 (arXiv API record, v1); abstract from arXiv:2409.08887"
+  source: "arXiv:2409.08887 (arXiv API record, v1); abstract from arXiv:2409.08887; BibTeX follows arXiv's own export for the latest version (v1, checked 2026-10-21)"
   abstract: >-
     Visual Language Tracking (VLT) enhances tracking by mitigating the limitations of relying solely
     on the visual modality, utilizing high-level semantic information through language. This
@@ -1786,11 +1810,14 @@ VLT-MI:
     - "Proposes an interaction paradigm in which, after tracking failures, the tracker receives better-aligned texts and corrected bounding boxes through text updates and object recovery."
     - "Compares trackers on traditional VLT benchmarks and VLT-MI, assessing their accuracy and robustness under the interactive paradigm."
   bibtex: |-
-    @article{li2024visual,
-      title   = {Visual Language Tracking with Multi-modal Interaction: A Robust Benchmark},
-      author  = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
-      journal = {arXiv preprint arXiv:2409.08887},
-      year    = {2024}
+    @misc{li2024visual,
+      title         = {Visual Language Tracking with Multi-modal Interaction: A Robust Benchmark},
+      author        = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
+      year          = {2024},
+      eprint        = {2409.08887},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      url           = {https://arxiv.org/abs/2409.08887}
     }
 
 VTT-ICLR:

@@ -476,3 +476,8 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - Fake News Court、Retinal OCT、GHASS 尚无公开版本，弹窗只放 BibTeX 与链接，不使用未公开稿件的摘要。
 - 顺带修正 VS-LLM 作者行 “Y. kang” 为 “Y. Kang”，删除 COAL 条目中误指向 TBDQ arXiv 编号的注释链接。
 - 待 Shiyu 确认：IGBA 期刊官方署名为 8 位作者（含曾杨睿宇，末三位顺序为高、王、陶），主页与 CV 现为 7 位；NarrLV、DAAWBench、DASTrack 的官方标题与主页写法略有不同；ViEBench 前两位作者顺序；Le Ying Tan 的拼写；Nearing or Surpassing 的年份与投稿会议未能核对官方记录。
+
+### arXiv 版本核对（2026-10-21）
+
+- 逐一核对主页引用的 28 个 arXiv 编号：9 篇预印本的题目、作者顺序与摘要均与 arXiv 最新版一致（差异只在 `&amp;`、`\url{}`、`$\times$`、`\textbf{}` 等符号清理）；已正式发表的论文 BibTeX 仍用出版版本。
+- 9 篇预印本的 BibTeX 改用 arXiv 官方导出格式（`@misc`，含 `eprint`、`archivePrefix`、`primaryClass`、`url`），年份按最新版本：FIOVA（v2）与 SOEI（v2）由 2024 改为 2025，key 随之改为 `hu2025fiova`、`ma2025llms`。CV 中这两篇的年份同步改为 2025。
