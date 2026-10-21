@@ -1,6 +1,6 @@
 <h2 id="preprints">Preprints</h2>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><a href='/images/Streaming-Video-Survey.jpg' title="View the complete figure"><img class="paper-thumb" src='/images/Streaming-Video-Survey-thumb.png' alt="Complete figure for the survey of streaming video understanding" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><a href='/images/Streaming-Video-Survey.webp' title="View the complete figure"><img class="paper-thumb" src='/images/Streaming-Video-Survey-thumb.webp' alt="Complete figure for the survey of streaming video understanding" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='Streaming-Video-Survey'></span>
@@ -13,7 +13,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/FIOVA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/FIOVA.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='FIOVA'></span>
@@ -27,7 +27,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/SOEI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/SOEI.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='SOEI'></span>
@@ -40,7 +40,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/EduVerse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/EduVerse.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='EduVerse'></span>
@@ -53,7 +53,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/EduPersona.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/EduPersona.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='EduPersona'></span>
@@ -66,7 +66,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/SOI-V2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/SOI-V2.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='SOI-V2'></span>
@@ -79,7 +79,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/VLTVerse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/VLTVerse.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='VLTVerse'></span>
@@ -92,7 +92,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><a href='/images/STEMVerse.png' title="View the complete figure"><img class="paper-thumb" src='/images/STEMVerse-thumb.png' alt="Complete STEMVerse diagnostic framework for STEM reasoning" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><a href='/images/STEMVerse.webp' title="View the complete figure"><img class="paper-thumb" src='/images/STEMVerse-thumb.webp' alt="Complete STEMVerse diagnostic framework for STEM reasoning" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='STEMVerse'></span>
@@ -106,7 +106,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/DTVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/DTVLT.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='DTVLT'></span>
@@ -120,7 +120,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/VLT-MI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/VLT-MI.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='VLT-MI'></span>
@@ -134,7 +134,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/VTT-ICLR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-preprint">Preprint</div><img src='/images/VTT-ICLR.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='VTT-ICLR'></span>

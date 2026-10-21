@@ -481,3 +481,9 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 - 逐一核对主页引用的 28 个 arXiv 编号：9 篇预印本的题目、作者顺序与摘要均与 arXiv 最新版一致（差异只在 `&amp;`、`\url{}`、`$\times$`、`\textbf{}` 等符号清理）；已正式发表的论文 BibTeX 仍用出版版本。
 - 9 篇预印本的 BibTeX 改用 arXiv 官方导出格式（`@misc`，含 `eprint`、`archivePrefix`、`primaryClass`、`url`），年份按最新版本：FIOVA（v2）与 SOEI（v2）由 2024 改为 2025，key 随之改为 `hu2025fiova`、`ma2025llms`。CV 中这两篇的年份同步改为 2025。
+
+### 论文配图优化（2026-10-21）
+
+- 全部 54 张论文配图去掉多余白边，统一导出为 WebP（一般最长边 1200 px，结构图 1600 px，以保留小字），总量由约 21.7 MB 降到约 4 MB；可点击查看大图的三项（DASTrack、STEMVerse、流式视频综述）的大图也改为 WebP。原 PNG/JPG 在确认无引用后删除。
+- 按论文类型选图：方法类论文用模型结构图，从论文 PDF 高分辨率重新截取（ATCTrack、MATrack、DARTer、EARL、RGRL、CSAI23，其余方法论文保持原结构图）；benchmark、数据集与综述类用概念图或示例图：专著换高清封面，SOTVerse 用 Fig. 1 总览，JIG 综述用挑战因素示例，DAAWBench 用数据集总览，Mathematics-AGS 用反馈示例，TNSE26、CEAI 换同图高清版，SOEI 用论文 Fig. 1。
+- RGRL 与 CSAI23 的结构图很宽，列表中字较小，需在详情弹窗或大图中查看。后续计划在详情弹窗中为方法论文补概念图，并为约 10 项以动态为核心的工作加 MP4/WebM 动图。

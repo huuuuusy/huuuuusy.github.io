@@ -2,7 +2,7 @@
 
 <!-- 合作论文按时间顺序排列 -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='/images/META-PAP.png' alt="META-PAP framework: grid-based pair generation, meta-network weighting, and bilevel optimization" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='/images/META-PAP.webp' alt="META-PAP framework: grid-based pair generation, meta-network weighting, and bilevel optimization" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='META-PAP'></span>
@@ -15,7 +15,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='/images/EARL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='/images/EARL.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='EARL'></span>
@@ -29,7 +29,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/CausalStep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/CausalStep.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='CausalStep'></span>
@@ -44,7 +44,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/VerifyBench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/VerifyBench.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='VerifyBench'></span>
@@ -59,7 +59,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='/images/NarrLV.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='/images/NarrLV.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='NarrLV'></span>
@@ -73,7 +73,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='/images/RGRL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='/images/RGRL.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='RGRL'></span>
@@ -87,7 +87,7 @@ P. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, J. Zhang, M. Li<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='/images/TBDQ.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='/images/TBDQ.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='TBDQ'></span>
@@ -101,7 +101,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2026</div><img src='/images/DAAWBench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2026</div><img src='/images/DAAWBench.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='DAAWBench'></span>
@@ -116,7 +116,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2026</div><img src='/images/COAL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2026</div><img src='/images/COAL.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='COAL'></span>
@@ -130,7 +130,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><a href='/images/ECCV26-Temporal.png' title="View the complete DASTrack figure"><img class="paper-thumb" src='/images/ECCV26-Temporal-thumb.png' alt="Complete DASTrack figure" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><a href='/images/ECCV26-Temporal.webp' title="View the complete DASTrack figure"><img class="paper-thumb" src='/images/ECCV26-Temporal-thumb.webp' alt="Complete DASTrack figure" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='ECCV26-Temporal'></span>
@@ -145,7 +145,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><a href='/images/FakeNewsCourt.png' title="View the Fake News Court framework"><img class="paper-thumb" src='/images/FakeNewsCourt.png' alt="Fake News Court multi-agent adversarial framework" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><a href='/images/FakeNewsCourt.webp' title="View the Fake News Court framework"><img class="paper-thumb" src='/images/FakeNewsCourt.webp' alt="Fake News Court multi-agent adversarial framework" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='FakeNewsCourt'></span>
@@ -157,7 +157,7 @@ M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP Findings 2026</div><a href='/images/ViEBench.png' title="View the ViEBench evaluation framework"><img class="paper-thumb" src='/images/ViEBench.png' alt="ViEBench grounded visual evidence evaluation framework" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP Findings 2026</div><a href='/images/ViEBench.webp' title="View the ViEBench evaluation framework"><img class="paper-thumb" src='/images/ViEBench.webp' alt="ViEBench grounded visual evidence evaluation framework" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='ViEBench'></span>
@@ -171,7 +171,7 @@ M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMBC 2026</div><img src='/images/Retina-EMBC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMBC 2026</div><img src='/images/Retina-EMBC.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='Retina-EMBC'></span>
@@ -184,7 +184,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/TNSE26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/TNSE26.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='TNSE26'></span>
@@ -199,7 +199,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/HyperRationality.png' alt="Roadmap from the hyper-rationality trap of LLM agents to resilient behavioral heterogeneity" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/HyperRationality.webp' alt="Roadmap from the hyper-rationality trap of LLM agents to resilient behavioral heterogeneity" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='HyperRationality'></span>
@@ -212,7 +212,7 @@ S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSF 2026</div><img src='/images/GHASS.png' alt="From Observation to Simulation to Generation: human social systems, artificial social systems, and generative human-AI social systems" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSF 2026</div><img src='/images/GHASS.webp' alt="From Observation to Simulation to Generation: human social systems, artificial social systems, and generative human-AI social systems" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='GHASS'></span>
@@ -224,7 +224,7 @@ Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang]
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2026</div><img src='/images/Mathematics-CalcTutor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2026</div><img src='/images/Mathematics-CalcTutor.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='Mathematics-CalcTutor'></span>
@@ -238,7 +238,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 </div>
 </div>
 
-<div class='paper-box paper-box--consortium'><div class='paper-box-image'><div><div class="badge">Nature 2026</div><a href='/images/HLE.png' title="View Figure 1 from the HLE paper"><img class="paper-thumb" src='/images/HLE.png' alt="Figure 1 from the HLE paper comparing frontier-model accuracy on HLE, GPQA, MATH, and MMLU" width="100%"></a></div></div>
+<div class='paper-box paper-box--consortium'><div class='paper-box-image'><div><div class="badge">Nature 2026</div><a href='/images/HLE.webp' title="View Figure 1 from the HLE paper"><img class="paper-thumb" src='/images/HLE.webp' alt="Figure 1 from the HLE paper comparing frontier-model accuracy on HLE, GPQA, MATH, and MMLU" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='HLE'></span>
@@ -254,7 +254,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='/images/CSTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='/images/CSTrack.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='CSTrack'></span>
@@ -268,7 +268,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='/images/ICASSP25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='/images/ICASSP25.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='ICASSP25'></span>
@@ -282,7 +282,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">C&E:AI 2025</div><img src='/images/CEAI-adaptive.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">C&E:AI 2025</div><img src='/images/CEAI-adaptive.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='CEAI-adaptive'></span>
@@ -297,7 +297,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='/images/Mathematics-AGS.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='/images/Mathematics-AGS.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='Mathematics-AGS'></span>
@@ -312,7 +312,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Innovation and Emerging Technologies 2025</div><img src='/images/IET-AI4Edu.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Innovation and Emerging Technologies 2025</div><img src='/images/IET-AI4Edu.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='IET-AI4Edu'></span>
@@ -327,7 +327,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国心理卫生杂志 2025</div><img src='/images/IGBA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">中国心理卫生杂志 2025</div><img src='/images/IGBA.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='IGBA'></span>
@@ -340,7 +340,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/CPDTrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/CPDTrack.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='CPDTrack'></span>
@@ -354,7 +354,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/MemVLT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/MemVLT.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='MemVLT'></span>
@@ -369,7 +369,7 @@ Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://facult
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='/images/ICASSP24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='/images/ICASSP24.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='ICASSP24'></span>
@@ -384,7 +384,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='/images/AWCV.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='/images/AWCV.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='AWCV'></span>
@@ -399,7 +399,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2024</div><img src='/images/VSLLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2024</div><img src='/images/VSLLM.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='VSLLM'></span>
@@ -414,7 +414,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2023</div><img src='/images/PRCV23.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2023</div><img src='/images/PRCV23.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='PRCV23'></span>
@@ -431,7 +431,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSAI 2023</div><img src='/images/CSAI23.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSAI 2023</div><img src='/images/CSAI23.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='CSAI23'></span>
@@ -447,7 +447,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurocomputing 2022</div><img src='/images/Neu22.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurocomputing 2022</div><img src='/images/Neu22.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='Neu22'></span>
@@ -463,7 +463,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">图学学报 2021</div><img src='/images/VTT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">图学学报 2021</div><img src='/images/VTT.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='VTT'></span>
