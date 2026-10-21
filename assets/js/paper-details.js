@@ -20,7 +20,7 @@
 
     ids.forEach(function (id) {
       var anchor = document.getElementById(id);
-      var entry = anchor && anchor.closest(".paper-box");
+      var entry = anchor && anchor.closest(".paper-box, .workshop-list li");
       if (!entry) {
         return;
       }
@@ -41,8 +41,8 @@
     }
 
     function addTriggers(entry, id) {
-      var text = entry.querySelector(".paper-box-text");
-      var links = text && text.querySelector(".paper-links");
+      var text = entry.querySelector(".paper-box-text") || entry;
+      var links = text.querySelector(".paper-links");
       if (!links && text) {
         links = document.createElement("span");
         links.className = "paper-links";
@@ -81,12 +81,16 @@
       }
     }
 
+    // The title is the first bold run in the entry that is not the
+    // highlighted author name.
     function titleElement(entry) {
-      var paragraphs = entry.querySelectorAll(".paper-box-text p");
+      var paragraphs = entry.querySelectorAll("p");
       for (var i = 0; i < paragraphs.length; i += 1) {
-        var strong = paragraphs[i].querySelector(":scope > strong:first-child");
-        if (strong && !strong.querySelector("em")) {
-          return strong;
+        var strongs = paragraphs[i].querySelectorAll(":scope > strong");
+        for (var j = 0; j < strongs.length; j += 1) {
+          if (!strongs[j].querySelector("em")) {
+            return strongs[j];
+          }
         }
       }
       return null;
@@ -103,21 +107,21 @@
       }
       var copy = paragraph.cloneNode(true);
       Array.prototype.forEach.call(
-        copy.querySelectorAll(".paper-keywords, .paper-links, .paper-title--interactive"),
+        copy.querySelectorAll(".paper-keywords, .paper-links, .paper-title--interactive, .anchor, :scope > code, :scope > sup"),
         function (node) {
           node.remove();
         }
       );
       copy.innerHTML = copy.innerHTML
-        .replace(/^(\s*<br\s*\/?>\s*)+/i, "")
-        .replace(/(\s*<br\s*\/?>\s*)+$/i, "");
+        .replace(/^(\s*(<br\s*\/?>|,)\s*)+/i, "")
+        .replace(/(\s*(<br\s*\/?>|,)\s*)+$/i, "");
       fragment.appendChild(copy);
       return fragment;
     }
 
     function fill(id, data) {
       var entry = entries[id];
-      var badge = entry.querySelector(".badge, .badge-preprint");
+      var badge = entry.querySelector(".badge, .badge-preprint, .badge-under-review, p > code");
       var title = titleElement(entry);
 
       dialog.querySelector(".paper-dialog__badge").textContent = badge ? badge.textContent.trim() : "";
@@ -130,6 +134,7 @@
       var abstract = dialog.querySelector(".paper-dialog__abstract");
       var more = dialog.querySelector(".paper-dialog__more");
       abstract.textContent = data.abstract || "";
+      dialog.querySelector(".paper-dialog__section--abstract").hidden = !data.abstract;
       abstract.classList.add("is-clamped");
       more.textContent = "Show more";
       more.hidden = true;

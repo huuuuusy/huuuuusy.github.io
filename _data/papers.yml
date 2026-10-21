@@ -386,3 +386,1591 @@ MSAD:
       year    = {2025},
       doi     = {10.1049/cvi2.70032}
     }
+
+META-PAP:
+  source: "NeurIPS 2026 accepted poster (OpenReview yiQav1vmSS; neurips.cc/virtual/2026/poster/148316); proceedings not yet published, so BibTeX marked To appear; abstract from the NeurIPS 2026 virtual poster page (OpenReview abstract), LaTeX math cleaned"
+  abstract: >-
+    Direct Preference Optimization (DPO) has become a popular route for aligning large language
+    models with human preferences, but existing pipelines treat all preference pairs uniformly and
+    ignore prompt-level heterogeneity. We show that the optimal pair-selection strategy varies
+    systematically with prompt characteristics: prompts with concentrated reward distributions
+    benefit from large reward-gap pairs that provide unambiguous signal, while prompts with diverse
+    responses benefit from moderate-gap pairs because extreme positions are dominated by outliers.
+    No fixed strategy is optimal across this heterogeneity. We propose META-PAP (Meta-learning for
+    Prompt-aware Preference Pairing), a framework that turns this observation into a learned
+    algorithm. META-PAP generates multiple diverse pairs per prompt via a structured grid over the
+    response reward distribution, extracts a compact prompt-aware feature vector, and trains a
+    lightweight meta-network through bilevel optimization to predict per-pair weights. The inner
+    loop is a weighted DPO update; the outer loop evaluates a virtual policy on a small clean
+    meta-set. Across Llama-3-8B, Mistral-7B-v0.3, and Llama-2-7B, META-PAP consistently outperforms
+    vanilla DPO, fixed-position pairing, reward-gap weighting, top-k filtering, curriculum, and
+    statistical rejection sampling, with average gains of +3.9 points on AlpacaEval 2.0 and +3.2
+    points on Arena-Hard, and approaches an oracle that exhaustively searches per prompt. The
+    learned weighting policy is interpretable: it favors large-gap pairs on low-diversity prompts
+    and softly rejects extreme pairs on high-diversity prompts. We additionally find that the
+    meta-network requires only M=150 pairs to saturate, transfers across domains, tolerates label
+    noise on the meta-set, and remains effective with as few as n=32 on-policy samples per prompt.
+  contributions:
+    - "Shows that the best preference-pair selection strategy for DPO varies with prompt characteristics, so no fixed pairing strategy is optimal across prompts."
+    - "Proposes META-PAP, which builds diverse pairs per prompt on a reward-distribution grid and trains a lightweight meta-network by bilevel optimization to predict per-pair weights for weighted DPO."
+    - "Shows average gains of +3.9 points on AlpacaEval 2.0 and +3.2 on Arena-Hard over DPO and other pairing baselines across Llama-3-8B, Mistral-7B-v0.3 and Llama-2-7B."
+  bibtex: |-
+    @inproceedings{zhao2026metapap,
+      title     = {{META-PAP}: Meta-learning for Prompt-aware Preference Pairing in {LLM} Alignment},
+      author    = {Zhao, Pinlong and Hu, Shiyu and Zhang, Jing and Li, Mengyang},
+      booktitle = {Advances in Neural Information Processing Systems},
+      year      = {2026},
+      note      = {To appear}
+    }
+
+EARL:
+  source: "CVF Open Access CVPR 2026 BibTeX (pages 25621-25632; no DOI listed yet); abstract from CVF Open Access page (identical to arXiv:2510.15440)"
+  abstract: >-
+    Long-form video reasoning remains a major challenge for Video Large Language Models (Video
+    LLMs), as static uniform frame sampling leads to information dilution and obscures critical
+    evidence. Furthermore, existing pixel-space video reasoning agents, which are designed to
+    actively interact with the video to acquire new visual information, remain suboptimal due to
+    their lack of rigorous reward mechanisms to enforce evidence purity and their inability to
+    perform temporal information supplementation beyond pre-sampled frames. To address this critical
+    gap, we propose a novel evidence-prioritized adaptive framework built upon our core philosophy:
+    "Select Less, Reason More." Our core contribution is the evidence-aware reinforcement learning
+    (EARL) framework, which transforms the model into an active interrogator of evidence. EARL is
+    precisely engineered to dynamically select the most relevant frames and, crucially, to perform
+    localized re-sampling around the selected key frames to access fine-grained temporal detail.
+    Extensive experiments on five demanding video reasoning benchmarks demonstrate that our
+    EARL-trained model achieves new state-of-the-art among open-source Video LLMs, simultaneously
+    learning an effective and high-purity visual evidence selection policy. Impressively, our 7B
+    model achieves 59.8% on LongVideoBench, 69.0% on MVBench and 64.9% on VideoMME. These results
+    highlight the importance of prioritizing evidence purity and the effectiveness of our framework.
+  contributions:
+    - "Proposes EARL, an evidence-aware reinforcement learning framework that trains Video LLMs to select the most relevant frames and enforce evidence purity during video reasoning."
+    - "Introduces localized re-sampling around selected key frames, giving the model fine-grained temporal detail beyond the pre-sampled frames."
+    - "Shows a new state of the art among open-source Video LLMs on five benchmarks, with the 7B model reaching 59.8% on LongVideoBench, 69.0% on MVBench and 64.9% on VideoMME."
+  bibtex: |-
+    @inproceedings{li2026select,
+      title     = {Select Less, Reason More: Prioritizing Evidence Purity for Video Reasoning},
+      author    = {Li, Xuchen and Li, Xuzhao and Hu, Shiyu and Huang, Kaiqi},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+      pages     = {25621--25632},
+      year      = {2026}
+    }
+
+CausalStep:
+  source: "DOI 10.1609/aaai.v40i8.37582 (Crossref / AAAI OJS); abstract from AAAI OJS article page 37582"
+  abstract: >-
+    Recent advances in large language models (LLMs) have improved reasoning in text and image
+    domains, yet achieving robust video reasoning remains a significant challenge. Existing video
+    benchmarks mainly assess shallow understanding and reasoning and allow models to exploit global
+    context, failing to rigorously evaluate true causal and stepwise reasoning. We present
+    CausalStep, a benchmark designed for explicit stepwise causal reasoning in videos. CausalStep
+    segments videos into causally linked units and enforces a strict stepwise question-answer (QA)
+    protocol, requiring sequential answers and preventing shortcut solutions. Each question includes
+    carefully constructed distractors based on error type taxonomy to ensure diagnostic value. The
+    benchmark features 100 videos across six categories and 1,852 multiple-choice QA pairs. We
+    introduce seven diagnostic metrics for comprehensive evaluation, enabling precise diagnosis of
+    causal reasoning capabilities. Experiments with leading proprietary and open-source models, as
+    well as human baselines, reveal a significant gap between current models and human-level
+    stepwise reasoning. CausalStep provides a rigorous benchmark to drive progress in robust and
+    interpretable video reasoning.
+  contributions:
+    - "Builds CausalStep, a benchmark of 100 videos across six categories and 1,852 multiple-choice QA pairs for explicit stepwise causal reasoning in videos."
+    - "Designs a strict stepwise QA protocol over causally linked video segments, with taxonomy-based distractors and seven diagnostic metrics that block shortcut solutions."
+    - "Shows, by evaluating leading proprietary and open-source models against human baselines, a significant gap between current models and human-level stepwise reasoning."
+  bibtex: |-
+    @inproceedings{li2026causalstep,
+      title     = {{CausalStep}: A Benchmark for Explicit Stepwise Causal Reasoning in Videos},
+      author    = {Li, Xuchen and Li, Xuzhao and Hu, Shiyu and Huang, Kaiqi and Zhang, Wentao},
+      booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+      volume    = {40},
+      number    = {8},
+      pages     = {6530--6538},
+      year      = {2026},
+      doi       = {10.1609/aaai.v40i8.37582}
+    }
+
+VerifyBench:
+  source: "DOI 10.1609/aaai.v40i38.40448 (Crossref / AAAI OJS); abstract from AAAI OJS article page 40448 (differs slightly from arXiv:2507.09884)"
+  abstract: >-
+    Large language models (LLMs) increasingly rely on reinforcement learning (RL) to enhance their
+    reasoning capabilities through feedback. A critical challenge is verifying the consistency of
+    model-generated responses and reference answers, since these responses are often lengthy,
+    diverse, and nuanced. Rule-based verifiers struggle with complexity, prompting the use of
+    model-based verifiers. Existing research primarily focuses on building better verifiers, yet a
+    systematic evaluation of different types of verifiers' performance across domains remains
+    lacking, severely constraining the reliable development of Reinforcement Learning with
+    Verifiable Reward (RLVR). To address this, we propose VerifyBench--a cross-domain comprehensive
+    benchmark for systematically evaluating verifiers. We construct about 4,000 expert-level
+    questions covering mathematics, physics, chemistry, and biology. Questions are equipped with
+    reference answers and diverse responses. The reliability of the evaluation is ensured through a
+    rigorous collection and annotation process conducted by a multidisciplinary expert team. We
+    design a four-dimensional experimental framework to comprehensively compare the performance
+    boundaries of specialized verifiers and general LLMs under combined conditions of extracted
+    answers vs. complete responses, and short vs. long outputs. Our evaluation uncovers fundamental
+    trade-offs in verifiers: while specialized verifiers achieve leading accuracy (the best model
+    reaching 96.48% in chemistry), they exhibit deficiencies in recall; general models show stronger
+    inclusivity but unstable accuracy. More importantly, we discover verifiers' high sensitivity to
+    input structure and inherent limitations in cross-domain generalization, providing critical
+    insights into the bottlenecks of current verifier technology.
+  contributions:
+    - "Builds VerifyBench, a cross-domain benchmark of about 4,000 expert-level questions in mathematics, physics, chemistry and biology, each with reference answers and diverse responses, annotated by a multidisciplinary expert team."
+    - "Designs a four-dimensional evaluation framework comparing specialized verifiers and general LLMs on extracted answers versus complete responses and short versus long outputs."
+    - "Shows that specialized verifiers lead in accuracy (up to 96.48% in chemistry) but lack recall, while general models are more inclusive but less stable, and that verifiers are sensitive to input structure."
+  bibtex: |-
+    @inproceedings{li2026verifybench,
+      title     = {{VerifyBench}: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains},
+      author    = {Li, Xuzhao and Li, Xuchen and Hu, Shiyu and Guo, Yongzhen and Zhang, Wentao},
+      booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+      volume    = {40},
+      number    = {38},
+      pages     = {31796--31804},
+      year      = {2026},
+      doi       = {10.1609/aaai.v40i38.40448}
+    }
+
+NarrLV:
+  source: "ICLR 2026 proceedings BibTeX (proceedings.iclr.cc, pages 20966-21000; no DOI); official title ends 'for Long Video Generation' (no 'Models'); abstract from ICLR 2026 proceedings page"
+  abstract: >-
+    With the rapid development of foundation video generation technologies, long video generation
+    models have exhibited promising research potential thanks to expanded content creation space.
+    Recent studies reveal that the goal of long video generation tasks is not only to extend video
+    duration but also to accurately express richer narrative content within longer videos. However,
+    due to the lack of evaluation benchmarks specifically designed for long video generation models,
+    the current assessment of these models primarily relies on benchmarks with simple narrative
+    prompts (e.g., VBench). To the best of our knowledge, our proposed NarrLV is the first benchmark
+    to comprehensively evaluate the Narrative expression capabilities of Long Video generation
+    models. Inspired by film narrative theory, (i) we first introduce the basic narrative unit
+    maintaining continuous visual presentation in videos as Temporal Narrative Atom (TNA), and use
+    its count to quantitatively measure narrative richness. Guided by three key film narrative
+    elements influencing TNA changes, we construct an automatic prompt generation pipeline capable
+    of producing evaluation prompts with a flexibly expandable number of TNAs. (ii) Then, based on
+    the three progressive levels of narrative content expression, we design an effective evaluation
+    metric using the MLLM-based question generation and answering framework. (iii) Finally, we
+    conduct extensive evaluations on existing long video generation models and the foundation
+    generation models that underpin them. Experimental results demonstrate that our metric aligns
+    closely with human judgments. The derived evaluation outcomes reveal the detailed capability
+    boundaries of current video generation models in narrative content expression.
+  contributions:
+    - "Introduces NarrLV, a benchmark for the narrative expression capabilities of long video generation models, built on the Temporal Narrative Atom (TNA) as a measurable unit of narrative richness."
+    - "Builds an automatic prompt generation pipeline, guided by three film narrative elements, that produces evaluation prompts with a flexibly expandable number of TNAs."
+    - "Designs an MLLM-based question generation and answering metric over three progressive levels of narrative expression and shows it aligns closely with human judgments."
+  bibtex: |-
+    @inproceedings{feng2026narrlv,
+      title     = {{NarrLV}: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation},
+      author    = {Feng, Xiaokun and Yu, Haiming and Wu, Meiqi and Hu, Shiyu and Chen, Jintao and Zhu, Chen and Wu, Jiahong and Chu, Xiangxiang and Huang, Kaiqi},
+      booktitle = {International Conference on Learning Representations},
+      pages     = {20966--21000},
+      year      = {2026}
+    }
+
+RGRL:
+  source: "DOI 10.18653/v1/2026.acl-long.225 (ACL Anthology .bib, Crossref); abstract from ACL Anthology page"
+  abstract: >-
+    Vision-Language Models (VLMs) excel at many multimodal tasks, yet they frequently struggle with
+    tasks requiring precise understanding and handling of fine-grained visual elements. This is
+    mainly due to information loss during image encoding or insufficient attention to critical
+    regions. Recent work has shown promise by incorporating pixel-level visual information into the
+    reasoning process, enabling VLMs to access high-resolution visual details during their thought
+    process. However, this pixel-level information is often overused, leading to inefficiency and
+    distraction from irrelevant visual details. To address these challenges, we propose the first
+    framework for adaptive pixel reasoning that dynamically determines necessary pixel-level
+    operations based on the input query. Specifically, we first apply operation-aware supervised
+    fine-tuning to establish baseline competence in textual reasoning and visual operations, then
+    design a novel rollout-guided reinforcement learning framework relying on feedback of the
+    model’s own responses, which enables the VLM to determine when pixel operations should be
+    invoked based on query difficulty. Experiments on extensive multimodal reasoning benchmarks show
+    that our model achieves superior performance while significantly reducing unnecessary visual
+    operations. Impressively, our model achieves 73.4% accuracy on HR-Bench 4K while maintaining a
+    tool usage ratio of only 20.1%, improving accuracy and simultaneously reducing tool usage by
+    66.5% compared to the previous methods.
+  contributions:
+    - "Proposes the first adaptive pixel-space reasoning framework, letting a VLM decide from the query whether pixel-level visual operations are needed."
+    - "Designs a two-stage recipe: operation-aware supervised fine-tuning, then rollout-guided reinforcement learning that uses feedback from the model's own responses to decide when to invoke pixel operations."
+    - "Shows 73.4% accuracy on HR-Bench 4K with a tool usage ratio of only 20.1%, cutting tool usage by 66.5% while improving accuracy over previous methods."
+  bibtex: |-
+    @inproceedings{li2026look,
+      title     = {Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning},
+      author    = {Li, Xuchen and Li, Xuzhao and Gao, Jiahui and Pi, Renjie and Hu, Shiyu and Zhang, Wentao},
+      booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+      pages     = {4948--4967},
+      year      = {2026},
+      doi       = {10.18653/v1/2026.acl-long.225}
+    }
+
+TBDQ:
+  source: "DOI 10.1016/j.patcog.2026.113552 (Crossref: vol. 179, article 113552; official title in sentence case, title case kept); abstract from arXiv:2411.06197v3 (accepted version; ScienceDirect page not accessible, text matches Semantic Scholar record of the DOI)"
+  abstract: >-
+    Multi-object tracking (MOT) is primarily dominated by two paradigms: tracking-by-detection (TBD)
+    and tracking-by-query (TBQ). While TBD offers modular efficiency, its fragmented association
+    pipeline often limits robustness in complex scenarios. Conversely, TBQ enhances semantic
+    modeling end-to-end but suffers from high training costs and slow inference due to the tight
+    coupling of detection and association. In this work, we propose the
+    tracking-by-detection-and-query framework, TBDQ-Net, to advance the synergy between TBD and TBQ
+    paradigms. By integrating a frozen detector with a lightweight associator, this architecture
+    ensures intrinsic efficiency. Within this streamlined framework, we introduce tailored designs
+    to address MOT-specific challenges. Concretely, we alleviate task conflicts and occlusions
+    through the dual-stream update of the Basic Information Interaction (BII) module. The
+    Content-Position Alignment (CPA) module further refines both content and positional components,
+    providing well-aligned representations for association decoding. Extensive evaluations on
+    DanceTrack, SportsMOT, and MOT20 benchmarks demonstrate that TBDQ-Net achieves a favorable
+    efficiency-accuracy trade-off in challenging scenarios. Specifically, TBDQ-Net outperforms
+    leading TBD methods by 6.0 IDF1 points on DanceTrack and achieves the best performance among TBQ
+    methods in the crowded MOT20 benchmark. Relative to MOTRv2, TBDQ-Net reduces trainable
+    parameters by approximately 80% while accelerating practical inference by 37.5%. These results
+    highlight TBDQ-Net as an efficient alternative to heavy architectures, showcasing the efficacy
+    of lightweight design. Source code is publicly available at
+    https://github.com/FaithFlow/TBDQ-Net.
+  contributions:
+    - "Proposes TBDQ-Net, a tracking-by-detection-and-query framework that pairs a frozen detector with a lightweight associator to combine the strengths of TBD and TBQ paradigms."
+    - "Introduces the Basic Information Interaction (BII) module for task conflicts and occlusions and the Content-Position Alignment (CPA) module for well-aligned association representations."
+    - "Shows a 6.0 IDF1 gain over leading TBD methods on DanceTrack and, relative to MOTRv2, about 80% fewer trainable parameters with 37.5% faster inference."
+  bibtex: |-
+    @article{jia2026tracking,
+      title   = {Tracking by Detection and Query: An Efficient End-to-End Framework for Multi-Object Tracking},
+      author  = {Jia, Shukun and Hu, Shiyu and Cao, Yichao and Yang, Feng and Lu, Xin and Lu, Xiaobo},
+      journal = {Pattern Recognition},
+      volume  = {179},
+      pages   = {113552},
+      year    = {2026},
+      doi     = {10.1016/j.patcog.2026.113552}
+    }
+
+DAAWBench:
+  source: "DOI 10.1109/TCSVT.2026.3670256 (Crossref / IEEE Xplore: vol. 36, no. 7, pp. 10632-10644; official title capitalises 'With'); abstract from IEEE Xplore document 11421430, inline TeX cleaned"
+  abstract: >-
+    Air-writing has emerged as a promising communication modality for AR/VR and metaverse
+    environments, enabling quiet, non-contact text input by translating finger movements into
+    natural language. However, existing approaches typically project in-air writing onto a virtual
+    2D plane and assume characters are formed with a single continuous stroke–an oversimplification
+    that neglects the rich 3D structure inherent in natural handwriting. In this work, we challenge
+    the “single-stroke 2D” paradigm and explore the role of depth cues in enhancing air-writing
+    recognition. To this end, we present DAAWBench, the first large-scale Depth-Aware Air-Writing
+    dataset, featuring 8.8 million RGB-D frames annotated with 3,755 Chinese characters from the
+    GB2312-80 Level-1 set. Our analysis reveals consistent depth variations at stroke boundaries,
+    indicating that stroke segmentation and character recognition can benefit from depth modeling.
+    Based on these insights, we propose DARec, a novel 3D trajectory-based recognition model that
+    effectively leverages depth-aware priors. Extensive experiments across in-domain and
+    out-of-domain settings, including evaluations with vision-language models (e.g., GPT-4o,
+    Qwen-VL) and human baselines, show that DARec significantly outperforms 2D-only counterparts,
+    achieving 87.73% accuracy versus 9.05%. Our findings demonstrate the critical importance of
+    depth modeling in human-computer co-creative interfaces, and we will publicly release our
+    dataset and code at https://github.com/wmeiqi/DAAWBench
+  contributions:
+    - "Builds DAAWBench, the first large-scale depth-aware air-writing dataset, with 8.8 million RGB-D frames annotated with 3,755 Chinese characters from the GB2312-80 Level-1 set."
+    - "Shows that depth varies consistently at stroke boundaries, challenging the single-stroke 2D assumption of existing air-writing recognition."
+    - "Proposes DARec, a 3D trajectory-based recognizer using depth-aware priors, which reaches 87.73% accuracy versus 9.05% for 2D-only counterparts."
+  bibtex: |-
+    @article{wu2026talk,
+      title   = {Talk With Your Fingers: A Depth-Aware Benchmark for Air-Writing Recognition},
+      author  = {Wu, Meiqi and Zhao, Yuzhong and Li, Xuchen and Hu, Shiyu and Cai, Yuanqiang and Wu, Jiahong and Wang, Weiqiang and Huang, Kaiqi},
+      journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+      volume  = {36},
+      number  = {7},
+      pages   = {10632--10644},
+      year    = {2026},
+      doi     = {10.1109/TCSVT.2026.3670256}
+    }
+
+COAL:
+  source: "DOI 10.24963/ijcai.2026/141 (IJCAI 2026 proceedings BibTeX, pp. 1261-1269); abstract from IJCAI proceedings page 2026/141 (arXiv version is 2605.14795, not 2411.06197)"
+  abstract: >-
+    Referring Multi-Object Tracking (RMOT) faces a fundamental structural contradiction between the
+    high-discriminability demand and the sparse semantic supervision. This mismatch is particularly
+    acute in highly homogeneous scenarios that require fine-grained discrimination over complex
+    compositional semantics. However, under sparse supervision, models overfit to salient yet
+    insufficient cues, leading to shortcut learning and degraded compositional discrimination. To
+    resolve this, we propose COAL (Counterfactual and Observation-enhanced Alignment Learning), a
+    framework that advances RMOT beyond isolated structural optimization through knowledge
+    regularization. First, we introduce Explicit Semantic Injection (ESI) via a VLM to densify the
+    observation space and enhance instance discriminability. Second, leveraging LLM reasoning, we
+    propose Counterfactual Learning (CFL) to augment supervision, enforcing strict attribute
+    verification for robust compositional recognition. These strategies are unified within a
+    Hierarchical Multi-Stream Integration (HMSI) architecture, which distills external knowledge
+    into domain-specific discriminative representations. Experiments on Refer-KITTI and
+    Refer-KITTI-V2 benchmarks validate COAL's efficacy. Notably, it surpasses the state-of-the-art
+    by 7.28% HOTA on the highly challenging Refer-KITTI-V2. These results demonstrate the
+    effectiveness of knowledge regularization for resolving the sparsity–discriminability paradox in
+    RMOT.
+  contributions:
+    - "Proposes COAL, a referring multi-object tracking framework that uses knowledge regularization to resolve the conflict between high discriminability demands and sparse semantic supervision."
+    - "Introduces VLM-based Explicit Semantic Injection and LLM-driven Counterfactual Learning, unified in a Hierarchical Multi-Stream Integration architecture that distills external knowledge into discriminative representations."
+    - "Shows a 7.28% HOTA gain over the state of the art on Refer-KITTI-V2, with further validation on Refer-KITTI."
+  bibtex: |-
+    @inproceedings{jia2026coal,
+      title     = {{COAL}: Counterfactual and Observation-Enhanced Alignment Learning for Discriminative Referring Multi-Object Tracking},
+      author    = {Jia, Shukun and Hu, Shiyu and Wang, Yipei and Cheng, Ximeng and Cao, Yichao and Lu, Xiaobo},
+      booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence, {IJCAI-26}},
+      pages     = {1261--1269},
+      year      = {2026},
+      doi       = {10.24963/ijcai.2026/141}
+    }
+
+ECCV26-Temporal:
+  source: "DOI 10.1007/978-3-032-37432-5_12 (Crossref / Springer: LNCS vol. 17032, pp. 202-220); official title has no 'DASTrack:' prefix; abstract from the Springer chapter page"
+  abstract: >-
+    Visual object tracking relies on modeling cross-frame dynamics, and recent approaches employ
+    learnable temporal tokens to encode historical information. However, our analysis reveals that
+    these tokens are often marginalized by dominant spatial features during joint optimization. This
+    imbalance leads to shortcut learning where the network over-relies on current-frame appearance,
+    causing temporal representation collapse. To address this, we propose DASTrack, a framework
+    featuring Decoupled Auxiliary Supervision (DAS). By masking the templates during an auxiliary
+    forward pass, DAS compels the network to localize targets using only temporal tokens and thus
+    encode robust cross-frame priors. This mechanism is applied strictly during training and
+    discarded at inference to preserve the original architecture and computational efficiency.
+    DASTrack yields consistent and interpretable average performance gains across multiple
+    backbones. Our findings demonstrate that the primary bottleneck in temporal tracking stems from
+    biased learning dynamics rather than architectural design, offering a novel training paradigm
+    for eliciting latent temporal capabilities. The code and models will be released at:
+    https://github.com/ZhangDailing8/DASTrack.
+  contributions:
+    - "Shows that learnable temporal tokens in visual trackers are marginalized by dominant spatial features, causing shortcut learning and temporal representation collapse."
+    - "Proposes DASTrack with Decoupled Auxiliary Supervision, which masks templates in an auxiliary training pass so the network must localize targets from temporal tokens alone."
+    - "Shows consistent average gains across multiple backbones with no inference-time cost, since the auxiliary pass is discarded after training."
+  bibtex: |-
+    @inproceedings{zhang2026rethinking,
+      title     = {Rethinking Temporal Modeling in Visual Object Tracking via Decoupled Auxiliary Supervision},
+      author    = {Zhang, Dailing and Hu, Shiyu and Fu, Honghao and Feng, Xiaokun and Wang, Yipei and Cheong, Kang Hao and Huang, Kaiqi},
+      booktitle = {Computer Vision -- {ECCV} 2026},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {17032},
+      pages     = {202--220},
+      publisher = {Springer},
+      year      = {2026},
+      doi       = {10.1007/978-3-032-37432-5_12}
+    }
+
+FakeNewsCourt:
+  source: "Accepted to EMNLP 2026 main conference (per CV bibliography); no Anthology/arXiv/OpenReview record found, BibTeX marked To appear; no public abstract yet"
+  abstract: ""
+  contributions: []
+  bibtex: |-
+    @inproceedings{peng2026fake,
+      title     = {Fake News Court: A Multi-Agent Adversarial Framework for Robust Detection of {LLM}-Generated Fake News},
+      author    = {Peng, Mengyao and Gu, Hongyan and Ma, Yiping and Hu, Shiyu and Huang, Xinli},
+      booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+      year      = {2026},
+      note      = {To appear}
+    }
+
+ViEBench:
+  source: "Accepted to Findings of EMNLP 2026; Anthology volume not yet online, BibTeX marked To appear with author order from arXiv:2601.11633 (Xuchen Li first; CV bibliography lists Xuzhao Li first); abstract from arXiv:2601.11633"
+  abstract: >-
+    Despite the remarkable progress of Vision-Language Models (VLMs) in adopting
+    "Thinking-with-Images" capabilities, accurately evaluating the authenticity of their reasoning
+    process remains a critical challenge. Existing benchmarks mainly rely on outcome-oriented
+    accuracy, lacking the capability to assess whether models can accurately leverage fine-grained
+    visual cues for multi-step reasoning. To address these limitations, we propose ViEBench, a
+    process-verifiable benchmark designed to evaluate faithful visual reasoning. Comprising 200
+    multi-scenario high-resolution images with expert-annotated visual evidence, ViEBench uniquely
+    categorizes tasks by difficulty into perception and reasoning dimensions, where reasoning tasks
+    require utilizing localized visual details with prior knowledge. To establish comprehensive
+    evaluation criteria, we introduce a dual-axis matrix that provides fine-grained metrics through
+    four diagnostic quadrants, enabling transparent diagnosis of model behavior across varying task
+    complexities. Our experiments yield several interesting observations: (1) VLMs can sometimes
+    produce correct final answers despite grounding on irrelevant regions, and (2) they may
+    successfully locate the correct evidence but still fail to utilize it to reach accurate
+    conclusions. Our findings demonstrate that ViEBench can serve as a more explainable and
+    practical benchmark for comprehensively evaluating the effectiveness agentic VLMs. The codes
+    will be released at: https://github.com/Xuchen-Li/ViEBench.
+  contributions:
+    - "Builds ViEBench, a process-verifiable benchmark of 200 multi-scenario high-resolution images with expert-annotated visual evidence, split into perception and reasoning tasks."
+    - "Introduces a dual-axis evaluation matrix with four diagnostic quadrants that assesses whether thinking-with-images models ground their reasoning in the right visual evidence."
+    - "Shows that VLMs can reach correct answers while grounding on irrelevant regions, and can locate the correct evidence yet still fail to use it."
+  bibtex: |-
+    @inproceedings{li2026beyond,
+      title     = {Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images},
+      author    = {Li, Xuchen and Li, Xuzhao and Pi, Renjie and Hu, Shiyu and Zhao, Jian and Gao, Jiahui},
+      booktitle = {Findings of the Association for Computational Linguistics: {EMNLP} 2026},
+      year      = {2026},
+      note      = {To appear}
+    }
+
+Retina-EMBC:
+  source: "Accepted to EMBC 2026; no proceedings record (IEEE Xplore/Crossref/PubMed) or public preprint found as of 2026-10-21; BibTeX from the CV entry with note To appear; no public abstract yet"
+  abstract: ""
+  contributions: []
+  bibtex: |-
+    @inproceedings{li2026global,
+      title     = {Global-Local Semi-Supervised Modeling for Retinal Layer Boundary Estimation in {OCT}},
+      author    = {Li, Kainan and Parikh, Bhav and Yue, Huihui and Hu, Shiyu and Tan, Shu Woon and Low, Wan Yu and Su, Xinyi and Cheong, Kang Hao},
+      booktitle = {Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+      year      = {2026},
+      note      = {To appear}
+    }
+
+TNSE26:
+  source: "DOI 10.1109/TNSE.2026.3668404 (Crossref/IEEE Xplore 11417444; vol. 13, pp. 7667-7683, no issue number in the record); abstract from IEEE Xplore"
+  abstract: >-
+    Multimodal video intelligence is increasingly shaped not only by algorithmic progress but also
+    by the constraints of networked deployment, such as limited compute and communication resources,
+    real-time latency, energy, and cost. This survey examines the field from a network and system
+    perspective and organizes recent advances into a three-stage, constraint-driven trajectory that
+    links algorithmic capabilities with deployment architectures and network behaviors. The first
+    stage, Perception Enhancement, focuses on real-time closed-loop processing through lightweight
+    models and edge-side control. The second stage, Semantic Understanding, addresses long-sequence
+    and multimodal analysis by leveraging edge–cloud collaboration and distributed scheduling. The
+    third stage, Cognitive Reasoning, supports causal and interactive intelligence via retrieval
+    augmentation, long-term memory, and multi-agent coordination. Across these stages,
+    algorithm–system co-design is reflected in network behaviors such as caching, compression,
+    representation sharing, and cross-modal alignment. Overall, this survey highlights a shift from
+    algorithm-centric design toward network-aware intelligence, from static perception to open-world
+    generalization, and from isolated inference to networked interactive systems, providing insights
+    for bridging AI research with real-world networked applications.
+  contributions:
+    - "Surveys multimodal video intelligence from a network and system perspective, framing progress as shaped by deployment constraints such as compute, communication, real-time latency, energy and cost."
+    - "Organizes recent advances into a three-stage trajectory, Perception Enhancement, Semantic Understanding and Cognitive Reasoning, linking each stage to deployment architectures and network behaviors."
+    - "Analyzes algorithm-system co-design through caching, compression, representation sharing and cross-modal alignment, and highlights the shift toward network-aware, open-world and networked interactive systems."
+  bibtex: |-
+    @article{li2026constraint,
+      title   = {Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspective},
+      author  = {Li, Xuzhao and Li, Xuchen and Hu, Shiyu and Zhang, Zhaorui and Cheong, Kang Hao},
+      journal = {IEEE Transactions on Network Science and Engineering},
+      volume  = {13},
+      pages   = {7667--7683},
+      year    = {2026},
+      doi     = {10.1109/TNSE.2026.3668404}
+    }
+
+HyperRationality:
+  source: "DOI 10.1109/TNSE.2026.3742449 (Crossref/IEEE Xplore 11737546, Early Access: no volume/issue yet, placeholder pages 1-18 omitted); abstract from IEEE Xplore"
+  abstract: >-
+    Large language models (LLMs) are increasingly integrated into agent-based models (ABMs) and
+    multi-agent systems, giving rise to generative agent networks for social simulation and
+    collective behavior modeling. While these agents exhibit strong capabilities in language
+    generation, memory, and strategic planning, recent studies report decision convergence and
+    behavioral variance compression, suggesting a form of hyper-rationality that may suppress
+    micro-level heterogeneity and reshape macro-level network dynamics. This survey is organized
+    along three dimensions. First, we review the conceptual foundations of persona modeling and
+    agent-based social simulation, together with methodological approaches for inducing
+    persona-driven heterogeneity in LLM-based agents. Second, we examine system-level
+    implementations of LLM-based agents in social simulations, focusing on how heterogeneity affects
+    interaction patterns, social dynamics, and collective behaviors. Third, we summarize the
+    methodological and ethical challenges of evaluating behavioral heterogeneity in generative agent
+    networks, including variance preservation, decision correlation, coherence, stability, and bias
+    in automated evaluation. By connecting heterogeneity modeling, social simulation systems, and
+    evaluation perspectives, this survey provides a structured synthesis of current approaches and
+    highlights key directions for understanding and studying collective behavior in generative agent
+    systems.
+  contributions:
+    - "Reviews the conceptual foundations of persona modeling and agent-based social simulation, and methods for inducing persona-driven heterogeneity in LLM-based agents to counter hyper-rational decision convergence."
+    - "Examines system-level implementations of LLM-based agents in social simulations, focusing on how heterogeneity affects interaction patterns, social dynamics and collective behaviors."
+    - "Summarizes methodological and ethical challenges in evaluating behavioral heterogeneity in generative agent networks, including variance preservation, decision correlation, coherence, stability and bias in automated evaluation."
+  bibtex: |-
+    @article{hirashima2026beyond,
+      title   = {Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems},
+      author  = {Hirashima, Shunya and Hu, Shiyu and Cheong, Kang Hao},
+      journal = {IEEE Transactions on Network Science and Engineering},
+      year    = {2026},
+      doi     = {10.1109/TNSE.2026.3742449},
+      note    = {Early Access}
+    }
+
+GHASS:
+  source: "Accepted to Chaos, Solitons & Fractals; no DOI/publisher record (Crossref) or public preprint found as of 2026-10-21; BibTeX from the CV entry with note To appear; no public abstract yet"
+  abstract: ""
+  contributions: []
+  bibtex: |-
+    @article{ma2026observation,
+      title   = {From Observation to Generation: A Complex-Systems Perspective on Generative Human-{AI} Social Systems},
+      author  = {Ma, Yiping and Peng, Mengyao and Hu, Shiyu and Zhu, Buyuan and Wang, Yipei and Chen, Yuqing and Liu, Shiqing and Cheong, Kang Hao},
+      journal = {Chaos, Solitons \& Fractals},
+      year    = {2026},
+      note    = {To appear}
+    }
+
+Mathematics-CalcTutor:
+  source: "DOI 10.3390/math14071094 (Crossref/MDPI; vol. 14, no. 7, article 1094); abstract from Crossref (MDPI deposit); first author given name per official record (Le Ying; CV has Leying)"
+  abstract: >-
+    Personalized instruction remains a major bottleneck in higher education, especially in large
+    classes where timely, individualized feedback is difficult to achieve. Existing automation
+    typically relies on rigid rule-based pipelines or computationally heavy deep learning models,
+    making it difficult to simultaneously achieve interpretability, instructional usability, and
+    scalable deployment. In this study, we present CalcTutor, a generative-AI-based assessment and
+    feedback system designed to support open-ended handwritten calculus problem solving. The system
+    organizes instructional support through three coordinated components: (1) a multi-agent large
+    language model (LLM) mechanism that evaluates solution processes and produces diagnostic
+    feedback, (2) a retrieval-augmented generation (RAG) pipeline that links diagnosed difficulties
+    to aligned instructional materials, and (3) real-time learner analytics for both students and
+    instructors, forming an integrated instructional support workflow rather than an automated
+    answer-checking tool. In offline evaluation and a pilot classroom deployment, the multi-agent
+    grader achieved a weighted agreement accuracy of 0.931 and an F1-score of 0.934 on 1055
+    handwritten solutions. Participant feedback and workflow testing indicated that CalcTutor can be
+    stably integrated into routine classroom use and enables students to interpret and act upon the
+    provided feedback. These results indicate that automated assessment, diagnostic feedback, and
+    targeted review can operate coherently within a single instructional process that supports
+    instructor-led assessment practices. Using undergraduate calculus as an application domain for
+    open-ended handwritten mathematical assessment, the study demonstrates the operational
+    feasibility of a closed-loop assessment–feedback–revision workflow and provides a deployable
+    instructional infrastructure for formative instructional support in real classroom contexts.
+  contributions:
+    - "Presents CalcTutor, a generative-AI assessment and feedback system that supports open-ended handwritten calculus problem solving within an integrated instructional workflow."
+    - "Combines a multi-agent LLM grader that produces diagnostic feedback, a RAG pipeline that links diagnosed difficulties to aligned instructional materials, and real-time learner analytics for students and instructors."
+    - "Shows in offline evaluation and a pilot classroom deployment a weighted agreement accuracy of 0.931 and an F1-score of 0.934 on 1055 handwritten solutions."
+  bibtex: |-
+    @article{tan2026calctutor,
+      title   = {{CalcTutor}: Multi-Agent {LLM} Grading of Handwritten Mathematics with {RAG}-Grounded Feedback for Adaptive Learning Support},
+      author  = {Tan, Le Ying and Zhu, Buyuan and Hu, Shiyu and Mishra, Ankit and Yeo, Darren J. and Cheong, Kang Hao},
+      journal = {Mathematics},
+      volume  = {14},
+      number  = {7},
+      pages   = {1094},
+      year    = {2026},
+      doi     = {10.3390/math14071094}
+    }
+
+HLE:
+  source: "DOI 10.1038/s41586-025-09962-4 (Crossref/Nature; vol. 649, no. 8099, pp. 1139-1146); author field uses the three organizational authors of the official byline (Center for AI Safety, Scale AI & HLE Contributors Consortium); abstract from nature.com (reference marker removed)"
+  abstract: >-
+    Benchmarks are important tools for tracking the rapid advancements in large language model (LLM)
+    capabilities. However, benchmarks are not keeping pace in difficulty: LLMs now achieve more than
+    90% accuracy on popular benchmarks such as Measuring Massive Multitask Language Understanding,
+    limiting informed measurement of state-of-the-art LLM capabilities. Here, in response, we
+    introduce Humanity’s Last Exam (HLE), a multi-modal benchmark at the frontier of human
+    knowledge, designed to be an expert-level closed-ended academic benchmark with broad subject
+    coverage. HLE consists of 2,500 questions across dozens of subjects, including mathematics,
+    humanities and the natural sciences. HLE is developed globally by subject-matter experts and
+    consists of multiple-choice and short-answer questions suitable for automated grading. Each
+    question has a known solution that is unambiguous and easily verifiable but cannot be quickly
+    answered by internet retrieval. State-of-the-art LLMs demonstrate low accuracy and calibration
+    on HLE, highlighting a marked gap between current LLM capabilities and the expert human frontier
+    on closed-ended academic questions. To inform research and policymaking upon a clear
+    understanding of model capabilities, we publicly release HLE at https://lastexam.ai.
+  contributions:
+    - "Introduces Humanity's Last Exam (HLE), a multi-modal, expert-level closed-ended academic benchmark of 2,500 questions across dozens of subjects, including mathematics, humanities and the natural sciences."
+    - "Builds the benchmark from multiple-choice and short-answer questions written globally by subject-matter experts, each with an unambiguous, verifiable solution that cannot be quickly answered by internet retrieval."
+    - "Shows that state-of-the-art LLMs have low accuracy and calibration on HLE, revealing a marked gap to the expert human frontier, and publicly releases the benchmark."
+  bibtex: |-
+    @article{cais2026benchmark,
+      title   = {A benchmark of expert-level academic questions to assess {AI} capabilities},
+      author  = {{Center for AI Safety} and {Scale AI} and {HLE Contributors Consortium}},
+      journal = {Nature},
+      volume  = {649},
+      number  = {8099},
+      pages   = {1139--1146},
+      year    = {2026},
+      doi     = {10.1038/s41586-025-09962-4}
+    }
+
+CSTrack:
+  source: "PMLR v267 (feng25t) proceedings BibTeX; abstract from PMLR proceedings page"
+  abstract: >-
+    Effectively modeling and utilizing spatiotemporal features from RGB and other modalities (e.g.,
+    depth, thermal, and event data, denoted as X) is the core of RGB-X tracker design. Existing
+    methods often employ two parallel branches to separately process the RGB and X input streams,
+    requiring the model to simultaneously handle two dispersed feature spaces, which complicates
+    both the model structure and computation process. More critically, intra-modality spatial
+    modeling within each dispersed space incurs substantial computational overhead, limiting
+    resources for inter-modality spatial modeling and temporal modeling. To address this, we propose
+    a novel tracker, CSTrack, which focuses on modeling Compact Spatiotemporal features to achieve
+    simple yet effective tracking. Specifically, we first introduce an innovative Spatial Compact
+    Module that integrates the RGB-X dual input streams into a compact spatial feature, enabling
+    thorough intra- and inter-modality spatial modeling. Additionally, we design an efficient
+    Temporal Compact Module that compactly represents temporal features by constructing the refined
+    target distribution heatmap. Extensive experiments validate the effectiveness of our compact
+    spatiotemporal modeling method, with CSTrack achieving new SOTA results on mainstream RGB-X
+    benchmarks. The code and models will be released at: https://github.com/XiaokunFeng/CSTrack.
+  contributions:
+    - "Proposes CSTrack, an RGB-X tracker that models compact spatiotemporal features rather than processing RGB and X inputs in two parallel branches with dispersed feature spaces."
+    - "Introduces a Spatial Compact Module that integrates the RGB-X dual input streams into one compact spatial feature, enabling thorough intra- and inter-modality spatial modeling."
+    - "Designs a Temporal Compact Module that represents temporal features via a refined target distribution heatmap, with CSTrack achieving new state-of-the-art results on mainstream RGB-X benchmarks."
+  bibtex: |-
+    @inproceedings{feng2025cstrack,
+      title     = {{CSTrack}: Enhancing {RGB-X} Tracking via Compact Spatiotemporal Features},
+      author    = {Feng, Xiaokun and Zhang, Dailing and Hu, Shiyu and Li, Xuchen and Wu, Meiqi and Zhang, Jing and Chen, Xiaotang and Huang, Kaiqi},
+      booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+      series    = {Proceedings of Machine Learning Research},
+      volume    = {267},
+      pages     = {17030--17048},
+      year      = {2025},
+      publisher = {PMLR}
+    }
+
+ICASSP25:
+  source: "DOI 10.1109/ICASSP49660.2025.10888064 (Crossref/IEEE Xplore 10888064); abstract from IEEE Xplore (same as arXiv:2412.19648)"
+  abstract: >-
+    Vision-Language Tracking (VLT) aims to localize a target in video sequences using a visual
+    template and language description. While textual cues enhance tracking potential, current
+    datasets typically contain much more image data than text, limiting the ability of VLT methods
+    to align the two modalities effectively. To address this imbalance, we propose a novel
+    plug-and-play method named CTVLT that leverages the strong text-image alignment capabilities of
+    foundation grounding models. CTVLT converts textual cues into interpretable visual heatmaps,
+    which are easier for trackers to process. Specifically, we design a textual cue mapping module
+    that transforms textual cues into target distribution heatmaps, visually representing the
+    location described by the text. Additionally, the heatmap guidance module fuses these heatmaps
+    with the search image to guide tracking more effectively. Extensive experiments on mainstream
+    benchmarks demonstrate the effectiveness of our approach, achieving state-of-the-art performance
+    and validating the utility of our method for enhanced VLT.
+  contributions:
+    - "Proposes CTVLT, a plug-and-play vision-language tracking method that uses the text-image alignment of foundation grounding models to convert textual cues into interpretable visual heatmaps."
+    - "Designs a textual cue mapping module that transforms text into target distribution heatmaps, and a heatmap guidance module that fuses these heatmaps with the search image."
+    - "Shows state-of-the-art performance on mainstream vision-language tracking benchmarks."
+  bibtex: |-
+    @inproceedings{feng2025enhancing,
+      title     = {Enhancing Vision-Language Tracking by Effectively Converting Textual Cues into Visual Cues},
+      author    = {Feng, Xiaokun and Zhang, Dailing and Hu, Shiyu and Li, Xuchen and Wu, Meiqi and Zhang, Jing and Chen, Xiaotang and Huang, Kaiqi},
+      booktitle = {ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+      pages     = {1--5},
+      year      = {2025},
+      doi       = {10.1109/ICASSP49660.2025.10888064}
+    }
+
+CEAI-adaptive:
+  source: "DOI 10.1016/j.caeai.2025.100429 (Crossref/Elsevier; vol. 9, article 100429); abstract from the Elsevier record via OpenAlex (ScienceDirect page blocked automated access); first author given name per official record (Le Ying; CV has Leying)"
+  abstract: >-
+    This review provides a comprehensive analysis of adaptive learning platforms (ALPs) in
+    education, focusing on their pedagogical foundations, AI-driven implementations, and the
+    challenges and successes of real-world applications. By collecting and analyzing learner data,
+    ALPs dynamically adjust instructional content and pathways to offer personalized learning
+    experiences, enhancing learning outcomes. The paper explores ALP design frameworks, core
+    algorithms, and evaluation metrics, and assesses their performance across diverse educational
+    contexts through case studies. Lastly, the review highlights key challenges ALPs face, such as
+    privacy concerns and faculty support for implementation, and offers insights into future trends
+    in developing adaptive technologies. This review provides educators and researchers with
+    valuable insights into how ALPs can be effectively applied in various educational settings.
+  contributions:
+    - "Reviews AI-enabled adaptive learning platforms, covering their pedagogical foundations, AI-driven implementations, design frameworks, core algorithms and evaluation metrics."
+    - "Assesses platform performance across diverse educational contexts through case studies of real-world applications."
+    - "Identifies key challenges such as privacy concerns and faculty support for implementation, and outlines future trends in developing adaptive learning technologies."
+  bibtex: |-
+    @article{tan2025artificial,
+      title   = {Artificial intelligence-enabled adaptive learning platforms: A review},
+      author  = {Tan, Le Ying and Hu, Shiyu and Yeo, Darren J. and Cheong, Kang Hao},
+      journal = {Computers and Education: Artificial Intelligence},
+      volume  = {9},
+      pages   = {100429},
+      year    = {2025},
+      doi     = {10.1016/j.caeai.2025.100429}
+    }
+
+Mathematics-AGS:
+  source: "DOI 10.3390/math13172828 (Crossref/MDPI; vol. 13, no. 17, article 2828); abstract from Crossref (MDPI deposit); first author given name per official record (Le Ying; CV has Leying)"
+  abstract: >-
+    This paper presents a comprehensive analysis of artificial intelligence-powered automated
+    grading systems (AI AGSs) in STEM education, systematically examining their algorithmic
+    foundations, mathematical modeling approaches, and quantitative evaluation methodologies. AI
+    AGSs enhance grading efficiency by providing large-scale, instant feedback and reducing
+    educators’ workloads. Compared to traditional manual grading, these systems improve consistency
+    and scalability, supporting a wide range of assessment types, from programming assignments to
+    open-ended responses. This paper provides a structured taxonomy of AI techniques including
+    logistic regression, decision trees, support vector machines, convolutional neural networks,
+    transformers, and generative models, analyzing their mathematical formulations and performance
+    characteristics. It further examines critical challenges, such as user trust issues, potential
+    biases, and students’ over-reliance on automated feedback, alongside quantitative evaluation
+    using precision, recall, F1-score, and Cohen’s Kappa metrics. The analysis includes feature
+    engineering strategies for diverse educational data types and prompt engineering methodologies
+    for large language models. Lastly, we highlight emerging trends, including explainable AI and
+    multimodal assessment systems, offering educators and researchers a mathematical foundation for
+    understanding and implementing AI AGSs into educational practices.
+  contributions:
+    - "Reviews AI-powered automated grading systems in STEM education, examining their algorithmic foundations, mathematical modeling approaches and quantitative evaluation methodologies."
+    - "Provides a structured taxonomy of AI techniques, from logistic regression, decision trees and support vector machines to CNNs, transformers and generative models, analyzing their formulations and performance."
+    - "Discusses challenges such as user trust, bias and over-reliance on automated feedback, and highlights emerging trends including explainable AI and multimodal assessment systems."
+  bibtex: |-
+    @article{tan2025comprehensive,
+      title   = {A Comprehensive Review on Automated Grading Systems in {STEM} Using {AI} Techniques},
+      author  = {Tan, Le Ying and Hu, Shiyu and Yeo, Darren J. and Cheong, Kang Hao},
+      journal = {Mathematics},
+      volume  = {13},
+      number  = {17},
+      pages   = {2828},
+      year    = {2025},
+      doi     = {10.3390/math13172828}
+    }
+
+IET-AI4Edu:
+  source: "DOI 10.1142/S2737599425500264 (Crossref/World Scientific; vol. 12, article 2550026); abstract from Crossref (World Scientific deposit)"
+  abstract: >-
+    Artificial intelligence (AI) in education has triggered significant debates about ethics,
+    fairness, and accountability. This article introduces a five-dimensional trust framework to
+    evaluate educational AI systems across five key domains: privacy, safety, fairness,
+    explainability, and accountability. Through a comparative analysis of four representative
+    cases—a virtual teaching assistant, an adaptive learning platform, an algorithmic grading
+    system, and an AI-based proctoring tool—we identify recurring trust-related risks and systemic
+    governance vulnerabilities, such as insufficient oversight, lack of transparency, and unclear
+    accountability mechanisms. The analysis reveals risks such as data breaches, bias, opaque
+    decision-making, and ambiguous responsibility. To address these issues, we propose
+    multi-stakeholder governance strategies, including ethical-by-design principles, institutional
+    oversight, and regulatory standards. This study concludes by outlining major avenues for future
+    research, such as developing explainable AI systems tailored to educational settings,
+    constructing trust models for human–AI collaboration, and evaluating the enduring impacts of AI
+    governance structures.
+  contributions:
+    - "Introduces a five-dimensional trust framework for evaluating educational AI systems across privacy, safety, fairness, explainability and accountability."
+    - "Compares four representative cases, a virtual teaching assistant, an adaptive learning platform, an algorithmic grading system and an AI-based proctoring tool, to identify recurring trust risks and governance vulnerabilities."
+    - "Proposes multi-stakeholder governance strategies, including ethical-by-design principles, institutional oversight and regulatory standards, and outlines avenues for future research."
+  bibtex: |-
+    @article{ma2025trustworthy,
+      title   = {Trustworthy {AI} in education: Framework, cases, and governance strategies},
+      author  = {Ma, Yiping and Li, Xinjin and Hu, Shiyu and Liu, Shiqing and Cheong, Kang Hao},
+      journal = {Innovation and Emerging Technologies},
+      volume  = {12},
+      pages   = {2550026},
+      year    = {2025},
+      doi     = {10.1142/S2737599425500264}
+    }
+
+IGBA:
+  source: "Journal site (zxws.cbpt.cnki.net): Chinese Mental Health Journal 2025, 39(4): 337-343, no DOI; official byline has 8 authors in the order Huang, Kang, Yan, Hu, Gao, Wang, Tao, Zeng (homepage/CV list 7, omit Zeng Yangruiyu and order Wang, Tao, Gao); English title from the CV (journal page shows only the Chinese title); official English abstract from the journal page (missing spaces after full stops restored)"
+  abstract: >-
+    Game-based psychological assessment utilizes game mechanisms and elements to enhance
+    participants' motivation and improve measurement accuracy, but similar to traditional methods,
+    it mainly focuses on static results. By integrating game-based psychological assessment with
+    artificial intelligence technology, this paper proposes the paradigm of intelligent
+    psychological assessment based on interactive environment. With analyzing dynamic process data
+    within the game, this paradigm can accurately depict the participants' actions and results in
+    the interactive context, more effectively representing individual psychological states and
+    behavioral characteristics. This new paradigm demonstrates advancements and significant
+    potential for development in terms of demand, data collection, and analysis techniques.
+  contributions:
+    - "Systematically reviews game-based psychological assessment that integrates artificial intelligence, noting that existing game-based methods, like traditional ones, mainly focus on static results."
+    - "Proposes the paradigm of intelligent psychological assessment based on interactive environment, which analyzes dynamic in-game process data to depict participants' actions and results in interactive contexts."
+    - "Discusses the paradigm's advances and development potential in terms of demand, data collection and analysis techniques."
+  bibtex: |-
+    @article{huang2025review,
+      title   = {A Review of Intelligent Psychological Assessment Based on Interactive Environment},
+      author  = {Huang, Kaiqi and Kang, Yaxuan and Yan, Chengxin and Hu, Shiyu and Gao, Wenbin and Wang, Ligang and Tao, Ting and Zeng, Yangruiyu},
+      journal = {Chinese Mental Health Journal},
+      volume  = {39},
+      number  = {4},
+      pages   = {337--343},
+      year    = {2025},
+      note    = {In Chinese}
+    }
+
+CPDTrack:
+  source: "DOI 10.52202/079017-0086; BibTeX from NeurIPS 2024 proceedings (.bib), checked against CV; abstract from the NeurIPS proceedings page (hyphenation artefacts 'pro- pose', 'high- quality' fixed)"
+  abstract: >-
+    Human visual search ability enables efficient and accurate tracking of an arbitrary moving
+    target, which is a significant research interest in cognitive neuroscience. The recently
+    proposed Central-Peripheral Dichotomy (CPD) theory sheds light on how humans effectively process
+    visual information and track moving targets in complex environments. However, existing visual
+    object tracking algorithms still fall short of matching human performance in maintaining
+    tracking over time, particularly in complex scenarios requiring robust visual search skills.
+    These scenarios often involve Spatio-Temporal Discontinuities (i.e., STDChallenge), prevalent in
+    long-term tracking and global instance tracking. To address this issue, we conduct research from
+    a human-like modeling perspective: (1) Inspired by the CPD, we propose a new tracker named
+    CPDTrack to achieve human-like visual search ability. The central vision of CPDTrack leverages
+    the spatio-temporal continuity of videos to introduce priors and enhance localization precision,
+    while the peripheral vision improves global awareness and detects object movements. (2) To
+    further evaluate and analyze STDChallenge, we create the STDChallenge Benchmark. Besides, by
+    incorporating human subjects, we establish a human baseline, creating a high-quality environment
+    specifically designed to assess trackers’ visual search abilities in videos across STDChallenge.
+    (3) Our extensive experiments demonstrate that the proposed CPDTrack not only achieves
+    state-of-the-art (SOTA) performance in this challenge but also narrows the behavioral
+    differences with humans. Additionally, CPDTrack exhibits strong generalizability across various
+    challenging benchmarks. In summary, our research underscores the importance of human-like
+    modeling and offers strategic insights for advancing intelligent visual target tracking. Code
+    and models are available at https://github.com/ZhangDailing8/CPDTrack.
+  contributions:
+    - "Proposes CPDTrack, a tracker inspired by Central-Peripheral Dichotomy theory, whose central vision exploits spatio-temporal continuity for precise localization and whose peripheral vision improves global awareness."
+    - "Builds the STDChallenge Benchmark for tracking under spatio-temporal discontinuities and establishes a human baseline with human subjects to assess trackers' visual search abilities."
+    - "Shows that CPDTrack achieves state-of-the-art performance on STDChallenge, narrows behavioral differences with humans, and generalizes across various challenging benchmarks."
+  bibtex: |-
+    @inproceedings{zhang2024beyond,
+      title     = {Beyond Accuracy: Tracking more like Human via Visual Search},
+      author    = {Zhang, Dailing and Hu, Shiyu and Feng, Xiaokun and Li, Xuchen and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
+      booktitle = {Advances in Neural Information Processing Systems},
+      volume    = {37},
+      pages     = {2629--2662},
+      year      = {2024},
+      doi       = {10.52202/079017-0086}
+    }
+
+MemVLT:
+  source: "DOI 10.52202/079017-0476; BibTeX from NeurIPS 2024 proceedings (.bib), checked against CV; abstract from the NeurIPS proceedings page (LaSOT$_{ext}$ rendered as LaSOT_ext)"
+  abstract: >-
+    Vision-language tracking (VLT) enhances traditional visual object tracking by integrating
+    language descriptions, requiring the tracker to flexibly understand complex and diverse text in
+    addition to visual information. However, most existing vision-language trackers still overly
+    rely on initial fixed multimodal prompts, which struggle to provide effective guidance for
+    dynamically changing targets. Fortunately, the Complementary Learning Systems (CLS) theory
+    suggests that the human memory system can dynamically store and utilize multimodal perceptual
+    information, thereby adapting to new scenarios. Inspired by this, (i) we propose a Memory-based
+    Vision-Language Tracker (MemVLT). By incorporating memory modeling to adjust static prompts, our
+    approach can provide adaptive prompts for tracking guidance. (ii) Specifically, the memory
+    storage and memory interaction modules are designed in accordance with CLS theory. These modules
+    facilitate the storage and flexible interaction between short-term and long-term memories,
+    generating prompts that adapt to target variations. (iii) Finally, we conduct extensive
+    experiments on mainstream VLT datasets (e.g., MGIT, TNL2K, LaSOT and LaSOT_ext). Experimental
+    results show that MemVLT achieves new state-of-the-art performance. Impressively, it achieves
+    69.4% AUC on the MGIT and 63.3% AUC on the TNL2K, improving the existing best result by 8.4% and
+    4.7%, respectively.
+  contributions:
+    - "Proposes MemVLT, a memory-based vision-language tracker that uses memory modeling to adjust static multimodal prompts into adaptive prompts for tracking guidance."
+    - "Designs memory storage and memory interaction modules following Complementary Learning Systems theory, letting short-term and long-term memories interact to generate prompts that adapt to target variations."
+    - "Achieves new state-of-the-art results on mainstream VLT datasets, including 69.4% AUC on MGIT and 63.3% AUC on TNL2K, improving the previous best by 8.4% and 4.7%."
+  bibtex: |-
+    @inproceedings{feng2024memvlt,
+      title     = {{MemVLT}: Vision-Language Tracking with Adaptive Memory-based Prompts},
+      author    = {Feng, Xiaokun and Li, Xuchen and Hu, Shiyu and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Chen, Xiaotang and Huang, Kaiqi},
+      booktitle = {Advances in Neural Information Processing Systems},
+      volume    = {37},
+      pages     = {14903--14933},
+      year      = {2024},
+      doi       = {10.52202/079017-0476}
+    }
+
+ICASSP24:
+  source: "DOI 10.1109/ICASSP48485.2024.10447135 (Crossref; title case 'Cryo-Em' and author 'Hu, ShiYu' in the record normalised to Cryo-EM / Hu, Shiyu); abstract from arXiv:2401.01097 (identical to the IEEE record, which has the artefact 'nearatomic')"
+  abstract: >-
+    Cryo-electron microscopy (cryo-EM) has achieved near-atomic level resolution of biomolecules by
+    reconstructing 2D micrographs. However, the resolution and accuracy of the reconstructed
+    particles are significantly reduced due to the extremely low signal-to-noise ratio (SNR) and
+    complex noise structure of cryo-EM images. In this paper, we introduce a diffusion model with
+    post-processing framework to effectively denoise and restore single particle cryo-EM images. Our
+    method outperforms the state-of-the-art (SOTA) denoising methods by effectively removing
+    structural noise that has not been addressed before. Additionally, more accurate and
+    high-resolution three-dimensional reconstruction structures can be obtained from denoised
+    cryo-EM images.
+  contributions:
+    - "Introduces a diffusion model with a post-processing framework to denoise and restore single-particle cryo-EM images, which suffer from extremely low signal-to-noise ratio and complex noise structure."
+    - "Shows that the method outperforms state-of-the-art denoising methods by removing structural noise that had not been addressed before."
+    - "Shows that denoised cryo-EM images yield more accurate, higher-resolution three-dimensional reconstruction structures."
+  bibtex: |-
+    @inproceedings{zhang2024robust,
+      title     = {Robust Single-Particle {Cryo-EM} Image Denoising and Restoration},
+      author    = {Zhang, Jing and Zhao, Tengfei and Hu, Shiyu and Zhao, Xin},
+      booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+      pages     = {2995--2999},
+      year      = {2024},
+      doi       = {10.1109/ICASSP48485.2024.10447135}
+    }
+
+AWCV:
+  source: "DOI 10.1109/TCSVT.2024.3385851 (Crossref, doi.org); abstract from the published IEEE version (IEEE record via OpenAlex, identical to the accepted version at files/AWCV100k.pdf; the later arXiv:2412.19537 names the dataset AWCV-100K-UCAS2024)"
+  abstract: >-
+    Air-writing is a challenging task that combines the fields of computer vision and natural
+    language processing, offering an intuitive and natural approach for human-computer interaction.
+    However, current air-writing solutions face two primary challenges: (1) their dependency on
+    complex sensors (e.g., Radar, EEGs and others) for capturing precise handwritten trajectories,
+    and (2) the absence of a video-based air-writing dataset that covers a comprehensive vocabulary
+    range. These limitations impede their practicality in various real-world scenarios, including
+    the use on devices like iPhones and laptops. To tackle these challenges, we present the
+    groundbreaking air-writing Chinese character video dataset (AWCV-100K), serving as a pioneering
+    benchmark for video-based air-writing. This dataset captures handwritten trajectories in various
+    real-world scenarios using commonly accessible RGB cameras, eliminating the need for complex
+    sensors. AWCV-100K includes 8.8 million video frames, encompassing the complete set of 3,755
+    characters from the GB2312-80 level-1 set (GB1). Furthermore, we introduce our baseline
+    approach, the video-based character recognizer (VCRec). VCRec adeptly extracts fingertip
+    features from sparse visual cues and employs a spatio-temporal sequence module for analysis.
+    Experimental results showcase the superior performance of VCRec compared to existing models in
+    recognizing air-written characters, both quantitatively and qualitatively. This breakthrough
+    paves the way for enhanced human-computer interaction in real-world contexts. Moreover, our
+    approach leverages affordable RGB cameras, enabling its applicability in a diverse range of
+    scenarios. The code and data examples will be made public at https://github.com/wmeiqi/AWCV.
+  contributions:
+    - "Builds AWCV-100K, a video-based air-writing Chinese character dataset captured with ordinary RGB cameras, with 8.8 million frames covering all 3,755 GB2312-80 level-1 characters."
+    - "Introduces VCRec, a baseline video-based character recognizer that extracts fingertip features from sparse visual cues and analyzes them with a spatio-temporal sequence module."
+    - "Shows that VCRec outperforms existing models in recognizing air-written characters, quantitatively and qualitatively, without relying on complex sensors."
+  bibtex: |-
+    @article{wu2024finger,
+      title   = {Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World},
+      author  = {Wu, Meiqi and Huang, Kaiqi and Cai, Yuanqiang and Hu, Shiyu and Zhao, Yuzhong and Wang, Weiqiang},
+      journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+      volume  = {34},
+      number  = {9},
+      pages   = {8602--8613},
+      year    = {2024},
+      doi     = {10.1109/TCSVT.2024.3385851}
+    }
+
+VSLLM:
+  source: "DOI 10.1007/978-981-97-8692-3_17 (Crossref, doi.org; PRCV 2024 Part IX = LNCS 15039); abstract from arXiv:2508.05299"
+  abstract: >-
+    The Drawing Projection Test (DPT) is an essential tool in art therapy, allowing psychologists to
+    assess participants' mental states through their sketches. Specifically, through sketches with
+    the theme of "a person picking an apple from a tree (PPAT)", it can be revealed whether the
+    participants are in mental states such as depression. Compared with scales, the DPT can enrich
+    psychologists' understanding of an individual's mental state. However, the interpretation of the
+    PPAT is laborious and depends on the experience of the psychologists. To address this issue, we
+    propose an effective identification method to support psychologists in conducting a large-scale
+    automatic DPT. Unlike traditional sketch recognition, DPT more focus on the overall evaluation
+    of the sketches, such as color usage and space utilization. Moreover, PPAT imposes a time limit
+    and prohibits verbal reminders, resulting in low drawing accuracy and a lack of detailed
+    depiction. To address these challenges, we propose the following efforts: (1) Providing an
+    experimental environment for automated analysis of PPAT sketches for depression assessment; (2)
+    Offering a Visual-Semantic depression assessment based on LLM (VS-LLM) method; (3) Experimental
+    results demonstrate that our method improves by 17.6% compared to the psychologist assessment
+    method. We anticipate that this work will contribute to the research in mental state assessment
+    based on PPAT sketches' elements recognition. Our datasets and codes are available at
+    https://github.com/wmeiqi/VS-LLM.
+  contributions:
+    - "Provides an experimental environment for automated analysis of PPAT (a person picking an apple from a tree) sketches for depression assessment in the Drawing Projection Test."
+    - "Proposes VS-LLM, a visual-semantic depression assessment method based on large language models, to support psychologists in large-scale automatic Drawing Projection Tests."
+    - "Shows that the method improves by 17.6% over the psychologist assessment method, and releases datasets and code."
+  bibtex: |-
+    @inproceedings{wu2024vsllm,
+      title     = {{VS-LLM}: Visual-Semantic Depression Assessment Based on {LLM} for Drawing Projection Test},
+      author    = {Wu, Meiqi and Kang, Yaxuan and Li, Xuchen and Hu, Shiyu and Chen, Xiaotang and Kang, Yunfeng and Wang, Weiqiang and Huang, Kaiqi},
+      booktitle = {Pattern Recognition and Computer Vision (PRCV 2024)},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {15039},
+      pages     = {232--246},
+      year      = {2024},
+      doi       = {10.1007/978-981-97-8692-3_17}
+    }
+
+PRCV23:
+  source: "DOI 10.1007/978-981-99-8462-6_20 (Crossref, doi.org; PRCV 2023 Part IV = LNCS 14428); abstract from the published chapter (files/PRCV23.pdf, Springer page blocks automated access; one stray space before a comma removed)"
+  abstract: >-
+    Sandplay therapy functions as a pivotal tool for psychological projection, where testers
+    construct a scene to mirror their inner world while psychoanalysts scrutinize the testers’
+    psychological state. In this process, recognizing the theme (i.e., identifying the content and
+    emotional tone) of a sandplay image is a vital step in facilitating higher-level analysis.
+    Unlike traditional visual recognition that focuses solely on the basic information (e.g.,
+    category, location, shape, etc.), sandplay theme recognition needs to consider the overall
+    content of the image, then relies on a hierarchical knowledge structure to complete the
+    reasoning process. Nevertheless, the research of sandplay theme recognition is hindered by
+    following challenges: (1) Gathering high-quality and enough sandplay images paired with expert
+    analyses to form a scientific dataset is challenging, due to this task relies on a specialized
+    sandplay environment. (2) Theme is a comprehensive and high-level information, making it
+    difficult to adopt existing works directly in this task. In summary, we have tackled the above
+    challenges from the following aspects: (1) Based on carefully analysis of the challenges (e.g.,
+    small-scale dataset and complex information), we present the HIST (HIerarchical Sandplay Theme
+    recognition) model that incorporates external knowledge to emulate the psychoanalysts’ reasoning
+    process. (2) Taking the split theme (a representative and evenly distributed theme) as an
+    example, we proposed a high-quality dataset called SP2 (SandPlay SPlit) to evaluate our proposed
+    method. Experimental results demonstrate the superior performance of our algorithm compared to
+    other baselines, and ablation experiments confirm the importance of incorporating external
+    knowledge. We anticipate this work will contribute to the research in sandplay theme
+    recognition. The relevant datasets and codes will be released continuously.
+  contributions:
+    - "Proposes HIST (HIerarchical Sandplay Theme recognition), a model that incorporates external knowledge to emulate psychoanalysts' reasoning when recognizing the theme of a sandplay image."
+    - "Builds SP2 (SandPlay SPlit), a high-quality dataset built around the split theme, to evaluate sandplay theme recognition."
+    - "Shows that HIST outperforms other baselines, with ablation experiments confirming the importance of incorporating external knowledge."
+  bibtex: |-
+    @inproceedings{feng2023hierarchical,
+      title     = {A Hierarchical Theme Recognition Model for Sandplay Therapy},
+      author    = {Feng, Xiaokun and Hu, Shiyu and Chen, Xiaotang and Huang, Kaiqi},
+      booktitle = {Pattern Recognition and Computer Vision (PRCV 2023)},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {14428},
+      pages     = {241--252},
+      year      = {2023},
+      doi       = {10.1007/978-981-99-8462-6_20}
+    }
+
+CSAI23:
+  source: "DOI 10.1145/3638584.3638644 (Crossref, doi.org); abstract from the ACM record (via OpenAlex), identical to the published PDF"
+  abstract: >-
+    Similar object interference (SOI) problem challenges the single object tracking (SOT) task,
+    leading to the failure of feature-based trackers and subsequent performance degradation.
+    Unfortunately, current generic SOT benchmarks do not effectively tackle this critical challenge,
+    while popular SOT algorithms consistently underestimate the influence they have on tracking
+    performance. To bridge this gap and further enhance the investigation of similar object
+    interference in SOT, we adopt the following viewpoints: (1) By examining the operational
+    principles of mainstream trackers and their performance on representative SOT datasets, we
+    redefine similar objects, taking into account the cognitive bias that exists between trackers
+    and humans when dealing with this challenge. (2) Subsequently, we develop a mining methodology
+    that enables the extraction of the SOI sub-dataset from SOT datasets without relying on human
+    intervention. This methodology comprises two main components: determining the SOI challenge and
+    screening the SOI sequences. The SOI dataset is acquired from representative SOT dataset using
+    our proposed approach, known as SOI2023. This dataset serves as an ideal environment to
+    facilitate the investigation of challenges related to similar object interference. (3)
+    Additionally, we conduct extensive tracking experiments with 20 typical trackers and their
+    variants on SOI2023 and analyze their performance for similar object interference scenes in
+    several dimensions. The experimental results demonstrate the effectiveness of our proposed
+    mining method, while revealing the strengths and weaknesses of current trackers when faced with
+    the challenge of similar object interference. We hope this work can provide inspiration to the
+    tracking community and also provide support and insights for robust tracking under the SOI
+    challenge.
+  contributions:
+    - "Redefines similar objects in single object tracking by examining how mainstream trackers work and perform, accounting for the cognitive bias between trackers and humans."
+    - "Develops a mining method that extracts similar object interference (SOI) sub-datasets from SOT datasets without human intervention, producing the SOI2023 dataset."
+    - "Evaluates 20 typical trackers and their variants on SOI2023, revealing their strengths and weaknesses under similar object interference."
+  bibtex: |-
+    @inproceedings{wang2023rethinking,
+      title     = {Rethinking Similar Object Interference in Single Object Tracking},
+      author    = {Wang, Yipei and Hu, Shiyu and Zhao, Xin},
+      booktitle = {Proceedings of the 2023 7th International Conference on Computer Science and Artificial Intelligence (CSAI)},
+      pages     = {251--258},
+      year      = {2023},
+      publisher = {ACM},
+      doi       = {10.1145/3638584.3638644}
+    }
+
+Neu22:
+  source: "DOI 10.1016/j.neucom.2022.06.027 (Crossref, doi.org); abstract from the published Elsevier article (files/Neu22.pdf; ScienceDirect blocks automated access)"
+  abstract: >-
+    Instance search aims at retrieving a particular object instance from a set of scene images.
+    Although studied in previous competitions like TRECVID, there have been limited literature or
+    datasets on this topic. In this paper, to overcome the generalization issue when arbitrary
+    categories are involved in search and to benefit from the large amount of unlabeled data, we
+    propose a cycle self-training framework which trains the instance search pipeline with automatic
+    supervision. Given the two-stage pipeline with a localization and ranking module, the cycle
+    self-training includes a ranker-guided localizer, and a localizer-guided ranker, each carefully
+    designed to handle noisy labels that come with self-supervision. Furthermore, we build and
+    release large-scale groundtruth annotations for instances to facilitate the algorithm evaluation
+    and analysis in this research topic, especially for small objects in complex background. The
+    datasets are publicly available at https://github.com/instance-search/instance-search. Extensive
+    experiments show the effectiveness of the proposed cycle self-training framework and the
+    superior performance compared with other state-of-the-art methods.
+  contributions:
+    - "Proposes a cycle self-training framework that trains a two-stage instance search pipeline with automatic supervision, pairing a ranker-guided localizer and a localizer-guided ranker designed for noisy labels."
+    - "Builds and releases large-scale ground-truth instance annotations for evaluating instance search, especially for small objects in complex backgrounds."
+    - "Shows the effectiveness of the framework and its superior performance over other state-of-the-art methods in extensive experiments."
+  bibtex: |-
+    @article{zhang2022revisiting,
+      title   = {Revisiting Instance Search: A New Benchmark Using Cycle Self-Training},
+      author  = {Zhang, Yuqi and Liu, Chong and Chen, Weihua and Xu, Xianzhe and Wang, Fan and Li, Hao and Hu, Shiyu and Zhao, Xin},
+      journal = {Neurocomputing},
+      volume  = {501},
+      pages   = {270--284},
+      year    = {2022},
+      doi     = {10.1016/j.neucom.2022.06.027}
+    }
+
+VTT:
+  source: "DOI 10.11996/JG.j.2095-302X.2021030339 (journal site txxb.com.cn; not in Crossref, doi.org content negotiation unavailable); official English abstract from the journal's English page"
+  abstract: >-
+    Computer vision has gained wide attention in the research of artificial intelligence. After
+    nearly 60 years of its development, great achievement has been made in aspect of algorithms,
+    technologies, and applications. Over the past decade, deep learning, which is on the basis of
+    big data and huge computation power, has further ushered computer vision in an era of large
+    model. However, there remains a huge gap between algorithm adaptability and human beings. From
+    the perspective of visual task evaluation (in terms of datasets, metrics, and methods), this
+    paper summarized the development history of computer vision. In addition, a systematic analysis
+    was conducted on the existing problems and obstacles for the development of computer vision
+    heavily dependent on big data learning. Based on the analysis, this paper argued that the visual
+    Turing test could be the next research direction of computer vision. Finally, the development of
+    the visual Turing test and its potential research were discussed.
+  contributions:
+    - "Reviews the development of computer vision from the perspective of visual task evaluation, covering datasets, metrics, and evaluation methods."
+    - "Analyzes the existing problems and obstacles facing computer vision that depends heavily on big-data learning."
+    - "Argues, from the view of human-computer gaming, that the visual Turing test could be the next research direction of computer vision, and discusses its potential research."
+  bibtex: |-
+    @article{huang2021visual,
+      title   = {Visual {Turing}: The Next Development of Computer Vision in the View of Human-Computer Gaming},
+      author  = {Huang, Kaiqi and Zhao, Xin and Li, Qiaozhe and Hu, Shiyu},
+      journal = {Journal of Graphics},
+      volume  = {42},
+      number  = {3},
+      pages   = {339--348},
+      year    = {2021},
+      doi     = {10.11996/JG.j.2095-302X.2021030339}
+    }
+
+Streaming-Video-Survey:
+  source: "DOI 10.2139/ssrn.7008298 (Crossref posted-content record; SSRN page blocks automated access); abstract from the Crossref/SSRN record"
+  abstract: >-
+    Video understanding research often assumes that a video is available before inference, or can at
+    least be revisited and re-encoded. Streaming video understanding breaks this assumption: a
+    system must update its state from past and current observations while the video is still
+    unfolding, deciding how to respond, what evidence to preserve, and how to allocate computation.
+    It is therefore not simply long-video understanding with lower latency, but a multimodal
+    pattern-recognition problem shaped by causal access, bounded state, and real-time interaction.
+    This survey reviews this rapidly developing area through three coupled questions: How to
+    Respond, How to Memorize, and How to be Fast. We first clarify the boundaries among streaming,
+    online, long-video, and offline video understanding, and then organize existing approaches into
+    proactive response timing, long-term memory management, and real-time inference optimization. We
+    further analyze how these designs affect evidence sufficiency, memory faithfulness, latency, and
+    deployment feasibility, and revisit benchmarks from the perspectives of response timing,
+    evidence preservation, interaction quality, and system cost. Finally, we summarize future
+    directions including evidence-grounded streaming reasoning, verifiable bounded memory, omnimodal
+    interaction, streaming agents, and deployment-aware system co-design. The goal is to position
+    streaming video understanding as a causal and resource-constrained pattern-recognition problem
+    rather than an online variant of offline video analysis.
+  contributions:
+    - "Reviews streaming video understanding through three coupled questions: how to respond, how to memorize, and how to be fast."
+    - "Clarifies the boundaries among streaming, online, long-video and offline video understanding, and organizes methods into proactive response timing, long-term memory management and real-time inference optimization."
+    - "Analyzes how these designs affect evidence sufficiency, memory faithfulness, latency and deployment, revisits benchmarks, and outlines future directions such as evidence-grounded streaming reasoning and streaming agents."
+  bibtex: |-
+    @misc{li2026respond,
+      title        = {How to Respond, How to Memorize, How to be Fast: A Survey of Streaming Video Understanding},
+      author       = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhao, Jian and Huang, Kaiqi},
+      howpublished = {SSRN},
+      year         = {2026},
+      doi          = {10.2139/ssrn.7008298},
+      note         = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7008298}
+    }
+
+FIOVA:
+  source: "arXiv:2410.15270 (v2, 2025-05-19; arXiv metadata); abstract from arXiv:2410.15270"
+  abstract: >-
+    Despite rapid progress in large vision-language models (LVLMs), existing video caption
+    benchmarks remain limited in evaluating their alignment with human understanding. Most rely on a
+    single annotation per video and lexical similarity-based metrics, failing to capture the
+    variability in human perception and the cognitive importance of events. These limitations hinder
+    accurate diagnosis of model capabilities in producing coherent, complete, and human-aligned
+    descriptions. To address this, we introduce FIOVA (Five-In-One Video Annotations), a
+    human-centric benchmark tailored for evaluation. It comprises 3,002 real-world videos (about
+    33.6s each), each annotated independently by five annotators. This design enables modeling of
+    semantic diversity and inter-subjective agreement, offering a richer foundation for measuring
+    human-machine alignment. We further propose FIOVA-DQ, an event-level evaluation metric that
+    incorporates cognitive weights derived from annotator consensus, providing fine-grained
+    assessment of event relevance and semantic coverage. Leveraging FIOVA, we conduct a
+    comprehensive evaluation of nine representative LVLMs and introduce a complexity-aware analysis
+    framework based on inter-annotator variation (CV). This reveals consistency gaps across
+    difficulty levels and identifies structural issues such as event under-description and template
+    convergence. Our results highlight FIOVA's diagnostic value for understanding LVLM behavior
+    under varying complexity, setting a new standard for cognitively aligned evaluation in
+    long-video captioning. The benchmark, annotations, metric, and model outputs are publicly
+    released to support future evaluation-driven research in video understanding. More detailed
+    information can be found at https://huuuuusy.github.io/fiova/.
+  contributions:
+    - "Introduces FIOVA, a benchmark of 3,002 real-world videos (about 33.6s each), each annotated independently by five annotators to capture semantic diversity and inter-subjective agreement."
+    - "Proposes FIOVA-DQ, an event-level evaluation metric with cognitive weights derived from annotator consensus for fine-grained assessment of event relevance and semantic coverage."
+    - "Evaluates nine representative LVLMs with a complexity-aware analysis based on inter-annotator variation, revealing consistency gaps and issues such as event under-description and template convergence."
+  bibtex: |-
+    @article{hu2024fiova,
+      title   = {{FIOVA}: A Multi-Annotator Benchmark for Human-Aligned Video Captioning},
+      author  = {Hu, Shiyu and Li, Xuchen and Li, Xuzhao and Zhang, Jing and Wang, Yipei and Zhao, Xin and Cheong, Kang Hao},
+      journal = {arXiv preprint arXiv:2410.15270},
+      year    = {2024}
+    }
+
+SOEI:
+  source: "arXiv:2410.15701 (v2, 2025-05-22; arXiv metadata); abstract from arXiv:2410.15701"
+  abstract: >-
+    Recent advances in large language models (LLMs) have enabled intelligent tutoring systems, yet
+    the development of LLM-based Virtual Student Agents (LVSAs) remains underexplored. Such agents
+    are essential for teacher-facing applications, where simulating diverse learner traits can
+    support adaptive instruction and pedagogical skill development. However, current methods lack
+    principled personality modeling, scalable evaluation of behavioral consistency, and empirical
+    validation in interactive teaching settings. We propose the SOEI framework, a structured
+    pipeline comprising Scene, Object, Evaluation, and Interaction, for constructing and evaluating
+    personality-aligned LVSAs in classroom scenarios. Leveraging Chinese language instruction as a
+    cognitively and emotionally rich testbed, we generate five LVSAs based on Big Five traits
+    through LoRA fine-tuning and expert-informed prompt design. Their behavioral realism and
+    personality coherence are assessed using a hybrid human & GPT-4 evaluation and a
+    multi-dimensional annotation protocol. Through controlled experiments with real pre-service
+    teachers, we demonstrate that LVSAs can elicit adaptive teaching strategies and maintain
+    trait-consistent behavior across multi-turn dialogues. Our results provide: (1) an educationally
+    and psychologically grounded generation pipeline for LLM-based student agents; (2) a hybrid,
+    scalable evaluation framework for behavioral realism; and (3) empirical insights into the
+    pedagogical utility of LVSAs in shaping instructional adaptation. By embedding LVSAs into both
+    generative modeling and human-in-the-loop teaching, SOEI bridges AI for Education (AI4Edu) and
+    Education for AI (Edu4AI), positioning classroom interaction as a rigorous testbed for
+    controllability, personality alignment, and human-likeness in large language models.
+  contributions:
+    - "Proposes SOEI, a structured Scene, Object, Evaluation and Interaction pipeline for constructing and evaluating personality-aligned LLM-based virtual student agents (LVSAs) in classroom scenarios."
+    - "Builds five LVSAs based on Big Five traits for Chinese language instruction via LoRA fine-tuning and expert-informed prompts, assessed with hybrid human and GPT-4 evaluation."
+    - "Shows in controlled experiments with real pre-service teachers that LVSAs elicit adaptive teaching strategies and keep trait-consistent behavior across multi-turn dialogues."
+  bibtex: |-
+    @article{ma2024llms,
+      title   = {When {LLMs} Learn to be Students: The {SOEI} Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction},
+      author  = {Ma, Yiping and Hu, Shiyu and Li, Xuchen and Wang, Yipei and Chen, Yuqing and Liu, Shiqing and Cheong, Kang Hao},
+      journal = {arXiv preprint arXiv:2410.15701},
+      year    = {2024}
+    }
+
+EduVerse:
+  source: "arXiv:2510.05650 (arXiv API record, v1); abstract from arXiv:2510.05650"
+  abstract: >-
+    Reproducing cognitive development, group interaction, and long-term evolution in virtual
+    classrooms remains a core challenge for educational AI, as real classrooms integrate open-ended
+    cognition, dynamic social interaction, affective factors, and multi-session development rarely
+    captured together. Existing approaches mostly focus on short-term or single-agent settings,
+    limiting systematic study of classroom complexity and cross-task reuse. We present EduVerse, the
+    first user-defined multi-agent simulation space that supports environment, agent, and session
+    customization. A distinctive human-in-the-loop interface further allows real users to join the
+    space. Built on a layered CIE (Cognition-Interaction-Evolution) architecture, EduVerse ensures
+    individual consistency, authentic interaction, and longitudinal adaptation in cognition,
+    emotion, and behavior-reproducing realistic classroom dynamics with seamless human-agent
+    integration. We validate EduVerse in middle-school Chinese classes across three text genres,
+    environments, and multiple sessions. Results show: (1) Instructional alignment: simulated IRF
+    rates (0.28-0.64) closely match real classrooms (0.37-0.49), indicating pedagogical realism; (2)
+    Group interaction and role differentiation: network density (0.27-0.40) with about one-third of
+    peer links realized, while human-agent tasks indicate a balance between individual variability
+    and instructional stability; (3) Cross-session evolution: the positive transition rate R+
+    increase by 11.7% on average, capturing longitudinal shifts in behavior, emotion, and cognition
+    and revealing structured learning trajectories. Overall, EduVerse balances realism,
+    reproducibility, and interpretability, providing a scalable platform for educational AI. The
+    system will be open-sourced to foster cross-disciplinary research.
+  contributions:
+    - "Introduces EduVerse, a user-defined multi-agent simulation space for classrooms that supports environment, agent and session customization, plus a human-in-the-loop interface for real users."
+    - "Builds a layered Cognition-Interaction-Evolution (CIE) architecture for individual consistency, authentic interaction and longitudinal adaptation in cognition, emotion and behavior."
+    - "Validates it in middle-school Chinese classes, with simulated IRF rates (0.28-0.64) close to real classrooms (0.37-0.49) and an average 11.7% rise in the positive transition rate across sessions."
+  bibtex: |-
+    @article{ma2025eduverse,
+      title   = {{EduVerse}: A User-Defined Multi-Agent Simulation Space for Education Scenario},
+      author  = {Ma, Yiping and Hu, Shiyu and Zhu, Buyuan and Wang, Yipei and Kang, Yaxuan and Liu, Shiqing and Cheong, Kang Hao},
+      journal = {arXiv preprint arXiv:2510.05650},
+      year    = {2025}
+    }
+
+EduPersona:
+  source: "arXiv:2510.04648 (arXiv API record, v1); abstract from arXiv:2510.04648"
+  abstract: >-
+    As large language models are increasingly integrated into education, virtual student agents are
+    becoming vital for classroom simulation and teacher training. Yet their classroom-oriented
+    subjective abilities remain largely unassessed, limiting understanding of model boundaries and
+    hindering trustworthy deployment. We present EduPersona, a large-scale benchmark spanning two
+    languages, three subjects, and ten persona types based on the Big Five theory. The dataset
+    contains 1,308 authentic classroom dialogue rounds, corresponding to 12,814 teacher-student Q&A
+    turns, and is further expanded through persona stylization into roughly 10 times larger scale
+    (128k turns), providing a solid foundation for evaluation. Building on this resource, we
+    decompose hard-to-quantify subjective performance into three progressive tasks: TASK1 basic
+    coherence (whether behavior, emotion, expression, and voice align with classroom context), TASK2
+    student realism, and TASK3 long-term persona consistency, thereby establishing an evaluation
+    framework grounded in educational theory and research value. We conduct systematic experiments
+    on three representative LLMs, comparing their original versions with ten persona-fine-tuned
+    variants trained on EduPersona. Results show consistent and significant average improvements
+    across all tasks: TASK1 +33.6%, TASK2 +30.6%, and TASK3 +14.9%. These improvements highlight the
+    dataset's effectiveness and research value, while also revealing the heterogeneous difficulty of
+    persona modeling. In summary, EduPersona delivers the first classroom benchmark centered on
+    subjective abilities, establishes a decoupled and verifiable research paradigm, and we will
+    open-source both the dataset and the framework to support the broader research community in
+    advancing trustworthy and human-like AI for education.
+  contributions:
+    - "Builds EduPersona, a classroom benchmark spanning two languages, three subjects and ten Big Five persona types, with 1,308 dialogue rounds (12,814 Q&A turns) expanded to about 128k turns."
+    - "Decomposes subjective ability into three progressive tasks: basic coherence, student realism and long-term persona consistency, grounded in educational theory."
+    - "Shows that persona-fine-tuned variants of three LLMs improve on average by 33.6%, 30.6% and 14.9% on the three tasks, while revealing uneven difficulty across personas."
+  bibtex: |-
+    @article{zhu2025edupersona,
+      title   = {{EduPersona}: Benchmarking Subjective Ability Boundaries of Virtual Student Agents},
+      author  = {Zhu, Buyuan and Hu, Shiyu and Ma, Yiping and Zhang, Yuanming and Cheong, Kang Hao},
+      journal = {arXiv preprint arXiv:2510.04648},
+      year    = {2025}
+    }
+
+SOI-V2:
+  source: "arXiv:2508.09524 (arXiv API record, v2); abstract from arXiv:2508.09524"
+  abstract: >-
+    In this paper, we present the first systematic investigation and quantification of Similar
+    Object Interference (SOI), a long-overlooked yet critical bottleneck in Single Object Tracking
+    (SOT). Through controlled Online Interference Masking (OIM) experiments, we quantitatively
+    demonstrate that eliminating interference sources leads to substantial performance improvements
+    (AUC gains up to 4.35) across all SOTA trackers, directly validating SOI as a primary constraint
+    for robust tracking and highlighting the feasibility of external cognitive guidance. Building
+    upon these insights, we adopt natural language as a practical form of external guidance, and
+    construct SOIBench-the first semantic cognitive guidance benchmark specifically targeting SOI
+    challenges. It automatically mines SOI frames through multi-tracker collective judgment and
+    introduces a multi-level annotation protocol to generate precise semantic guidance texts.
+    Systematic evaluation on SOIBench reveals a striking finding: existing vision-language tracking
+    (VLT) methods fail to effectively exploit semantic cognitive guidance, achieving only marginal
+    improvements or even performance degradation (AUC changes of -0.26 to +0.71). In contrast, we
+    propose a novel paradigm employing large-scale vision-language models (VLM) as external
+    cognitive engines that can be seamlessly integrated into arbitrary RGB trackers. This approach
+    demonstrates substantial improvements under semantic cognitive guidance (AUC gains up to 0.93),
+    representing a significant advancement over existing VLT methods. We hope SOIBench will serve as
+    a standardized evaluation platform to advance semantic cognitive tracking research and
+    contribute new insights to the tracking research community.
+  contributions:
+    - "Quantifies Similar Object Interference (SOI) in single object tracking through Online Interference Masking experiments, showing AUC gains of up to 4.35 for SOTA trackers when interference is removed."
+    - "Builds SOIBench, a semantic cognitive guidance benchmark that mines SOI frames by multi-tracker collective judgment and annotates guidance texts with a multi-level protocol."
+    - "Proposes using large vision-language models as external cognitive engines for any RGB tracker, gaining up to 0.93 AUC where existing VLT methods change by only -0.26 to +0.71."
+  bibtex: |-
+    @article{wang2025soi,
+      title   = {{SOI} is the Root of All Evil: Quantifying and Breaking Similar Object Interference in Single Object Tracking},
+      author  = {Wang, Yipei and Hu, Shiyu and Jia, Shukun and Xu, Panxi and Ma, Hongfei and Ma, Yiping and Zhang, Jing and Lu, Xiaobo and Zhao, Xin},
+      journal = {arXiv preprint arXiv:2508.09524},
+      year    = {2025}
+    }
+
+VLTVerse:
+  source: "arXiv:2411.15600 (arXiv API record, v1); abstract from arXiv:2411.15600 (\\url{} markup removed)"
+  abstract: >-
+    Vision-language tracking (VLT) extends traditional single object tracking by incorporating
+    textual information, providing semantic guidance to enhance tracking performance under
+    challenging conditions like fast motion and deformations. However, current VLT trackers often
+    underperform compared to single-modality methods on multiple benchmarks, with semantic
+    information sometimes becoming a "distraction." To address this, we propose VLTVerse, the first
+    fine-grained evaluation framework for VLT trackers that comprehensively considers multiple
+    challenge factors and diverse semantic information, hoping to reveal the role of language in
+    VLT. Our contributions include: (1) VLTVerse introduces 10 sequence-level challenge labels and 6
+    types of multi-granularity semantic information, creating a flexible and multi-dimensional
+    evaluation space for VLT; (2) leveraging 60 subspaces formed by combinations of challenge
+    factors and semantic types, we conduct systematic fine-grained evaluations of three mainstream
+    SOTA VLT trackers, uncovering their performance bottlenecks across complex scenarios and
+    offering a novel perspective on VLT evaluation; (3) through decoupled analysis of experimental
+    results, we examine the impact of various semantic types on specific challenge factors in
+    relation to different algorithms, providing essential guidance for enhancing VLT across data,
+    evaluation, and algorithmic dimensions. The VLTVerse, toolkit, and results will be available at
+    http://metaverse.aitestunion.com.
+  contributions:
+    - "Proposes VLTVerse, a fine-grained evaluation framework for vision-language trackers with 10 sequence-level challenge labels and 6 types of multi-granularity semantic information."
+    - "Evaluates three mainstream SOTA VLT trackers across 60 subspaces combining challenge factors and semantic types, exposing their bottlenecks in complex scenarios."
+    - "Analyzes how each semantic type affects specific challenge factors for different algorithms, giving guidance on data, evaluation and algorithm design for VLT."
+  bibtex: |-
+    @article{li2024texts,
+      title   = {How Texts Help? A Fine-grained Evaluation to Reveal the Role of Language in Vision-Language Tracking},
+      author  = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
+      journal = {arXiv preprint arXiv:2411.15600},
+      year    = {2024}
+    }
+
+STEMVerse:
+  source: "arXiv:2602.02497 (arXiv API record, v1); abstract from arXiv:2602.02497 ($\\times$ rendered as ×)"
+  abstract: >-
+    As Large Language Models (LLMs) achieve significant breakthroughs in complex reasoning tasks,
+    evaluating their proficiency in science, technology, engineering, and mathematics (STEM) has
+    become a primary method for measuring machine intelligence. However, current evaluation
+    paradigms often treat benchmarks as isolated "silos," offering only monolithic aggregate scores
+    that neglect the intricacies of both academic specialization and cognitive depth. This
+    result-oriented approach fails to distinguish whether model errors stem from insufficient domain
+    knowledge or deficiencies in cognitive capacity, thereby limiting the diagnostic value. To
+    address this, we propose STEMVerse, a diagnostic framework designed to systematically analyze
+    the STEM reasoning capabilities of LLMs. This framework characterizes model performance across
+    academic specialization and cognitive complexity to map the capability required for reasoning.
+    We re-aggregate over 20,000 STEM problems from mainstream benchmarks into a unified "Discipline
+    × Cognition" capability space, assigning dual-axis labels to every instance. Utilizing this
+    unified diagnostic framework, we systematically evaluate representative LLM families across
+    varying parameter scales and training paradigms. Our empirical results reveal structural failure
+    patterns in STEM reasoning. By integrating multi-disciplinary coverage and fine-grained
+    cognitive stratification into a unified framework, STEMVerse provides a clear and actionable
+    perspective for understanding the scientific reasoning characteristics of LLMs.
+  contributions:
+    - "Proposes STEMVerse, a diagnostic framework that characterizes LLM STEM reasoning along two axes, academic discipline and cognitive complexity."
+    - "Re-aggregates over 20,000 STEM problems from mainstream benchmarks into a unified \"Discipline × Cognition\" capability space with dual-axis labels on every instance."
+    - "Evaluates representative LLM families across parameter scales and training paradigms, revealing structural failure patterns in STEM reasoning."
+  bibtex: |-
+    @article{li2026stemverse,
+      title   = {{STEMVerse}: A Dual-Axis Diagnostic Framework for {STEM} Reasoning in Large Language Models},
+      author  = {Li, Xuzhao and Li, Xuchen and Zhao, Jian and Hu, Shiyu},
+      journal = {arXiv preprint arXiv:2602.02497},
+      year    = {2026}
+    }
+
+DTVLT:
+  source: "arXiv:2410.02492 (arXiv API record, v2); abstract from arXiv:2410.02492"
+  abstract: >-
+    Visual language tracking (VLT) has emerged as a cutting-edge research area, harnessing
+    linguistic data to enhance algorithms with multi-modal inputs and broadening the scope of
+    traditional single object tracking (SOT) to encompass video understanding applications. Despite
+    this, most VLT benchmarks still depend on succinct, human-annotated text descriptions for each
+    video. These descriptions often fall short in capturing the nuances of video content dynamics
+    and lack stylistic variety in language, constrained by their uniform level of detail and a fixed
+    annotation frequency. As a result, algorithms tend to default to a "memorize the answer"
+    strategy, diverging from the core objective of achieving a deeper understanding of video
+    content. Fortunately, the emergence of large language models (LLMs) has enabled the generation
+    of diverse text. This work utilizes LLMs to generate varied semantic annotations (in terms of
+    text lengths and granularities) for representative SOT benchmarks, thereby establishing a novel
+    multi-modal benchmark. Specifically, we (1) propose a new visual language tracking benchmark
+    with diverse texts, named DTVLT, based on five prominent VLT and SOT benchmarks, including three
+    sub-tasks: short-term tracking, long-term tracking, and global instance tracking. (2) We offer
+    four granularity texts in our benchmark, considering the extent and density of semantic
+    information. We expect this multi-granular generation strategy to foster a favorable environment
+    for VLT and video understanding research. (3) We conduct comprehensive experimental analyses on
+    DTVLT, evaluating the impact of diverse text on tracking performance and hope the identified
+    performance bottlenecks of existing algorithms can support further research in VLT and video
+    understanding. The proposed benchmark, experimental results and toolkit will be released
+    gradually on http://videocube.aitestunion.com/.
+  contributions:
+    - "Builds DTVLT, a visual language tracking benchmark with LLM-generated diverse texts on five prominent VLT and SOT benchmarks, covering short-term, long-term and global instance tracking."
+    - "Provides texts at four granularities that vary the extent and density of semantic information, moving beyond single, uniform human annotations."
+    - "Evaluates how diverse text affects tracking performance and identifies bottlenecks of existing algorithms for VLT and video understanding."
+  bibtex: |-
+    @article{li2024dtvlt,
+      title   = {{DTVLT}: A Multi-modal Diverse Text Benchmark for Visual Language Tracking Based on {LLM}},
+      author  = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
+      journal = {arXiv preprint arXiv:2410.02492},
+      year    = {2024}
+    }
+
+VLT-MI:
+  source: "arXiv:2409.08887 (arXiv API record, v1); abstract from arXiv:2409.08887"
+  abstract: >-
+    Visual Language Tracking (VLT) enhances tracking by mitigating the limitations of relying solely
+    on the visual modality, utilizing high-level semantic information through language. This
+    integration of the language enables more advanced human-machine interaction. The essence of
+    interaction is cognitive alignment, which typically requires multiple information exchanges,
+    especially in the sequential decision-making process of VLT. However, current VLT benchmarks do
+    not account for multi-round interactions during tracking. They provide only an initial text and
+    bounding box (bbox) in the first frame, with no further interaction as tracking progresses,
+    deviating from the original motivation of the VLT task. To address these limitations, we propose
+    a novel and robust benchmark, VLT-MI (Visual Language Tracking with Multi-modal Interaction),
+    which introduces multi-round interaction into the VLT task for the first time. (1) We generate
+    diverse, multi-granularity texts for multi-round, multi-modal interaction based on existing
+    mainstream VLT benchmarks using DTLLM-VLT, leveraging the world knowledge of LLMs. (2) We
+    propose a new VLT interaction paradigm that achieves multi-round interaction through text
+    updates and object recovery. When multiple tracking failures occur, we provide the tracker with
+    more aligned texts and corrected bboxes through interaction, thereby expanding the scope of VLT
+    downstream tasks. (3) We conduct comparative experiments on both traditional VLT benchmarks and
+    VLT-MI, evaluating and analyzing the accuracy and robustness of trackers under the interactive
+    paradigm. This work offers new insights and paradigms for the VLT task, enabling a fine-grained
+    evaluation of multi-modal trackers. We believe this approach can be extended to additional
+    datasets in the future, supporting broader evaluations and comparisons of video-language model
+    capabilities.
+  contributions:
+    - "Introduces VLT-MI, the first benchmark to bring multi-round interaction into visual language tracking, with diverse multi-granularity texts generated by DTLLM-VLT on mainstream VLT benchmarks."
+    - "Proposes an interaction paradigm in which, after tracking failures, the tracker receives better-aligned texts and corrected bounding boxes through text updates and object recovery."
+    - "Compares trackers on traditional VLT benchmarks and VLT-MI, assessing their accuracy and robustness under the interactive paradigm."
+  bibtex: |-
+    @article{li2024visual,
+      title   = {Visual Language Tracking with Multi-modal Interaction: A Robust Benchmark},
+      author  = {Li, Xuchen and Hu, Shiyu and Feng, Xiaokun and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Huang, Kaiqi},
+      journal = {arXiv preprint arXiv:2409.08887},
+      year    = {2024}
+    }
+
+VTT-ICLR:
+  source: "OpenReview forum LGbzYw_pnsc (ICLR submission; page blocked by a bot-verification challenge, not checked); BibTeX from the CV bibliography entry hu2023nearing; abstract from the public anonymized submission PDF https://huuuuusy.github.io/files/VTT-ICLR.pdf"
+  abstract: >-
+    Dynamic visual ability (DVA), a fundamental function of the human visual system, has been
+    successfully modeled by many computer vision tasks in recent decades. However, the prosperity
+    developments mainly concentrate on using deep neural networks (DNN) to simulate the human DVA
+    system, but evaluation frameworks still simply compare performance between machines, making it
+    tough to determine how far the gap is between humans and machines in dynamic vision tasks. In
+    fact, neglecting this issue not only makes it hard to determine the correctness of current
+    research routes, but also cannot truly measure the DVA intelligence of machines. To answer the
+    question, this work designs a comprehensive evaluation framework based on the 3E paradigm – we
+    carefully pick 87 videos from various dimensions to construct the environment, confirming it can
+    cover both perceptual and cognitive components of DVA; select 20 representative machines and 15
+    human subjects to form the task executors, ensuring that different model structures can help us
+    observe the effectiveness of research development; and propose multiple evaluation indicators to
+    quantify their DVA. Based on detailed experimental analyses, we first determine that the current
+    algorithm research route has effectively shortened the gap. Besides, we further summarize the
+    weaknesses of different executors, and design a human-machine cooperation mechanism with
+    superhuman performance. In summary, the contributions include: (1) Quantifying the DVA of humans
+    and machines, (2) proposing a new view to evaluate DVA intelligence based on the human-machine
+    comparison, and (3) providing a possibility of human-machine cooperation. The 87 sequences with
+    frame-level human-machine comparison and cooperation results, the toolbox for recording
+    real-time human performance, codes for sustaining various evaluation metrics, and evaluation
+    reports for 20 representative models will be open-sourced to help researchers develop
+    intelligent research on dynamic vision tasks.
+  contributions:
+    - "Designs an evaluation framework based on the 3E paradigm, using 87 videos as the environment, 20 representative machines and 15 human subjects as executors, and multiple indicators to quantify dynamic visual ability."
+    - "Shows that the current algorithm research route has effectively narrowed the human-machine gap, and summarizes the weaknesses of different executors."
+    - "Designs a human-machine cooperation mechanism that reaches superhuman performance."
+  bibtex: |-
+    @misc{hu2023nearing,
+      title        = {Nearing or Surpassing: Overall Evaluation of Human-Machine Dynamic Vision Ability},
+      author       = {Hu, Shiyu and Zhao, Xin and Wang, Yipei and Shan, Yanhu and Huang, Kaiqi},
+      howpublished = {OpenReview},
+      note         = {\url{https://openreview.net/forum?id=LGbzYw_pnsc}},
+      year         = {2023}
+    }
+
+SOEI-AAAIW:
+  source: "AAAI 2026 AI4Edu workshop is non-archival (ai4ed.cc/workshops/aaai2026; title listed in Oral Session A, no paper page), so BibTeX built from the homepage/CV record; abstract from the arXiv version arXiv:2410.15701 (titled \"When LLMs Learn to be Students: The SOEI Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction\", same seven authors)"
+  abstract: >-
+    Recent advances in large language models (LLMs) have enabled intelligent tutoring systems, yet
+    the development of LLM-based Virtual Student Agents (LVSAs) remains underexplored. Such agents
+    are essential for teacher-facing applications, where simulating diverse learner traits can
+    support adaptive instruction and pedagogical skill development. However, current methods lack
+    principled personality modeling, scalable evaluation of behavioral consistency, and empirical
+    validation in interactive teaching settings. We propose the SOEI framework, a structured
+    pipeline comprising Scene, Object, Evaluation, and Interaction, for constructing and evaluating
+    personality-aligned LVSAs in classroom scenarios. Leveraging Chinese language instruction as a
+    cognitively and emotionally rich testbed, we generate five LVSAs based on Big Five traits
+    through LoRA fine-tuning and expert-informed prompt design. Their behavioral realism and
+    personality coherence are assessed using a hybrid human & GPT-4 evaluation and a
+    multi-dimensional annotation protocol. Through controlled experiments with real pre-service
+    teachers, we demonstrate that LVSAs can elicit adaptive teaching strategies and maintain
+    trait-consistent behavior across multi-turn dialogues. Our results provide: (1) an educationally
+    and psychologically grounded generation pipeline for LLM-based student agents; (2) a hybrid,
+    scalable evaluation framework for behavioral realism; and (3) empirical insights into the
+    pedagogical utility of LVSAs in shaping instructional adaptation. By embedding LVSAs into both
+    generative modeling and human-in-the-loop teaching, SOEI bridges AI for Education (AI4Edu) and
+    Education for AI (Edu4AI), positioning classroom interaction as a rigorous testbed for
+    controllability, personality alignment, and human-likeness in large language models.
+  contributions:
+    - "Proposes SOEI, a structured Scene-Object-Evaluation-Interaction pipeline for building and evaluating personality-aligned LLM-based virtual student agents in classroom scenarios."
+    - "Builds five virtual student agents based on Big Five traits for Chinese language instruction, using LoRA fine-tuning and expert-informed prompt design."
+    - "Evaluates behavioral realism and personality coherence with hybrid human and GPT-4 assessment, and shows in experiments with pre-service teachers that the agents elicit adaptive teaching strategies."
+  bibtex: |-
+    @inproceedings{ma2026learning,
+      title     = {Learning to Be Taught: A Structured {SOEI} Framework for Modeling and Evaluating Personality-Aligned Virtual Student Agents},
+      author    = {Ma, Yiping and Hu, Shiyu and Li, Xuchen and Wang, Yipei and Chen, Yuqing and Liu, Shiqing and Cheong, Kang Hao},
+      booktitle = {AI for Education Workshop at the 40th {AAAI} Conference on Artificial Intelligence},
+      year      = {2026},
+      note      = {Non-archival; arXiv version: arXiv:2410.15701}
+    }
+
+EduVerse-AAAIW:
+  source: "AAAI 2026 AI4Edu workshop is non-archival (ai4ed.cc/workshops/aaai2026; title listed in Oral Session C, no paper page), so BibTeX built from the homepage/CV record; abstract from the arXiv version arXiv:2510.05650 (titled \"EduVerse: A User-Defined Multi-Agent Simulation Space for Education Scenario\")"
+  abstract: >-
+    Reproducing cognitive development, group interaction, and long-term evolution in virtual
+    classrooms remains a core challenge for educational AI, as real classrooms integrate open-ended
+    cognition, dynamic social interaction, affective factors, and multi-session development rarely
+    captured together. Existing approaches mostly focus on short-term or single-agent settings,
+    limiting systematic study of classroom complexity and cross-task reuse. We present EduVerse, the
+    first user-defined multi-agent simulation space that supports environment, agent, and session
+    customization. A distinctive human-in-the-loop interface further allows real users to join the
+    space. Built on a layered CIE (Cognition-Interaction-Evolution) architecture, EduVerse ensures
+    individual consistency, authentic interaction, and longitudinal adaptation in cognition,
+    emotion, and behavior-reproducing realistic classroom dynamics with seamless human-agent
+    integration. We validate EduVerse in middle-school Chinese classes across three text genres,
+    environments, and multiple sessions. Results show: (1) Instructional alignment: simulated IRF
+    rates (0.28-0.64) closely match real classrooms (0.37-0.49), indicating pedagogical realism; (2)
+    Group interaction and role differentiation: network density (0.27-0.40) with about one-third of
+    peer links realized, while human-agent tasks indicate a balance between individual variability
+    and instructional stability; (3) Cross-session evolution: the positive transition rate R+
+    increase by 11.7% on average, capturing longitudinal shifts in behavior, emotion, and cognition
+    and revealing structured learning trajectories. Overall, EduVerse balances realism,
+    reproducibility, and interpretability, providing a scalable platform for educational AI. The
+    system will be open-sourced to foster cross-disciplinary research.
+  contributions:
+    - "Introduces EduVerse, a user-defined multi-agent simulation space for classrooms that supports environment, agent and session customization, plus a human-in-the-loop interface for real users."
+    - "Builds a layered Cognition-Interaction-Evolution (CIE) architecture for individual consistency, authentic interaction and longitudinal adaptation in cognition, emotion and behavior."
+    - "Validates it in middle-school Chinese classes, with simulated IRF rates (0.28-0.64) close to real classrooms (0.37-0.49) and an average 11.7% rise in the positive transition rate across sessions."
+  bibtex: |-
+    @inproceedings{ma2026redefining,
+      title     = {Redefining Educational Simulation: {EduVerse} as a User-Defined and Developmental Multi-Agent Simulation Space},
+      author    = {Ma, Yiping and Hu, Shiyu and Zhu, Buyuan and Wang, Yipei and Kang, Yaxuan and Liu, Shiqing and Cheong, Kang Hao},
+      booktitle = {AI for Education Workshop at the 40th {AAAI} Conference on Artificial Intelligence},
+      year      = {2026},
+      note      = {Non-archival; arXiv version: arXiv:2510.05650}
+    }
+
+EduPersona-AAAIW:
+  source: "AAAI 2026 AI4Edu workshop is non-archival (ai4ed.cc/workshops/aaai2026; title listed in Oral Session B, no paper page), so BibTeX built from the homepage/CV record; abstract from the arXiv version arXiv:2510.04648 (titled \"EduPersona: Benchmarking Subjective Ability Boundaries of Virtual Student Agents\")"
+  abstract: >-
+    As large language models are increasingly integrated into education, virtual student agents are
+    becoming vital for classroom simulation and teacher training. Yet their classroom-oriented
+    subjective abilities remain largely unassessed, limiting understanding of model boundaries and
+    hindering trustworthy deployment. We present EduPersona, a large-scale benchmark spanning two
+    languages, three subjects, and ten persona types based on the Big Five theory. The dataset
+    contains 1,308 authentic classroom dialogue rounds, corresponding to 12,814 teacher-student Q&A
+    turns, and is further expanded through persona stylization into roughly 10 times larger scale
+    (128k turns), providing a solid foundation for evaluation. Building on this resource, we
+    decompose hard-to-quantify subjective performance into three progressive tasks: TASK1 basic
+    coherence (whether behavior, emotion, expression, and voice align with classroom context), TASK2
+    student realism, and TASK3 long-term persona consistency, thereby establishing an evaluation
+    framework grounded in educational theory and research value. We conduct systematic experiments
+    on three representative LLMs, comparing their original versions with ten persona-fine-tuned
+    variants trained on EduPersona. Results show consistent and significant average improvements
+    across all tasks: TASK1 +33.6%, TASK2 +30.6%, and TASK3 +14.9%. These improvements highlight the
+    dataset's effectiveness and research value, while also revealing the heterogeneous difficulty of
+    persona modeling. In summary, EduPersona delivers the first classroom benchmark centered on
+    subjective abilities, establishes a decoupled and verifiable research paradigm, and we will
+    open-source both the dataset and the framework to support the broader research community in
+    advancing trustworthy and human-like AI for education.
+  contributions:
+    - "Builds a classroom benchmark spanning two languages, three subjects and ten Big Five persona types, with 1,308 dialogue rounds (12,814 Q&A turns) expanded to about 128k turns."
+    - "Decomposes subjective ability into three progressive tasks: basic coherence, student realism and long-term persona consistency, grounded in educational theory."
+    - "Shows that persona-fine-tuned variants of three LLMs improve on average by 33.6%, 30.6% and 14.9% on the three tasks, while revealing uneven difficulty across personas."
+  bibtex: |-
+    @inproceedings{zhu2026objective,
+      title     = {From Objective to Subjective: A Benchmark for Virtual Student Abilities},
+      author    = {Zhu, Buyuan and Hu, Shiyu and Ma, Yiping and Zhang, Yuanming and Cheong, Kang Hao},
+      booktitle = {AI for Education Workshop at the 40th {AAAI} Conference on Artificial Intelligence},
+      year      = {2026},
+      note      = {Non-archival; arXiv version: arXiv:2510.04648}
+    }
+
+DTLLM:
+  source: "CVF open access BibTeX (CVPR 2024 Workshops, VDU) + DOI 10.1109/CVPRW63382.2024.00724 (Crossref); abstract from arXiv:2405.12139 (same text as the CVF page, whose copy has the commas stripped)"
+  abstract: >-
+    Visual Language Tracking (VLT) enhances single object tracking (SOT) by integrating natural
+    language descriptions from a video, for the precise tracking of a specified object. By
+    leveraging high-level semantic information, VLT guides object tracking, alleviating the
+    constraints associated with relying on a visual modality. Nevertheless, most VLT benchmarks are
+    annotated in a single granularity and lack a coherent semantic framework to provide scientific
+    guidance. Moreover, coordinating human annotators for high-quality annotations is laborious and
+    time-consuming. To address these challenges, we introduce DTLLM-VLT, which automatically
+    generates extensive and multi-granularity text to enhance environmental diversity. (1) DTLLM-VLT
+    generates scientific and multi-granularity text descriptions using a cohesive prompt framework.
+    Its succinct and highly adaptable design allows seamless integration into various visual
+    tracking benchmarks. (2) We select three prominent benchmarks to deploy our approach: short-term
+    tracking, long-term tracking, and global instance tracking. We offer four granularity
+    combinations for these benchmarks, considering the extent and density of semantic information,
+    thereby showcasing the practicality and versatility of DTLLM-VLT. (3) We conduct comparative
+    experiments on VLT benchmarks with different text granularities, evaluating and analyzing the
+    impact of diverse text on tracking performance. Conclusionally, this work leverages LLM to
+    provide multi-granularity semantic information for VLT task from efficient and diverse
+    perspectives, enabling fine-grained evaluation of multi-modal trackers. In the future, we
+    believe this work can be extended to more datasets to support vision datasets understanding.
+  contributions:
+    - "Introduces DTLLM-VLT, which uses an LLM with a cohesive prompt framework to automatically generate multi-granularity text descriptions that plug into various visual tracking benchmarks."
+    - "Deploys it on three benchmarks covering short-term, long-term and global instance tracking, offering four granularity combinations based on the extent and density of semantic information."
+    - "Compares trackers on VLT benchmarks with different text granularities, analyzing how diverse text affects tracking performance."
+  bibtex: |-
+    @inproceedings{li2024dtllm,
+      title     = {{DTLLM-VLT}: Diverse Text Generation for Visual Language Tracking Based on {LLM}},
+      author    = {Li, Xuchen and Feng, Xiaokun and Hu, Shiyu and Wu, Meiqi and Zhang, Dailing and Zhang, Jing and Huang, Kaiqi},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+      pages     = {7283--7292},
+      year      = {2024},
+      doi       = {10.1109/CVPRW63382.2024.00724}
+    }

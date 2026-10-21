@@ -468,3 +468,11 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - 数据集中在 `_data/papers.yml`，按条目锚点索引；构建时生成 `assets/data/papers.json`，首次打开弹窗时才加载，首页体积不变。脚本为 `assets/js/paper-details.js`，只给数据文件中有记录的条目加按钮，已纳入 `validate_site.rb` 的语法检查。
 - 第一批为 9 篇一作或通讯论文与专著。BibTeX 以出版方记录为准：DOI（Crossref）、CVF、NeurIPS 论文集；修正 NeurIPS 官方记录中 MGIT 的作者名，SOTVerse 与 BioDrone 按卷 132 写 2024 年，MSAD 无页码改用文章号 e70032。摘要以正式版为主，部分取 arXiv 版并在数据文件 `source` 中注明；专著用书中前言对全书的介绍。合作论文、workshop 与预印本分批补充。
 - 顺带删除 MSAD 条目中误写为 DARTer arXiv 编号（2505.00752）的注释链接。
+
+### 论文详情弹窗覆盖全部条目（2026-10-21）
+
+- `_data/papers.yml` 补齐其余 48 项（合作论文 33 篇含 HLE、workshop 4 篇、预印本 11 篇），全页 58 项都有 Details 弹窗。弹窗脚本扩展到 workshop 列表条目，并在没有摘要或贡献时隐藏对应小节。
+- BibTeX 均取自官方记录（DOI/Crossref、AAAI、IJCAI、ACL Anthology、CVF、NeurIPS、ICLR、PMLR 论文集、期刊官网，预印本用 arXiv）；已录用未出版的标 `To appear`；AAAI 2026 AI4Edu workshop 为非存档，BibTeX 注明并给出对应 arXiv 编号。官方记录的明显错误（如作者名颠倒、标题大小写）在数据文件 `source` 中注明后更正。
+- Fake News Court、Retinal OCT、GHASS 尚无公开版本，弹窗只放 BibTeX 与链接，不使用未公开稿件的摘要。
+- 顺带修正 VS-LLM 作者行 “Y. kang” 为 “Y. Kang”，删除 COAL 条目中误指向 TBDQ arXiv 编号的注释链接。
+- 待 Shiyu 确认：IGBA 期刊官方署名为 8 位作者（含曾杨睿宇，末三位顺序为高、王、陶），主页与 CV 现为 7 位；NarrLV、DAAWBench、DASTrack 的官方标题与主页写法略有不同；ViEBench 前两位作者顺序；Le Ying Tan 的拼写；Nearing or Surpassing 的年份与投稿会议未能核对官方记录。

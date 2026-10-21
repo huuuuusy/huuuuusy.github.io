@@ -127,8 +127,6 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 <span class="paper-keywords">Referring Multi-Object Tracking · Robust Language Grounding · Counterfactual Alignment Learning</span><br>
 [📃 Paper](https://www.ijcai.org/proceedings/2026/141)
 [📑 PDF](https://www.ijcai.org/proceedings/2026/0141.pdf)
-<!-- [📃 Paper](https://arxiv.org/abs/2411.06197)
-[📑 PDF](https://arxiv.org/pdf/2411.06197)  -->
 </div>
 </div>
 
@@ -407,7 +405,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <span class='anchor' id='VSLLM'></span>
 
 **VS-LLM: Visual-Semantic Depression Assessment based on LLM for Drawing Projection Test**<sup title="Mentee-led work I guided">†</sup><br>
-[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), Y. Kang, [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, Y. kang, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), Y. Kang, [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, X. Chen, Y. Kang, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [Chinese Conference on Pattern Recognition and Computer Vision](https://www.prcv.cn) (CCF-C Conference)<br>
 <span class="paper-keywords">Drawing-Based Depression Assessment · Multimodal Mental Health · LLM-Assisted Interpretation</span><br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-981-97-8692-3_17)

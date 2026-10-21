@@ -708,3 +708,8 @@ html.has-paper-dialog {
         padding: var(--home-space-5) var(--home-space-4) var(--home-space-6);
     }
 }
+
+/* The theme's section and div rules would otherwise override [hidden]. */
+.paper-dialog [hidden] {
+    display: none !important;
+}
