@@ -468,4 +468,3 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - 数据集中在 `_data/papers.yml`，按条目锚点索引；构建时生成 `assets/data/papers.json`，首次打开弹窗时才加载，首页体积不变。脚本为 `assets/js/paper-details.js`，只给数据文件中有记录的条目加按钮，已纳入 `validate_site.rb` 的语法检查。
 - 第一批为 9 篇一作或通讯论文与专著。BibTeX 以出版方记录为准：DOI（Crossref）、CVF、NeurIPS 论文集；修正 NeurIPS 官方记录中 MGIT 的作者名，SOTVerse 与 BioDrone 按卷 132 写 2024 年，MSAD 无页码改用文章号 e70032。摘要以正式版为主，部分取 arXiv 版并在数据文件 `source` 中注明；专著用书中前言对全书的介绍。合作论文、workshop 与预印本分批补充。
 - 顺带删除 MSAD 条目中误写为 DARTer arXiv 编号（2505.00752）的注释链接。
-
