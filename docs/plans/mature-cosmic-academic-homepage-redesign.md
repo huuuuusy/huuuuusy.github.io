@@ -492,5 +492,7 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 ### WKU 报告日期（2026-10-21）
 
+`8de475c`（CV 源文件另行提交）：
+
 - 依据 Shiyu 提供的报告海报（CLA Invited Academic Talks，`Shiyu_CLATalk_Nov2026.pdf`），温州肯恩大学报告定于 2026 年 11 月 5 日（周四）。Activities → Talk 的日期改为 “5th November, 2026, Wenzhou, China”，News 2026.09 那条改为 “on 5 November 2026 in Wenzhou, China”；两版 CV 同步（完整版 `2026.11.05`，两页版 “5 November 2026”）。时间与教室不写入主页与 CV，与其他报告一致。
 - 报告日期已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
