@@ -143,7 +143,5 @@ Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&us
 [IET Computer Vision](https://digital-library.theiet.org/journal/iet-cvi) (CCF-C Journal, JCR Q4, IF 1.4)<br>
 <span class="paper-keywords">Remote Sensing · SAR Aircraft Detection · Vision State-Space Models</span><br>
 [📃 Paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cvi2.70032)
-<!-- [📃 Paper](https://www.arxiv.org/abs/2505.00752) -->
-<!-- [📑 PDF](https://www.arxiv.org/pdf/2505.00752) -->
 </div>
 </div>

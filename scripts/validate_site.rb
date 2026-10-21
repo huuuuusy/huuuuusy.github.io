@@ -26,6 +26,7 @@ checks = [
   ["News and honors JavaScript", ["node", "--check", "assets/js/news-toggle.js"]],
   ["Publication JavaScript", ["node", "--check", "assets/js/publications-toggle.js"]],
   ["Profile links JavaScript", ["node", "--check", "assets/js/profile-links.js"]],
+  ["Paper details JavaScript", ["node", "--check", "assets/js/paper-details.js"]],
   ["Homepage scrolling JavaScript", ["node", "--check", "assets/js/homepage-scroll.js"]],
   ["Primary navigation JavaScript", ["node", "--check", "assets/js/navigation.js"]],
   ["Visitor JavaScript", ["node", "--check", "assets/js/visitor-counter.js"]],

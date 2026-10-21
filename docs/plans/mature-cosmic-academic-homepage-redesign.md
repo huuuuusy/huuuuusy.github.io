@@ -420,8 +420,11 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 ### News 默认显示近三个月（2026-10-17）
 
+`54841fc`：
+
 - News 默认只显示当月及前两个月（此前为近六个月）；若这段时间少于 6 条，则至少显示最近 6 条，避免消息少的月份显得空。展开后的按钮文字由 “Show recent six months” 改为 “Show recent news”。年份色条按当前显示的条目重新计算，默认视图中 2026 一段仍完整由深到浅。
-- SoL 项目在主页与 CV 中按 Shiyu 要求不写项目题目，只保留项目编号、资助计划、角色与 2026 – Present。
+- SoL 项目在主页与 CV 中按 Shiyu 要求不写项目题目，只保留项目编号、资助计划、角色与 2026 – Present（完整版 CV 源文件另行提交；两页版本来就不含题目）。
+- 这次主页与 CV 的变化（含奖项、项目与两页版 CV）已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
 
 ### CV 标出学生主导、共同指导的论文（2026-10-17）
 
@@ -458,3 +461,11 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 - 按 NeurIPS 2024 官方 PDF 与论文页，正式题目为 “MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts”，主页原本正确，CV 文献库中的 “Visual-Language” 已改正（Overleaf `08fcab3`）。
 - Google Scholar 刷新为 1,748 次引用、h-index 17、i10-index 26（`_data/scholar.yml`，较 10-17 多 12 次引用）；三版 CV 同步（Overleaf `ca556d5`），`files/CV-EN.pdf` 换为该版本。
+
+### 论文详情弹窗（2026-10-21）
+
+- 每篇论文的按钮行最前加 “📝 Details”，点论文标题也可打开；弹窗依次为 venue 标签、标题、作者与 venue 行（直接取自条目）、Abstract（超过 8 行折叠，可展开）、Contributions（论文本身的主要贡献，三条，按摘要转述，不写作者分工）、BibTeX（带 Copy）和该条目的全部链接。桌面为居中弹窗，手机为全屏面板；Esc、点空白处、右上角 × 与浏览器返回都能关闭；`#<锚点>-details`（如 `#GIT-details`）可直接打开对应弹窗。
+- 数据集中在 `_data/papers.yml`，按条目锚点索引；构建时生成 `assets/data/papers.json`，首次打开弹窗时才加载，首页体积不变。脚本为 `assets/js/paper-details.js`，只给数据文件中有记录的条目加按钮，已纳入 `validate_site.rb` 的语法检查。
+- 第一批为 9 篇一作或通讯论文与专著。BibTeX 以出版方记录为准：DOI（Crossref）、CVF、NeurIPS 论文集；修正 NeurIPS 官方记录中 MGIT 的作者名，SOTVerse 与 BioDrone 按卷 132 写 2024 年，MSAD 无页码改用文章号 e70032。摘要以正式版为主，部分取 arXiv 版并在数据文件 `source` 中注明；专著用书中前言对全书的介绍。合作论文、workshop 与预印本分批补充。
+- 顺带删除 MSAD 条目中误写为 DARTer arXiv 编号（2505.00752）的注释链接。
+

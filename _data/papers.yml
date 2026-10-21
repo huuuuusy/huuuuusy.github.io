@@ -1,0 +1,388 @@
+# Paper details for the homepage dialog, keyed by the anchor id of each entry.
+# abstract: the published abstract (or the arXiv version when noted in source).
+# contributions: the paper's own main contributions, paraphrased; not author roles.
+# bibtex: checked against the publisher record named in source.
+
+SpringerBook:
+  source: "Springer book page; abstract adapted from the book preface"
+  abstract: >-
+    This book provides a systematic exploration of visual object tracking (VOT), focusing on its
+    core principles, algorithmic techniques, evaluation methodologies, and future development
+    trends. Adopting a “from fundamentals to frontier” approach, the book is organized into five
+    logical modules: Foundations of Visual Tracking (Part I), Experimental Environment (Part II),
+    Task Executors (Part III), Evaluation Techniques (Part IV), and Future Trends and Outlook (Part
+    V). Beginning with short-term, long-term, and global instance tracking tasks, the book
+    introduces their definitions, challenges, and key techniques, offering practical applications
+    across diverse scenarios. By integrating traditional methods, deep learning paradigms, and
+    insights from human vision theories, this book bridges foundational concepts and cutting-edge
+    research in VOT.
+  contributions:
+    - "Treats visual object tracking from an evaluation perspective, from fundamentals to the frontier, in five parts: foundations, experimental environments, task executors, evaluation techniques, and future trends."
+    - "Covers short-term, long-term, and global instance tracking, connecting traditional methods, deep learning, and findings on human vision."
+    - "Brings task design, benchmark construction, and human–machine comparison such as the visual Turing test into one evaluation framework."
+  bibtex: |-
+    @book{zhao2025visual,
+      title     = {Visual Object Tracking: An Evaluation Perspective},
+      author    = {Zhao, Xin and Hu, Shiyu and Yin, Xu-Cheng},
+      series    = {Advances in Computer Vision and Pattern Recognition},
+      publisher = {Springer Nature Singapore},
+      year      = {2025},
+      isbn      = {978-981-96-4558-9},
+      doi       = {10.1007/978-981-96-4558-9}
+    }
+
+GIT:
+  source: "DOI 10.1109/TPAMI.2022.3153312 (Crossref); abstract from arXiv:2202.13073"
+  abstract: >-
+    Target tracking, the essential ability of the human visual system, has been simulated by
+    computer vision tasks. However, existing trackers perform well in austere experimental
+    environments but fail in challenges like occlusion and fast motion. The massive gap indicates
+    that researches only measure tracking performance rather than intelligence. How to
+    scientifically judge the intelligence level of trackers? Distinct from decision-making problems,
+    lacking three requirements (a challenging task, a fair environment, and a scientific evaluation
+    procedure) makes it strenuous to answer the question. In this article, we first propose the
+    global instance tracking (GIT) task, which is supposed to search an arbitrary user-specified
+    instance in a video without any assumptions about camera or motion consistency, to model the
+    human visual tracking ability. Whereafter, we construct a high-quality and large-scale benchmark
+    VideoCube to create a challenging environment. Finally, we design a scientific evaluation
+    procedure using human capabilities as the baseline to judge tracking intelligence. Additionally,
+    we provide an online platform with toolkit and an updated leaderboard. Although the experimental
+    results indicate a definite gap between trackers and humans, we expect to take a step forward to
+    generate authentic human-like trackers. The database, toolkit, evaluation server, and baseline
+    results are available at http://videocube.aitestunion.com.
+  contributions:
+    - "Proposes global instance tracking (GIT): finding a user-specified instance anywhere in a video without assuming camera or motion continuity, as a task closer to human visual tracking."
+    - "Builds VideoCube, a large-scale, high-quality benchmark of long videos with shot changes that serves as a challenging evaluation environment."
+    - "Designs an evaluation procedure that uses human performance as the baseline, with an online platform, toolkit, and leaderboard."
+  bibtex: |-
+    @article{hu2023global,
+      title   = {Global Instance Tracking: Locating Target More Like Humans},
+      author  = {Hu, Shiyu and Zhao, Xin and Huang, Lianghua and Huang, Kaiqi},
+      journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+      volume  = {45},
+      number  = {1},
+      pages   = {576--592},
+      year    = {2023},
+      doi     = {10.1109/TPAMI.2022.3153312}
+    }
+
+SOTVerse:
+  source: "DOI 10.1007/s11263-023-01908-5 (Crossref); abstract from arXiv:2204.07414"
+  abstract: >-
+    Single object tracking (SOT) research falls into a cycle -- trackers perform well on most
+    benchmarks but quickly fail in challenging scenarios, causing researchers to doubt the
+    insufficient data content and take more effort to construct larger datasets with more
+    challenging situations. However, inefficient data utilization and limited evaluation methods
+    more seriously hinder SOT research. The former causes existing datasets can not be exploited
+    comprehensively, while the latter neglects challenging factors in the evaluation process. In
+    this article, we systematize the representative benchmarks and form a Single Object Tracking
+    metaverse (SOTVerse) -- a user-defined SOT task space to break through the bottleneck. We first
+    propose a 3E Paradigm to describe tasks by three components (i.e., environment, evaluation, and
+    executor). Then, we summarize task characteristics, clarify the organization standards, and
+    construct SOTVerse with 12.56 million frames. Specifically, SOTVerse automatically labels
+    challenging factors per frame, allowing users to generate user-defined spaces efficiently via
+    construction rules. Besides, SOTVerse provides two mechanisms with new indicators and
+    successfully evaluates trackers under various subtasks. Consequently, SOTVerse first provides a
+    strategy to improve resource utilization in the computer vision area, making research more
+    standardized and scientific. The SOTVerse, toolkit, evaluation server, and results are available
+    at http://metaverse.aitestunion.com.
+  contributions:
+    - "Proposes the 3E paradigm, which describes a tracking task by its environment, evaluation, and executor."
+    - "Builds SOTVerse, a user-defined task space of 12.56 million frames with per-frame challenge-factor labels, from which users generate sub-tasks through construction rules."
+    - "Provides two evaluation mechanisms with new indicators that test trackers across sub-tasks and make fuller use of existing data."
+  bibtex: |-
+    @article{hu2024sotverse,
+      title   = {{SOTVerse}: A User-Defined Task Space of Single Object Tracking},
+      author  = {Hu, Shiyu and Zhao, Xin and Huang, Kaiqi},
+      journal = {International Journal of Computer Vision},
+      volume  = {132},
+      number  = {3},
+      pages   = {872--930},
+      year    = {2024},
+      doi     = {10.1007/s11263-023-01908-5}
+    }
+
+BioDrone:
+  source: "DOI 10.1007/s11263-023-01937-0 (Crossref); abstract from arXiv:2402.04519"
+  abstract: >-
+    Single object tracking (SOT) is a fundamental problem in computer vision, with a wide range of
+    applications, including autonomous driving, augmented reality, and robot navigation. The
+    robustness of SOT faces two main challenges: tiny target and fast motion. These challenges are
+    especially manifested in videos captured by unmanned aerial vehicles (UAV), where the target is
+    usually far away from the camera and often with significant motion relative to the camera. To
+    evaluate the robustness of SOT methods, we propose BioDrone -- the first bionic drone-based
+    visual benchmark for SOT. Unlike existing UAV datasets, BioDrone features videos captured from a
+    flapping-wing UAV system with a major camera shake due to its aerodynamics. BioDrone hence
+    highlights the tracking of tiny targets with drastic changes between consecutive frames,
+    providing a new robust vision benchmark for SOT. To date, BioDrone offers the largest UAV-based
+    SOT benchmark with high-quality fine-grained manual annotations and automatically generates
+    frame-level labels, designed for robust vision analyses. Leveraging our proposed BioDrone, we
+    conduct a systematic evaluation of existing SOT methods, comparing the performance of 20
+    representative models and studying novel means of optimizing a SOTA method (KeepTrack KeepTrack)
+    for robust SOT. Our evaluation leads to new baselines and insights for robust SOT. Moving
+    forward, we hope that BioDrone will not only serve as a high-quality benchmark for robust SOT,
+    but also invite future research into robust computer vision. The database, toolkits, evaluation
+    server, and baseline results are available at http://biodrone.aitestunion.com.
+  contributions:
+    - "Presents BioDrone, the first single object tracking benchmark captured by a bionic flapping-wing drone, with strong camera shake, tiny targets, and drastic changes between frames."
+    - "Offers the largest UAV-based tracking benchmark with fine-grained manual annotations and automatically generated frame-level labels for robustness analysis."
+    - "Evaluates 20 representative trackers and studies how to improve a state-of-the-art tracker for robust tracking, giving new baselines."
+  bibtex: |-
+    @article{zhao2024biodrone,
+      title   = {{BioDrone}: A Bionic Drone-Based Single Object Tracking Benchmark for Robust Vision},
+      author  = {Zhao, Xin and Hu, Shiyu and Wang, Yipei and Zhang, Jing and Hu, Yimin and Liu, Rongshuai and Ling, Haibin and Li, Yin and Li, Renshu and Liu, Kun and Li, Jiadong},
+      journal = {International Journal of Computer Vision},
+      volume  = {132},
+      number  = {5},
+      pages   = {1659--1684},
+      year    = {2024},
+      doi     = {10.1007/s11263-023-01937-0}
+    }
+
+MGIT:
+  source: "NeurIPS proceedings (author name corrected from the official record); DOI 10.52202/075280-1087"
+  abstract: >-
+    Tracking an arbitrary moving target in a video sequence is the foundation for high-level tasks
+    like video understanding. Although existing visual-based trackers have demonstrated good
+    tracking capabilities in short video sequences, they always perform poorly in complex
+    environments, as represented by the recently proposed global instance tracking task, which
+    consists of longer videos with more complicated narrative content. Recently, several works have
+    introduced natural language into object tracking, desiring to address the limitations of relying
+    only on a single visual modality. However, these selected videos are still short sequences with
+    uncomplicated spatio-temporal and causal relationships, and the provided semantic descriptions
+    are too simple to characterize video content.To address these issues, we (1) first propose a new
+    multi-modal global instance tracking benchmark named MGIT. It consists of 150 long video
+    sequences with a total of 2.03 million frames, aiming to fully represent the complex spatio-
+    temporal and causal relationships coupled in longer narrative content. (2) Each video sequence
+    is annotated with three semantic grains (i.e., action, activity, and story) to model the
+    progressive process of human cognition. We expect this multi-granular annotation strategy can
+    provide a favorable environment for multi-modal object tracking research and long video
+    understanding. (3) Besides, we execute comparative experiments on existing multi-modal object
+    tracking benchmarks, which not only explore the impact of different annotation methods, but also
+    validate that our annotation method is a feasible solution for coupling human understanding into
+    semantic labels. (4) Additionally, we conduct detailed experimental analyses on MGIT, and hope
+    the explored performance bottlenecks of existing algorithms can support further research in
+    multi-modal object tracking. The proposed benchmark, experimental results, and toolkit will be
+    released gradually on http://videocube.aitestunion.com/.
+  contributions:
+    - "Proposes MGIT, a multi-modal global instance tracking benchmark of 150 long videos (2.03 million frames) with complex spatio-temporal and causal relationships."
+    - "Annotates every video at three semantic grains (action, activity, and story) to follow the progression of human understanding."
+    - "Compares annotation strategies across multi-modal tracking benchmarks and analyzes where existing trackers break down on long narrative videos."
+  bibtex: |-
+    @inproceedings{hu2023multimodal,
+      title     = {A Multi-modal Global Instance Tracking Benchmark ({MGIT}): Better Locating Target in Complex Spatio-temporal and Causal Relationship},
+      author    = {Hu, Shiyu and Zhang, Dailing and Wu, Meiqi and Feng, Xiaokun and Li, Xuchen and Zhao, Xin and Huang, Kaiqi},
+      booktitle = {Advances in Neural Information Processing Systems},
+      volume    = {36},
+      pages     = {25007--25030},
+      year      = {2023},
+      doi       = {10.52202/075280-1087}
+    }
+
+JIG-survey:
+  source: "DOI 10.11834/jig.230498; English abstract from the published PDF"
+  abstract: >-
+    Single object tracking (SOT) task, which aims to model the human dynamic vision system and
+    accomplish human-like object tracking ability in complex environments, has been widely used in
+    various real-world applications like self-driving, video surveillance, and robot vision. Over
+    the past decade, the development in deep learning has encouraged many research groups to work on
+    designing different tracking frameworks like correlation filter (CF) and Siamese neural networks
+    (SNNs), which facilitate the progress of SOT research. However, many factors (e.g., target
+    deformation, fast motion, and illumination changes) in natural application scenes still
+    challenge the SOT trackers. Thus, algorithms with novel architectures have been proposed for
+    robust tracking and to achieve better performance in representative experimental environments.
+    However, several poor cases in natural application environments reveal a large gap between the
+    performance of state-of-the-art trackers and human expectations, which motivates us to pay close
+    attention to the evaluation aspects. Therefore, instead of the traditional reviews that mainly
+    concentrate on algorithm design, this study systematically reviews the visual intelligence
+    evaluation techniques for SOT, including four key aspects: the task definition, evaluation
+    environments, task executors, and evaluation mechanisms. First, we present the development
+    direction of task definition, which includes the original short-term tracking, long-term
+    tracking, and the recently proposed global instance tracking. With the evolution of the SOT
+    definition, research has shown a progress from perceptual to cognitive intelligence. We also
+    summa rize challenging factors in the SOT task to help readers understand the research
+    bottlenecks in actual applications. Second, we compare the representative experimental
+    environments in SOT evaluation. Unlike existing reviews that mainly introduce datasets based on
+    chronological order, this study divides the environments into three categories (i.e., general
+    datasets, dedicated datasets, and competition datasets) and introduces them separately. Third,
+    we introduce the executors of SOT tasks, which not only include tracking algorithms represented
+    by traditional trackers, CF-based trackers, SNN-based trackers, and Transformer-based trackers
+    but also contain human visual tracking experiments conducted in interdisciplinary fields. To our
+    knowledge, none of the existing SOT reviews have included related works on human dynamic visual
+    ability. Therefore, introducing interdisciplinary works can also support the visual intelligence
+    evaluation by comparing machines with humans and better reveal the intelligence degree of
+    existing algorithm modeling methods. Fourth, we review the evaluation mechanism and metrics,
+    which encompass traditional machine–machine and novel human–machine comparisons, and analyze the
+    target tracking capability of various task executors. We also provide an overview of the
+    human–machine comparison named visual Turing test, including its application in many vision
+    tasks (e.g., image comprehension, game navigation, image classification, and image recognition)
+    . Especially, we hope that this study can help researchers focus on this novel evaluation
+    technique, better understand the capability bottlenecks, further explore the gaps between
+    existing methods and humans, and finally achieve the goal of algorithmic intelligence. Finally,
+    we indicate the evolution trend of visual intelligence evaluation techniques: 1) designing more
+    human-like task definitions, 2) constructing more comprehensive and realistic evaluation
+    environments, 3) including human subjects as task executors, and 4) using human abilities as a
+    baseline to evaluate machine intelligence. In conclusion, this study summarizes the evolution
+    trend of visual intelligence evaluation techniques for SOT task, further analyzes the existing
+    challenge factors, and discusses the possible future research directions.
+  contributions:
+    - "Reviews single object tracking from the evaluation side rather than algorithm design, along four aspects: task definition, evaluation environments, task executors, and evaluation mechanisms."
+    - "Traces how the task moved from short-term to long-term to global instance tracking, and groups evaluation environments into general, dedicated, and competition datasets."
+    - "Includes studies of human dynamic visual ability and human–machine comparison (the visual Turing test), which earlier tracking surveys did not cover, and outlines future directions."
+  bibtex: |-
+    @article{hu2024visual,
+      title   = {Visual Intelligence Evaluation Techniques for Single Object Tracking: A Survey},
+      author  = {Hu, Shiyu and Zhao, Xin and Huang, Kaiqi},
+      journal = {Journal of Image and Graphics},
+      volume  = {29},
+      number  = {8},
+      pages   = {2269--2302},
+      year    = {2024},
+      doi     = {10.11834/jig.230498}
+    }
+
+ATCTrack:
+  source: "ICCV 2025 (CVF open access); DOI 10.1109/ICCV51701.2025.01846; abstract from arXiv:2507.19875"
+  abstract: >-
+    Vision-language tracking aims to locate the target object in the video sequence using a template
+    patch and a language description provided in the initial frame. To achieve robust tracking,
+    especially in complex long-term scenarios that reflect real-world conditions as recently
+    highlighted by MGIT, it is essential not only to characterize the target features but also to
+    utilize the context features related to the target. However, the visual and textual target-
+    context cues derived from the initial prompts generally align only with the initial target
+    state. Due to their dynamic nature, target states are constantly changing, particularly in
+    complex long-term sequences. It is intractable for these cues to continuously guide Vision-
+    Language Trackers (VLTs). Furthermore, for the text prompts with diverse expressions, our
+    experiments reveal that existing VLTs struggle to discern which words pertain to the target or
+    the context, complicating the utilization of textual cues. In this work, we present a novel
+    tracker named ATCTrack, which can obtain multimodal cues Aligned with the dynamic target states
+    through comprehensive Target-Context feature modeling, thereby achieving robust tracking.
+    Specifically, (1) for the visual modality, we propose an effective temporal visual target-
+    context modeling approach that provides the tracker with timely visual cues. (2) For the textual
+    modality, we achieve precise target words identification solely based on textual content, and
+    design an innovative context words calibration method to adaptively utilize auxiliary context
+    words. (3) We conduct extensive experiments on mainstream benchmarks and ATCTrack achieves a new
+    SOTA performance. The code and models will be released at:
+    https://github.com/XiaokunFeng/ATCTrack.
+  contributions:
+    - "Shows that target-context cues taken from the initial prompts drift away from the changing target state, and that trackers struggle to tell target words from context words."
+    - "Proposes temporal visual target-context modeling that keeps the visual cues aligned with the current target state."
+    - "Identifies target words from the text alone and adaptively calibrates context words, reaching state-of-the-art results on mainstream vision-language tracking benchmarks."
+  bibtex: |-
+    @inproceedings{feng2025atctrack,
+      title     = {{ATCTrack}: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking},
+      author    = {Feng, Xiaokun and Hu, Shiyu and Li, Xuchen and Zhang, Dailing and Wu, Meiqi and Zhang, Jing and Chen, Xiaotang and Huang, Kaiqi},
+      booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+      pages     = {19850--19861},
+      year      = {2025},
+      doi       = {10.1109/ICCV51701.2025.01846}
+    }
+
+MATrack:
+  source: "DOI 10.1109/ICRA57385.2026.11696451 (Crossref); abstract from arXiv:2510.21586"
+  abstract: >-
+    Nighttime UAV tracking faces significant challenges in real-world robotics operations. Low-light
+    conditions not only limit visual perception capabilities, but cluttered backgrounds and frequent
+    viewpoint changes also cause existing trackers to drift or fail during deployment. To address
+    these difficulties, researchers have proposed solutions based on low-light enhancement and
+    domain adaptation. However, these methods still have notable shortcomings in actual UAV systems:
+    low-light enhancement often introduces visual artifacts, domain adaptation methods are
+    computationally expensive and existing lightweight designs struggle to fully leverage dynamic
+    object information. Based on an in-depth analysis of these key issues, we propose MATrack-a
+    multiscale adaptive system designed specifically for nighttime UAV tracking. MATrack tackles the
+    main technical challenges of nighttime tracking through the collaborative work of three core
+    modules: Multiscale Hierarchy Blender (MHB) enhances feature consistency between static and
+    dynamic templates. Adaptive Key Token Gate accurately identifies object information within
+    complex backgrounds. Nighttime Template Calibrator (NTC) ensures stable tracking performance
+    over long sequences. Extensive experiments show that MATrack achieves a significant performance
+    improvement. On the UAVDark135 benchmark, its precision, normalized precision and AUC surpass
+    state-of-the-art (SOTA) methods by 5.9%, 5.4% and 4.2% respectively, while maintaining a real-
+    time processing speed of 81 FPS. Further tests on a real-world UAV platform validate the
+    system's reliability, demonstrating that MATrack can provide stable and effective nighttime UAV
+    tracking support for critical robotics applications such as nighttime search and rescue and
+    border patrol.
+  contributions:
+    - "Proposes MATrack, a multiscale adaptive tracker for real-time nighttime UAV tracking."
+    - "Combines three modules: a Multiscale Hierarchy Blender for consistent static and dynamic templates, an Adaptive Key Token Gate that finds the object in clutter, and a Nighttime Template Calibrator for stable long sequences."
+    - "Improves precision, normalized precision, and AUC on UAVDark135 by 5.9%, 5.4%, and 4.2% over prior methods at 81 FPS, and is validated on a real UAV platform."
+  bibtex: |-
+    @inproceedings{li2026matrack,
+      title     = {{MATrack}: Efficient Multiscale Adaptive Tracker for Real-Time Nighttime {UAV} Operations},
+      author    = {Li, Xuzhao and Li, Xuchen and Hu, Shiyu},
+      booktitle = {2026 IEEE International Conference on Robotics and Automation (ICRA)},
+      pages     = {20399--20406},
+      year      = {2026},
+      doi       = {10.1109/ICRA57385.2026.11696451}
+    }
+
+DARTer:
+  source: "DOI 10.1145/3731715.3733473 (Crossref); abstract from arXiv:2505.00752"
+  abstract: >-
+    Nighttime UAV tracking presents significant challenges due to extreme illumination variations
+    and viewpoint changes, which severely degrade tracking performance. Existing approaches either
+    rely on light enhancers with high computational costs or introduce redundant domain adaptation
+    mechanisms, failing to fully utilize the dynamic features in varying perspectives. To address
+    these issues, we propose DARTer (Dynamic Adaptive Representation Tracker), an end-to-end
+    tracking framework designed for nighttime UAV scenarios. DARTer leverages a Dynamic Feature
+    Blender (DFB) to effectively fuse multi-perspective nighttime features from static and dynamic
+    templates, enhancing representation robustness. Meanwhile, a Dynamic Feature Activator (DFA)
+    adaptively activates Vision Transformer layers based on extracted features, significantly
+    improving efficiency by reducing redundant computations. Our model eliminates the need for
+    complex multi-task loss functions, enabling a streamlined training process. Extensive
+    experiments on multiple nighttime UAV tracking benchmarks demonstrate the superiority of DARTer
+    over state-of-the-art trackers. These results confirm that DARTer effectively balances tracking
+    accuracy and efficiency, making it a promising solution for real-world nighttime UAV tracking
+    applications.
+  contributions:
+    - "Proposes DARTer, an end-to-end tracker for nighttime UAV scenes that needs neither a light enhancer nor domain adaptation."
+    - "Uses a Dynamic Feature Blender to fuse multi-view features from static and dynamic templates, and a Dynamic Feature Activator that turns Vision Transformer layers on adaptively to cut redundant computation."
+    - "Trains without complex multi-task losses and balances accuracy and efficiency on several nighttime UAV benchmarks."
+  bibtex: |-
+    @inproceedings{li2025darter,
+      title     = {{DARTer}: Dynamic Adaptive Representation Tracker for Nighttime {UAV} Tracking},
+      author    = {Li, Xuzhao and Li, Xuchen and Hu, Shiyu},
+      booktitle = {Proceedings of the 2025 International Conference on Multimedia Retrieval},
+      pages     = {1998--2002},
+      publisher = {ACM},
+      year      = {2025},
+      doi       = {10.1145/3731715.3733473}
+    }
+
+MSAD:
+  source: "DOI 10.1049/cvi2.70032 (Crossref); abstract from the published article"
+  abstract: >-
+    In recent years, the development of deep learning algorithms has significantly advanced the
+    application of synthetic aperture radar (SAR) aircraft detection in remote sensing and military
+    fields. However, existing methods face a dual dilemma: CNN-based models suffer from insufficient
+    detection accuracy due to limitations in local receptive fields, whereas Transformer-based
+    models improve accuracy by leveraging attention mechanisms but incur significant computational
+    overhead due to their quadratic complexity. This imbalance between accuracy and efficiency
+    severely limits the development of SAR aircraft detection. To address this problem, this paper
+    propose a novel neural network based on state space models (SSM), termed the Mamba SAR detection
+    network (MSAD). Specifically, we design a feature encoding module, MEBlock, that integrates CNN
+    with SSM to enhance global feature modelling capabilities. Meanwhile, the linear computational
+    complexity brought by SSM is superior to that of Transformer architectures, achieving a
+    reduction in computational overhead. Additionally, we propose a context-aware feature fusion
+    module (CAFF) that combines attention mechanisms to achieve adaptive fusion of multi-scale
+    features. Lastly, a lightweight parameter-shared detection head (PSHead) is utilised to
+    effectively reduce redundant parameters through implicit feature interaction. Experiments on the
+    SAR-AirCraft-v1.0 and SADD datasets show that MSAD achieves higher accuracy than existing
+    algorithms, whereas its GFLOPs are 2.7 times smaller than those of the Transformer architecture
+    RT-DETR. These results validate the core role of SSM as an accuracy-efficiency balancer,
+    reflecting MSAD's perceptual capability and performance in SAR aircraft detection in complex
+    environments.
+  contributions:
+    - "Proposes MSAD, a state-space-model (Mamba) network for SAR aircraft detection that balances accuracy and efficiency."
+    - "Designs MEBlock, which combines CNNs with state space models for global features at linear complexity, a context-aware feature fusion module, and a lightweight parameter-shared detection head."
+    - "Achieves higher accuracy on SAR-AirCraft-v1.0 and SADD with 2.7 times fewer GFLOPs than the Transformer-based RT-DETR."
+  bibtex: |-
+    @article{wang2025improved,
+      title   = {Improved {SAR} Aircraft Detection Algorithm Based on Visual State Space Models},
+      author  = {Wang, Yaqiong and Zhang, Jing and Wang, Yipei and Hu, Shiyu and Shen, Baoguo and Hou, Zhenhua and Zhou, Wanting},
+      journal = {IET Computer Vision},
+      volume  = {19},
+      number  = {1},
+      pages   = {e70032},
+      year    = {2025},
+      doi     = {10.1049/cvi2.70032}
+    }

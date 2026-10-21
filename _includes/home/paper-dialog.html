@@ -1,0 +1,27 @@
+<dialog class="paper-dialog" id="paper-dialog" aria-labelledby="paper-dialog-title" data-paper-ids="{% for paper in site.data.papers %}{{ paper[0] }}{% unless forloop.last %},{% endunless %}{% endfor %}">
+  <div class="paper-dialog__inner">
+    <header class="paper-dialog__header">
+      <p class="paper-dialog__badge"></p>
+      <h2 class="paper-dialog__title" id="paper-dialog-title"></h2>
+      <button class="paper-dialog__close" type="button" aria-label="Close">×</button>
+    </header>
+    <div class="paper-dialog__meta"></div>
+    <section class="paper-dialog__section paper-dialog__section--abstract">
+      <h3>Abstract</h3>
+      <p class="paper-dialog__abstract"></p>
+      <button class="paper-dialog__more" type="button" hidden>Show more</button>
+    </section>
+    <section class="paper-dialog__section paper-dialog__section--contributions">
+      <h3>Contributions</h3>
+      <ul class="paper-dialog__contributions"></ul>
+    </section>
+    <section class="paper-dialog__section paper-dialog__section--bibtex">
+      <div class="paper-dialog__bibtex-head">
+        <h3>BibTeX</h3>
+        <button class="paper-dialog__copy" type="button">Copy</button>
+      </div>
+      <pre class="paper-dialog__bibtex"><code></code></pre>
+    </section>
+    <div class="paper-dialog__links"></div>
+  </div>
+</dialog>
