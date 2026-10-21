@@ -484,6 +484,14 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 ### 论文配图优化（2026-10-21）
 
-- 全部 54 张论文配图去掉多余白边，统一导出为 WebP（一般最长边 1200 px，结构图 1600 px，以保留小字），总量由约 21.7 MB 降到约 4 MB；可点击查看大图的三项（DASTrack、STEMVerse、流式视频综述）的大图也改为 WebP。原 PNG/JPG 在确认无引用后删除。
-- 按论文类型选图：方法类论文用模型结构图，从论文 PDF 高分辨率重新截取（ATCTrack、MATrack、DARTer、EARL、RGRL、CSAI23，其余方法论文保持原结构图）；benchmark、数据集与综述类用概念图或示例图：专著换高清封面，SOTVerse 用 Fig. 1 总览，JIG 综述用挑战因素示例，DAAWBench 用数据集总览，Mathematics-AGS 用反馈示例，TNSE26、CEAI 换同图高清版，SOEI 用论文 Fig. 1。
-- RGRL 与 CSAI23 的结构图很宽，列表中字较小，需在详情弹窗或大图中查看。后续计划在详情弹窗中为方法论文补概念图，并为约 10 项以动态为核心的工作加 MP4/WebM 动图。
+`9ed6d39`：
+
+- 全部 54 张论文配图去掉多余白边，统一导出为 WebP（一般最长边 1200 px，结构图 1600 px，以保留小字），总量由约 21.7 MB 降到约 4 MB；可点击查看大图的三项（DASTrack、STEMVerse、流式视频综述）的大图也改为 WebP。原 PNG/JPG 共 56 个在确认仓库内无引用后删除。
+- 按论文类型选图：方法类论文用模型结构图，从论文 PDF 高分辨率重新截取（ATCTrack、MATrack、DARTer、EARL、RGRL、CSAI23，其余方法论文保持原结构图；Shiyu 看过概念图与结果图候选后，选择方法论文保留结构图）；benchmark、数据集与综述类用概念图或示例图：专著换高清封面，SOTVerse 用 Fig. 1 总览，JIG 综述用挑战因素示例，DAAWBench 用数据集总览，Mathematics-AGS 用反馈示例，TNSE26、CEAI 换同图高清版，SOEI 用论文 Fig. 1。
+- RGRL 与 CSAI23 的结构图很宽，列表中字较小，需在详情弹窗或大图中查看。曾试做 GIT、CPDTrack、FIOVA 三个详情弹窗动图样例（MP4/WebM），Shiyu 看后决定不加动图，样例未提交。
+
+### WKU 报告日期（2026-10-21）
+
+- 依据 Shiyu 提供的报告海报（CLA Invited Academic Talks，`Shiyu_CLATalk_Nov2026.pdf`），温州肯恩大学报告定于 2026 年 11 月 5 日（周四）。Activities → Talk 的日期改为 “5th November, 2026, Wenzhou, China”，News 2026.09 那条改为 “on 5 November 2026 in Wenzhou, China”；两版 CV 同步（完整版 `2026.11.05`，两页版 “5 November 2026”）。时间与教室不写入主页与 CV，与其他报告一致。
+- 报告日期已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
+

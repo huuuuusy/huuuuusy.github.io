@@ -55,7 +55,7 @@
 **[College of Liberal Arts, Wenzhou-Kean University](https://cla.wku.edu.cn/en)**
 - **Series:** CLA Invited Academic Talks
 - **Title:** Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation
-- **Date & Location:** November, 2026, Wenzhou, China<br>
+- **Date & Location:** 5th November, 2026, Wenzhou, China<br>
 
 **[14th International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html)** (CCF-C Conference)
 - **Forum:** [Visual Intelligence in Transition: From Physical Perception to Psychological Cognition](https://mp.weixin.qq.com/s/A4x_gxXGLLJTHXG1RIE9HQ)

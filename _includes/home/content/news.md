@@ -6,7 +6,7 @@
 
 **2026.09** I am honored to be invited to give a talk, *From Object Tracking to Process Understanding: State Modeling in Dynamic Vision*, at the [International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html) (CCF-C Conference) on 4 October 2026 in Singapore, as part of the forum *Visual Intelligence in Transition: From Physical Perception to Psychological Cognition*.
 
-**2026.09** I am honored to be invited to give a talk, *Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*, in the CLA Invited Academic Talks series at the [College of Liberal Arts, Wenzhou-Kean University](https://cla.wku.edu.cn/en), in November 2026 in Wenzhou, China.
+**2026.09** I am honored to be invited to give a talk, *Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation*, in the CLA Invited Academic Talks series at the [College of Liberal Arts, Wenzhou-Kean University](https://cla.wku.edu.cn/en), on 5 November 2026 in Wenzhou, China.
 
 **2026.09** The [second edition of our *Electronics* Special Issue on Techniques and Applications of Multimodal Data Fusion](https://www.mdpi.com/journal/electronics/special_issues/29DX8J83OK) is now open. Thank you to everyone who supported the [first edition](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E).
 
