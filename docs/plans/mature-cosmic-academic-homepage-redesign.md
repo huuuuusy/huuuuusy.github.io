@@ -496,3 +496,14 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 
 - 依据 Shiyu 提供的报告海报（CLA Invited Academic Talks，`Shiyu_CLATalk_Nov2026.pdf`），温州肯恩大学报告定于 2026 年 11 月 5 日（周四）。Activities → Talk 的日期改为 “5th November, 2026, Wenzhou, China”，News 2026.09 那条改为 “on 5 November 2026 in Wenzhou, China”；两版 CV 同步（完整版 `2026.11.05`，两页版 “5 November 2026”）。时间与教室不写入主页与 CV，与其他报告一致。
 - 报告日期已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
+
+### 主线的本质问题（2026-10-22）
+
+题面与品牌句不变，主线再收一层：开场用一个本质问题，三条线讲成把“答对”与“真正保住”分开的三种方式。
+
+- Intro 第二段：在题面之后加本质问题 “when an AI system gets it right, what has it actually kept?”，说明这里的状态指系统要保留、更新或挂起的东西，以及要靠改变条件、时间或参与的人，才能把答对与保住分开。
+- Research Framework：引言改为 “A right answer and a kept state come apart only when something changes”；Across Conditions 的问句加上“能否预测它在哪里断”；Humans and AI 的问句扩为 “When people disagree, or when AI stands in for people or works with them, what counts as being right?”；Evaluate 一栏写明改变什么；Apply 一栏加上 research practice itself（相关公开仓库开放前，不写名字与链接）。
+- Where It Started 结尾的过渡句改为“每一步都改变了某样东西（任务、条件或比较的对象），去看系统到底保住了什么”。
+- 两版 CV 的 Research Interests 同步：完整版加本质问题、“怎么分开”一句、Between Humans and AI 新问句与末句的应用场景；两页版加本质问题与新问句，仍为两页。`files/CV-EN.pdf` 随之更新。
+- Google Scholar 当日复核：1,756 / 17 / 26，与前一日相同，只更新日期。
+- 主线的收敛过程已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
