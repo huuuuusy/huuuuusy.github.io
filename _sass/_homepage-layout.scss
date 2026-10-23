@@ -515,6 +515,16 @@ p:has(> .anchor:only-child) {
     margin-top: var(--home-space-3);
 }
 
+.intro-profile .intro-profile__degree + .intro-profile__degree {
+    margin-top: var(--home-space-2);
+}
+
+.intro-profile__advisor {
+    display: block;
+    color: var(--home-ink-muted);
+    font-size: var(--home-fs-meta);
+}
+
 .intro-profile__item + .intro-profile__item {
     margin-top: var(--home-space-3);
 }

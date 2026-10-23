@@ -13,13 +13,9 @@
 </div>
 <div class="intro-profile__item">
 <a class="intro-profile__label" href="#background">Education</a>
-<p>Ph.D., CASIA, 2024<br>M.Sc., HKU, 2019<br>B.E., BIT, 2017</p>
-</div>
-{% assign scholar = site.data.scholar %}
-<div class="intro-profile__item intro-profile__item--metrics">
-<a class="intro-profile__label" href="{{ site.author.googlescholar }}">Citations</a>
-<p class="intro-metrics"><span><strong>{% if scholar.citations >= 1000 %}{{ scholar.citations | divided_by: 1000 }},{{ scholar.citations | modulo: 1000 | prepend: '00' | slice: -3, 3 }}{% else %}{{ scholar.citations }}{% endif %}</strong> citations</span><span><strong>{{ scholar.h_index }}</strong> h-index</span><span><strong>{{ scholar.i10_index }}</strong> i10-index</span></p>
-<p class="intro-metrics__date">As of {{ scholar.as_of | date: "%-d %B %Y" }}</p>
+<p class="intro-profile__degree">Ph.D., CASIA, 2024<span class="intro-profile__advisor">Supervisors: <a href="https://people.ucas.ac.cn/~huangkaiqi">Prof. Kaiqi Huang</a> and <a href="https://www.xinzhaoai.com/">Prof. Xin Zhao</a></span></p>
+<p class="intro-profile__degree">M.Sc., HKU, 2019<span class="intro-profile__advisor">Supervisor: <a href="https://www.cs.hku.hk/people/academic-staff/clwang">Prof. Choli Wang</a></span></p>
+<p class="intro-profile__degree">B.E., BIT, 2017<span class="intro-profile__advisor">Thesis supervisor: <a href="https://cst.bit.edu.cn/szdw/jsml/bssds/a21187d873b645839fdd996387c79efa.htm">Prof. Senlin Luo</a></span></p>
 </div>
 <p class="intro-profile__contact">I welcome research discussions and collaborations. Please contact me at <a href="mailto:shiyu.hu@ntu.edu.sg">shiyu.hu@ntu.edu.sg</a>.</p>
 
