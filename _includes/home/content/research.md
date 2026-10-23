@@ -24,7 +24,7 @@
 
 ## Research Framework
 
-<p class="research-framework__lead">A right answer and a kept state come apart only when something changes. In open environments, three things do: <strong>conditions change, time passes, and people take part</strong>. Each gives one line of work, and each line runs from evaluation to modeling to application.</p>
+<p class="research-framework__lead">In open environments, what a system carries forward is tested in three ways: <strong>conditions change, time passes, and people take part</strong>. Each gives one line of work, and each line runs from evaluation to modeling to application.</p>
 
 <p class="research-framework__legend"><span class="paper-chip paper-chip--key"><span aria-hidden="true">📄</span>Paper</span><span class="paper-chip paper-chip--key"><span aria-hidden="true">🗺️</span>Survey or perspective</span><span class="paper-chip paper-chip--key"><span aria-hidden="true">📖</span>Book</span><span class="paper-chip paper-chip--key paper-chip--preprint">Dashed border: preprint</span></p>
 
@@ -77,7 +77,7 @@
 <div class="research-framework__loop">
   <p class="research-framework__loop-label">In every line, against human reference</p>
   <ol>
-    <li><strong>Evaluate</strong><span>change the conditions, the time, or the people: where does the state hold, and where and why does it break?</span></li>
+    <li><strong>Evaluate</strong><span>where does the state hold, and where and why does it break?</span></li>
     <li><strong>Model</strong><span>how can a system keep, update, or leave it open?</span></li>
     <li><strong>Apply</strong><span>does it hold up in open-environment visual perception, long and streaming video understanding, human–AI education, and research practice itself?</span></li>
   </ol>
@@ -121,4 +121,4 @@
 
 </div>
 
-<p class="research-bridge">Each step changed something (the task, the conditions, or who is compared) to see what a system had really kept. The three lines above follow this question across conditions, over time, and between humans and AI.</p>
+<p class="research-bridge">Each step asked what a system carries forward when something changes. The three lines above follow this question across conditions, over time, and between humans and AI.</p>
