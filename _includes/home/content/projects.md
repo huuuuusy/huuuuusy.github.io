@@ -14,10 +14,12 @@
 
 <span class="project-card__meta">2019.11 – Present</span>
 
+<p class="project-lead-stat"><strong>1.66M+</strong><span>visits</span></p>
+
 <p>Evaluation infrastructure for the <a href="#GIT">Global Instance Tracking</a> and <a href="#MGIT">Multi-modal Global Instance Tracking</a> studies published at TPAMI 2023 and NeurIPS 2023. The platform supports dataset access, tracker registration, standardized submission, and reproducible evaluation.</p>
 
 <div class="project-metrics">
-  <span>1.66M+ visits</span><span>1.9K+ users</span><span>720+ trackers</span><span>960+ submissions</span>
+  <span>1.9K+ users</span><span>720+ trackers</span><span>960+ submissions</span>
 </div>
 
 <a href="http://videocube.aitestunion.com">Visit platform →</a>
@@ -30,10 +32,12 @@
 
 <span class="project-card__meta">2021.07 – Present</span>
 
+<p class="project-lead-stat"><strong>267K+</strong><span>visits</span></p>
+
 <p>A task-space evaluation platform for the <a href="#SOTVerse">SOTVerse</a> and <a href="#VLTVerse">VLTVerse</a> research program, including the study published in IJCV 2024. It provides structured evaluation across tracking scenarios, target categories, and linguistic specifications.</p>
 
 <div class="project-metrics">
-  <span>267K+ visits</span><span>Task-space evaluation</span>
+  <span>Task-space evaluation</span>
 </div>
 
 <a href="http://metaverse.aitestunion.com">Visit platform →</a>
@@ -46,10 +50,12 @@
 
 <span class="project-card__meta">2022.05 – Present</span>
 
+<p class="project-lead-stat"><strong>541K+</strong><span>visits</span></p>
+
 <p>Benchmark and evaluation infrastructure for real-world drone tracking research, including the <a href="#BioDrone">BioDrone</a> study published in IJCV 2024. It supports dataset access, standardized benchmarking, and comparative evaluation.</p>
 
 <div class="project-metrics">
-  <span>541K+ visits</span><span>Real-world UAV tracking</span>
+  <span>Real-world UAV tracking</span>
 </div>
 
 <a href="http://biodrone.aitestunion.com/">Visit platform →</a>
@@ -62,10 +68,12 @@
 
 <span class="project-card__meta">2020.07 – Present</span>
 
+<p class="project-lead-stat"><strong>7.56M+</strong><span>visits</span></p>
+
 <p>Long-term maintenance of the large-scale evaluation platform supporting the GOT-10k research published in TPAMI 2021. It provides benchmark access, tracker registration, result submission, and evaluation services.</p>
 
 <div class="project-metrics">
-  <span>7.56M+ visits</span><span>11K+ users</span><span>32.7K+ trackers</span><span>406K+ submissions</span>
+  <span>11K+ users</span><span>32.7K+ trackers</span><span>406K+ submissions</span>
 </div>
 
 <a href="http://got-10k.aitestunion.com/">Visit platform →</a>

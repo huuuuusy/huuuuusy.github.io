@@ -55,9 +55,11 @@
     });
     var today = new Date();
     // Keep the current month and the previous two calendar months visible,
-    // and never fewer than MIN_VISIBLE items, so a quiet stretch still shows
-    // the latest news.
+    // never fewer than MIN_VISIBLE items, so a quiet stretch still shows
+    // the latest news, and never more than MAX_VISIBLE, so a busy stretch
+    // does not push Research below the fold.
     var MIN_VISIBLE = 6;
+    var MAX_VISIBLE = 8;
     var cutoff = new Date(today.getFullYear(), today.getMonth() - 2, 1);
     var olderItems = [];
     var shown = 0;
@@ -71,7 +73,7 @@
       }
 
       var itemDate = new Date(Number(match[1]), Number(match[2]) - 1, 1);
-      if (itemDate < cutoff && shown >= MIN_VISIBLE) {
+      if (shown >= MAX_VISIBLE || (itemDate < cutoff && shown >= MIN_VISIBLE)) {
         item.classList.add("news-item--older");
         olderItems.push(item);
       } else {
@@ -180,8 +182,12 @@
     var items = Array.prototype.slice.call(list.children).filter(function (item) {
       return item.tagName === "LI";
     });
-    var visibleItemCount = 7;
-    var olderItems = items.slice(visibleItemCount);
+    // Graduate-school honors and later stay visible; undergraduate ones
+    // (before 2019) fold away.
+    var olderItems = items.filter(function (item) {
+      var year = item.textContent.match(/\b(20\d{2})\b/);
+      return year && Number(year[1]) < 2019;
+    });
 
     if (!olderItems.length) {
       return;
@@ -197,8 +203,8 @@
     function updateLabel(expanded) {
       var label = toggle.querySelector(".honors-toggle__label");
       label.textContent = expanded
-        ? "Show recent honors and awards"
-        : "Show all honors and awards";
+        ? "Hide undergraduate honors"
+        : "Show undergraduate honors (2014–2017)";
     }
 
     updateLabel(false);

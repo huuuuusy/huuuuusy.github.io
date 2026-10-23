@@ -1,107 +1,47 @@
-## Tutorial
+## Area Chair
 
-**[34th International Joint Conference on Artificial Intelligence (IJCAI)](https://2025.ijcai.org/)**
-- **Title:** Human-Centric and Multimodal Evaluation for Explainable AI: Moving Beyond Benchmarks
-- **Date & Location:** 14:00-15:30, 18th August, 2025, Montreal, Canada
-<!-- - **Duration:** Half-day<br> -->
-<!-- [Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
-<!-- [Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
+- [ICLR 2027](https://iclr.cc/Conferences/2027), the 15th International Conference on Learning Representations
 
-**[28th European Conference on Artificial Intelligence (ECAI)](https://ecai2025.org/)**
-- **Title:** From Benchmarking to Trustworthy AI: Rethinking Evaluation Methods Across Vision and Complex Systems
-- **Date & Location:** 26th October, 2025, Bologna, Italy<br>
-[Webpage](https://sites.google.com/view/ecai25-trusteval-tutorial/)
-<!-- - **Duration:** Half-day<br> -->
-<!-- [Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
+## Associate Editor
 
-**[2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)](https://www.ieeesmc2025.org/)**
-- **Title:** The Synergy of Large Language Models and Evolutionary Optimization on Complex Networks 
-- **Date & Location:** 5th October, 2025, Vienna, Austria
-<!-- - **Duration:** Half-day<br> -->
-<!-- [Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf) -->
-<!-- [Webpage](https://sites.google.com/view/icip24-tutorial-vot/)  -->
+- [Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet)
 
-**[31st IEEE International Conference on Image Processing (ICIP)](https://2024.ieeeicip.org/)**
-- **Title:** An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis
-- **Date & Location:** 9:00-12:30, 27th October, 2024, Abu Dhabi, United Arab Emirates
-- **Duration:** Half-day<br>
-[Slides](https://huuuuusy.github.io/files/ICIP2024-slides.pdf)
-[Webpage](https://sites.google.com/view/icip24-tutorial-vot/)
+## Lead Guest Editor
 
-**[27th International Conference on Pattern Recognition (ICPR)](https://icpr2024.org/)**
-- **Title:** Visual Turing Test in Visual Object Tracking: A New Vision Intelligence Evaluation Technique based on Human-Machine Comparison
-- **Date & Location:** 14:30-18:00, 1st December, 2024, Kolkata, India
-- **Duration:** Half-day<br>
-[Slides](https://huuuuusy.github.io/files/ICPR2024-slides.pdf)
+- [Electronics](https://www.mdpi.com/journal/electronics), Special Issues on Techniques and Applications of Multimodal Data Fusion ([1st Edition](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E) and [2nd Edition](https://www.mdpi.com/journal/electronics/special_issues/29DX8J83OK))
 
-**[17th Asian Conference on Computer Vision (ACCV)](https://accv2024.org/)**
-- **Title:** From Machine-Machine Comparison to Human-Machine Comparison: Adapting Visual Turing Test in Visual Object Tracking
-- **Date & Location:** 9:00-12:00, 9th December, 2024, Hanoi, Vietnam
-- **Duration:** Half-day<br>
-[Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf)
-[Webpage](https://sites.google.com/view/accv-tutorial-vtt4vot/)
+## Virtual Collection Host
 
-## Mini-Symposium
-
-**[The Fifth International Nonlinear Dynamics Conference (NODYCON 2026)](https://nodycon2026.app.earendelplatform.com/)**
-- **Title:** Complex Network Systems and Large Language Models
-- **Date & Location:** 20th-23rd September, 2026, Sapienza University of Rome, Italy<br>
-<!-- - **Duration:** Half-day<br> -->
-<!-- [Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
-[Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)
-
-## Talk
-
-**[College of Liberal Arts, Wenzhou-Kean University](https://cla.wku.edu.cn/en)**
-- **Series:** CLA Invited Academic Talks
-- **Title:** Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation
-- **Date & Location:** 5th November, 2026, Wenzhou, China<br>
-
-**[14th International Conference on Image and Graphics (ICIG 2026)](https://icig.csig.org.cn/2026/index.html)** (CCF-C Conference)
-- **Forum:** [Visual Intelligence in Transition: From Physical Perception to Psychological Cognition](https://mp.weixin.qq.com/s/A4x_gxXGLLJTHXG1RIE9HQ)
-- **Title:** From Object Tracking to Process Understanding: State Modeling in Dynamic Vision
-- **Date & Location:** 4th October, 2026, Nanyang Technological University, Singapore<br>
-
-**[Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/)**
-- **Forum:** [Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges](https://mp.weixin.qq.com/s/HlhbVIXIuAIwHpVa3Vyf1Q)
-- **Title:** Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency
-- **Date & Location:** 29th May, 2026, Guangzhou, China<br>
-
-**[University of Chinese Academy of Sciences, 2025 Graduate Academic Forum (Artificial Intelligence Sub-forum)](https://mp.weixin.qq.com/s/Frgc8iEkhvYBO5XM7wGQsw)**
-- **Role:** Alumni speaker, research experience sharing
-- **Date & Location:** 13th December, 2025, Beijing, China<br>
-
-**[Visual Intelligence International Postdoctoral (Doctoral) Academic Frontier Seminar](https://mp.weixin.qq.com/s/dBXVdb6BAalmFctsUCJOwA)**
-- **Title:** Human-Centric Multimodal Visual Intelligence: From Benchmarks to Human-Like Modeling
-- **Date & Location:** 30th August, 2025, Online<br>
-<!-- - **Duration:** Half-day<br> -->
-<!-- [Slides](https://huuuuusy.github.io/files/ACCV2024-slides.pdf) -->
-<!-- [Webpage](https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000)  -->
+- [The Innovation Informatics](https://www.the-innovation.org/the-innovation-informatics/unmanned-systems), Control and Decision Intelligence for Unmanned Systems (submissions open until 30 June 2027)
 
 ## Publicity Chair
 
-**[2026 CSIG Annual Conference on Video and Image Security](https://www.csig.org.cn/21/202608/59772.html)**
-- **Date & Location:** 21st November, 2026, Xiong'an, China
+- [2026 CSIG Annual Conference on Video and Image Security](https://www.csig.org.cn/21/202608/59772.html), Xiong'an, China, 21 November 2026
 
 ## TPC Member
 
 - [Pacific Graphics 2026](https://pacificgraphics2026.github.io/) (CCF-B Conference)
 
-## Area Chair
+## Tutorial
 
-- **[15th International Conference on Learning Representations (ICLR)](https://iclr.cc/Conferences/2027)**
+<p class="activity-entry"><a class="activity-entry__venue" href="https://2025.ijcai.org/" title="34th International Joint Conference on Artificial Intelligence">IJCAI 2025</a><span class="activity-entry__meta">Montreal, Canada · 18 August 2025</span><span class="activity-entry__title">Human-Centric and Multimodal Evaluation for Explainable AI: Moving Beyond Benchmarks</span></p>
+<p class="activity-entry"><a class="activity-entry__venue" href="https://ecai2025.org/" title="28th European Conference on Artificial Intelligence">ECAI 2025</a><span class="activity-entry__meta">Bologna, Italy · 26 October 2025</span><span class="activity-entry__title">From Benchmarking to Trustworthy AI: Rethinking Evaluation Methods Across Vision and Complex Systems</span><span class="activity-entry__links"><a href="https://sites.google.com/view/ecai25-trusteval-tutorial/">Webpage</a></span></p>
+<p class="activity-entry"><a class="activity-entry__venue" href="https://www.ieeesmc2025.org/" title="2025 IEEE International Conference on Systems, Man, and Cybernetics">IEEE SMC 2025</a><span class="activity-entry__meta">Vienna, Austria · 5 October 2025</span><span class="activity-entry__title">The Synergy of Large Language Models and Evolutionary Optimization on Complex Networks</span></p>
+<p class="activity-entry"><a class="activity-entry__venue" href="https://2024.ieeeicip.org/" title="31st IEEE International Conference on Image Processing">ICIP 2024</a><span class="activity-entry__meta">Abu Dhabi, United Arab Emirates · 27 October 2024</span><span class="activity-entry__title">An Evaluation Perspective in Visual Object Tracking: from Task Design to Benchmark Construction and Algorithm Analysis</span><span class="activity-entry__links"><a href="https://huuuuusy.github.io/files/ICIP2024-slides.pdf">Slides</a><a href="https://sites.google.com/view/icip24-tutorial-vot/">Webpage</a></span></p>
+<p class="activity-entry"><a class="activity-entry__venue" href="https://icpr2024.org/" title="27th International Conference on Pattern Recognition">ICPR 2024</a><span class="activity-entry__meta">Kolkata, India · 1 December 2024</span><span class="activity-entry__title">Visual Turing Test in Visual Object Tracking: A New Vision Intelligence Evaluation Technique based on Human-Machine Comparison</span><span class="activity-entry__links"><a href="https://huuuuusy.github.io/files/ICPR2024-slides.pdf">Slides</a></span></p>
+<p class="activity-entry"><a class="activity-entry__venue" href="https://accv2024.org/" title="17th Asian Conference on Computer Vision">ACCV 2024</a><span class="activity-entry__meta">Hanoi, Vietnam · 9 December 2024</span><span class="activity-entry__title">From Machine-Machine Comparison to Human-Machine Comparison: Adapting Visual Turing Test in Visual Object Tracking</span><span class="activity-entry__links"><a href="https://huuuuusy.github.io/files/ACCV2024-slides.pdf">Slides</a><a href="https://sites.google.com/view/accv-tutorial-vtt4vot/">Webpage</a></span></p>
 
-## Virtual Collection Host
+## Invited Talk
 
-- **Journal:** [The Innovation Informatics](https://www.the-innovation.org/the-innovation-informatics/unmanned-systems) (Virtual Collection: Control and Decision Intelligence for Unmanned Systems; submissions open until 30 June 2027)
+<p class="activity-entry"><a class="activity-entry__venue" href="https://cla.wku.edu.cn/en" title="College of Liberal Arts, Wenzhou-Kean University">Wenzhou-Kean University</a><span class="activity-entry__meta">CLA Invited Academic Talks · Wenzhou, China · 5 November 2026</span><span class="activity-entry__title">Studying the Human Mind with AI: From Behavioral Analysis to Role Simulation</span></p>
+<p class="activity-entry"><a class="activity-entry__venue" href="https://icig.csig.org.cn/2026/index.html" title="14th International Conference on Image and Graphics (CCF-C Conference)">ICIG 2026</a><span class="activity-entry__meta">Singapore · 4 October 2026</span><span class="activity-entry__title">From Object Tracking to Process Understanding: State Modeling in Dynamic Vision</span><span class="activity-entry__links"><a href="https://mp.weixin.qq.com/s/A4x_gxXGLLJTHXG1RIE9HQ">Forum</a></span></p>
+<p class="activity-entry"><a class="activity-entry__venue" href="https://ccig.csig.org.cn/2026/" title="Chinese Congress on Image and Graphics">CCIG 2026</a><span class="activity-entry__meta">Guangzhou, China · 29 May 2026</span><span class="activity-entry__title">Visual Understanding Reliability in Open Environments: from Robust Perception to Semantic Consistency</span><span class="activity-entry__links"><a href="https://mp.weixin.qq.com/s/HlhbVIXIuAIwHpVa3Vyf1Q">Forum</a></span></p>
+<p class="activity-entry"><a class="activity-entry__venue" href="https://mp.weixin.qq.com/s/Frgc8iEkhvYBO5XM7wGQsw" title="University of Chinese Academy of Sciences, 2025 Graduate Academic Forum (Artificial Intelligence Sub-forum)">UCAS Graduate Academic Forum</a><span class="activity-entry__meta">Beijing, China · 13 December 2025</span><span class="activity-entry__title">Alumni speaker: research experience sharing</span></p>
+<p class="activity-entry"><a class="activity-entry__venue" href="https://mp.weixin.qq.com/s/dBXVdb6BAalmFctsUCJOwA" title="Visual Intelligence International Postdoctoral (Doctoral) Academic Frontier Seminar">Visual Intelligence Frontier Seminar</a><span class="activity-entry__meta">Online · 30 August 2025</span><span class="activity-entry__title">Human-Centric Multimodal Visual Intelligence: From Benchmarks to Human-Like Modeling</span></p>
 
-## Lead Guest Editor
+## Mini-Symposium
 
-- **Journal:** [Electronics](https://www.mdpi.com/journal/electronics) (Special Issues: Techniques and Applications of Multimodal Data Fusion — [1st Edition](https://www.mdpi.com/journal/electronics/special_issues/QVWA4F5H4E) and [2nd Edition](https://www.mdpi.com/journal/electronics/special_issues/29DX8J83OK))
-
-## Associate Editor
-
-- **Journal:** [Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet)
+<p class="activity-entry"><a class="activity-entry__venue" href="https://nodycon2026.app.earendelplatform.com/" title="The Fifth International Nonlinear Dynamics Conference">NODYCON 2026</a><span class="activity-entry__meta">Sapienza University of Rome, Italy · 20–23 September 2026</span><span class="activity-entry__title">Complex Network Systems and Large Language Models</span><span class="activity-entry__links"><a href="https://nodycon2026.app.earendelplatform.com/custom-pages/CQCCPE4A00000">Webpage</a></span></p>
 
 ## Reviewer
 
