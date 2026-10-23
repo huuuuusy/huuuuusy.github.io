@@ -440,7 +440,9 @@ p:has(> .anchor:only-child) {
 }
 
 .intro-kicker {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: var(--home-space-2);
     margin: 0 0 var(--home-space-2);
     padding: 0;
     border: 0;
@@ -513,6 +515,12 @@ p:has(> .anchor:only-child) {
 
 .intro-profile .intro-profile__contact {
     margin-top: var(--home-space-3);
+}
+
+.intro-kicker__logo {
+    flex: none;
+    width: auto;
+    height: 28px;
 }
 
 .intro-profile .intro-profile__degree + .intro-profile__degree {
