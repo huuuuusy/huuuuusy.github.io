@@ -18,7 +18,7 @@
 </div>
 <div class="intro-profile__item">
 <a class="intro-profile__label" href="#background">Education</a>
-<p class="intro-profile__degree">Ph.D., CASIA, 2024<span class="intro-profile__advisor">Supervisors: <a href="https://people.ucas.ac.cn/~huangkaiqi">Prof. Kaiqi Huang</a> and <a href="https://www.xinzhaoai.com/">Prof. Xin Zhao</a></span></p>
+<p class="intro-profile__degree">Ph.D., CASIA, 2024<span class="intro-profile__advisor">Supervisor: <a href="https://people.ucas.ac.cn/~huangkaiqi">Prof. Kaiqi Huang</a></span><span class="intro-profile__advisor">Co-supervisor: <a href="https://www.xinzhaoai.com/">Prof. Xin Zhao</a></span></p>
 <p class="intro-profile__degree">M.Sc., HKU, 2019<span class="intro-profile__advisor">Supervisor: <a href="https://www.cs.hku.hk/people/academic-staff/clwang">Prof. Choli Wang</a></span></p>
 <p class="intro-profile__degree">B.E., BIT, 2017<span class="intro-profile__advisor">Thesis supervisor: <a href="https://cst.bit.edu.cn/szdw/jsml/bssds/a21187d873b645839fdd996387c79efa.htm">Prof. Senlin Luo</a></span></p>
 </div>
