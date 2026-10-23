@@ -46,7 +46,7 @@
 <span class='anchor' id='BioDrone'></span>
 
 **BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision**<br>
-[X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu✉️</font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), J. Zhang, Y. Hu, R. Liu, [H. Lin](https://www3.cs.stonybrook.edu/~hling/), Y. Li, R. Li, K. Liu, [J. Li](http://yjsb.sinano.ac.cn/Doctor/info.aspx?itemid=920) <br>
+[X. Zhao](https://www.xinzhaoai.com/), ***<font color=DarkRed>Shiyu Hu<span class="corr-mark" title="Corresponding author">✉&#xFE0E;</span></font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), J. Zhang, Y. Hu, R. Liu, [H. Lin](https://www3.cs.stonybrook.edu/~hling/), Y. Li, R. Li, K. Liu, [J. Li](http://yjsb.sinano.ac.cn/Doctor/info.aspx?itemid=920) <br>
 [International Journal of Computer Vision](https://www.springer.com/journal/11263) (CCF-A Journal, JCR Q1, IF 10.3)<br>
 <span class="paper-keywords">Bionic UAV Vision · Real Physical Disturbance · Robustness Benchmark</span><br>
 [📃 Paper](https://link.springer.com/article/10.1007/s11263-023-01937-0)
@@ -96,7 +96,7 @@
 <span class='anchor' id='MATrack'></span>
 
 **MATrack: Efficient Multiscale Adaptive Tracker for Real-Time Nighttime UAV Operations**<br>
-[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu<span class="corr-mark" title="Corresponding author">✉&#xFE0E;</span></font>***<br>
 [International Conference on Robotics and Automation](https://2026.ieee-icra.org/) (CCF-B Conference)<br>
 <span class="paper-keywords">Nighttime UAV Tracking · Multiscale Adaptation · Real-Time Deployment</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/document/11696451/)
@@ -110,7 +110,7 @@
 <span class='anchor' id='DARTer'></span>
 
 **DARTer: Dynamic Adaptive Representation Tracker for Nighttime UAV Tracking**<br>
-[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu<span class="corr-mark" title="Corresponding author">✉&#xFE0E;</span></font>***<br>
 [International Conference on Multimedia Retrieval](https://www.icmr-2025.org/) (CCF-B Conference)<br>
 <span class="paper-keywords">Nighttime UAV Tracking · Dynamic Representation Adaptation · Efficient Deployment</span><br>
 [📃 Paper](https://dl.acm.org/doi/abs/10.1145/3731715.3733473)
@@ -139,7 +139,7 @@
 <span class='anchor' id='MSAD'></span>
 
 **Improved SAR Aircraft Detection Algorithm Based on Visual State Space Models**<br>
-Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***, B. Shen, Z. Hou, [W. Zhou](https://scholar.google.com/citations?user=r8x76hUAAAAJ)<br>
+Y. Wang, J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu<span class="corr-mark" title="Corresponding author">✉&#xFE0E;</span></font>***, B. Shen, Z. Hou, [W. Zhou](https://scholar.google.com/citations?user=r8x76hUAAAAJ)<br>
 [IET Computer Vision](https://digital-library.theiet.org/journal/iet-cvi) (CCF-C Journal, JCR Q4, IF 1.4)<br>
 <span class="paper-keywords">Remote Sensing · SAR Aircraft Detection · Vision State-Space Models</span><br>
 [📃 Paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cvi2.70032)

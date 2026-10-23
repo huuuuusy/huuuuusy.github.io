@@ -42,10 +42,15 @@ b {
 
 a {
     color: var(--home-blue);
+    text-decoration-color: rgba(24, 28, 98, .18);
     text-decoration-thickness: 1px;
-    text-underline-offset: .18em;
+    text-underline-offset: .2em;
     transition: color .15s ease, text-decoration-color .15s ease,
         border-color .15s ease, background-color .15s ease;
+}
+
+a:hover {
+    text-decoration-color: currentColor;
 }
 
 a:focus:not(:focus-visible) {

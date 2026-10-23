@@ -144,6 +144,10 @@
         }
     }
 
+    .home-main .author__bio {
+        display: none;
+    }
+
     .home-main .sidebar {
         grid-column: 1;
         grid-row: 1;
@@ -332,9 +336,10 @@
         padding: 0;
         border: 0;
         color: var(--home-ink-strong);
+        font-family: var(--home-font-serif);
         font-size: var(--home-fs-section);
-        font-weight: 600;
-        letter-spacing: -.014em;
+        font-weight: 500;
+        letter-spacing: -.01em;
         line-height: var(--home-lh-heading);
 
         &:before,
@@ -347,9 +352,10 @@
     h2 {
         margin: var(--home-space-7) 0 var(--home-space-3);
         color: var(--home-ink-strong);
-        font-size: var(--home-fs-subsection);
-        font-weight: 600;
-        letter-spacing: -.008em;
+        font-family: var(--home-font-serif);
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -.006em;
         line-height: var(--home-lh-heading);
         text-transform: none;
     }
@@ -446,26 +452,28 @@ p:has(> .anchor:only-child) {
     border: 0;
     color: var(--home-blue);
     background: none;
-    font-size: var(--home-fs-small);
-    font-weight: 500;
-    letter-spacing: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .09em;
     line-height: 1.45;
-    text-transform: none;
+    text-transform: uppercase;
 }
 
 .home-section--intro h2 {
-    margin: 0 0 var(--home-space-4);
+    margin: 0;
     color: var(--home-ink-strong);
+    font-family: var(--home-font-serif);
     font-size: var(--home-fs-name);
-    font-weight: 600;
-    letter-spacing: -.022em;
-    line-height: 1.15;
+    font-weight: 500;
+    letter-spacing: -.015em;
+    line-height: 1.1;
 }
 
 .intro-name-zh {
-    color: var(--home-ink-soft);
-    font-size: .8em;
-    font-weight: 500;
+    color: var(--home-ink-muted);
+    font-family: var(--home-font);
+    font-size: .52em;
+    font-weight: 400;
     letter-spacing: .02em;
 }
 
@@ -495,11 +503,12 @@ p:has(> .anchor:only-child) {
 .intro-profile__label {
     display: block;
     margin: 0 0 var(--home-space-2);
-    color: var(--home-blue);
-    font-size: var(--home-fs-meta);
+    color: var(--home-ink-muted);
+    font-size: 11.5px;
     font-weight: 600;
-    letter-spacing: .01em;
+    letter-spacing: .09em;
     line-height: 1.45;
+    text-transform: uppercase;
 }
 
 .intro-profile .intro-profile__item p,
@@ -519,12 +528,13 @@ p:has(> .anchor:only-child) {
     display: flex;
     align-items: center;
     gap: var(--home-space-4);
+    margin: 0 0 var(--home-space-6);
 }
 
 .intro-heading__logo {
     flex: none;
     width: auto;
-    height: 64px;
+    height: 72px;
 }
 
 .intro-heading__text {

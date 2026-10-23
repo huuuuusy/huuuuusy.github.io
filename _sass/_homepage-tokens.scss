@@ -27,8 +27,10 @@
     --home-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
         "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB",
         "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
-    --home-fs-name: 32px;
-    --home-fs-section: 22px;
+    /* Display serif for the name and section titles only; body stays sans. */
+    --home-font-serif: "Newsreader", "Source Serif 4", Georgia, "Songti SC", serif;
+    --home-fs-name: 40px;
+    --home-fs-section: 27px;
     --home-fs-subsection: 17px;
     --home-fs-lead: 16px;
     --home-fs-body: 15px;

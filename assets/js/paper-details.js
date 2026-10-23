@@ -56,7 +56,8 @@
       var button = document.createElement("button");
       button.type = "button";
       button.className = "paper-link paper-link--details";
-      button.textContent = "📝 Details";
+      button.textContent = "Details";
+      button.setAttribute("data-icon", "details");
       button.setAttribute("aria-haspopup", "dialog");
       button.addEventListener("click", function () {
         open(id, true);

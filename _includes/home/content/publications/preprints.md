@@ -98,7 +98,7 @@ B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheo
 <span class='anchor' id='STEMVerse'></span>
 
 **STEMVerse: A Dual-Axis Diagnostic Framework for STEM Reasoning in Large Language Models**<br>
-[X. Li](https://github.com/XuzhaoLi), [X. Li](https://github.com/Xuchen-Li), [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), ***<font color=DarkRed>Shiyu Hu✉️</font>***<br>
+[X. Li](https://github.com/XuzhaoLi), [X. Li](https://github.com/Xuchen-Li), [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), ***<font color=DarkRed>Shiyu Hu<span class="corr-mark" title="Corresponding author">✉&#xFE0E;</span></font>***<br>
 <span class="paper-keywords">LLM STEM Reasoning · Discipline × Bloom-Level Axes · Diagnostic Evaluation</span><br>
 [📃 Paper](https://arxiv.org/abs/2602.02497)
 [📑 PDF](https://arxiv.org/pdf/2602.02497)
