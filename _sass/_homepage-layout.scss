@@ -440,9 +440,7 @@ p:has(> .anchor:only-child) {
 }
 
 .intro-kicker {
-    display: flex;
-    align-items: center;
-    gap: var(--home-space-2);
+    display: block;
     margin: 0 0 var(--home-space-2);
     padding: 0;
     border: 0;
@@ -517,10 +515,20 @@ p:has(> .anchor:only-child) {
     margin-top: var(--home-space-3);
 }
 
-.intro-kicker__logo {
+.intro-heading {
+    display: flex;
+    align-items: center;
+    gap: var(--home-space-4);
+}
+
+.intro-heading__logo {
     flex: none;
     width: auto;
-    height: 28px;
+    height: 64px;
+}
+
+.intro-heading__text {
+    min-width: 0;
 }
 
 .intro-profile .intro-profile__degree + .intro-profile__degree {
