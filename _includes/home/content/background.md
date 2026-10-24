@@ -29,7 +29,7 @@
           <h3>Research Assistant</h3>
           <p class="background-entry__institution"><a href="https://www.hku.hk/">University of Hong Kong (HKU)</a></p>
           <p class="background-entry__summary"><strong>Direction:</strong> High Performance Computing and Heterogeneous Computing</p>
-          <p class="background-entry__summary"><strong>PI:</strong> <a href="https://www.cs.hku.hk/people/academic-staff/clwang">Prof. Choli Wang</a></p>
+          <p class="background-entry__summary"><strong>PI:</strong> <a href="https://www.cs.hku.hk/people/academic-staff/clwang">Prof. Cho-Li Wang</a></p>
         </div>
       </article>
 
@@ -85,7 +85,7 @@
         <div class="background-entry__content">
           <h3>M.Sc. in Computer Science</h3>
           <p class="background-entry__institution"><a href="https://www.cs.hku.hk/">University of Hong Kong (HKU)</a></p>
-          <p class="background-entry__summary"><strong>Supervisor:</strong> <a href="https://www.cs.hku.hk/people/academic-staff/clwang">Prof. Choli Wang</a></p>
+          <p class="background-entry__summary"><strong>Supervisor:</strong> <a href="https://www.cs.hku.hk/people/academic-staff/clwang">Prof. Cho-Li Wang</a></p>
           <details class="background-details">
             <summary>Thesis and degree details</summary>
             <div class="background-details__body">
