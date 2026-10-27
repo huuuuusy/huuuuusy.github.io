@@ -154,6 +154,8 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
 [Conference on Empirical Methods in Natural Language Processing](https://2026.emnlp.org/) (CCF-B Conference)<br>
 <span class="paper-keywords">LLM-Generated Fake News · Multi-Agent Adversarial Reasoning · Robust Detection</span><br>
+[📃 Paper](https://aclanthology.org/2026.emnlp-main.2022/)
+[📑 PDF](https://aclanthology.org/2026.emnlp-main.2022.pdf)
 </div>
 </div>
 
@@ -163,11 +165,11 @@ M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
 <span class='anchor' id='ViEBench'></span>
 
 **Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images**<sup title="Mentee-led work I guided">†</sup><br>
-[X. Li\*](https://github.com/Xuchen-Li), [X. Li\*](https://github.com/XuzhaoLi), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en)<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en)<br>
 [Conference on Empirical Methods in Natural Language Processing](https://2026.emnlp.org/) (EMNLP Findings, CCF-B Conference)<br>
 <span class="paper-keywords">Agentic Visual Reasoning · Grounded Visual Evidence · Dual-Axis Diagnosis</span><br>
-[📃 Paper](https://arxiv.org/abs/2601.11633)
-[📑 PDF](https://arxiv.org/pdf/2601.11633)
+[📃 Paper](https://aclanthology.org/2026.findings-emnlp.596/)
+[📑 PDF](https://aclanthology.org/2026.findings-emnlp.596.pdf)
 </div>
 </div>
 

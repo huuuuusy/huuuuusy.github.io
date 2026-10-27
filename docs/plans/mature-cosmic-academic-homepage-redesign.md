@@ -507,3 +507,11 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - 两版 CV 的 Research Interests 同步：完整版加本质问题、“怎么分开”一句、Between Humans and AI 新问句与末句的应用场景；两页版加本质问题与新问句，仍为两页。`files/CV-EN.pdf` 随之更新。
 - Google Scholar 当日复核：1,756 / 17 / 26，与前一日相同，只更新日期。
 - 主线的收敛过程已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
+
+### EMNLP 2026 正式记录与 Scholar 2,000（2026-10-27）
+
+- 两篇 EMNLP 2026 论文已收入 ACL Anthology。Fake News Court 为 `2026.emnlp-main.2022`（46053–46063 页）：加 Paper 与 PDF 链接，补摘要与贡献（取自 Anthology PDF），BibTeX 加页码与链接。ViEBench 为 `2026.findings-emnlp.596`（12577–12591 页）：链接改为 Anthology，BibTeX 同步；作者顺序按官方记录改为 Xuzhao Li 第一、Xuchen Li 第二（共同一作），解决 2026-10-21 记下的作者顺序待定项。两篇在 Crossref 尚无 DOI，BibTeX 暂用 Anthology 链接。
+- Google Scholar 当日复核：2,000 / 17 / 26。主页自 2026-10-23 起不显示引用数，只更新 `_data/scholar.yml`；四个版本的 CV 同步为 2,000。
+- CV：两位 NTU 本科毕业设计学生（2026.08 起）加入完整版 B.E. Students，两页版与港大版的指导一句加上 “2 NTU final-year projects”；书稿版的研究生人数改为 12，与其他版本一致。`files/CV-EN.pdf` 随之更新。主页仍不列学生。
+- 2026-10-22 一节中的开场问句与“答对与保住”的说法已于 2026-10-23 撤回（`755164e`、`787668c`；CV `90259ec`），以当前主页为准。
+- 论文状态与 Scholar 快照已同步到 Shiyu 的私有研究记录；本文件不转录其内容。

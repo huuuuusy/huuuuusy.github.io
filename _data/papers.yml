@@ -739,20 +739,38 @@ ECCV26-Temporal:
     }
 
 FakeNewsCourt:
-  source: "Accepted to EMNLP 2026 main conference (per CV bibliography); no Anthology/arXiv/OpenReview record found, BibTeX marked To appear; no public abstract yet"
-  abstract: ""
-  contributions: []
+  source: "ACL Anthology 2026.emnlp-main.2022 (.bib: pages 46053-46063; no DOI registered with Crossref as of 2026-10-27, so the BibTeX gives the Anthology URL); abstract and contributions from the Anthology PDF"
+  abstract: >-
+    Large language models (LLMs) have achieved remarkable success across many domains, yet their
+    generative capabilities have been misused to produce highly realistic fake news that threatens
+    social stability. However, the main existing detection methods, including small language model
+    (SLM)-based approaches and LLM-based detectors, exhibit substantial performance degradation on
+    LLM-generated content, reflecting a lack of robustness. SLM-based detectors rely heavily on
+    fixed data distributions and shallow textual cues, while LLM-based detectors depend on
+    prompt-based inference, making them sensitive to prompting and vulnerable to LLM hallucinations.
+    To address this challenge, we propose Fake News Court (FNC), a robust multi-agent adversarial
+    framework that integrates the complementary strengths of LLM and SLM for detecting LLM-generated
+    fake news. FNC adopts an adversarial learning paradigm in which a quality-controlled generator
+    produces diverse and challenging fake news, while a hybrid detector combines multi-dimensional
+    LLM-based agent reasoning with an SLM-based classifier to ensure stable decisions. Extensive
+    experiments show that FNC achieves an overall accuracy improvement of approximately 6% over
+    competitive baselines on LLM-generated fake news, confirming its robustness.
+  contributions:
+    - "Proposes Fake News Court (FNC), a multi-agent adversarial framework that combines LLM-based generation and reasoning with SLM-based judgment to detect LLM-generated fake news."
+    - "Introduces a quality-controlled generator with alignment-gate filtering, and a hybrid detector that separates multi-dimensional reasoning by LLM agents from the final decision of an SLM classifier."
+    - "Improves overall accuracy by about 6% over competitive baselines on LLM-generated fake news."
   bibtex: |-
     @inproceedings{peng2026fake,
       title     = {Fake News Court: A Multi-Agent Adversarial Framework for Robust Detection of {LLM}-Generated Fake News},
       author    = {Peng, Mengyao and Gu, Hongyan and Ma, Yiping and Hu, Shiyu and Huang, Xinli},
       booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+      pages     = {46053--46063},
       year      = {2026},
-      note      = {To appear}
+      url       = {https://aclanthology.org/2026.emnlp-main.2022/}
     }
 
 ViEBench:
-  source: "Accepted to Findings of EMNLP 2026; Anthology volume not yet online, BibTeX marked To appear with author order from arXiv:2601.11633 (Xuchen Li first; CV bibliography lists Xuzhao Li first); abstract from arXiv:2601.11633"
+  source: "ACL Anthology 2026.findings-emnlp.596 (.bib and PDF: pages 12577-12591; Xuzhao Li and Xuchen Li are equal first authors, Xuzhao Li listed first, which corrects the earlier arXiv order; no DOI registered with Crossref as of 2026-10-27, so the BibTeX gives the Anthology URL); abstract from arXiv:2601.11633, matching the Anthology PDF"
   abstract: >-
     Despite the remarkable progress of Vision-Language Models (VLMs) in adopting
     "Thinking-with-Images" capabilities, accurately evaluating the authenticity of their reasoning
@@ -778,10 +796,11 @@ ViEBench:
   bibtex: |-
     @inproceedings{li2026beyond,
       title     = {Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images},
-      author    = {Li, Xuchen and Li, Xuzhao and Pi, Renjie and Hu, Shiyu and Zhao, Jian and Gao, Jiahui},
+      author    = {Li, Xuzhao and Li, Xuchen and Pi, Renjie and Hu, Shiyu and Zhao, Jian and Gao, Jiahui},
       booktitle = {Findings of the Association for Computational Linguistics: {EMNLP} 2026},
+      pages     = {12577--12591},
       year      = {2026},
-      note      = {To appear}
+      url       = {https://aclanthology.org/2026.findings-emnlp.596/}
     }
 
 Retina-EMBC:
