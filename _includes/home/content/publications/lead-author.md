@@ -97,7 +97,7 @@
 
 **MATrack: Efficient Multiscale Adaptive Tracker for Real-Time Nighttime UAV Operations**<br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu<span class="corr-mark" title="Corresponding author">✉&#xFE0E;</span></font>***<br>
-[International Conference on Robotics and Automation](https://2026.ieee-icra.org/) (CCF-B Conference)<br>
+[International Conference on Robotics and Automation](https://2026.ieee-icra.org/) (CCF-B; CAAI-A, CAA-A Conference)<br>
 <span class="paper-keywords">Nighttime UAV Tracking · Multiscale Adaptation · Real-Time Deployment</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/document/11696451/)
 [📑 PDF](https://arxiv.org/pdf/2510.21586)

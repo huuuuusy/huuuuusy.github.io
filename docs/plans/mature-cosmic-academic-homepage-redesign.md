@@ -515,3 +515,11 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - CV：两位 NTU 本科毕业设计学生（2026.08 起）加入完整版 B.E. Students，两页版与港大版的指导一句加上 “2 NTU final-year projects”；书稿版的研究生人数改为 12，与其他版本一致。`files/CV-EN.pdf` 随之更新。主页仍不列学生。
 - 2026-10-22 一节中的开场问句与“答对与保住”的说法已于 2026-10-23 撤回（`755164e`、`787668c`；CV `90259ec`），以当前主页为准。
 - 论文状态与 Scholar 快照已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
+
+### 会议等级：CCF 之外补 CAAI 与 CAA（2026-10-28）
+
+- 对照三份官方目录：CCF 第七版（2026 年正式版 PDF；CCF 官网分类网页仍为第六版）、中国人工智能学会推荐目录（2024 年）、中国自动化学会推荐会议与期刊目录（2024 年）。另查 ICORE2026 作国际参照，不上主页。
+- 规则：先写 CCF；只有 CAAI 或 CAA 的官方等级高于 CCF 时才补写，并写明列表名。期刊已有 JCR 分区与影响因子，不补学会等级；PRCV 的 CAA 国内 A 不补写（CAA 参与主办）。
+- 主页论文列表与 News：ICRA（MATrack）、IJCAI（COAL）、ECCV（DASTrack）改为 “CCF-B; CAAI-A, CAA-A Conference”，EMNLP 主会（Fake News Court 及 News 中的 EMNLP 2026 一条）改为 “CCF-B; CAAI-A Conference”。ViEBench 去掉 CCF-B，只写 EMNLP Findings：CCF 目录只认主会长文，三份目录都不收 Findings，CV 原本即如此。
+- CV 完整版、两页版与港大版同步。两页版加标注后多出一行，Invited Talks 中温州肯恩一条改为 “Wenzhou-Kean University (5 November 2026)”，以保持两页；完整版保留学院名。`files/CV-EN.pdf` 随之更新。
+- 会议索引的更正（IJCAI 为 CCF-B、ICLR 为 CCF-A、IET-CVI 为 CCF-C）与各目录等级已同步到 Shiyu 的私有研究记录；本文件不转录其内容。

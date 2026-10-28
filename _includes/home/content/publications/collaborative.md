@@ -123,7 +123,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 
 **COAL: Counterfactual and Observation-Enhanced Alignment Learning for Discriminative Referring Multi-Object Tracking**<sup title="Mentee-led work I guided">†</sup><br>
 S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), X. Cheng, [Y. Cao](https://faculty.csu.edu.cn/caoyichao/zh_CN/index.htm), [X. Lu](https://automation.seu.edu.cn/lxb/list.htm) <br>
-[International Joint Conference on Artificial Intelligence](https://2026.ijcai.org/) (CCF-B Conference)<br>
+[International Joint Conference on Artificial Intelligence](https://2026.ijcai.org/) (CCF-B; CAAI-A, CAA-A Conference)<br>
 <span class="paper-keywords">Referring Multi-Object Tracking · Robust Language Grounding · Counterfactual Alignment Learning</span><br>
 [📃 Paper](https://www.ijcai.org/proceedings/2026/141)
 [📑 PDF](https://www.ijcai.org/proceedings/2026/0141.pdf)
@@ -138,7 +138,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 
 **DASTrack: Rethinking Temporal Modeling in Visual Object Tracking via Decoupled Auxiliary Supervision**<sup title="Mentee-led work I guided">†</sup><br>
 [D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, H. Fu, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
-[European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (CCF-B Conference)<br>
+[European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (CCF-B; CAAI-A, CAA-A Conference)<br>
 <span class="paper-keywords">Visual Object Tracking · Temporal Representation Learning · Decoupled Auxiliary Supervision</span><br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-3-032-37432-5_12)
 
@@ -152,7 +152,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 
 **Fake News Court: A Multi-Agent Adversarial Framework for Robust Detection of LLM-Generated Fake News**<br>
 M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
-[Conference on Empirical Methods in Natural Language Processing](https://2026.emnlp.org/) (CCF-B Conference)<br>
+[Conference on Empirical Methods in Natural Language Processing](https://2026.emnlp.org/) (CCF-B; CAAI-A Conference)<br>
 <span class="paper-keywords">LLM-Generated Fake News · Multi-Agent Adversarial Reasoning · Robust Detection</span><br>
 [📃 Paper](https://aclanthology.org/2026.emnlp-main.2022/)
 [📑 PDF](https://aclanthology.org/2026.emnlp-main.2022.pdf)
@@ -166,7 +166,7 @@ M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
 
 **Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images**<sup title="Mentee-led work I guided">†</sup><br>
 [X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), [R. Pi](https://scholar.google.com/citations?user=XUq0HwcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [J. Zhao](https://scholar.google.com/citations?user=n6zuurcAAAAJ), [J. Gao](https://scholar.google.com/citations?user=0LzbaZcAAAAJ&hl=en)<br>
-[Conference on Empirical Methods in Natural Language Processing](https://2026.emnlp.org/) (EMNLP Findings, CCF-B Conference)<br>
+[Conference on Empirical Methods in Natural Language Processing](https://2026.emnlp.org/) (EMNLP Findings)<br>
 <span class="paper-keywords">Agentic Visual Reasoning · Grounded Visual Evidence · Dual-Axis Diagnosis</span><br>
 [📃 Paper](https://aclanthology.org/2026.findings-emnlp.596/)
 [📑 PDF](https://aclanthology.org/2026.findings-emnlp.596.pdf)

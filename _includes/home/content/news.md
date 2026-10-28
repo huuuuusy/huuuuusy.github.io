@@ -18,11 +18,11 @@
 
 **2026.08** I will serve as a Publicity Chair for the [2026 CSIG Annual Conference on Video and Image Security](https://www.csig.org.cn/21/202608/59772.html), to be held on 21 November 2026 in Xiong'an, China. Further information will be shared as it becomes available.
 
-**2026.08** Two papers ([FNC](#FakeNewsCourt) and [ViEBench](#ViEBench)) have been accepted by [EMNLP 2026](https://2026.emnlp.org/) (CCF-B Conference), including one main-conference paper and one Findings paper.
+**2026.08** Two papers ([FNC](#FakeNewsCourt) and [ViEBench](#ViEBench)) have been accepted by [EMNLP 2026](https://2026.emnlp.org/) (CCF-B; CAAI-A Conference), including one main-conference paper and one Findings paper.
 
 **2026.06** I am honored to have participated in the project *Evaluation, Representation, and Modeling of Semantic Structure Diversity for Generalizable Visual Understanding*, which received the [2025 Beijing Science and Technology Award](https://www.beijing.gov.cn/zhengce/zhengcefagui/202606/t20260618_4705440.html) (Natural Science Award, Second Prize) (2/4).
 
-**2026.06** One paper ([DASTrack](#DASTrack)) has been accepted by the [2026 European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (ECCV, CCF-B Conference).
+**2026.06** One paper ([DASTrack](#DASTrack)) has been accepted by the [2026 European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (ECCV, CCF-B; CAAI-A, CAA-A Conference).
 
 **2026.05** I am glad to have the opportunity to give a talk at the [Chinese Congress on Image and Graphics (CCIG 2026)](https://ccig.csig.org.cn/2026/) in Guangzhou, China. Many thanks to the special session *Intelligent Evolution of Video and Image Security: Perception, Reasoning, and Adversarial Challenges*. I sincerely look forward to exchanging ideas with everyone and hearing your valuable suggestions.
 
@@ -32,13 +32,13 @@
 
 **2026.04** One research paper ([Retinal OCT](#Retina-EMBC)) has been accepted by the [48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society](https://embc.embs.org/2026/) (EMBC, CAAI-B Conference).
 
-**2026.04** One paper ([COAL](#COAL)) has been accepted by the [35th International Joint Conference on Artificial Intelligence](https://2026.ijcai.org/) (IJCAI, CCF-B Conference).
+**2026.04** One paper ([COAL](#COAL)) has been accepted by the [35th International Joint Conference on Artificial Intelligence](https://2026.ijcai.org/) (IJCAI, CCF-B; CAAI-A, CAA-A Conference).
 
 **2026.03** One paper ([TBDQ](#TBDQ)) has been accepted by the [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) (PR, CCF-B Journal, JCR Q1, IF 9.1).
 
 **2026.02** One paper ([EARL](#EARL)) has been accepted by the [2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr.thecvf.com/Conferences/2026) (CVPR, CCF-A Conference).
 
-**2026.02** One paper ([MATrack](#MATrack)) has been accepted by the [2026 IEEE International Conference on Robotics & Automation](https://2026.ieee-icra.org/) (ICRA, CCF-B Conference).
+**2026.02** One paper ([MATrack](#MATrack)) has been accepted by the [2026 IEEE International Conference on Robotics & Automation](https://2026.ieee-icra.org/) (ICRA, CCF-B; CAAI-A, CAA-A Conference).
 
 **2026.02** One paper ([DAAWBench](#DAAWBench)) has been accepted by the [IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (TCSVT, CCF-B Journal, JCR Q1, IF 10.8).
 
