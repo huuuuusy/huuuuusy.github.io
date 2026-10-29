@@ -223,6 +223,7 @@ S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.
 Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
 [Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (JCR Q1, IF 5.7)<br>
 <span class="paper-keywords">Generative Human-AI Social Systems · Complex Systems · Collective Dynamics</span><br>
+[📃 Paper](https://doi.org/10.1016/j.chaos.2026.119312)
 </div>
 </div>
 

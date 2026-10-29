@@ -523,3 +523,10 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - 主页论文列表与 News：ICRA（MATrack）、IJCAI（COAL）、ECCV（DASTrack）改为 “CCF-B; CAAI-A, CAA-A Conference”，EMNLP 主会（Fake News Court 及 News 中的 EMNLP 2026 一条）改为 “CCF-B; CAAI-A Conference”。ViEBench 去掉 CCF-B，只写 EMNLP Findings：CCF 目录只认主会长文，三份目录都不收 Findings，CV 原本即如此。
 - CV 完整版、两页版与港大版同步。两页版加标注后多出一行，Invited Talks 中温州肯恩一条改为 “Wenzhou-Kean University (5 November 2026)”，以保持两页；完整版保留学院名。`files/CV-EN.pdf` 随之更新。
 - 会议索引的更正（IJCAI 为 CCF-B、ICLR 为 CCF-A、IET-CVI 为 CCF-C）与各目录等级已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
+
+### GHASS 正式出版（2026-10-29）
+
+- GHASS 已在 *Chaos, Solitons & Fractals* 第 213 卷（2026）以文章号 119312 出版，DOI `10.1016/j.chaos.2026.119312`，2026-10-28 在线（Review article）。主页条目加 Paper 按钮（链到 DOI）；非开放获取，不加 PDF 按钮。详情弹窗补出版版摘要与论文自述的三点贡献，BibTeX 加卷号、文章号与 DOI，去掉 To appear。
+- CV 完整版与书稿版加 DOI；`files/CV-EN.pdf` 随之更新。
+- Google Scholar 当日复核：1,999 / 17 / 26（比 2026-10-27 少 1）；主页不显示引用数，只更新 `_data/scholar.yml`，四个版本的 CV 同步为 1,999。
+- 出版版已登记到 Shiyu 的私有研究记录；本文件不转录其内容。

@@ -884,16 +884,45 @@ HyperRationality:
     }
 
 GHASS:
-  source: "Accepted to Chaos, Solitons & Fractals; no DOI/publisher record (Crossref) or public preprint found as of 2026-10-21; BibTeX from the CV entry with note To appear; no public abstract yet"
-  abstract: ""
-  contributions: []
+  source: "DOI 10.1016/j.chaos.2026.119312 (Crossref and the published PDF: Review article, vol. 213, article 119312, available online 2026-10-28); abstract and contributions from the published PDF"
+  abstract: >-
+    Social system research has traditionally treated humans as the primary social actors, using
+    observation to identify empirical regularities and simulation to explain how collective
+    phenomena emerge from micro-level mechanisms. Generative AI is changing this premise as
+    artificial actors increasingly enter social networks and participate in communication,
+    collaboration, and collective processes. While existing reviews focus largely on methodological
+    applications, agent capabilities, or simulation frameworks, our review conceptualises these
+    emerging configurations as Generative Human–AI Social Systems (GHASS), linking artificial
+    participation to relational and collective dynamics. We examine GHASS through two complementary
+    perspectives. The historical perspective traces the expansion across three overlapping
+    analytical paradigms, namely Observation, Simulation, and Generation, distinguished by the
+    primary evidentiary role assigned to artificial actors. The complex-systems perspective
+    characterises GHASS through three coupled levels of behaviour generation, relationship
+    structure, and collective dynamics, showing how generative AI produces socially consequential
+    behaviour, reconfigures AI-mediated human–human (H–H), human–agent (H–A), agent–agent (A–A), and
+    platform-mediated relations, and shapes information diffusion, opinion formation, norm
+    formation, and collective intelligence. Drawing on sociophysics, this perspective further
+    explains how heterogeneous human and artificial actors interact through evolving networks, while
+    actor responses and actor–network feedback can generate nonlinear social dynamics and emergent
+    collective outcomes. This synthesis further identifies critical challenges involving cross-level
+    validation, long-term behavioural stability, relationship-mechanism transparency, human
+    grounding and social validity, and system governance. Taken together, these developments suggest
+    that the social impact of generative AI extends beyond model capabilities or tool effects and
+    constitutes a social-system phenomenon in which artificial actors enter social relations and
+    reshape collective dynamics.
+  contributions:
+    - "Proposes the From Observation to Generation framework, which places generative human–AI social systems (GHASS) in the long-term evolution of social system research across observation, simulation and generation."
+    - "Develops a micro–meso–macro framework that links behaviour generation, relationship structure and collective dynamics through actor heterogeneity, adaptive relations, feedback and emergence."
+    - "Identifies key challenges for GHASS research, including cross-level validation, long-term behavioural stability, transparency of relationship mechanisms, human grounding and social validity, and system governance."
   bibtex: |-
     @article{ma2026observation,
       title   = {From Observation to Generation: A Complex-Systems Perspective on Generative Human-{AI} Social Systems},
       author  = {Ma, Yiping and Peng, Mengyao and Hu, Shiyu and Zhu, Buyuan and Wang, Yipei and Chen, Yuqing and Liu, Shiqing and Cheong, Kang Hao},
       journal = {Chaos, Solitons \& Fractals},
+      volume  = {213},
+      pages   = {119312},
       year    = {2026},
-      note    = {To appear}
+      doi     = {10.1016/j.chaos.2026.119312}
     }
 
 Mathematics-CalcTutor:
