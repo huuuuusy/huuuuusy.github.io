@@ -1,4 +1,4 @@
-<p class="research-thesis"><strong>The dynamic states of humans and AI in open environments.</strong> From giving an answer to keeping the right state.</p>
+<p class="research-thesis"><strong>The dynamic states of humans and AI in open environments.</strong> When an AI gets it right, what has it actually kept? From giving an answer to keeping the right state.</p>
 
 <div class="research-trajectory">
   <figure class="research-figure research-figure--history">
@@ -24,7 +24,7 @@
 
 ## Research Framework
 
-<p class="research-framework__lead">In open environments, what a system carries forward is tested in three ways: <strong>conditions change, time passes, and people take part</strong>. Each gives one line of work, and each line runs from evaluation to modeling to application.</p>
+<p class="research-framework__lead">One question, three ways to tell a right answer from a state that was kept: <strong>let conditions change, let time pass, and bring people in</strong>. Each gives one line of work, and each line runs from evaluation to modeling to application. People are the reference in every line, and in the third they are also the subject and the partner.</p>
 
 <p class="research-framework__legend"><span class="paper-chip paper-chip--key"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>Paper</span><span class="paper-chip paper-chip--key"><span class="chip-icon chip-icon--survey" aria-hidden="true"></span>Survey or perspective</span><span class="paper-chip paper-chip--key"><span class="chip-icon chip-icon--book" aria-hidden="true"></span>Book</span><span class="paper-chip paper-chip--key paper-chip--preprint">Dashed border: preprint</span></p>
 
@@ -64,7 +64,7 @@
       <span class="crossing__index">03</span>
       <svg class="crossing__icon" viewBox="0 0 96 64" aria-hidden="true"><circle class="o-human" cx="38" cy="32" r="19"/><circle class="o-ai" cx="58" cy="32" r="19"/><circle class="o-dot" cx="48" cy="32" r="3"/></svg>
     </div>
-    <p class="crossing__kicker">Human–AI interaction</p>
+    <p class="crossing__kicker">Reference, subject, partner</p>
     <h3>Humans and AI</h3>
     <p class="crossing__question">When people disagree, or when AI stands in for people or works with them, what counts as being right?</p>
     <p>Where no single ground truth exists, I use the spread of human judgments as the reference, compare people and models on the same tasks and the same scale, and model LLM-based agents that simulate learners, asking whether they behave like learners rather than only sound like them.</p>
@@ -79,7 +79,7 @@
   <ol>
     <li><strong>Evaluate</strong><span>where does the state hold, and where and why does it break?</span></li>
     <li><strong>Model</strong><span>how can a system keep, update, or leave it open?</span></li>
-    <li><strong>Apply</strong><span>does it hold up in open-environment visual perception, long and streaming video understanding, human–AI education, and research practice itself?</span></li>
+    <li><strong>Apply</strong><span>does it hold up in open-environment visual perception, long and streaming video understanding, human–AI education, and in my own research practice, where I work with AI across many sessions?</span></li>
   </ol>
 </div>
 
@@ -121,4 +121,4 @@
 
 </div>
 
-<p class="research-bridge">Each step asked what a system carries forward when something changes. The three lines above follow this question across conditions, over time, and between humans and AI.</p>
+<p class="research-bridge">Each step asked what a system has kept when something changes, with people as the yardstick. The three lines above carry that question forward, and people move from yardstick to subject to partner along the way.</p>
