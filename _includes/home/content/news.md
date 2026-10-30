@@ -122,7 +122,7 @@
 
 **2024.01** One [project](#IEPRF23) about human-computer interaction in intelligent education has been funded by the 2023 Intelligent Education PhD Research Fund, supported by the Institute of AI Education Shanghai and East China Normal University.
 
-**2024.01** Got my Ph.D. degree at [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/) and [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/).
+**2024.01** Got my Ph.D. degree at [Institute of Automation, Chinese Academy of Sciences (CASIA)](https://ia.cas.cn/) and [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/).
 
 **2023.12** One paper ([Cryo-EM](#ICASSP24)) has been accepted by the [IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2024.ieeeicassp.org/) (ICASSP, CCF-B Conference).
 

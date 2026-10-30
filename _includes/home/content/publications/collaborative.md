@@ -107,7 +107,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 <span class='anchor' id='DAAWBench'></span>
 
 **Talk with Your Fingers: A Depth-Aware Benchmark for Air-Writing Recognition**<sup title="Mentee-led work I guided">†</sup><br>
-[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***,  [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), J. Wu, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***,  Y. Cai, J. Wu, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
 [IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, JCR Q1, IF 10.8)<br>
 <span class="paper-keywords">Human-Centered Vision · Depth-Aware Air-Writing · Multimodal Benchmark</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/11421430)
@@ -137,7 +137,7 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 <span class='anchor' id='DASTrack'></span>
 
 **DASTrack: Rethinking Temporal Modeling in Visual Object Tracking via Decoupled Auxiliary Supervision**<sup title="Mentee-led work I guided">†</sup><br>
-[D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, H. Fu, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
+[D. Zhang](https://scholar.google.com.hk/citations?user=ApH4wOcAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, H. Fu, [X. Feng](https://scholar.google.com.hk/citations?user=NqXtIPIAAAAJ), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi)<br>
 [European Conference on Computer Vision](https://eccv.ecva.net/Conferences/2026) (CCF-B; CAAI-A, CAA-A Conference)<br>
 <span class="paper-keywords">Visual Object Tracking · Temporal Representation Learning · Decoupled Auxiliary Supervision</span><br>
 [📃 Paper](https://link.springer.com/chapter/10.1007/978-3-032-37432-5_12)
@@ -179,7 +179,7 @@ M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
 <span class='anchor' id='Retina-EMBC'></span>
 
 **Global-Local Semi-Supervised Modeling for Retinal Layer Boundary Estimation in OCT**<br>
-K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en), H. Yue, ***<font color=DarkRed>Shiyu Hu</font>***, S. W. Tan, [W. Y. Low](https://scholar.google.com/citations?user=XK5N6moAAAAJ&hl=en), [X. Su](https://www.a-star.edu.sg/imcb/people/su-xinyi), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en), H. Yue, ***<font color=DarkRed>Shiyu Hu</font>***, S. W. Tan, [W. Y. Low](https://scholar.google.com/citations?user=XK5N6moAAAAJ&hl=en), [X. Su](https://www.a-star.edu.sg/imcb/people/su-xinyi), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong) <br>
 [Annual International Conference of the IEEE Engineering in Medicine and Biology Society](https://embc.embs.org/2026/) (CAAI-B Conference)<br>
 <span class="paper-keywords">Medical Imaging · Retinal Boundary Estimation · Semi-Supervised Structure Learning</span><br>
 
@@ -192,7 +192,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 <span class='anchor' id='TNSE26'></span>
 
 **Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspective**<sup title="Mentee-led work I guided">†</sup><br>
-[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
 [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
 <span class="paper-keywords">Multimodal Video Intelligence · Constraint-Aware AI · System-Level Reliability</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/abstract/document/11417444/)
@@ -207,7 +207,7 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 <span class='anchor' id='HyperRationality'></span>
 
 **Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems**<sup title="Mentee-led work I guided">†</sup><br>
-S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
+S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
 [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
 <span class="paper-keywords">LLM Agents · Persona-Driven Heterogeneity · Agent-Based Social Simulation</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/document/11737546)
@@ -220,7 +220,7 @@ S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.
 <span class='anchor' id='GHASS'></span>
 
 **From Observation to Generation: A Complex-Systems Perspective on Generative Human-AI Social Systems**<sup title="Mentee-led work I guided">†</sup><br>
-Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)<br>
+Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
 [Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (JCR Q1, IF 5.7)<br>
 <span class="paper-keywords">Generative Human-AI Social Systems · Complex Systems · Collective Dynamics</span><br>
 [📃 Paper](https://doi.org/10.1016/j.chaos.2026.119312)
@@ -233,7 +233,7 @@ Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang]
 <span class='anchor' id='Mathematics-CalcTutor'></span>
 
 **CalcTutor: Multi-Agent LLM Grading of Handwritten Mathematics with RAG-Grounded Feedback for Adaptive Learning Support**<sup title="Mentee-led work I guided">†</sup><br>
-L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J. Yeo](https://dr.ntu.edu.sg/entities/person/Darren-Yeo), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong) <br>
 [Mathematics](https://www.mdpi.com/2227-7390/14/7/1094) (JCR Q1, IF 2.3)<br>
 <span class="paper-keywords">AI for Education · Multi-Agent Assessment · RAG-Grounded Feedback</span><br>
 [📃 Paper](https://www.mdpi.com/2227-7390/14/7/1094)
@@ -291,7 +291,7 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 <span class='anchor' id='CEAI-adaptive'></span>
 
 **Artificial Intelligence-Enabled Adaptive Learning Platforms: A Review**<sup title="Mentee-led work I guided">†</sup><br>
-L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/entities/person/Darren-Yeo), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong) <br>
 [Computers & Education: Artificial Intelligence](https://www.sciencedirect.com/journal/computers-and-education-artificial-intelligence) (JCR Q1, IF 23.4)<br>
 <span class="paper-keywords">AI for Education · Personalized Learning · Adaptive Learning Systems</span><br>
 [📃 Paper](https://www.sciencedirect.com/science/article/pii/S2666920X25000694)
@@ -306,7 +306,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 <span class='anchor' id='Mathematics-AGS'></span>
 
 **A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques**<sup title="Mentee-led work I guided">†</sup><br>
-L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/cris/rp/rp01327), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) <br>
+L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.ntu.edu.sg/entities/person/Darren-Yeo), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong) <br>
 [Mathematics](https://www.mdpi.com/journal/mathematics) (JCR Q1, IF 2.3)<br>
 <span class="paper-keywords">AI for Education · Automated STEM Assessment · Learning Analytics</span><br>
 [📃 Paper](https://www.mdpi.com/2227-7390/13/17/2828)
@@ -321,7 +321,7 @@ L. Tan, ***<font color=DarkRed>Shiyu Hu</font>***, [Darren J. Yeo](https://dr.nt
 <span class='anchor' id='IET-AI4Edu'></span>
 
 **Trustworthy AI in education: Framework, cases, and governance strategies**<sup title="Mentee-led work I guided">†</sup><br>
-Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  <br>
+Y. Ma, X. Li, ***<font color=DarkRed>Shiyu Hu</font>***, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)  <br>
 [Innovation and Emerging Technologies](https://www.worldscientific.com/worldscinet/iet?cmpid=6350db6df59e5b0001f79b4b) (JCR Q2, IF 2.3)<br>
 <span class="paper-keywords">Trustworthy AI · AI for Education · Governance and Fairness</span><br>
 [📃 Paper](https://www.worldscientific.com/doi/abs/10.1142/S2737599425500264)
@@ -393,7 +393,7 @@ J. Zhang, T. Zhao, ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://
 <span class='anchor' id='AWCV'></span>
 
 **Finger in Camera Speaks Everything: Unconstrained Air-Writing for Real-World**<sup title="Mentee-led work I guided">†</sup><br>
-[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), [Y. Cai](https://teacher.bupt.edu.cn/caiyuanqiang/zh_CN/index.htm), ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
+[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi), Y. Cai, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en) <br>
 [IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, JCR Q1, IF 10.8)<br>
 <span class="paper-keywords">Real-World Air-Writing · Unconstrained Recognition · Large-Scale Benchmark</span><br>
 [📃 Paper](https://ieeexplore.ieee.org/document/10496279)

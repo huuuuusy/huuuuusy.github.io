@@ -16,7 +16,7 @@
           <p class="background-entry__institution"><a href="https://www.ntu.edu.sg/">Nanyang Technological University (NTU)</a></p>
           <p class="background-entry__affiliation">School of Physical and Mathematical Sciences (SPMS)</p>
           <p class="background-entry__summary"><strong>Research:</strong> Computer Vision, Multimodal AI, and AI for Education</p>
-          <p class="background-entry__summary"><strong>PI:</strong> <a href="https://dr.ntu.edu.sg/cris/rp/rp02319">Assoc. Prof. Kang Hao Cheong</a> (IEEE Senior Member)</p>
+          <p class="background-entry__summary"><strong>PI:</strong> <a href="https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong">Assoc. Prof. Kang Hao Cheong</a> (IEEE Senior Member)</p>
         </div>
       </article>
 
@@ -29,7 +29,7 @@
           <h3>Research Assistant</h3>
           <p class="background-entry__institution"><a href="https://www.hku.hk/">University of Hong Kong (HKU)</a></p>
           <p class="background-entry__summary"><strong>Direction:</strong> High Performance Computing and Heterogeneous Computing</p>
-          <p class="background-entry__summary"><strong>PI:</strong> <a href="https://www.cs.hku.hk/people/academic-staff/clwang">Prof. Cho-Li Wang</a></p>
+          <p class="background-entry__summary"><strong>PI:</strong> <a href="https://www.cs.hku.hk/people/academic-staff/clwang/">Prof. Cho-Li Wang</a></p>
         </div>
       </article>
 
@@ -55,12 +55,12 @@
     <div class="background-track__timeline">
       <article class="background-entry">
         <time class="background-entry__period">2019.09 – 2024.01</time>
-        <a class="background-entry__logo institution-entry__logo--crop institution-entry__logo--casia" href="http://english.ia.cas.cn/" aria-label="Institute of Automation, Chinese Academy of Sciences">
+        <a class="background-entry__logo institution-entry__logo--crop institution-entry__logo--casia" href="https://ia.cas.cn/" aria-label="Institute of Automation, Chinese Academy of Sciences">
           <img src="/images/institutions/casia.png" alt="Institute of Automation, Chinese Academy of Sciences emblem">
         </a>
         <div class="background-entry__content">
           <h3>Ph.D.</h3>
-          <p class="background-entry__institution"><a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences (CASIA)</a></p>
+          <p class="background-entry__institution"><a href="https://ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences (CASIA)</a></p>
           <p class="background-entry__summary"><strong>Field:</strong> Computer Application Technology</p>
           <p class="background-entry__summary"><strong>Supervisor:</strong> <a href="https://people.ucas.ac.cn/~huangkaiqi">Prof. Kaiqi Huang</a> (IAPR Fellow, IEEE Senior Member)</p>
           <p class="background-entry__summary"><strong>Co-supervisor:</strong> <a href="https://www.xinzhaoai.com/">Prof. Xin Zhao</a> (IEEE Senior Member)</p>
@@ -70,7 +70,7 @@
               <p><strong>Thesis:</strong> Research of Intelligence Evaluation Techniques for Single Object Tracking</p>
               <p><strong>Supervisor:</strong> <a href="https://people.ucas.ac.cn/~huangkaiqi">Prof. Kaiqi Huang</a> (IAPR Fellow, IEEE Senior Member, 10,000 Talents Program – Leading Talents)</p>
               <p><strong>Co-supervisor:</strong> <a href="https://www.xinzhaoai.com/">Prof. Xin Zhao</a> (IEEE Senior Member, Beijing Science Fund for Distinguished Young Scholars)</p>
-              <p><strong>Thesis Committee:</strong> <a href="https://people.ucas.ac.cn/~jiaojianbin">Prof. Jianbin Jiao</a>; <a href="http://39.108.48.32/mipl/pengyuxin/">Prof. Yuxin Peng</a> (National Science Fund for Distinguished Young Scholars); <a href="https://faculty.bjtu.edu.cn/5900/">Prof. Yao Zhao</a> (IEEE Fellow, IET Fellow, National Science Fund for Distinguished Young Scholars); Prof. Yunhong Wang (IEEE Fellow, IAPR Fellow, CCF Fellow); and Prof. Ming Tang</p>
+              <p><strong>Thesis Committee:</strong> <a href="https://people.ucas.ac.cn/~jiaojianbin">Prof. Jianbin Jiao</a>; <a href="https://www.ai.pku.edu.cn/en/info/1405/1805.htm">Prof. Yuxin Peng</a> (National Science Fund for Distinguished Young Scholars); <a href="https://faculty.bjtu.edu.cn/5900/">Prof. Yao Zhao</a> (IEEE Fellow, IET Fellow, National Science Fund for Distinguished Young Scholars); Prof. Yunhong Wang (IEEE Fellow, IAPR Fellow, CCF Fellow); and Prof. Ming Tang</p>
               <p><strong>Thesis Defense Grade:</strong> Excellent</p>
             </div>
           </details>
@@ -84,8 +84,8 @@
         </a>
         <div class="background-entry__content">
           <h3>M.Sc. in Computer Science</h3>
-          <p class="background-entry__institution"><a href="https://www.cs.hku.hk/">University of Hong Kong (HKU)</a></p>
-          <p class="background-entry__summary"><strong>Supervisor:</strong> <a href="https://www.cs.hku.hk/people/academic-staff/clwang">Prof. Cho-Li Wang</a></p>
+          <p class="background-entry__institution"><a href="https://www.hku.hk/">University of Hong Kong (HKU)</a></p>
+          <p class="background-entry__summary"><strong>Supervisor:</strong> <a href="https://www.cs.hku.hk/people/academic-staff/clwang/">Prof. Cho-Li Wang</a></p>
           <details class="background-details">
             <summary>Thesis and degree details</summary>
             <div class="background-details__body">
@@ -110,12 +110,12 @@
 
       <article class="background-entry">
         <time class="background-entry__period">2013.09 – 2017.07</time>
-        <a class="background-entry__logo institution-entry__logo--crop institution-entry__logo--bit" href="https://english.bit.edu.cn/" aria-label="Beijing Institute of Technology">
+        <a class="background-entry__logo institution-entry__logo--crop institution-entry__logo--bit" href="https://www.bit.edu.cn/" aria-label="Beijing Institute of Technology">
           <img src="/images/institutions/bit.png" alt="Beijing Institute of Technology emblem">
         </a>
         <div class="background-entry__content">
           <h3>B.E., Elite Class in Information Engineering</h3>
-          <p class="background-entry__institution"><a href="https://english.bit.edu.cn/">Beijing Institute of Technology (BIT)</a></p>
+          <p class="background-entry__institution"><a href="https://www.bit.edu.cn/">Beijing Institute of Technology (BIT)</a></p>
           <p class="background-entry__affiliation">School of Information and Electronics</p>
           <p class="background-entry__summary"><strong>Joint training:</strong> with the <a href="http://english.aircas.cas.cn/">Aerospace Information Research Institute, Chinese Academy of Sciences (AIR)</a>, where part of the third- and fourth-year courses and an internship took place</p>
           <details class="background-details">

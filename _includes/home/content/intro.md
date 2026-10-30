@@ -13,13 +13,13 @@
 <aside class="intro-profile" aria-label="Current appointment and profile links">
 <div class="intro-profile__item">
 <span class="intro-profile__label">Current Appointment</span>
-<p>Research Fellow at the <a href="https://www.ntu.edu.sg/spms">School of Physical and Mathematical Sciences (SPMS), Nanyang Technological University (NTU)</a>, working with <a href="https://dr.ntu.edu.sg/cris/rp/rp02319">Assoc. Prof. Kang Hao Cheong</a>.</p>
+<p>Research Fellow at the <a href="https://www.ntu.edu.sg/spms">School of Physical and Mathematical Sciences (SPMS), Nanyang Technological University (NTU)</a>, working with <a href="https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong">Assoc. Prof. Kang Hao Cheong</a>.</p>
 
 </div>
 <div class="intro-profile__item">
 <a class="intro-profile__label" href="#background">Education</a>
 <p class="intro-profile__degree">Ph.D., CASIA, 2024<span class="intro-profile__advisor">Supervisor: <a href="https://people.ucas.ac.cn/~huangkaiqi">Prof. Kaiqi Huang</a></span><span class="intro-profile__advisor">Co-supervisor: <a href="https://www.xinzhaoai.com/">Prof. Xin Zhao</a></span></p>
-<p class="intro-profile__degree">M.Sc., HKU, 2019<span class="intro-profile__advisor">Supervisor: <a href="https://www.cs.hku.hk/people/academic-staff/clwang">Prof. Cho-Li Wang</a></span></p>
+<p class="intro-profile__degree">M.Sc., HKU, 2019<span class="intro-profile__advisor">Supervisor: <a href="https://www.cs.hku.hk/people/academic-staff/clwang/">Prof. Cho-Li Wang</a></span></p>
 <p class="intro-profile__degree">B.E., BIT, 2017<span class="intro-profile__advisor">Thesis supervisor: <a href="https://cst.bit.edu.cn/szdw/jsml/bssds/a21187d873b645839fdd996387c79efa.htm">Prof. Senlin Luo</a></span></p>
 </div>
 <p class="intro-profile__contact">I welcome research discussions and collaborations. Please contact me at <a href="mailto:shiyu.hu@ntu.edu.sg">shiyu.hu@ntu.edu.sg</a>.</p>

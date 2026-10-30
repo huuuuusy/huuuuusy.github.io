@@ -19,7 +19,7 @@
 <span class='anchor' id='FIOVA'></span>
 
 **FIOVA: A Multi-Annotator Benchmark for Human-Aligned Video Captioning**<br>
-***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li\*](https://github.com/Xuchen-Li), [X. Li](https://github.com/XuzhaoLi), J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [X. Zhao](https://www.xinzhaoai.com/), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319) (*Equal Contributions)<br>
+***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li\*](https://github.com/Xuchen-Li), [X. Li](https://github.com/XuzhaoLi), J. Zhang, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), [X. Zhao](https://www.xinzhaoai.com/), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong) (*Equal Contributions)<br>
 <span class="paper-keywords">Human Reference Distribution · Multi-Annotator Video Captioning · LVLM Evaluation</span><br>
 [📃 Paper](https://arxiv.org/abs/2410.15270)
 [📑 PDF](https://arxiv.org/pdf/2410.15270)
@@ -33,7 +33,7 @@
 <span class='anchor' id='SOEI'></span>
 
 **When LLMs Learn to be Students: The SOEI Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction**<sup title="Mentee-led work I guided">†</sup><br>
-Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br>
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com/Xuchen-Li), [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)  (*Equal Contributions) <br>
 <span class="paper-keywords">Virtual Student Agents · Personality-Grounded Learner Modeling · Interaction-Centered Evaluation</span><br>
 [📃 Paper](https://arxiv.org/abs/2410.15701)
 [📑 PDF](https://arxiv.org/pdf/2410.15701)
@@ -46,7 +46,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, [X. Li](https://github.com
 <span class='anchor' id='EduVerse'></span>
 
 **EduVerse: A User-Defined Multi-Agent Simulation Space for Education Scenario**<sup title="Mentee-led work I guided">†</sup><br>
-Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Kang, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br>
+Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Kang, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)  (*Equal Contributions) <br>
 <span class="paper-keywords">AI for Education · Multi-Agent Simulation · User-Defined Classroom Space</span><br>
 [📃 Paper](https://arxiv.org/abs/2510.05650)
 [📑 PDF](https://arxiv.org/pdf/2510.05650)
@@ -59,7 +59,7 @@ Y. Ma\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, B. Zhu, [Y. Wang](https://
 <span class='anchor' id='EduPersona'></span>
 
 **EduPersona: Benchmarking Subjective Ability Boundaries of Virtual Student Agents**<sup title="Mentee-led work I guided">†</sup><br>
-B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheong](https://dr.ntu.edu.sg/cris/rp/rp02319)  (*Equal Contributions) <br>
+B. Zhu\*, ***<font color=DarkRed>Shiyu Hu</font>***\*, Y. Ma, Y. Zhang, [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)  (*Equal Contributions) <br>
 <span class="paper-keywords">Virtual Student Agents · Persona Consistency · Subjective Ability Boundaries</span><br>
 [📃 Paper](https://arxiv.org/abs/2510.04648)
 [📑 PDF](https://arxiv.org/pdf/2510.04648)

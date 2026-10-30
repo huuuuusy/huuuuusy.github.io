@@ -530,3 +530,11 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - CV 完整版与书稿版加 DOI；`files/CV-EN.pdf` 随之更新。
 - Google Scholar 当日复核：1,999 / 17 / 26（比 2026-10-27 少 1）；主页不显示引用数，只更新 `_data/scholar.yml`，四个版本的 CV 同步为 1,999。
 - 出版版已登记到 Shiyu 的私有研究记录；本文件不转录其内容。
+
+### 机构与老师链接复核（2026-10-30）
+
+- 机构链接统一用官方主页：CASIA 改为中文官网 `https://ia.cas.cn/`（证书有效；`www.ia.cas.cn` 与 `www.ia.ac.cn` 的 HTTPS 为自签名证书，不用），BIT 改为 `https://www.bit.edu.cn/`，HKU 硕士条目由系主页改为 `https://www.hku.hk/`，NTU 不变。
+- 老师链接逐页核对正文：Cheong 与 Darren Yeo 改用 DR-NTU 现行个人页；Cho-Li Wang 用带斜杠的正式地址；Yuxin Peng 的裸 IP 链接已失效，改为北大人工智能研究院官方页。
+- 论文作者列表全量扫描：Haibin Ling 的 Stony Brook 主页已下线，改为纯文字并更正拼写（原为 “H. Lin”）；Yuanqiang Cai 的北邮页面在真实浏览器中为空白，改为纯文字。
+- Google Scholar 当日复核：2,011 / 17 / 26；主页不显示引用数，只更新 `_data/scholar.yml`，四个版本的 CV 同步为 2,011。
+- 引用数快照已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
