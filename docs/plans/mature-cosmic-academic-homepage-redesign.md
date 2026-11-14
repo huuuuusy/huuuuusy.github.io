@@ -538,3 +538,7 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 - 论文作者列表全量扫描：Haibin Ling 的 Stony Brook 主页已下线，改为纯文字并更正拼写（原为 “H. Lin”）；Yuanqiang Cai 的北邮页面在真实浏览器中为空白，改为纯文字。
 - Google Scholar 当日复核：2,011 / 17 / 26；主页不显示引用数，只更新 `_data/scholar.yml`，四个版本的 CV 同步为 2,011。
 - 引用数快照已同步到 Shiyu 的私有研究记录；本文件不转录其内容。
+
+### Scholar 2,067 与 CV 同步（2026-11-14）
+
+- Google Scholar 当日数据（Shiyu 提供的个人页截图）：2,067 / 17 / 26；主页不显示引用数，只更新 `_data/scholar.yml`；四个版本的 CV 同步为 2,067 并推 Overleaf，`files/CV-EN.pdf` 换成新编译的完整版。
