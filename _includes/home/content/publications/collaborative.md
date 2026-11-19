@@ -257,6 +257,19 @@ L. Tan, B. Zhu, ***<font color=DarkRed>Shiyu Hu</font>***, A. Mishra, [Darren J.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MLPR 2026</div><a href='/images/BiodroneVLT.webp' title="View the BioDrone-VLT figure"><img class="paper-thumb" src='/images/BiodroneVLT.webp' alt="BioDrone-VLT: concise, dense-concise and detailed captions for a UAV sequence, and per-sequence image-text similarity" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='BiodroneVLT'></span>
+
+**When Text Helps or Hurts: Vision Language Tracking on UAV with BioDrone-VLT**<br>
+P. Xu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), ***<font color=DarkRed>Shiyu Hu</font>***, [X. Zhao](https://www.xinzhaoai.com/)<br>
+[International Conference on Machine Learning and Pattern Recognition](https://www.mlpr.org/) (EI Conference)<br>
+<span class="paper-keywords">UAV Tracking · Vision-Language Tracking · Multigranularity Captions</span><br>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='/images/CSTrack.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

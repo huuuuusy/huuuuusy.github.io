@@ -998,6 +998,19 @@ HLE:
       doi     = {10.1038/s41586-025-09962-4}
     }
 
+BiodroneVLT:
+  source: "Accepted to MLPR 2026 (Paper ID GP3013; IET Conference Proceedings); no proceedings record or public preprint as of 2026-11-19; BibTeX from the CV entry with note To appear; no public abstract yet"
+  abstract: ""
+  contributions: []
+  bibtex: |-
+    @inproceedings{xu2026text,
+      title     = {When Text Helps or Hurts: Vision Language Tracking on {UAV} with {BioDrone-VLT}},
+      author    = {Xu, Panxi and Wang, Yipei and Hu, Shiyu and Zhao, Xin},
+      booktitle = {International Conference on Machine Learning and Pattern Recognition (MLPR)},
+      year      = {2026},
+      note      = {To appear}
+    }
+
 CSTrack:
   source: "PMLR v267 (feng25t) proceedings BibTeX; abstract from PMLR proceedings page"
   abstract: >-
