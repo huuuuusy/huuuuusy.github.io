@@ -101,21 +101,6 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Cao](https://faculty.csu.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2026</div><img src='/images/DAAWBench.webp' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='DAAWBench'></span>
-
-**Talk with Your Fingers: A Depth-Aware Benchmark for Air-Writing Recognition**<sup title="Mentee-led work I guided">†</sup><br>
-[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***,  Y. Cai, J. Wu, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
-[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, JCR Q1, IF 10.8)<br>
-<span class="paper-keywords">Human-Centered Vision · Depth-Aware Air-Writing · Multimodal Benchmark</span><br>
-[📃 Paper](https://ieeexplore.ieee.org/abstract/document/11421430)
-<!-- [📑 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf) -->
-<!-- [🔧 Toolkit](https://github.com/wmeiqi/AWCV)  -->
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2026</div><img src='/images/COAL.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -145,6 +130,21 @@ S. Jia, ***<font color=DarkRed>Shiyu Hu</font>***, [Y. Wang](https://scholar.goo
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2026</div><img src='/images/DAAWBench.webp' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='DAAWBench'></span>
+
+**Talk with Your Fingers: A Depth-Aware Benchmark for Air-Writing Recognition**<sup title="Mentee-led work I guided">†</sup><br>
+[M. Wu](https://scholar.google.com.hk/citations?user=fGc7NVAAAAAJ), [Y. Zhao](https://callsys.github.io/zhaoyuzhong.github.io-main/), [X. Li](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***,  Y. Cai, J. Wu, [W. Wang](https://people.ucas.ac.cn/~wqwang?language=en), [K. Huang](https://people.ucas.ac.cn/~huangkaiqi) <br>
+[IEEE Transactions on Circuits and Systems for Video Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) (CCF-B Journal, JCR Q1, IF 10.8)<br>
+<span class="paper-keywords">Human-Centered Vision · Depth-Aware Air-Writing · Multimodal Benchmark</span><br>
+[📃 Paper](https://ieeexplore.ieee.org/abstract/document/11421430)
+<!-- [📑 PDF](https://huuuuusy.github.io/files/AWCV100k.pdf) -->
+<!-- [🔧 Toolkit](https://github.com/wmeiqi/AWCV)  -->
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><a href='/images/FakeNewsCourt.webp' title="View the Fake News Court framework"><img class="paper-thumb" src='/images/FakeNewsCourt.webp' alt="Fake News Court multi-agent adversarial framework" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -156,6 +156,47 @@ M. Peng, H. Gu, Y. Ma, ***<font color=DarkRed>Shiyu Hu</font>***, X. Huang<br>
 <span class="paper-keywords">LLM-Generated Fake News · Multi-Agent Adversarial Reasoning · Robust Detection</span><br>
 [📃 Paper](https://aclanthology.org/2026.emnlp-main.2022/)
 [📑 PDF](https://aclanthology.org/2026.emnlp-main.2022.pdf)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/HyperRationality.webp' alt="Roadmap from the hyper-rationality trap of LLM agents to resilient behavioral heterogeneity" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='HyperRationality'></span>
+
+**Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems**<sup title="Mentee-led work I guided">†</sup><br>
+S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
+[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
+<span class="paper-keywords">LLM Agents · Persona-Driven Heterogeneity · Agent-Based Social Simulation</span><br>
+[📃 Paper](https://ieeexplore.ieee.org/document/11737546)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/TNSE26.webp' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='TNSE26'></span>
+
+**Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspective**<sup title="Mentee-led work I guided">†</sup><br>
+[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
+[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
+<span class="paper-keywords">Multimodal Video Intelligence · Constraint-Aware AI · System-Level Reliability</span><br>
+[📃 Paper](https://ieeexplore.ieee.org/abstract/document/11417444/)
+<!-- [📑 PDF](https://arxiv.org/pdf/2507.09884) -->
+<!-- [📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf) -->
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSF 2026</div><img src='/images/GHASS.webp' alt="From Observation to Simulation to Generation: human social systems, artificial social systems, and generative human-AI social systems" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='GHASS'></span>
+
+**From Observation to Generation: A Complex-Systems Perspective on Generative Human-AI Social Systems**<sup title="Mentee-led work I guided">†</sup><br>
+Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
+[Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (JCR Q1, IF 5.7)<br>
+<span class="paper-keywords">Generative Human-AI Social Systems · Complex Systems · Collective Dynamics</span><br>
+[📃 Paper](https://doi.org/10.1016/j.chaos.2026.119312)
 </div>
 </div>
 
@@ -183,47 +224,6 @@ K. Li, [B. Parikh](https://scholar.google.com/citations?user=Y8dDRnYAAAAJ&hl=en)
 [Annual International Conference of the IEEE Engineering in Medicine and Biology Society](https://embc.embs.org/2026/) (CAAI-B Conference)<br>
 <span class="paper-keywords">Medical Imaging · Retinal Boundary Estimation · Semi-Supervised Structure Learning</span><br>
 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/TNSE26.webp' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='TNSE26'></span>
-
-**Constraint-Driven Evolution of Multimodal Video Intelligence: A Network and System Perspective**<sup title="Mentee-led work I guided">†</sup><br>
-[X. Li\*](https://github.com/XuzhaoLi), [X. Li\*](https://github.com/Xuchen-Li), ***<font color=DarkRed>Shiyu Hu</font>***, [Z. Zhang](https://zhaorui-zhang.github.io/), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
-[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
-<span class="paper-keywords">Multimodal Video Intelligence · Constraint-Aware AI · System-Level Reliability</span><br>
-[📃 Paper](https://ieeexplore.ieee.org/abstract/document/11417444/)
-<!-- [📑 PDF](https://arxiv.org/pdf/2507.09884) -->
-<!-- [📹 Slides](https://huuuuusy.github.io/files/VerifyBench-Slides.pdf) -->
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/HyperRationality.webp' alt="Roadmap from the hyper-rationality trap of LLM agents to resilient behavioral heterogeneity" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='HyperRationality'></span>
-
-**Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems**<sup title="Mentee-led work I guided">†</sup><br>
-S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
-[IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (JCR Q1, IF 7.3)<br>
-<span class="paper-keywords">LLM Agents · Persona-Driven Heterogeneity · Agent-Based Social Simulation</span><br>
-[📃 Paper](https://ieeexplore.ieee.org/document/11737546)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSF 2026</div><img src='/images/GHASS.webp' alt="From Observation to Simulation to Generation: human social systems, artificial social systems, and generative human-AI social systems" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class='anchor' id='GHASS'></span>
-
-**From Observation to Generation: A Complex-Systems Perspective on Generative Human-AI Social Systems**<sup title="Mentee-led work I guided">†</sup><br>
-Y. Ma\*, M. Peng\*, ***<font color=DarkRed>Shiyu Hu</font>***, B. Zhu, [Y. Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=nMe_kLAAAAAJ), Y. Chen, [S. Liu](https://faculty.ecnu.edu.cn/_s8/lsq/main.psp), [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
-[Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (JCR Q1, IF 5.7)<br>
-<span class="paper-keywords">Generative Human-AI Social Systems · Complex Systems · Collective Dynamics</span><br>
-[📃 Paper](https://doi.org/10.1016/j.chaos.2026.119312)
 </div>
 </div>
 
