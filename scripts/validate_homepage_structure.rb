@@ -33,7 +33,6 @@ homepage = config.fetch("homepage", {})
 visitor_insights = config.fetch("visitor_insights", {})
 navigation = YAML.safe_load(File.read(File.join(ROOT, "_data", "navigation.yml"), encoding: "UTF-8"), aliases: true)
 
-errors << "homepage.last_updated must use YYYY-MM" unless homepage["last_updated"].to_s.match?(/\A\d{4}-\d{2}\z/)
 unless [true, false].include?(visitor_insights["enabled"])
   errors << "visitor_insights.enabled must be true or false"
 end

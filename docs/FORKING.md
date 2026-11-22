@@ -31,9 +31,6 @@ baseurl: ""
 repository: "your-username/your-username.github.io"
 timezone: "Your/Timezone"
 
-homepage:
-  last_updated: "YYYY-MM"
-
 author:
   name: "Your Name"
   avatar: "profile.jpg"
