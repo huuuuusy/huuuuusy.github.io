@@ -1,5 +1,7 @@
 <div class="news-timeline" markdown="1">
 
+**2026.11** One paper ([Star Networks](#StarNetworks)) has been accepted by [Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (CSF, JCR Q1, IF 5.7).
+
 **2026.10** One paper ([Hyper-Rationality](#HyperRationality)) has been accepted by the [IEEE Transactions on Network Science and Engineering](https://www.comsoc.org/publications/journals/ieee-transactions-network-science-and-engineering) (TNSE, JCR Q1, IF 7.3).
 
 **2026.10** One paper ([GHASS](#GHASS)) has been accepted by [Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (CSF, JCR Q1, IF 5.7).

@@ -883,6 +883,19 @@ HyperRationality:
       note    = {Early Access}
     }
 
+StarNetworks:
+  source: "Accepted to Chaos, Solitons & Fractals on 2026-11-21 (manuscript CHAOS-D-26-10713R1); no DOI, online version or public preprint yet; BibTeX from the CV entry with note To appear; no public abstract yet"
+  abstract: ""
+  contributions: []
+  bibtex: |-
+    @article{hirashima2026error,
+      title   = {Error Propagation and Repair in Star Networks of {LLM} Agents},
+      author  = {Hirashima, Shunya and Hu, Shiyu and Cheong, Kang Hao},
+      journal = {Chaos, Solitons \& Fractals},
+      year    = {2026},
+      note    = {To appear}
+    }
+
 GHASS:
   source: "DOI 10.1016/j.chaos.2026.119312 (Crossref and the published PDF: Review article, vol. 213, article 119312, available online 2026-10-28); abstract and contributions from the published PDF"
   abstract: >-

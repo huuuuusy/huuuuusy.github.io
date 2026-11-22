@@ -172,6 +172,19 @@ S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSF 2026</div><a href='/images/StarNetworks.webp' title="View the Star Networks figure"><img class="paper-thumb" src='/images/StarNetworks.webp' alt="Final outcomes hide agent-level answer changes; with the same initial group, a correct hub leads to net repair and a hub with the shortcut-consistent error to net error amplification" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class='anchor' id='StarNetworks'></span>
+
+**Error Propagation and Repair in Star Networks of LLM Agents**<sup title="Mentee-led work I guided">†</sup><br>
+S. Hirashima, ***<font color=DarkRed>Shiyu Hu</font>***, [KH Cheong](https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong)<br>
+[Chaos, Solitons & Fractals](https://www.sciencedirect.com/journal/chaos-solitons-and-fractals) (JCR Q1, IF 5.7)<br>
+<span class="paper-keywords">Multi-Agent LLM Systems · Error Propagation · Complex Networks</span><br>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNSE 2026</div><img src='/images/TNSE26.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
