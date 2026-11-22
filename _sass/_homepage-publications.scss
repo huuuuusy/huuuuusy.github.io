@@ -765,3 +765,24 @@ html.has-paper-dialog {
     font-size: .82em;
     vertical-align: .08em;
 }
+
+/* Mentee-led work I guided: a quiet grey diamond at the end of the venue line
+   (keyword line for preprints), styled like the corresponding-author mark.
+   It replaces a dagger after the title, which read as an authorship mark. */
+.mentee-mark {
+    margin-left: 5px;
+    color: var(--home-ink-muted);
+    font-family: var(--home-font);
+    font-size: .8em;
+    vertical-align: .12em;
+    cursor: help;
+}
+
+/* The diamond follows the last keyword, which then needs no separator. */
+.paper-keyword:has(+ .mentee-mark):after {
+    content: none;
+}
+
+.publication-legend .mentee-mark {
+    margin-left: 0;
+}

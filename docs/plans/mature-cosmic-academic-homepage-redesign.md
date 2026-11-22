@@ -542,3 +542,8 @@ CV 源文件的同一组改动单独提交（简版 CV 为容纳导师头衔，�
 ### Scholar 2,067 与 CV 同步（2026-11-14）
 
 - Google Scholar 当日数据（Shiyu 提供的个人页截图）：2,067 / 17 / 26；主页不显示引用数，只更新 `_data/scholar.yml`；四个版本的 CV 同步为 2,067 并推 Overleaf，`files/CV-EN.pdf` 换成新编译的完整版。
+
+### 指导学生一作的标记由 † 改为灰色 ◇（2026-11-22）
+
+- Shiyu 觉得题目后的 † 太像通讯作者标记。先后试过给学生名字加下划线、加「Mentee-led」文字标签，她都嫌太强调；也不想标在学生名字上。最后定为条目级的灰色小号 ◇：正刊与 workshop 放在会议那一行末尾，预印本放在关键词行末尾（`publication-keywords.js` 拆分关键词时保留它），悬停提示与图例都是 “Mentee-led work I guided”。样式 `.mentee-mark` 照 `.corr-mark`。
+- 标注规则不变，共 39 处（Lead or Corresponding Author 1、Collaborative Work 26、Workshop 4、Preprints 8）。CV 四版同步改为编号后的灰色 ◇（Overleaf `58b8d8e`），`files/CV-EN.pdf` 换为该版本。

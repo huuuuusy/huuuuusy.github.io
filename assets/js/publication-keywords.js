@@ -3,6 +3,8 @@
 
   document.querySelectorAll(".paper-keywords").forEach(function (group) {
     if (group.querySelector(".paper-keyword")) return;
+    var mark = group.querySelector(".mentee-mark");
+    if (mark) mark.remove();
     var keywords = group.textContent
       .split(/\s*·\s*/)
       .map(function (keyword) { return keyword.trim(); })
@@ -15,6 +17,7 @@
       if (index) group.appendChild(document.createTextNode(" "));
       group.appendChild(item);
     });
+    if (mark) group.appendChild(mark);
   });
 
   // Resource links (📃 Paper, 📑 PDF, 🪧 Poster, ...) start with an emoji.
