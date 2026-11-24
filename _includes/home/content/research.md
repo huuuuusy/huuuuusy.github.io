@@ -1,4 +1,4 @@
-<p class="research-thesis"><strong>The dynamic states of humans and AI in open environments.</strong> When an AI gets it right, what has it actually kept? From giving an answer to keeping the right state.</p>
+<p class="research-thesis"><strong>The dynamic states of humans and AI in open environments.</strong> When an AI gets it right, what has it actually kept? From giving an answer to keeping the right state, through evaluation-led modeling of human-like competence.</p>
 
 <div class="research-trajectory">
   <figure class="research-figure research-figure--history">
@@ -24,7 +24,7 @@
 
 ## Research Framework
 
-<p class="research-framework__lead">One question, three ways to tell a right answer from a state that was kept: <strong>let conditions change, let time pass, and bring people in</strong>. Each gives one line of work, and each line runs from evaluation to modeling to application. People are the reference in every line, and in the third they are also the subject and the partner.</p>
+<p class="research-framework__lead">One question, three ways to tell a right answer from a state that was kept: <strong>let conditions change, let time pass, and bring people in</strong>. Each gives one line of work, and in each line evaluation leads modeling: what the evaluation finds missing is what the model is built to keep, and application tests both. People are the reference in every line, and in the third they are also the subject and the partner.</p>
 
 <p class="research-framework__legend"><span class="paper-chip paper-chip--key"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>Paper</span><span class="paper-chip paper-chip--key"><span class="chip-icon chip-icon--survey" aria-hidden="true"></span>Survey or perspective</span><span class="paper-chip paper-chip--key"><span class="chip-icon chip-icon--book" aria-hidden="true"></span>Book</span><span class="paper-chip paper-chip--key paper-chip--preprint">Dashed border: preprint</span></p>
 
@@ -67,7 +67,7 @@
     <p class="crossing__kicker">Reference, subject, partner</p>
     <h3>Humans and AI</h3>
     <p class="crossing__question">When people disagree, or when AI stands in for people or works with them, what counts as being right?</p>
-    <p>Where no single ground truth exists, I use the spread of human judgments as the reference, compare people and models on the same tasks and the same scale, and model LLM-based agents that simulate learners, asking whether they behave like learners rather than only sound like them.</p>
+    <p>Where no single ground truth exists, I use the spread of human judgments as the reference, compare people and models on the same tasks and the same scale, and model LLM-based agents that simulate learners, asking whether they have a learner's competence, behaving like learners rather than only sounding like them.</p>
     <div class="crossing__papers"><a class="paper-chip paper-chip--preprint" href="#FIOVA" title="Paper · Preprint"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>FIOVA</a><a class="paper-chip paper-chip--preprint" href="#VTT-ICLR" title="Paper · Preprint"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>Nearing or Surpassing</a><a class="paper-chip paper-chip--preprint" href="#SOEI" title="Paper · Preprint"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>SOEI</a><a class="paper-chip paper-chip--preprint" href="#EduPersona" title="Paper · Preprint"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>EduPersona</a><a class="paper-chip paper-chip--preprint" href="#EduVerse" title="Paper · Preprint"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>EduVerse</a><a class="paper-chip" href="#VTT" title="Survey or perspective"><span class="chip-icon chip-icon--survey" aria-hidden="true"></span>Visual Turing</a><details class="crossing__more"><summary><span class="crossing__more-open">+13 more</span><span class="crossing__more-close">Show fewer</span></summary><a class="paper-chip" href="#CPDTrack" title="Paper"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>CPDTrack</a><a class="paper-chip" href="#HyperRationality" title="Survey or perspective"><span class="chip-icon chip-icon--survey" aria-hidden="true"></span>Hyper-Rationality</a><a class="paper-chip" href="#StarNetworks" title="Paper"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>Star Networks</a><a class="paper-chip" href="#Mathematics-CalcTutor" title="Paper"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>CalcTutor</a><a class="paper-chip" href="#CEAI-adaptive" title="Survey or perspective"><span class="chip-icon chip-icon--survey" aria-hidden="true"></span>ALP</a><a class="paper-chip" href="#Mathematics-AGS" title="Survey or perspective"><span class="chip-icon chip-icon--survey" aria-hidden="true"></span>AGS</a><a class="paper-chip" href="#IET-AI4Edu" title="Survey or perspective"><span class="chip-icon chip-icon--survey" aria-hidden="true"></span>Trustworthy AIEd</a><a class="paper-chip" href="#GHASS" title="Survey or perspective"><span class="chip-icon chip-icon--survey" aria-hidden="true"></span>GHASS</a><a class="paper-chip" href="#IGBA" title="Survey or perspective"><span class="chip-icon chip-icon--survey" aria-hidden="true"></span>IGBA</a><a class="paper-chip" href="#VSLLM" title="Paper"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>VS-LLM</a><a class="paper-chip" href="#PRCV23" title="Paper"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>HIST</a><a class="paper-chip" href="#FakeNewsCourt" title="Paper"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>FNC</a><a class="paper-chip" href="#META-PAP" title="Paper"><span class="chip-icon chip-icon--paper" aria-hidden="true"></span>META-PAP</a></details></div>
   </div>
 </article>
@@ -75,10 +75,10 @@
 </div>
 
 <div class="research-framework__loop">
-  <p class="research-framework__loop-label">In every line, against human reference</p>
+  <p class="research-framework__loop-label">In every line, evaluation leads modeling, against human reference</p>
   <ol>
     <li><strong>Evaluate</strong><span>where does the state hold, and where and why does it break?</span></li>
-    <li><strong>Model</strong><span>how can a system keep, update, or leave it open?</span></li>
+    <li><strong>Model</strong><span>built to what the evaluation finds missing: how can a system keep, update, or leave it open?</span></li>
     <li><strong>Apply</strong><span>does it hold up in open-environment visual perception, long and streaming video understanding, human–AI education, and in my own research practice, where I work with AI across many sessions?</span></li>
   </ol>
 </div>
