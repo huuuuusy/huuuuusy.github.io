@@ -120,7 +120,26 @@ ruby scripts/validate_site.rb --build
 
 The command checks homepage composition, local file references, public assets,
 JavaScript syntax, Git whitespace, the Jekyll build, rendered section order,
-and duplicate HTML IDs.
+and duplicate HTML IDs. Run it under a UTF-8 locale (`LANG=en_US.UTF-8`);
+otherwise the local-reference check stops with "invalid byte sequence in
+US-ASCII".
+
+### Dependency updates
+
+The live site uses GitHub Pages' legacy build, which ignores `Gemfile.lock`;
+the lockfile only affects local builds and the validation workflow. When
+Dependabot opens several bundler PRs, apply them in one local update instead of
+merging them one by one:
+
+```bash
+bundle update --conservative <gem> [<gem> ...]
+ruby scripts/validate_site.rb --build
+```
+
+Build the site with the old and the new lockfile and diff the two outputs; only
+the `?v=` cache-busting timestamps should differ. Push, then close the
+superseded PRs. A dismissed alert can be reopened once the fix becomes
+installable; Dependabot then marks it fixed on its own.
 
 Node packages are not required. Homepage behavior is implemented in five
 small, dependency-free scripts under `assets/js/`; the obsolete jQuery theme
